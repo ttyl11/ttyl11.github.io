@@ -153,6 +153,68 @@ export default withMermaid(defineConfig({
           ]
         }
       ],
+      '/events/': [
+        {
+          text: '事件图鉴',
+          items: [
+            { text: '总览', link: '/events/' }
+          ]
+        },
+        {
+          text: '剧情抉择事件',
+          items: [
+            { text: '志旭之战', link: '/events/zhixu_battle' },
+            { text: '负伤的丛林霸主', link: '/events/wounded_jungle_overlord' },
+            { text: '无光黑洞的长老许诺', link: '/events/lightless_black_hole_promise' },
+            { text: '莱达宇宙：缺失的愚者塔罗', link: '/events/missing_fool_tarot' },
+            { text: '逝者巨樽的宿命对峙', link: '/events/deceased_giant_jar_confrontation' },
+            { text: '莱达长老的电车难题考验', link: '/events/leda_elder_trolley_problem' },
+            { text: '高塔边的紫袍学者', link: '/events/purple_robed_scholar' },
+            { text: '属性内卷的路边争论', link: '/events/attribute_inflation' },
+            { text: 'M78星云的外交时刻', link: '/events/nebula_diplomacy' },
+            { text: '决战回响：混沌深渊的宿命对决', link: '/events/chaos_abyss_duel' },
+            { text: '塔中奇遇：谁才是天选主角', link: '/events/who_is_the_chosen_one' },
+            { text: '伏魔空间', link: '/events/demon_space' },
+            { text: '穹明号', link: '/events/qiong_ming_hao' },
+            { text: '克洛斯星', link: '/events/keluosi_star' },
+            { text: '盖亚与瑞尔斯', link: '/events/gaiya_ruiersi' },
+            { text: '神兽空间', link: '/events/divine_beast_space' },
+            { text: '尤纳斯', link: '/events/yunas_event' },
+            { text: '梅赫维特', link: '/events/mehvet' },
+            { text: '史莱姆的加冕', link: '/events/slime_coronation' }
+          ]
+        },
+        {
+          text: '功能事件',
+          items: [
+            { text: '勇者之塔', link: '/events/infinite_loop' },
+            { text: '七宗罪的试炼', link: '/events/seven_sins_trial' },
+            { text: '战斗专家', link: '/events/combat_expert' },
+            { text: '圣战福利：百分百宝石附魔机', link: '/events/gem_enchantment_machine' },
+            { text: '派克博士的概率博弈', link: '/events/probability_game' },
+            { text: '！？商店？！', link: '/events/weird_shop' },
+            { text: '罗开', link: '/events/luokai_xiang' },
+            { text: '奸商', link: '/events/swindler' }
+          ]
+        },
+        {
+          text: '职业导师事件',
+          items: [
+            { text: '铁甲战士', link: '/events/iron_warrior' },
+            { text: '静默猎手', link: '/events/silent_hunter' },
+            { text: '储君', link: '/events/crown_prince' },
+            { text: '故障机器人', link: '/events/broken_robot' },
+            { text: '亡灵契约师', link: '/events/necromancer' }
+          ]
+        },
+        {
+          text: '特殊商店',
+          items: [
+            { text: '赛尔豆商店', link: '/events/elite_shop' },
+            { text: '泰坦之灵商店', link: '/events/boss_shop' }
+          ]
+        }
+      ],
       '/characters/': [
         {
           text: '角色介绍',

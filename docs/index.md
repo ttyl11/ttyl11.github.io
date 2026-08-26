@@ -38,6 +38,9 @@ features:
   - title: 怪物图鉴
     details: 全部 mod 怪物，含血量、意图、技能、遭遇战信息。
     link: /monsters/
+  - title: 事件图鉴
+    details: 34 个 mod 专属事件，含剧情抉择、功能服务、职业导师、特殊商店。
+    link: /events/
   - title: 角色介绍
     details: 圣灵谱尼，含初始卡组、初始遗物、专属机制、风味文字。
     link: /characters/
