@@ -1,4 +1,4 @@
-# 先古遗物（72 项）
+# 先古遗物（75 项）
 
 由[先古之民](/mechanics/ancients.md)提供的遗物，拥有强大效果。先古遗物按其提供者（8 位先古之民）分组。
 
@@ -146,6 +146,20 @@
 <tr><td><img src="/images/relics/nonupeipe_rebirth_and_feather.png" alt="轮回霓裳羽" style="width:80px;height:auto" /></td><td><a href="nonupeipe_rebirth_and_feather">轮回霓裳羽</a></td><td>拾起时，获得遗物重生之翼。</td></tr>
 <tr><td><img src="/images/relics/nonupeipe_specter.png" alt="太初圣灵" style="width:80px;height:auto" /></td><td><a href="nonupeipe_specter">太初圣灵</a></td><td>拾起时，获得遗物圣灵谱尼。</td></tr>
 <tr><td><img src="/images/relics/nonupeipe_wu_xin_and_destined.png" alt="宿命仪定" style="width:80px;height:auto" /></td><td><a href="nonupeipe_wu_xin_and_destined">宿命仪定</a></td><td>拾起时，获得遗物武心婵。</td></tr>
+</tbody></table>
+
+## 赛尔角色（5 项）
+
+**魏武帝·曹操 · 吕蒙 · 鬼焰神君·陆逊 · 盖世·张飞 · 圣武天尊·关羽**
+
+<table>
+<thead><tr><th>图片</th><th>名称</th><th>效果</th></tr></thead>
+<tbody>
+<tr><td><img src="/images/relics/wei_di_wu_cao_cao.png" alt="魏武帝·曹操" style="width:80px;height:auto" /></td><td><a href="wei_di_wu_cao_cao">魏武帝·曹操</a></td><td>自身受到未格挡伤害后，手牌中加入一张横槊赋诗。若自身处于睡眠，所有攻击牌会重新打出一次。自身使用能力牌时，睡眠自身1回合。</td></tr>
+<tr><td><img src="/images/relics/lu_meng.png" alt="吕蒙" style="width:80px;height:auto" /></td><td><a href="lu_meng">吕蒙</a></td><td>回合结束时若本回合没有打出攻击牌，本回合所有手牌保留。回合开始时从牌堆顶x张牌中选牌获得（x=当前手牌数），每种类型最多1张，每获得1张得1点能量。每次洗牌时手牌上限+3（本场战斗有效）。</td></tr>
+<tr><td><img src="/images/relics/seer_ghost_flame_lu_xun.png" alt="鬼焰神君·陆逊" style="width:80px;height:auto" /></td><td><a href="gui_yan_shen_jun_lu_xun">鬼焰神君·陆逊</a></td><td>拾起时选择3张牌获得连营。每次精英战斗结束后随机1张牌获得连营。持有本遗物时连营牌打出后进入弃牌堆而非销毁牌堆。</td></tr>
+<tr><td><img src="/images/relics/zhang_fei.png" alt="盖世·张飞" style="width:80px;height:auto" /></td><td><a href="zhang_fei">盖世·张飞</a></td><td>拾起时：所有非攻击牌变化为随机攻击牌，且所有牌获得炼狱与饮血。每次打出攻击牌时，随机解除自身2个负面状态。自身连续使用攻击牌时，每次获得先制+1。</td></tr>
+<tr><td><img src="/images/relics/guan_yu.png" alt="圣武天尊·关羽" style="width:80px;height:auto" /></td><td><a href="guan_yu">圣武天尊·关羽</a></td><td>战斗开始时，所有卡牌描述带[red]红色[/red]的牌变化为超级打击（局内临时）。自身攻击牌对目标施加1层梦魇；自身受到未格挡伤害后，伤害来源获得2层梦魇。自身攻击牌额外附加目标梦魇层数的伤害。</td></tr>
 </tbody></table>
 
 ## 小贴士

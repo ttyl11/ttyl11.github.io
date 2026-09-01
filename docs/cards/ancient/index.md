@@ -1,4 +1,4 @@
-# 先古牌（11 项）
+# 先古牌（12 项）
 
 先古稀有度卡牌，效果强大且带有特殊机制。
 
@@ -18,4 +18,5 @@
 <tr><td><img src="/images/cards/holy_chant.png" alt="圣光吟诵" style="width:80px;height:auto" /></td><td><a href="holy_chant">圣光吟诵</a></td><td>PP: 7/7获得150pp，分配给未满卡牌的pp，每溢出1点，获得等量格挡。</td></tr>
 <tr><td><img src="/images/cards/holy_requiem.png" alt="圣灵悲魂曲" style="width:80px;height:auto" /></td><td><a href="holy_requiem">圣灵悲魂曲</a></td><td>PP: 1/1之后每回合开始时，手牌上限+1，获得1层缓冲。</td></tr>
 <tr><td><img src="/images/cards/holy_revival.png" alt="神圣复苏" style="width:80px;height:auto" /></td><td><a href="holy_revival">神圣复苏</a></td><td>PP: 1/1回满双方所有生命，自身所有pp牌的pp降至1。</td></tr>
+<tr><td><img src="/images/cards/seer_heng_shuo_fu_shi.png" alt="横槊赋诗" style="width:80px;height:auto" /></td><td><a href="heng_shuo_fu_shi">横槊赋诗</a></td><td>PP: 1/1 随机选取抽牌堆中1张无五音的牌赋予随机五音效果，对目标敌人造成上一回合未格挡伤害量的伤害。</td></tr>
 </tbody></table>

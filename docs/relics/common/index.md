@@ -1,4 +1,4 @@
-# 普通遗物（38 项）
+# 普通遗物（41 项）
 
 普通稀有度遗物，可通过常规战斗奖励获取。塔罗遗物也属于此稀有度。
 
@@ -45,4 +45,7 @@
 <tr><td><img src="/images/relics/tarot_world.png" alt="世界" style="width:80px;height:auto" /></td><td><a href="tarot_world">世界</a></td><td>战斗中生命值首次低于50%时，随机无效1个敌人的意图。此效果每场战斗只生效一次。</td></tr>
 <tr><td><img src="/images/relics/tianhe_general.png" alt="天河神将" style="width:80px;height:auto" /></td><td><a href="tianhe_general">天河神将</a></td><td>回合开始时，消除所有敌人任一属性的提升 每消除1级，自身获得2点格挡。</td></tr>
 <tr><td><img src="/images/relics/true_dragon_taklin.png" alt="真龙·塔克林" style="width:80px;height:auto" /></td><td><a href="true_dragon_taklin">真龙·塔克林</a></td><td>回合开始时，获得1层防御。 若自身防御为正被削减至≤0，阻止该削减。</td></tr>
+<tr><td><img src="/images/relics/jiager.png" alt="加格尔" style="width:80px;height:auto" /></td><td><a href="jiager">加格尔</a></td><td>战斗开始时，为自身施加易伤，并获得力量。</td></tr>
+<tr><td><img src="/images/relics/ji.png" alt="吉尔" style="width:80px;height:auto" /></td><td><a href="ji">吉尔</a></td><td>你打出的状态牌会让所有敌人烧伤指定回合数。</td></tr>
+<tr><td><img src="/images/relics/lugas.png" alt="鲁加斯" style="width:80px;height:auto" /></td><td><a href="lugas">鲁加斯</a></td><td>战斗开始时，向抽牌堆加入指定数量的巨石。</td></tr>
 </tbody></table>

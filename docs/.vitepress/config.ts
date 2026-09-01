@@ -1,5 +1,6 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type UserConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
+import { resolve } from 'path'
 
 // 站点部署在根路径（仓库 ttyl11.github.io），本地 dev/preview 与线上路径一致
 export default withMermaid(defineConfig({
@@ -9,6 +10,18 @@ export default withMermaid(defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true,
+
+  vite: {
+    // 注意：不可在此把 __VP_HASH_MAP__ 硬编码成 {} —— 生产构建时也会被替换成空对象，
+    // 导致客户端 SPA 路由依赖的组件懒加载映射为空，所有页面都 404。
+    // dev 模式的兜底处理已由 docs/.vitepress/client.ts 中的 import.meta.env.DEV 分支负责。
+    resolve: {
+      alias: [
+        { find: /^fastdom$/, replacement: resolve(__dirname, '../../.vitepress/shims/fastdom-shim.js') },
+        { find: /fastdom\/extensions\/fastdom-promised(\.js)?$/, replacement: resolve(__dirname, '../../.vitepress/shims/fastdom-promised-shim.js') }
+      ]
+    }
+  } as UserConfig['vite'],
 
   head: [
     ['meta', { name: 'theme-color', content: '#3aa675' }],

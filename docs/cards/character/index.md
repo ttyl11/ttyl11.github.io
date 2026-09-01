@@ -1,4 +1,4 @@
-# 角色（圣灵谱尼）牌（181 项）
+# 角色（圣灵谱尼）牌（182 项）
 
 谱尼角色专属卡牌，构成战斗的核心卡池。
 
@@ -188,4 +188,5 @@
 <tr><td><img src="/images/cards/xiao_falling_red.png" alt="萧·零落绯如故" style="width:80px;height:auto" /></td><td><a href="xiao_falling_red">萧·零落绯如故</a></td><td>PP: 5/5 夺取敌方异常状态，每项恢复3HP。消耗弃牌堆中PP卡，将PP值×2+最大HP×5%作为固定伤害附加给敌人。</td></tr>
 <tr><td><img src="/images/cards/xukong.png" alt="墟埪" style="width:80px;height:auto" /></td><td><a href="xukong">墟埪</a></td><td>PP: 1/1 消除所有敌人的全属性加成，施加等量层数邪诲。消除所有敌人的其它增益，施加等量层数圣诰。</td></tr>
 <tr><td><img src="/images/cards/yao_zu_yi_shu.png" alt="妖族异术" style="width:80px;height:auto" /></td><td><a href="yao_zu_yi_shu">妖族异术</a></td><td>PP: 5/5 先制+1。获得6点格挡，2回合内免疫并反弹异常状态。</td></tr>
+<tr><td>—</td><td><a href="spring">弹簧</a></td><td>PP: 5/5 奇巧 获得8点格挡，丢弃手中所有牌。下次回合开始时多抽2张牌，多获得2点能量。</td></tr>
 </tbody></table>

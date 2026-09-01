@@ -1,6 +1,6 @@
-# 能力图鉴（377 项）
+# 能力图鉴（378 项）
 
-共 377 个能力。点击条目查看详情。
+共 378 个能力。点击条目查看详情。
 
 <table>
 <thead><tr><th>图片</th><th>名称</th><th>效果</th></tr></thead>
@@ -247,6 +247,7 @@
 <tr><td><img src="/images/powers/normal_power.png" alt="普通" style="width:80px;height:auto" /></td><td><a href="normal_power">普通</a></td><td>普通属性。无克制关系。</td></tr>
 <tr><td><img src="/images/powers/north_sea_blade_power.png" alt="北冥之刃" style="width:80px;height:auto" /></td><td><a href="north_sea_blade_power">北冥之刃</a></td><td>自身攻击必定暴击，自身暴击伤害提升50%。</td></tr>
 <tr><td><img src="/images/powers/north_sea_mad_blade_power.png" alt="北冥狂刃" style="width:80px;height:auto" /></td><td><a href="north_sea_mad_blade_power">北冥狂刃</a></td><td>自身攻击必定暴击，自身暴击伤害提升100%。且一回合内，每次造成伤害，附加给对手上一次造成伤害相同的固定伤害。</td></tr>
+<tr><td><img src="/images/powers/nightmare_power.png" alt="梦魇" style="width:80px;height:auto" /></td><td><a href="nightmare_power">梦魇</a></td><td>敌人回合开始时，若此状态层数大于圣武天尊·关羽持有者的最大生命，敌人死亡。</td></tr>
 <tr><td><img src="/images/powers/november_citrus_power.png" alt="柑橘" style="width:80px;height:auto" /></td><td><a href="november_citrus_power">柑橘</a></td><td>使用1张牌，恢复1点生命，第二张恢复2点，第三张3点，以此类推。每回合重置。</td></tr>
 <tr><td><img src="/images/powers/octagon_debt_power.png" alt="八方债" style="width:80px;height:auto" /></td><td><a href="octagon_debt_power">八方债</a></td><td>2回合后，生命值降为1，所有牌消耗，有PP的牌PP清0。</td></tr>
 <tr><td><img src="/images/powers/october_record_power.png" alt="唱片" style="width:80px;height:auto" /></td><td><a href="october_record_power">唱片</a></td><td>当你打出的牌与上一张类型不同时，随机一名敌人获得随机1种异常状态1回合。</td></tr>
@@ -382,6 +383,7 @@
 <tr><td><img src="/images/powers/wrath_stance_power.png" alt="愤怒姿态" style="width:80px;height:auto" /></td><td><a href="wrath_stance_power">愤怒姿态</a></td><td>自身造成和受到的伤害翻倍。</td></tr>
 <tr><td><img src="/images/powers/wrathful_judgment_power.png" alt="拒赦怒威态" style="width:80px;height:auto" /></td><td><a href="wrathful_judgment_power">拒赦怒威态</a></td><td>回合开始时，自身清除现有属性，变为混沌系，先制+1。自身所有攻击造成伤害提升30%，回合结束减1层。</td></tr>
 <tr><td><img src="/images/powers/yellow_dragon_scale_power.png" alt="黄色龙鳞" style="width:80px;height:auto" /></td><td><a href="yellow_dragon_scale_power">黄色龙鳞</a></td><td>免疫异常状态。触发免疫时消除对手基础属性提升，然后自身消失。</td></tr>
+<tr><td><img src="/images/powers/spring_bonus_power.png" alt="弹簧" style="width:80px;height:auto" /></td><td><a href="spring_bonus_power">弹簧</a></td><td>每回合开始时多抽指定张牌并多获得指定点能量。回合结束减1层，归零时再触发一次后消失。</td></tr>
 </tbody></table>
 
 

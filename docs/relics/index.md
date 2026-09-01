@@ -35,7 +35,7 @@ Seer Mod 共包含 219 个遗物。按稀有度分类浏览。
 <a href="/relics/shop/" class="relic-category-item">
   <div class="relic-category-icon">💰</div>
   <div class="relic-category-name">商店遗物</div>
-  <div class="relic-category-count">9 项</div>
+  <div class="relic-category-count">11 项</div>
   <div class="relic-category-desc">可在商店中购买的遗物</div>
 </a>
 

@@ -1,4 +1,4 @@
-# 稀有遗物（21 项）
+# 稀有遗物（22 项）
 
 稀有稀有度遗物，较为罕见。
 
@@ -28,4 +28,5 @@
 <tr><td><img src="/images/relics/rabbit_detective.png" alt="兔兔警探" style="width:80px;height:auto" /></td><td><a href="rabbit_detective">兔兔警探</a></td><td>奇数回合内，使用攻击牌时吸取任一敌人1点生命。 偶数回合内，使用技能牌时吸取任一敌人1点生命。（吸取：随机敌人失去等量生命，你回复等量生命）</td></tr>
 <tr><td><img src="/images/relics/rubik_supercomputer.png" alt="超算鲁比克" style="width:80px;height:auto" /></td><td><a href="rubik_supercomputer">超算鲁比克</a></td><td>①在每场战斗开始时，检索整个牌组中所有拥有PP值的卡牌。 ②若不足4张，获得1层机器学习。 ③若≥4张：选取4张PP牌为基准（优先不同PP值），以(MaxPp-1)构成2×2矩阵计算秩： 秩为0：获得异常免疫（永久）+虚空形态；秩为1：群蛇</td></tr>
 <tr><td><img src="/images/relics/vermilion_bird.png" alt="炽羽炎凤·朱雀" style="width:80px;height:auto" /></td><td><a href="vermilion_bird">炽羽炎凤·朱雀</a></td><td>①自身死亡时重生一次（每场游戏只触发一次），重生后回复50%最大生命并获得3层缓冲。 ②触发重生的每一次战斗结束后，将一张狱火加入牌组。</td></tr>
+<tr><td><img src="/images/relics/keiza.png" alt="克雷扎" style="width:80px;height:auto" /></td><td><a href="keiza">克雷扎</a></td><td>每回合开始时，选择你抽牌堆中的一张牌，将其变为弹簧。</td></tr>
 </tbody></table>
