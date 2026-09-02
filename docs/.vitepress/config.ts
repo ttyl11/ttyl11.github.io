@@ -17,8 +17,8 @@ export default withMermaid(defineConfig({
     // dev 模式的兜底处理已由 docs/.vitepress/client.ts 中的 import.meta.env.DEV 分支负责。
     resolve: {
       alias: [
-        { find: /^fastdom$/, replacement: resolve(__dirname, '../../.vitepress/shims/fastdom-shim.js') },
-        { find: /fastdom\/extensions\/fastdom-promised(\.js)?$/, replacement: resolve(__dirname, '../../.vitepress/shims/fastdom-promised-shim.js') }
+        { find: /^fastdom$/, replacement: resolve(__dirname, './shims/fastdom-shim.js') },
+        { find: /fastdom\/extensions\/fastdom-promised(\.js)?$/, replacement: resolve(__dirname, './shims/fastdom-promised-shim.js') }
       ]
     }
   } as UserConfig['vite'],
