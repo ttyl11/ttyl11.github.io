@@ -56,7 +56,7 @@ Seer Mod 共包含 222 个遗物。按稀有度分类浏览。
 <a href="/relics/epic/" class="relic-category-item">
   <div class="relic-category-icon">🟠</div>
   <div class="relic-category-name">史诗遗物</div>
-  <div class="relic-category-count">21 项</div>
+  <div class="relic-category-count">23 项</div>
   <div class="relic-category-desc">史诗稀有度（自定义），极强大效果</div>
 </a>
 

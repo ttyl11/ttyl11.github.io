@@ -23,6 +23,6 @@
 <tr><td><img src="/images/cards/shame.png" alt="羞耻" style="width:80px;height:auto" /></td><td><a href="shame">羞耻</a></td><td></td></tr>
 <tr><td><img src="/images/cards/sloth.png" alt="懒惰" style="width:80px;height:auto" /></td><td><a href="sloth">懒惰</a></td><td>此牌在手牌中时，你造成的攻击伤害为0。</td></tr>
 <tr><td><img src="/images/cards/tiny.png" alt="渺小" style="width:80px;height:auto" /></td><td><a href="tiny">渺小</a></td><td>不可打出。打出卡牌时，每张手牌中的渺小牌造成2点伤害。</td></tr>
-<tr><td><img src="/images/cards/turtle.png" alt="开龟" style="width:80px;height:auto" /></td><td><a href="turtle">开龟</a></td><td>此牌在手牌中时，每回合当你造成大于等于15点伤害时，强制结束你的回合。</td></tr>
+<tr><td><img src="/images/cards/turtle.png" alt="开龟" style="width:80px;height:auto" /></td><td><a href="turtle">开龟</a></td><td>此牌在手牌中时，每回合当你造成大于等于30点伤害时，强制结束你的回合。</td></tr>
 <tr><td><img src="/images/cards/wrath.png" alt="暴怒" style="width:80px;height:auto" /></td><td><a href="wrath">暴怒</a></td><td>此牌在手牌中时必须先打出。打出后对所有生物造成8点伤害。</td></tr>
 </tbody></table>
