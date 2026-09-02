@@ -1,4 +1,4 @@
-# 传说遗物（20 项）
+# 传说遗物（21 项）
 
 传说稀有度遗物（先古基础上自定义稀有度），拥有最强效果。
 
@@ -27,4 +27,5 @@
 <tr><td><img src="/images/relics/holy_light_spirit.png" alt="圣光灵神" style="width:80px;height:auto" /></td><td><a href="holy_light_spirit">圣光灵神</a></td><td>①每次使用牌，附加目标敌人已损失生命5%的固定伤害。 ②整局游戏限一次，死亡后满血重生。 ③重生后获得永久增伤50%。 ④每回合开始前，净化抽牌堆的诅咒牌和状态牌为圣光。</td></tr>
 <tr><td><img src="/images/relics/enlightened_spirit_god.png" alt="启灵元神" style="width:80px;height:auto" /></td><td><a href="enlightened_spirit_god">启灵元神</a></td><td>①神殇：怪物>2时秒杀血量最低的。 ②神印：新增怪物时给所有怪物1层神印（每层回合开始造成1/8当前生命固伤）。 ③神谕：每场战斗限一次HP<1/2时恢复到1/2。 ④神照：首回合获得等于遗物数的护盾。 ⑤神启：HP>1/2免疫异常，HP<1/2生成神谕球。</td></tr>
 <tr><td><img src="/images/relics/ophelia.png" alt="奥菲利娅" style="width:80px;height:auto" /></td><td><a href="ophelia">奥菲利娅</a></td><td>①战斗开始时，获得5层支援。 ②每次支援成功：获得1层命运晨星（上限5层）和2层支援庇护。 ③每回合结束时，恢复等同于命运晨星层数的生命。 ④整局游戏首次死亡时：恢复25点生命与所有PP，本场战斗结束后，向牌组中加入1张终末·赫星黎明。</td></tr>
+<tr><td><img src="/images/relics/god_zhao_yun.png" alt="神·赵云" style="width:80px;height:auto" /></td><td><a href="god_zhao_yun">神·赵云</a></td><td>①手牌数固定为4张：多于4张时强制弃牌至4（不可取消），少于4张时自动补牌至4。 ②最大能量固定为4，覆盖其它所有能量加成。</td></tr>
 </tbody></table>
