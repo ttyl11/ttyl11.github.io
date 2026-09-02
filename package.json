@@ -11,11 +11,11 @@
   },
   "devDependencies": {
     "debug": "^4.4.3",
-    "mermaid": "^11.16.1",
+    "mermaid": "^11.17.2",
     "vitepress": "^1.6.4",
     "vitepress-plugin-mermaid": "^2.0.17"
   },
   "dependencies": {
-    "puppeteer-core": "^25.5.0"
+    "puppeteer-core": "^25.9.0"
   }
 }
