@@ -43,7 +43,7 @@ PP: 10/10 对所有敌人造成<span style="color:#3aa675;font-weight:600">7</sp
 - **PP 10 的续航价值**：PP=单张卡单场战斗可打出次数（每打一次 -1，每场回满，详见[PP系统](/mechanics/pp-system.md)）。10 点 PP 意味着本场战斗最多能打 10 次全体攻击——只要龙属性生物在场，每 1 费都是一发翻倍全体伤害，配上回能手段（如[神域咒能](./divine_curse_energy.md)）可以在一回合内连发清场。即使不带任何配合，10 次裸打也等于 1 费卡提供了 50 点基准全体输出额度。
 - **龙属性生物来源**（计数双方通用）：
  - 自身/队友龙化：[龙族烙印](./dragon_brand.md)（自身变龙属性）、[龙魂](../quest/dragon_soul.md)（在牌组中时每场战斗开战自动龙化自身）、[王·龙予狂宴](./dragon_feast.md)（所有生物变龙属性）、[属性转换药水](/potions/attribute_change_potion.md)
- - 敌人龙化：[饮血屠龙](./drink_blood_dragon_slaying.md)（龙化被攻击的敌人）、[群星的礼赠](/relics/starter/elemental_core.md)（转换生物属性，变出龙属性即计入）
+ - 敌人龙化：[饮血屠龙](./drink_blood_dragon_slaying.md)（龙化被攻击的敌人）、初始遗物的属性转换能力（变出龙属性即计入）
  - 注意：龙化敌人是"双刃剑"——敌方龙属性生物同样被龙王波计数，敌方算 1 个龙 = 我方伤害 ×2；但敌方变龙也会影响[元素克制](/mechanics/element-affinity.md)判定。
 - **配合建议**：
  - **保底 ×2**：[龙族烙印](./dragon_brand.md)让自身常驻龙属性，龙王波随手打都是 10+ 全体；[龙魂](../quest/dragon_soul.md)更是"躺在牌组里白送"的开战龙化。
