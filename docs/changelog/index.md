@@ -1,5 +1,40 @@
 # 版本更新
 
+## 2026-09-03
+
+### 卡牌
+
+- **[孤身绝念刺](/cards/character/lone_despair_stab.md)**：已损生命固定伤害比例由 100%/150% 修正为 50%/80%（与源码一致）
+- **[创世之神谕](/cards/character/genesis_oracle.md)**：升级后伤害由 45 修正为 48；修正斩杀判定与稀有牌获取的机制描述
+- **[神权忤逆](/cards/character/shen_quan_wu_ni.md)**：清理详细机制中的源码术语，移除实现载体（群星的礼赠）的触发机制说明
+- **[告命诗途](/cards/character/gao_ming_shi_tu.md)**：清理详细机制中的源码术语，改写为玩家语言
+- **[奇镰解放](/cards/character/qi_lian_liberation.md)**：清理源码术语，修正凝驻理解、移除实现载体（群星的礼赠）提及
+- **[雅髯狮啸](/cards/character/ya_ran_shi_xiao.md)**：修正四维属性收益描述（防御/命中/速度的实际效果）、移除 PP 啰嗦
+- **[命运之初](/cards/character/ming_yun_zhi_chu.md)**：修正"打出 X 张牌换 X+1 张新牌"的逻辑错误
+- **[静止领域](/cards/character/jing_zhi_ling_yu.md)**：清理源码术语、精简 PP 描述
+- **[晚风断](/cards/character/evening_wind_break.md)**：修正四维属性的负面效果描述（防御/命中/速度的实际效果）
+- **[魔影突袭](/cards/character/evil_shadow_strike.md)**：清理固定伤害公式的源码术语、精简 PP 描述
+- **[生灭叹息](/cards/character/life_death_sigh.md)**：修正生命差触发条件与凝驻描述、清理源码术语
+- **[红缨枪](/cards/character/red_bold_spear.md)**：修正耗能"小于"符号的 HTML 转义
+- **卡名修正**：[晚风孤夜断](/cards/character/evening_wind_break.md)（原"晚风断"）、[创世神谕](/powers/genesis_oracle_reward_power.md)（原"创世之神谕奖励"）、[弹簧](/powers/spring_bonus_power.md)（原"弹簧能力"）、[叽里呱啦&呜哩哇啦](/relics/shop/jili_gu_la.md)（去除空格），与本地化统一
+- 新增翻云覆雨/几曾识干戈/命运之初/静止领域/神权忤逆/告命诗途卡图到 wiki
+
+### 遗物
+
+- **[周瑜](/relics/epic/zhou_yu.md)**：弃牌堆伤害描述由"固定伤害"修正为"不可格挡的非攻击伤害"（与源码一致），清理源码术语
+- **[神·赵云](/relics/legendary/god_zhao_yun.md)**：清理源码术语，更新手牌归一化的重入保护描述（按玩家隔离）
+
+### 机制
+
+- **[回响](/mechanics/echo.md)**：修正为"每回合开始时，若此牌在抽牌堆，向弃牌堆生成一张复制品"（原为旧效果"加入手牌"）
+- [关键词图鉴](/mechanics/keywords.md)：Mod 关键词数量由 25 修正为 27，同步回响效果描述
+
+### 卡牌图鉴
+
+- **[角色牌图鉴](/cards/character/index.md)**：补齐 17 张缺失卡（苍炎日无极/晚风孤夜断/恶影袭/翻云覆雨/告命诗途/创世之神谕/一念去留断/几曾识干戈/静止领域/一念生死叹/孤身绝念刺/命运之初/奇镰解放/毁灭元神/神权忤逆/雅髯狮啸），计数 182→198
+- **[横槊赋诗](/cards/token/heng_shuo_fu_shi.md)**：由先古牌移入衍生牌（与源码 Token 卡池一致），更新相关计数与引用
+- 移除重复的"我思故我在"详情页（保留与本地化一致的版本）
+
 ## 2026-09-01
 
 ### 事件

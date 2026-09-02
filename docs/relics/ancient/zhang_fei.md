@@ -20,11 +20,11 @@ tags: \["先古", "遗物"]
 
 ## 效果
 
-① 拾起时：所有[非攻击牌](/mechanics/card.md)变化为随机[攻击牌](/mechanics/card.md)，且所有牌获得[炼狱](/mechanics/purgatory.md)与[饮血](/mechanics/vampiric.md)。
+① 拾起时：所有[非攻击牌](/mechanics/card-tags.md)变化为随机[攻击牌](/mechanics/card-tags.md)，且所有牌获得[炼狱](/mechanics/purgatory.md)与[饮血](/mechanics/vampiric.md)。
 
-② 每次打出[攻击牌](/mechanics/card.md)时，随机解除自身 <span style="color:#3aa675;font-weight:600">2</span> 个[负面状态](/powers/index.md)。
+② 每次打出[攻击牌](/mechanics/card-tags.md)时，随机解除自身 <span style="color:#3aa675;font-weight:600">2</span> 个[负面状态](/powers/index.md)。
 
-③ 自身[连续](/mechanics/card.md)使用[攻击牌](/mechanics/card.md)时，每次获得[先制](/powers/first_strike_power.md)+<span style="color:#3aa675;font-weight:600">1</span>。
+③ 自身[连续](/mechanics/card-tags.md)使用[攻击牌](/mechanics/card-tags.md)时，每次获得[先制](/powers/first_strike_power.md)+<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 描述
 

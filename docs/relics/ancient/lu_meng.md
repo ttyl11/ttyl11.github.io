@@ -22,7 +22,7 @@ tags: \["先古", "遗物"]
 
 ## 效果
 
-① 回合结束时，若本回合没有打出[攻击牌](/mechanics/card.md)，本回合所有[手牌](/mechanics/hand.md)[保留](/mechanics/retain.md)。
+① 回合结束时，若本回合没有打出攻击牌，本回合所有[手牌](/mechanics/hand.md)[保留](/mechanics/retain.md)。
 
 ② 回合开始时，从牌堆顶的 x 张牌中选出要获得的牌，x 等于当前[手牌数](/mechanics/hand.md)，每种类型的牌最多可各获得 1 张，每获得 1 张获得 1 点能量。
 

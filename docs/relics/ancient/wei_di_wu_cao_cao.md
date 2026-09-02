@@ -20,11 +20,11 @@ tags: \["先古", "遗物"]
 
 ## 效果
 
-① 自身受到未格挡伤害后，手牌中加入一张[横槊赋诗](/cards/ancient/heng_shuo_fu_shi.md)。
+① 自身受到未格挡伤害后，手牌中加入一张[横槊赋诗](/cards/token/heng_shuo_fu_shi.md)。
 
-② 若自身处于[睡眠](/powers/sleep_power.md)，所有[攻击牌](/mechanics/card.md)会重新打出一次。
+② 若自身处于[睡眠](/powers/sleep_power.md)，所有[攻击牌](/mechanics/card-tags.md)会重新打出一次。
 
-③ 自身使用[能力牌](/mechanics/card.md)时，**睡眠**自身 1 回合。
+③ 自身使用[能力牌](/mechanics/card-tags.md)时，**睡眠**自身 1 回合。
 
 ## 描述
 
@@ -46,7 +46,7 @@ tags: \["先古", "遗物"]
 
 ## 相关卡牌
 
-* [横槊赋诗](/cards/ancient/heng_shuo_fu_shi.md)（此遗物生成的生成牌）
+* [横槊赋诗](/cards/token/heng_shuo_fu_shi.md)（此遗物生成的生成牌）
 
 ## 相关能力
 

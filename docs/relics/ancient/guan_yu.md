@@ -22,9 +22,9 @@ tags: \["先古", "遗物"]
 
 ① 战斗开始时，所有卡牌描述带\[red]红色标签\[/red]的牌\[金色]变化为究极打击\[/金色]（\[red]局内临时\[/red]）。
 
-② 自身[攻击牌](/mechanics/card.md)对目标施加 <span style="color:#3aa675;font-weight:600">1</span> 层[梦魇](/powers/nightmare_power.md)；自身受到\[red]未格挡\[/red]伤害后，伤害来源获得 <span style="color:#3aa675;font-weight:600">2</span> 层[梦魇](/powers/nightmare_power.md)。敌人回合开始时若梦魇层数大于你[最大生命](/mechanics/hp.md)则敌人死亡。
+② 自身攻击牌对目标施加 <span style="color:#3aa675;font-weight:600">1</span> 层[梦魇](/powers/nightmare_power.md)；自身受到\[red]未格挡\[/red]伤害后，伤害来源获得 <span style="color:#3aa675;font-weight:600">2</span> 层[梦魇](/powers/nightmare_power.md)。敌人回合开始时若梦魇层数大于你的最大生命值则敌人死亡。
 
-③ 自身[攻击牌](/mechanics/card.md)额外附加目标[梦魇](/powers/nightmare_power.md)层数的伤害。
+③ 自身攻击牌额外附加目标[梦魇](/powers/nightmare_power.md)层数的伤害。
 
 ## 描述
 

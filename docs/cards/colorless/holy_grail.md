@@ -10,7 +10,7 @@
 - **稀有度**: 罕见
 - **目标**: 无
 - **可升级**: 否
-- **关键词**: [<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)
+- **关键词**: [<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md) · [<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)
 
 ## 描述
 
@@ -27,6 +27,7 @@
 
 ## 相关机制
 
+- [溯引](/mechanics/suyin.md)（抽到此牌时触发效果）
 - [充能球](/mechanics/orb.md)（栏位扩容与随机引导）
 - [消耗](/mechanics/exhaust.md)（打出后离场）
 

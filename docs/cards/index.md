@@ -14,7 +14,7 @@ Seer Mod 共有 291 张卡牌，按以下 9 个分类分组展示。点击对应
 <a href="/cards/character/" class="card-category-item">
   <div class="card-category-icon">🎭</div>
   <div class="card-category-name">角色（圣灵谱尼）牌</div>
-  <div class="card-category-count">182 项</div>
+  <div class="card-category-count">198 项</div>
   <div class="card-category-desc">谱尼角色专属卡牌，构成战斗的核心卡池</div>
 </a>
 
@@ -56,7 +56,7 @@ Seer Mod 共有 291 张卡牌，按以下 9 个分类分组展示。点击对应
 <a href="/cards/token/" class="card-category-item">
   <div class="card-category-icon">🎴</div>
   <div class="card-category-name">衍生牌</div>
-  <div class="card-category-count">11 项</div>
+  <div class="card-category-count">12 项</div>
   <div class="card-category-desc">通过其他卡牌/遗物/能力在战斗中生成的卡牌</div>
 </a>
 

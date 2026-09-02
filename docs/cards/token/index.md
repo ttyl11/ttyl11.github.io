@@ -1,4 +1,4 @@
-# 衍生牌（11 项）
+# 衍生牌（12 项）
 
 衍生卡牌（Token），不通过常规卡牌奖励获得，而是通过其他卡牌/遗物/能力在战斗中生成。
 
@@ -18,4 +18,5 @@
 <tr><td><img src="/images/cards/surprise_grand_prize.png" alt="&quot;大奖！&quot;" style="width:80px;height:auto" /></td><td><a href="surprise_grand_prize">&quot;大奖！&quot;</a></td><td>消耗。将3张3费牌加入你的弃牌堆。</td></tr>
 <tr><td><img src="/images/cards/giga_battle_instrument.png" alt="千兆战斗仪" style="width:80px;height:auto" /></td><td><a href="giga_battle_instrument">千兆战斗仪</a></td><td>永恒。打出后：诅咒自身999回合，失去1点生命。击杀次数达到阈值时触发额外效果。</td></tr>
 <tr><td><img src="/images/cards/final_star_dawn_attack.png" alt="终末·赫星黎明" style="width:80px;height:auto" /></td><td><a href="final_star_dawn_attack">终末·赫星黎明</a></td><td>PP: 1/1 对所有敌人造成20点伤害，附加20点格挡。每有1个敌人，上述数值翻倍。获得3层支援，下3次支援效果翻倍。</td></tr>
+<tr><td><img src="/images/cards/seer_heng_shuo_fu_shi.png" alt="横槊赋诗" style="width:80px;height:auto" /></td><td><a href="heng_shuo_fu_shi">横槊赋诗</a></td><td>PP: 1/1 随机选取抽牌堆中1张无五音的牌赋予随机五音效果，对目标敌人造成上一回合未格挡伤害量的伤害。</td></tr>
 </tbody></table>

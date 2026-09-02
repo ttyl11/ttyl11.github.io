@@ -1,4 +1,4 @@
-﻿# 回响
+# 回响
 
 > mod 关键词（SEER_KEYWORD_ECHO）
 
@@ -9,25 +9,20 @@
 
 ## 描述
 
-每回合开始时，此牌从任意位置加入你的[手牌](/mechanics/hand.md)。
+每回合开始时，若此牌在[抽牌堆](/mechanics/draw_pile.md)，向[弃牌堆](/mechanics/discard_pile.md)生成一张复制品。
 
 ## 详细机制
 
-- **触发时机**：在卡牌打出后触发，对自身施加回响能力。
-- **能力关联**：回响能力会记录关联的回响卡牌。
-- **每回合触发**：每回合开始时，将关联的卡牌从任意位置（抽牌堆、弃牌堆、消耗牌堆等）加入[手牌](/mechanics/hand.md)。
-
-## 相关能力
-
-- 回响能力（每回合将关联卡牌加入手牌）
+- **触发时机**：每个回合开始时自动检查。
+- **判定条件**：只有位于[抽牌堆](/mechanics/draw_pile.md)中的回响牌才会触发；在其它位置的回响牌不触发。
+- **效果**：每张符合条件的回响牌向[弃牌堆](/mechanics/discard_pile.md)底部生成 1 张自身复制品，原牌不动。
 
 ## 相关机制
 
-- [手牌](/mechanics/hand.md)（卡牌加入的目标位置）
+- [抽牌堆](/mechanics/draw_pile.md)（触发位置）
+- [弃牌堆](/mechanics/discard_pile.md)（复制品的生成位置）
 
 ## 源码
 
 - `SeerKeywordEffectManager.cs`
-- `SeerEchoPower.cs`
-- `SeerKeywordCardModel.cs`
 - `card_keywords.json`（本地化）
