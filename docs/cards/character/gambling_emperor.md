@@ -1,4 +1,4 @@
-# 赛皇
+﻿# 赛皇
 
 <img src="/images/cards/gambling_emperor.png" alt="赛皇" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -50,4 +50,4 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 ## 源码
 
 - `SeerGamblingEmperor.cs`
-- `CardModel.cs`（能力牌打出后离场，不进弃牌堆）
+- `CardModel.cs`

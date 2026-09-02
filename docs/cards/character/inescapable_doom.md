@@ -1,4 +1,4 @@
-# 在劫难逃
+﻿# 在劫难逃
 
 <img src="/images/cards/inescapable_doom.png" alt="在劫难逃" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -47,4 +47,4 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 
 - `SeerInescapableDoom.cs`
 - `SeerDragonDevourPower.cs`
-- `StampedePower.cs`（原版能力）
+- `StampedePower.cs`

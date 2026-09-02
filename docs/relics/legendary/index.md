@@ -8,7 +8,7 @@
 <thead><tr><th>图片</th><th>名称</th><th>效果</th></tr></thead>
 <tbody>
 <tr><td><img src="/images/relics/apocalypse_emperor.png" alt="天启帝君" style="width:80px;height:auto" /></td><td><a href="apocalypse_emperor">天启帝君</a></td><td>①战斗开始时，对所有敌人造成9点伤害，回复3点生命，获得免疫固定伤害。 ②回合开始时，若生命值等于100%，先制+1。 ③回合结束时，每有1张手牌，本回合受到的伤害减少6%。 ④受到伤害后，若生命值低于20点，对所有敌人造成其最大生命之和1</td></tr>
-<tr><td><img src="/images/relics/chaos_demon_lord.png" alt="混沌魔君索伦森" style="width:80px;height:auto" /></td><td><a href="chaos_demon_lord">混沌魔君索伦森</a></td><td>①回合开始时，消除敌方全属性提升，每项成功随机无效化其1个意图。 ②受到伤害时，若敌方不处于属性提升状态，50%免疫，未触发则减伤50%。 ③回合结束时，生成1个黑暗充能球；每打出5张牌，充能1次。 ④战斗结束时，恢复x点生命（x为获得此遗</td></tr>
+<tr><td><img src="/images/relics/chaos_demon_lord.png" alt="混沌魔君索伦森" style="width:80px;height:auto" /></td><td><a href="chaos_demon_lord">混沌魔君索伦森</a></td><td>①回合开始时，消除敌方全属性提升，每项成功对随机敌人同时施加攻击无效与封属。 ②受到伤害时，若敌方不处于属性提升状态，50%免疫，未触发则减伤50%。 ③回合结束时，生成1个黑暗充能球；每打出5张牌，充能1次。 ④战斗结束时，恢复x点生命（x为获得此遗</td></tr>
 <tr><td><img src="/images/relics/cosmic_emperor.png" alt="瀚宇星皇" style="width:80px;height:auto" /></td><td><a href="cosmic_emperor">瀚宇星皇</a></td><td>①自身免疫固定伤害。 ②进入战斗时，自身所有未附魔的牌，临时附魔星皇之怒。 ③战斗开始，前3回合免疫异常状态。 ④每回合结束时，自身恢复最大生命的1/10。</td></tr>
 <tr><td><img src="/images/relics/holy_edict_evil_nightmare.png" alt="圣谕邪魇" style="width:80px;height:auto" /></td><td><a href="holy_edict_evil_nightmare">圣谕邪魇</a></td><td>①战斗开始时，获得1层先制，进入圣谕形态。 ②每打出12张牌变换形态，变换时获得1层先制。 ③回合结束时，随机为1张手牌附加保留。</td></tr>
 <tr><td><img src="/images/relics/inaction_awakener.png" alt="无为觉者" style="width:80px;height:auto" /></td><td><a href="inaction_awakener">无为觉者</a></td><td>①拾起时，将最大生命值降至1。 ②战斗开始时，将最大生命值提升至牌组中牌的数量，获得牌组数量1/8的全属性加成，获得1层万相乖离。 ③打出牌后，该牌的剩余PP和已消耗PP对调。 ④打出PP为0的牌时获得1层万相乖离（最高5层）。 ⑤万相乖离</td></tr>

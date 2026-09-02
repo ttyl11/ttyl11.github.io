@@ -17,8 +17,8 @@
 
 ## 详细机制
 
-- **开局给怪物挂先制**：`BeforeCombatStart` 时给**怪物自己**施加 <span style="color:#3aa675;font-weight:600">1</span> 层[先制](/powers/first_strike_power.md)——先制挂在敌方身上是**反制效果**：你打出的卡牌耗能每层 <span style="color:#d44;font-weight:600">+1</span>。
-- **只影响你的第一张牌**：你打出任意一张牌后，怪物身上的先制**全部移除**（`BeforeCardPlayed`，一次清空）——第一张牌交完税，之后整场不再受影响。
+- **开局给怪物挂先制**：战斗开始时给**怪物自己**施加 <span style="color:#3aa675;font-weight:600">1</span> 层[先制](/powers/first_strike_power.md)——先制挂在敌方身上是**反制效果**：你打出的卡牌耗能每层 <span style="color:#d44;font-weight:600">+1</span>。
+- **只影响你的第一张牌**：你打出任意一张牌后，怪物身上的先制**全部移除**（一次清空）——第一张牌交完税，之后整场不再受影响。
 - **多怪线性叠加**：两只迅捷I 怪同场 = 第一张牌 +<span style="color:#d44;font-weight:600">2</span> 费（各自独立结算，一张牌全部踩掉）。
 
 ## 小贴士
@@ -29,6 +29,6 @@
 
 ## 源码
 
-- `SeerSwiftOnePower.cs`（`BeforeCombatStart`，`Apply<SeerFirstStrikePower>` 1 层）
+- `SeerSwiftOnePower.cs`
 - 先制结算：`SeerFirstStrikePower.cs`（敌方持有时玩家耗能 +层数；玩家打出任意牌后移除）
 - 随机池配置：`SeerElementalCore.cs:86`（`0.000025/房`）

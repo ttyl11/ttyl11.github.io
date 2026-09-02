@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **开局给怪物挂 2 层先制**：`BeforeCombatStart` 时给**怪物自己**施加 <span style="color:#3aa675;font-weight:600">2</span> 层[先制](/powers/first_strike_power.md)——敌方持有的先制是**反制效果**：你打出的卡牌耗能每层 <span style="color:#d44;font-weight:600">+1</span>。
+- **开局给怪物挂 2 层先制**：战斗开始时给**怪物自己**施加 <span style="color:#3aa675;font-weight:600">2</span> 层[先制](/powers/first_strike_power.md)——敌方持有的先制是**反制效果**：你打出的卡牌耗能每层 <span style="color:#d44;font-weight:600">+1</span>。
 - **第一张牌 +2 费**：2 层一次性压在你的首张牌上——0 费变 2 费、1 费变 3 费；打出任意一张牌后先制**全部移除**，之后整场不再触发。
 - **多怪叠加**：两只迅捷III 同场 = 首张牌 +<span style="color:#d44;font-weight:600">4</span> 费（4 费牌直接变 8 费，几乎不可打出）。
 
@@ -29,6 +29,6 @@
 
 ## 源码
 
-- `SeerSwiftThreePower.cs`（`BeforeCombatStart`，`Apply<SeerFirstStrikePower>` 2 层）
+- `SeerSwiftThreePower.cs`
 - 先制结算：`SeerFirstStrikePower.cs`（敌方持有时玩家耗能 +层数；玩家打出任意牌后移除）
 - 随机池配置：`SeerElementalCore.cs:88`（`0.00001/房`）

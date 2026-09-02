@@ -126,7 +126,7 @@ stateDiagram-v2
 
 ## 源码
 
-- 怪物：`SeerRayMonster.cs`
-- 被动能力：`SeerRainstormPower.cs`、`SeerCriticalStrikePower.cs`、`SeerLockTwoPower.cs`、`SeerLightningOrbCounterPower.cs`、`SeerOverclockPower.cs`、`SeerParalysisPower.cs`
+- `SeerRayMonster.cs`
+- `SeerRainstormPower.cs`、`SeerCriticalStrikePower.cs`、`SeerLockTwoPower.cs`、`SeerLightningOrbCounterPower.cs`、`SeerOverclockPower.cs`、`SeerParalysisPower.cs`
 - 遭遇战：`SeerRayBoss.cs`
 - 本地化：`monsters.json`、`intents.json`、`powers.json`

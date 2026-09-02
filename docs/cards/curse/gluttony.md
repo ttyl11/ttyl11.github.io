@@ -1,4 +1,4 @@
-# 暴食
+﻿# 暴食
 
 <img src="/images/cards/gluttony.png" alt="暴食" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -39,4 +39,4 @@
 
 ## 源码
 
-- `SeerGluttony.cs`（位于 `Cards/Curses/` 目录）
+- `SeerGluttony.cs`

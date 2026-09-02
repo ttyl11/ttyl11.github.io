@@ -1,4 +1,4 @@
-# 召唤
+﻿# 召唤
 
 ## 基本信息
 
@@ -26,5 +26,5 @@
 
 ## 源码
 
-- `OstyCmd.cs`（原版）
-- `StaticHoverTip.cs`（原版）
+- `OstyCmd.cs`
+- `StaticHoverTip.cs`

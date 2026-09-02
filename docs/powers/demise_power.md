@@ -1,4 +1,4 @@
-# 消亡
+﻿# 消亡
 
 
 
@@ -30,4 +30,4 @@
 
 ## 源码
 
-- `DemisePower.cs`（原版能力）
+- `DemisePower.cs`

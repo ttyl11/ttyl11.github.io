@@ -1,4 +1,4 @@
-# 跟踪
+﻿# 跟踪
 
 
 
@@ -36,4 +36,4 @@
 
 ## 源码
 
-- `TrackingPower.cs`（原版）
+- `TrackingPower.cs`

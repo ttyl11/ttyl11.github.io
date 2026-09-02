@@ -1,4 +1,4 @@
-# 重放
+﻿# 重放
 
 > 原版状态
 
@@ -26,4 +26,4 @@
 
 ## 源码
 
-- `StaticHoverTip.cs`（原版）
+- `StaticHoverTip.cs`

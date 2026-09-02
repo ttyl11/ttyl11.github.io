@@ -1,4 +1,4 @@
-# 金币
+﻿# 金币
 
 > 原版状态
 
@@ -32,4 +32,4 @@
 
 - `StaticHoverTip.cs`
 - `static_hover_tips.json`（本地化）
-- `PlayerCmd.cs`（原版）
+- `PlayerCmd.cs`

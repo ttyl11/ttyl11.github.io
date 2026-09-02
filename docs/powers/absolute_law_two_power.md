@@ -23,8 +23,8 @@
 
 ## 详细机制
 
-- **统计对象是持有者自己**：与[绝律一](/powers/absolute_law_one_power.md)方向相反——源码过滤 `cardPlay.Card.Owner.Creature != Owner` 即跳过，只统计**本能力持有者自己**打出的牌，达到 <span style="color:#3aa675;font-weight:600">10</span> 张时强制结束**自己的**回合（`canBackOut: false`，不可撤销）。
-- **每回合重置**：玩家回合开始时计数清零（`AfterSideTurnStart`）。
+- **统计对象是持有者自己**：与[绝律一](/powers/absolute_law_one_power.md)方向相反——只统计**本能力持有者自己**打出的牌，达到 <span style="color:#3aa675;font-weight:600">10</span> 张时强制结束**自己的**回合，不可撤销。
+- **每回合重置**：玩家回合开始时计数清零。
 - **挂在怪物身上时基本空转**：怪物通过意图系统行动、不走"打出卡牌"逻辑（全 mod 怪物源码中无 CardPlay 行为），因此该词缀出现在怪物身上时**几乎没有实际威胁**——与绝律一（统计玩家的牌、真实切断你的回合）完全不同。
 
 ## 小贴士
@@ -34,4 +34,4 @@
 
 ## 源码
 
-- `SeerAbsoluteLawTwoPower.cs`（`AfterCardPlayed` 中 `Owner.Creature` 过滤，仅统计持有者自己的牌）
+- `SeerAbsoluteLawTwoPower.cs`

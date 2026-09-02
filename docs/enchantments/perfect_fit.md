@@ -1,4 +1,4 @@
-# 完美契合
+﻿# 完美契合
 
 <img src="/images/enchantments/perfect_fit.png" alt="完美契合" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -33,4 +33,4 @@
 
 ## 源码
 
-- `PerfectFit.cs`（原版）
+- `PerfectFit.cs`

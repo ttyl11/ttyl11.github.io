@@ -23,7 +23,7 @@
 
 ## 详细机制
 
-- **回合开始判定**：持有者自己回合开始时（`AfterSideTurnStart` + `side == Owner.Side`），检查当前体力是否**严格低于**最大体力的 <span style="color:#3aa675;font-weight:600">50%</span>，是则获得 <span style="color:#3aa675;font-weight:600">2</span> 层[力量](/powers/strength_power.md)（原版力量，攻击伤害 +2/层）。
+- **回合开始判定**：持有者自己回合开始时，检查当前体力是否**严格低于**最大体力的 <span style="color:#3aa675;font-weight:600">50%</span>，是则获得 <span style="color:#3aa675;font-weight:600">2</span> 层[力量](/powers/strength_power.md)（原版力量，攻击伤害 +2/层）。
 - **每回合独立判定**：只要血线保持在 50% 以下，**每个持有者回合都 +2**——3 回合 +6、5 回合 +10，无限滚雪球。
 - **半血是开关**：回血回到 50% 及以上则暂停获取，但已获得的力量不消退。
 
@@ -35,4 +35,4 @@
 
 ## 源码
 
-- `SeerAwakenPower.cs`（`AfterSideTurnStart`，`CurrentHp < MaxHp * 0.5` 时施加 `StrengthPower`）
+- `SeerAwakenPower.cs`

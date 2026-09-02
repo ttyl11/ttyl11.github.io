@@ -23,7 +23,7 @@
 
 ## 详细机制
 
-- **逐次减伤**：`ModifyDamageAdditive` 钩子——持有者每次受到**常规攻击伤害**（`IsPoweredAttack`：受[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)影响的攻击）时，伤害量直接 <span style="color:#3aa675;font-weight:600">-2</span>，再进格挡结算。
+- **逐次减伤**：持有者每次受到**常规攻击伤害**（受[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)影响的攻击）时，伤害量直接 <span style="color:#3aa675;font-weight:600">-2</span>，再进格挡结算。
 - **固定值不可叠加**：单例能力，减伤量取自固定常量（不随施加层数变化）——重复施加不会变成 -4/-6，永远每次攻击 -<span style="color:#3aa675;font-weight:600">2</span>。
 - **只管常规攻击**：[固定伤害](/powers/fixed_damage_power.md)、[烧伤](/powers/burn_power.md)等非攻击伤害**完全无视**此减伤——与[铁壁](/powers/wall_one_power.md)（门槛免疫）不同，这是数值直减，任何大小的攻击都被砍 2 点。
 
@@ -36,4 +36,4 @@
 
 ## 源码
 
-- `SeerBlockOnePower.cs`（`ModifyDamageAdditive`，仅 `IsPoweredAttack` 时返回 `-2`，取 `DynamicVars["Amount"]` 固定常量）
+- `SeerBlockOnePower.cs`

@@ -1,4 +1,4 @@
-# 缩小
+﻿# 缩小
 
 
 
@@ -38,4 +38,4 @@
 
 ## 源码
 
-- `ShrinkPower.cs`（原版）
+- `ShrinkPower.cs`

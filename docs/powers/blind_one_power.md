@@ -23,10 +23,10 @@
 
 ## 详细机制
 
-- **回合开始触发**：持有者（怪物）自己回合开始时（`AfterSideTurnStart`），给**玩家方全体**施加[命中](/powers/accuracy_power.md) -<span style="color:#3aa675;font-weight:600">1</span>（负层数命中）。
-- **落空判定**：负命中每层提供 <span style="color:#3aa675;font-weight:600">5%</span> 未命中概率——命中 -1 时每次攻击 <span style="color:#3aa675;font-weight:600">5%</span> 概率整刀落空（伤害 ×0，`ModifyDamageMultiplicative` 归 0），且随回合持续累积。
-- **多段攻击共享判定**：落空掷骰在 `BeforeAttack`（整个攻击命令前一次）——"攻击 ×3"要么**三段全部落空**、要么**全部命中**，不是每段单独判定。
-- **只影响常规攻击**（`IsPoweredAttack`）——[固定伤害](/powers/fixed_damage_power.md)、DoT 不吃命中判定，负命中再多也照跳。
+- **回合开始触发**：持有者（怪物）自己回合开始时，给**玩家方全体**施加[命中](/powers/accuracy_power.md) -<span style="color:#3aa675;font-weight:600">1</span>（负层数命中）。
+- **落空判定**：负命中每层提供 <span style="color:#3aa675;font-weight:600">5%</span> 未命中概率——命中 -1 时每次攻击 <span style="color:#3aa675;font-weight:600">5%</span> 概率整刀落空（伤害 ×0），且随回合持续累积。
+- **多段攻击共享判定**：落空掷骰在每次攻击命令发起前（整个攻击命令前一次）——"攻击 ×3"要么**三段全部落空**、要么**全部命中**，不是每段单独判定。
+- **只影响常规攻击**——[固定伤害](/powers/fixed_damage_power.md)、DoT 不吃命中判定，负命中再多也照跳。
 - **持续恶化**：不自然消退，拖到后期命中 -5 时每次攻击 25% 落空。
 
 ## 小贴士
@@ -37,6 +37,6 @@
 
 ## 源码
 
-- `SeerBlindOnePower.cs`（`AfterSideTurnStart` 对所有对手 `Apply<SeerAccuracyPower>` -1）
-- 落空判定：`SeerAccuracyPower.cs:56-80`（`BeforeAttack` 掷骰 `5% × |负层数|`）、`:100-120`（miss 时乘区归 0）、`:22`（Amount < 0 时类型为 Debuff）
-- 随机池配置：`SeerElementalCore.cs:113`（`0.0001/房`）
+- `SeerBlindOnePower.cs`
+- `SeerAccuracyPower.cs`
+- `SeerElementalCore.cs`

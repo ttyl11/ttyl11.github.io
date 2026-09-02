@@ -1,4 +1,4 @@
-# 百鬼夜行
+﻿# 百鬼夜行
 
 <img src="/images/cards/hundred_ghosts.png" alt="百鬼夜行" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -46,4 +46,4 @@ PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3a
 
 ## 源码
 
-- `SeerHundredGhosts.cs`（衍生牌参考原版 `Wisp.cs`、`Soul.cs`）
+- `SeerHundredGhosts.cs`

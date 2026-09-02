@@ -43,4 +43,3 @@
 ## 源码
 
 - `SeerDianWei.cs`
-- `CreatureCmd.cs`（自伤经过 AfterDamageReceived 钩子，故必定触发属性加成）

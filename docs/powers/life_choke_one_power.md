@@ -17,9 +17,9 @@
 
 ## 详细机制
 
-- **回血即反噬**：`AfterCurrentHpChanged` 钩子——**玩家方任意成员每次恢复生命**（`delta > 0`）时，立即给该成员施加 <span style="color:#d44;font-weight:600">2</span> 层[固定伤害](/powers/fixed_damage_power.md)（在其回合开始时结算掉血）。
+- **回血即反噬**：钩子监听——**玩家方任意成员每次恢复生命**（当前值增加）时，立即给该成员施加 <span style="color:#d44;font-weight:600">2</span> 层[固定伤害](/powers/fixed_damage_power.md)（在其回合开始时结算掉血）。
 - **每次回血独立结算**：一回合回 3 次血 = 累计 6 层固伤——小额多次的回复（再生类）反而比一口大奶更容易累计反噬。
-- **固伤不可格挡**：反噬走 `SeerFixedDamagePower`，不吃[格挡](/mechanics/block.md)与增减伤。
+- **固伤不可格挡**：反噬走固定伤害结算，不吃[格挡](/mechanics/block.md)与增减伤。
 - **持有者是怪物**：持有者活着就持续监听，与[缔结印记](/powers/knot_mark_power.md) 7 层效果同模式（那个是玩家施加给敌人的版本）。
 
 ## 小贴士
@@ -30,4 +30,4 @@
 
 ## 源码
 
-- `SeerLifeChokeOnePower.cs`（`AfterCurrentHpChanged`，玩家 `delta > 0` 时施加 `SeerFixedDamagePower` 2 层）
+- `SeerLifeChokeOnePower.cs`

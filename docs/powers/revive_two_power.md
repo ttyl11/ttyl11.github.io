@@ -1,4 +1,4 @@
-# 复苏II
+﻿# 复苏II
 
 > **归属**：怪物专属（玩家无法施加）
 > **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
@@ -30,5 +30,5 @@
 
 ## 源码
 
-- `SeerReviveTwoPower.cs`（`ShouldDie` 拦截 + `AfterPreventingDeath`：`Heal(MaxHp)`，`ReviveCount < 2`；无属性 Apply）
+- `SeerReviveTwoPower.cs``，`ReviveCount < 2`；无属性 Apply）
 - 随机池配置：`SeerElementalCore.cs:97`（`0.000015/房`）

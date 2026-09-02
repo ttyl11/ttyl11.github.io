@@ -1,4 +1,4 @@
-# 能量
+﻿# 能量
 
 ## 基本信息
 
@@ -33,5 +33,5 @@
 
 ## 源码
 
-- `PlayerCmd.cs`（原版）
-- `EnergyCost.cs`（原版）
+- `PlayerCmd.cs`
+- `EnergyCost.cs`

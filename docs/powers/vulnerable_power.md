@@ -1,4 +1,4 @@
-# 易伤
+﻿# 易伤
 
 
 
@@ -45,4 +45,4 @@
 
 ## 源码
 
-- `VulnerablePower.cs`（原版能力）
+- `VulnerablePower.cs`

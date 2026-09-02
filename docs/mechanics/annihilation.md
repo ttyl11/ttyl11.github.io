@@ -1,4 +1,4 @@
-# 湮灭
+﻿# 湮灭
 
 湮灭是 Seer Mod 的自定义卡牌关键词，打出后对所有敌人结算"邪诲"与"圣诰"的配对伤害。它是一个独立的伤害子系统，不消耗层数，剩余保留。
 
@@ -144,11 +144,11 @@
 
 ## 源码
 
-- `SeerKeywords.cs`（关键词注册）
-- `SeerKeywordEffectManager.cs`（湮灭触发与配对伤害算法）
-- `SeerEvilTeachingPower.cs`（邪诲能力）
-- `SeerHolyEdictPower.cs`（圣诰能力）
-- `SeerGodFuneralPower.cs`（神明送葬——施加圣诰）
-- `SeerPureRebirthPower.cs`（净世新生——施加邪诲）
+- `SeerKeywords.cs`
+- `SeerKeywordEffectManager.cs`
+- `SeerEvilTeachingPower.cs`
+- `SeerHolyEdictPower.cs`
+- `SeerGodFuneralPower.cs`
+- `SeerPureRebirthPower.cs`
 - `card_keywords.json`（本地化原文）
 - `powers.json`（邪诲、圣诰本地化原文）

@@ -1,4 +1,4 @@
-# 失明宝石
+﻿# 失明宝石
 
 <img src="/images/enchantments/seer_blind_gem.png" alt="失明宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 
 ## 源码
 
-- `SeerBlindGem.cs`（继承 `SeerStatusGemEnchantment<SeerBlindPower>`）
+- `SeerBlindGem.cs`

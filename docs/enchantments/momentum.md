@@ -1,4 +1,4 @@
-# 动量
+﻿# 动量
 
 <img src="/images/enchantments/momentum.png" alt="动量" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -36,4 +36,4 @@
 
 ## 源码
 
-- `Momentum.cs`（原版）
+- `Momentum.cs`

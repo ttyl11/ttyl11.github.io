@@ -1,4 +1,4 @@
-# 扼生二
+﻿# 扼生二
 
 > **归属**：怪物专属（玩家无法施加）
 > **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **回血即反噬**：`AfterCurrentHpChanged` 钩子——玩家方任意成员每次恢复生命（`delta > 0`）时，立即施加 <span style="color:#d44;font-weight:600">4</span> 层[固定伤害](/powers/fixed_damage_power.md)（回合开始时结算，不可[格挡](/mechanics/block.md)）。
+- **回血即反噬**：钩子监听——玩家方任意成员每次恢复生命（当前值增加）时，立即施加 <span style="color:#d44;font-weight:600">4</span> 层[固定伤害](/powers/fixed_damage_power.md)（回合开始时结算，不可[格挡](/mechanics/block.md)）。
 - **每次回血独立结算**：与[扼生一](/powers/life_choke_one_power.md)同机制，反噬量翻倍。
 
 ## 小贴士
@@ -27,4 +27,4 @@
 
 ## 源码
 
-- `SeerLifeChokeTwoPower.cs`（同扼生一，`DamageAmount = 4`）
+- `SeerLifeChokeTwoPower.cs`

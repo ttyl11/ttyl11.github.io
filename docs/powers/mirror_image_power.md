@@ -17,9 +17,9 @@
 
 ## 详细机制
 
-- **受伤 ×1000**：`ModifyDamageMultiplicative` 钩子——持有者（魔狮迪露）受到的**一切伤害**在乘区直接 ×<span style="color:#3aa675;font-weight:600">1000</span>，无伤害类型过滤：常规攻击、[固定伤害](/powers/fixed_damage_power.md)、[灼烧](/powers/burn_power.md)等 DoT 跳伤全部照放大。
+- **受伤 ×1000**：持有者（魔狮迪露）受到的**一切伤害**在乘区直接 ×<span style="color:#3aa675;font-weight:600">1000</span>，无伤害类型过滤：常规攻击、[固定伤害](/powers/fixed_damage_power.md)、[灼烧](/powers/burn_power.md)等 DoT 跳伤全部照放大。
 - **百万血的正确读法**：魔狮迪露本体血量 <span style="color:#3aa675;font-weight:600">999998~1000003</span>（约一百万）——×1000 的意义是把有效血量压到约 <span style="color:#3aa675;font-weight:600">1000</span> 点：你打出 1 点伤害 = 实际结算 1000 点。
-- **低血软狂暴**：持有者自己回合结束时（`AfterSideTurnEnd`），若当前体力 ≤ 最大体力的 <span style="color:#3aa675;font-weight:600">10%</span>（≤10 万血），获得 <span style="color:#3aa675;font-weight:600">20</span> 层[狂暴](/powers/fury_power.md)（每层攻击伤害 +25%——爆发期输出直接 ×6，每回合结束递减 1 层）。
+- **低血软狂暴**：持有者自己回合结束时，若当前体力 ≤ 最大体力的 <span style="color:#3aa675;font-weight:600">10%</span>（≤10 万血），获得 <span style="color:#3aa675;font-weight:600">20</span> 层[狂暴](/powers/fury_power.md)（每层攻击伤害 +25%——爆发期输出直接 ×6，每回合结束递减 1 层）。
 
 ## 小贴士
 
@@ -30,5 +30,5 @@
 
 ## 源码
 
-- `SeerMirrorImagePower.cs`（`ModifyDamageMultiplicative` 受伤 ×1000；`AfterSideTurnEnd` 低血 ≤10% 时 `Apply<SeerFuryPower>` 20 层）
-- 持有者 `SeerMojjMonster.cs`（`MinInitialHp = 999998`，开局 `AfterAddedToRoom` 自带本能力）
+- `SeerMirrorImagePower.cs`
+- 持有者 `SeerMojjMonster.cs`

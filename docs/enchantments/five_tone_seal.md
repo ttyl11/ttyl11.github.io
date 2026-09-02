@@ -1,4 +1,4 @@
-# 卩
+﻿# 卩
 
 <img src="/images/enchantments/seer_five_tone_seal.png" alt="卩" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -42,4 +42,4 @@
 - `SeerFiveToneSeal.cs`
 - `SeerPermanentDamageBoostPower.cs`
 - `SeerPermanentDamageReductionPower.cs`
-- `SeerCurrencyManager.cs`（永久属性存储）
+- `SeerCurrencyManager.cs`

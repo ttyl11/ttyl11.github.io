@@ -1,4 +1,4 @@
-# 臣服宝石
+﻿# 臣服宝石
 
 <img src="/images/enchantments/seer_subjugation_gem.png" alt="臣服宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 
 ## 源码
 
-- `SeerSubjugationGem.cs`（继承 `SeerStatusGemEnchantment<SeerSubjugationPower>`）
+- `SeerSubjugationGem.cs`

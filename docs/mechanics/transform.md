@@ -1,4 +1,4 @@
-# 转化
+﻿# 转化
 
 > 原版卡牌机制
 
@@ -56,7 +56,7 @@
 
 ## 源码
 
-- `CardCmd.cs`（原版转化命令）
-- `CardTransformation.cs`（原版转化数据结构）
+- `CardCmd.cs`
+- `CardTransformation.cs`
 - `CardModel.cs`
-- `SeerOriginShift.cs`（起源流转遗物）
+- `SeerOriginShift.cs`

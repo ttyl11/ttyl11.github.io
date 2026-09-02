@@ -35,6 +35,9 @@ features:
   - title: 核心机制
     details: PP 系统、异常状态、元素克制表、关键词、铸造系统、复活机制。
     link: /mechanics/
+  - title: 关键词
+    details: 21 个 Mod 原创关键词全解析，动态/静态分类、触发时序、配合策略与实战建议。
+    link: /mechanics/keywords
   - title: 怪物图鉴
     details: 全部 mod 怪物，含血量、意图、技能、遭遇战信息。
     link: /monsters/

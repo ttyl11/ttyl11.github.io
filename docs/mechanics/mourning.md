@@ -1,4 +1,4 @@
-# 悼
+﻿# 悼
 
 > mod 关键词
 
@@ -49,6 +49,6 @@
 
 - `SeerKeywords.cs`
 - `SeerKeywordEffectManager.cs`
-- `SeerMourningPower.cs`（瓦库代替行动逻辑）
-- `SeerKeywordCardModel.cs`（基类）
+- `SeerMourningPower.cs`
+- `SeerKeywordCardModel.cs`
 - `card_keywords.json`（本地化）

@@ -1,4 +1,4 @@
-# 超频宝石
+﻿# 超频宝石
 
 <img src="/images/enchantments/seer_overclock_gem.png" alt="超频宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -36,4 +36,4 @@
 
 ## 源码
 
-- `SeerOverclockGem.cs`（重写 OnPlay，对自身施加 `SeerOverclockPower`）
+- `SeerOverclockGem.cs`

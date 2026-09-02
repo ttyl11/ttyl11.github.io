@@ -1,4 +1,4 @@
-# 烧伤宝石
+﻿# 烧伤宝石
 
 <img src="/images/enchantments/seer_burn_gem.png" alt="烧伤宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 
 ## 源码
 
-- `SeerBurnGem.cs`（继承 `SeerStatusGemEnchantment<SeerBurnPower>`）
+- `SeerBurnGem.cs`

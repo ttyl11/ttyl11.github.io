@@ -17,8 +17,8 @@
 
 ## 详细机制
 
-- **打牌即烧 PP**：`AfterCardPlayed` 钩子——**玩家每打出一张牌**，从玩家的抽牌堆 + 手牌 + 弃牌堆（三堆合集）中**随机**挑一张 PP > 0 的 PP 牌，PP 直接 -1（最低归 0）。
-- **随机不可控**：选牌走 `Rng.CombatCardSelection`（多人同步），你无法指定烧哪张——核心 PP 引擎牌随时可能被点。
+- **打牌即烧 PP**：玩家每打出一张牌，从玩家的抽牌堆 + 手牌 + 弃牌堆（三堆合集）中**随机**挑一张 PP > 0 的 PP 牌，PP 直接 -1（最低归 0）。
+- **随机不可控**：选牌逻辑由多人同步源驱动，你无法指定烧哪张——核心 PP 引擎牌随时可能被点。
 - **每张牌独立触发**：一回合打 8 张牌 = 随机烧 8 次 PP——出牌越多损失越大。
 - **持续时间 = 层数**：怪物（持有者）自己回合结束时层数 -1——N 层幽滞 = 覆盖 N 个怪物回合周期，期间玩家打牌持续被烧。
 
@@ -30,4 +30,4 @@
 
 ## 源码
 
-- `SeerDarkStagnationPower.cs`（`AfterCardPlayed` 对敌方玩家触发，`Rng.CombatCardSelection.NextItem` 随机选牌 + `ForceSetPp`；`AfterSideTurnEnd` 层数 -1）
+- `SeerDarkStagnationPower.cs`

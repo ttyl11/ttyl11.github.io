@@ -1,4 +1,4 @@
-# 束缚宝石
+﻿# 束缚宝石
 
 <img src="/images/enchantments/seer_constrict_gem.png" alt="束缚宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 
 ## 源码
 
-- `SeerConstrictGem.cs`（继承 `SeerStatusGemEnchantment<SeerConstrictPower>`）
+- `SeerConstrictGem.cs`

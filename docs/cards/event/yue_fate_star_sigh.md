@@ -1,4 +1,4 @@
-# 岳·命寻星叹
+﻿# 岳·命寻星叹
 
 <img src="/images/cards/yue_fate_star_sigh.png" alt="岳·命寻星叹" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -52,5 +52,5 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 
 - `SeerYueFateStarSigh.cs`
 - `SeerFateStarSighPower.cs`
-- `SeerMourningPower.cs`（悼的瓦库代打逻辑）
-- `SeerWeiYue.cs`（来源遗物）
+- `SeerMourningPower.cs`
+- `SeerWeiYue.cs`

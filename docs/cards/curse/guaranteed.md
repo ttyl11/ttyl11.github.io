@@ -1,4 +1,4 @@
-# 保底
+﻿# 保底
 
 <img src="/images/cards/guaranteed.png" alt="保底" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -39,5 +39,5 @@
 
 ## 源码
 
-- `SeerGuaranteed.cs`（位于 `Cards/Curses/` 目录）
-- `SeerGuaranteedRewardPower.cs`（战斗结束奖励判定）
+- `SeerGuaranteed.cs`
+- `SeerGuaranteedRewardPower.cs`

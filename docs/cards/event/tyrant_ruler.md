@@ -1,4 +1,4 @@
-# 暴政统治者
+﻿# 暴政统治者
 
 <img src="/images/cards/tyrant_ruler.png" alt="暴政统治者" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -48,4 +48,4 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 ## 源码
 
 - `SeerTyrantRuler.cs`
-- `SeerSlimeCoronation.cs`（来源事件）
+- `SeerSlimeCoronation.cs`

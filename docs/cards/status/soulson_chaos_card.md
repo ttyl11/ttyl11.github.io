@@ -1,4 +1,4 @@
-# 混沌
+﻿# 混沌
 
 <img src="/images/cards/soulson_chaos_card.png" alt="混沌" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -55,5 +55,5 @@
 ## 源码
 
 - `SeerSoulsonChaosCard.cs`
-- `SeerSoulsonChaosCounterPower.cs`（混沌迭印）
-- `SeerSoulsonChaosEnergyDoublePower.cs`（双倍消耗）
+- `SeerSoulsonChaosCounterPower.cs`
+- `SeerSoulsonChaosEnergyDoublePower.cs`

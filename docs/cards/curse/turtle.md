@@ -1,4 +1,4 @@
-# 开龟
+﻿# 开龟
 
 <img src="/images/cards/turtle.png" alt="开龟" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 ## 源码
 
 - `SeerTurtle.cs`
-- `SeerTurtlePower.cs`（伤害计数与强制结束回合）
+- `SeerTurtlePower.cs`

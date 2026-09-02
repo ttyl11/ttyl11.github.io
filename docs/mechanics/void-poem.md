@@ -1,4 +1,4 @@
-# 空元之诗
+﻿# 空元之诗
 
 空元之诗是 Seer Mod 的自定义卡牌关键词，打出时消耗"空妄诗章"，随机触发渍、镀、柱、烙、均五种效果之一。每多打出一次，触发效果种类递增——第 1 次触发 1 种，第 2 次触发 2 种，以此类推。
 
@@ -153,7 +153,7 @@
 
 ## 源码
 
-- `SeerKeywords.cs`（关键词注册）
-- `SeerKongYuanXingZhe.cs`（空元行者遗物——诗章管理、关键词分配、效果触发）
-- `SeerKeywordEffectManager.cs`（关键词效果分发）
+- `SeerKeywords.cs`
+- `SeerKongYuanXingZhe.cs`
+- `SeerKeywordEffectManager.cs`
 - `card_keywords.json`（本地化原文）

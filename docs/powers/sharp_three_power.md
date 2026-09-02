@@ -23,7 +23,7 @@
 
 ## 详细机制
 
-- **回合结束挂固伤**：持有者（怪物）自己回合结束时（`AfterSideTurnEnd`，仅自己方回合），给**玩家方全体**各施加 <span style="color:#3aa675;font-weight:600">9</span> 层[固定伤害](/powers/fixed_damage_power.md)（`SeerFixedDamagePower`）。
+- **回合结束挂固伤**：持有者（怪物）自己回合结束时（仅自己方回合），给**玩家方全体**各施加 <span style="color:#3aa675;font-weight:600">9</span> 层[固定伤害](/powers/fixed_damage_power.md)。
 - **你回合开始时跳血**：固伤挂在每个玩家身上，在**玩家回合开始**结算——各跳 <span style="color:#3aa675;font-weight:600">9</span> 点无视[格挡](/mechanics/block.md)的真实伤害，跳完固伤移除。
 - **每轮循环一遍**：怪物回合结束挂 → 你回合开始跳 → 下一轮再挂——等效"每轮全队稳定失血 9 点"，直到持有者死亡。
 - **固定伤害特性**：不吃[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)增减、不吃[格挡](/mechanics/block.md)——挂上就必然掉血；[固伤免疫](/powers/immune_fixed_damage_power.md)类效果可完全挡下。
@@ -36,6 +36,6 @@
 
 ## 源码
 
-- `SeerSharpThreePower.cs`（`AfterSideTurnEnd` 对所有对手 `Apply<SeerFixedDamagePower>` 9 层）
-- 跳伤结算：`SeerFixedDamagePower.cs:49-70`（目标回合开始跳 `Amount` 点无视格挡伤害后移除）
-- 随机池配置：`SeerElementalCore.cs:107`（`0.0001/房`）
+- `SeerSharpThreePower.cs`
+- `SeerFixedDamagePower.cs`
+- `SeerElementalCore.cs`

@@ -1,4 +1,4 @@
-# 异变
+﻿# 异变
 
 > mod 关键词（SEER_KEYWORD_ABERRATION）
 
@@ -26,5 +26,5 @@
 ## 源码
 
 - `SeerKeywordEffectManager.cs`
-- `SeerKeywordCardModel.cs`（基类）
+- `SeerKeywordCardModel.cs`
 - `card_keywords.json`（本地化）

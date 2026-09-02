@@ -1,4 +1,4 @@
-# 回响
+﻿# 回响
 
 > mod 关键词（SEER_KEYWORD_ECHO）
 
@@ -28,6 +28,6 @@
 ## 源码
 
 - `SeerKeywordEffectManager.cs`
-- `SeerEchoPower.cs`（每回合加入手牌逻辑）
-- `SeerKeywordCardModel.cs`（基类）
+- `SeerEchoPower.cs`
+- `SeerKeywordCardModel.cs`
 - `card_keywords.json`（本地化）

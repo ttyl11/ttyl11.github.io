@@ -1,4 +1,4 @@
-# 饮血
+﻿# 饮血
 
 > mod 关键词
 
@@ -30,5 +30,5 @@
 ## 源码
 
 - `SeerKeywordEffectManager.cs`
-- `SeerKeywordCardModel.cs`（基类）
+- `SeerKeywordCardModel.cs`
 - `card_keywords.json`（本地化）

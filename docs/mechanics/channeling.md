@@ -1,4 +1,4 @@
-# 生成
+﻿# 生成
 
 > 原版状态
 
@@ -24,4 +24,4 @@
 
 ## 源码
 
-- `StaticHoverTip.cs`（原版）
+- `StaticHoverTip.cs`

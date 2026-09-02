@@ -1,4 +1,4 @@
-# 游戏流程改造
+﻿# 游戏流程改造
 
 Seer Mod 对杀戮尖塔2 的游戏流程进行了全面改造，包括子地图系统、遭遇战比例调整、起始遗物注入、Neow 选项扩展、强制解锁 Neow 纪元五大方面。
 
@@ -156,11 +156,11 @@ Mod 为 Neow（以及其它古代存在）的选项池追加了 27+ 个 Mod 遗�
 
 ## 源码
 
-- `SeerEncounterController.cs`（子地图控制器——进入/返回/存档恢复）
-- `SeerEncounterMap.cs`（子地图结构定义）
-- `SeerEncounterRatioPatch.cs`（遭遇战比例调整补丁）
-- `CharacterModel_StartingRelics_Patch.cs`（起始遗物注入补丁）
-- `SeerAncientAllPossibleOptionsPatches.cs`（Neow 选项池扩展）
-- `SeerRelicOptionHelper.cs`（Neow 选项抽取接管）
-- `SeerNeowPatch.cs`（Neow 抽取补丁）
-- `ForceNeowPatch.cs`（强制解锁 Neow 纪元补丁）
+- `SeerEncounterController.cs`
+- `SeerEncounterMap.cs`
+- `SeerEncounterRatioPatch.cs`
+- `CharacterModel_StartingRelics_Patch.cs`
+- `SeerAncientAllPossibleOptionsPatches.cs`
+- `SeerRelicOptionHelper.cs`
+- `SeerNeowPatch.cs`
+- `ForceNeowPatch.cs`

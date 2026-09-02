@@ -17,10 +17,9 @@
 
 ## 详细机制
 
-- **攻击前判定**：持有者（怪物）每次发起攻击前（`BeforeAttack`），<span style="color:#3aa675;font-weight:600">15%</span> 概率标记本次为"要害"——命中时伤害 <span style="color:#3aa675;font-weight:600">×2</span>（`ModifyDamageMultiplicative` 乘区）。
-- **多段攻击共享判定**：`BeforeAttack` 在整个攻击命令前只掷**一次**骰（原版 `AttackCommand.cs:536`：先 `BeforeAttack` 再进多段循环）——"攻击 ×3"的三段要么**全部** ×2、要么**全部**正常。期望角度等于全程 +15% 输出。
-- **只作用于常规攻击**（`IsPoweredAttack`）——它的固伤类效果不参与翻倍。
-- **掷骰用 `Rng.CombatTargets`**（多人同步安全的 RNG 通道）。
+- **攻击前判定**：持有者（怪物）每次发起攻击前，<span style="color:#3aa675;font-weight:600">15%</span> 概率标记本次为"要害"——命中时伤害 <span style="color:#3aa675;font-weight:600">×2</span>（乘区倍增）。
+- **多段攻击共享判定**：在整个攻击命令前只掷**一次**骰——"攻击 ×3"的三段要么**全部** ×2、要么**全部**正常。期望角度等于全程 +15% 输出。
+- **只作用于常规攻击**——它的固伤类效果不参与翻倍。
 - **与玩家暴击体系独立**：要害是怪物专属标记，与[暴击](/powers/critical_strike_power.md)（玩家侧能力）互不相通。
 
 ## 小贴士
@@ -30,6 +29,6 @@
 
 ## 源码
 
-- `SeerKeyOnePower.cs`（`BeforeAttack` 掷骰 `<= 0.15`，命中则 `ModifyDamageMultiplicative` 返回 `2`）
-- 多段共享判定依据：原版 `AttackCommand.cs:536-538`（`BeforeAttack` → 多段 for 循环）
+- `SeerKeyOnePower.cs`
+- 多段共享判定依据：原版 `AttackCommand.cs:536-538`
 - 随机池配置：`SeerElementalCore.cs:99`（`0.000025/房`）

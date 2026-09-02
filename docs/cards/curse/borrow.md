@@ -1,4 +1,4 @@
-# 借鉴
+﻿# 借鉴
 
 <img src="/images/cards/borrow.png" alt="借鉴" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -33,4 +33,4 @@
 ## 源码
 
 - `SeerBorrow.cs`
-- `SeerBorrowPower.cs`（内部不可见能力）
+- `SeerBorrowPower.cs`

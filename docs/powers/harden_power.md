@@ -17,9 +17,9 @@
 
 ## 详细机制
 
-- **非暴击全免**：`ModifyHpLostBeforeOsty` 钩子——持有者（怪物）受到伤害时，默认把 HP 损失**归零**，只有两种情况放行：
-  1. **暴击伤害**：攻击者持有[暴击](/powers/critical_strike_power.md)能力且本次攻击判定为暴击（`IsCurrentAttackCritical()`）——正常掉血。
-  2. **无来源伤害**：`dealer == null` 的伤害（[流血](/powers/bleed_power.md)/[烧伤](/powers/burn_power.md)等 DoT 跳伤没有来源者）——正常掉血。
+- **非暴击全免**：持有者（怪物）受到伤害时，默认把 HP 损失**归零**，只有两种情况放行：
+  1. **暴击伤害**：攻击者持有[暴击](/powers/critical_strike_power.md)能力且本次攻击判定为暴击——正常掉血。
+  2. **无来源伤害**：没有来源的伤害（[流血](/powers/bleed_power.md)/[烧伤](/powers/burn_power.md)等 DoT 跳伤没有来源者）——正常掉血。
 - **普通攻击完全无效**：非暴击的攻击（无论多大数值）全部归零——这不是减伤，是免疫。
 - **DoT 是漏洞**：DoT 结算时没有 dealer，绕过硬化判定——哪怕没有暴击体系，DoT 也能稳定磨血。
 
@@ -31,4 +31,4 @@
 
 ## 源码
 
-- `SeerHardenPower.cs`（`ModifyHpLostBeforeOsty`：`dealer == null` 或攻击者暴击时放行，否则返回 `0`）
+- `SeerHardenPower.cs`

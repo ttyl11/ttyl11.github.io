@@ -1,4 +1,4 @@
-# 圣诰
+﻿# 圣诰
 
 > **归属**：玩家可施加
 > **施加来源**：玩家施加给敌方——[墟埪](/cards/character/xukong.md)（卡牌）、[圣谕形态](/powers/divine_form_power.md)（能力联动）、[神明送葬](/powers/god_funeral_power.md)（能力联动）；玩家侧联动——[邪魇形态](/powers/evil_form_power.md)
@@ -26,7 +26,7 @@
 
 ## 详细机制
 
-- **触发时机**：持有者受到伤害后结算（AfterDamageReceived）。
+- **触发时机**：持有者受到伤害后结算。
 - **触发条件**：需同时满足——持有者本人受到伤害、层数 > 0、伤害为攻击伤害（[固定伤害](/mechanics/fixed-damage.md)不触发）。
 - **疲惫施加（核心效果）**：判定 <span style="color:#3aa675;font-weight:600">60</span>% 概率，成功则对**持有者自身**施加 <span style="color:#3aa675;font-weight:600">2</span> 回合[疲惫](/powers/fatigue_power.md)。即被上圣诰的人被打时会自己陷入疲惫，削弱其后续输出。使用战斗随机源确保多端同步。
 - **低伤减层**：本次伤害 < 层数 × <span style="color:#3aa675;font-weight:600">50</span>% 时，层数 -<span style="color:#3aa675;font-weight:600">1</span>。低伤攻击会削减圣诰层数，高伤攻击不会减层——与邪诲对称。
@@ -54,5 +54,5 @@
 ## 源码
 
 - `SeerHolyEdictPower.cs`
-- `SeerDivineFormPower.cs`（圣谕形态攻击时施加圣诰）
-- `SeerEvilFormPower.cs`（邪魇形态受击时施加圣诰）
+- `SeerDivineFormPower.cs`
+- `SeerEvilFormPower.cs`

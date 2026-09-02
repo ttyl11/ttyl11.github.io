@@ -1,4 +1,4 @@
-# 魂缚
+﻿# 魂缚
 
 > 原版 affliction（卡牌状态），由 [魂缚锁链](/powers/chains_of_binding_power.md) 能力施加。
 
@@ -30,5 +30,5 @@
 
 ## 源码
 
-- `Bound.cs`（原版 affliction）
-- `ChainsOfBindingPower.cs`（施加魂缚的能力）
+- `Bound.cs`
+- `ChainsOfBindingPower.cs`

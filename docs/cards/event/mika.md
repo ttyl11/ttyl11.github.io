@@ -1,4 +1,4 @@
-# 米咔
+﻿# 米咔
 
 <img src="/images/cards/mika.png" alt="米咔" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -54,4 +54,4 @@
 
 ## 源码
 
-- `SeerMika.cs`（自动打出/出牌数惩罚/升级加奇巧）
+- `SeerMika.cs`

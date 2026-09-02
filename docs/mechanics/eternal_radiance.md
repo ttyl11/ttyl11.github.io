@@ -1,4 +1,4 @@
-# 永耀
+﻿# 永耀
 
 > mod 附魔（Enchantment）
 
@@ -35,5 +35,5 @@
 
 ## 源码
 
-- `SeerEternalRadianceEnchantment.cs`（附魔逻辑）
-- `SeerEternalRadianceTrackerPower.cs`（打出限制追踪）
+- `SeerEternalRadianceEnchantment.cs`
+- `SeerEternalRadianceTrackerPower.cs`

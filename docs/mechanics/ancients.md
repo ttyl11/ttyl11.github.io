@@ -1,4 +1,4 @@
-# 先古之民
+﻿# 先古之民
 
 > 原版游戏机制
 
@@ -32,4 +32,4 @@
 ## 源码
 
 - `localization/zhs/ancients.json`（中文译名与称号）
-- `SeerAncientAllPossibleOptionsPatches.cs`（Mod 中先古遗物池的注册）
+- `SeerAncientAllPossibleOptionsPatches.cs`

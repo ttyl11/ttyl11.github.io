@@ -1,4 +1,4 @@
-# 黏糊
+﻿# 黏糊
 
 <img src="/images/enchantments/goopy.png" alt="黏糊" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -39,4 +39,4 @@
 
 ## 源码
 
-- `Goopy.cs`（原版）
+- `Goopy.cs`

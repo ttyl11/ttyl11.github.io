@@ -1,4 +1,4 @@
-# 魂缚锁链
+﻿# 魂缚锁链
 
 
 
@@ -34,4 +34,4 @@
 
 ## 源码
 
-- `ChainsOfBindingPower.cs`（原版）
+- `ChainsOfBindingPower.cs`

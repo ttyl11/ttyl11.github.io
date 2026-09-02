@@ -23,14 +23,14 @@
 <tr><td><img src="/images/relics/star_holy_king.png" alt="星灵圣王" style="width:80px;height:auto" /></td><td><a href="star_holy_king">星灵圣王</a></td><td>每当卡牌被生成或消耗时，获得1点辉星，铸造1。</td></tr>
 <tr><td><img src="/images/relics/tarot_chariot.png" alt="战车" style="width:80px;height:auto" /></td><td><a href="tarot_chariot">战车</a></td><td>连续打出攻击牌时伤害递增，每连续1张增加20%，最高增加100%。</td></tr>
 <tr><td><img src="/images/relics/tarot_death.png" alt="死神" style="width:80px;height:auto" /></td><td><a href="tarot_death">死神</a></td><td>回合结束时，为所有敌人附加等同于剩余手牌数的灾厄层数。</td></tr>
-<tr><td><img src="/images/relics/tarot_devil.png" alt="恶魔" style="width:80px;height:auto" /></td><td><a href="tarot_devil">恶魔</a></td><td>从第三回合起，回合开始时，若上回合造成的总伤害≥40，将所有敌人攻击意图无效。</td></tr>
+<tr><td><img src="/images/relics/tarot_devil.png" alt="恶魔" style="width:80px;height:auto" /></td><td><a href="tarot_devil">恶魔</a></td><td>从第三回合起，回合开始时，若上回合造成的总伤害≥40，对所有敌人施加攻击无效。</td></tr>
 <tr><td><img src="/images/relics/tarot_emperor.png" alt="皇帝" style="width:80px;height:auto" /></td><td><a href="tarot_emperor">皇帝</a></td><td>生命值大于50%时，受到的伤害不会超过最大生命值的1/4。</td></tr>
 <tr><td><img src="/images/relics/tarot_empress.png" alt="女皇" style="width:80px;height:auto" /></td><td><a href="tarot_empress">女皇</a></td><td>自身每回合首次造成伤害后，回复最大生命值的1/15并获得等量格挡。</td></tr>
 <tr><td><img src="/images/relics/tarot_fool.png" alt="愚者" style="width:80px;height:auto" /></td><td><a href="tarot_fool">愚者</a></td><td>拾起时，随机获得2件其他塔罗遗物。</td></tr>
 <tr><td><img src="/images/relics/tarot_hanged_man.png" alt="倒吊人" style="width:80px;height:auto" /></td><td><a href="tarot_hanged_man">倒吊人</a></td><td>回合开始时失去5点生命。 受到伤害时获得1层必定暴击。 造成伤害时敌人额外失去2点生命，自身恢复等量生命。</td></tr>
 <tr><td><img src="/images/relics/tarot_hermit.png" alt="隐者" style="width:80px;height:auto" /></td><td><a href="tarot_hermit">隐者</a></td><td>如果本回合未出牌，则自身和所有敌人都获得1层无实体。</td></tr>
 <tr><td><img src="/images/relics/tarot_hierophant.png" alt="教皇" style="width:80px;height:auto" /></td><td><a href="tarot_hierophant">教皇</a></td><td>生命值大于70%时，攻击伤害+25%。</td></tr>
-<tr><td><img src="/images/relics/tarot_high_priestess.png" alt="女祭司" style="width:80px;height:auto" /></td><td><a href="tarot_high_priestess">女祭司</a></td><td>敌人回合开始时，随机将处于冻伤状态的敌人的1个意图替换为无效化。</td></tr>
+<tr><td><img src="/images/relics/tarot_high_priestess.png" alt="女祭司" style="width:80px;height:auto" /></td><td><a href="tarot_high_priestess">女祭司</a></td><td>敌人回合开始时，随机对处于冻伤状态的敌人施加攻击无效或封属。</td></tr>
 <tr><td><img src="/images/relics/tarot_judgement.png" alt="审判" style="width:80px;height:auto" /></td><td><a href="tarot_judgement">审判</a></td><td>回合开始时： 若自身有异常状态，吸取所有敌人的全属性。 若无异常状态，为所有敌人随机附加1种异常状态1层。</td></tr>
 <tr><td><img src="/images/relics/tarot_justice.png" alt="正义" style="width:80px;height:auto" /></td><td><a href="tarot_justice">正义</a></td><td>每损失2%生命值：造成的伤害+2%，受到的伤害-1%。 当前增伤：0% 当前减伤：0%</td></tr>
 <tr><td><img src="/images/relics/tarot_lovers.png" alt="恋人" style="width:80px;height:auto" /></td><td><a href="tarot_lovers">恋人</a></td><td>回合结束时，若手中剩余牌数为奇数，对随机敌人施加1层烧伤和1层冻伤；若为偶数，随机生成1个充能球。</td></tr>

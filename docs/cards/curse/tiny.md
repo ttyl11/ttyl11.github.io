@@ -1,4 +1,4 @@
-# 渺小
+﻿# 渺小
 
 <img src="/images/cards/tiny.png" alt="渺小" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -42,4 +42,4 @@
 ## 源码
 
 - `SeerTiny.cs`
-- `SeerTinyPower.cs`（打出牌时的伤害结算）
+- `SeerTinyPower.cs`

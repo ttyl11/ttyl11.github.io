@@ -1,4 +1,4 @@
-# 焚烬宝石
+﻿# 焚烬宝石
 
 <img src="/images/enchantments/seer_ash_gem.png" alt="焚烬宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 
 ## 源码
 
-- `SeerAshGem.cs`（继承 `SeerStatusGemEnchantment<SeerAshPower>`）
+- `SeerAshGem.cs`

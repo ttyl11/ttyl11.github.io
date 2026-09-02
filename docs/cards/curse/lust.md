@@ -1,4 +1,4 @@
-# 色欲
+﻿# 色欲
 
 <img src="/images/cards/lust.png" alt="色欲" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -39,4 +39,4 @@
 
 ## 源码
 
-- `SeerLust.cs`（位于 `Cards/Curses/` 目录）
+- `SeerLust.cs`

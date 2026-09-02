@@ -17,8 +17,7 @@
 
 ## 详细机制
 
-- **回合开始涨上限**：持有者（怪物）自己回合开始时（`AfterSideTurnStart`），最大生命 <span style="color:#3aa675;font-weight:600">+6%</span>（`GainMaxHp`，内置等量回血）。
-- **复利成长**：按当前最大生命取百分比，越拖涨越快。
+- **回合开始涨上限**：持有者（怪物）自己回合开始时，最大生命 <span style="color:#3aa675;font-weight:600">+6%</span>，内置等量回血，越拖涨越快。
 
 ## 小贴士
 
@@ -27,4 +26,4 @@
 
 ## 源码
 
-- `SeerLifeBreathTwoPower.cs`（`AfterSideTurnStart`，`GainMaxHp(MaxHp * 0.06)`）
+- `SeerLifeBreathTwoPower.cs`

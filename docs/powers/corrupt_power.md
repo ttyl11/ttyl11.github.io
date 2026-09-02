@@ -17,10 +17,10 @@
 
 ## 详细机制
 
-- **受击反噬四维**：`AfterDamageReceived` 钩子——持有者（怪物）每次受到伤害（`TotalDamage > 0`，含被[格挡](/mechanics/block.md)的部分）时，给**伤害来源**施加 [力量](/powers/strength_power.md)/[命中](/powers/accuracy_power.md)/[速度](/powers/speed_power.md)/[防御](/powers/defense_power.md) 各 -1。
-- **不过滤伤害类型**：与[汲血](/powers/blood_suck_one_power.md)不同，腐化**没有** `IsPoweredAttack` 过滤——攻击、[固定伤害](/powers/fixed_damage_power.md)、DoT 跳伤都会触发（只要 dealer 存在且非它自己）。
+- **受击反噬四维**：持有者（怪物）每次受到伤害（含被[格挡](/mechanics/block.md)的部分）时，给**伤害来源**施加 [力量](/powers/strength_power.md)/[命中](/powers/accuracy_power.md)/[速度](/powers/speed_power.md)/[防御](/powers/defense_power.md) 各 -1。
+- **不过滤伤害类型**：与[汲血](/powers/blood_suck_one_power.md)不同，腐化**没有**类型过滤——攻击、[固定伤害](/powers/fixed_damage_power.md)、DoT 跳伤都会触发（只要伤害来源存在且非它自己）。
 - **每次伤害独立结算**：多段攻击每段各触发一次——3 段攻击 = 四维各 -3。
-- **格挡不豁免**：伤害全被格挡也照样 -1（判定基数是格挡前的 `TotalDamage`）。
+- **格挡不豁免**：伤害全被格挡也照样 -1（判定基数是格挡前的伤害总量）。
 
 ## 小贴士
 
@@ -31,4 +31,4 @@
 
 ## 源码
 
-- `SeerCorruptPower.cs`（`AfterDamageReceived`，对 dealer 施加 `StrengthPower`/`SeerAccuracyPower`/`SeerSpeedPower`/`SeerDefensePower` 各 `-StatReduction`）
+- `SeerCorruptPower.cs`

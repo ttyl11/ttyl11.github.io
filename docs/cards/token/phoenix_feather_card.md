@@ -1,4 +1,4 @@
-# 烬翎
+﻿# 烬翎
 
 <img src="/images/cards/phoenix_feather_card.png" alt="烬翎" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -50,4 +50,4 @@ PP: 1/1 抽<span style="color:#3aa675;font-weight:600">1</span>张牌，获得<s
 ## 源码
 
 - `SeerPhoenixFeatherCard.cs`
-- `SeerPhoenixNirvanaPower.cs`（胜利判定与复活逻辑）
+- `SeerPhoenixNirvanaPower.cs`

@@ -1,4 +1,4 @@
-# 稳定
+﻿# 稳定
 
 <img src="/images/enchantments/steady.png" alt="稳定" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -32,4 +32,4 @@
 
 ## 源码
 
-- `Steady.cs`（原版）
+- `Steady.cs`

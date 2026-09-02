@@ -1,4 +1,4 @@
-# 麻痹宝石
+﻿# 麻痹宝石
 
 <img src="/images/enchantments/seer_ma_gem.png" alt="麻痹宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 
 ## 源码
 
-- `SeerMaGem.cs`（继承 `SeerStatusGemEnchantment<SeerMaPower>`）
+- `SeerMaGem.cs`

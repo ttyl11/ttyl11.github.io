@@ -1,4 +1,4 @@
-# 沸涌宝石
+﻿# 沸涌宝石
 
 <img src="/images/enchantments/seer_boiling_gem.png" alt="沸涌宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 
 ## 源码
 
-- `SeerBoilingGem.cs`（继承 `SeerStatusGemEnchantment<SeerBoilingPower>`）
+- `SeerBoilingGem.cs`

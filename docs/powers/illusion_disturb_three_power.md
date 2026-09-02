@@ -1,4 +1,4 @@
-# 幻扰三
+﻿# 幻扰三
 
 > **归属**：怪物专属（玩家无法施加）
 > **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **回合开始随机异常**：持有者（怪物）自己回合开始时（`AfterSideTurnStart`），对**玩家方全体**各施加 <span style="color:#3aa675;font-weight:600">2</span> 种随机[异常状态](/mechanics/abnormal-status.md)各 <span style="color:#3aa675;font-weight:600">1</span> 层——与[幻扰一](/powers/illusion_disturb_power.md)同机制，种类翻倍（两次独立抽取，可能同种叠 2 层）。
+- **回合开始随机异常**：持有者（怪物）自己回合开始时，对**玩家方全体**各施加 <span style="color:#3aa675;font-weight:600">2</span> 种随机[异常状态](/mechanics/abnormal-status.md)各 <span style="color:#3aa675;font-weight:600">1</span> 层——与[幻扰一](/powers/illusion_disturb_power.md)同机制，种类翻倍（两次独立抽取，可能同种叠 2 层）。
 - **「曝」压制**：怪物持有[曝](/powers/expose_power.md)时每次施加 <span style="color:#3aa675;font-weight:600">50%</span> 概率失败（两次抽取各自判定）。
 - **无限持续**：持有者活着就每回合执行。
 
@@ -28,4 +28,4 @@
 
 ## 源码
 
-- `SeerIllusionDisturbThreePower.cs`（同幻扰一，`StatusCount = 2`）
+- `SeerIllusionDisturbThreePower.cs`

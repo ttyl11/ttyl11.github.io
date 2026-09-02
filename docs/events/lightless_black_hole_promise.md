@@ -28,7 +28,7 @@
 | [幽冥帝尊·修罗](/relics/rare/nether_emperor.md) | 血线高于 70% 得先制、低于则全暴击；击杀敌人连锁伤害回血 |
 | [终末之灭·天邪龙王](/relics/rare/dragon_of_doom.md) | 按双方生命对比走进攻/防守分支 |
 | [厉魇魔王·咤克斯](/relics/rare/demon_king.md) | 战斗开始增伤/减伤各 5%，每胜场各 +2%，附带低概率秒杀 |
-| [邪冥·兽皇](/relics/rare/evil_beast_emperor.md) | 敌方回合开始时每个敌人意图 25% 概率被无效化 |
+| [邪冥·兽皇](/relics/rare/evil_beast_emperor.md) | 敌方回合开始时意图含攻击或防御的敌人 25% 概率被同时施加攻击无效与封属 |
 | [万古邪皇·威斯克](/relics/rare/ancient_evil_emperor.md) | 打技能牌随机诅咒、打攻击牌附固定伤害 |
 | [风殇影翼·飞镰](/relics/rare/flying_scythe.md) | 回合开始全敌力量/命中 -1，按承伤切换无实体/先制 |
 

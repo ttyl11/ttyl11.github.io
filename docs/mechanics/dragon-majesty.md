@@ -1,4 +1,4 @@
-# 龙威
+﻿# 龙威
 
 龙威是 Seer Mod 中哈莫雷特持有的核心被动能力，包含三段机制：开局按牌组中龙牌数量加全属性、打出与上一张不同类型的牌则重放、相同则无效。
 
@@ -129,6 +129,6 @@
 
 ## 源码
 
-- `SeerDragonMajestyPower.cs`（龙威能力——类型匹配、属性加成、历史峰值）
-- `SeerHamletMonster.cs`（哈莫雷特怪物——持有龙威、五个招式）
+- `SeerDragonMajestyPower.cs`
+- `SeerHamletMonster.cs`
 - `powers.json`（龙威本地化原文）

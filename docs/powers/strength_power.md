@@ -1,4 +1,4 @@
-# 力量
+﻿# 力量
 
 
 
@@ -40,4 +40,4 @@
 
 ## 源码
 
-- `StrengthPower.cs`（原版）
+- `StrengthPower.cs`

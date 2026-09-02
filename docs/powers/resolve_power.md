@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **固伤转嫁**：实现位于[固定伤害](/powers/fixed_damage_power.md)的结算（`SeerFixedDamagePower.AfterSideTurnStart`）——挂在坚毅怪身上的固伤在它回合开始结算时**不在它身上跳**，改为对**玩家方全体**各造成等量伤害（`ValueProp.6`：**无视[格挡](/mechanics/block.md)**、不吃增减益），随后固伤移除。
+- **固伤转嫁**：实现位于[固定伤害](/powers/fixed_damage_power.md)的结算——挂在坚毅怪身上的固伤在它回合开始结算时**不在它身上跳**，改为对**玩家方全体**各造成等量伤害（**无视[格挡](/mechanics/block.md)**、不吃增减益），随后固伤移除。
 - **转出的是立即直伤**：不是把固伤 Power 转到你身上——是当下瞬间结算的真实伤害，你没有"下回合前解掉"的窗口。
 - **先查免疫再查坚毅**：怪物若同时持有[固伤免疫]类能力，固伤直接消失（不转移）；坚毅只在无免疫时接管。
 - **双人模式人均全份**：逐玩家独立结算——两个玩家各挨一份全额。
@@ -31,6 +31,6 @@
 
 ## 源码
 
-- `SeerResolvePower.cs`（空壳标记 Power，无自身钩子）
-- 转嫁逻辑：`SeerFixedDamagePower.cs:58-67`（结算时查 `SeerResolvePower` → 对所有对手 `Damage(Amount, ValueProp.6)` → 移除固伤）
-- 随机池配置：`SeerElementalCore.cs:95`（`0.0005 + 0.000045/房`，全池最高起步）
+- `SeerResolvePower.cs`
+- `SeerFixedDamagePower.cs`
+- `SeerElementalCore.cs`

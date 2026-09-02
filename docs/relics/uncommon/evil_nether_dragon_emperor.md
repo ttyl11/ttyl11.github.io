@@ -1,4 +1,4 @@
-# 邪冥龙帝
+﻿# 邪冥龙帝
 
 <img src="/images/relics/evil_nether_dragon_emperor.png" alt="邪冥龙帝" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 ## 源码
 
 - `SeerEvilNetherDragonEmperor.cs`
-- `SeerFearPower.cs`（害怕：攻击伤害 -30%）
+- `SeerFearPower.cs`

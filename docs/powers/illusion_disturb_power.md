@@ -1,4 +1,4 @@
-# 幻扰一
+﻿# 幻扰一
 
 > **归属**：怪物专属（玩家无法施加）
 > **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **回合开始随机异常**：持有者（怪物）自己回合开始时（`AfterSideTurnStart`），对**玩家方全体**各施加 <span style="color:#3aa675;font-weight:600">1</span> 种随机[异常状态](/mechanics/abnormal-status.md)（从全部异常状态池抽取）<span style="color:#3aa675;font-weight:600">1</span> 层。
+- **回合开始随机异常**：持有者（怪物）自己回合开始时，对**玩家方全体**各施加 <span style="color:#3aa675;font-weight:600">1</span> 种随机[异常状态](/mechanics/abnormal-status.md)（从全部异常状态池抽取）<span style="color:#3aa675;font-weight:600">1</span> 层。
 - **不可预测**：种类随机（烧伤/中毒/束缚/麻痹等 20+ 种），每回合抽什么全看运气——无法针对性预防，只能靠泛用解。
 - **「曝」的妙用**：若怪物自身持有[曝](/powers/expose_power.md)（玩家施加），施加有 <span style="color:#3aa675;font-weight:600">50%</span> 概率失败——给幻乱怪挂曝是最直接的压制手段。
 - **无限持续**：无层数衰减，持有者活着就每回合执行。
@@ -31,4 +31,4 @@
 
 ## 源码
 
-- `SeerIllusionDisturbPower.cs`（`AfterSideTurnStart`，`Rng.Niche` 从 `SeerAbnormalStatus.AllStatuses` 随机施加，曝 50% 失败）
+- `SeerIllusionDisturbPower.cs`

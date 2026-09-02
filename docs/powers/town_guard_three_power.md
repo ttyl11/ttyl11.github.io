@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **回合开始套甲**：持有者（怪物）自己回合开始时（`AfterSideTurnStart`），获得 <span style="color:#3aa675;font-weight:600">10</span> 点[格挡](/mechanics/block.md)（`ValueProp.Unpowered` 来源，量固定不吃增减益）。
+- **回合开始套甲**：持有者（怪物）自己回合开始时，获得 <span style="color:#3aa675;font-weight:600">10</span> 点[格挡](/mechanics/block.md)（量固定不吃增减益）。
 - **甲持续一整轮**：怪物格挡在它**下个回合开始**才清空——你整个回合的攻击都要先啃掉这 10 点甲才能碰到血条。
 - **每回合刷新**：只要持有者活着，每轮稳定 +10——等效于怪物有效血量每轮 +10。
 
@@ -30,5 +30,5 @@
 
 ## 源码
 
-- `SeerTownGuardThreePower.cs`（`AfterSideTurnStart`，`GainBlock(10, Unpowered)`）
+- `SeerTownGuardThreePower.cs`
 - 随机池配置：`SeerElementalCore.cs:81`（`0.00005/房`）

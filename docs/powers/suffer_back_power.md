@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **回合开始转移**：持有者（怪物）自己回合开始时（`AfterSideTurnStart`），把自身全部**可见的**[异常状态](/mechanics/abnormal-status.md)（25 种列表内）原样转出：对**玩家方每个成员**施加同类型异常、层数 = 它身上当时的剩余量，然后**移除自己身上的这些异常**。
+- **回合开始转移**：持有者（怪物）自己回合开始时，把自身全部**可见的**[异常状态](/mechanics/abnormal-status.md)（25 种列表内）原样转出：对**玩家方每个成员**施加同类型异常、层数 = 它身上当时的剩余量，然后**移除自己身上的这些异常**。
 - **是转移不是复制**：转走后怪物自身清空——你给它叠的所有异常，最终一次不差地落在你全队头上，它干干净净。
 - **双人模式人均全份**：逐对手独立施加——两个玩家各自吃一份完整层数。
 - **只转异常状态**：[固定伤害](/powers/fixed_damage_power.md)、降维 debuff 等非异常效果**不会被转**，稳稳留在它身上。
@@ -31,6 +31,6 @@
 
 ## 源码
 
-- `SeerSufferBackPower.cs`（`AfterSideTurnStart`：收集可见异常 → 逐对手 `PowerCmd.Apply` 同层数 → `PowerCmd.Remove` 自身）
-- 异常判定：`IsAbnormalStatus` → `SeerAbnormalStatus.AllStatuses`（25 种）
+- `SeerSufferBackPower.cs`
+- 异常判定：`AbnormalStatusList.cs`（25 种）
 - 随机池配置：`SeerElementalCore.cs:71`（`0.000025/房`）

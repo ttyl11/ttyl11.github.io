@@ -41,5 +41,5 @@
 
 ## 源码
 
-- `SeerLegendaryBarrierPower.cs`（拦截逻辑：仅拦截负向修改的力量/防御/命中/速度/先制/虚弱/易伤/烧伤/冻伤/冰封/中毒）
-- 衰减路径差异：烧伤/冻伤/中毒/虚弱/易伤走 `PowerCmd.Decrement`（被拦截）；冰封移除走 `PowerCmd.Remove`（不被拦截）
+- `SeerLegendaryBarrierPower.cs`
+- 衰减路径差异：烧伤/冻伤/中毒/虚弱/易伤走能力递减（被拦截）；冰封移除操作不走拦截路径（不被拦截）

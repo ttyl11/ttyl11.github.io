@@ -1,4 +1,4 @@
-# 播种
+﻿# 播种
 
 <img src="/images/enchantments/sown.png" alt="播种" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -35,4 +35,4 @@
 
 ## 源码
 
-- `Sown.cs`（原版）
+- `Sown.cs`

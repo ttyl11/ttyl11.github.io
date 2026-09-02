@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **回合开始的 AoE 吸取**：持有者（怪物）自己回合开始时（`AfterSideTurnStart`），对**玩家方全体**各造成 <span style="color:#3aa675;font-weight:600">5</span> 点伤害（`ValueProp.Unpowered`：不吃[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)，但可被[格挡](/mechanics/block.md)）。
+- **回合开始的 AoE 吸取**：持有者（怪物）自己回合开始时，对**玩家方全体**各造成 <span style="color:#3aa675;font-weight:600">5</span> 点伤害（不吃[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)，但可被[格挡](/mechanics/block.md)）。
 - **回血按对手数量结算**：每个对手结算一次 5 点回复——单人每回合回 5，**双人每回合回 10**（格挡与否不影响回血）。
 - **无限持续**：无衰减，持有者活着就每回合执行。
 
@@ -30,5 +30,5 @@
 
 ## 源码
 
-- `SeerDrainTwoPower.cs`（`AfterSideTurnStart`，全体 `CreatureCmd.Damage`（Unpowered）+ 按对手数 `CreatureCmd.Heal`）
+- `SeerDrainTwoPower.cs`
 - 随机池配置：`SeerElementalCore.cs:109`（`0.00002/房`）

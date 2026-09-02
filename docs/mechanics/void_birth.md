@@ -1,4 +1,4 @@
-# 芜生
+﻿# 芜生
 
 ## 基本信息
 
@@ -31,5 +31,5 @@
 
 ## 源码
 
-- `SeerKeywordCardModel.cs`（基类）
+- `SeerKeywordCardModel.cs`
 - `card_keywords.json`（本地化）

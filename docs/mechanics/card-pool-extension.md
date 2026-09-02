@@ -1,4 +1,4 @@
-# 卡牌池扩展
+﻿# 卡牌池扩展
 
 Seer Mod 对原版的卡牌池系统进行了扩展，主要包括尘封之书支持 Mod 的先古牌、远古之牙的超脱升级扩展，以及先古卡池的注册机制。
 
@@ -134,9 +134,9 @@ Mod 通过补丁往超脱映射字典中追加一条：
 
 ## 源码
 
-- `SeerDustyTomePatch.cs`（尘封之书多级回退查找补丁）
-- `SeerArchaicToothPatch.cs`（远古之牙超脱升级扩展补丁）
-- `SeerAncientCardPool.cs`（空卡池占位）
-- `SeerCardPool.cs`（先古牌实际承载卡池）
-- `SeerAncientCardBase.cs`（先古牌基类——自动注册到 SeerCardPool）
-- `SeerAncientHorizontalCardBase.cs`（横向先古牌基类）
+- `SeerDustyTomePatch.cs`
+- `SeerArchaicToothPatch.cs`
+- `SeerAncientCardPool.cs`
+- `SeerCardPool.cs`
+- `SeerAncientCardBase.cs`
+- `SeerAncientHorizontalCardBase.cs`

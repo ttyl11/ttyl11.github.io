@@ -1,4 +1,4 @@
-# 弃牌堆
+﻿# 弃牌堆
 
 > 原版状态
 
@@ -32,6 +32,6 @@
 
 ## 源码
 
-- `StaticHoverTip.cs`（枚举定义）
+- `StaticHoverTip.cs`
 - `static_hover_tips.json`（本地化）
 - `PileType.cs`

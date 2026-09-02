@@ -31,4 +31,4 @@
 ## 源码
 
 - `SeerMythPower.cs`
-- `SeerAbnormalStatus.cs`（异常状态全集定义，25 种）
+- `SeerAbnormalStatus.cs`

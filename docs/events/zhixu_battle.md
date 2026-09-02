@@ -1,4 +1,4 @@
-# 志旭之战
+﻿# 志旭之战
 
 硝烟四起的志旭战场就在眼前，两大阵营的对峙已到白热化阶段，双方都向你递出了橄榄枝。当然，你也可以选择跳出纷争，走属于自己的正义之路。
 
@@ -32,4 +32,4 @@
 ## 源码
 
 - `SeerZhixuBattleEvent.cs`
-- `SeerElementalCore.cs`（触发替换）
+- `SeerElementalCore.cs`

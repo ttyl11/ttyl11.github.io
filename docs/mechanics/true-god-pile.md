@@ -1,4 +1,4 @@
-# 真神牌堆
+﻿# 真神牌堆
 
 真神牌堆是 Seer Mod 通过 RitsuLib 注册的**自定义牌堆**，专门存放带有[真神](./true_god)关键词的卡牌。它独立于抽牌堆、弃牌堆和消耗堆，跨战斗持久化，是 Mod 独有的次级资源系统。
 
@@ -119,7 +119,7 @@
 
 ## 源码
 
-- `SeerTrueGodPileHelper.cs`（牌堆注册、添加、移除逻辑）
-- `SeerTrueGodPileMoveAction.cs`（卡牌从牌堆移到手牌的同步 Action）
-- `SeerTrueGodPileRightClickPatch.cs`（右键点击交互补丁）
-- `SeerDivineSalvationLight.cs`（添加随机真神牌的调用方）
+- `SeerTrueGodPileHelper.cs`
+- `SeerTrueGodPileMoveAction.cs`
+- `SeerTrueGodPileRightClickPatch.cs`
+- `SeerDivineSalvationLight.cs`

@@ -1,4 +1,4 @@
-# 缓冲
+﻿# 缓冲
 
 
 
@@ -30,4 +30,4 @@
 
 ## 源码
 
-- `BufferPower.cs`（原版能力）
+- `BufferPower.cs`

@@ -1,4 +1,4 @@
-# 真神
+﻿# 真神
 
 > mod 关键词
 
@@ -22,5 +22,5 @@
 
 ## 源码
 
-- `SeerKeywordEffectManager.cs`（关键词效果管理器）
+- `SeerKeywordEffectManager.cs`
 - `card_keywords.json`（本地化：`SEER_KEYWORD_TRUE_GOD.title` = "真神"）

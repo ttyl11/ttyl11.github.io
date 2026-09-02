@@ -1,4 +1,4 @@
-# 冲锋
+﻿# 冲锋
 
 <img src="/images/cards/charge.png" alt="冲锋" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -41,4 +41,4 @@
 ## 源码
 
 - `SeerCharge.cs`
-- `SeerChargePower.cs`（内部不可见能力）
+- `SeerChargePower.cs`

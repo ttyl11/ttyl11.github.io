@@ -1,4 +1,4 @@
-# 缢形
+﻿# 缢形
 
 > mod 关键词（SEER_KEYWORD_HANGED_FORM）
 
@@ -21,6 +21,6 @@
 ## 源码
 
 - `SeerKeywordEffectManager.cs`
-- `SeerHangedFormPower.cs`（增益屏蔽逻辑）
-- `SeerKeywordCardModel.cs`（基类）
+- `SeerHangedFormPower.cs`
+- `SeerKeywordCardModel.cs`
 - `card_keywords.json`（本地化）

@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **回合开始回血**：持有者（怪物）自己回合开始时（`AfterSideTurnStart`），回复**已损失体力**的 <span style="color:#3aa675;font-weight:600">1/8</span>（12.5%）——基数是已损失部分，满血不回复。
+- **回合开始回血**：持有者（怪物）自己回合开始时，回复**已损失体力**的 <span style="color:#3aa675;font-weight:600">1/8</span>（12.5%）——基数是已损失部分，满血不回复。
 - **越残回复越多**：回复量随损失增大——半血（损失 100）每回合回 12.5，残血（损失 160）每回合回 20——磨血越深它的回复越猛，不存在"打到残血就轻松"的阶段。
 - **无限持续**：无层数衰减，活着就每回合执行。
 
@@ -29,5 +29,5 @@
 
 ## 源码
 
-- `SeerHealTwoPower.cs`（`AfterSideTurnStart`，`(MaxHp - CurrentHp) / 8` 回复）
+- `SeerHealTwoPower.cs`
 - 随机池配置：`SeerElementalCore.cs:111`（`0.00025/房`）

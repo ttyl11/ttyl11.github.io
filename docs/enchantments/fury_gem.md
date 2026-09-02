@@ -1,4 +1,4 @@
-# 狂暴宝石
+﻿# 狂暴宝石
 
 <img src="/images/enchantments/seer_fury_gem.png" alt="狂暴宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -36,4 +36,4 @@
 
 ## 源码
 
-- `SeerFuryGem.cs`（重写 OnPlay，对自身施加 `SeerFuryPower`）
+- `SeerFuryGem.cs`

@@ -1,4 +1,4 @@
-# 暴击
+﻿# 暴击
 
 暴击是 Seer Mod 独有的伤害放大机制。与原版的"力量/易伤"等增伤不同，暴击是**概率触发的固定倍率放大**，且有独立的锁定和强制触发机制。
 
@@ -94,6 +94,6 @@
 - `SeerCriticalStrikePower.cs`
 - `SeerLockOnePower.cs` / `SeerLockOneStackPower.cs`
 - `SeerLockTwoPower.cs` / `SeerLockTwoStackPower.cs`
-- `SeerBoilingPower.cs`（沸涌改变暴击倍率）
-- `SeerRainstormPower.cs`（雷雨天必定暴击）
-- `SeerDemonKingCursePower.cs`（魔王咒怨秒杀）
+- `SeerBoilingPower.cs`
+- `SeerRainstormPower.cs`
+- `SeerDemonKingCursePower.cs`

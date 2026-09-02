@@ -17,8 +17,8 @@
 
 ## 详细机制
 
-- **按层数固定反弹**：原版 `ThornsPower`（`BeforeDamageReceived`）——持有者每次受到**常规攻击**伤害（`IsPoweredAttack`，含 Omnislice 特例）时，立即对攻击者反弹**当前层数**点伤害——反弹量与受到的伤害大小**无关**，只看层数。
-- **反弹类型**：`ValueProp.Unpowered`——不吃[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)增减，但**可被[格挡](/mechanics/block.md)**。
+- **按层数固定反弹**：原版能力（受伤时触发）——持有者每次受到**常规攻击**伤害（含 Omnislice 特例）时，立即对攻击者反弹**当前层数**点伤害——反弹量与受到的伤害大小**无关**，只看层数。
+- **反弹类型**：不吃[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)增减，但**可被[格挡](/mechanics/block.md)**。
 - **只反常规攻击**：技能类伤害、[固定伤害](/powers/fixed_damage_power.md)、DoT 跳伤（无来源）均不触发。
 - **多段攻击段段吃**：反弹按"每次受伤"独立结算——多段攻击每段都挨一次反弹。
 - **反弹先于自身受伤结算**：触发时序在 `BeforeDamageReceived`——敌人打你 20 点的同时你先反它 N 点。若反伤直接把濒死敌人打死：**本段伤害仍会打在你身上**（伤害管线不会中断），但多段攻击的**后续段数全部作废**（攻击者已死，攻击命令直接中断）。
@@ -32,4 +32,4 @@
 
 ## 源码
 
-- 原版 `ThornsPower.cs:17-24`（`BeforeDamageReceived`：`IsPoweredAttack` 时 `Damage(dealer, Amount, Unpowered)`）
+- 原版 `ThornsPower.cs:17-24`（常规攻击时反弹层数点伤害）

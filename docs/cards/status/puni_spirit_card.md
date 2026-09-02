@@ -1,4 +1,4 @@
-# 圣灵
+﻿# 圣灵
 
 <img src="/images/cards/puni_spirit_card.png" alt="圣灵" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -53,5 +53,5 @@
 ## 源码
 
 - `SeerPuniSpiritCard.cs`
-- `SeerPuniSpiritCounterPower.cs`（圣灵计数）
-- `SeerPuniFormPhasePower.cs`（形态阶段）
+- `SeerPuniSpiritCounterPower.cs`
+- `SeerPuniFormPhasePower.cs`

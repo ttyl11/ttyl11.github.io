@@ -24,8 +24,8 @@
 ## 详细机制
 
 - **出牌计数器**：持有者是怪物，统计的是**玩家**（怪物视角的"敌人"）打出的牌——你每打一张牌计数 +1。
-- **强制结束**：计数达到 <span style="color:#3aa675;font-weight:600">15</span> 的瞬间，调用 `PlayerCmd.EndTurn`（`canBackOut: false`，**不可撤销**）——第 15 张牌的效果正常结算完毕后回合立即被切断，之后的手牌全部作废。
-- **每回合重置**：玩家回合开始时计数清零（`AfterSideTurnStart`），单回合上限恒为 15 张。
+- **强制结束**：计数达到 <span style="color:#3aa675;font-weight:600">15</span> 的瞬间，强制结束玩家回合（不可撤销）——第 15 张牌的效果正常结算完毕后回合立即被切断，之后的手牌全部作废。
+- **每回合重置**：玩家回合开始时计数清零，单回合上限恒为 15 张。
 - **实际效果 = 单回合出牌上限 14+1**：第 15 张牌仍可打出（效果也结算），但它就是本回合最后一张。
 
 ## 小贴士
@@ -36,4 +36,4 @@
 
 ## 源码
 
-- `SeerAbsoluteLawOnePower.cs`（`AfterCardPlayed` 计数，`PlayerCmd.EndTurn(cardPlayer, false, null)` 强制结束）
+- `SeerAbsoluteLawOnePower.cs`

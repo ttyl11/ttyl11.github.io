@@ -1,4 +1,4 @@
-# 龙胆
+﻿# 龙胆
 
 > **归属**：玩家可施加
 > **施加来源**：
@@ -47,5 +47,5 @@
 
 ## 源码
 
-- `SeerDragonWhiskerPower.cs`（`AfterCardPlayed` 打牌固伤 + `TryModifyPowerAmountReceived` 异常抵消）
-- `SeerPermanentBonusPatch.cs`（永久加成开局施加）
+- `SeerDragonWhiskerPower.cs`
+- `SeerPermanentBonusPatch.cs`

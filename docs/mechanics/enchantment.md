@@ -1,4 +1,4 @@
-# 附魔
+﻿# 附魔
 
 附魔是附加到卡牌上的特殊修饰，使卡牌在打出时触发额外效果。一张卡牌只能拥有一个附魔。Seer Mod 在原版附魔系统基础上，新增了**状态宝石**和**特殊附魔**两大类。
 
@@ -120,10 +120,10 @@
 ## 源码参考
 
 - `SeerEnchantmentList.cs`
-- `SeerStatusGemBase.cs`（状态宝石基类）
-- `SeerImbuedEnchantment.cs`（注能）
-- `SeerCooldownTimeEnchantment.cs`（冷却时间）
-- `SeerStarEmperorWrathEnchantment.cs`（星皇之怒）
-- `SeerEternalRadianceEnchantment.cs`（永耀）
-- `SeerFiveTone*Enchantment.cs`（五音系列）
+- `SeerStatusGemBase.cs`
+- `SeerImbuedEnchantment.cs`
+- `SeerCooldownTimeEnchantment.cs`
+- `SeerStarEmperorWrathEnchantment.cs`
+- `SeerEternalRadianceEnchantment.cs`
+- `SeerFiveTone*Enchantment.cs`
 - `enchantments.json`（本地化原文）

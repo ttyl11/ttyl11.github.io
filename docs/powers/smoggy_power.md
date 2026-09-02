@@ -1,4 +1,4 @@
-# 烟雾弥漫
+﻿# 烟雾弥漫
 
 
 
@@ -30,4 +30,4 @@
 
 ## 源码
 
-- `SmoggyPower.cs`（原版）
+- `SmoggyPower.cs`

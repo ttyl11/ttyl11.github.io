@@ -1,4 +1,4 @@
-# 诅咒宝石
+﻿# 诅咒宝石
 
 <img src="/images/enchantments/seer_curse_status_gem.png" alt="诅咒宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 
 ## 源码
 
-- `SeerCurseStatusGem.cs`（继承 `SeerStatusGemEnchantment<SeerCursePower>`）
+- `SeerCurseStatusGem.cs`

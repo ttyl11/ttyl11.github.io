@@ -17,9 +17,9 @@
 
 ## 详细机制
 
-- **回合开始定点清除**：持有者（怪物）自己回合开始时（`AfterSideTurnStart`），对**每个玩家**各随机挑一张 PP 牌（抽牌堆 + 手牌 + 弃牌堆三堆合集中 `Pp > 0` 的），PP 直接**清零**（`ForceSetPp(0)`）。
+- **回合开始定点清除**：持有者（怪物）自己回合开始时，对**每个玩家**各随机挑一张 PP 牌（抽牌堆 + 手牌 + 弃牌堆三堆合集中 PP > 0 的），PP 直接**清零**。
 - **清零不是 -1**：与[暗滞](/powers/dark_stagnation_power.md)的"随机 -1"完全不同量级——PP5 牌被盯上等于**全部 5 次使用机会一次性蒸发**。
-- **随机不可引导**：三堆等概率抽取（`Rng.CombatCardSelection`）——囤手牌、藏关键牌都没有保护作用。
+- **随机不可引导**：三堆等概率抽取——囤手牌、藏关键牌都没有保护作用。
 - **双人模式双倍伤**：逻辑逐玩家独立执行——每个玩家每回合各被清空一张。
 
 ## 小贴士
@@ -31,5 +31,5 @@
 
 ## 源码
 
-- `SeerSpiritDrainPower.cs`（`AfterSideTurnStart`：三堆合集过滤 `Pp > 0` → `Rng.CombatCardSelection.NextItem` 随机一张 → `ForceSetPp(0)`）
+- `SeerSpiritDrainPower.cs`
 - 随机池配置：`SeerElementalCore.cs:69`（`0.00005/房`）

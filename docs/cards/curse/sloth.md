@@ -1,4 +1,4 @@
-# 懒惰
+﻿# 懒惰
 
 <img src="/images/cards/sloth.png" alt="懒惰" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -39,4 +39,4 @@
 ## 源码
 
 - `SeerSloth.cs`
-- `SeerSlothPower.cs`（攻击伤害封顶的隐藏状态）
+- `SeerSlothPower.cs`

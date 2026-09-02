@@ -1,4 +1,4 @@
-# 曝
+﻿# 曝
 
 <img src="/images/powers/expose_power.png" alt="曝" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,5 +40,5 @@
 ## 源码
 
 - `SeerExposePower.cs`
-- `SeerVanishPatch.cs`（消逝逻辑）
-- `SeerIllusionDisturbPower.cs`（幻扰成功率下降逻辑）
+- `SeerVanishPatch.cs`
+- `SeerIllusionDisturbPower.cs`

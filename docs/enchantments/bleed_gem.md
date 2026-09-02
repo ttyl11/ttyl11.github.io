@@ -1,4 +1,4 @@
-# 流血宝石
+﻿# 流血宝石
 
 <img src="/images/enchantments/seer_bleed_gem.png" alt="流血宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 
 ## 源码
 
-- `SeerBleedGem.cs`（继承 `SeerStatusGemEnchantment<SeerBleedPower>`）
+- `SeerBleedGem.cs`

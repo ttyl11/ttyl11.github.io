@@ -1,4 +1,4 @@
-# 凋零
+﻿# 凋零
 
 <img src="/images/cards/wither.png" alt="凋零" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -54,4 +54,4 @@
 ## 源码
 
 - `SeerWither.cs`
-- `SeerDefensePower.cs`（防御：每层减 1 点受攻击伤害，负层数反向增加）
+- `SeerDefensePower.cs`

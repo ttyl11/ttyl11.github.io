@@ -1,4 +1,4 @@
-# 燃料
+﻿# 燃料
 
 > 原版衍生卡牌（Fuel）
 
@@ -31,5 +31,5 @@
 
 ## 源码
 
-- `Fuel.cs`（原版卡牌定义——0 耗能、消耗、获得能量+抽牌）
-- `TokenCardPool.cs`（衍生卡牌池注册）
+- `Fuel.cs`
+- `TokenCardPool.cs`

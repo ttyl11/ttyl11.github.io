@@ -1,4 +1,4 @@
-# 涨价
+﻿# 涨价
 
 <img src="/images/cards/price_up.png" alt="涨价" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -42,5 +42,5 @@
 ## 源码
 
 - `SeerPriceUp.cs`
-- `SeerPriceUpPower.cs`（抽到时的隐藏费用状态）
-- `SeerPriceUpNextTurnPower.cs`（打出后的下回合费用状态）
+- `SeerPriceUpPower.cs`
+- `SeerPriceUpNextTurnPower.cs`

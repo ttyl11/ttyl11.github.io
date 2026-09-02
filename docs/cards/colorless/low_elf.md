@@ -1,4 +1,4 @@
-# 低等精灵
+﻿# 低等精灵
 
 <img src="/images/cards/low_elf.png" alt="低等精灵" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -37,4 +37,4 @@
 ## 源码
 
 - `SeerLowElf.cs`
-- `SeerLowElfPower.cs`（`Core/Models/Powers/`）
+- `SeerLowElfPower.cs`

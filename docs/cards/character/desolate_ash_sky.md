@@ -1,4 +1,4 @@
-# 荒烬涂天
+﻿# 荒烬涂天
 
 <img src="/images/cards/desolate_ash_sky.png" alt="荒烬涂天" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -65,4 +65,4 @@ PP: 1/1 [<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/h
 ## 源码
 
 - `SeerDesolateAshSky.cs`
-- `SeerDesolateAshSkyPower.cs`（荒灰天能力逻辑）
+- `SeerDesolateAshSkyPower.cs`

@@ -17,8 +17,8 @@
 
 ## 详细机制
 
-- **回合开始攒荆棘**：持有者（怪物）自己回合开始时（`AfterSideTurnStart`），获得 <span style="color:#3aa675;font-weight:600">1</span> 层[荆棘](/powers/thorns_power.md)（Counter 型叠加，逐回合线性累积）。
-- **荆棘的结算**（原版 `ThornsPower`）：它每次受到**常规攻击**伤害时，对攻击者反弹**荆棘层数**点固定量（`ValueProp.Unpowered`：不吃[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)，可被[格挡](/mechanics/block.md)）。
+- **回合开始攒荆棘**：持有者（怪物）自己回合开始时，获得 <span style="color:#3aa675;font-weight:600">1</span> 层[荆棘](/powers/thorns_power.md)（Counter 型叠加，逐回合线性累积）。
+- **荆棘的结算**：它每次受到**常规攻击**伤害时，对攻击者反弹**荆棘层数**点固定量（不吃[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)，可被[格挡](/mechanics/block.md)）。
 - **只反常规攻击**：技能类/非攻击伤害不触发荆棘；DoT 跳伤（无来源）也不触发。
 - **第 N 回合 = N 层荆棘**：成长完全线性——3 回合后你每刀额外挨 3 点、6 回合后 6 点。
 
@@ -32,6 +32,6 @@
 
 ## 源码
 
-- `SeerCalamityShiftPower.cs`（`AfterSideTurnStart`，`Apply<ThornsPower>` 1 层/回合）
-- 荆棘反弹：原版 `ThornsPower.cs:17-24`（`BeforeDamageReceived` → 反弹 `Amount` 点 Unpowered）
+- `SeerCalamityShiftPower.cs`
+- 荆棘反弹：原版 `ThornsPower.cs:17-24`（受击时反弹 `Amount` 点）
 - 随机池配置：`SeerElementalCore.cs:72`（`0.00025 + 0.0001/房`）

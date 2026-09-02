@@ -45,4 +45,4 @@
 
 ## 源码
 
-- `SeerNextGuaranteedCritPower.cs`（`ModifyDamageMultiplicative` 返回 1.5m；`AfterAttack` 中 `PowerCmd.Remove` 整体移除）
+- `SeerNextGuaranteedCritPower.cs`

@@ -9,7 +9,7 @@
 <tbody>
 <tr><td><img src="/images/relics/aurora_fairy.png" alt="极光仙子" style="width:80px;height:auto" /></td><td><a href="aurora_fairy">极光仙子</a></td><td>战斗开始时获得回合增伤（增伤百分比=敌方最大生命之和-自身最大生命）。 击败敌人时，为所有手牌附加奇巧，然后丢弃所有手牌。</td></tr>
 <tr><td><img src="/images/relics/ash_spirit.png" alt="灰烬之灵" style="width:80px;height:auto" /></td><td><a href="ash_spirit">灰烬之灵</a></td><td>自身回合开始时，将弃牌堆的非PP牌移入消耗牌堆。</td></tr>
-<tr><td><img src="/images/relics/azure_dragon.png" alt="天玄苍魂·青龙" style="width:80px;height:auto" /></td><td><a href="azure_dragon">天玄苍魂·青龙</a></td><td>首回合开始时，无效化所有敌方的非攻击意图。 首回合结束时，手上每剩1张牌获得1点最大生命。 每次受到攻击伤害后，扣除1点最大生命。</td></tr>
+<tr><td><img src="/images/relics/azure_dragon.png" alt="天玄苍魂·青龙" style="width:80px;height:auto" /></td><td><a href="azure_dragon">天玄苍魂·青龙</a></td><td>首回合开始时，对所有敌方施加封属（非攻击意图效果失效）。 首回合结束时，手上每剩1张牌获得1点最大生命。 每次受到攻击伤害后，扣除1点最大生命。</td></tr>
 <tr><td><img src="/images/relics/blast_pioneer.png" alt="爆破先锋" style="width:80px;height:auto" /></td><td><a href="blast_pioneer">爆破先锋</a></td><td>拾起时，向牌组中加入1张附带重放3和注能附魔的炸弹。 炸弹爆炸时，对所有友方造成7点伤害并施加1层易伤。</td></tr>
 <tr><td><img src="/images/relics/demon_baron.png" alt="恶魔男爵" style="width:80px;height:auto" /></td><td><a href="demon_baron">恶魔男爵</a></td><td>战斗开始时获得1层杂耍。 回合开始时，给予所有敌人等于回合数的灾厄。 战斗胜利时，向牌组中加入1张小丑。</td></tr>
 <tr><td><img src="/images/relics/dian_wei.png" alt="典韦" style="width:80px;height:auto" /></td><td><a href="dian_wei">典韦</a></td><td>受到伤害后全属性+1（每回合最多1次）。 回合开始时获得1点最大生命，扣除6点生命，并为手牌中随机1张牌附加消耗。</td></tr>

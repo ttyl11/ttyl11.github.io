@@ -1,4 +1,4 @@
-# 碎心
+﻿# 碎心
 
 > mod 关键词（SEER_KEYWORD_SHATTERED_HEART）
 
@@ -27,6 +27,6 @@
 
 ## 源码
 
-- `SeerKeywordCardModel.cs`（基类）
+- `SeerKeywordCardModel.cs`
 - `SeerKeywordEffectManager.cs`
 - `card_keywords.json`（本地化）

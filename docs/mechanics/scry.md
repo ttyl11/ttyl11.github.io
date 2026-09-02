@@ -1,4 +1,4 @@
-# 预见
+﻿# 预见
 
 预见是 Seer Mod 的自定义卡牌关键词，打出时查看抽牌堆顶 N 张牌，可选择丢弃其中任意数量。它是 Mod 独有的牌堆操控机制，帮助玩家优化牌堆顺序。
 
@@ -100,8 +100,8 @@
 
 ## 源码
 
-- `SeerKeywords.cs`（关键词注册）
-- `SeerScryCmd.cs`（预见命令实现——取牌、选择、丢弃）
-- `SeerKeywordCardModel.cs`（PP 关键词卡基类——打出时调用预见）
-- `SeerColorlessKeywordCardBase.cs`（无色关键词卡基类——打出时调用预见）
+- `SeerKeywords.cs`
+- `SeerScryCmd.cs`
+- `SeerKeywordCardModel.cs`
+- `SeerColorlessKeywordCardBase.cs`
 - `card_keywords.json`（本地化原文）

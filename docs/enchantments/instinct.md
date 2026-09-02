@@ -1,4 +1,4 @@
-# 本能
+﻿# 本能
 
 <img src="/images/enchantments/instinct.png" alt="本能" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -33,4 +33,4 @@
 
 ## 源码
 
-- `Instinct.cs`（原版）
+- `Instinct.cs`

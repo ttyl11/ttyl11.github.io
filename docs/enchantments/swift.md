@@ -1,4 +1,4 @@
-# 迅速
+﻿# 迅速
 
 <img src="/images/enchantments/swift.png" alt="迅速" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -35,4 +35,4 @@
 
 ## 源码
 
-- `Swift.cs`（原版）
+- `Swift.cs`

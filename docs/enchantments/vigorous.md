@@ -1,4 +1,4 @@
-# 活力
+﻿# 活力
 
 <img src="/images/enchantments/vigorous.png" alt="活力" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -35,4 +35,4 @@
 
 ## 源码
 
-- `Vigorous.cs`（原版）
+- `Vigorous.cs`

@@ -1,4 +1,4 @@
-# 手牌
+﻿# 手牌
 
 > 原版状态
 
@@ -31,6 +31,6 @@
 
 ## 源码
 
-- `StaticHoverTip.cs`（枚举定义）
+- `StaticHoverTip.cs`
 - `static_hover_tips.json`（本地化）
 - `PileType.cs`

@@ -1,4 +1,4 @@
-# 诅咒卡系统
+﻿# 诅咒卡系统
 
 Seer Mod 引入了 **17 张自定义诅咒卡**，构成一个独立的诅咒子系统。与原版诅咒牌不同，Mod 的诅咒卡大多**不需要打出**——它们只要留在手牌中就会持续产生负面效果，迫使玩家尽快处理或承受代价。
 
@@ -89,7 +89,7 @@ Seer Mod 引入了 **17 张自定义诅咒卡**，构成一个独立的诅咒子
 
 ## 源码
 
-- `SeerCurseCardBase.cs`（诅咒卡基类）
-- `SeerCurseCardPool.cs`（诅咒卡池注册）
+- `SeerCurseCardBase.cs`
+- `SeerCurseCardPool.cs`
 - `SeerBorrow.cs`、`SeerCharge.cs`、`SeerEnvy.cs` 等（各诅咒卡实现）
 - `cards.json`（本地化：`SEER_CARD_SEER_<NAME>.title` / `.description`）

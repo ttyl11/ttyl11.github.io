@@ -1,4 +1,4 @@
-# 敏捷
+﻿# 敏捷
 
 
 
@@ -35,4 +35,4 @@
 
 ## 源码
 
-- `DexterityPower.cs`（原版能力）
+- `DexterityPower.cs`

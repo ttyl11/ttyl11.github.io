@@ -34,7 +34,7 @@
 
 ## 相关卡牌
 
-- [跪地求饶](/cards/character/kneel_beg.md)（X 耗能技能，无效化 X 个敌方意图，但本回合受击则死亡）
+- [跪地求饶](/cards/character/kneel_beg.md)（X 耗能技能，随机施加 X 次攻击无效或封属，但本回合受击则死亡）
 
 ## 源码
 

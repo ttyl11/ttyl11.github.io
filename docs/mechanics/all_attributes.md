@@ -1,4 +1,4 @@
-# 全属性
+﻿# 全属性
 
 > mod 专有术语
 
@@ -25,5 +25,5 @@
 
 ## 源码
 
-- `SeerCosmicMovement.cs`（全属性施加逻辑）
-- `SeerFeatherPhantom.cs`（全属性施加逻辑）
+- `SeerCosmicMovement.cs`
+- `SeerFeatherPhantom.cs`

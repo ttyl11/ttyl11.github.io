@@ -1,4 +1,4 @@
-# 墟埪
+﻿# 墟埪
 
 <img src="/images/cards/xukong.png" alt="墟埪" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -57,4 +57,4 @@
 ## 源码
 
 - `SeerXukong.cs`
-- `SeerKeywordEffectManager.cs`（湮灭结算）
+- `SeerKeywordEffectManager.cs`

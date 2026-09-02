@@ -96,7 +96,7 @@ stateDiagram-v2
 
 ## 源码
 
-- 怪物：`SeerMojjMonster.cs`（生命 999998-1000003，开局施加三被动，三招随机分支）
-- 被动能力：`SeerMirrorImagePower.cs`（镜影术：×1000 伤害 + 低血狂暴）、`SlowPower.cs`（原版缓慢）、`SeerSpeedPower.cs`（速度 -5 → 玩家多抽 2 张）、`SeerFuryPower.cs`（狂暴）
+- `SeerMojjMonster.cs`
+- `SeerMirrorImagePower.cs`、`SlowPower.cs`、`SeerSpeedPower.cs`、`SeerFuryPower.cs`
 - 遭遇战：`SeerMojjElite.cs`（第二层精英池，单怪物）
 - 本地化：`monsters.json`（`SEER_MONSTER_SEER_MOJJ_MONSTER.*`）、`intents.json`（`SEER_DUST_RUSH.*`、`SEER_HEAVENLY_DEW.*`、`SEER_METEOR_SHOWER.*`）、`powers.json`（`SEER_POWER_SEER_MIRROR_IMAGE_POWER.*`、`SLOW_POWER.*`、`SEER_POWER_SEER_SPEED_POWER.*`、`SEER_POWER_SEER_FURY_POWER.*`）

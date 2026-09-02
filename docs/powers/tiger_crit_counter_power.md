@@ -1,4 +1,4 @@
-# 冲天霸气
+﻿# 冲天霸气
 
 > **归属**：怪物专属（玩家无法施加）
 > **施加来源**：怪物招式——[泰格尔](/monsters/boss/tiger_monster.md)「冲天霸气」：切入[愤怒姿态](/powers/wrath_stance_power.md)的同时施加 <span style="color:#3aa675;font-weight:600">2</span> 层
@@ -28,7 +28,7 @@
 - **致命一击 ×1.5**：拥有者造成攻击伤害时伤害 ×1.5，无需掷骰——独立乘法修正，与其它乘区链式相乘。
 - **多段攻击算一次**：一次攻击命令（如"攻击 ×3"）无论几段都只让层数 -1，且**每一段都享受 ×1.5**——多段攻击在计数器上"赚"。
 - **不算"真暴击"**：×1.5 不写入暴击判定系统——"暴击时触发"类效果（[镜](/powers/mirror_power.md)、[二律背反](/powers/antinomy_power.md)等）不因本能力触发；若同一次攻击的自然暴击（12.5%）也命中，总倍率 ×1.5 ×1.5 = **×2.25**。
-- **只影响常规攻击**（`IsPoweredAttack`）——固定伤害、生命流失等非攻击伤害不吃加成。
+- **只影响常规攻击**——固定伤害、生命流失等非攻击伤害不吃加成。
 
 ## 小贴士
 
@@ -44,5 +44,5 @@
 
 ## 源码
 
-- `SeerTigerStances.cs`（`SeerTigerCritCounterPower`：`ModifyDamageMultiplicative` 返回 1.5m；`AfterAttack` 层数 -1、归零移除）
+- `SeerTigerStances.cs`
 - 施加入口：`SeerTigerMonster.cs`（切换愤怒姿态时施加 2 层）

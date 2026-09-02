@@ -1,4 +1,4 @@
-# 恶魔男爵
+﻿# 恶魔男爵
 
 <img src="/images/relics/demon_baron.png" alt="恶魔男爵" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -43,6 +43,6 @@
 ## 源码
 
 - `SeerDemonBaron.cs`
-- `DoomPower.cs`（原版灾厄处决结算）
-- `JugglingPower.cs`（原版杂耍复制）
-- `SeerJoker.cs`（小丑卡）
+- `DoomPower.cs`
+- `JugglingPower.cs`
+- `SeerJoker.cs`

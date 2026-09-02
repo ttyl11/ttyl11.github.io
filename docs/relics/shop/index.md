@@ -1,4 +1,4 @@
-# 商店遗物（14 项）
+# 商店遗物（15 项）
 
 可在商店中购买的遗物。
 
@@ -7,6 +7,7 @@
 <table>
 <thead><tr><th>图片</th><th>名称</th><th>效果</th></tr></thead>
 <tbody>
+<tr><td><img src="/images/relics/seer_dimo_house.png" alt="迪莫豪斯" style="width:80px;height:auto" /></td><td><a href="dimo_house">迪莫豪斯</a></td><td>拾起时：获得诅咒云玩家，移除牌组中所有赛尔卡牌。每移除1张赛尔卡牌，获得1张原版5角色的随机稀有卡。</td></tr>
 <tr><td><img src="/images/relics/captain_roger.png" alt="罗杰船长" style="width:80px;height:auto" /></td><td><a href="captain_roger">罗杰船长</a></td><td>牌组加入卡牌赛尔号。 火堆有启动选项：启动后可打出一次，下次需重新启动。</td></tr>
 <tr><td><img src="/images/relics/dr_pike.png" alt="派克博士" style="width:80px;height:auto" /></td><td><a href="dr_pike">派克博士</a></td><td>下3个问号房间必然为疯狂科学事件。</td></tr>
 <tr><td><img src="/images/relics/leimeng_jiaoguan.png" alt="雷蒙教官" style="width:80px;height:auto" /></td><td><a href="leimeng_jiaoguan">雷蒙教官</a></td><td>在火堆升级卡牌时，为每张升级卡牌新增一个随机的赛尔附魔。</td></tr>

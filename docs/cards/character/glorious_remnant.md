@@ -1,4 +1,4 @@
-# 耀武遗辉
+﻿# 耀武遗辉
 
 <img src="/images/cards/glorious_remnant.png" alt="耀武遗辉" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -52,4 +52,4 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 ## 源码
 
 - `SeerGloriousRemnant.cs`
-- `SeerMyriadSwordsUnityPower.cs`（每回合从消耗堆打出君王之剑）
+- `SeerMyriadSwordsUnityPower.cs`

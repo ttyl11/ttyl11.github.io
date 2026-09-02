@@ -26,7 +26,7 @@
 ## 详细机制
 
 - **每回合触发**：
-  - 玩家回合开始时，先执行抽牌阶段（`ModifyHandDraw`，多抽 Bonus 张），再执行能量重置（`AfterEnergyReset`，多获 Bonus 点），最后执行回合结束（`AfterSideTurnStart`，Amount − 1）
+  - 玩家回合开始时，先执行抽牌阶段（多抽 Bonus 张），再执行能量重置（多获 Bonus 点），最后执行回合结束（Amount − 1）
   - Amount > 0 时每次玩家回合都触发，Amount 归零时能力自动移除
 
 - **多张弹簧的叠加规则（只加回合，不加数值）**：

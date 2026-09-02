@@ -17,8 +17,8 @@
 
 ## 详细机制
 
-- **开局一次性膨胀**：`BeforeCombatStart` 钩子——战斗开始的瞬间，最大生命 +<span style="color:#3aa675;font-weight:600">30%</span>（按当前 MaxHp 计算、向下取整，至少 +1）。
-- **加血即满血**：走 `CreatureCmd.GainMaxHp`——内置等量回血（上限加多少、当前血同时回多少）——效果是**满血状态整体膨胀 30%**。
+- **开局一次性膨胀**：战斗开始时，最大生命 +<span style="color:#3aa675;font-weight:600">30%</span>（按当前 MaxHp 计算、向下取整，至少 +1）。
+- **加血即满血**：等效于等量回血（上限加多少、当前血同时回多少）——效果是**满血状态整体膨胀 30%**。
 - **只在开局结算一次**：之后不再成长，与[生息](/powers/life_breath_one_power.md)系的每回合复利完全不同。
 
 ## 小贴士
@@ -30,5 +30,5 @@
 
 ## 源码
 
-- `SeerStrongBodyTwoPower.cs`（`BeforeCombatStart`，`GainMaxHp(MaxHp * 0.30)`）
+- `SeerStrongBodyTwoPower.cs`
 - 随机池配置：`SeerElementalCore.cs:64`（`0.00025/房`）

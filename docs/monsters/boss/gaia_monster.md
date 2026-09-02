@@ -202,17 +202,9 @@ flowchart TD
 
 ## 源码
 
-- 怪物：`SeerGaiaMonster.cs`
-- 被动能力：
-  - `SeerReturnToNaturePower.cs`
-  - `SeerCriticalStrikePower.cs`
-- 横幅规则：
-  - `SeerBloodRulePower.cs`
-  - `SeerHeavenRulePower.cs`
-  - `SeerEvilRulePower.cs`
-- 招式辅助能力：
-  - `SeerNextGuaranteedCritPower.cs`
-  - `SeerDoubleReflectPower.cs`
-  - `SeerVulnerableOnHitPower.cs`
+- `SeerGaiaMonster.cs`
+- `SeerReturnToNaturePower.cs`、`SeerCriticalStrikePower.cs`
+- `SeerBloodRulePower.cs`、`SeerHeavenRulePower.cs`、`SeerEvilRulePower.cs`
+- `SeerNextGuaranteedCritPower.cs`、`SeerDoubleReflectPower.cs`、`SeerVulnerableOnHitPower.cs`
 - 遭遇战：`SeerGaiaBoss.cs`、`SeerEventGaiaRuiersiEncounter.cs`
 - 本地化：`monsters.json`、`intents.json`、`powers.json`

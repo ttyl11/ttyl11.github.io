@@ -1,4 +1,4 @@
-# 免疫
+﻿# 免疫
 
 > **归属**：预留能力（当前无获取途径）
 > **施加来源**：无——没有任何卡牌、遗物、怪物或事件施加本能力；它是凝滞等异常免疫判定的源码参考实现，正常游玩不会见到
@@ -36,4 +36,4 @@
 
 ## 源码
 
-- `SeerImmunityPower.cs`（`IsDebuffOrAbnormalStatus` 判定 + 施加量归零）
+- `SeerImmunityPower.cs`

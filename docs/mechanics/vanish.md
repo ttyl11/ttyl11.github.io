@@ -1,4 +1,4 @@
-# 消逝
+﻿# 消逝
 
 消逝是 Seer Mod 独有的怪物死亡机制。当满足特定条件时，怪物死亡时**跳过所有复活和亡语效果**，并将身上的全部 Debuff 传染给存活队友。
 
@@ -92,7 +92,7 @@
 
 ## 源码
 
-- `SeerVanishPatch.cs`（消逝补丁——跳过复活和亡语、传染 Debuff）
-- `SeerExposePower.cs`（曝状态——消逝触发条件）
-- `SeerKongYuanXingZhe.cs`（空元行者遗物——消逝触发条件、诗章补回）
+- `SeerVanishPatch.cs`
+- `SeerExposePower.cs`
+- `SeerKongYuanXingZhe.cs`
 - `powers.json`（曝状态本地化原文）

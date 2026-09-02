@@ -1,4 +1,4 @@
-# Mod 配置系统
+﻿# Mod 配置系统
 
 Seer Mod 提供了 **9 项配置**，允许玩家自定义游戏体验。配置分为两类：**跑局内同步配置**（影响游戏逻辑，多人游戏中由主机同步给所有客机）和**纯客户端配置**（仅影响本地渲染/UI，不同步）。
 
@@ -73,7 +73,7 @@ Seer Mod 提供了 **9 项配置**，允许玩家自定义游戏体验。配置�
 
 ## 源码
 
-- `SeerModSettings.cs`（配置定义、加载/保存、读取方法）
-- `SeerRunSettings.cs`（跑局内同步配置类）
-- `SeerSettingsRegistry.cs`（设置界面注册）
+- `SeerModSettings.cs`
+- `SeerRunSettings.cs`
+- `SeerSettingsRegistry.cs`
 - `settings_ui.json`（设置界面本地化）

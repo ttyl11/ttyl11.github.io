@@ -1,4 +1,4 @@
-# 杂音
+﻿# 杂音
 
 <img src="/images/cards/noise.png" alt="杂音" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -40,4 +40,4 @@
 ## 源码
 
 - `SeerNoise.cs`
-- `SeerNoiseReplicatePower.cs`（回合结束复制引擎）
+- `SeerNoiseReplicatePower.cs`

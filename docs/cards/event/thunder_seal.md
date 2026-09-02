@@ -1,4 +1,4 @@
-# 激鸣雷封
+﻿# 激鸣雷封
 
 <img src="/images/cards/thunder_seal.png" alt="激鸣雷封" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -46,4 +46,4 @@ PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa
 ## 源码
 
 - `SeerThunderSeal.cs`
-- `SeerClifford.cs`（来源遗物）
+- `SeerClifford.cs`

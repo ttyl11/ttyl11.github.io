@@ -42,4 +42,4 @@
 
 ## 源码
 
-- `SeerDragonPower.cs`（继承 `SeerElementPower`）
+- `SeerDragonPower.cs`

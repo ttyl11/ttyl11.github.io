@@ -1,4 +1,4 @@
-# 稀有遗物（22 项）
+# 稀有遗物（24 项）
 
 稀有稀有度遗物，较为罕见。
 
@@ -7,8 +7,9 @@
 <table>
 <thead><tr><th>图片</th><th>名称</th><th>效果</th></tr></thead>
 <tbody>
+<tr><td><img src="/images/relics/seer_courage_ship.png" alt="勇气号" style="width:80px;height:auto" /></td><td><a href="courage_ship">勇气号</a></td><td>每次洗牌时，获得勇气之魂：自身下个回合结束时，再额外开启一回合。</td></tr>
 <tr><td><img src="/images/relics/ancient_evil_emperor.png" alt="万古邪皇·威斯克" style="width:80px;height:auto" /></td><td><a href="ancient_evil_emperor">万古邪皇·威斯克</a></td><td>①自身打出技能牌时，对随机敌人附加1层诅咒。 ②自身打出攻击牌造成伤害时，对目标附加3点固定伤害。</td></tr>
-<tr><td><img src="/images/relics/benevolent_heaven_lord_liu_bei.png" alt="仁天之君·刘备" style="width:80px;height:auto" /></td><td><a href="benevolent_heaven_lord_liu_bei">仁天之君·刘备</a></td><td>回合开始时，自身每处于一种异常状态，则随机无效化敌人一个意图。</td></tr>
+<tr><td><img src="/images/relics/benevolent_heaven_lord_liu_bei.png" alt="仁天之君·刘备" style="width:80px;height:auto" /></td><td><a href="benevolent_heaven_lord_liu_bei">仁天之君·刘备</a></td><td>回合开始时，自身每处于一种异常状态，则随机对敌人施加攻击无效或封属。</td></tr>
 <tr><td><img src="/images/relics/chaotic_snake.png" alt="混沌天蛇太祖" style="width:80px;height:auto" /></td><td><a href="chaotic_snake">混沌天蛇太祖</a></td><td>受到敌方攻击伤害后：若伤害≤20，恢复所有牌1点PP且下次造成伤害×1.5；若伤害&gt;20，恢复随机1张PP牌的满PP（优先PP为0的牌），获得1层缓冲。 打出卡牌后，有20%概率令所有对手进入睡眠。</td></tr>
 <tr><td><img src="/images/relics/clock_executioner.png" alt="时钟诛机" style="width:80px;height:auto" /></td><td><a href="clock_executioner">时钟诛机</a></td><td>拾起时，获得1张多元时间线。 选择1张卡牌附魔：冷却时间。</td></tr>
 <tr><td><img src="/images/relics/cold_dragon_robe.png" alt="寒吟·龙裳" style="width:80px;height:auto" /></td><td><a href="cold_dragon_robe">寒吟·龙裳</a></td><td>造成的攻击伤害最低为7。 每次受到的伤害减少2。 回合结束时，给予所有敌人1点固定伤害并回复等量生命；若生命值低于33%则翻倍。</td></tr>
@@ -16,7 +17,7 @@
 <tr><td><img src="/images/relics/corrupt_demon_clawrify.png" alt="腐坏幽魔·克劳里菲" style="width:80px;height:auto" /></td><td><a href="corrupt_demon_clawrify">腐坏幽魔·克劳里菲</a></td><td>①回合开始时，若对方不处于异常状态则获得1层先制；每次受到的伤害不超过25×敌人数。 ②回合结束时，若自身处于任一属性提升则令敌方寄生2，否则回复3点生命；若自身处于异常状态则所有异常状态回合数减至1。</td></tr>
 <tr><td><img src="/images/relics/demon_king.png" alt="厉魇魔王·咤克斯" style="width:80px;height:auto" /></td><td><a href="demon_king">厉魇魔王·咤克斯</a></td><td>①战斗开始时，获得增伤5%和减伤5%。 ②受到攻击伤害后，若生命值&gt;70%，下回合先制+1。 ③攻击未击杀敌人时有0.5%概率直接秒杀。 ④每场战斗胜利后，增伤、减伤各提升2%，秒杀概率提升0.2%。</td></tr>
 <tr><td><img src="/images/relics/dragon_of_doom.png" alt="终末之灭·天邪龙王" style="width:80px;height:auto" /></td><td><a href="dragon_of_doom">终末之灭·天邪龙王</a></td><td>在你的回合开始时，若当前生命高于对手，获得先制+1且当回合攻击伤害+20%；若当前生命低于对手，获得1层邪龙之噬。 受到攻击伤害后，20%概率回复等量生命，未触发则给所有敌人附加伤害量30%的固定伤害。</td></tr>
-<tr><td><img src="/images/relics/evil_beast_emperor.png" alt="邪冥·兽皇" style="width:80px;height:auto" /></td><td><a href="evil_beast_emperor">邪冥·兽皇</a></td><td>敌方回合开始时，每个怪物的所有意图有25%概率被无效化。</td></tr>
+<tr><td><img src="/images/relics/evil_beast_emperor.png" alt="邪冥·兽皇" style="width:80px;height:auto" /></td><td><a href="evil_beast_emperor">邪冥·兽皇</a></td><td>敌方回合开始时，意图含攻击或防御的怪物有25%概率被同时施加攻击无效与封属。</td></tr>
 <tr><td><img src="/images/relics/flying_scythe.png" alt="风殇影翼·飞镰" style="width:80px;height:auto" /></td><td><a href="flying_scythe">风殇影翼·飞镰</a></td><td>回合开始时，令所有敌人力量-1、命中-1。 若上回合受到的未被格挡伤害&gt;40，获得1层无实体；否则获得1层先制。</td></tr>
 <tr><td><img src="/images/relics/guilty_shears_sethers.png" alt="裁罪魔剪·塞泽斯" style="width:80px;height:auto" /></td><td><a href="guilty_shears_sethers">裁罪魔剪·塞泽斯</a></td><td>①你每损失1生命，造成伤害提升0.5%，受到伤害和固定伤害减少0.1%。低于半血的部分翻倍。 ②战斗结束时，你可以删去一张牌，若如此做，你损失50%当前生命值。</td></tr>
 <tr><td><img src="/images/relics/holy_king_sargeros.png" alt="圣王·萨格罗斯" style="width:80px;height:auto" /></td><td><a href="holy_king_sargeros">圣王·萨格罗斯</a></td><td>①每次生成状态牌时，获得1点力量。 ②打出攻击牌时，随机生成1张状态牌加入弃牌堆。 ③打出技能牌时，随机消耗弃牌堆中1张状态牌。 ④每次回复生命时，随机解除自身1个debuff。</td></tr>
@@ -29,4 +30,5 @@
 <tr><td><img src="/images/relics/rubik_supercomputer.png" alt="超算鲁比克" style="width:80px;height:auto" /></td><td><a href="rubik_supercomputer">超算鲁比克</a></td><td>①在每场战斗开始时，检索整个牌组中所有拥有PP值的卡牌。 ②若不足4张，获得1层机器学习。 ③若≥4张：选取4张PP牌为基准（优先不同PP值），以(MaxPp-1)构成2×2矩阵计算秩： 秩为0：获得异常免疫（永久）+虚空形态；秩为1：群蛇</td></tr>
 <tr><td><img src="/images/relics/vermilion_bird.png" alt="炽羽炎凤·朱雀" style="width:80px;height:auto" /></td><td><a href="vermilion_bird">炽羽炎凤·朱雀</a></td><td>①自身死亡时重生一次（每场游戏只触发一次），重生后回复50%最大生命并获得3层缓冲。 ②触发重生的每一次战斗结束后，将一张狱火加入牌组。</td></tr>
 <tr><td><img src="/images/relics/keiza.png" alt="克雷扎" style="width:80px;height:auto" /></td><td><a href="keiza">克雷扎</a></td><td>每回合开始时，选择你抽牌堆中的一张牌，将其变为弹簧。</td></tr>
+<tr><td><img src="/images/relics/seer_chocoli.png" alt="巧克利" style="width:80px;height:auto" /></td><td><a href="chocoli">巧克利</a></td><td>①每隔3场战斗获得跑步机会 ②战斗开始时施加2层灾厄 ③跑步：消耗次数，每消耗1次敏捷+1、速度+2、手牌上限+1，并复制一份巧克利遗物。</td></tr>
 </tbody></table>

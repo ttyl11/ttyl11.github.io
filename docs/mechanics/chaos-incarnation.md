@@ -1,4 +1,4 @@
-# 混沌化身
+﻿# 混沌化身
 
 混沌化身是 Seer Mod 独有的能量替代机制。持有此能力时，能量不足仍可打出卡牌，差额由最大生命值抵扣。
 
@@ -109,6 +109,6 @@
 
 ## 源码
 
-- `SeerSoulsonChaosIncarnationPower.cs`（混沌化身能力——费用记录与抵扣）
-- `SeerHasEnoughResourcesPatch.cs`（能量不足时允许打出的补丁）
+- `SeerSoulsonChaosIncarnationPower.cs`
+- `SeerHasEnoughResourcesPatch.cs`
 - `powers.json`（本地化原文）

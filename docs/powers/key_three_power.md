@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **必暴**：无概率判定——持有者（怪物）的每次**常规攻击**（`IsPoweredAttack`）伤害恒定 <span style="color:#3aa675;font-weight:600">×2</span>（`ModifyDamageMultiplicative` 直接返回 `2`）。
+- **必暴**：无概率判定——持有者（怪物）的每次**常规攻击**伤害恒定 <span style="color:#3aa675;font-weight:600">×2</span>（乘区倍增）。
 - **与 I/II 的区别**：[要点探寻I](/powers/key_one_power.md)（15% 掷骰）/[要点探寻II](/powers/key_two_power.md)（30% 掷骰）还有波动，III 是确定性翻倍——没有"运气好躲过"这回事。
 
 ## 小贴士
@@ -27,5 +27,5 @@
 
 ## 源码
 
-- `SeerKeyThreePower.cs`（`ModifyDamageMultiplicative` 对常规攻击恒返回 `2`，无掷骰）
+- `SeerKeyThreePower.cs`
 - 随机池配置：`SeerElementalCore.cs:101`（`0.000005/房`，与[神话](/powers/myth_power.md)同档的稀有度）

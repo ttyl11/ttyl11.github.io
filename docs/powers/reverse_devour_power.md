@@ -17,10 +17,10 @@
 
 ## 详细机制
 
-- **受击即扣 PP**：`AfterDamageReceived` 钩子——持有者（怪物）每次受到伤害（`TotalDamage > 0`）且来源是玩家时，从**该玩家**的抽牌堆 + 手牌 + 弃牌堆三堆合集中随机挑一张 PP > 0 的 PP 牌，PP <span style="color:#3aa675;font-weight:600">-2</span>（最低归 0）。
-- **格挡挡不住触发**：判定的是 `TotalDamage`（格挡**前**总伤害）——哪怕伤害被[格挡](/mechanics/block.md)完全吸收，只要打了就算一次，照样扣 PP。
+- **受击即扣 PP**：持有者（怪物）每次受到伤害且来源是玩家时，从**该玩家**的抽牌堆 + 手牌 + 弃牌堆三堆合集中随机挑一张 PP > 0 的 PP 牌，PP <span style="color:#3aa675;font-weight:600">-2</span>（最低归 0）。
+- **格挡挡不住触发**：判定的是格挡**前**总伤害——哪怕伤害被[格挡](/mechanics/block.md)完全吸收，只要打了就算一次，照样扣 PP。
 - **多段攻击段段触发**：每次伤害结算独立走钩子——5 段连击一次出牌 = 随机扣 5 次 × 2 PP。
-- **只认玩家来源**：`dealer.Player != null` 过滤——DoT 跳伤（无来源）、怪物间伤害不触发。
+- **只认玩家来源**：DoT 跳伤（无来源）、怪物间伤害不触发。
 
 ## 小贴士
 
@@ -31,5 +31,5 @@
 
 ## 源码
 
-- `SeerReverseDevourPower.cs`（`AfterDamageReceived`：`TotalDamage > 0` 且 `dealer.Player != null` → 三堆合集随机一张 `ForceSetPp(Pp - 2)`）
-- 随机池配置：`SeerElementalCore.cs:70`（`0.0002/房`）
+- `SeerReverseDevourPower.cs`
+- `SeerElementalCore.cs`

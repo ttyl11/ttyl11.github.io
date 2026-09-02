@@ -1,4 +1,4 @@
-# 爆破先锋
+﻿# 爆破先锋
 
 <img src="/images/relics/blast_pioneer.png" alt="爆破先锋" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -41,5 +41,5 @@
 ## 源码
 
 - `SeerBlastPioneer.cs`
-- `TheBomb.cs`（原版炸弹卡）
-- `TheBombPower.cs`（原版炸弹能力）
+- `TheBomb.cs`
+- `TheBombPower.cs`

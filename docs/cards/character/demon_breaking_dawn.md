@@ -1,4 +1,4 @@
-# 魔·决裂黎明
+﻿# 魔·决裂黎明
 
 <img src="/images/cards/demon_breaking_dawn.png" alt="魔·决裂黎明" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -59,4 +59,4 @@ PP: 5/5 对所有敌人造成<span style="color:#3aa675;font-weight:600">44</spa
 ## 源码
 
 - `SeerDemonBreakingDawn.cs`
-- `SeerBreakingDawnPower.cs`（战斗结束奖励逻辑）
+- `SeerBreakingDawnPower.cs`

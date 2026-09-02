@@ -1,4 +1,4 @@
-# 沉眠精华
+﻿# 沉眠精华
 
 <img src="/images/enchantments/slumbering_essence.png" alt="沉眠精华" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -35,4 +35,4 @@
 
 ## 源码
 
-- `SlumberingEssence.cs`（原版）
+- `SlumberingEssence.cs`

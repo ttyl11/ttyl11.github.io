@@ -1,4 +1,4 @@
-# 元素克制
+﻿# 元素克制
 
 Seer Mod 引入了赛尔号原版的元素克制系统。**26 种元素**构成完整的克制表，影响攻击伤害的最终结算。
 
@@ -87,4 +87,4 @@ Seer Mod 引入了赛尔号原版的元素克制系统。**26 种元素**构成�
 
 - `ElementType.cs`
 - `SeerElementPower.cs`
-- `SeerAncientPower.cs`（及其它 25 个元素 Power 文件）
+- `SeerAncientPower.cs`

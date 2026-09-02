@@ -1,4 +1,4 @@
-# 不死之身
+﻿# 不死之身
 
 
 <img src="/images/powers/immortal_body_power.png" alt="不死之身" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
@@ -35,4 +35,4 @@
 ## 源码
 
 - `SeerImmortalBodyPower.cs`
-- `BufferPower.cs`（原版能力，抵消生命值损失）
+- `BufferPower.cs`

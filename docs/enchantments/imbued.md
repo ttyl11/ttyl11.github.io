@@ -1,4 +1,4 @@
-# 注能
+﻿# 注能
 
 <img src="/images/enchantments/imbued.png" alt="注能" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -35,5 +35,5 @@
 
 ## 源码
 
-- `Imbued.cs`（原版）
-- `SeerImbued.cs`（mod 重写）
+- `Imbued.cs`
+- `SeerImbued.cs`

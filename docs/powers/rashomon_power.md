@@ -1,4 +1,4 @@
-# 罗生门
+﻿# 罗生门
 
 > **归属**：怪物专属（玩家无法施加）
 > **施加来源**：怪物招式——[斗神瑞尔斯](/monsters/normal/doushen_ruiersi_monster.md)的"罗生门"（5 层）
@@ -34,5 +34,5 @@
 
 ## 源码
 
-- `SeerRashomonPower.cs`（免疫 + 对方回合结束衰减）
+- `SeerRashomonPower.cs`
 - `SeerPpCardModel.cs` 的 `CalculateModifiedCost`（PP 消耗 ×3 实现）

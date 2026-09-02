@@ -1,4 +1,4 @@
-# 至序圣华
+﻿# 至序圣华
 
 <img src="/images/relics/order_holy_hua.png" alt="至序圣华" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -69,5 +69,5 @@
 ## 源码
 
 - `SeerOrderHolyHua.cs`
-- `SeerHolyForgeCounterPower.cs`（圣铸计数与圣剑生成）
-- `SeerOrderHolyHuaRevivePower.cs`（复活与模式切换）
+- `SeerHolyForgeCounterPower.cs`
+- `SeerOrderHolyHuaRevivePower.cs`

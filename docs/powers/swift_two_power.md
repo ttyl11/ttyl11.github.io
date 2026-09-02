@@ -17,8 +17,8 @@
 
 ## 详细机制
 
-- **每回合给怪物续先制**：怪物自己回合开始时（`AfterSideTurnStart`）给自己施加 <span style="color:#3aa675;font-weight:600">1</span> 层[先制](/powers/first_strike_power.md)——敌方持有的先制是**反制效果**：你打出的卡牌耗能每层 <span style="color:#d44;font-weight:600">+1</span>。
-- **常驻"首牌税"**：你打出任意一张牌后先制清空（`BeforeCardPlayed`），但怪物下个回合开始又补 1 层——**你每个回合的第一张牌都被 +1 费**，直到它死。
+- **每回合给怪物续先制**：怪物自己回合开始时给自己施加 <span style="color:#3aa675;font-weight:600">1</span> 层[先制](/powers/first_strike_power.md)——敌方持有的先制是**反制效果**：你打出的卡牌耗能每层 <span style="color:#d44;font-weight:600">+1</span>。
+- **常驻"首牌税"**：你打出任意一张牌后先制清空，但怪物下个回合开始又补 1 层——**你每个回合的第一张牌都被 +1 费**，直到它死。
 - **多怪线性叠加**：两只迅捷II 同场 = 每回合首牌 +<span style="color:#d44;font-weight:600">2</span> 费。
 
 ## 小贴士
@@ -29,6 +29,6 @@
 
 ## 源码
 
-- `SeerSwiftTwoPower.cs`（`AfterSideTurnStart`，`Apply<SeerFirstStrikePower>` 1 层/回合）
+- `SeerSwiftTwoPower.cs`
 - 先制结算：`SeerFirstStrikePower.cs`（敌方持有时玩家耗能 +层数；玩家打出任意牌后移除）
 - 随机池配置：`SeerElementalCore.cs:87`（`0.000015/房`）

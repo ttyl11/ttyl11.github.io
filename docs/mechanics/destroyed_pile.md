@@ -1,4 +1,4 @@
-# 销毁牌堆
+﻿# 销毁牌堆
 
 销毁牌堆是 Seer Mod 通过 RitsuLib 注册的**自定义战斗内牌堆**，用于隔离本场战斗中不再使用的卡牌。它独立于抽牌堆、弃牌堆、消耗堆和真神牌堆，仅在当前战斗中存在，战斗结束时自动清空。战斗界面中，销毁牌堆按钮显示在消耗牌堆按钮正上方，真神牌堆按钮则在销毁牌堆上方。
 
@@ -49,6 +49,6 @@
 
 ## 源码
 
-- `SeerDestroyedPileHelper.cs`（牌堆注册、获取逻辑）
-- `ModInitializer.cs`（牌堆注册调用）
+- `SeerDestroyedPileHelper.cs`
+- `ModInitializer.cs`
 - `static_hover_tips.json`（牌堆本地化文本）

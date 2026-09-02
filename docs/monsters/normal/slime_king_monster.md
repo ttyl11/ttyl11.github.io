@@ -82,9 +82,9 @@ stateDiagram-v2
 
 ## 源码
 
-- 怪物：`SeerSlimeKingMonster.cs`
-- 被动能力：`SeerEndlessIllusionPower.cs`
-- 招式相关 Power：`SeerLegendaryBarrierPower.cs`、`SeerFlashVortexPower.cs`、`SeerFixedDamagePower.cs`
-- 卡牌：`SeerSlimeQuest.cs`（黏液？）
+- `SeerSlimeKingMonster.cs`
+- `SeerEndlessIllusionPower.cs`
+- `SeerLegendaryBarrierPower.cs`、`SeerFlashVortexPower.cs`、`SeerFixedDamagePower.cs`
+- 卡牌：`SeerSlimeQuest.cs`
 - 遭遇战：`SeerSlimeKingStrongEncounter.cs`、`SeerSlimePrinceDoubleKingWeakEncounter.cs`
 - 本地化：`monsters.json`（`SEER_MONSTER_SEER_SLIME_KING_MONSTER.*`）、`intents.json`（`SEER_DIMENSION_IMPACT.*`、`SEER_LEGENDARY_BARRIER.*`、`SEER_KINGS_WRATH.*`）、`powers.json`（`SEER_POWER_SEER_ENDLESS_ILLUSION_POWER.*`、`SEER_POWER_SEER_LEGENDARY_BARRIER_POWER.*`、`SEER_POWER_SEER_FLASH_VORTEX_POWER.*`、`SEER_POWER_SEER_FIXED_DAMAGE_POWER.*`）

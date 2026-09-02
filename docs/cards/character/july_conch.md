@@ -45,4 +45,4 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 ## 源码
 
 - `SeerJulyConch.cs`
-- `SeerAbnormalStatus.cs`（异常状态列表）
+- `SeerAbnormalStatus.cs`

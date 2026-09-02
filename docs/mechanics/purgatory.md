@@ -1,4 +1,4 @@
-# 炼狱
+﻿# 炼狱
 
 > mod 关键词
 
@@ -27,6 +27,6 @@
 
 ## 源码
 
-- `SeerKeywordEffectManager.cs`（关键词效果管理器）
-- `SeerKeywordCardModel.cs`（关键词卡牌基类）
+- `SeerKeywordEffectManager.cs`
+- `SeerKeywordCardModel.cs`
 - `card_keywords.json`（本地化：`SEER_KEYWORD_PURGATORY.title` = "炼狱"）

@@ -1,4 +1,4 @@
-# 邪恶
+﻿# 邪恶
 
 > mod 关键词
 
@@ -28,6 +28,6 @@
 ## 源码
 
 - `SeerKeywordEffectManager.cs`
-- `SeerEvilKeywordPower.cs`（战斗结束生成复制品）
-- `SeerKeywordCardModel.cs`（基类）
+- `SeerEvilKeywordPower.cs`
+- `SeerKeywordCardModel.cs`
 - `card_keywords.json`（本地化）

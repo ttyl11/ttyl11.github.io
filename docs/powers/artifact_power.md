@@ -1,4 +1,4 @@
-# 人工制品
+﻿# 人工制品
 
 
 
@@ -36,4 +36,4 @@
 
 ## 源码
 
-- `ArtifactPower.cs`（原版，位于 `MegaCrit.Sts2.Core.Models.Powers`）
+- `ArtifactPower.cs`

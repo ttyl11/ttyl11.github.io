@@ -1,4 +1,4 @@
-# 毁灭
+﻿# 毁灭
 
 > mod 关键词
 
@@ -30,7 +30,7 @@
 
 ## 源码
 
-- `SeerKeywordEffectManager.cs`（`ApplyDestruction` 方法）
-- `SeerKeywordCardModel.cs`（基类，OnPlay 中触发）
-- `SeerDestroyedPileHelper.cs`（销毁牌堆注册与获取）
+- `SeerKeywordEffectManager.cs`
+- `SeerKeywordCardModel.cs`
+- `SeerDestroyedPileHelper.cs`
 - `card_keywords.json`（本地化）

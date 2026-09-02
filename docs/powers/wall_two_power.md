@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **门槛式免疫**：持有者每次 HP 损失结算时，若损失量低于 <span style="color:#3aa675;font-weight:600">8</span> 点则直接归 0（`ModifyHpLostBeforeOsty` 钩子，在奥斯提结算前判定）。
+- **门槛式免疫**：持有者每次 HP 损失结算时，若损失量低于 <span style="color:#3aa675;font-weight:600">8</span> 点则直接归 0（在奥斯提结算前的 HP 损失钩子中判定）。
 - **不是减伤**：伤害 ≥ <span style="color:#3aa675;font-weight:600">8</span> 时**全额生效**——"全免或全不免"，不是"减免 8 点"。
 - **逐次判定**：多段攻击每段单独过门槛。
 

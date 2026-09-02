@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **回合开始涨上限**：持有者（怪物）自己回合开始时（`AfterSideTurnStart`），最大生命 <span style="color:#3aa675;font-weight:600">+4%</span>（`GainMaxHp`）——且 `GainMaxHp` 内置等量回血（加多少上限就同时回多少血）。
+- **回合开始涨上限**：持有者（怪物）自己回合开始时，最大生命 <span style="color:#3aa675;font-weight:600">+4%</span>，内置等量回血（加多少上限就同时回多少血）。
 - **复利成长**：按当前最大生命取百分比——上限越涨，每回合加得越多（200 血怪：+8 → 208 → +8……）。
 - **无限持续**：持有者活着就每回合执行。
 
@@ -29,4 +29,4 @@
 
 ## 源码
 
-- `SeerLifeBreathOnePower.cs`（`AfterSideTurnStart`，`GainMaxHp(MaxHp * 0.04)`）
+- `SeerLifeBreathOnePower.cs`

@@ -1,4 +1,4 @@
-# 嫉妒
+﻿# 嫉妒
 
 <img src="/images/cards/envy.png" alt="嫉妒" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -35,4 +35,4 @@
 
 ## 源码
 
-- `SeerEnvy.cs`（位于 `Curses/` 子目录）
+- `SeerEnvy.cs`

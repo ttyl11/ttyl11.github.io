@@ -1,4 +1,4 @@
-# 神剑·天音
+﻿# 神剑·天音
 
 <img src="/images/relics/divine_sword_tianyin.png" alt="神剑·天音" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -38,5 +38,5 @@
 ## 源码
 
 - `SeerDivineSwordTianyin.cs`
-- `ForgeCmd.cs`（铸造给君王之剑加伤、无剑生成剑）
-- `SovereignBlade.cs`（君王之剑：升级降费、保留、招架联动格挡）
+- `ForgeCmd.cs`
+- `SovereignBlade.cs`

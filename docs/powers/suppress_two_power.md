@@ -17,7 +17,7 @@
 
 ## 详细机制
 
-- **上限免疫**：每次 HP 损失结算时，若损失量**高于** <span style="color:#3aa675;font-weight:600">50</span> 点则直接归 0（`ModifyHpLostBeforeOsty` 钩子）；≤ 50 点的伤害全额生效。
+- **上限免疫**：每次 HP 损失结算时，若损失量**高于** <span style="color:#3aa675;font-weight:600">50</span> 点则直接归 0（在 HP 损失钩子中判定）；≤ 50 点的伤害全额生效。
 - **比[抑锋I](/powers/suppress_one_power.md)更苛刻**：上限从 80 压到 50，中配卡组的常规输出（60~80 一击）也会被打空。
 - **逐次判定**：多段攻击每段单独过门槛。
 

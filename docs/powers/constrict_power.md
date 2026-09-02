@@ -48,4 +48,4 @@
 ## 源码
 
 - `SeerConstrictPower.cs`
-- `SeerAbnormalStatus.cs`（异常状态注册）
+- `SeerAbnormalStatus.cs`

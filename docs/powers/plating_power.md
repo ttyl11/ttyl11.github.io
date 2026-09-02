@@ -1,4 +1,4 @@
-# 覆甲
+﻿# 覆甲
 
 
 
@@ -42,4 +42,4 @@
 
 ## 源码
 
-- `PlatingPower.cs`（原版）
+- `PlatingPower.cs`

@@ -1,4 +1,4 @@
-# 激发
+﻿# 激发
 
 > 原版状态
 
@@ -27,4 +27,4 @@
 
 ## 源码
 
-- `StaticHoverTip.cs`（原版）
+- `StaticHoverTip.cs`

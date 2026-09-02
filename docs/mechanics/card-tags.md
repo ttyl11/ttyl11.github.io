@@ -1,4 +1,4 @@
-# 角色卡牌标签
+﻿# 角色卡牌标签
 
 角色卡牌标签是 Seer Mod 通过 RitsuLib 注册的自定义 CardTag 系统，为 5 种原版角色分别定义专属标签，实现"仅对某角色生效"的卡牌过滤机制。
 
@@ -123,6 +123,6 @@ Mod 也使用原版的 CardTag 系统：
 
 ## 源码
 
-- `SeerCardTags.cs`（5 种角色标签定义、ForCharacterId 映射）
-- `SeerTags.cs`（龙标签注册）
+- `SeerCardTags.cs`
+- `SeerTags.cs`
 - 各卡牌文件（通过卡牌标签属性绑定）

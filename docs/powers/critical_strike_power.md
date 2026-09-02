@@ -25,7 +25,7 @@
 ## 详细机制
 
 - **引擎本体**：本能力不只是"12.5% 概率"——所有暴击判定（自然掷骰、锁定档位、外部强制暴击）与暴击增伤都由它执行。**没有本能力的单位完全不会暴击**，[锁定I](/powers/lock_one_power.md)/[锁定II](/powers/lock_two_power.md)等档位标记单独挂在身上也不起作用。
-- **判定流程**：每次攻击命令开始时掷骰一次（`Rng.CombatTargets`，多人同步安全）：
+- **判定流程**：每次攻击命令开始时掷骰一次（多人同步安全）：
   - 默认档：掷骰 ≤<span style="color:#3aa675;font-weight:600">12.5</span>% → 暴击
   - [锁定I](/powers/lock_one_power.md)档：掷骰 ≤<span style="color:#3aa675;font-weight:600">50</span>% → 暴击（替换 12.5% 基准）
   - [锁定II](/powers/lock_two_power.md)档：跳过掷骰，直接判定暴击
@@ -33,14 +33,14 @@
 - **一次攻击只掷一次**：多段攻击（如 3×5）共享判定——要么全部段数暴击，要么全部不暴。
 - **暴击增伤 ×1.5**：判定成功时攻击伤害 ×1.5（独立乘区，与其它乘法修正链式相乘）。
 - **"暴击时触发"的查询口**：[镜](/powers/mirror_power.md)、[二律背反](/powers/antinomy_power.md)、[五月之刃](/powers/may_edge_power.md)、[天规](/powers/heaven_rule_power.md)、[返璞归真](/powers/return_to_nature_power.md)、[应援](/powers/support_power.md)等"暴击时"效果都查询本能力的判定结果——[必定暴击](/powers/next_guaranteed_crit_power.md)的 ×1.5 **不写入判定**，不触发这些联动。
-- **只影响常规攻击**（`IsPoweredAttack`）——[固定伤害](/powers/fixed_damage_power.md)、DoT 等非攻击伤害不参与暴击。
+- **只影响常规攻击**——[固定伤害](/powers/fixed_damage_power.md)、DoT 等非攻击伤害不参与暴击。
 
 ## 小贴士
 
 - **全场默认在场**：群星的礼赠是初始遗物，每次玩家回合开始兜底补挂——实际对局中敌我双方永远拥有暴击系统，不存在"谁没有暴击资格"的问题。
 - **期望收益很低但特定战斗里是大事**：12.5% × 1.5 ≈ 全程期望 1.06 倍攻击伤害——平时影响不大；但盖亚"天"规则（非暴击受伤减半、暴击受伤×3）这类战斗里，你的刀暴不暴直接决定输出量级。
 - **想稳定触发"暴击时"联动**：思路只有提档（锁定I/II）或用北海之刃系强制暴击——光堆[必定暴击](/powers/next_guaranteed_crit_power.md)只加伤害不触发联动。
-- **驱散不掉**：本能力为中性，驱散增益/减益对它无效；想压暴击只能让它不攻击（眩晕、无效化意图）或把格挡堆够。
+- **驱散不掉**：本能力为中性，驱散增益/减益对它无效；想压暴击只能让它不攻击（眩晕、攻击无效）或把格挡堆够。
 
 ## 相关能力
 
@@ -54,6 +54,6 @@
 
 ## 源码
 
-- `SeerCriticalStrikePower.cs`（`BeforeAttack` 掷骰与锁定档位、`ModifyDamageMultiplicative` ×1.5、`IsCurrentAttackCritical` 联动查询口）
-- 全场兜底挂载：`SeerElementalCore.cs`（`BeforeSideTurnStart`，玩家回合开始给玩家方 + 敌方全体补挂）
-- 怪物开局自挂：`SeerGaiaMonster.cs`（`AfterAddedToRoom`）、`SeerRayMonster.cs`
+- `SeerCriticalStrikePower.cs`
+- `SeerElementalCore.cs`
+- `SeerGaiaMonster.cs`、`SeerRayMonster.cs`
