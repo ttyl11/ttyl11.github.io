@@ -29,7 +29,7 @@
 - **[溯引](/mechanics/suyin.md)**：修复格式问题（移除多余分隔符和标题行），移除代码实现段落（违反规则 8.3），重写关键细节为玩家语言
 - **[凝驻](/mechanics/ningzhu.md)**：修复格式问题（移除多余分隔符和标题行），移除代码实现段落（违反规则 8.3），重写关键细节移除源码术语，修复链接格式
 - **[回响](/mechanics/echo.md)**：修正为"每回合开始时，若此牌在抽牌堆，向弃牌堆生成一张复制品"（原为旧效果"加入手牌"）
-- [关键词图鉴](/mechanics/keywords.md)：Mod 关键词数量由 25 修正为 27，同步回响效果描述
+- [关键词图鉴](/mechanics/keywords.md)：Mod 关键词数量由 25 修正为 34，同步回响效果描述
 
 ### 卡牌图鉴
 
@@ -69,7 +69,7 @@
 
 ### 其他
 
-- 重构[关键词](/mechanics/keywords.md)为导航目录页，采用表格形式展示全部 21 个关键词，每行含名称与效果摘要，点击跳转至详情页
+- 重构[关键词](/mechanics/keywords.md)为导航目录页，采用表格形式展示全部 34 个关键词，每行含名称与效果摘要，点击跳转至详情页
 - 修正[吕蒙](/relics/ancient/lu_meng.md)小贴士中的源码术语（`CardSelectCmd.FromSimpleGrid`、`SeerLvMengCardSelectPatch`）
 - 修复[吕蒙](/relics/ancient/lu_meng.md)、[鬼焰神君·陆逊](/relics/ancient/gui_yan_shen_jun_lu_xun.md)、[横槊赋诗](/cards/ancient/heng_shuo_fu_shi.md)多处死链
 - 清理[斩一](/powers/sharp_one_power.md)、[斩二](/powers/sharp_two_power.md)、[斩三](/powers/sharp_three_power.md)、[锁定I](/powers/lock_one_power.md)、[锁定II](/powers/lock_two_power.md)、[解离](/powers/resolve_power.md)、[强韧体魄III](/powers/strong_body_three_power.md)、[虎刃反击](/powers/tiger_crit_counter_power.md)等能力详情页中的违规源码术语（如钩子名、字段名、类名引用）
