@@ -4,12 +4,13 @@
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
+- **分类**: 角色（圣灵谱尼）牌（带关键词）
 - **最大PP**: 5
 - **能量消耗**: 1
 - **类型**: 攻击
 - **稀有度**: 普通
 - **目标**: 敌方单体
+- **关键词**: [溯引](/mechanics/suyin.md)
 - **可升级**: 是（1 级）
 
 ### 数值参数
@@ -22,11 +23,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d4a017;font-weight:600">龙胆</span>，造成层数平方的伤害。
+[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">龙胆</span>。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d4a017;font-weight:600">龙胆</span>，造成层数平方的伤害。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">饮血</span>](/mechanics/vampiric.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d4a017;font-weight:600">龙胆</span>，造成层数平方的伤害。
+[<span style="color:#d4a017;font-weight:600">饮血</span>](/mechanics/vampiric.md)。[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">龙胆</span>。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d4a017;font-weight:600">龙胆</span>，造成层数平方的伤害。
 
 ## 小贴士
 
@@ -38,11 +39,16 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 - **升级饮血补足生存**：升级添加[饮血](/mechanics/vampiric.md)关键词，造成的攻击伤害按比例回血。平方伤害越高回血越多——<span style="color:#3aa675;font-weight:600">64</span> 伤时一口回大半管血，让这张牌从纯输出变成输出+续航。
 - **短战斗收益有限**：平方伤害需要多次打出累积，短战斗（1-2 回合）只打出一次 <span style="color:#3aa675;font-weight:600">4</span> 伤等于浪费。这张牌只适合长战斗（Boss 战、多波精英战），短战斗别留这张牌。
 - **性价比**：<span style="color:#3aa675;font-weight:600">1</span> 费给 <span style="color:#3aa675;font-weight:600">2</span> 层龙胆 + 平方伤害 + 异常免疫 + 固定伤害联动，单次 <span style="color:#3aa675;font-weight:600">4</span> 伤偏低但雪球效应 + 多重被动让长战斗收益爆炸性增长。
+- **带[溯引](/mechanics/suyin.md)**：抽到此牌时触发——获得 <span style="color:#3aa675;font-weight:600">1</span> 层[龙胆](/powers/dragon_whisker_power.md)，每次抽到都叠 1 层（多张同名反复抽可累积）。还没打出就能先长龙胆层数，等于打第一拳前雪球已经先滚了一圈，进一步抬高平方伤害基数。
 
 ## 相关能力
 
 - [龙胆](/powers/dragon_whisker_power.md)：增益，抵消异常状态消耗 1 层；每打出一张牌对随机敌人施加固定伤害
 - [固定伤害](/powers/fixed_damage_power.md)：减益能力，目标下回合开始时受到等于层数的固定伤害
+
+## 相关机制
+
+- [溯引](/mechanics/suyin.md)（抽到此牌时获得 1 层龙胆）
 
 ## 源码
 

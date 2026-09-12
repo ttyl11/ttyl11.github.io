@@ -1,0 +1,53 @@
+# 斯洛斯
+
+<img src="/images/relics/seer_sloth_relic.png" alt="斯洛斯" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+
+## 基本信息
+
+- **分类**: 非塔罗遗物
+
+- **稀有度**: 稀有
+
+## 描述
+
+战斗结束的[<span style="color:#d4a017;font-weight:600">卡牌奖励</span>](/mechanics/game-flow.md)选项数 +<span style="color:#3aa675;font-weight:600">1</span>。卡牌奖励界面额外出现「懒惰」选项，选择后放弃本次卡牌选择，获得 <span style="color:#3aa675;font-weight:600">1</span> 次[<span style="color:#d4a017;font-weight:600">战斗中右键跳过普通战斗</span>](/mechanics/relic-right-click.md)的机会（可累计）。累计选择「懒惰」<span style="color:#3aa675;font-weight:600">7</span> 次后，向[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)中加入[<span style="color:#3aa675;font-weight:600">懒惰</span>](/cards/curse/sloth)。
+
+## 风味文字
+
+<span style="color:#d44;font-weight:600">懒惰，足以毁掉一切。</span>
+
+## 机制说明
+
+- **选项数 +1**：战斗胜利后的卡牌奖励多给 1 张。
+
+- **「懒惰」替代按钮**：点击即放弃本次选牌，获得一次**"战斗中右键跳过"**机会（机会数可累计，不影响次数上限）。
+
+- **右键跳过**：在任意**普通战斗**中，右键点击本遗物即可**立即结束当前战斗并不拿任何奖励**，消耗 1 次机会。只能用于普通战斗，对精英与 Boss 无效。
+
+- **累计 7 次后并入罪牌**：向牌组加入 1 张[<span style="color:#3aa675;font-weight:600">懒惰</span>](/cards/curse/sloth)诅咒牌；此后「懒惰」按钮失效。
+
+## 小贴士
+
+- **跳关/逃跑神器**：遇到不想打的普通战斗，战斗内右键点击遗物即可**立即结束战斗并不拿任何奖励**（机会 -1）。机会可攒，留给最不想打的怪。
+
+- **只限普通战斗**：右键在**精英与 Boss 战无效**，别指望靠它躲强敌——它专门解决"食之无味弃之可惜"的普通战斗。
+
+- **弃牌换安全/时间**：本质是把"一次卡牌奖励"换成"跳过一次战斗的安全感"。牌组已成型、不需要普通战斗奖励时最划算。
+
+- **可以攒一大堆**：机会数可累计（上限不限），一路点「懒惰」攒下来，留给后续地图里难缠的普通怪。
+
+- **7 次的懒惰诅咒是代价**：攒满 7 次拿[懒惰诅咒](/cards/curse/sloth)，但前面每次换到一次主动跳战的机会，在血量吃紧时可用来避险，价值不低。
+
+- **优先级建议**：血量健康、想最大化可以点；正在冲构筑或资源紧缺时，用"跳过奖励"换跳战机会不如直接用奖励。
+
+## 扩展·机制说明（补充）
+
+- 右键跳战会消耗 1 次机会并置"本场无奖励"标记，本场不进入任何结算（不拿牌/金币/药水）。
+
+- 只能用于 `RoomType` 为普通战斗的房间，精英与 Boss 被排除，无法触发。
+
+## 源码
+
+- `SeerSlothRelic.cs`
+
+- 罪牌 [`SeerSloth.cs`](/cards/curse/sloth)

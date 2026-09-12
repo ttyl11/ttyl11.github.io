@@ -1,4 +1,4 @@
-# 罕见遗物（20 项）
+# 罕见遗物（23 项）
 
 罕见稀有度遗物，获取难度中等。
 
@@ -18,6 +18,7 @@
 <tr><td><img src="/images/relics/firefly_snow.png" alt="流萤·雪" style="width:80px;height:auto" /></td><td><a href="firefly_snow">流萤·雪</a></td><td>战斗开始时，将1张计算下注加入手牌。 首回合开始时，随机3张手牌附加奇巧。</td></tr>
 <tr><td><img src="/images/relics/flame_dragon_emperor.png" alt="炎龙圣帝" style="width:80px;height:auto" /></td><td><a href="flame_dragon_emperor">炎龙圣帝</a></td><td>战斗开始时，令自身和所有敌人烧伤999回合。 回合结束时，若自身处于烧伤状态，回复5点生命。</td></tr>
 <tr><td><img src="/images/relics/garo_eight_dragon.png" alt="伽罗·八部天龙" style="width:80px;height:auto" /></td><td><a href="garo_eight_dragon">伽罗·八部天龙</a></td><td>打出与上一张类型相同的牌时，生成1张同类型随机牌到手牌。 打出与上一张牌名相同的牌时，获得1层滑溜。</td></tr>
+<tr><td><img src="/images/relics/seer_hei_bo_bo.png" alt="黑啵啵" style="width:80px;height:auto" /></td><td><a href="hei_bo_bo">黑啵啵</a></td><td>战斗开始时，你可以最多选择抽牌堆的3张技能牌，将其变为横祸。</td></tr>
 <tr><td><img src="/images/relics/guru_guru_king.png" alt="咕噜咕王" style="width:80px;height:auto" /></td><td><a href="guru_guru_king">咕噜咕王</a></td><td>每次生成充能球时，召唤奥斯提（增加3点最大生命）。</td></tr>
 <tr><td><img src="/images/relics/hera.png" alt="赫拉" style="width:80px;height:auto" /></td><td><a href="hera">赫拉</a></td><td>自身每次受到攻击伤害时，获得下一次异常状态免疫。</td></tr>
 <tr><td><img src="/images/relics/holy_armor_gaia.png" alt="圣甲盖亚" style="width:80px;height:auto" /></td><td><a href="holy_armor_gaia">圣甲盖亚</a></td><td>每次受到未被格挡的伤害后，反弹等量的不可格挡伤害给攻击者。</td></tr>
@@ -27,4 +28,6 @@
 <tr><td><img src="/images/relics/sea_angel.png" alt="海天使" style="width:80px;height:auto" /></td><td><a href="sea_angel">海天使</a></td><td>战斗开始时，给予所有敌人5层失明和5层冻伤。</td></tr>
 <tr><td><img src="/images/relics/thales.png" alt="泰勒斯" style="width:80px;height:auto" /></td><td><a href="thales">泰勒斯</a></td><td>你获得力量时，获得等量活力。</td></tr>
 <tr><td><img src="/images/relics/yunas.png" alt="尤纳斯" style="width:80px;height:auto" /></td><td><a href="yunas">尤纳斯</a></td><td>战斗开始时，向手牌加入卡牌黑洞。 自身每次生命变化时，获得1点辉星。</td></tr>
+<tr><td><img src="/images/relics/seer_kun_lun.png" alt="昆仑" style="width:80px;height:auto" /></td><td><a href="seer_kun_lun">昆仑</a></td><td>战斗开始时，将32点伤害随机分摊给所有敌人；敌人数量大于2时总伤害翻倍为64。</td></tr>
+<tr><td><img src="/images/relics/seer_zi_you.png" alt="紫幽" style="width:80px;height:auto" /></td><td><a href="zi_you">紫幽</a></td><td>战斗开始时，自身全属性+5；每回合开始时，自身全属性-1。</td></tr>
 </tbody></table>

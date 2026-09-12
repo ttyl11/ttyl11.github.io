@@ -5,7 +5,7 @@
 ## 基本信息
 
 - **分类**: 角色（圣灵谱尼）牌
-- **最大PP**: 1
+- **最大PP**: 3
 - **能量消耗**: 0
 - **类型**: 攻击
 - **稀有度**: 稀有
@@ -18,16 +18,16 @@
 |---|---|---|
 | 伤害 | 敌方攻击意图之和 | 敌方攻击意图之和 |
 | 保留 | 否 | 是 |
-| PP | 1 | 1 |
-| 最大PP | 1 | 1 |
+| PP | 3 | 3 |
+| 最大PP | 3 | 3 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 对所有敌人造成等同于敌方所有攻击意图伤害之和的伤害。
+PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 对所有敌人造成等同于敌方所有攻击意图伤害之和的伤害。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 对所有敌人造成等同于敌方所有攻击意图伤害之和的伤害。
+[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 对所有敌人造成等同于敌方所有攻击意图伤害之和的伤害。
 
 ## 小贴士
 
@@ -36,7 +36,7 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 - **多段攻击意图全额计入**：敌人意图打 3 次每次 5 点，按 15 点计入总和（次数乘单次伤害）。所以多段攻击的敌人也能喂出高伤害。
 - **非攻击意图不计**：敌人增益/减益/防御意图不算。敌人全在防御或加增益时这张牌伤害为 0，干脆不执行攻击。要看准敌人攻击回合再打。
 - **反伤式用法**：用敌人的攻击力度反打敌人，敌人爆发越猛这张牌越疼。适合反制 Boss 的高伤单回合，或多小怪的群攻回合。
-- **0 费低 PP**：0 费仅 1PP，几乎无成本，伤害上限却极高。是稀有牌里的潜力股。
+- **0 费 3PP**：0 费仅 3PP，几乎无成本，伤害上限却极高。是稀有牌里的潜力股。
 - **升级加保留**：升级添加[保留](/mechanics/retain.md)，可留手里等敌人高爆发回合再精准打出。对这种"看意图吃饭"的牌，保留让时机选择更灵活，升级价值很大。
 
 ## 相关机制

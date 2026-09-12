@@ -1,4 +1,4 @@
-# 稀有遗物（24 项）
+# 稀有遗物（42 项）
 
 稀有稀有度遗物，较为罕见。
 
@@ -28,7 +28,27 @@
 <tr><td><img src="/images/relics/poison_water_spirit.png" alt="毒水妖灵" style="width:80px;height:auto" /></td><td><a href="poison_water_spirit">毒水妖灵</a></td><td>使用任意药水后，恢复5点生命。精英战斗开始时，获得1张炼制药水。</td></tr>
 <tr><td><img src="/images/relics/rabbit_detective.png" alt="兔兔警探" style="width:80px;height:auto" /></td><td><a href="rabbit_detective">兔兔警探</a></td><td>奇数回合内，使用攻击牌时吸取任一敌人1点生命。 偶数回合内，使用技能牌时吸取任一敌人1点生命。（吸取：随机敌人失去等量生命，你回复等量生命）</td></tr>
 <tr><td><img src="/images/relics/rubik_supercomputer.png" alt="超算鲁比克" style="width:80px;height:auto" /></td><td><a href="rubik_supercomputer">超算鲁比克</a></td><td>①在每场战斗开始时，检索整个牌组中所有拥有PP值的卡牌。 ②若不足4张，获得1层机器学习。 ③若≥4张：选取4张PP牌为基准（优先不同PP值），以(MaxPp-1)构成2×2矩阵计算秩： 秩为0：获得异常免疫（永久）+虚空形态；秩为1：群蛇</td></tr>
+<tr><td><img src="/images/relics/seer_ferryman.png" alt="摆渡者·费雷" style="width:80px;height:auto" /></td><td><a href="seer_ferryman">摆渡者·费雷</a></td><td>拾起时，向牌组加入3张随机稀有牌(第2/3/4场后移除，遗物动态显示剩余契约牌及场次)。每场战斗首次打出"仅剩1场"的契约牌时，令随机敌人获得曝。战斗结束若敌人消逝，向牌组加入1张灵魂。</td></tr>
 <tr><td><img src="/images/relics/vermilion_bird.png" alt="炽羽炎凤·朱雀" style="width:80px;height:auto" /></td><td><a href="vermilion_bird">炽羽炎凤·朱雀</a></td><td>①自身死亡时重生一次（每场游戏只触发一次），重生后回复50%最大生命并获得3层缓冲。 ②触发重生的每一次战斗结束后，将一张狱火加入牌组。</td></tr>
 <tr><td><img src="/images/relics/keiza.png" alt="克雷扎" style="width:80px;height:auto" /></td><td><a href="keiza">克雷扎</a></td><td>每回合开始时，选择你抽牌堆中的一张牌，将其变为弹簧。</td></tr>
 <tr><td><img src="/images/relics/seer_chocoli.png" alt="巧克利" style="width:80px;height:auto" /></td><td><a href="chocoli">巧克利</a></td><td>①每隔3场战斗获得跑步机会 ②战斗开始时施加2层灾厄 ③跑步：消耗次数，每消耗1次敏捷+1、速度+2、手牌上限+1，并复制一份巧克利遗物。</td></tr>
+<tr><td><img src="/images/relics/ye_xiang_dao_shen.png" alt="夜香刀神" style="width:80px;height:auto" /></td><td><a href="ye_xiang_dao_shen">夜香刀神</a></td><td>你打出技能牌时，向手牌中加入一张小刀+。</td></tr>
+<tr><td><img src="/images/relics/yuan.png" alt="愿" style="width:80px;height:auto" /></td><td><a href="yuan">愿</a></td><td>战斗开始时，向消耗牌堆加入2张许愿。自身恢复生命时，可从消耗牌堆选一张牌获得并回满PP。</td></tr>
+<tr><td><img src="/images/relics/seer_jino.png" alt="杰诺" style="width:80px;height:auto" /></td><td><a href="seer_jino">杰诺</a></td><td>战斗开始时，随机降低5张已升级的牌，升级其它所有可升级的牌（本场临时）。</td></tr>
+<tr><td><img src="/images/relics/seer_guan.png" alt="鰥" style="width:80px;height:auto" /></td><td><a href="seer_guan">鰥</a></td><td>拾起时获得2张精神过载。自身回合结束时灾厄翻倍。敌人回合开始时，将自身灾厄以3倍复制给敌人。</td></tr>
+<tr><td><img src="/images/relics/seer_yuan_xiao.png" alt="源·宵" style="width:80px;height:auto" /></td><td><a href="seer_yuan_xiao">源·宵</a></td><td>你每打出一张牌后，若能量为0且手牌大于5张，获得1点能量。</td></tr>
+<tr><td><img src="/images/relics/seer_wen_quan_bei_bei.png" alt="温泉贝贝" style="width:80px;height:auto" /></td><td><a href="seer_wen_quan_bei_bei">温泉贝贝</a></td><td>当你的生命值将要降为0或以下时，以无穷之血复活；若你的回合结束前胜利则以1点生命存活，否则死亡。</td></tr>
+<tr><td><img src="/images/relics/seer_ke_luoyi.png" alt="克洛伊" style="width:80px;height:auto" /></td><td><a href="seer_ke_luoyi">克洛伊</a></td><td>商店删牌不限次数，且不再花费金币，改为损失10点最大生命。</td></tr>
+<tr><td><img src="/images/relics/seer_yuanmo.png" alt="魇魔" style="width:80px;height:auto" /></td><td><a href="seer_yuanmo">魇魔</a></td><td>你造成的卡牌伤害改为转化等量灾厄（敌人不再损失生命）。你的回合结束时，持灾厄的敌人获得2层虚弱与2层易伤。</td></tr>
+<tr><td><img src="/images/relics/seer_mai_wang_wang.png" alt="麦汪汪" style="width:80px;height:auto" /></td><td><a href="seer_mai_wang_wang">麦汪汪</a></td><td>你恢复生命时，从抽牌堆随机打出一张牌并消耗。</td></tr>
+<tr><td><img src="/images/relics/seer_miao_zuo.png" alt="喵佐" style="width:80px;height:auto" /></td><td><a href="seer_miao_zuo">喵佐</a></td><td>拾起时选择一张牌添加关键词川（打出后预见5抽3）。经过6个房间后，变化为飒雷·喵佐。</td></tr>
+<tr><td><img src="/images/relics/seer_pi_li_miao.png" alt="霹雳喵" style="width:80px;height:auto" /></td><td><a href="seer_pi_li_miao">霹雳喵</a></td><td>打出能力牌时，所有生物麻痹2回合。回合结束时，自身麻痹则恢复已损生命15%，对手麻痹则生成1个闪电充能球。</td></tr>
+<tr><td><img src="/images/relics/seer_ba_qi_da_she.png" alt="八岐大蛇" style="width:80px;height:auto" /></td><td><a href="seer_ba_qi_da_she">八岐大蛇</a></td><td>你的蛇咬会重新打出一次，施加的中毒改为seer中毒。每场战斗结束时，一张卡牌奖励被替换为蛇咬+并附魔蛇行。</td></tr>
+<tr><td><img src="/images/relics/seer_pride_relic.png" alt="泊莱德" style="width:80px;height:auto" /></td><td><a href="seer_pride_relic">泊莱德</a></td><td>卡牌奖励选项数+1。 「傲慢」弃牌并本局排除这批复选牌。 累计7次加入傲慢。</td></tr>
+<tr><td><img src="/images/relics/seer_envy_relic.png" alt="哲利斯" style="width:80px;height:auto" /></td><td><a href="seer_envy_relic">哲利斯</a></td><td>卡牌奖励选项数+1。 「嫉妒」弃牌并额外触发其它角色稀有牌池五选一。 累计7次加入嫉妒。</td></tr>
+<tr><td><img src="/images/relics/seer_wrath_relic.png" alt="安格瑞" style="width:80px;height:auto" /></td><td><a href="seer_wrath_relic">安格瑞</a></td><td>卡牌奖励选项数+1。 「愤怒」弃牌并加入1张附魔迅捷1的愤怒。 累计7次加入暴怒。</td></tr>
+<tr><td><img src="/images/relics/seer_gluttony_relic.png" alt="格拉托尼" style="width:80px;height:auto" /></td><td><a href="seer_gluttony_relic">格拉托尼</a></td><td>卡牌奖励选项数+1。 「暴食」弃牌并+4最大生命。 累计7次加入暴食。</td></tr>
+<tr><td><img src="/images/relics/seer_greed_relic.png" alt="格利德" style="width:80px;height:auto" /></td><td><a href="seer_greed_relic">格利德</a></td><td>卡牌奖励选项数+1。 「贪婪」弃牌并+3泰坦之灵。 累计7次加入贪婪。</td></tr>
+<tr><td><img src="/images/relics/seer_lust_relic.png" alt="拉斯特" style="width:80px;height:auto" /></td><td><a href="seer_lust_relic">拉斯特</a></td><td>卡牌奖励选项数+1。 「色欲」弃牌并累计器+1，每战开始全敌施加魅惑=累计层数×5%。 累计7次加入色欲。</td></tr>
+<tr><td><img src="/images/relics/seer_sloth_relic.png" alt="斯洛斯" style="width:80px;height:auto" /></td><td><a href="seer_sloth_relic">斯洛斯</a></td><td>卡牌奖励选项数+1。 「懒惰」弃牌并+1次右键跳过普通战斗机会。 累计7次加入懒惰。</td></tr>
 </tbody></table>

@@ -36,11 +36,13 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 - **25 种异常随机**：从 <span style="color:#3aa675;font-weight:600">25</span> 种异常状态（睡眠、凝滞、烧伤、冰封、中毒、流血、冻伤、害怕、瘫痪、沉默、衰弱、狂暴、束缚、沸涌、石化、感染、超频、焚烬、失明、诅咒、臣服、寄生、麻痹、神游、易燃）中随机选取，多人模式两端一致。
 - **1 费换全敌人异常**：1 费换 3 次随机异常 × 所有敌人 × 3 回合。多敌人时价值放大，3 个敌人 = 9 次异常施加。代价是 3 张呼唤进抽牌堆（回合结束扣血）。
 - **升级增异常回合**：异常回合 <span style="color:#3aa675;font-weight:600">3</span> → <span style="color:#3aa675;font-weight:600">4</span>。每多 1 回合 = 异常多触发 1 轮，控制效果延长。
+- **带[化墟](/mechanics/ruination.md)**：打出时向你的[弃牌堆](/mechanics/discard_pile.md)加入一张随机状态牌（原版状态牌池）。与"呼唤"一样会往牌堆塞状态资源，配合本卡"每张状态牌触发异常"的机制，反而加固了它的主效果。
 
 ## 相关机制
 
 - [异常状态](/mechanics/abnormal-status.md)（25 种 mod 异常状态随机施加）
 - [抽牌堆](/mechanics/draw_pile.md)（加入 3 张呼唤状态牌）
+- [化墟](/mechanics/ruination.md)（打出时向弃牌堆加入一张随机状态牌）
 
 ## 源码
 

@@ -17,7 +17,7 @@
 |---|---|
 | 力量损失 | 1 |
 | 防御获取 | 1 |
-| 格挡 | 4（实际由卡牌传入） |
+| 格挡 | 12（实际由卡牌传入） |
 
 ## 描述
 
@@ -28,12 +28,12 @@
 - **触发时机**：在拥有者一方回合结束时触发。
 - **力量损失**：扣除 <span style="color:#3aa675;font-weight:600">1</span> 点[力量](/powers/strength_power.md)。
 - **防御获取**：获得 <span style="color:#3aa675;font-weight:600">1</span> 点[防御](/powers/defense_power.md)。
-- **格挡获取**：获得等于层数的[格挡](/mechanics/block.md)。层数由卡牌施加时传入（好男孩卡牌传入 <span style="color:#3aa675;font-weight:600">8</span>，升级后 <span style="color:#3aa675;font-weight:600">12</span>）。
+- **格挡获取**：获得等于层数的[格挡](/mechanics/block.md)。层数由卡牌施加时传入（好男孩卡牌传入 <span style="color:#3aa675;font-weight:600">12</span>，升级后 <span style="color:#3aa675;font-weight:600">20</span>）。
 - **叠加特性**：按计数叠加，实例化（每次施加独立实例）。
 
 ## 相关卡牌
 
-- [好男孩](/cards/colorless/good_boy.md)（获得 8 层好男孩，升级后 12 层）
+- [好男孩](/cards/colorless/good_boy.md)（获得 12 层好男孩，升级后 20 层）
 
 ## 源码
 

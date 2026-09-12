@@ -22,15 +22,16 @@
 
 ## 描述
 
-PP: 5/5 造成0点伤害，牌堆中每有一张[附魔](/enchantments/)，伤害+<span style="color:#3aa675;font-weight:600">8</span>。
+PP: 5/5 造成0点伤害，牌堆中每有一张[附魔](/enchantments/)，伤害+<span style="color:#3aa675;font-weight:600">8</span>。[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：随机一张[抽牌堆](/mechanics/draw_pile.md)的牌获得[无效](/enchantments/invalid_enchantment.md)附魔。
 
 ## 升级后
 
-PP: 5/5 造成0点伤害，牌堆中每有一张[附魔](/enchantments/)，伤害+<span style="color:#3aa675;font-weight:600">12</span>。
+PP: 5/5 造成0点伤害，牌堆中每有一张[附魔](/enchantments/)，伤害+<span style="color:#3aa675;font-weight:600">12</span>。[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：随机一张[抽牌堆](/mechanics/draw_pile.md)的牌获得[无效](/enchantments/invalid_enchantment.md)附魔。
 
 ## 小贴士
 
 - **附魔牌数转伤害**：基础伤害为 0，牌堆中每有一张已[附魔](/enchantments/)的卡牌，伤害 +8（升级后 +12）。这是一张"附魔流"的核心输出牌——附魔牌越多，伤害越高。
+- **[溯引](/mechanics/suyin.md)自我联动**：抽到此牌时触发[溯引](/mechanics/suyin.md)——随机一张[抽牌堆](/mechanics/draw_pile.md)中**尚未附魔**的牌获得[无效](/enchantments/invalid_enchantment.md)附魔（占位附魔，无实际效果，但计入"已附魔"计数）。抽到它本身就会给牌堆"塞"一张附魔牌，为下次打出叠加伤害。抽到=变强，是这张牌最独特的自成长引擎。
 - **统计范围广**：统计[手牌](/mechanics/hand.md)、[抽牌堆](/mechanics/draw_pile.md)、[弃牌堆](/mechanics/discard_pile.md)三个牌堆中所有已附魔的卡牌。已消耗或被移除的牌不计入——所以这张牌的伤害上限是三堆中存活的附魔牌总数；牌走到哪一堆都无所谓，随时全额计数。
 - **0 费的爆发潜力**：0 费攻击牌，如果三堆中有 10 张附魔牌 → 80 伤害（升级后 120），0 费打出 80+ 伤害极其超值。但前提是需要大量附魔牌支撑——无附魔时伤害为 0（白板）。伤害上限基本由**局外构筑**决定：拿它之前先想清楚牌组里能铺多少附魔。
 - **伤害是攻击伤害**：走标准攻击结算——吃力量、易伤等增伤修正，会被目标格挡吸收。附魔基数 + 增伤乘区叠加，是附魔流后期的收割大招。

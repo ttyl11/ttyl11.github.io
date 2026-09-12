@@ -8,7 +8,7 @@
 - **最大PP**: 10
 - **能量消耗**: 1
 - **类型**: 技能
-- **稀有度**: 普通
+- **稀有度**: 稀有
 - **目标**: 所有敌方
 - **标签**: 亡灵契约师
 - **可升级**: 是（1 级）
@@ -17,26 +17,26 @@
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 灾厄层数 | 2 | 3 |
-| 重放次数 | 2 | 2 |
+| 灾厄层数 | 4 | 8 |
+| 召唤数量 | 9 | 9 |
 | PP | 10 | 10 |
 | 最大PP | 10 | 10 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 赋予所有敌人<span style="color:#3aa675;font-weight:600">2</span>层[<span style="color:#9b59b6;font-weight:600">灾厄</span>](/powers/doom_power.md)。[<span style="color:#d4a017;font-weight:600">重放</span>](/mechanics/replay.md)<span style="color:#3aa675;font-weight:600">2</span>。
+PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 召唤<span style="color:#3aa675;font-weight:600">9</span>个奥斯提。随机选择生物，赋予其<span style="color:#3aa675;font-weight:600">4</span>层[<span style="color:#9b59b6;font-weight:600">灾厄</span>](/powers/doom_power.md)，重复直到所有生物身上都有灾厄。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 赋予所有敌人<span style="color:#3aa675;font-weight:600">3</span>层[<span style="color:#9b59b6;font-weight:600">灾厄</span>](/powers/doom_power.md)。[<span style="color:#d4a017;font-weight:600">重放</span>](/mechanics/replay.md)<span style="color:#3aa675;font-weight:600">2</span>。
+PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 召唤<span style="color:#3aa675;font-weight:600">9</span>个奥斯提。随机选择生物，赋予其<span style="color:#3aa675;font-weight:600">8</span>层[<span style="color:#9b59b6;font-weight:600">灾厄</span>](/powers/doom_power.md)，重复直到所有生物身上都有灾厄。
 
 ## 小贴士
 
-- **重放让灾厄三倍化**：牌面写每次 2 层，但"重放 2"意味着这张牌总共打出 3 次，每次都重新对所有敌人挂灾厄。所以实际每敌人叠 6 层（基础）/9 层（升级）。别被牌面数字骗了，真正的压制力是三倍。
+- **召唤 9 奥斯提铺场**：打出即召唤 <span style="color:#3aa675;font-weight:600">9</span> 个[奥斯提](/mechanics/osty.md)——大量随从提供稳固的场面和[格挡](/mechanics/block.md)厚度，同时为亡灵契约师的召唤联动创造了巨大空间。
+- **灾厄群体结算覆盖率**：随机挑选生物逐个赋予[灾厄](/powers/doom_power.md)，重复直到每个敌对生物身上都至少有一定层数——保证所有敌人都吃得到，不会被某只漏掉。
 - **灾厄是斩杀线**：灾厄在敌人回合结束时结算——若其当前生命不高于灾厄层数，直接死亡，无视[格挡](/mechanics/block.md)。所以先压血再挂灾厄，让斩杀线覆盖敌人血量，能跨甲收割。
-- **多敌人场景价值最大**：对所有可命中敌人施加，敌人越多越赚。1 费打 3 次群挂灾厄，群体压制效率极高，是亡灵契约师体系里少有的群体斩杀启动件。
-- **升级抬高五成斩杀线**：升级把每次层数从 2 提到 3，重放次数不变。总灾厄 6→9，斩杀线明显抬高，能威胁更多残血敌人。升级收益集中在数值而非机制。
-- **性价比**：1 费换 3 次群体灾厄挂载，群体斩杀启动效率极高。亡灵契约师体系的核心群压件。
+- **升级灾厄翻倍是核心**：升级把每次赋予层数从 <span style="color:#3aa675;font-weight:600">4</span> 提到 <span style="color:#3aa675;font-weight:600">8</span>，斩杀线直接翻倍，能威胁更多残血敌人；召唤数量不变。升级收益集中在数值爆发。
+- **性价比**：<span style="color:#3aa675;font-weight:600">1</span> 费换来 <span style="color:#3aa675;font-weight:600">9</span> 随从铺场 + 群体灾厄覆盖，亡灵契约师体系里最顶级的一体化群压件，稀有稀有度合理。
 
 ## 相关能力
 
@@ -44,7 +44,7 @@ PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3a
 
 ## 相关机制
 
-- [重放](/mechanics/replay.md)（额外打出 2 次，总计 3 次）
+- [召唤](/mechanics/summon.md)（召唤奥斯提亡灵随从）
 
 ## 源码
 

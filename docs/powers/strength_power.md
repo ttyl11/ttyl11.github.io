@@ -1,4 +1,4 @@
-﻿# 力量
+# 力量
 
 
 
@@ -34,7 +34,7 @@
 
 - [潜龙伏地啸](/cards/character/hidden_dragon_roar.md)（令敌人力量 -1）
 - [大雨滂沱](/cards/character/heavy_rain.md)（令所有敌人力量 -1）
-- [宇宙胎动](/cards/character/cosmic_movement.md)（全属性 +1，含力量）
+- [宇宙胎动](/cards/character/cosmic_movement.md)（全属性 +1，且消耗生命获得等量力量）
 - [苍鹭幻翎](/cards/character/heron_illusion_feather.md)（全属性加成，含力量）
 - [黎羽幻生](/cards/character/feather_phantom.md)（全属性加成，含力量）
 

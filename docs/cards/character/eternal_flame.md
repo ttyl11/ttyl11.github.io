@@ -16,7 +16,7 @@
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 火焰回合 | 2 | 3 |
+| 火焰回合 | 2 | 4 |
 | 烧伤概率 | 70 | 100 |
 | 固定伤害层数 | 5 | 5 |
 | PP | 5 | 5 |
@@ -28,12 +28,12 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> <span style="color:#3aa675;font-weight:600">3</span>回合内，每回合<span style="color:#3aa675;font-weight:600">100</span>%概率[<span style="color:#d4a017;font-weight:600">焚烬</span>](/powers/ash_power.md)所有敌人，失败则施加<span style="color:#3aa675;font-weight:600">5</span>层[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。
+PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> <span style="color:#3aa675;font-weight:600">4</span>回合内，每回合<span style="color:#3aa675;font-weight:600">100</span>%概率[<span style="color:#d4a017;font-weight:600">焚烬</span>](/powers/ash_power.md)所有敌人，失败则施加<span style="color:#3aa675;font-weight:600">5</span>层[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。
 
 ## 小贴士
 
 - **核心定位**：2 费持续控制+保底伤害 + 缓冲防护卡。2 回合内每回合 70% 概率给所有敌人挂焚烬（降攻+回合末烧伤），失败则改施 5 层固定伤害，附带 1 层缓冲。罕见稀有度合理——兼顾降攻、持续伤害、保底与防御的多功能卡本就稀缺。
-- **判定时机**：在你**每个自己回合开始前**掷一次随机数判定（70% 概率，随机结果多端同步一致），**所有敌人共享这一次判定的结果**。注意打出当回合不判定——第一次判定要等到**下一个自己回合开始前**，2 层 = 覆盖接下来 2 个自己回合（升级后 3 个）。之后的结算按每个敌人分别检查"焚烬层数有没有涨"：
+- **判定时机**：在你**每个自己回合开始前**掷一次随机数判定（70% 概率，随机结果多端同步一致），**所有敌人共享这一次判定的结果**。注意打出当回合不判定——第一次判定要等到**下一个自己回合开始前**，2 层 = 覆盖接下来 2 个自己回合（升级后 4 个）。之后的结算按每个敌人分别检查"焚烬层数有没有涨"：
  - 判定通过 + 敌人正常 → 挂上焚烬
  - 判定通过 + 敌人**免疫异常** → 焚烬施加无效，该敌人改吃 <span style="color:#3aa675;font-weight:600">5</span> 层固定伤害
  - 判定未通过（<span style="color:#3aa675;font-weight:600">30</span>%）→ 所有敌人各吃 <span style="color:#3aa675;font-weight:600">5</span> 层固定伤害
@@ -46,7 +46,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
  - **异常状态流**：配合[四月的信徒](./april_believer.md)（对处于异常状态的敌人伤害翻倍）——焚烬、烧伤都是异常状态，挂上后攻击直接翻倍，是核心联动。
  - **烧伤叠加流**：焚烬会在敌人回合末给敌人 2 层烧伤，配合[醉酒燃烧](./drunken_burn.md)（全体烧伤+易燃传播）可以快速叠加烧伤层数，让烧伤持续伤害爆发。
  - 不适合纯爆发流——焚烬是延迟控制，固定伤害要等下回合才结算，节奏偏慢。
-- **升级的关键性**：火焰回合从 <span style="color:#3aa675;font-weight:600">2</span> 增至 <span style="color:#3aa675;font-weight:600">3</span>（+1），概率从 <span style="color:#3aa675;font-weight:600">70</span>% 升至 <span style="color:#3aa675;font-weight:600">100</span>%。升级价值高——100% 概率意味着判定必定通过，正常敌人不再有失败回合，降攻+烧伤稳定覆盖 3 回合（免疫异常的敌人依然会吃固伤，这反而更稳）。升级优先级高，是体系成型的关键节点。
+- **升级的关键性**：火焰回合从 <span style="color:#3aa675;font-weight:600">2</span> 增至 <span style="color:#3aa675;font-weight:600">4</span>（+2），概率从 <span style="color:#3aa675;font-weight:600">70</span>% 升至 <span style="color:#3aa675;font-weight:600">100</span>%。升级价值高——100% 概率意味着判定必定通过，正常敌人不再有失败回合，降攻+烧伤稳定覆盖 4 回合（免疫异常的敌人依然会吃固伤，这反而更稳）。升级优先级高，是体系成型的关键节点。
 - **性价比**：2 费换来 2 回合持续降攻+烧伤+保底固定伤害 + 缓冲，多功能覆盖攻防两端。罕见稀有度合理——持续伤害 + 缓冲的组合本就稀缺。适合异常状态流和续航流体系，纯爆发流可能不够直接。
 
 ## 源码

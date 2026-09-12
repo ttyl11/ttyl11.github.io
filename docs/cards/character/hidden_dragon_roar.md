@@ -23,11 +23,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 对敌人造成<span style="color:#3aa675;font-weight:600">8</span>点伤害，令其[<span style="color:#d4a017;font-weight:600">力量</span>](/powers/strength_power.md)<span style="color:#3aa675;font-weight:600">-1</span>。
+PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 对所有敌人造成<span style="color:#3aa675;font-weight:600">8</span>点伤害，令所有敌人[<span style="color:#d4a017;font-weight:600">力量</span>](/powers/strength_power.md)<span style="color:#3aa675;font-weight:600">-1</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 对敌人造成<span style="color:#3aa675;font-weight:600">8</span>点伤害，令其[<span style="color:#d4a017;font-weight:600">力量</span>](/powers/strength_power.md)<span style="color:#3aa675;font-weight:600">-2</span>。
+PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 对所有敌人造成<span style="color:#3aa675;font-weight:600">8</span>点伤害，令所有敌人[<span style="color:#d4a017;font-weight:600">力量</span>](/powers/strength_power.md)<span style="color:#3aa675;font-weight:600">-2</span>。
 
 ## 小贴士
 

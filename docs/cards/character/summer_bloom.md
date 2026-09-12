@@ -40,7 +40,7 @@ PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3a
 - **格挡加固伤免疫的双重防御**：获得 <span style="color:#3aa675;font-weight:600">8</span> 点[格挡](/mechanics/block.md)挡普通攻击伤害，同时 <span style="color:#3aa675;font-weight:600">2</span> 回合内免疫[固定伤害](/powers/fixed_damage_power.md)挡不受格挡影响的固伤能力。两种防御覆盖不同伤害类型，叠起来几乎无死角。
 - **"2 回合"是足额的两回合**：施加当回合结束跳过衰减，不会"打出的那个回合结束时被白扣一层"——2 层免疫完整覆盖接下来 2 个回合开始时的固伤结算。面对固伤 Boss 时可以放心提前一回合铺开。
 - **固伤免疫在这个 mod 里格外值钱**：神印、致命印记、部分诅咒效果走的都是固定伤害——格挡对它们完全无效，只有这类免疫能挡。打固伤型 Boss（如高频固伤跳字的精英）前提前挂好，2 回合的免固伤窗口往往就是爆发输出的安全期。
-- **升级只加格挡不延长免疫**：升级后格挡从 <span style="color:#3aa675;font-weight:600">8</span> 提升到 <span style="color:#3aa675;font-weight:600">12</span>，免疫回合数不变（仍为 <span style="color:#3aa675;font-weight:600">2</span> 回合）。升级强化的是"硬扛普通攻击"的能力，不延长固伤免疫窗口——如果你拿它主要是为了免固伤，升级优先级可以放低。
+- **升级强化格挡并延长免固伤窗口**：升级后格挡从 <span style="color:#3aa675;font-weight:600">8</span> 提升到 <span style="color:#3aa675;font-weight:600">12</span>，同时免疫回合从 <span style="color:#3aa675;font-weight:600">2</span> 延长到 <span style="color:#3aa675;font-weight:600">3</span>。升级既提升硬扛普通攻击的能力，也拉长免固伤安全期——若你主要靠它扛固伤，延长到 3 回合是实打实的升级收益。
 - **性价比**：1 费合理——8 格挡加 2 回合固伤免疫的组合防御，在固伤 Boss 战中价值极高，普通战中也不亏。
 
 ## 相关能力

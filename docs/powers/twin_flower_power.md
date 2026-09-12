@@ -13,7 +13,7 @@
 
 ## 描述
 
-在你的回合开始时，晓和清交替出现。晓/清打出攻击/非攻击牌时，有<span style="color:#3aa675;font-weight:600">30</span>%概率令随机对手<span style="color:#d4a017;font-weight:600">睡眠</span><span style="color:#3aa675;font-weight:600">2</span>回合。
+在你的回合开始时，晓和清交替出现，有<span style="color:#3aa675;font-weight:600">75</span>%概率进入对应状态。晓/清状态下打出对应牌时，令随机对手<span style="color:#d4a017;font-weight:600">睡眠</span><span style="color:#3aa675;font-weight:600">2</span>回合。
 
 ## 源码
 

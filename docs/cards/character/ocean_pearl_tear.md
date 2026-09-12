@@ -20,17 +20,17 @@
 | 冰封回合 | 2 | 2 |
 | 冻伤概率 | 50% | 50% |
 | 冻伤回合 | 2 | 2 |
-| 回复数量 | 0 | 3 |
+| 能量消耗 | 1 | 0 |
 | PP | 5 | 5 |
 | 最大PP | 5 | 5 |
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> <span style="color:#3aa675;font-weight:600">50</span>%令对手[<span style="color:#d44;font-weight:600">冰封</span>](/powers/freeze_power.md)<span style="color:#3aa675;font-weight:600">2</span>回合，失败则恢复<span style="color:#3aa675;font-weight:600">1</span>点[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)。<span style="color:#3aa675;font-weight:600">50</span>%令对手[<span style="color:#9b59b6;font-weight:600">冻伤</span>](/powers/frostbite_power.md)<span style="color:#3aa675;font-weight:600">2</span>回合，失败则获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。恢复<span style="color:#3aa675;font-weight:600">0</span>点生命。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> <span style="color:#3aa675;font-weight:600">50</span>%令对手[<span style="color:#d44;font-weight:600">冰封</span>](/powers/freeze_power.md)<span style="color:#3aa675;font-weight:600">2</span>回合，失败则恢复<span style="color:#3aa675;font-weight:600">1</span>点[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)。<span style="color:#3aa675;font-weight:600">50</span>%令对手[<span style="color:#9b59b6;font-weight:600">冻伤</span>](/powers/frostbite_power.md)<span style="color:#3aa675;font-weight:600">2</span>回合，失败则获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> <span style="color:#3aa675;font-weight:600">50</span>%令对手[<span style="color:#d44;font-weight:600">冰封</span>](/powers/freeze_power.md)<span style="color:#3aa675;font-weight:600">2</span>回合，失败则恢复<span style="color:#3aa675;font-weight:600">1</span>点[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)。<span style="color:#3aa675;font-weight:600">50</span>%令对手[<span style="color:#9b59b6;font-weight:600">冻伤</span>](/powers/frostbite_power.md)<span style="color:#3aa675;font-weight:600">2</span>回合，失败则获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。恢复<span style="color:#3aa675;font-weight:600">3</span>点生命。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> <span style="color:#3aa675;font-weight:600">50</span>%令对手[<span style="color:#d44;font-weight:600">冰封</span>](/powers/freeze_power.md)<span style="color:#3aa675;font-weight:600">2</span>回合，失败则恢复<span style="color:#3aa675;font-weight:600">1</span>点[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)。<span style="color:#3aa675;font-weight:600">50</span>%令对手[<span style="color:#9b59b6;font-weight:600">冻伤</span>](/powers/frostbite_power.md)<span style="color:#3aa675;font-weight:600">2</span>回合，失败则获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。耗能<span style="color:#3aa675;font-weight:600">-1</span>。
 
 ## 小贴士
 
@@ -40,7 +40,7 @@
 - **双成功的伤害联动——冻伤累积可达 20 点**：冰封转化的 <span style="color:#3aa675;font-weight:600">2</span> 层 + 直接施加的 <span style="color:#3aa675;font-weight:600">2</span> 层。第 <span style="color:#3aa675;font-weight:600">1</span> 回合冻伤触发 <span style="color:#3aa675;font-weight:600">5</span> 点（剩 <span style="color:#3aa675;font-weight:600">1</span> 层），回合结束冰封转化 +<span style="color:#3aa675;font-weight:600">2</span> 层变 <span style="color:#3aa675;font-weight:600">3</span> 层；第 <span style="color:#3aa675;font-weight:600">2</span> 回合 <span style="color:#3aa675;font-weight:600">5</span> 点（剩 <span style="color:#3aa675;font-weight:600">2</span> 层）；第 <span style="color:#3aa675;font-weight:600">3</span> 回合 <span style="color:#3aa675;font-weight:600">5</span> 点（剩 <span style="color:#3aa675;font-weight:600">1</span> 层）；第 <span style="color:#3aa675;font-weight:600">4</span> 回合 <span style="color:#3aa675;font-weight:600">5</span> 点。累计 <span style="color:#3aa675;font-weight:600">20</span> 点不可格挡伤害 + 一回合 <span style="color:#3aa675;font-weight:600">20</span>% 降伤——<span style="color:#3aa675;font-weight:600">1</span> 费打出双成功时的收益极其可观。
 - **冻伤层数可叠加**：冻伤是合并叠层的异常——重复打这张牌（PP 单场可打 <span style="color:#3aa675;font-weight:600">5</span> 次），每次成功的冻伤判定都会往同一份冻伤上加 <span style="color:#3aa675;font-weight:600">2</span> 层，每层多结算一回合 <span style="color:#3aa675;font-weight:600">5</span> 点。多次成功后冻伤会像滚雪球一样越挂越久，是这张牌上限的主要来源。
 - **失败补偿都是实用资源**：冰封失败给 <span style="color:#3aa675;font-weight:600">1</span> 点能量（等于退回打出费用），冻伤失败给 <span style="color:#3aa675;font-weight:600">1</span> 层[缓冲](/powers/buffer_power.md)（挡一次伤害）——失败不亏，成功赚翻。
-- **升级加 3 点回血是附加福利**：升级后多回 <span style="color:#3aa675;font-weight:600">3</span> 点生命，冰封/冻伤概率和回合数均不变。升级主要价值在回血保命，不改变核心机制。
+- **升级变 0 费**：升级后耗能 <span style="color:#3aa675;font-weight:600">1</span>→<span style="color:#3aa675;font-weight:600">0</span>，且此牌**不再回复任何生命**。冰封/冻伤概率和回合数均不变——升级价值在于免费打出、可更随意使用。
 - **性价比**：<span style="color:#3aa675;font-weight:600">1</span> 费换双 <span style="color:#3aa675;font-weight:600">50</span>% 控制 + 失败补偿，最差也有能量 + 缓冲兜底，双成功时 <span style="color:#3aa675;font-weight:600">20</span> 点累积伤害收益极高。
 
 ## 相关能力

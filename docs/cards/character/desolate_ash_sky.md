@@ -1,4 +1,4 @@
-﻿# 荒烬涂天
+# 荒烬涂天
 
 <img src="/images/cards/desolate_ash_sky.png" alt="荒烬涂天" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -8,7 +8,7 @@
 - **最大PP**: 1
 - **能量消耗**: 0
 - **类型**: 能力
-- **稀有度**: 稀有
+- **稀有度**: 罕见
 - **目标**: 自身
 - **可升级**: 是（1 级）
 

@@ -1,4 +1,4 @@
-# 传说遗物（21 项）
+# 传说遗物（23 项）
 
 传说稀有度遗物（先古基础上自定义稀有度），拥有最强效果。
 
@@ -28,4 +28,6 @@
 <tr><td><img src="/images/relics/enlightened_spirit_god.png" alt="启灵元神" style="width:80px;height:auto" /></td><td><a href="enlightened_spirit_god">启灵元神</a></td><td>①神殇：怪物>2时秒杀血量最低的。 ②神印：新增怪物时给所有怪物1层神印（每层回合开始造成1/8当前生命固伤）。 ③神谕：每场战斗限一次HP<1/2时恢复到1/2。 ④神照：首回合获得等于遗物数的护盾。 ⑤神启：HP>1/2免疫异常，HP<1/2生成神谕球。</td></tr>
 <tr><td><img src="/images/relics/ophelia.png" alt="奥菲利娅" style="width:80px;height:auto" /></td><td><a href="ophelia">奥菲利娅</a></td><td>①战斗开始时，获得5层支援。 ②每次支援成功：获得1层命运晨星（上限5层）和2层支援庇护。 ③每回合结束时，恢复等同于命运晨星层数的生命。 ④整局游戏首次死亡时：恢复25点生命与所有PP，本场战斗结束后，向牌组中加入1张终末·赫星黎明。</td></tr>
 <tr><td><img src="/images/relics/god_zhao_yun.png" alt="神·赵云" style="width:80px;height:auto" /></td><td><a href="god_zhao_yun">神·赵云</a></td><td>①手牌数固定为4张：多于4张时强制弃牌至4（不可取消），少于4张时自动补牌至4。 ②最大能量固定为4，覆盖其它所有能量加成。</td></tr>
+<tr><td><img src="/images/relics/seer_sa_lei_gu_ying_miao_zuo.png" alt="飒雷孤影·喵佐" style="width:80px;height:auto" /></td><td><a href="seer_sa_lei_gu_ying_miao_zuo">飒雷孤影·喵佐</a></td><td>战斗开始时所有敌人7回合害怕与麻痹。攻击牌附加对手上回合伤害50%的固定伤害，技能牌回复你上回合伤害50%的生命。拾起时随机3张牌附魔孤雷风暴。</td></tr>
+<tr><td><img src="/images/relics/seer_crime_witch.png" alt="余罪魔女" style="width:80px;height:auto" /></td><td><a href="seer_crime_witch">余罪魔女</a></td><td>七罪集齐2个自动合成；已持有再得七罪自动并入。 卡牌奖励固定7张，每战后额外一次稀有奖励。 「余罪」弃牌并随机触发并入数×个七罪效果（无负面）。</td></tr>
 </tbody></table>

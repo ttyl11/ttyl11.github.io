@@ -1,4 +1,4 @@
-# 角色（圣灵谱尼）牌（198 项）
+# 角色（圣灵谱尼）牌（203 项）
 
 谱尼角色专属卡牌，构成战斗的核心卡池。
 
@@ -6,201 +6,206 @@
 
 | 图片     | 名称                                            | 效果                                                                                                   |
 | ------ | --------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| <br /> | [群生俯首](all_life_submit) | PP: 5/5 令所有敌人臣服3回合。若所有敌人已有臣服，则击晕所有敌方。 |
-| <br /> | [阿玛迪斯光](amadeus_light) | PP: 1/1 造成12点伤害。你当前所有手牌附加永耀附魔。 |
-| <br /> | [二律背反](antinomy) | PP: 5/5 造成5点伤害。反转对手全属性。先制+0。获得二律背反（免疫下一次非暴击攻击）。 |
-| <br /> | [四月的信徒](april_believer) | PP: 1/1 自身对处于异常状态的敌人造成伤害翻倍。（获得信徒） |
-| <br /> | [亢龙有悔](arrogant_dragon_repents) | PP: 10/10 2回合内异常免疫·反弹。获得7点格挡。 |
-| <br /> | [八月的流火](august_flame) | PP: 1/1 自身烧伤5回合。此后每打出一张牌，对随机敌人造成等于自身烧伤回合数的伤害。（获得八月的流火） |
-| <br /> | [灼目天星](blinding_heaven_star) | PP: 5/5 获得2回合异常免疫，对所有敌人焚烬1回合。<br/>唱词：霍尔希德。 |
-| <br /> | [竭血残蝶](blood_exhaust_butterfly) | PP: 1/1 消耗自身9点生命。下一场战斗中获得必定暴击和异常状态免疫。 |
-| <br /> | [戕伐樊笼](cage_destruction) | PP: 5/5 自身先制-2。清除双方所有增益和减益。对方获得8层消亡。 |
-| <br /> | [苍炎日无极](cang_yan_sun_wu_ji) | PP: 5/5 对单个敌人造成9点伤害。选择弃牌堆中至多2张牌将其\[消耗]。 |
-| <br /> | [逍遥游](carefree_journey) | PP: 1/1 从消耗牌堆选一张牌置入抽牌堆顶并恢复PP。 |
-| <br /> | [镂月裁云](cloud_cutting_moon) | PP: 10/10 获得7点格挡。将随机2张诅咒或状态牌消耗。 |
-| <br /> | [禁术·契灭](contract_destruction) | PP: 1/1 消耗手牌中所有PP卡牌，造成消耗PP的2倍伤害。若消耗PP>20，伤害翻倍且获得1层缓冲。 |
-| <br /> | [拨乱反正](correct_mistakes) | PP: 3/3 预见1。交换你的抽牌堆与弃牌堆。 |
-| <br /> | [宇宙胎动](cosmic_movement) | PP: 5/5 全属性+1。消耗自身最大生命值6%的生命，获得等量的活力与敏捷。 |
-| <br /> | [弦月锋华](crescent_edge) | PP: 5/5 免疫下次受到的伤害，并以固定伤害形式反弹给攻击者。 |
-| <br /> | [十二月的碎花](december_fragment) | PP: 1/1 获得等于回合数乘怪物数的格挡。抽1张牌。 |
-| <br /> | [魔·决裂黎明](demon_breaking_dawn) | PP: 5/5 碎心。对所有敌人造成44点伤害。整局每打出一次耗能乘2。战斗结束时选择一张牌升级并移除一张牌。 |
-| <br /> | [魑魅魍魉](demon_ghost) | PP: 10/10 附加其15%当前生命值的固定伤害。 |
-| <br /> | [荒烬涂天](desolate_ash_sky) | PP: 1/1 手牌每有一张牌耗能+1。99回合内每回合先制+2。每回合对手获得1层烧伤和焚烬。 |
-| <br /> | [蔑天行·残虐](despise_heaven_cruelty) | PP: 3/3 化墟。造成9点伤害。令对手臣服2回合，自身狂暴2回合。未击败则恢复伤害值40%生命，伤害为0则击晕对方。 |
-| <br /> | [常·钻石风暴](diamond_storm) | PP: 1/1 寂灭。造成当前金币数×X的伤害，并消耗所有金币。 |
-| <br /> | [朦光混影术](dim_light_shadow_art) | PP: 5/5 造成0点伤害，牌堆中每有一张附魔，伤害+8。 |
-| <br /> | [神域咒能](divine_curse_energy) | PP: 5/5 虚无。你每有一个塔罗遗物，获得1点能量。 |
-| <br /> | [龙寤揭天](dragon_awakening_sky) | PP: 5/5 对随机敌人造成3点伤害。每层先制额外打出一次。施加1种随机异常状态2回合。每打出4张牌回到手牌。 |
-| <br /> | [千秋龙威](dragon_awe) | PP: 5/5 击晕所有敌人。打出此牌时立即结束你的回合。 |
-| <br /> | [龙族烙印](dragon_brand) | PP: 1/1 变为龙属性。所有对手臣服0+场上生物数回合。 |
-| <br /> | [龙舞九天](dragon_dance_nine_heavens) | PP: 1/1 虚无。获得9层覆甲，9点力量，9点防御。本回合每打出一张牌，此牌耗能-1。 |
-| <br /> | [王·龙予狂宴](dragon_feast) | PP: 1/1 消除场上所有增益和减益。所有生物获得2层狂暴，变为龙属性。回复自身至100%体力并对所有敌人造成等量伤害。战斗结束后随机加入1张狂宴、疯狂进食或暴食到牌组。 |
-| <br /> | [龙王波](dragon_king_wave) | PP: 10/10 对所有敌人造成5点伤害，场上每有1个龙属性生物，伤害×2。 |
-| <br /> | [龙舞·祭](dragon_martial_sacrifice) | PP: 1/1 消耗自身当前生命的35%，下场战斗增伤100%，减伤60%。 |
-| <br /> | [龙鳞切割](dragon_scale_cut) | PP: 10/10 对随机敌人造成2点伤害2次，每次令其防御-1。重放1。 |
-| <br /> | [梦祈天怜](dream_pray_heaven) | PP: 5/5 全属性+1。下一次攻击必定暴击。获得10点格挡。 |
-| <br /> | [饮血屠龙](drink_blood_dragon_slaying) | PP: 5/5 将目标属性变为龙属性。下次对龙属性敌人伤害翻倍。 |
-| <br /> | [醉酒燃烧](drunken_burn) | PP: 5/5 获得6点格挡。所有敌方烧伤2回合，所有生物获得易燃3回合。 |
-| <br /> | [电脉充能](electric_pulse_charge) | PP: 5/5 自身瘫痪3回合。获得3点能量。 |
-| <br /> | [无终痴念](endless_obsession) | PP: 5/5 预见3。抽牌直到抽到能力牌，每抽一张扣除1点体力。 |
-| <br /> | [能量滋养](energy_nurture) | PP: 5/5 恢复4×X点生命。 |
-| <br /> | [能量护盾](energy_shield) | PP: 5/5 获得2点能量。每有1点能量获得3点格挡。 |
-| <br /> | [能源补给](energy_supply) | PP: 5/5 获得3点能量。使自身力量和防御-1。 |
-| <br /> | [合奏·常昼大诰](ensemble_eternal_edict) | PP: 1/1 将长叹天人命途、灼目天星、七重沙海、逐日长诗加入手牌，并附魔永耀。 |
-| <br /> | [火种永存](eternal_flame) | PP: 5/5 2回合内，每回合70%概率焚烬所有敌人，失败则施加5层固定伤害。获得1层缓冲。 |
-| <br /> | [晚风孤夜断](evening_wind_break) | PP: 5/5 对单个敌人造成20点伤害，自身力量防御命中速度各-1。 |
-| <br /> | [邪·众生显形](evil_all_beings_manifest) | PP: 4/4 对所有敌人造成14点伤害。消耗同名牌并清空其PP，每清空4点PP伤害翻一倍。 |
-| <br /> | [恶咒追魂](evil_curse_chasing) | PP: 1/1 获得2层跟踪。为所有敌人附加2层虚弱。 |
-| <br /> | [邪龙勿用](evil_dragon_unused) | PP: 7/7 造成1点伤害。本场战斗中每打出一次此牌，伤害+2。打出其他牌时回到手牌。 |
-| <br /> | [邪恶能源](evil_energy) | PP: 3/3 扣除手牌同名牌数的生命，获得等量能量，抽等量牌。 |
-| <br /> | [恶影袭](evil_shadow_strike) | PP: 10/10 对单个敌人造成5点伤害。附加敌人已损生命值6%的固定伤害。 |
-| <br /> | [绝灭·万物哀鸣](extinction) | PP: 5/5 获得等量于当前PP的魔王咒怨。若已有魔王咒怨，对目标造成所有敌人生命值之和50%的伤害。 |
-| <br /> | [极度冰点](extreme_freeze) | PP: 1/1 自身命中-12。命中后造成等于敌人最大生命的伤害（对Boss无效）。 |
-| <br /> | [妖精的蛊惑](fairy_bewitch) | PP: 1/1 对手每有一种增益耗能+1。为所有对手附加魅惑。 |
-| <br /> | [翻云覆雨](fan_yun_fu_yu) | PP: 5/5 对单个敌人造成8点伤害，然后将弃牌堆洗入抽牌堆。 |
-| <br /> | [绝命火焰](fatal_flame) | PP: 5/5 造成5点伤害。14%概率秒杀（对Boss无效）。 |
-| <br /> | [命宇轮回](fate_reincarnation) | PP: 5/5 选择抽牌堆的1张牌，附魔星皇之怒。获得8点格挡。 |
-| <br /> | [黎羽幻生](feather_phantom) | PP: 5/5 全属性+1。获得1层神耀能量。下两次攻击必定暴击。 |
-| <br /> | [二月的相机](february_camera) | PP: 1/1 记录自身与最强敌人的生命差值。每回合开始时，生命高于此值的敌人调整为该值。 |
-| <br /> | [终末·赫星黎明（技能）](final_star_dawn_skill) | PP: 1/1 先制+1。无支援时：获得 3 层支援。有支援时：下 3 次支援效果翻倍。 |
-| <br /> | [找茬](find_fault) | PP: 5/5 每安装一个mod，场上所有生物获得1回合狂暴。对所有敌人造成6点伤害。 |
-| <br /> | [蛟龙出水](flood_dragon_emerging) | PP: 5/5 获得8点格挡。为所有敌人附加2层易伤和2层虚弱。 |
-| <br /> | [飞龙在天](flying_dragon_sky) | PP: 10/10 获得7点格挡。令所有对手速度-1。 |
-| <br /> | [飞燕游龙](flying_swallow_dragon) | PP: 5/5 敌人每有一种异常状态，耗能-1。对所有敌人造成异常状态种类数阶乘的伤害。 |
-| <br /> | [森罗万象](forest_all_things) | PP: 5/5 生成2个森林充能球。 |
-| <br /> | [傳馥明王最胜语](fragrant_king_supreme_word) | PP: 9/9 获得6点格挡。怀生菩怜态时下一次致死伤害恢复1点生命。拒赦怒威态时下一次伤害提升54%。 |
-| <br /> | [狂能激发](frenzy_excitation) | PP: 5/5 场上所有敌人获得6层狂暴。获得5点能量。 |
-| <br /> | [赛皇](gambling_emperor) | PP: 1/1 有3%的概率直接获得战斗胜利，否则失去1点最大生命。每回合开始时复制1张此牌加入抽牌堆。 |
-| <br /> | [告命诗途](gao_ming_shi_tu) | PP: 3/3 回满牌组中所有被附魔的牌的 PP 并免费自动打出。迁鸣：牌堆变化时，从手牌选一张未附魔的牌添加随机五音附魔。保留。 |
-| <br /> | [创世之神谕](genesis_oracle) | PP: 1/1 对单个敌人造成32点伤害。若此攻击\[斩杀]了目标，从当前可用稀有牌池中随机抽取1张加入你的牌组。 |
-| <br /> | [耀武遗辉](glorious_remnant) | PP: 5/5 将消耗牌堆的所有牌添加重放1。 |
-| <br /> | [荣尽枯生](glory_exhaustion) | PP: 5/5 获得7点格挡。3回合内，受到伤害时对来源施加3层中毒。 |
-| <br /> | [一念去留断](go_stay_break) |  |
-| <br /> | [神明送葬](god_funeral) | PP: 1/1 进入邪魇形态。自身下2次受到伤害时，为所有敌人施加3层圣诰。 |
-| <br /> | [大数回廊](great_number_corridor) | PP: 5/5 获得1层人工制品，消失后清除对手全属性加成。生命低于25%时回血至50%，下回合再次检查。 |
-| <br /> | [天霜杀伐](heaven_frost_slaughter) | PP: 5/5 所有敌人冰封2回合，冰封失败则对其施加攻击无效。 |
-| <br /> | [天谴](heaven_punishment) | PP: 1/1 随机造成等于敌人1/6~1/3当前生命的固定伤害。从3张带「天」的牌中选择一张获得。 |
-| <br /> | [天灵净野](heaven_spirit_pure_field) | PP: 5/5 对所有人施加3层烧伤。未触发则获得1层缓冲。自身有烧伤时回复5点生命。 |
-| <br /> | [天叩·千钧一发](heaven_strike_critical) | PP: 1/1 必须拥有龙属性。造成80点伤害。附加50点固定伤害。 |
-| <br /> | [大雨滂沱](heavy_rain) | PP: 7/7 获得9格挡。所有敌人全属性-1。冰封2回合，失败则自身所有PP卡牌PP-2。 |
-| <br /> | [苍鹭幻翎](heron_illusion_feather) | PP: 3/3 获得8点格挡。全属性+1，每30点最大生命再+1。下4回合先制+1。 |
-| <br /> | [潜龙伏地啸](hidden_dragon_roar) | PP: 10/10 对敌人造成8点伤害，令其力量-1。 |
-| <br /> | [圣灵魔闪光](holy_flash) | PP: 5/5 随机消耗抽牌堆X张牌。造成敌方1/8当前生命值的伤害X次。 |
-| <br /> | [圣盾护佑](holy_shield) | PP: 10/10 获得等于当前手牌PP之和的格挡，并消耗每张牌至多3点PP。 |
-| <br /> | [百鬼夜行](hundred_ghosts) | PP: 10/10 耗能X，造成X点伤害，将X-1张鬼火加入弃牌堆，将X-1张灵魂加入抽牌堆。 |
-| <br /> | [我思故我在](i_think_therefore_i_am) | PP: 5/5 对所有敌人造成敌人数量×1点伤害。从抽牌堆消耗等于敌人数量的牌。 |
-| <br /> | [冰天花葬](ice_sky_flower_burial) | PP: 5/5 冰封敌人，失败则抽2张牌。冻伤敌人，失败则获得1层人工制品。 |
-| <br /> | [不死之身](immortal_body) | PP: 1/1 获得6层缓冲。若自身在本场战斗中受到伤害，则直接死亡。 |
-| <br /> | [不朽之盾](immortal_shield) | PP: 5/5 获得8点格挡和6%本场战斗免伤。 |
-| <br /> | [在劫难逃](inescapable_doom) | PP: 1/1 获得2层邪龙之噬和1层惊逃。 |
-| <br /> | [狩·无限连爪](infinite_claw) | PP: 5/5 对随机敌人造成7*X次1点伤害。 |
-| <br /> | [无限·虚数湮灭](infinite_void_annihilation) | PP: 3/3 对所有敌人施加封属（非攻击意图效果失效）。抽1张牌。 |
-| <br /> | [智能起源](intelligence_origin) | PP: 1/1 扣除自身7×当前回合数点体力。每打出2张牌，获得1点能量。 |
-| <br /> | [一月的雪鹄](january_snow_owl) | PP: 1/1 冻伤所有敌人2回合。每有一层冻伤，抽1张牌。 |
-| <br /> | [几曾识干戈](ji_ceng_shi_gan_ge) | PP: 5/5 对单个敌人造成自身在本场战斗中造成的未格挡伤害总量。若抽牌堆为空，伤害×2。迟涌。 |
-| <br /> | [几米能量](jimmy_energy) | PP: 5/5 全属性+1。恢复5点生命。获得1层缓冲。下回合获得2点能量。 |
-| <br /> | [静止领域](jing_zhi_ling_yu) | PP: 1/1 将弃牌堆所有牌附魔\[冷却时间]（获得重放+1 并消耗）。 |
-| <br /> | [七月的海螺](july_conch) | PP: 1/1 向抽牌堆加入3张呼唤。每有一张状态牌，所有敌人获得1种随机异常状态3回合。 |
-| <br /> | [六月的极昼](june_polar_day) | 薇。PP: 1/1 丢弃所有手牌，每丢弃1张，恢复2点生命。 |
-| <br /> | [正义大裁决](justice_judgment) | PP: 1/1 造成100点伤害，并给对手附加100点固定伤害。自身牌组每有一张牌，能耗-1。 |
-| <br /> | [王·联盟审判](king_alliance_judgment) | PP: 3/3 造成35点伤害。对Boss伤害+100%。令对手麻痹、害怕2回合。同名牌每打出一次费用-1（最低0）。下次受到伤害减半，下次造成伤害翻倍。 |
-| <br /> | [王·天乖陆离](king_heaven_strange) | 保留。PP: 5/5 自身每有5点格挡，耗能-1。造成等同于所有生物格挡值的伤害，获得1层倒映。附加自身格挡200%的固定伤害给所有敌人。 |
-| <br /> | [跪地求饶](kneel_beg) | PP: 3/3 随机施加X次攻击无效或封属（随机一个）。若本回合受到攻击伤害，自身死亡。 |
-| <br /> | [鲲·千里击涛](kun_thousand_miles_wave) | 悼。PP: 3/3 造成36点伤害。击杀敌人则将此牌放回手中，先制+3。未击杀则将一张附魔本能的鹏·万里遨游放入抽牌堆顶。 |
-| <br /> | [一念生死叹](life_death_sigh) |  |
-| <br /> | [同生共死](life_death_together) | PP: 1/1 将此敌人的生命值变为与自身最大生命值相同（对boss无效）。 |
-| <br /> | [光之盾](light_shield) | PP: 5/5 获得9点格挡。本回合每使用过1点辉星，额外获得3点格挡。 |
-| <br /> | [聆主天答](listen_lord) | PP: 5/5 3回合后恢复16点体力。 |
-| <br /> | [孤身绝念刺](lone_despair_stab) | PP: 5/5 将自身所有负值四维属性（力量/防御/命中/速度）反转成等量正值。对单个敌人造成15点伤害，连击5次。伤害结算后对目标施加固定伤害，数值为自身已损生命 × 50%。 |
-| <br /> | [孤胆映青釭](lone_hero_green_blade) | PP: 5/5 获得2层龙胆，造成层数平方的伤害。 |
-| <br /> | [怀晦之亟盼](longing_for_darkness) | PP: 5/5 将对手的异常状态转移给自身，每转移一项所有对手命中-1。此后解除自身异常状态，每解除一个所有敌人石化1回合。 |
-| <br /> | [一莲托生·孽妣](lotus_birth_sin_ancestor) | PP: 1/1 若不处于三态，进入拒赦怒威态3回合。否则清除后进入拒赦怒威态6回合。 |
-| <br /> | [一莲托生·世母](lotus_birth_world_mother) | PP: 1/1 进入怀生菩怜态3回合；处于三态时，清除后进入6回合。 |
-| <br /> | [魔·黑天暗罚](magic_black_sky_punishment) | PP: 3/3 造成35点伤害。对Boss伤害+100%。恢复造成伤害的25%体力。2回合免疫异常状态，先制+2。令对手随机2种异常状态2回合。同名牌每打出一次费用-1。 |
-| <br /> | [魔法元素泡](magic_element_bubble) | PP: 1/1 获得1层集中。随机生成2个赛尔充能球。 |
-| <br /> | [三月的皇冠](march_crown) | PP: 1/1 自身所有攻击牌获得饮血。 |
-| <br /> | [五月的锋芒](may_edge) | PP: 1/1 自身打出暴击时，先制+1。 |
-| <br /> | [命运之初](ming_yun_zhi_chu) | PP: 5/5 随机打出X张抽牌堆的牌，并将其变化。 |
-| <br /> | [乌合之势](mob_momentum) | PP: 5/5 场上每有一个生物，抽1张牌，获得1点能量，速度-1。 |
-| <br /> | [金钱攻击](money_attack) | PP: 10/10 获得50万赛尔豆，造成等于当前赛尔豆数÷50万的伤害。 |
-| <br /> | [月下华尔兹](moonlight_waltz) | PP: 5/5 造成22点伤害。体力低于50%翻2倍，低于20%翻3倍，为1时翻10倍。 |
-| <br /> | [多元时间线](multiple_timeline) | PP: 5/5 获得6点格挡。从你的消耗牌堆中选择1张加入手牌（PP卡回满PP）。 |
-| <br /> | [万卍觉心法界镇](myriad_awakening_realm_suppression) | PP: 9/9 造成9点伤害。每层三态耗能-3。消除对手全属性提升，每种获得1层缓冲。怀生菩怜态时获得等同敌人当前生命99%的格挡。拒赦怒威态时附加等同自身当前生命99%的固定伤害。 |
-| <br /> | [万剑归一](myriad_swords_unity) | PP: 1/1 获得3张免费的宝剑。之后每个回合开始时，自动从你的消耗牌堆打出一张君王之剑。 |
-| <br /> | [染夜天妖](night_demon) | PP: 5/5 免疫并反弹异常状态3回合。反转自身全属性下降，成功则所有敌人随机2种异常状态2回合。获得8格挡。 |
-| <br /> | [九死未悔](nine_death_no_regret) | PP: 1/1 消耗9点最大生命。每打出9张牌费用-1。下场战斗每回合增伤99%、减伤9%。战斗结束获得9-回合数个随机遗物。 |
-| <br /> | [无相谛](nothingness) |  |
-| <br /> | [十一月的柑橘](november_citrus) | PP: 1/1 每打出1张牌，恢复等于打出数量的生命。每回合重置。 |
-| <br /> | [沧溟珠泪](ocean_pearl_tear) | PP: 5/5 50%令对手冰封2回合，失败则恢复1点能量。50%令对手冻伤2回合，失败则获得1层缓冲。恢复0点生命。 |
-| <br /> | [八方·无人来朝](octagon) |  |
-| <br /> | [十月的唱片](october_record) | PP: 1/1 打出的牌与上一张类型不同时，随机一名敌人获得1种随机异常状态1回合。 |
-| <br /> | [宙轨重回](orbit_return) | PP: 1/1 每2回合获得1层环绕轨道。 |
-| <br /> | [过载能源](overload_energy) |  |
-| <br /> | [孑峰天璨](peak_sky_brilliance) | PP: 3/3 获得20点格挡。本回合你的格挡不消失。消除所有生物的增益和减益，超过10个则击晕所有敌人。 |
-| <br /> | [鹏·万里遨游](peng_thousand_miles_soar) |  |
-| <br /> | [五芒星](pentagram) | PP: 5/5 造成12点伤害。生成3个神谕充能球。 |
-| <br /> | [欢梦芳逝](phantom_dream_fade) | PP: 1/1 自损13点生命，对所有敌人造成等量伤害。下场战斗开启灵籁泳馆和星璨舞台99回合。 |
-| <br /> | [无始源光](primordial_light) | PP: 5/5 手牌中每有一张攻击牌，耗能-1。全属性+1。2回合内：每回合速度力量+1，每打出1张牌对随机敌人造成1点可被格挡的非攻击伤害并恢复1生命（体力<50%时翻倍），攻击伤害+150%，每回合获得99点先制。 |
-| <br /> | [孤洁之傲](proud_solitude) | PP: 6/6 若有敌人处于能力提升则先制+1。所有生物全属性+2并获得15点格挡。下2回合开始时多抽1张牌。 |
-| <br /> | [异能突变](psionic_mutation) |  |
-| <br /> | [纯净能量](pure_energy) | PP: 5/5 消耗所有状态牌，每张获得1点能量。 |
-| <br /> | [净世新生](pure_rebirth) | PP: 1/1 进入圣谕形态。自身下2次恢复生命时，为所有敌人施加3层邪诲。 |
-| <br /> | [奇镰解放](qi_lian_liberation) | PP: 1/1 对单个敌人造成20点伤害。回复3点能量，回复12点生命值，所有PP牌恢复至满，清除敌方全属性增益。冷却4场战斗——打出后本牌在 4 场战斗内不可再次使用，每场战斗结束后冷却 -1。 |
-| <br /> | [赤胆缀银枪](red_bold_spear) |  |
-| <br /> | [炼·死镜冥啼](refining_death_mirror_dark_cry) |  |
-| <br /> | [镇魂歌](requiem) | PP: 10/10 3回合后击杀目标（精英6回合，Boss无效）。 |
-| <br /> | [归途](return_path) | PP: 5/5 移除所有生物的格挡与全属性，对所有敌人造成总和100%的伤害。 |
-| <br /> | [返璞归真](return_to_nature) | PP: 5/5 力量+1，获得8点格挡，抽1张牌。 |
-| <br /> | [义乂梵我婆娑纱](righteous_brahma_veil) | PP: 9/9 下3回合每回合恢复2点生命。怀生菩怜态时所有对手疲惫5回合。拒赦怒威态时所有对手害怕5回合。 |
-| <br /> | [烬灭之拥](ruin_embrace) | PP: 3/3 将手牌、抽牌堆与弃牌堆的所有牌放入销毁牌堆。将消耗牌堆的牌回满PP，依次放入手牌并打出。 |
-| <br /> | [毁灭元神](ruin_soul) | PP: 5/5 对单个敌人造成30点伤害，减去当前抽牌堆和弃牌堆中的总牌数（最低0点）。毁灭：打出时将消耗牌堆所有牌移至销毁牌堆。 |
-| <br /> | [秘纹护体](secret_rune) | PP: 5/5 恢复1点生命。每次使用多恢复2点。生成一个火山充能球，所有敌人烧伤2回合。 |
-| <br /> | [寻己遥途](seek_distant_path) | PP: 5/5 将一张心魔加入抽牌堆。获得4点能量。 |
-| <br /> | [九月的枷锁](september_shackles) | PP: 1/1 给予所有敌人束缚4回合，命中-4。自身受到魂缚2。 |
-| <br /> | [七重沙海](sevenfold_sand_sea) | PP: 5/5 全属性+1，无唱词时效果翻倍。抽0张牌。<br/>唱词：拉。 |
-| <br /> | [神权忤逆](shen_quan_wu_ni) | PP: 1/1 获得8点格挡，恢复共24点 PP，从弃牌堆随机抽2张牌，选择丢弃1张牌。蚀返：被消耗时向抽牌堆生成一张复制品。残鸣：被消耗时从消耗牌堆选择1张加入手牌。 |
-| <br /> | [十玄释](shi_xuan_shi) | PP: 2/2 5回合内免疫异常状态与能力下降。所有敌人束缚2回合。从2张2费牌中选择一张获得1次。回合结束时，若所有怪物意图均为眩晕或行动失效，此牌自动从任意牌堆打出。 |
-| <br /> | [曙光普照](shining_light) | PP: 5/5 随机附加2种异常状态2回合。获得1层缓冲。打出后置入抽牌堆顶，每次打出费用+1。 |
-| <br /> | [长叹天人命途](sigh_celestial_fate) | PP: 5/5 对手每有1种能力下降或自身每有1种能力上升，伤害+2。<br/>唱词：舍麦什。 |
-| <br /> | [欷歔证道难](sigh_tao_difficulty) | PP: 5/5 造成5点伤害，扣除自身12点生命。打出后回到手牌。整局游戏中此牌每打出一次，伤害+2，扣血-1。 |
-| <br /> | [寂·妖胧天鸣](silent_demon_cry) |  |
-| <br /> | [银雾之翼](silver_mist_wing) | PP: 5/5 造成2点伤害。消除对手全属性提升。获得1层神耀能量，打出暴击时获得2层。 |
-| <br /> | [辉·沧天逆流拳](sky_fist) | PP: 7/7 消耗牌堆每有一张牌，此牌耗能-1。对所有敌人造成7点伤害×消耗牌堆数量。附加等于已消耗PP总值的固定伤害。 |
-| <br /> | [屠·扼心恶世](slaughter_grip_evil_world) |  |
-| <br /> | [滔天龙汲水](soaring_dragon_water) | PP: 10/10 对所有敌人造成4点伤害，令所有敌人疲惫2回合。 |
-| <br /> | [太阳能](solar_energy) | PP: 5/5 获得1点能量。带光系时额外获得5点。 |
-| <br /> | [堕语噬亡魂](soul_devour) | PP: 5/5 附加1点固定伤害。获得1点格挡。每打出一次，本局永久各+1。 |
-| <br /> | [弹簧](spring) | PP: 5/5 奇巧 获得9点格挡，丢弃手中所有牌。施加弹簧能力，每回合多抽2张牌，多获得2点能量，持续1回合。 |
-| <br /> | [星光仙气](starlight_aura) | PP: 10/10 全属性+1。获得3点辉星。 |
-| <br /> | [蒸汽能源](steam_energy) | PP: 5/5 获得3点能量。向弃牌堆加入一张灼伤。 |
-| <br /> | [石破天惊](stone_breaker) | PP: 10/10 造成3点伤害。消除目标全属性的提升。 |
-| <br /> | [夏花之灿](summer_bloom) | PP: 10/10 获得8点格挡。2回合内免疫固定伤害。 |
-| <br /> | [逐日长诗](sun_chase_long_poem) | PP: 5/5 对所有敌人造成3点伤害。消除对手全属性提升，成功则焚烬2回合。<br/>唱词：莎木斯。 |
-| <br /> | [蔽日食月功](sun_moon_art) | PP: 5/5 全属性+1。恢复9%最大生命值，对所有敌人施加等量固定伤害。 |
-| <br /> | [日月安属](sun_moon_belong) | PP: 5/5 80%沉默对手，失败则下回合将受到的伤害反弹为固定伤害。3回合内，敌方属性无法提升，我方属性无法下降。 |
-| <br /> | [日月星盾](sun_moon_star_shield) | PP: 3/3 获得9点格挡。3回合内，免疫并反弹受到的异常状态。 |
-| <br /> | [千重影缠身](thousand_shadow_bind) | PP: 5/5 对所有敌人随机造成3-24点伤害。战斗中每使用一次，最低值+5。 |
-| <br /> | [瞬雷天闪](thunder_flash) | PP: 5/5 造成6点伤害，令其麻痹两回合。 |
-| <br /> | [雷神天明闪](thunder_god_flash) | PP: 5/5 造成12点伤害。有20%概率伤害×4。 |
-| <br /> | [终末·时之彼端](time_end) | PP: 5/5 先制+1。下次受到的伤害100%反馈，若>20则恢复等量体力。 |
-| <br /> | [福泽聚宝象](treasure_elephant) | 炼狱。PP: 5/5 造成70点伤害。失去当前生命值一半，附加等量×250%固定伤害。消耗蓄力使伤害乘以其层数。 |
-| <br /> | [真龙吐息](true_dragon_breath) | PP: 10/10 造成5点伤害，手牌每有1张伤害-1。未被格挡的伤害恢复自身体力。 |
-| <br /> | [真龙形态](true_dragon_form) | PP: 1/1 记录当前生命值，将生命恢复满。战斗结束时调整生命值不大于记录值。 |
-| <br /> | [奸奇](tzeentch) | PP: 1/1 获得4个泰坦之灵。整局游戏中此牌每打出一次，获得的泰坦之灵+1。当前每有1个泰坦之灵，此牌耗能+1。 |
-| <br /> | [沦·亡灵天灾](undead_catastrophe) | PP: 5/5 造成4点伤害。伤害高于5获得1层人工制品，低于5获得灾祸。 |
-| <br /> | [亡灵风暴](undead_storm) | PP: 10/10 赋予所有敌人2层灾厄。重放2。 |
-| <br /> | [昊海垂天](vast_sea_sky) | PP: 5/5 生成3个海洋充能球。 |
-| <br /> | [纵横三千界](vertical_horizontal_worlds) | PP: 1/1 立即触发战斗开始时的遗物效果。 |
-| <br /> | [彼空·根源重释](void_root_reinterpret) | PP: 1/1 对所有敌人造成等同于敌方所有攻击意图伤害之和的伤害。 |
-| <br /> | [阑珊百转](waning_turns) | PP: 5/5 解除自身全属性下降，成功则缓冲+1。4回合内免疫并反弹异常状态。 |
-| <br /> | [水天一色](water_sky_one_color) | PP: 1/1 弃牌堆为空时才能打出。3回合内，伤害提升140%。 |
-| <br /> | [白霞逐夜](white_dawn_chase_night) | PP: 5/5 获得8点格挡。若此牌为本回合首张打出的牌，对所有敌人施加3层冻伤。 |
-| <br /> | [风林火山](wind_forest_mountain) | PP: 5/5 造成6点伤害。解除自身全属性下降。 |
-| <br /> | [予风余芳](wind_grace) | PP: 5/5 上一张为攻击牌时，获得9点格挡；为技能牌时，获得2层予风余芳。 |
-| <br /> | [枯萎能量](withered_energy) | PP: 5/5 向抽牌堆和弃牌堆各加入一张凋零。获得2点能量。获得8点格挡。 |
-| <br /> | [万物之心](world_heart) | PP: 5/5 获得10点格挡。随机获得1张耗能为0的牌。每打出一次，本场战斗多获得一张。 |
-| <br /> | [天下一国](world_one_country) | PP: 5/5 清空PP并消耗手牌中所有牌。每消耗2张获得1层永昌玺（最高6层），溢出层数每层转化为15点格挡。 |
-| <br /> | [萧·零落绯如故](xiao_falling_red) | PP: 5/5 夺取敌方异常状态，每项恢复3HP。消耗弃牌堆中PP卡，将PP值×2+最大HP×5%作为固定伤害附加给敌人。 |
-| <br /> | [墟埪](xukong) | PP: 1/1 消除所有敌人的全属性加成，施加等量层数邪诲。消除所有敌人的其它增益，施加等量层数圣诰。 |
-| <br /> | [雅髯狮啸](ya_ran_shi_xiao) | PP: 10/10 对单个敌人造成7点伤害。随机选取力量/防御/命中/速度一种属性，从目标窃取3点移至自身（每次1点，共3次独立随机）。 |
-| <br /> | [妖族异术](yao_zu_yi_shu) | PP: 5/5 先制+1。获得6点格挡，2回合内免疫并反弹异常状态。 |
+| <img src="/images/cards/all_life_submit.png" alt="群生俯首" style="width:80px;height:auto" /> | [群生俯首](all_life_submit) | PP: 5/5 令所有敌人臣服3回合。若所有敌人已有臣服，则击晕所有敌方。 |
+| <img src="/images/cards/amadeus_light.png" alt="阿玛迪斯光" style="width:80px;height:auto" /> | [阿玛迪斯光](amadeus_light) | PP: 1/1 造成12点伤害。你当前所有手牌附加永耀附魔。 |
+| <img src="/images/cards/antinomy.png" alt="二律背反" style="width:80px;height:auto" /> | [二律背反](antinomy) | PP: 5/5 造成8点伤害。反转对手全属性。免疫下一次非暴击攻击。 |
+| <img src="/images/cards/april_believer.png" alt="四月的信徒" style="width:80px;height:auto" /> | [四月的信徒](april_believer) | PP: 1/1 自身对处于异常状态的敌人造成伤害翻倍。（获得信徒） |
+| <img src="/images/cards/arrogant_dragon_repents.png" alt="亢龙有悔" style="width:80px;height:auto" /> | [亢龙有悔](arrogant_dragon_repents) | PP: 10/10 3回合内异常免疫·反弹。获得7点格挡。 |
+| <img src="/images/cards/august_flame.png" alt="八月的流火" style="width:80px;height:auto" /> | [八月的流火](august_flame) | PP: 1/1 自身烧伤5回合。此后每出一张牌，对随机敌人造成与自身烧伤等额的伤害。 |
+| <img src="/images/cards/blinding_heaven_star.png" alt="灼目天星" style="width:80px;height:auto" /> | [灼目天星](blinding_heaven_star) | PP: 5/5 获得2回合异常免疫，对所有敌人焚烬2回合。<br/>唱词：霍尔希德。 |
+| <img src="/images/cards/blood_exhaust_butterfly.png" alt="竭血残蝶" style="width:80px;height:auto" /> | [竭血残蝶](blood_exhaust_butterfly) | PP: 1/1 消耗自身9点生命。下一场战斗中获得必定暴击和异常状态免疫。迁鸣：获得一张烬翎。 |
+| <img src="/images/cards/cage_destruction.png" alt="戕伐樊笼" style="width:80px;height:auto" /> | [戕伐樊笼](cage_destruction) | PP: 5/5 清除双方所有增益和减益。自身获得4次异常免疫。对方获得10层消亡。 |
+| <img src="/images/cards/cang_yan_sun_wu_ji.png" alt="苍炎日无极" style="width:80px;height:auto" /> | [苍炎日无极](cang_yan_sun_wu_ji) | PP: 5/5 对单个敌人造成9点伤害。选择弃牌堆中至多2张牌将其\[消耗]。 |
+| <img src="/images/cards/carefree_journey.png" alt="逍遥游" style="width:80px;height:auto" /> | [逍遥游](carefree_journey) | PP: 5/5 获得8点格挡。从消耗牌堆选一张牌置入抽牌堆顶并恢复PP。 |
+| <img src="/images/cards/cloud_cutting_moon.png" alt="镂月裁云" style="width:80px;height:auto" /> | [镂月裁云](cloud_cutting_moon) | PP: 5/5 获得8点格挡，恢复3点生命。迁鸣：将随机1张诅咒或状态牌消耗。 |
+| <img src="/images/cards/contract_destruction.png" alt="禁术·契灭" style="width:80px;height:auto" /> | [禁术·契灭](contract_destruction) | PP: 1/1 消耗手牌中所有PP卡牌，造成消耗PP的2倍伤害。若消耗PP>15，伤害翻倍且获得1层缓冲。 |
+| <img src="/images/cards/correct_mistakes.png" alt="拨乱反正" style="width:80px;height:auto" /> | [拨乱反正](correct_mistakes) | PP: 3/3 获得6点格挡。预见1。交换你的抽牌堆与弃牌堆。 |
+| <img src="/images/cards/cosmic_movement.png" alt="宇宙胎动" style="width:80px;height:auto" /> | [宇宙胎动](cosmic_movement) | PP: 5/5 全属性+1。消耗自身最大生命值10%的生命，获得等量的力量与敏捷。 |
+| <img src="/images/cards/crescent_edge.png" alt="弦月锋华" style="width:80px;height:auto" /> | [弦月锋华](crescent_edge) | PP: 5/5 免疫下次受到的伤害，并以固定伤害形式反弹给攻击者。 |
+| <img src="/images/cards/december_fragment.png" alt="十二月的碎花" style="width:80px;height:auto" /> | [十二月的碎花](december_fragment) | PP: 1/1 获得等于回合数乘怪物数的格挡。抽1张牌。 |
+| <img src="/images/cards/demon_breaking_dawn.png" alt="魔·决裂黎明" style="width:80px;height:auto" /> | [魔·决裂黎明](demon_breaking_dawn) | PP: 5/5 碎心。对所有敌人造成44点伤害。整局每打出一次耗能乘2。战斗结束时选择一张牌升级并移除一张牌。 |
+| <img src="/images/cards/demon_ghost.png" alt="魑魅魍魉" style="width:80px;height:auto" /> | [魑魅魍魉](demon_ghost) | PP: 10/10 附加其15%当前生命值的固定伤害。 |
+| <img src="/images/cards/desolate_ash_sky.png" alt="荒烬涂天" style="width:80px;height:auto" /> | [荒烬涂天](desolate_ash_sky) | PP: 1/1 手牌每有一张牌耗能+1。99回合内每回合先制+2。每回合对手获得1层烧伤和焚烬。 |
+| <img src="/images/cards/despise_heaven_cruelty.png" alt="蔑天行·残虐" style="width:80px;height:auto" /> | [蔑天行·残虐](despise_heaven_cruelty) | PP: 3/3 化墟。造成9点伤害。令对手臣服2回合，自身狂暴2回合。伤害为0则击晕对方。 |
+| <img src="/images/cards/diamond_storm.png" alt="常·钻石风暴" style="width:80px;height:auto" /> | [常·钻石风暴](diamond_storm) | PP: 1/1 寂灭。造成当前金币数×X的伤害，并消耗所有金币。 |
+| <img src="/images/cards/dim_light_shadow_art.png" alt="朦光混影术" style="width:80px;height:auto" /> | [朦光混影术](dim_light_shadow_art) | PP: 5/5 造成0点伤害，牌堆中每有一张附魔，伤害+8。溯引：随机一张抽牌堆的牌获得无效附魔。 |
+| <img src="/images/cards/divine_curse_energy.png" alt="神域咒能" style="width:80px;height:auto" /> | [神域咒能](divine_curse_energy) | PP: 5/5 虚无。你每有一个塔罗遗物，获得1点能量。 |
+| <img src="/images/cards/dragon_awakening_sky.png" alt="龙寤揭天" style="width:80px;height:auto" /> | [龙寤揭天](dragon_awakening_sky) | PP: 5/5 对随机敌人造成6点伤害。每层先制额外打出一次。每打出4张牌回到手牌。 |
+| <img src="/images/cards/dragon_awe.png" alt="千秋龙威" style="width:80px;height:auto" /> | [千秋龙威](dragon_awe) | PP: 5/5 击晕所有敌人。打出此牌时立即结束你的回合。 |
+| <img src="/images/cards/dragon_brand.png" alt="龙族烙印" style="width:80px;height:auto" /> | [龙族烙印](dragon_brand) | PP: 1/1 变为龙属性。所有对手臣服0+场上生物数回合。 |
+| <img src="/images/cards/dragon_dance_nine_heavens.png" alt="龙舞九天" style="width:80px;height:auto" /> | [龙舞九天](dragon_dance_nine_heavens) | PP: 1/1 虚无。获得9层覆甲，9点力量，9点防御。本回合每打出一张牌，此牌耗能-1。 |
+| <img src="/images/cards/dragon_feast.png" alt="王·龙予狂宴" style="width:80px;height:auto" /> | [王·龙予狂宴](dragon_feast) | PP: 1/1 消除场上所有增益和减益。所有生物获得5层狂暴，变为龙属性。回复自身至100%体力并对所有敌人造成等量伤害。战斗结束后随机加入1张狂宴、疯狂进食或暴食到牌组。 |
+| <img src="/images/cards/dragon_king_wave.png" alt="龙王波" style="width:80px;height:auto" /> | [龙王波](dragon_king_wave) | PP: 10/10 对所有敌人造成6点伤害，场上每有1个龙属性生物，伤害×2。 |
+| <img src="/images/cards/dragon_martial_sacrifice.png" alt="龙舞·祭" style="width:80px;height:auto" /> | [龙舞·祭](dragon_martial_sacrifice) | PP: 1/1 消耗自身当前生命的25%，下场战斗增伤100%，减伤60%。 |
+| <img src="/images/cards/dragon_scale_cut.png" alt="龙鳞切割" style="width:80px;height:auto" /> | [龙鳞切割](dragon_scale_cut) | PP: 10/10 对随机敌人造成2点伤害2次，每次令其防御-1。重放1。 |
+| <img src="/images/cards/dream_pray_heaven.png" alt="梦祈天怜" style="width:80px;height:auto" /> | [梦祈天怜](dream_pray_heaven) | PP: 5/5 全属性+1。下一次攻击必定暴击。获得10点格挡。 |
+| <img src="/images/cards/drink_blood_dragon_slaying.png" alt="饮血屠龙" style="width:80px;height:auto" /> | [饮血屠龙](drink_blood_dragon_slaying) | PP: 5/5 将目标属性变为龙属性。下次对龙属性敌人伤害翻倍。 |
+| <img src="/images/cards/drunken_burn.png" alt="醉酒燃烧" style="width:80px;height:auto" /> | [醉酒燃烧](drunken_burn) | PP: 5/5 获得6点格挡。所有敌方烧伤2回合，所有生物获得易燃3回合。 |
+| <img src="/images/cards/electric_pulse_charge.png" alt="电脉充能" style="width:80px;height:auto" /> | [电脉充能](electric_pulse_charge) | PP: 5/5 自身瘫痪3回合。获得3点能量。 |
+| <img src="/images/cards/endless_obsession.png" alt="无终痴念" style="width:80px;height:auto" /> | [无终痴念](endless_obsession) | PP: 5/5 预见3。抽牌直到抽到能力牌，每抽一张扣除1点体力。 |
+| <img src="/images/cards/energy_nurture.png" alt="能量滋养" style="width:80px;height:auto" /> | [能量滋养](energy_nurture) | PP: 5/5 恢复4×X点生命。 |
+| <img src="/images/cards/energy_shield.png" alt="能量护盾" style="width:80px;height:auto" /> | [能量护盾](energy_shield) | PP: 5/5 获得2点能量。每有1点能量获得3点格挡。 |
+| <img src="/images/cards/energy_supply.png" alt="能源补给" style="width:80px;height:auto" /> | [能源补给](energy_supply) | PP: 5/5 获得3点能量。使自身力量和防御-1。 |
+| <img src="/images/cards/ensemble_eternal_edict.png" alt="合奏·常昼大诰" style="width:80px;height:auto" /> | [合奏·常昼大诰](ensemble_eternal_edict) | PP: 1/1 将长叹天人命途、灼目天星、七重沙海、逐日长诗加入手牌，并附魔永耀。 |
+| <img src="/images/cards/eternal_flame.png" alt="火种永存" style="width:80px;height:auto" /> | [火种永存](eternal_flame) | PP: 5/5 2回合内，每回合70%概率焚烬所有敌人，失败则施加5层固定伤害。获得1层缓冲。 |
+| <img src="/images/cards/evening_wind_break.png" alt="晚风孤夜断" style="width:80px;height:auto" /> | [晚风孤夜断](evening_wind_break) | PP: 5/5 对单个敌人造成20点伤害，自身力量防御命中速度各-1。 |
+| <img src="/images/cards/evil_all_beings_manifest.png" alt="邪·众生显形" style="width:80px;height:auto" /> | [邪·众生显形](evil_all_beings_manifest) | PP: 4/4 对所有敌人造成14点伤害。消耗同名牌并清空其PP，每清空4点PP伤害翻一倍。 |
+| <img src="/images/cards/evil_curse_chasing.png" alt="恶咒追魂" style="width:80px;height:auto" /> | [恶咒追魂](evil_curse_chasing) | PP: 1/1 获得2层跟踪。为所有敌人附加2层虚弱。 |
+| <img src="/images/cards/evil_dragon_unused.png" alt="邪龙勿用" style="width:80px;height:auto" /> | [邪龙勿用](evil_dragon_unused) | PP: 7/7 造成1点伤害。本场战斗中每打出一次此牌，伤害+2。打出其他牌时回到手牌。 |
+| <img src="/images/cards/evil_energy.png" alt="邪恶能源" style="width:80px;height:auto" /> | [邪恶能源](evil_energy) | PP: 3/3 扣除手牌同名牌数的生命，获得等量能量，抽等量牌。 |
+| <img src="/images/cards/evil_shadow_strike.png" alt="恶影袭" style="width:80px;height:auto" /> | [恶影袭](evil_shadow_strike) | PP: 10/10 对单个敌人造成5点伤害。附加敌人已损生命值6%的固定伤害。 |
+| <img src="/images/cards/extinction.png" alt="绝灭·万物哀鸣" style="width:80px;height:auto" /> | [绝灭·万物哀鸣](extinction) | PP: 5/5 获得等量于当前PP的魔王咒怨。若已有魔王咒怨，对目标造成所有敌人生命值之和50%的伤害。 |
+| <img src="/images/cards/extreme_freeze.png" alt="极度冰点" style="width:80px;height:auto" /> | [极度冰点](extreme_freeze) | PP: 1/1 自身命中-12。命中后造成等于敌人最大生命的伤害（对Boss无效）。 |
+| <img src="/images/cards/fairy_bewitch.png" alt="妖精的蛊惑" style="width:80px;height:auto" /> | [妖精的蛊惑](fairy_bewitch) | PP: 1/1 对手每有一种增益耗能+1。为所有对手附加魅惑。 |
+| <img src="/images/cards/fan_yun_fu_yu.png" alt="翻云覆雨" style="width:80px;height:auto" /> | [翻云覆雨](fan_yun_fu_yu) | PP: 5/5 对单个敌人造成8点伤害，然后将弃牌堆洗入抽牌堆。 |
+| <img src="/images/cards/fatal_flame.png" alt="绝命火焰" style="width:80px;height:auto" /> | [绝命火焰](fatal_flame) | PP: 5/5 造成5点伤害。14%概率秒杀（对Boss无效）。 |
+| <img src="/images/cards/fate_reincarnation.png" alt="命宇轮回" style="width:80px;height:auto" /> | [命宇轮回](fate_reincarnation) | PP: 5/5 选择抽牌堆的1张牌，附魔星皇之怒。获得8点格挡。 |
+| <img src="/images/cards/feather_phantom.png" alt="黎羽幻生" style="width:80px;height:auto" /> | [黎羽幻生](feather_phantom) | PP: 5/5 全属性+1。获得1层神耀能量。下两次攻击必定暴击。 |
+| <img src="/images/cards/february_camera.png" alt="二月的相机" style="width:80px;height:auto" /> | [二月的相机](february_camera) | PP: 1/1 记录自身与最强敌人的生命差值。每回合开始时，生命高于此值的敌人调整为该值。 |
+| <img src="/images/cards/final_star_dawn_skill.png" alt="终末·赫星黎明（技能）" style="width:80px;height:auto" /> | [终末·赫星黎明（技能）](final_star_dawn_skill) | PP: 1/1 先制+1。无支援时：获得 3 层支援。有支援时：下 3 次支援效果翻倍。 |
+| <img src="/images/cards/find_fault.png" alt="找茬" style="width:80px;height:auto" /> | [找茬](find_fault) | PP: 5/5 每安装一个mod，场上所有生物获得1回合狂暴。对所有敌人造成6点伤害。 |
+| <img src="/images/cards/flood_dragon_emerging.png" alt="蛟龙出水" style="width:80px;height:auto" /> | [蛟龙出水](flood_dragon_emerging) | PP: 5/5 获得8点格挡。为所有敌人附加2层易伤和2层虚弱。 |
+| <img src="/images/cards/flying_dragon_sky.png" alt="飞龙在天" style="width:80px;height:auto" /> | [飞龙在天](flying_dragon_sky) | PP: 10/10 获得7点格挡。令所有对手速度-1。 |
+| <img src="/images/cards/flying_swallow_dragon.png" alt="飞燕游龙" style="width:80px;height:auto" /> | [飞燕游龙](flying_swallow_dragon) | PP: 5/5 敌人每有一种异常状态，耗能-1。对所有敌人造成异常状态种类数阶乘的伤害。 |
+| <img src="/images/cards/forest_all_things.png" alt="森罗万象" style="width:80px;height:auto" /> | [森罗万象](forest_all_things) | PP: 5/5 生成2个森林充能球。 |
+| <img src="/images/cards/fragrant_king_supreme_word.png" alt="傳馥明王最胜语" style="width:80px;height:auto" /> | [傳馥明王最胜语](fragrant_king_supreme_word) | PP: 9/9 获得6点格挡。怀生菩怜态时下一次致死伤害恢复1点生命。拒赦怒威态时下一次伤害提升54%。 |
+| <img src="/images/cards/frenzy_excitation.png" alt="狂能激发" style="width:80px;height:auto" /> | [狂能激发](frenzy_excitation) | PP: 5/5 场上所有敌人获得6层狂暴。获得5点能量。 |
+| <img src="/images/cards/gambling_emperor.png" alt="赛皇" style="width:80px;height:auto" /> | [赛皇](gambling_emperor) | PP: 1/1 有3%的概率直接获得战斗胜利，否则失去1点最大生命。每回合开始时复制1张此牌加入抽牌堆。 |
+| <img src="/images/cards/gao_ming_shi_tu.png" alt="告命诗途" style="width:80px;height:auto" /> | [告命诗途](gao_ming_shi_tu) | PP: 3/3 回满牌组中所有被附魔的牌的 PP 并免费自动打出。迁鸣：牌堆变化时，从手牌选一张未附魔的牌添加随机五音附魔。保留。 |
+| <img src="/images/cards/genesis_oracle.png" alt="创世之神谕" style="width:80px;height:auto" /> | [创世之神谕](genesis_oracle) | PP: 1/1 对单个敌人造成32点伤害。若此攻击\[斩杀]了目标，从当前可用稀有牌池中随机抽取1张加入你的牌组。 |
+| <img src="/images/cards/glorious_remnant.png" alt="耀武遗辉" style="width:80px;height:auto" /> | [耀武遗辉](glorious_remnant) | PP: 5/5 将消耗牌堆的所有牌添加重放1。 |
+| <img src="/images/cards/glory_exhaustion.png" alt="荣尽枯生" style="width:80px;height:auto" /> | [荣尽枯生](glory_exhaustion) | PP: 5/5 获得7点格挡。3回合内，受到伤害时对来源施加3层中毒。 |
+| <img src="/images/cards/go_stay_break.png" alt="一念去留断" style="width:80px;height:auto" /> | [一念去留断](go_stay_break) |  |
+| <img src="/images/cards/god_funeral.png" alt="神明送葬" style="width:80px;height:auto" /> | [神明送葬](god_funeral) | PP: 1/1 进入邪魇形态。自身下2次受到伤害时，为所有敌人施加3层圣诰。 |
+| <img src="/images/cards/great_number_corridor.png" alt="大数回廊" style="width:80px;height:auto" /> | [大数回廊](great_number_corridor) | PP: 5/5 获得1层人工制品，消失后清除对手全属性加成。生命低于25%时回血至50%，下回合再次检查。 |
+| <img src="/images/cards/heaven_frost_slaughter.png" alt="天霜杀伐" style="width:80px;height:auto" /> | [天霜杀伐](heaven_frost_slaughter) | PP: 5/5 所有敌人冰封2回合，冰封失败则对其施加攻击无效。 |
+| <img src="/images/cards/heaven_punishment.png" alt="天谴" style="width:80px;height:auto" /> | [天谴](heaven_punishment) | PP: 1/1 随机造成等于敌人1/6~1/3当前生命的固定伤害。从3张带「天」的牌中选择一张获得。 |
+| <img src="/images/cards/heaven_spirit_pure_field.png" alt="天灵净野" style="width:80px;height:auto" /> | [天灵净野](heaven_spirit_pure_field) | PP: 5/5 对所有人施加3层烧伤。未触发则获得1层缓冲。自身有烧伤时回复5点生命。 |
+| <img src="/images/cards/heaven_strike_critical.png" alt="天叩·千钧一发" style="width:80px;height:auto" /> | [天叩·千钧一发](heaven_strike_critical) | PP: 1/1 必须拥有龙属性。造成80点伤害。附加50点固定伤害。 |
+| <img src="/images/cards/heavy_rain.png" alt="大雨滂沱" style="width:80px;height:auto" /> | [大雨滂沱](heavy_rain) | PP: 7/7 获得9格挡。所有敌人全属性-1。冰封2回合，失败则自身所有PP卡牌PP-2。 |
+| <img src="/images/cards/heron_illusion_feather.png" alt="苍鹭幻翎" style="width:80px;height:auto" /> | [苍鹭幻翎](heron_illusion_feather) | PP: 3/3 获得8点格挡。全属性+1，每30点最大生命再+1。下4回合先制+1。 |
+| <img src="/images/cards/hidden_dragon_roar.png" alt="潜龙伏地啸" style="width:80px;height:auto" /> | [潜龙伏地啸](hidden_dragon_roar) | PP: 10/10 对敌人造成8点伤害，令其力量-1。 |
+| <img src="/images/cards/holy_flash.png" alt="圣灵魔闪光" style="width:80px;height:auto" /> | [圣灵魔闪光](holy_flash) | PP: 5/5 随机消耗抽牌堆X张牌。造成敌方1/8当前生命值的伤害X次。 |
+| <img src="/images/cards/holy_shield.png" alt="圣盾护佑" style="width:80px;height:auto" /> | [圣盾护佑](holy_shield) | PP: 10/10 获得等于当前手牌PP之和的格挡，并消耗每张牌至多3点PP。 |
+| <img src="/images/cards/hui_yue_zhi_wen.png" alt="灰月之吻" style="width:80px;height:auto" /> | [灰月之吻](hui_yue_zhi_wen) | PP: 10/10 获得6格挡。抽1张牌。将手牌中的一张牌放到抽牌堆顶。 |
+| <img src="/images/cards/hundred_ghosts.png" alt="百鬼夜行" style="width:80px;height:auto" /> | [百鬼夜行](hundred_ghosts) | PP: 10/10 耗能X，造成X点伤害，将X-1张鬼火加入弃牌堆，将X-1张灵魂加入抽牌堆。 |
+| <img src="/images/cards/i_think_therefore_i_am.png" alt="我思故我在" style="width:80px;height:auto" /> | [我思故我在](i_think_therefore_i_am) | PP: 5/5 对所有敌人造成敌人数量×1点伤害。从抽牌堆消耗等于敌人数量的牌。 |
+| <img src="/images/cards/ice_sky_flower_burial.png" alt="冰天花葬" style="width:80px;height:auto" /> | [冰天花葬](ice_sky_flower_burial) | PP: 5/5 冰封敌人，失败则抽2张牌。冻伤敌人，失败则获得1层人工制品。 |
+| <img src="/images/cards/immortal_body.png" alt="不死之身" style="width:80px;height:auto" /> | [不死之身](immortal_body) | PP: 1/1 获得6层缓冲。若自身在本场战斗中受到伤害，则直接死亡。 |
+| <img src="/images/cards/immortal_shield.png" alt="不朽之盾" style="width:80px;height:auto" /> | [不朽之盾](immortal_shield) | PP: 5/5 获得8点格挡和6%本场战斗免伤。 |
+| <img src="/images/cards/inescapable_doom.png" alt="在劫难逃" style="width:80px;height:auto" /> | [在劫难逃](inescapable_doom) | PP: 1/1 获得2层邪龙之噬和1层惊逃。 |
+| <img src="/images/cards/infinite_claw.png" alt="狩·无限连爪" style="width:80px;height:auto" /> | [狩·无限连爪](infinite_claw) | PP: 5/5 对随机敌人造成7*X次1点伤害。 |
+| <img src="/images/cards/infinite_void_annihilation.png" alt="无限·虚数湮灭" style="width:80px;height:auto" /> | [无限·虚数湮灭](infinite_void_annihilation) | PP: 3/3 对所有敌人施加封属（非攻击意图效果失效）。抽1张牌。 |
+| <img src="/images/cards/intelligence_origin.png" alt="智能起源" style="width:80px;height:auto" /> | [智能起源](intelligence_origin) | PP: 1/1 扣除自身7×当前回合数点体力。每打出2张牌，获得1点能量。 |
+| <img src="/images/cards/january_snow_owl.png" alt="一月的雪鹄" style="width:80px;height:auto" /> | [一月的雪鹄](january_snow_owl) | PP: 1/1 冻伤所有敌人2回合。每有一层冻伤，抽1张牌。 |
+| <img src="/images/cards/ji_ceng_shi_gan_ge.png" alt="几曾识干戈" style="width:80px;height:auto" /> | [几曾识干戈](ji_ceng_shi_gan_ge) | PP: 5/5 对单个敌人造成自身在本场战斗中造成的未格挡伤害总量。若抽牌堆为空，伤害×2。迟涌。 |
+| <img src="/images/cards/jimmy_energy.png" alt="几米能量" style="width:80px;height:auto" /> | [几米能量](jimmy_energy) | PP: 5/5 全属性+1。恢复5点生命。获得1层缓冲。下回合获得2点能量。 |
+| <img src="/images/cards/jing_zhi_ling_yu.png" alt="静止领域" style="width:80px;height:auto" /> | [静止领域](jing_zhi_ling_yu) | PP: 1/1 将弃牌堆所有牌附魔\[冷却时间]（获得重放+1 并消耗）。 |
+| <img src="/images/cards/july_conch.png" alt="七月的海螺" style="width:80px;height:auto" /> | [七月的海螺](july_conch) | PP: 1/1 向抽牌堆加入3张呼唤。每有一张状态牌，所有敌人获得1种随机异常状态3回合。 |
+| <img src="/images/cards/june_polar_day.png" alt="六月的极昼" style="width:80px;height:auto" /> | [六月的极昼](june_polar_day) | 薇。PP: 1/1 丢弃所有手牌，每丢弃1张，恢复2点生命。 |
+| <img src="/images/cards/justice_judgment.png" alt="正义大裁决" style="width:80px;height:auto" /> | [正义大裁决](justice_judgment) | PP: 1/1 造成100点伤害，并给对手附加100点固定伤害。自身牌组每有一张牌，能耗-1。 |
+| <img src="/images/cards/king_alliance_judgment.png" alt="王·联盟审判" style="width:80px;height:auto" /> | [王·联盟审判](king_alliance_judgment) | PP: 3/3 造成35点伤害。对Boss伤害+100%。令对手麻痹、害怕2回合。同名牌每打出一次费用-1（最低0）。下次受到伤害减半，下次造成伤害翻倍。 |
+| <img src="/images/cards/king_heaven_strange.png" alt="王·天乖陆离" style="width:80px;height:auto" /> | [王·天乖陆离](king_heaven_strange) | 保留。PP: 5/5 自身每有5点格挡，耗能-1。造成等同于所有生物格挡值的伤害，获得1层倒映。附加自身格挡200%的固定伤害给所有敌人。 |
+| <img src="/images/cards/kneel_beg.png" alt="跪地求饶" style="width:80px;height:auto" /> | [跪地求饶](kneel_beg) | PP: 3/3 随机施加X次攻击无效或封属（随机一个）。若本回合受到攻击伤害，自身死亡。 |
+| <img src="/images/cards/kun_thousand_miles_wave.png" alt="鲲·千里击涛" style="width:80px;height:auto" /> | [鲲·千里击涛](kun_thousand_miles_wave) | 悼。PP: 3/3 造成36点伤害。击杀敌人则将此牌放回手中，先制+3。未击杀则将一张附魔本能的鹏·万里遨游放入抽牌堆顶。 |
+| <img src="/images/cards/life_death_sigh.png" alt="一念生死叹" style="width:80px;height:auto" /> | [一念生死叹](life_death_sigh) |  |
+| <img src="/images/cards/life_death_together.png" alt="同生共死" style="width:80px;height:auto" /> | [同生共死](life_death_together) | PP: 1/1 将此敌人的生命值变为与自身最大生命值相同（对boss无效）。 |
+| <img src="/images/cards/light_shield.png" alt="光之盾" style="width:80px;height:auto" /> | [光之盾](light_shield) | PP: 5/5 获得9点格挡。本回合每使用过1点辉星，额外获得3点格挡。 |
+| <img src="/images/cards/ling_hu_mei_shu.png" alt="灵狐魅术" style="width:80px;height:auto" /> | [灵狐魅术](ling_hu_mei_shu) | PP: 10/10 获得8格挡。从抽牌堆选择2张牌，将其变化。 |
+| <img src="/images/cards/listen_lord.png" alt="聆主天答" style="width:80px;height:auto" /> | [聆主天答](listen_lord) | PP: 5/5 3回合后恢复16点体力。 |
+| <img src="/images/cards/lone_despair_stab.png" alt="孤身绝念刺" style="width:80px;height:auto" /> | [孤身绝念刺](lone_despair_stab) | PP: 5/5 将自身所有负值四维属性（力量/防御/命中/速度）反转成等量正值。对单个敌人造成15点伤害，连击5次。伤害结算后对目标施加固定伤害，数值为自身已损生命 × 50%。 |
+| <img src="/images/cards/lone_hero_green_blade.png" alt="孤胆映青釭" style="width:80px;height:auto" /> | [孤胆映青釭](lone_hero_green_blade) | PP: 5/5 获得2层龙胆，造成层数平方的伤害。 |
+| <img src="/images/cards/longing_for_darkness.png" alt="怀晦之亟盼" style="width:80px;height:auto" /> | [怀晦之亟盼](longing_for_darkness) | PP: 5/5 将对手的异常状态转移给自身，每转移一项所有对手命中-1。此后解除自身异常状态，每解除一个所有敌人石化1回合。 |
+| <img src="/images/cards/lotus_birth_sin_ancestor.png" alt="一莲托生·孽妣" style="width:80px;height:auto" /> | [一莲托生·孽妣](lotus_birth_sin_ancestor) | PP: 1/1 若不处于三态，进入拒赦怒威态3回合。否则清除后进入拒赦怒威态6回合。 |
+| <img src="/images/cards/lotus_birth_world_mother.png" alt="一莲托生·世母" style="width:80px;height:auto" /> | [一莲托生·世母](lotus_birth_world_mother) | PP: 1/1 进入怀生菩怜态3回合；处于三态时，清除后进入6回合。 |
+| <img src="/images/cards/magic_black_sky_punishment.png" alt="魔·黑天暗罚" style="width:80px;height:auto" /> | [魔·黑天暗罚](magic_black_sky_punishment) | PP: 3/3 造成35点伤害。对Boss伤害+100%。恢复造成伤害的25%体力。2回合免疫异常状态，先制+2。令对手随机2种异常状态2回合。同名牌每打出一次费用-1。 |
+| <img src="/images/cards/magic_element_bubble.png" alt="魔法元素泡" style="width:80px;height:auto" /> | [魔法元素泡](magic_element_bubble) | PP: 1/1 获得1层集中。随机生成2个赛尔充能球。 |
+| <img src="/images/cards/march_crown.png" alt="三月的皇冠" style="width:80px;height:auto" /> | [三月的皇冠](march_crown) | PP: 1/1 自身所有攻击牌获得饮血。 |
+| <img src="/images/cards/may_edge.png" alt="五月的锋芒" style="width:80px;height:auto" /> | [五月的锋芒](may_edge) | PP: 1/1 自身打出暴击时，先制+1。 |
+| <img src="/images/cards/ming_yun_zhi_chu.png" alt="命运之初" style="width:80px;height:auto" /> | [命运之初](ming_yun_zhi_chu) | PP: 5/5 随机打出X张抽牌堆的牌，并将其变化。 |
+| <img src="/images/cards/mob_momentum.png" alt="乌合之势" style="width:80px;height:auto" /> | [乌合之势](mob_momentum) | PP: 5/5 场上每有一个生物，抽1张牌，获得1点能量，速度-1。 |
+| <img src="/images/cards/money_attack.png" alt="金钱攻击" style="width:80px;height:auto" /> | [金钱攻击](money_attack) | PP: 10/10 获得50万赛尔豆，造成等于当前赛尔豆数÷50万的伤害。 |
+| <img src="/images/cards/moonlight_waltz.png" alt="月下华尔兹" style="width:80px;height:auto" /> | [月下华尔兹](moonlight_waltz) | PP: 5/5 造成22点伤害。体力低于50%翻2倍，低于20%翻3倍，为1时翻10倍。 |
+| <img src="/images/cards/multiple_timeline.png" alt="多元时间线" style="width:80px;height:auto" /> | [多元时间线](multiple_timeline) | PP: 5/5 获得6点格挡。从你的消耗牌堆中选择1张加入手牌（PP卡回满PP）。 |
+| <img src="/images/cards/myriad_awakening_realm_suppression.png" alt="万卍觉心法界镇" style="width:80px;height:auto" /> | [万卍觉心法界镇](myriad_awakening_realm_suppression) | PP: 9/9 造成9点伤害。每层三态耗能-3。消除对手全属性提升，每种获得1层缓冲。怀生菩怜态时获得等同敌人当前生命99%的格挡。拒赦怒威态时附加等同自身当前生命99%的固定伤害。 |
+| <img src="/images/cards/myriad_swords_unity.png" alt="万剑归一" style="width:80px;height:auto" /> | [万剑归一](myriad_swords_unity) | PP: 1/1 获得3张免费的宝剑。之后每个回合开始时，自动从你的消耗牌堆打出一张君王之剑。 |
+| <img src="/images/cards/night_demon.png" alt="染夜天妖" style="width:80px;height:auto" /> | [染夜天妖](night_demon) | PP: 5/5 免疫并反弹异常状态3回合。反转自身全属性下降，成功则所有敌人随机2种异常状态2回合。获得8格挡。 |
+| <img src="/images/cards/nine_death_no_regret.png" alt="九死未悔" style="width:80px;height:auto" /> | [九死未悔](nine_death_no_regret) | PP: 1/1 消耗9点最大生命。每打出9张牌费用-1。下场战斗每回合增伤99%、减伤9%。战斗结束获得9-回合数个随机遗物。 |
+| <img src="/images/cards/nothingness.png" alt="无相谛" style="width:80px;height:auto" /> | [无相谛](nothingness) |  |
+| <img src="/images/cards/november_citrus.png" alt="十一月的柑橘" style="width:80px;height:auto" /> | [十一月的柑橘](november_citrus) | PP: 1/1 每打出1张牌，恢复等于打出数量的生命。每回合重置。 |
+| <img src="/images/cards/ocean_pearl_tear.png" alt="沧溟珠泪" style="width:80px;height:auto" /> | [沧溟珠泪](ocean_pearl_tear) | PP: 5/5 50%令对手冰封2回合，失败则恢复1点能量。50%令对手冻伤2回合，失败则获得1层缓冲。恢复0点生命。 |
+| <img src="/images/cards/octagon.png" alt="八方·无人来朝" style="width:80px;height:auto" /> | [八方·无人来朝](octagon) |  |
+| <img src="/images/cards/october_record.png" alt="十月的唱片" style="width:80px;height:auto" /> | [十月的唱片](october_record) | PP: 1/1 打出的牌与上一张类型不同时，随机一名敌人获得1种随机异常状态1回合。 |
+| <img src="/images/cards/orbit_return.png" alt="宙轨重回" style="width:80px;height:auto" /> | [宙轨重回](orbit_return) | PP: 1/1 每2回合获得1层环绕轨道。 |
+| <img src="/images/cards/overload_energy.png" alt="过载能源" style="width:80px;height:auto" /> | [过载能源](overload_energy) |  |
+| <img src="/images/cards/peak_sky_brilliance.png" alt="孑峰天璨" style="width:80px;height:auto" /> | [孑峰天璨](peak_sky_brilliance) | PP: 3/3 获得20点格挡。本回合你的格挡不消失。消除所有生物的增益和减益，超过10个则击晕所有敌人。 |
+| <img src="/images/cards/peng_thousand_miles_soar.png" alt="鹏·万里遨游" style="width:80px;height:auto" /> | [鹏·万里遨游](peng_thousand_miles_soar) |  |
+| <img src="/images/cards/pentagram.png" alt="五芒星" style="width:80px;height:auto" /> | [五芒星](pentagram) | PP: 5/5 造成12点伤害。生成3个神谕充能球。 |
+| <img src="/images/cards/phantom_dream_fade.png" alt="欢梦芳逝" style="width:80px;height:auto" /> | [欢梦芳逝](phantom_dream_fade) | PP: 1/1 自损13点生命，对所有敌人造成等量伤害。下场战斗开启灵籁泳馆和星璨舞台99回合。 |
+| <img src="/images/cards/primordial_light.png" alt="无始源光" style="width:80px;height:auto" /> | [无始源光](primordial_light) | PP: 5/5 手牌中每有一张攻击牌，耗能-1。全属性+1。2回合内：每回合速度力量+1，每打出1张牌对随机敌人造成1点可被格挡的非攻击伤害并恢复1生命（体力<50%时翻倍），攻击伤害+150%，每回合获得99点先制。 |
+| <img src="/images/cards/proud_solitude.png" alt="孤洁之傲" style="width:80px;height:auto" /> | [孤洁之傲](proud_solitude) | PP: 6/6 若有敌人处于能力提升则先制+1。所有生物全属性+2并获得15点格挡。下2回合开始时多抽1张牌。 |
+| <img src="/images/cards/psionic_mutation.png" alt="异能突变" style="width:80px;height:auto" /> | [异能突变](psionic_mutation) |  |
+| <img src="/images/cards/pure_energy.png" alt="纯净能量" style="width:80px;height:auto" /> | [纯净能量](pure_energy) | PP: 5/5 消耗所有状态牌，每张获得1点能量。 |
+| <img src="/images/cards/pure_rebirth.png" alt="净世新生" style="width:80px;height:auto" /> | [净世新生](pure_rebirth) | PP: 1/1 进入圣谕形态。自身下2次恢复生命时，为所有敌人施加3层邪诲。 |
+| <img src="/images/cards/qi_lian_liberation.png" alt="奇镰解放" style="width:80px;height:auto" /> | [奇镰解放](qi_lian_liberation) | PP: 1/1 对单个敌人造成20点伤害。回复3点能量，回复12点生命值，所有PP牌恢复至满，清除敌方全属性增益。冷却4场战斗——打出后本牌在 4 场战斗内不可再次使用，每场战斗结束后冷却 -1。 |
+| <img src="/images/cards/qun_yu_jiao_chan.png" alt="群宇纠缠" style="width:80px;height:auto" /> | [群宇纠缠](qun_yu_jiao_chan) | PP: 5/5 将此牌的一个免费复制版本加入弃牌堆。生成并打出3张带辉星的随机牌。此牌每打出一次，多打出一张。 |
+| <img src="/images/cards/red_bold_spear.png" alt="赤胆缀银枪" style="width:80px;height:auto" /> | [赤胆缀银枪](red_bold_spear) |  |
+| <img src="/images/cards/refining_death_mirror_dark_cry.png" alt="炼·死镜冥啼" style="width:80px;height:auto" /> | [炼·死镜冥啼](refining_death_mirror_dark_cry) |  |
+| <img src="/images/cards/requiem.png" alt="镇魂歌" style="width:80px;height:auto" /> | [镇魂歌](requiem) | PP: 10/10 3回合后击杀目标（精英6回合，Boss无效）。 |
+| <img src="/images/cards/return_path.png" alt="归途" style="width:80px;height:auto" /> | [归途](return_path) | PP: 5/5 移除所有生物的格挡与全属性，对所有敌人造成总和100%的伤害。 |
+| <img src="/images/cards/return_to_nature.png" alt="返璞归真" style="width:80px;height:auto" /> | [返璞归真](return_to_nature) | PP: 5/5 力量+1，获得8点格挡，抽1张牌。 |
+| <img src="/images/cards/righteous_brahma_veil.png" alt="义乂梵我婆娑纱" style="width:80px;height:auto" /> | [义乂梵我婆娑纱](righteous_brahma_veil) | PP: 9/9 下3回合每回合恢复2点生命。怀生菩怜态时所有对手疲惫5回合。拒赦怒威态时所有对手害怕5回合。 |
+| <img src="/images/cards/ruin_embrace.png" alt="烬灭之拥" style="width:80px;height:auto" /> | [烬灭之拥](ruin_embrace) | PP: 3/3 将手牌、抽牌堆与弃牌堆的所有牌放入销毁牌堆。将消耗牌堆的牌回满PP，依次放入手牌并打出。 |
+| <img src="/images/cards/ruin_soul.png" alt="毁灭元神" style="width:80px;height:auto" /> | [毁灭元神](ruin_soul) | PP: 5/5 对单个敌人造成30点伤害，减去当前抽牌堆和弃牌堆中的总牌数（最低0点）。毁灭：打出时将消耗牌堆所有牌移至销毁牌堆。 |
+| <img src="/images/cards/secret_rune.png" alt="秘纹护体" style="width:80px;height:auto" /> | [秘纹护体](secret_rune) | PP: 5/5 恢复1点生命。每次使用多恢复2点。生成一个火山充能球，所有敌人烧伤2回合。 |
+| <img src="/images/cards/seek_distant_path.png" alt="寻己遥途" style="width:80px;height:auto" /> | [寻己遥途](seek_distant_path) | PP: 5/5 将一张心魔加入抽牌堆。获得4点能量。 |
+| <img src="/images/cards/september_shackles.png" alt="九月的枷锁" style="width:80px;height:auto" /> | [九月的枷锁](september_shackles) | PP: 1/1 给予所有敌人束缚4回合，命中-4。自身受到魂缚2。 |
+| <img src="/images/cards/sevenfold_sand_sea.png" alt="七重沙海" style="width:80px;height:auto" /> | [七重沙海](sevenfold_sand_sea) | PP: 5/5 全属性+1，无唱词时效果翻倍。抽0张牌。<br/>唱词：拉。 |
+| <img src="/images/cards/shen_quan_wu_ni.png" alt="神权忤逆" style="width:80px;height:auto" /> | [神权忤逆](shen_quan_wu_ni) | PP: 1/1 获得8点格挡，恢复共24点 PP，从弃牌堆随机抽2张牌，选择丢弃1张牌。蚀返：被消耗时向抽牌堆生成一张复制品。残鸣：被消耗时从消耗牌堆选择1张加入手牌。 |
+| <img src="/images/cards/shi_xuan_shi.png" alt="十玄释" style="width:80px;height:auto" /> | [十玄释](shi_xuan_shi) | PP: 2/2 5回合内免疫异常状态与能力下降。所有敌人束缚2回合。从2张2费牌中选择一张获得1次。回合结束时，若所有怪物意图均为眩晕或行动失效，此牌自动从任意牌堆打出。 |
+| <img src="/images/cards/shining_light.png" alt="曙光普照" style="width:80px;height:auto" /> | [曙光普照](shining_light) | PP: 5/5 随机附加2种异常状态2回合。获得1层缓冲。打出后置入抽牌堆顶，每次打出费用+1。 |
+| <img src="/images/cards/sigh_celestial_fate.png" alt="长叹天人命途" style="width:80px;height:auto" /> | [长叹天人命途](sigh_celestial_fate) | PP: 5/5 对手每有1种能力下降或自身每有1种能力上升，伤害+2。<br/>唱词：舍麦什。 |
+| <img src="/images/cards/sigh_tao_difficulty.png" alt="欷歔证道难" style="width:80px;height:auto" /> | [欷歔证道难](sigh_tao_difficulty) | PP: 5/5 造成5点伤害，扣除自身12点生命。打出后回到手牌。整局游戏中此牌每打出一次，伤害+2，扣血-1。 |
+| <img src="/images/cards/silent_demon_cry.png" alt="寂·妖胧天鸣" style="width:80px;height:auto" /> | [寂·妖胧天鸣](silent_demon_cry) |  |
+| <img src="/images/cards/silver_mist_wing.png" alt="银雾之翼" style="width:80px;height:auto" /> | [银雾之翼](silver_mist_wing) | PP: 5/5 造成2点伤害。消除对手全属性提升。获得1层神耀能量，打出暴击时获得2层。 |
+| <img src="/images/cards/sky_fist.png" alt="辉·沧天逆流拳" style="width:80px;height:auto" /> | [辉·沧天逆流拳](sky_fist) | PP: 7/7 消耗牌堆每有一张牌，此牌耗能-1。对所有敌人造成7点伤害×消耗牌堆数量。附加等于已消耗PP总值的固定伤害。 |
+| <img src="/images/cards/slaughter_grip_evil_world.png" alt="屠·扼心恶世" style="width:80px;height:auto" /> | [屠·扼心恶世](slaughter_grip_evil_world) |  |
+| <img src="/images/cards/soaring_dragon_water.png" alt="滔天龙汲水" style="width:80px;height:auto" /> | [滔天龙汲水](soaring_dragon_water) | PP: 10/10 对所有敌人造成4点伤害，令所有敌人疲惫2回合。 |
+| <img src="/images/cards/solar_energy.png" alt="太阳能" style="width:80px;height:auto" /> | [太阳能](solar_energy) | PP: 5/5 获得1点能量。带光系时额外获得5点。 |
+| <img src="/images/cards/soul_devour.png" alt="堕语噬亡魂" style="width:80px;height:auto" /> | [堕语噬亡魂](soul_devour) | PP: 5/5 附加1点固定伤害。获得1点格挡。每打出一次，本局永久各+1。 |
+| <img src="/images/cards/spring.png" alt="弹簧" style="width:80px;height:auto" /> | [弹簧](spring) | PP: 5/5 奇巧 获得9点格挡，丢弃手中所有牌。施加弹簧能力，每回合多抽2张牌，多获得2点能量，持续1回合。 |
+| <img src="/images/cards/starlight_aura.png" alt="星光仙气" style="width:80px;height:auto" /> | [星光仙气](starlight_aura) | PP: 10/10 全属性+1。获得3点辉星。 |
+| <img src="/images/cards/steam_energy.png" alt="蒸汽能源" style="width:80px;height:auto" /> | [蒸汽能源](steam_energy) | PP: 5/5 获得3点能量。向弃牌堆加入一张灼伤。 |
+| <img src="/images/cards/stone_breaker.png" alt="石破天惊" style="width:80px;height:auto" /> | [石破天惊](stone_breaker) | PP: 10/10 造成3点伤害。消除目标全属性的提升。 |
+| <img src="/images/cards/summer_bloom.png" alt="夏花之灿" style="width:80px;height:auto" /> | [夏花之灿](summer_bloom) | PP: 10/10 获得8点格挡。2回合内免疫固定伤害。 |
+| <img src="/images/cards/sun_chase_long_poem.png" alt="逐日长诗" style="width:80px;height:auto" /> | [逐日长诗](sun_chase_long_poem) | PP: 5/5 对所有敌人造成3点伤害。消除对手全属性提升，成功则焚烬2回合。<br/>唱词：莎木斯。 |
+| <img src="/images/cards/sun_moon_art.png" alt="蔽日食月功" style="width:80px;height:auto" /> | [蔽日食月功](sun_moon_art) | PP: 5/5 全属性+1。恢复9%最大生命值，对所有敌人施加等量固定伤害。 |
+| <img src="/images/cards/sun_moon_belong.png" alt="日月安属" style="width:80px;height:auto" /> | [日月安属](sun_moon_belong) | PP: 5/5 80%沉默对手，失败则下回合将受到的伤害反弹为固定伤害。3回合内，敌方属性无法提升，我方属性无法下降。 |
+| <img src="/images/cards/sun_moon_star_shield.png" alt="日月星盾" style="width:80px;height:auto" /> | [日月星盾](sun_moon_star_shield) | PP: 3/3 获得9点格挡。3回合内，免疫并反弹受到的异常状态。 |
+| <img src="/images/cards/thousand_shadow_bind.png" alt="千重影缠身" style="width:80px;height:auto" /> | [千重影缠身](thousand_shadow_bind) | PP: 5/5 对所有敌人随机造成3-24点伤害。战斗中每使用一次，最低值+5。 |
+| <img src="/images/cards/thunder_flash.png" alt="瞬雷天闪" style="width:80px;height:auto" /> | [瞬雷天闪](thunder_flash) | PP: 5/5 造成6点伤害，令其麻痹两回合。 |
+| <img src="/images/cards/thunder_god_flash.png" alt="雷神天明闪" style="width:80px;height:auto" /> | [雷神天明闪](thunder_god_flash) | PP: 5/5 造成12点伤害。有20%概率伤害×4。 |
+| <img src="/images/cards/time_end.png" alt="终末·时之彼端" style="width:80px;height:auto" /> | [终末·时之彼端](time_end) | PP: 5/5 先制+1。下次受到的伤害100%反馈，若>20则恢复等量体力。 |
+| <img src="/images/cards/treasure_elephant.png" alt="福泽聚宝象" style="width:80px;height:auto" /> | [福泽聚宝象](treasure_elephant) | 炼狱。PP: 5/5 造成70点伤害。失去当前生命值一半，附加等量×250%固定伤害。消耗蓄力使伤害乘以其层数。 |
+| <img src="/images/cards/true_dragon_breath.png" alt="真龙吐息" style="width:80px;height:auto" /> | [真龙吐息](true_dragon_breath) | PP: 10/10 造成5点伤害，手牌每有1张伤害-1。未被格挡的伤害恢复自身体力。 |
+| <img src="/images/cards/true_dragon_form.png" alt="真龙形态" style="width:80px;height:auto" /> | [真龙形态](true_dragon_form) | PP: 1/1 记录当前生命值，将生命恢复满。战斗结束时调整生命值不大于记录值。 |
+| <img src="/images/cards/tzeentch.png" alt="奸奇" style="width:80px;height:auto" /> | [奸奇](tzeentch) | PP: 1/1 获得4个泰坦之灵。整局游戏中此牌每打出一次，获得的泰坦之灵+1。当前每有1个泰坦之灵，此牌耗能+1。 |
+| <img src="/images/cards/undead_catastrophe.png" alt="沦·亡灵天灾" style="width:80px;height:auto" /> | [沦·亡灵天灾](undead_catastrophe) | PP: 5/5 造成4点伤害。伤害高于5获得1层人工制品，低于5获得灾祸。 |
+| <img src="/images/cards/undead_storm.png" alt="亡灵风暴" style="width:80px;height:auto" /> | [亡灵风暴](undead_storm) | PP: 10/10 赋予所有敌人2层灾厄。重放2。 |
+| <img src="/images/cards/vast_sea_sky.png" alt="昊海垂天" style="width:80px;height:auto" /> | [昊海垂天](vast_sea_sky) | PP: 5/5 生成3个海洋充能球。 |
+| <img src="/images/cards/vertical_horizontal_worlds.png" alt="纵横三千界" style="width:80px;height:auto" /> | [纵横三千界](vertical_horizontal_worlds) | PP: 1/1 立即触发战斗开始时的遗物效果。 |
+| <img src="/images/cards/void_root_reinterpret.png" alt="彼空·根源重释" style="width:80px;height:auto" /> | [彼空·根源重释](void_root_reinterpret) | PP: 1/1 对所有敌人造成等同于敌方所有攻击意图伤害之和的伤害。 |
+| <img src="/images/cards/waning_turns.png" alt="阑珊百转" style="width:80px;height:auto" /> | [阑珊百转](waning_turns) | PP: 5/5 解除自身全属性下降，成功则缓冲+1。4回合内免疫并反弹异常状态。 |
+| <img src="/images/cards/water_sky_one_color.png" alt="水天一色" style="width:80px;height:auto" /> | [水天一色](water_sky_one_color) | PP: 1/1 弃牌堆为空时才能打出。3回合内，伤害提升140%。 |
+| <img src="/images/cards/white_dawn_chase_night.png" alt="白霞逐夜" style="width:80px;height:auto" /> | [白霞逐夜](white_dawn_chase_night) | PP: 5/5 获得8点格挡。若此牌为本回合首张打出的牌，对所有敌人施加3层冻伤。 |
+| <img src="/images/cards/wind_forest_mountain.png" alt="风林火山" style="width:80px;height:auto" /> | [风林火山](wind_forest_mountain) | PP: 5/5 造成6点伤害。解除自身全属性下降。 |
+| <img src="/images/cards/wind_grace.png" alt="予风余芳" style="width:80px;height:auto" /> | [予风余芳](wind_grace) | PP: 5/5 上一张为攻击牌时，获得9点格挡；为技能牌时，获得2层予风余芳。 |
+| <img src="/images/cards/withered_energy.png" alt="枯萎能量" style="width:80px;height:auto" /> | [枯萎能量](withered_energy) | PP: 5/5 向抽牌堆和弃牌堆各加入一张凋零。获得2点能量。获得8点格挡。 |
+| <img src="/images/cards/world_heart.png" alt="万物之心" style="width:80px;height:auto" /> | [万物之心](world_heart) | PP: 5/5 获得10点格挡。随机获得1张耗能为0的牌。每打出一次，本场战斗多获得一张。 |
+| <img src="/images/cards/world_one_country.png" alt="天下一国" style="width:80px;height:auto" /> | [天下一国](world_one_country) | PP: 5/5 清空PP并消耗手牌中所有牌。每消耗2张获得1层永昌玺（最高6层），溢出层数每层转化为15点格挡。 |
+| <img src="/images/cards/xiao_falling_red.png" alt="萧·零落绯如故" style="width:80px;height:auto" /> | [萧·零落绯如故](xiao_falling_red) | PP: 5/5 夺取敌方异常状态，每项恢复3HP。消耗弃牌堆中PP卡，将PP值×2+最大HP×5%作为固定伤害附加给敌人。 |
+| <img src="/images/cards/xi_meng_piao_miao_jian.png" alt="戏梦缥缈间" style="width:80px;height:auto" /> | [戏梦缥缈间](xi_meng_piao_miao_jian) | PP: 1/1 丢弃手中所有牌，每丢弃一张，抽2张牌。下回合开始时，将手牌抽满。 |
+| <img src="/images/cards/xukong.png" alt="墟埪" style="width:80px;height:auto" /> | [墟埪](xukong) | PP: 1/1 消除所有敌人的全属性加成，施加等量层数邪诲。消除所有敌人的其它增益，施加等量层数圣诰。 |
+| <img src="/images/cards/ya_ran_shi_xiao.png" alt="雅髯狮啸" style="width:80px;height:auto" /> | [雅髯狮啸](ya_ran_shi_xiao) | PP: 10/10 对单个敌人造成7点伤害。随机选取力量/防御/命中/速度一种属性，从目标窃取3点移至自身（每次1点，共3次独立随机）。 |
+| <img src="/images/cards/yao_zu_yi_shu.png" alt="妖族异术" style="width:80px;height:auto" /> | [妖族异术](yao_zu_yi_shu) | PP: 5/5 先制+1。获得6点格挡，2回合内免疫并反弹异常状态。 |
+| <img src="/images/cards/yimie.png" alt="夷灭" style="width:80px;height:auto" /> | [夷灭](yimie) | PP: 5/5 反转所有敌方正属性和自身负属性。对所有敌人造成5伤害3次。 |

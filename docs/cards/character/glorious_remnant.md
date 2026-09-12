@@ -1,32 +1,33 @@
-﻿# 耀武遗辉
+# 耀武遗辉
 
 <img src="/images/cards/glorious_remnant.png" alt="耀武遗辉" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **分类**: 角色（圣灵谱尼）牌
-- **最大PP**: 5
+- **最大PP**: 2
 - **能量消耗**: 1
 - **类型**: 技能
 - **稀有度**: 稀有
 - **目标**: 无
 - **可升级**: 是（1 级）
-- **关键词**: [虚无](/mechanics/ethereal.md)（升级后移除）
+- **关键词**: 迟涌、残鸣
 
 ### 数值参数
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| PP | 5 | 5 |
-| 最大PP | 5 | 5 |
+| PP | 2 | 2 |
+| 最大PP | 2 | 2 |
+| 能量消耗 | 1 | 0 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 将[消耗牌堆](/mechanics/exhaust.md)的所有牌添加[重放](/mechanics/replay.md)<span style="color:#3aa675;font-weight:600">1</span>。
+PP: <span style="color:#3aa675;font-weight:600">2</span>/<span style="color:#3aa675;font-weight:600">2</span> 将[消耗牌堆](/mechanics/exhaust.md)的所有牌添加[重放](/mechanics/replay.md)<span style="color:#3aa675;font-weight:600">1</span>。\n[<span style="color:#d4a017;font-weight:600">残鸣</span>]：此牌被消耗时，所有牌回满[PP](/mechanics/pp-system.md)（此牌除外）。
 
 ## 升级后
 
-去除[虚无](/mechanics/ethereal.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 将[消耗牌堆](/mechanics/exhaust.md)的所有牌添加[重放](/mechanics/replay.md)<span style="color:#3aa675;font-weight:600">1</span>。
+PP: <span style="color:#3aa675;font-weight:600">2</span>/<span style="color:#3aa675;font-weight:600">2</span> 耗能[<span style="color:#3aa675;font-weight:600">0</span>]。将[消耗牌堆](/mechanics/exhaust.md)的所有牌添加[重放](/mechanics/replay.md)<span style="color:#3aa675;font-weight:600">1</span>。\n[<span style="color:#d4a017;font-weight:600">残鸣</span>]：此牌被消耗时，所有牌回满[PP](/mechanics/pp-system.md)（此牌除外）。
 
 ## 小贴士
 

@@ -5,51 +5,52 @@
 ## 基本信息
 
 - **分类**: 角色（圣灵谱尼）牌
-- **最大PP**: 5
+- **最大PP**: 3
 - **能量消耗**: 1
 - **类型**: 技能
-- **稀有度**: 普通
+- **稀有度**: 稀有
 - **目标**: 自身
+- **关键词**: [溯引](/mechanics/suyin.md)
 - **可升级**: 是（1 级）
 
 ### 数值参数
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 先制层数 | 1 | 1 |
-| 反弹回合数 | 2 | 2 |
-| 格挡 | 6 | 10 |
-| PP | 5 | 5 |
-| 最大PP | 5 | 5 |
+| 自伤 | 7 | 7 |
+| 反弹回合数 | 4 | 4 |
+| PP | 3 | 3 |
+| 最大PP | 3 | 3 |
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)+<span style="color:#3aa675;font-weight:600">1</span>。获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)，<span style="color:#3aa675;font-weight:600">2</span>回合内免疫并反弹[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。
+PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 损失<span style="color:#3aa675;font-weight:600">7</span>点生命，<span style="color:#3aa675;font-weight:600">4</span>回合内免疫并反弹[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。战斗结束后随机升级一张牌。[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#9b59b6;font-weight:600">仪式</span>](/powers/ritual_power.md)。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)+<span style="color:#3aa675;font-weight:600">1</span>。获得<span style="color:#3aa675;font-weight:600">10</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)，<span style="color:#3aa675;font-weight:600">2</span>回合内免疫并反弹[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。
+[<span style="color:#d4a017;font-weight:600">固有</span>](/mechanics/innate.md)。PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 损失<span style="color:#3aa675;font-weight:600">7</span>点生命，<span style="color:#3aa675;font-weight:600">4</span>回合内免疫并反弹[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。战斗结束后随机升级一张牌。[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#9b59b6;font-weight:600">仪式</span>](/powers/ritual_power.md)。
 
 ## 小贴士
 
-- **三效合一的万金油防御**：[先制](/powers/first_strike_power.md)+<span style="color:#3aa675;font-weight:600">1</span>（下一张牌耗能 -<span style="color:#3aa675;font-weight:600">1</span>）+ <span style="color:#3aa675;font-weight:600">6</span> 点格挡 + <span style="color:#3aa675;font-weight:600">2</span> 回合异常免疫反弹，一张牌同时覆盖减费、防御、异常对策三个方向。作为普通稀有度牌，覆盖面却接近多张专门牌之和。
-- **先制把这张牌"打回"0 费**：打出自带的先制后，紧接的下一张牌耗能 -<span style="color:#3aa675;font-weight:600">1</span>——等于这张 <span style="color:#3aa675;font-weight:600">1</span> 费牌的能耗被下一张牌全额找补。先制在下一张牌打出后即消失，所以出牌顺序上把它排在高费牌前面收益最大。
+- **自伤换长线成长**：打出损失 <span style="color:#3aa675;font-weight:600">7</span> 点生命，换取 <span style="color:#3aa675;font-weight:600">4</span> 个敌方回合的异常免疫反弹 + 每场战斗结束随机升级一张牌。前期自伤 7 点不轻，但长线收益（永久升级牌库）会持续滚雪球——配合回血手段后这笔交易非常划算。
 - **免疫范围是异常状态、不含原版减益**：免疫并反弹的是 mod 的 <span style="color:#3aa675;font-weight:600">25</span> 种[异常状态](/mechanics/abnormal-status.md)（烧伤、中毒、冰封、失明、麻痹、石化等），**不免疫**原版虚弱/易伤/脆弱——面对挂原版减益的敌人这层保护是空的，别高估它的覆盖面。
-- **反弹目标是全体敌人**：免疫期间吃到的异常会原样弹给**所有**敌人（不是只弹施加者）。多敌人遭遇战里反弹收益翻倍——尤其在敌方多人轮流挂异常的场合，敌人等于在给全队自残。
-- **覆盖窗口精确到 2 个敌方回合**：反弹层数在**对方回合结束**时递减，<span style="color:#3aa675;font-weight:600">2</span> 层恰好覆盖 <span style="color:#3aa675;font-weight:600">2</span> 个敌方回合。应对单次大规模异常攻势（如 Boss 蓄力一波挂全场）绰绰有余；长线异常消耗战则需续杯手段或换[阑珊百转](/cards/character/waning_turns.md)（<span style="color:#3aa675;font-weight:600">4</span> 回合版）顶上。
-- **格挡吃敏捷加成**：这 <span style="color:#3aa675;font-weight:600">6</span> 点格挡属于卡牌格挡，受敏捷/脆弱影响——敏捷流构筑里实际到手的格挡更高。
-- **升级只加格挡**：格挡 <span style="color:#3aa675;font-weight:600">6</span>→<span style="color:#3aa675;font-weight:600">10</span>（+<span style="color:#3aa675;font-weight:600">67</span>%），先制、反弹回合均不变。升级走的是纯防御数值路线，免疫反弹的机制面没有变化。
-- **性价比**：<span style="color:#3aa675;font-weight:600">1</span> 费三效，先制找补能耗后实际约等于白嫖一层防御+异常对策——普通牌里的性价比标杆，几乎任何构筑都塞得下。
+- **反弹给全体敌人**：免疫期间吃到的异常原样弹给**所有**敌人（不是只弹施加者）。多敌人遭遇里反弹收益翻倍——敌人轮流挂异常时等同于给全队自残。
+- **覆盖窗口 4 个敌方回合**：反弹层数在**对方回合结束**递减，<span style="color:#3aa675;font-weight:600">4</span> 层覆盖 <span style="color:#3aa675;font-weight:600">4</span> 个敌方回合，比多数免疫手段更长，应对持续异常攻势更从容。
+- **战斗结束随机升级一张牌**：每场战斗胜利后，随机把牌库中一张尚未升级的牌永久+。持久战/多波次 run 中越打牌库越强，是典型的"越用越强"成长件。随机性意味着可能升级到不那么关键的牌，但总量可观。
+- **溯引白嫖仪式**：[溯引](/mechanics/suyin.md)在抽到此牌时触发，获得 <span style="color:#3aa675;font-weight:600">1</span> 层[仪式](/powers/ritual_power.md)——仅当抽到并还在手牌时净亏不了。仪式层数越高，后续每回合收益越大，属于锦上添花的持续强化。
+- **升级固化启动**：升级后[固有](/mechanics/innate.md)——开局就在[手牌](/mechanics/hand.md)中，保证第一回合就能打出免疫反弹与启动成长，减少关键回合裸奔的风险。
+- **性价比**：<span style="color:#3aa675;font-weight:600">1</span> 费、PP<span style="color:#3aa675;font-weight:600">3</span> 换长期免疫反弹 + 永久升级引擎，稀有度合理。自伤 <span style="color:#3aa675;font-weight:600">7</span> 点是主要代价，配回复/护甲才稳；纯速攻短战斗收益相对降低。
 
 ## 相关能力
 
-- [先制](/powers/first_strike_power.md)：下一张牌耗能 -1
 - [异常免疫·反弹](/powers/debuff_immune_power.md)：免疫异常状态并反弹给所有敌人
+- [仪式](/powers/ritual_power.md)：溯引获得的持续强化层数
 
 ## 相关机制
 
 - [异常状态](/mechanics/abnormal-status.md)：被免疫并反弹的独立状态体系
-- [格挡](/mechanics/block.md)：获得 6/10 点，受敏捷影响
+- [溯引](/mechanics/suyin.md)：抽到此牌时触发
+- [固有](/mechanics/innate.md)：升级后开局入手
 - [PP 系统](/mechanics/pp-system.md)
 
 ## 源码

@@ -49,7 +49,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 ## 相关机制
 
-- [能量](/mechanics/energy.md)（下回合获得 2/3 点能量）
+- [能量](/mechanics/energy.md)（下回合获得 2/4 点能量）
 
 ## 源码
 

@@ -35,10 +35,15 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 - **多敌人价值放大**：敌人越多，施加层数越多，抽牌越多。单 Boss 时只抽 2-3 张，多敌人遭遇战价值翻倍。
 - **2 费合理**：2 费换全敌人冻伤 + 大量抽牌。冻伤每层每回合造成 <span style="color:#3aa675;font-weight:600">5</span> 点不可格挡伤害，2 层 = 10 伤/回合，3 个敌人 = 30 伤/回合，外加 6 张抽牌，性价比极高。
 - **升级增冻伤回合**：冻伤回合数 <span style="color:#3aa675;font-weight:600">2</span> → <span style="color:#3aa675;font-weight:600">3</span>。多敌人时每多 1 回合 = 多抽敌人数张牌 + 多 1 轮 5 点伤害，收益显著。
+- **带[迁鸣](/mechanics/qianming.md)**：变化牌堆时触发此牌效果——**手牌上限 +1**（累积）。每换一次牌堆叠 1 层手牌上限，多张此牌在场或重复触发可显著扩展手牌容量，与本身"抽大量牌"配合不会爆手牌。
 
 ## 相关能力
 
 - [冻伤](/powers/frostbite_power.md)（mod 减益，回合开始时受到 5 点不可格挡伤害并减少 1 层）
+
+## 相关机制
+
+- [迁鸣](/mechanics/qianming.md)（变化牌堆时手牌上限 +1，累积）
 
 ## 源码
 

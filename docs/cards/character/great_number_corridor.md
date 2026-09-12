@@ -24,27 +24,25 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">人工制品</span>，消失后清除对手<span style="color:#d4a017;font-weight:600">全属性</span>加成。生命低于<span style="color:#3aa675;font-weight:600">25</span>%时回血至<span style="color:#3aa675;font-weight:600">50</span>%，下回合再次检查。
+PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">人工制品</span>。生命低于<span style="color:#3aa675;font-weight:600">25</span>%时回血至<span style="color:#3aa675;font-weight:600">50</span>%，下回合再次检查。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">人工制品</span>，消失后清除对手<span style="color:#d4a017;font-weight:600">全属性</span>加成。生命低于<span style="color:#3aa675;font-weight:600">25</span>%时回血至<span style="color:#3aa675;font-weight:600">60</span>%，下回合再次检查。
+PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">人工制品</span>。生命低于<span style="color:#3aa675;font-weight:600">25</span>%时回血至<span style="color:#3aa675;font-weight:600">60</span>%，下回合再次检查。
 
 ## 小贴士
 
-- **三重效果**：1 费获得[人工制品](/powers/artifact_power.md) + 人工制品层数减少后清除**所有敌人**的全属性加成 + 生命低于 25% 时回血至 50%（升级后 60%），下回合开始再检查一次。
-- **人工制品保命**：获得 1 层人工制品——免疫下一次受到的负面效果（虚弱/易伤/力量下降等）。**清除属性的判定**：打出时记录当时的人工制品层数，之后每个自己回合开始前重查——层数比记录少（被打掉了）才触发清除，然后更新记录。所以人工制品在敌人回合被消耗后，要等自己下回合开始才结算清除。
-- **全属性范围**：同时清除**所有敌人**的力量/命中/防御/速度四种属性的**正层数**（施加等量负层数移除）。不清除原版敏捷/虚弱/易伤，不清除负层数或零层数属性。对爱叠力量的 Boss 尤其致命——一次性没收全部力量投资。
-- **检测次数 = 打出次数**：清除判定能力只带 1 层（打出后在下个回合开始检测一次即消失）；PP 5 允许一场打多次叠加检测回合数——每次打出都刷新一次"人工制品快照 + 层数对比"的监控窗口，持续压制敌人的属性成长。
+- **双效卡**：1 费获得[人工制品](/powers/artifact_power.md) + 生命低于 25% 时回血至 50%（升级后 60%），且下回合开始再检查一次。
+- **人工制品保命**：获得 1 层人工制品——免疫下一次受到的负面效果（虚弱/易伤/力量下降等）。
 - **回血机制**：打出时立即检查生命值，低于 25% 则回血至 50%（升级后 60%）；下回合开始时**再检查一次**（仍需低于 25% 才触发）——连续两次回血窗口，覆盖"打出时残血"和"敌人回合被打残"两种情况。
 - **回血计算**：以最大生命值百分比计算。例如最大生命 100，当前 20（20%），回血至 50% = 回复 30 点；升级后回至 60% = 回复 40 点。高最大生命构筑下回血绝对量更大。
-- **配合建议**：残血危机时打出收益最大（保命+清属性+回血三合一）；刻意保留到敌人叠满增益后打，一次没收全部力量/防御投资。
-- **升级的关键性**：回血目标 50%→60%（多回 10% 最大生命），清除与人工制品不变。优先级中等——提升的是保命下限。
-- **性价比**：1 费三重保命+反制，残局翻盘牌；血线健康时打会浪费回血检查，时机价值大于牌面价值。
+- **配合建议**：残血危机时打出收益最大（保命+回血二合一）；血线相对健康时价值有限，主要靠人工制品的免伤。
+- **升级的关键性**：回血目标 50%→60%（多回 10% 最大生命），人工制品不变。优先级中等——提升的是保命下限。
+- **性价比**：1 费保命（人工制品免伤 + 残血回血），血线健康时打会浪费回血检查，时机价值大于牌面价值。
 
 ## 相关能力
 
-- [人工制品](/powers/artifact_power.md)（免疫 1 次负面效果，消失后清除对手全属性加成）
+- [人工制品](/powers/artifact_power.md)（免疫 1 次负面效果）
 
 ## 源码
 

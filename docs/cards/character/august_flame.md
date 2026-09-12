@@ -6,7 +6,7 @@
 
 - **分类**: 角色（圣灵谱尼）牌
 - **最大PP**: 1
-- **能量消耗**: 2
+- **能量消耗**: 1
 - **类型**: 能力
 - **稀有度**: 罕见
 - **目标**: 无
@@ -22,11 +22,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 自身[<span style="color:#d4a017;font-weight:600">烧伤</span>](/powers/burn_power.md)<span style="color:#3aa675;font-weight:600">5</span>回合。此后每打出一张牌，对随机敌人造成等于自身<span style="color:#d4a017;font-weight:600">烧伤</span>回合数的伤害。（获得[<span style="color:#d4a017;font-weight:600">八月的流火</span>](/powers/august_flame_power.md)）
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 自身[<span style="color:#d4a017;font-weight:600">烧伤</span>](/powers/burn_power.md)<span style="color:#3aa675;font-weight:600">5</span>回合。此后每出一张牌，对随机敌人造成与自身<span style="color:#d4a017;font-weight:600">烧伤</span>等额的伤害。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 自身[<span style="color:#d4a017;font-weight:600">烧伤</span>](/powers/burn_power.md)<span style="color:#3aa675;font-weight:600">7</span>回合。此后每打出一张牌，对随机敌人造成等于自身<span style="color:#d4a017;font-weight:600">烧伤</span>回合数的伤害。（获得[<span style="color:#d4a017;font-weight:600">八月的流火</span>](/powers/august_flame_power.md)）
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 自身[<span style="color:#d4a017;font-weight:600">烧伤</span>](/powers/burn_power.md)<span style="color:#3aa675;font-weight:600">7</span>回合。此后每出一张牌，对随机敌人造成与自身<span style="color:#d4a017;font-weight:600">烧伤</span>等额的伤害。
 
 ## 小贴士
 
@@ -38,7 +38,7 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 - **烧伤层数是伤害源，多多益善**：能力伤害等于**出牌瞬间**的烧伤层数——若其它效果给自己叠加烧伤，此卡的触发伤害随之水涨船高，而自伤仍是固定 3 点/回合、攻伤 -1 固定值，都不随层数增长。叠烧伤对这个体系是纯赚。
 - **升级的价值（递减数列要算总账）**：烧伤回合 5→7。烧伤每回合 -1，所以伤害是递减的——按每回合打 3 张牌估算：5 层总输出 = 3×(5+4+3+2+1) = **45** 点；7 层 = 3×(7+6+5+4+3+2+1) = **84** 点，提升约 **+87%**，远超表面上的"+2 回合"。升级优先级极高。
 - **风险提示**：自身烧伤会持续掉血，低血量时慎用。注意烧伤的攻击减伤效果会影响你的攻击牌输出。
-- **性价比**：2 费合理——能力牌常驻整场，烧伤联动出牌的额外伤害回本快。
+- **性价比**：1 费合理——能力牌常驻整场，烧伤联动出牌的额外伤害回本快。
 
 ## 源码
 

@@ -11,6 +11,7 @@
 - **稀有度**: 稀有
 - **目标**: 单体敌方
 - **可升级**: 是（1 级）
+- **关键词**: [戏法](/mechanics/trick.md)
 
 ### 数值参数
 
@@ -22,14 +23,15 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 造成<span style="color:#3aa675;font-weight:600">12</span>点伤害。你当前所有手牌附加[永耀](/mechanics/eternal_radiance.md)附魔。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 造成<span style="color:#3aa675;font-weight:600">12</span>点伤害。你所有手牌附加[永耀](/mechanics/eternal_radiance.md)附魔。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 造成<span style="color:#3aa675;font-weight:600">18</span>点伤害。你当前所有手牌附加[永耀](/mechanics/eternal_radiance.md)附魔。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 造成<span style="color:#3aa675;font-weight:600">18</span>点伤害。你所有手牌附加[永耀](/mechanics/eternal_radiance.md)附魔。
 
 ## 小贴士
 
+- **[戏法](/mechanics/trick.md)——打出时从弃牌堆抽一张**：带有[戏法](/mechanics/trick.md)关键词，打出时若[弃牌堆](/mechanics/discard_pile.md)有牌，随机从弃牌堆抽一张到手中。既补一张手牌（不消耗出牌权），又能把刚用掉的牌捞回来循环。注意触发时机在打出结算中，弃牌堆为空时不触发。
 - **群体永耀附魔——当前手牌全部降费**：打出后当前手牌中所有可附魔的牌附加[永耀](/mechanics/eternal_radiance.md)附魔，耗能降为 0。不同于原版[腐化](https://slay-the-spire.fandom.com/wiki/Corruption)的"降费但消耗"，永耀降费**无代价**——手牌不消耗，纯粹减费。
 - **核心矛盾：群体降费 vs 每回合限一张**：永耀附魔的限制是**每回合只能打出一张永耀牌**。所以降费收益要按"每回合白嫖一张"折算——5 张永耀手牌要分 5 回合逐张打完，不是一波全部免费甩出。
 - **1 费 12 伤本身就是合格即战力**：不要把这张牌当成必须"攒大手牌"才能打的启动件——1 费换 12 伤害已经不亏，附魔是白送的补贴。随手打出不亏，手牌里恰好有高费牌时收益更高，但没必要刻意憋。

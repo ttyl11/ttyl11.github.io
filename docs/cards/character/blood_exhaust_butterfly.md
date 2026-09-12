@@ -10,7 +10,7 @@
 - **类型**: 技能
 - **稀有度**: 罕见
 - **目标**: 自身
-- **关键词**: 寂灭
+- **关键词**: [寂灭](/mechanics/nirvana.md)、[迁鸣](/mechanics/qianming.md)
 - **可升级**: 是（1 级）
 
 ### 数值参数
@@ -23,14 +23,15 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 消耗自身<span style="color:#3aa675;font-weight:600">9</span>点生命。下一场战斗中获得[<span style="color:#d4a017;font-weight:600">必定暴击</span>](/powers/turn_guaranteed_crit_power.md)和[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)免疫。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 消耗自身<span style="color:#3aa675;font-weight:600">9</span>点生命。下一场战斗中获得[<span style="color:#d4a017;font-weight:600">必定暴击</span>](/powers/turn_guaranteed_crit_power.md)和[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)免疫。[<span style="color:#d4a017;font-weight:600">迁鸣</span>](/mechanics/qianming.md)：获得一张[<span style="color:#d4a017;font-weight:600">烬翎</span>](../token/phoenix_feather_card.md)。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 消耗自身<span style="color:#3aa675;font-weight:600">6</span>点生命。下一场战斗中获得[<span style="color:#d4a017;font-weight:600">必定暴击</span>](/powers/turn_guaranteed_crit_power.md)和[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)免疫。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 消耗自身<span style="color:#3aa675;font-weight:600">6</span>点生命。下一场战斗中获得[<span style="color:#d4a017;font-weight:600">必定暴击</span>](/powers/turn_guaranteed_crit_power.md)和[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)免疫。[<span style="color:#d4a017;font-weight:600">迁鸣</span>](/mechanics/qianming.md)：获得一张[<span style="color:#d4a017;font-weight:600">烬翎</span>](../token/phoenix_feather_card.md)。
 
 ## 小贴士
 
+- **迁鸣·烬翎（牌堆变化触发）**：带有[迁鸣](/mechanics/qianming.md)关键词——任何抽牌/弃牌/消耗/销毁/手牌变化（迁鸣覆盖的牌堆常规变化）触发时，获得一张[烬翎](../token/phoenix_feather_card.md)加入[手牌](/mechanics/hand.md)顶部。烬翎为 0 费衍生牌（抽 1 张牌、获得 2 点能量），等于"牌堆一动就白嫖一张抽牌+能量"，提供额外的过牌与回能，配合抽牌循环可以高频触发。
 - **寂灭意味着一次性**：[寂灭](/mechanics/nirvana.md)——打出时，本场战斗结束后从你的牌组中移除此牌（没打出就结束战斗则不会移除）。所以这张牌是"用 9 点血换下一场战斗的开局优势"，摸到不打就永远只是一张白板。
 - **下场增益按层预存**：打出时为下一场战斗累计 <span style="color:#3aa675;font-weight:600">1</span> 层预备——下场战斗开始时兑现为 <span style="color:#3aa675;font-weight:600">1</span> 层[回合必定暴击](/powers/turn_guaranteed_crit_power.md)（该回合所有攻击暴击）+ 整场[异常免疫](/powers/debuff_immune_power.md)。注意：免疫同亢龙有悔一样只挡 25 种异常状态，不挡虚弱/易伤等原版减益。
 - **自伤直接扣血**：9 点生命消耗为不可格挡的非攻击伤害，不吃力量/易伤，也不触发"受到攻击"类效果。前期 9 点偏贵，升级降到 6 点后压力小很多。

@@ -1,51 +1,62 @@
-# 普通遗物（41 项）
+# 普通遗物（47 项）
 
 普通稀有度遗物，可通过常规战斗奖励获取。塔罗遗物也属于此稀有度。
 
 <a href="../all">← 返回全部遗物</a>
 
-<table>
-<thead><tr><th>图片</th><th>名称</th><th>效果</th></tr></thead>
-<tbody>
-<tr><td><img src="/images/relics/apollo.png" alt="阿波罗" style="width:80px;height:auto" /></td><td><a href="apollo">阿波罗</a></td><td>每次使用能力牌时，反转自身全属性下降状态，焚烬所有敌人2回合。</td></tr>
-<tr><td><img src="/images/relics/codblru.png" alt="科德布鲁" style="width:80px;height:auto" /></td><td><a href="codblru">科德布鲁</a></td><td>回合结束时： 若本回合未受到伤害，获得1层爆发。 若本回合受到了伤害，获得3层覆甲。</td></tr>
-<tr><td><img src="/images/relics/east_sea_dragon_king.png" alt="东海龙王" style="width:80px;height:auto" /></td><td><a href="east_sea_dragon_king">东海龙王</a></td><td>打出技能牌时，令所有敌人获得1层冻伤。 打出攻击牌时，伤害额外增加目标冻伤层数的50%。</td></tr>
-<tr><td><img src="/images/relics/eel_legion.png" alt="鳗鳗军团" style="width:80px;height:auto" /></td><td><a href="eel_legion">鳗鳗军团</a></td><td>每回合首次受到伤害时，获得6点格挡。</td></tr>
-<tr><td><img src="/images/relics/elizabeth_dragon.png" alt="伊丽莎白" style="width:80px;height:auto" /></td><td><a href="elizabeth_dragon">伊丽莎白</a></td><td>战斗开始时，获得120%伤害加成。 每打出1张攻击牌，伤害加成减少40%（最低0%）。</td></tr>
-<tr><td><img src="/images/relics/ghost_impermanence.png" alt="无常幽鬼" style="width:80px;height:auto" /></td><td><a href="ghost_impermanence">无常幽鬼</a></td><td>暴击时，自身和所有敌人获得1层无实体（每回合最多1次）。</td></tr>
-<tr><td><img src="/images/relics/ghost_sword_rakshasa.png" alt="鬼剑罗刹" style="width:80px;height:auto" /></td><td><a href="ghost_sword_rakshasa">鬼剑罗刹</a></td><td>回合开始时生成1张虚无无色卡到手牌。 卡牌被消耗时获得1层力量（每回合最多1次）。</td></tr>
-<tr><td><img src="/images/relics/host_rock.png" alt="宿主岩" style="width:80px;height:auto" /></td><td><a href="host_rock">宿主岩</a></td><td>你受到伤害时，召唤奥斯提（增加等量点最大生命）。</td></tr>
-<tr><td><img src="/images/relics/giant_cactus.png" alt="巨型仙人掌" style="width:80px;height:auto" /></td><td><a href="giant_cactus">巨型仙人掌</a></td><td>每回合开始时，获得1层荆棘。</td></tr>
-<tr><td><img src="/images/relics/merlot.png" alt="梅洛" style="width:80px;height:auto" /></td><td><a href="merlot">梅洛</a></td><td>每回合结束时，随机将自身一个属性变化为另一个随机属性。</td></tr>
-<tr><td><img src="/images/relics/nirn.png" alt="尼尔" style="width:80px;height:auto" /></td><td><a href="nirn">尼尔</a></td><td>战斗结束时，随机变化牌组中的一张牌。</td></tr>
-<tr><td><img src="/images/relics/oscar.png" alt="奥斯卡" style="width:80px;height:auto" /></td><td><a href="oscar">奥斯卡</a></td><td>自身打出暴击时，回复造成伤害20%的生命。</td></tr>
-<tr><td><img src="/images/relics/sala_xiva.png" alt="沙罗希瓦" style="width:80px;height:auto" /></td><td><a href="sala_xiva">沙罗希瓦</a></td><td>每回合开始时，为所有对手附加等同于消耗牌堆牌数的固定伤害。</td></tr>
-<tr><td><img src="/images/relics/star_holy_king.png" alt="星灵圣王" style="width:80px;height:auto" /></td><td><a href="star_holy_king">星灵圣王</a></td><td>每当卡牌被生成或消耗时，获得1点辉星，铸造1。</td></tr>
-<tr><td><img src="/images/relics/tarot_chariot.png" alt="战车" style="width:80px;height:auto" /></td><td><a href="tarot_chariot">战车</a></td><td>连续打出攻击牌时伤害递增，每连续1张增加20%，最高增加100%。</td></tr>
-<tr><td><img src="/images/relics/tarot_death.png" alt="死神" style="width:80px;height:auto" /></td><td><a href="tarot_death">死神</a></td><td>回合结束时，为所有敌人附加等同于剩余手牌数的灾厄层数。</td></tr>
-<tr><td><img src="/images/relics/tarot_devil.png" alt="恶魔" style="width:80px;height:auto" /></td><td><a href="tarot_devil">恶魔</a></td><td>从第三回合起，回合开始时，若上回合造成的总伤害≥40，对所有敌人施加攻击无效。</td></tr>
-<tr><td><img src="/images/relics/tarot_emperor.png" alt="皇帝" style="width:80px;height:auto" /></td><td><a href="tarot_emperor">皇帝</a></td><td>生命值大于50%时，受到的伤害不会超过最大生命值的1/4。</td></tr>
-<tr><td><img src="/images/relics/tarot_empress.png" alt="女皇" style="width:80px;height:auto" /></td><td><a href="tarot_empress">女皇</a></td><td>自身每回合首次造成伤害后，回复最大生命值的1/15并获得等量格挡。</td></tr>
-<tr><td><img src="/images/relics/tarot_fool.png" alt="愚者" style="width:80px;height:auto" /></td><td><a href="tarot_fool">愚者</a></td><td>拾起时，随机获得2件其他塔罗遗物。</td></tr>
-<tr><td><img src="/images/relics/tarot_hanged_man.png" alt="倒吊人" style="width:80px;height:auto" /></td><td><a href="tarot_hanged_man">倒吊人</a></td><td>回合开始时失去5点生命。 受到伤害时获得1层必定暴击。 造成伤害时敌人额外失去2点生命，自身恢复等量生命。</td></tr>
-<tr><td><img src="/images/relics/tarot_hermit.png" alt="隐者" style="width:80px;height:auto" /></td><td><a href="tarot_hermit">隐者</a></td><td>如果本回合未出牌，则自身和所有敌人都获得1层无实体。</td></tr>
-<tr><td><img src="/images/relics/tarot_hierophant.png" alt="教皇" style="width:80px;height:auto" /></td><td><a href="tarot_hierophant">教皇</a></td><td>生命值大于70%时，攻击伤害+25%。</td></tr>
-<tr><td><img src="/images/relics/tarot_high_priestess.png" alt="女祭司" style="width:80px;height:auto" /></td><td><a href="tarot_high_priestess">女祭司</a></td><td>敌人回合开始时，随机对处于冻伤状态的敌人施加攻击无效或封属。</td></tr>
-<tr><td><img src="/images/relics/tarot_judgement.png" alt="审判" style="width:80px;height:auto" /></td><td><a href="tarot_judgement">审判</a></td><td>回合开始时： 若自身有异常状态，吸取所有敌人的全属性。 若无异常状态，为所有敌人随机附加1种异常状态1层。</td></tr>
-<tr><td><img src="/images/relics/tarot_justice.png" alt="正义" style="width:80px;height:auto" /></td><td><a href="tarot_justice">正义</a></td><td>每损失2%生命值：造成的伤害+2%，受到的伤害-1%。 当前增伤：0% 当前减伤：0%</td></tr>
-<tr><td><img src="/images/relics/tarot_lovers.png" alt="恋人" style="width:80px;height:auto" /></td><td><a href="tarot_lovers">恋人</a></td><td>回合结束时，若手中剩余牌数为奇数，对随机敌人施加1层烧伤和1层冻伤；若为偶数，随机生成1个充能球。</td></tr>
-<tr><td><img src="/images/relics/tarot_magician.png" alt="魔术师" style="width:80px;height:auto" /></td><td><a href="tarot_magician">魔术师</a></td><td>回合开始时：对每个处于异常状态的敌人，令其全属性-1。</td></tr>
-<tr><td><img src="/images/relics/tarot_moon.png" alt="月亮" style="width:80px;height:auto" /></td><td><a href="tarot_moon">月亮</a></td><td>连续打出同类型牌时，对随机敌人造成3点伤害。</td></tr>
-<tr><td><img src="/images/relics/tarot_star.png" alt="星星" style="width:80px;height:auto" /></td><td><a href="tarot_star">星星</a></td><td>每2个回合获得1个神谕充能球。</td></tr>
-<tr><td><img src="/images/relics/tarot_strength.png" alt="力量" style="width:80px;height:auto" /></td><td><a href="tarot_strength">力量</a></td><td>战斗开始时，获得1层仪式。</td></tr>
-<tr><td><img src="/images/relics/tarot_sun.png" alt="太阳" style="width:80px;height:auto" /></td><td><a href="tarot_sun">太阳</a></td><td>自身任意全属性被移除时，令所有敌人获得2层焚烬和2层烧伤。</td></tr>
-<tr><td><img src="/images/relics/tarot_temperance.png" alt="节制" style="width:80px;height:auto" /></td><td><a href="tarot_temperance">节制</a></td><td>回合开始时，从消耗牌堆随机将1张牌放入手牌。 若该牌为PP牌，将其PP回满。</td></tr>
-<tr><td><img src="/images/relics/tarot_tower.png" alt="高塔" style="width:80px;height:auto" /></td><td><a href="tarot_tower">高塔</a></td><td>每2个回合获得1个高塔充能球。</td></tr>
-<tr><td><img src="/images/relics/tarot_wheel_of_fortune.png" alt="命运之轮" style="width:80px;height:auto" /></td><td><a href="tarot_wheel_of_fortune">命运之轮</a></td><td>回合结束时，对所有敌人造成1至7点随机伤害。</td></tr>
-<tr><td><img src="/images/relics/tarot_world.png" alt="世界" style="width:80px;height:auto" /></td><td><a href="tarot_world">世界</a></td><td>战斗中生命值首次低于50%时，随机无效1个敌人的意图。此效果每场战斗只生效一次。</td></tr>
-<tr><td><img src="/images/relics/tianhe_general.png" alt="天河神将" style="width:80px;height:auto" /></td><td><a href="tianhe_general">天河神将</a></td><td>回合开始时，消除所有敌人任一属性的提升 每消除1级，自身获得2点格挡。</td></tr>
-<tr><td><img src="/images/relics/true_dragon_taklin.png" alt="真龙·塔克林" style="width:80px;height:auto" /></td><td><a href="true_dragon_taklin">真龙·塔克林</a></td><td>回合开始时，获得1层防御。 若自身防御为正被削减至≤0，阻止该削减。</td></tr>
-<tr><td><img src="/images/relics/jiager.png" alt="加格尔" style="width:80px;height:auto" /></td><td><a href="jiager">加格尔</a></td><td>战斗开始时，为自身施加易伤，并获得力量。</td></tr>
-<tr><td><img src="/images/relics/ji.png" alt="吉尔" style="width:80px;height:auto" /></td><td><a href="ji">吉尔</a></td><td>你打出的状态牌会让所有敌人烧伤指定回合数。</td></tr>
-<tr><td><img src="/images/relics/lugas.png" alt="鲁加斯" style="width:80px;height:auto" /></td><td><a href="lugas">鲁加斯</a></td><td>战斗开始时，向抽牌堆加入指定数量的巨石。</td></tr>
-</tbody></table>
+| 图片     | 名称                             | 效果                                                    |
+| ------ | ------------------------------ | ----------------------------------------------------- |
+| <br /> | [阿波罗](apollo)                  | 每次使用能力牌时，反转自身全属性下降状态，焚烬所有敌人2回合。                       |
+| <br /> | [科德布鲁](codblru)                | 回合结束时： 若本回合未受到伤害，获得1层爆发。 若本回合受到了伤害，获得3层覆甲。            |
+| <br /> | [东海龙王](east_sea_dragon_king)   | 打出技能牌时，令所有敌人获得1层冻伤。 打出攻击牌时，伤害额外增加目标冻伤层数的50%。          |
+| <br /> | [鳗鳗军团](eel_legion)             | 每回合首次受到伤害时，获得6点格挡。                                    |
+| <br /> | [伊丽莎白](elizabeth_dragon)       | 战斗开始时，获得120%伤害加成。 每打出1张攻击牌，伤害加成减少40%（最低0%）。           |
+| <br /> | [无常幽鬼](ghost_impermanence)     | 暴击时，自身和所有敌人获得1层无实体（每回合最多1次）。                          |
+| <br /> | [鬼剑罗刹](ghost_sword_rakshasa)   | 回合开始时生成1张虚无无色卡到手牌。 卡牌被消耗时获得1层力量（每回合最多1次）。             |
+| <br /> | [宿主岩](host_rock)               | 你受到伤害时，召唤奥斯提（增加等量点最大生命）。                              |
+| <br /> | [巨型仙人掌](giant_cactus)          | 每回合开始时，获得1层荆棘。                                        |
+| <br /> | [梅洛](merlot)                   | 每回合结束时，随机将自身一个属性变化为另一个随机属性。                           |
+| <br /> | [尼尔](nirn)                     | 战斗结束时，随机变化牌组中的一张牌。                                    |
+| <br /> | [奥斯卡](oscar)                   | 自身打出暴击时，回复造成伤害20%的生命。                                 |
+| <br /> | [沙罗希瓦](sala_xiva)              | 每回合开始时，为所有对手附加等同于消耗牌堆牌数的固定伤害。                         |
+| <br /> | [星灵圣王](star_holy_king)         | 每当卡牌被生成或消耗时，获得1点辉星，铸造1。                               |
+| <br /> | [战车](tarot_chariot)            | 连续打出攻击牌时伤害递增，每连续1张增加20%，最高增加100%。                     |
+| <br /> | [死神](tarot_death)              | 回合结束时，为所有敌人附加等同于剩余手牌数的灾厄层数。                           |
+| <br /> | [恶魔](tarot_devil)              | 从第三回合起，回合开始时，若上回合造成的总伤害≥40，对所有敌人施加攻击无效。               |
+| <br /> | [皇帝](tarot_emperor)            | 生命值大于50%时，受到的伤害不会超过最大生命值的1/4。                         |
+| <br /> | [女皇](tarot_empress)            | 自身每回合首次造成伤害后，回复最大生命值的1/15并获得等量格挡。                     |
+| <br /> | [愚者](tarot_fool)               | 拾起时，随机获得2件其他塔罗遗物。                                     |
+| <br /> | [倒吊人](tarot_hanged_man)        | 回合开始时失去5点生命。 受到伤害时获得1层必定暴击。 造成伤害时敌人额外失去2点生命，自身恢复等量生命。 |
+| <br /> | [隐者](tarot_hermit)             | 如果本回合未出牌，则自身和所有敌人都获得1层无实体。                            |
+| <br /> | [教皇](tarot_hierophant)         | 生命值大于70%时，攻击伤害+25%。                                   |
+| <br /> | [女祭司](tarot_high_priestess)    | 敌人回合开始时，随机对处于冻伤状态的敌人施加攻击无效或封属。                        |
+| <br /> | [审判](tarot_judgement)          | 回合开始时： 若自身有异常状态，吸取所有敌人的全属性。 若无异常状态，为所有敌人随机附加1种异常状态1层。 |
+| <br /> | [正义](tarot_justice)            | 每损失2%生命值：造成的伤害+2%，受到的伤害-1%。 当前增伤：0% 当前减伤：0%           |
+| <br /> | [恋人](tarot_lovers)             | 回合结束时，若手中剩余牌数为奇数，对随机敌人施加1层烧伤和1层冻伤；若为偶数，随机生成1个充能球。     |
+| <br /> | [魔术师](tarot_magician)          | 回合开始时：对每个处于异常状态的敌人，令其全属性-1。                           |
+| <br /> | [月亮](tarot_moon)               | 连续打出同类型牌时，对随机敌人造成3点伤害。                                |
+| <br /> | [星星](tarot_star)               | 每2个回合获得1个神谕充能球。                                       |
+| <br /> | [力量](tarot_strength)           | 战斗开始时，获得1层仪式。                                         |
+| <br /> | [太阳](tarot_sun)                | 自身任意全属性被移除时，令所有敌人获得2层焚烬和2层烧伤。                         |
+| <br /> | [节制](tarot_temperance)         | 回合开始时，从消耗牌堆随机将1张牌放入手牌。 若该牌为PP牌，将其PP回满。                |
+| <br /> | [高塔](tarot_tower)              | 每2个回合获得1个高塔充能球。                                       |
+| <br /> | [命运之轮](tarot_wheel_of_fortune) | 回合结束时，对所有敌人造成1至7点随机伤害。                                |
+| <br /> | [世界](tarot_world)              | 战斗中生命值首次低于50%时，随机无效1个敌人的意图。此效果每场战斗只生效一次。              |
+| <br /> | [天河神将](tianhe_general)         | 回合开始时，消除所有敌人任一属性的提升 每消除1级，自身获得2点格挡。                   |
+| <br /> | [小火猴](xiao_huo_hou)              | 在你的回合内损失生命时，力量+1。                              |
+| <br /> | [伊优](yi_you)                     | 打出暴击时，抽一张牌。                                  |
+| <br /> | [雷伊](ray_relic)                 | 你使用带有电或雷字的牌时，先制+1。                               |
+| <br /> | [真龙·塔克林](true_dragon_taklin)   | 回合开始时，获得1层防御。 若自身防御为正被削减至≤0，阻止该削减。                    |
+| <br /> | [加格尔](jiager)                  | 战斗开始时，为自身施加易伤，并获得力量。                                  |
+| <br /> | [吉尔](ji)                       | 你打出的状态牌会让所有敌人烧伤指定回合数。                                 |
+| <br /> | [鲁加斯](lugas)                   | 战斗开始时，向抽牌堆加入指定数量的巨石。                                  |
+| <br /> | [布布种子](seer_bush_seed)         | 拾起时，选择1张牌附魔播种（该牌每场首次打出获得1点能量）。                        |
+| <br /> | [雁翎](yan_ling)                 | 你每造成750点伤害，获得1个通用刻印激活水晶。                              |
+| <br /> | [盖亚](seer_gaiya)               | 对意图有攻击的敌人造成伤害提升20%。                                   |
+| <br /> | [麦康纳](seer_mai_kang_na)       | 每回合开始时，从2张无色牌中选择一张加入手牌。                          |
+| <br /> | [吉拉提斯](seer_ji_la_ti_si)     | 战斗中首次向敌人施加异常状态时，四选一无色牌加入手牌并添加保留。           |
+| <br /> | [超级果然多](seer_super_guo_ran_duo) | 每隔5场战斗随机获得一个水果遗物；每有一个水果遗物，战斗开始全属性+1。    |
+| <br /> | [鬼剑骷髅](seer_ghost_sword_skeleton) | 你铸造时，生成一张灵魂到抽牌堆。                                   |
+| <br /> | [迅剑](seer_swift_sword)         | 回合开始时，你每有1种增益，铸造1。                                   |
+| <br /> | [无影剑客](seer_shadowless_swordsman) | 你的回合结束时，自动打出弃牌堆的一张君王之剑。                        |
+

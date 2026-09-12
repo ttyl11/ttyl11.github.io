@@ -17,22 +17,22 @@
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 每敌人伤害 | 1 | 1 |
+| 每敌人伤害 | 敌人数量×3 | 敌人数量×3 |
 | PP | 5 | 5 |
 | 最大PP | 5 | 5 |
 | 固有 | — | ✓ |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有敌人造成敌人数量×<span style="color:#3aa675;font-weight:600">1</span>点伤害。从[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)等于敌人数量的牌。
+PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有敌人造成敌人数量×<span style="color:#3aa675;font-weight:600">3</span>点伤害。从[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)等于敌人数量的牌。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">固有</span>](/mechanics/innate.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有敌人造成敌人数量×<span style="color:#3aa675;font-weight:600">1</span>点伤害。从[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)等于敌人数量的牌。
+[<span style="color:#d4a017;font-weight:600">固有</span>](/mechanics/innate.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有敌人造成敌人数量×<span style="color:#3aa675;font-weight:600">3</span>点伤害。从[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)等于敌人数量的牌。
 
 ## 小贴士
 
-- **伤害随敌人数量放大**：每个敌人受到"敌人数量×1"点攻击伤害（受[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)影响）。3 个敌人时每个受 3 伤，合计 9 伤；5 个敌人时每个受 5 伤，合计 25 伤。敌人越多越超值。
+- **伤害随敌人数量放大**：每个敌人受到"敌人数量×3"点攻击伤害（受[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)影响）。3 个敌人时每个受 9 伤，合计 27 伤；5 个敌人时每个受 15 伤，合计 75 伤。敌人越多越超值。
 - **薇关键词是这张牌的灵魂（别忘了他带薇）**：手牌中与它**左右相邻**的非"薇"牌被打出时，它会**免费自动打出**——3 费的能量一分不出，伤害+消耗全额结算。使用要点：
  - **摆位就是构筑**：把它夹在低费高频牌旁边，等于给相邻牌附赠一张免费 AOE。
  - **薇不连锁**：打出"薇"牌不会触发相邻的其它薇；左右都是薇时也只触发其中一张。

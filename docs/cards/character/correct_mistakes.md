@@ -17,20 +17,22 @@
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
+| 格挡 | 6 | 10 |
 | 预见数量 | 1 | 1 |
 | PP | 3 | 3 |
 | 最大PP | 3 | 3 |
 
 ## 描述
 
-PP: 3/3 [预见](/mechanics/scry.md)<span style="color:#3aa675;font-weight:600">1</span>。交换你的[抽牌堆](/mechanics/draw_pile.md)与[弃牌堆](/mechanics/discard_pile.md)。
+PP: 3/3 获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。[预见](/mechanics/scry.md)<span style="color:#3aa675;font-weight:600">1</span>。交换你的[抽牌堆](/mechanics/draw_pile.md)与[弃牌堆](/mechanics/discard_pile.md)。
 
 ## 升级后
 
-[保留](/mechanics/retain.md)。PP: 3/3 [预见](/mechanics/scry.md)<span style="color:#3aa675;font-weight:600">1</span>。交换你的[抽牌堆](/mechanics/draw_pile.md)与[弃牌堆](/mechanics/discard_pile.md)。
+PP: 3/3 获得<span style="color:#3aa675;font-weight:600">10</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。[预见](/mechanics/scry.md)<span style="color:#3aa675;font-weight:600">1</span>。交换你的[抽牌堆](/mechanics/draw_pile.md)与[弃牌堆](/mechanics/discard_pile.md)。
 
 ## 小贴士
 
+- **格挡是基础护身**：新增的 6 点格挡（升级后 10 点）提供当回合防御——交换牌堆是功能性效果，格挡让这张牌在没抓到关键牌时也能作为合格防御牌打出，不亏节奏。
 - **交换牌堆的真正效果**：打出后立即把[抽牌堆](/mechanics/draw_pile.md)与[弃牌堆](/mechanics/discard_pile.md)的内容互换——原弃牌堆的全部牌变成新抽牌堆，原抽牌堆的全部牌变成新弃牌堆。实现上牌是逐张放到新堆顶的，所以**原弃牌堆里最新弃掉的牌，恰好落在新抽牌堆顶**——刚用掉的关键牌交换后下回合第一抽就能再抽到。
 - **什么时候需要"提前用到"**：弃牌堆的牌本来就会在抽牌堆抽干时自动洗回去——**不要等到没牌了才想起这张牌**，那时交换毫无意义。真正的价值在于"提前"：弃牌堆里躺着[固有](/mechanics/innate.md)牌或核心强牌（比如刚用掉的大招、关键能力牌），正常要等抽牌堆全部抽干+洗牌才能再抽到，可能还要熬好几个回合；一张拨乱反正让它们立刻回到抽牌循环——配合"最新弃的在堆顶"的顺序，几乎是即弃即回。
 - **另一个隐藏用途——避开抽牌堆的脏牌**：如果[抽牌堆](/mechanics/draw_pile.md)里混着[诅咒](/mechanics/curse-system.md)/状态牌，交换会把它们整体送去弃牌堆——本周期再也抽不到，接下来抽的全是原弃牌堆的实战牌。相当于临时"过滤"掉了整堆脏牌（注意只是避开这一轮，下轮洗牌它们还会回来）。
@@ -40,7 +42,7 @@ PP: 3/3 [预见](/mechanics/scry.md)<span style="color:#3aa675;font-weight:600">
   - 预见没丢弃的牌留在抽牌堆，交换后进入新弃牌堆——要等下一轮洗牌才能再抽到
   - 所以预见的用途是决定抽牌堆顶的牌"去哪"：丢弃它就送进新抽牌堆，不丢就让它沉到新弃牌堆
 - **薇的免费触发（但扣 PP）**：带有[薇](/mechanics/vigil.md)关键词，当非薇的相邻牌被打出时，此牌自动打出且不消耗能量——但**照常消耗 1 点 PP**。把它放在手牌中间，靠打左右相邻的牌就能免费触发交换；PP3 意味着单场最多被薇白嫖 3 次，PP 耗尽后薇不再触发。注意每张被打出的牌最多触发一张相邻的薇牌。
-- **升级的价值**：获得[保留](/mechanics/retain.md)关键词，回合结束时不被弃置，可以留到最需要交换牌堆的回合再触发（或被薇触发）。升级优先级高。
+- **升级的价值**：格挡从 6 提升至 10（+67%），交换牌堆、预见效果不变。升级纯增伤防御，让这张牌作为防御牌的合格度更高。升级优先级中等。
 - **性价比**：2 费交换牌堆 + 预见 1，效果独特。薇的免费触发是核心价值——靠薇触发等于免费交换，2 费只是手动打出时的定价。
 
 ## 相关机制
@@ -49,7 +51,7 @@ PP: 3/3 [预见](/mechanics/scry.md)<span style="color:#3aa675;font-weight:600">
 - [预见](/mechanics/scry.md)（mod 关键词，查看牌堆顶）
 - [抽牌堆](/mechanics/draw_pile.md)（交换目标之一）
 - [弃牌堆](/mechanics/discard_pile.md)（交换目标之一）
-- [保留](/mechanics/retain.md)（升级后获得的关键词）
+- [格挡](/mechanics/block.md)（获得 6/10 点格挡）
 
 ## 源码
 

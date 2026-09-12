@@ -1,6 +1,6 @@
 # 遗物图鉴
 
-Seer Mod 共包含 222 个遗物。按稀有度分类浏览。
+Seer Mod 共包含 239 个遗物。按稀有度分类浏览。
 
 <div class="relic-category-grid">
 
@@ -14,28 +14,28 @@ Seer Mod 共包含 222 个遗物。按稀有度分类浏览。
 <a href="/relics/common/" class="relic-category-item">
   <div class="relic-category-icon">⚪</div>
   <div class="relic-category-name">普通遗物</div>
-  <div class="relic-category-count">38 项</div>
+  <div class="relic-category-count">45 项</div>
   <div class="relic-category-desc">普通稀有度，常规战斗奖励获取（含塔罗遗物）</div>
 </a>
 
 <a href="/relics/uncommon/" class="relic-category-item">
   <div class="relic-category-icon">🔵</div>
   <div class="relic-category-name">罕见遗物</div>
-  <div class="relic-category-count">20 项</div>
+  <div class="relic-category-count">23 项</div>
   <div class="relic-category-desc">罕见稀有度，获取难度中等</div>
 </a>
 
 <a href="/relics/rare/" class="relic-category-item">
   <div class="relic-category-icon">🟣</div>
   <div class="relic-category-name">稀有遗物</div>
-  <div class="relic-category-count">24 项</div>
+  <div class="relic-category-count">34 项</div>
   <div class="relic-category-desc">稀有稀有度，较为罕见</div>
 </a>
 
 <a href="/relics/shop/" class="relic-category-item">
   <div class="relic-category-icon">💰</div>
   <div class="relic-category-name">商店遗物</div>
-  <div class="relic-category-count">15 项</div>
+  <div class="relic-category-count">17 项</div>
   <div class="relic-category-desc">可在商店中购买的遗物</div>
 </a>
 
@@ -56,7 +56,7 @@ Seer Mod 共包含 222 个遗物。按稀有度分类浏览。
 <a href="/relics/epic/" class="relic-category-item">
   <div class="relic-category-icon">🟠</div>
   <div class="relic-category-name">史诗遗物</div>
-  <div class="relic-category-count">23 项</div>
+  <div class="relic-category-count">27 项</div>
   <div class="relic-category-desc">史诗稀有度（自定义），极强大效果</div>
 </a>
 

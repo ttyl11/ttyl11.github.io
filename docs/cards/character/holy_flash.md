@@ -22,14 +22,15 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 随机[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)<span style="color:#3aa675;font-weight:600">X</span>张牌。造成敌方<span style="color:#3aa675;font-weight:600">1/8</span>当前生命值的伤害<span style="color:#3aa675;font-weight:600">X</span>次。
+[溯引](/mechanics/suyin.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 随机[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)<span style="color:#3aa675;font-weight:600">X</span>张牌。造成敌方<span style="color:#3aa675;font-weight:600">1/8</span>当前生命值的伤害<span style="color:#3aa675;font-weight:600">X</span>次。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 随机[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)<span style="color:#3aa675;font-weight:600">X+1</span>张牌。造成敌方<span style="color:#3aa675;font-weight:600">1/8</span>当前生命值的伤害<span style="color:#3aa675;font-weight:600">X+1</span>次。
+[溯引](/mechanics/suyin.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 随机[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)<span style="color:#3aa675;font-weight:600">X+1</span>张牌。造成敌方<span style="color:#3aa675;font-weight:600">1/8</span>当前生命值的伤害<span style="color:#3aa675;font-weight:600">X+1</span>次。
 
 ## 小贴士
 
+- **溯引获得能量**：抽到此牌时触发[溯引](/mechanics/suyin.md)，获得 1 点能量——抽到手就是白嫖 1 费，让这张高费牌的启动成本被摊薄。
 - **X 耗能弹性**：X = 打出时投入的能量值，升级后额外 +1。投多少费就消耗多少张、打多少次。
 - **随机消耗抽牌堆**：从[抽牌堆](/mechanics/draw_pile.md)随机选 X 张牌[消耗](/mechanics/exhaust.md)，被消耗的 PP 卡 pp 清零。消耗是双刃剑——既减少后续抽牌资源，也清空了 PP 卡的储备。注意消耗数与伤害次数**相互独立**：抽牌堆余量不足 X 时只消耗现有的，但 X 次伤害照常全额结算。
 - **1/8 当前生命值攻击伤害**：每次造成目标当前生命值 1/8 的**攻击伤害**（受[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)影响），下限 1 点。每次重新计算当前生命值，所以伤害会随目标血量下降而递减。
@@ -38,6 +39,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 ## 相关机制
 
+- [溯引](/mechanics/suyin.md)（抽到此牌时获得 1 点能量）
 - [消耗](/mechanics/exhaust.md)（随机消耗抽牌堆 X 张）
 - [抽牌堆](/mechanics/draw_pile.md)（消耗来源）
 

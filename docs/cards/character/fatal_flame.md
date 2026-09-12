@@ -23,11 +23,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">5</span>点伤害。<span style="color:#3aa675;font-weight:600">14</span>%概率秒杀（对Boss无效）。
+PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">5</span>点伤害。<span style="color:#3aa675;font-weight:600">14</span>%概率秒杀（对Boss无效）。<span style="color:#d4a017;font-weight:600">迁鸣</span>：每次变化牌堆时，本场战斗秒杀概率+<span style="color:#d44;font-weight:600">2</span>%。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">5</span>点伤害。<span style="color:#3aa675;font-weight:600">20</span>%概率秒杀（对Boss无效）。
+PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">5</span>点伤害。<span style="color:#3aa675;font-weight:600">20</span>%概率秒杀（对Boss无效）。<span style="color:#d4a017;font-weight:600">迁鸣</span>：每次变化牌堆时，本场战斗秒杀概率+<span style="color:#d44;font-weight:600">2</span>%。
 
 ## 小贴士
 

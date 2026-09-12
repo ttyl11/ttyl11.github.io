@@ -4,12 +4,13 @@
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
-- **最大PP**: 1
+- **分类**: 角色（圣灵谱尼）牌（带关键词）
+- **最大PP**: 2
 - **能量消耗**: 1
 - **类型**: 技能
 - **稀有度**: 普通
 - **目标**: 敌方单体
+- **关键词**: [连营](/mechanics/lian_ying.md)
 - **可升级**: 是（1 级）
 
 ### 数值参数
@@ -17,16 +18,16 @@
 | 参数 | 数值 | 升级后 |
 |---|---|---|
 | 能量消耗 | 1 | 0 |
-| PP | 1 | 1 |
-| 最大PP | 1 | 1 |
+| PP | 2 | 2 |
+| 最大PP | 2 | 2 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 将此敌人的生命值变为与自身最大生命值相同（对boss无效）。
+PP: <span style="color:#3aa675;font-weight:600">2</span>/<span style="color:#3aa675;font-weight:600">2</span> 将此敌人的生命值变为与自身最大生命值相同（对boss无效）。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 将此敌人的生命值变为与自身最大生命值相同（对boss无效）。
+PP: <span style="color:#3aa675;font-weight:600">2</span>/<span style="color:#3aa675;font-weight:600">2</span> 将此敌人的生命值变为与自身最大生命值相同（对boss无效）。
 
 ## 小贴士
 
@@ -37,6 +38,11 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 - **伤害不可格挡、不吃增伤**：造成的差额伤害是不可格挡的非攻击伤害——无视格挡，也不吃[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)等攻击增伤（伤害量纯粹等于差额，不受任何加成或减免影响）。对高格挡敌人尤其有效——它叠再多格挡也挡不住这个差额。
 - **升级 0 费是质变**：耗能 <span style="color:#3aa675;font-weight:600">1</span>→<span style="color:#3aa675;font-weight:600">0</span>，0 费即可斩杀，灵活性大增。0 费让它可以随时穿插在出牌序列里收割高血敌人，不必专门留能量。
 - **性价比**：1 费（升级 0 费）换"差额不可格挡伤害"，斩杀收益极高，但双向效果让实际价值完全取决于目标选择——这是一张考验判断力的牌，不是无脑强的牌。
+- **带[连营](/mechanics/lian_ying.md)**：打出时，自动一次性从任意位置打出并销毁所有其它[连营](/mechanics/lian_ying.md)牌（被销毁的牌进入[销毁牌堆](/mechanics/destroyed_pile.md)）。场上多张同生共死可连环触发：打一张，其余全部被带出并销毁，形成多次"生命对齐"结算。PP2 意味着单场可主动打出 2 次，配合连营连锁总触发次数更高。
+
+## 相关机制
+
+- [连营](/mechanics/lian_ying.md)（打出时带出并销毁其它连营牌，进入销毁牌堆）
 
 ## 源码
 

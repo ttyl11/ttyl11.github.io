@@ -1,78 +1,241 @@
 # 版本更新
 
-## 2026-09-03
+## V4.0
 
-### 卡牌
+### 新增的卡牌
 
-- **[孤身绝念刺](/cards/character/lone_despair_stab.md)**：已损生命固定伤害比例由 100%/150% 修正为 50%/80%（与源码一致）
-- **[创世之神谕](/cards/character/genesis_oracle.md)**：升级后伤害由 45 修正为 48；修正斩杀判定与稀有牌获取的机制描述
-- **[神权忤逆](/cards/character/shen_quan_wu_ni.md)**：清理详细机制中的源码术语，移除实现载体（群星的礼赠）的触发机制说明
-- **[告命诗途](/cards/character/gao_ming_shi_tu.md)**：清理详细机制中的源码术语，改写为玩家语言
-- **[奇镰解放](/cards/character/qi_lian_liberation.md)**：清理源码术语，修正凝驻理解、移除实现载体（群星的礼赠）提及
-- **[雅髯狮啸](/cards/character/ya_ran_shi_xiao.md)**：修正四维属性收益描述（防御/命中/速度的实际效果）、移除 PP 啰嗦
-- **[命运之初](/cards/character/ming_yun_zhi_chu.md)**：修正"打出 X 张牌换 X+1 张新牌"的逻辑错误
-- **[静止领域](/cards/character/jing_zhi_ling_yu.md)**：清理源码术语、精简 PP 描述
-- **[晚风断](/cards/character/evening_wind_break.md)**：修正四维属性的负面效果描述（防御/命中/速度的实际效果）
-- **[魔影突袭](/cards/character/evil_shadow_strike.md)**：清理固定伤害公式的源码术语、精简 PP 描述
-- **[生灭叹息](/cards/character/life_death_sigh.md)**：修正生命差触发条件与凝驻描述、清理源码术语
-- **[红缨枪](/cards/character/red_bold_spear.md)**：修正耗能"小于"符号的 HTML 转义
-- **卡名修正**：[晚风孤夜断](/cards/character/evening_wind_break.md)（原"晚风断"）、[创世神谕](/powers/genesis_oracle_reward_power.md)（原"创世之神谕奖励"）、[弹簧](/powers/spring_bonus_power.md)（原"弹簧能力"）、[叽里呱啦&呜哩哇啦](/relics/shop/jili_gu_la.md)（去除空格），与本地化统一
-- 新增翻云覆雨/几曾识干戈/命运之初/静止领域/神权忤逆/告命诗途卡图到 wiki
+- **夷灭**
+- **[灰月之吻](/cards/character/hui_yue_zhi_wen)**
+- **[灵狐魅术](/cards/character/ling_hu_mei_shu)**
+- **[群宇纠缠](/cards/character/qun_yu_jiao_chan)**
+- **[戏梦缥缈间](/cards/character/xi_meng_piao_miao_jian)**
+- **[翻云覆雨](/cards/character/fan_yun_fu_yu)**
+- **[静止领域](/cards/character/jing_zhi_ling_yu)**
+- **[命运之初](/cards/character/ming_yun_zhi_chu)**
+- **[几曾识干戈](/cards/character/ji_ceng_shi_gan_ge)**
+- **[告命诗途](/cards/character/gao_ming_shi_tu)**
+- **[神权忤逆](/cards/character/shen_quan_wu_ni)**
+- **[奇镰解放](/cards/character/qi_lian_liberation)**
+- **[雅髯狮啸](/cards/character/ya_ran_shi_xiao)**
+- **[苍炎日无极](/cards/character/cang_yan_sun_wu_ji)**
+- **[毁灭元神](/cards/character/ruin_soul)**
+- **[一念去留断](/cards/character/go_stay_break)**
+- **[一念生死叹](/cards/character/life_death_sigh)**
+- **[创世之神谕](/cards/character/genesis_oracle)**
+- **[晚风孤夜断](/cards/character/evening_wind_break)**
+- **[孤身绝念刺](/cards/character/lone_despair_stab)**
 
-### 遗物
+### 新增的遗物
 
-- **[周瑜](/relics/epic/zhou_yu.md)**：弃牌堆伤害描述由"固定伤害"修正为"不可格挡的非攻击伤害"（与源码一致），清理源码术语
-- **[神·赵云](/relics/legendary/god_zhao_yun.md)**：清理源码术语，更新手牌归一化的重入保护描述（按玩家隔离）
+- **余罪魔女**（传说）
+- **[泊莱德](/relics/rare/seer_pride_relic)**（七宗罪·傲慢）
+- **[哲利斯](/relics/rare/seer_envy_relic)**（七宗罪·嫉妒）
+- **[安格瑞](/relics/rare/seer_wrath_relic)**（七宗罪·愤怒）
+- **[格拉托尼](/relics/rare/seer_gluttony_relic)**（七宗罪·暴食）
+- **[格利德](/relics/rare/seer_greed_relic)**（七宗罪·贪婪）
+- **[拉斯特](/relics/rare/seer_lust_relic)**（七宗罪·色欲）
+- **[斯洛斯](/relics/rare/seer_sloth_relic)**（七宗罪·懒惰）
+- **[帕泽](/relics/epic/seer_pa_ze)**（史诗）
+- **[八岐大蛇](/relics/rare/seer_ba_qi_da_she)**（史诗）
+- **[霹雳喵](/relics/rare/seer_pi_li_miao)**（史诗）
+- **[喵佐](/relics/rare/seer_miao_zuo)**（稀有）
+- **[飒雷·喵佐](/relics/epic/seer_sa_lei_miao_zuo)**（史诗）
+- 飒雷孤影·喵佐（史诗）
+- **[愈灵·克丽娅](/relics/epic/seer_keliya)**（史诗）
+- **华夫家族**（稀有）
+- 招财喵
+- 兹拉特
+- 金瑞福龙
+- **[无影剑客](/relics/common/seer_shadowless_swordsman)**（普通）
+- **[迅剑](/relics/common/seer_swift_sword)**（普通）
+- **[鬼剑骷髅](/relics/common/seer_ghost_sword_skeleton)**（普通）
+- **[超级果然多](/relics/common/seer_super_guo_ran_duo)**（普通）
+- **[吉拉提斯](/relics/common/seer_ji_la_ti_si)**（普通）
+- **[麦康纳](/relics/common/seer_mai_kang_na)**（普通）
+- **[伊优](/relics/common/yi_you)**（普通）
+- **[小火猴](/relics/common/xiao_huo_hou)**（普通）
+- **[黑啵啵](/relics/uncommon/hei_bo_bo)**（罕见）
+- **[昆仑](/relics/uncommon/seer_kun_lun)**（罕见）
+- **[紫幽](/relics/uncommon/zi_you)**（罕见）
+- **[雷伊](/relics/common/ray_relic)**（普通）
+- **[魇魔](/relics/rare/seer_yuanmo)**（稀有）
+- **[斯嘟尔](/relics/shop/seer_siduer)**（商店）
+- **[盖亚](/relics/common/seer_gaiya)**（普通）
+- **[麦汪汪](/relics/rare/seer_mai_wang_wang)**（稀有）
+- **[温泉贝贝](/relics/rare/seer_wen_quan_bei_bei)**（稀有）
+- **[克洛伊](/relics/rare/seer_ke_luoyi)**（稀有）
+- **[布布种子](/relics/common/seer_bush_seed)**（普通）
+- **[杰诺](/relics/rare/seer_jino)**（稀有）
+- **[鰥](/relics/rare/seer_guan)**（稀有）
+- **[源·宵](/relics/rare/seer_yuan_xiao)**（稀有）
+- **[创世兵魂](/relics/shop/chuang_shi_bing_hun)**（商店）
+- **[雁翎](/relics/common/yan_ling)**（普通）
+- **[夜香刀神](/relics/rare/ye_xiang_dao_shen)**（稀有）
+- **[愿](/relics/rare/yuan)**（稀有）
+- **[摆渡者·费雷](/relics/rare/ferryman)**（稀有）
 
-### 机制
+### 修改的卡牌
 
-- **[溯引](/mechanics/suyin.md)**：修复格式问题（移除多余分隔符和标题行），移除代码实现段落（违反规则 8.3），重写关键细节为玩家语言
-- **[凝驻](/mechanics/ningzhu.md)**：修复格式问题（移除多余分隔符和标题行），移除代码实现段落（违反规则 8.3），重写关键细节移除源码术语，修复链接格式
-- **[回响](/mechanics/echo.md)**：修正为"每回合开始时，若此牌在抽牌堆，向弃牌堆生成一张复制品"（原为旧效果"加入手牌"）
-- [关键词图鉴](/mechanics/keywords.md)：Mod 关键词数量由 25 修正为 34，同步回响效果描述
+**重做：**
 
-### 卡牌图鉴
+- **[双生花](/cards/colorless/twin_flower)**（重做）
+- **[大奖！](/cards/token/surprise_grand_prize)**（重做）
+- **[镂月裁云](/cards/character/cloud_cutting_moon)**（重做）
+- **[饮血屠龙](/cards/character/drink_blood_dragon_slaying)**（重做）
+- **[百鬼夜行](/cards/character/hundred_ghosts)**（重做）
+- **[亡灵风暴](/cards/character/undead_storm)**（重做）
+- **[昊海垂天](/cards/character/vast_sea_sky)**（重做）
+- **[妖族异术](/cards/character/yao_zu_yi_shu)**（重做）
 
-- **[角色牌图鉴](/cards/character/index.md)**：补齐 17 张缺失卡（苍炎日无极/晚风孤夜断/恶影袭/翻云覆雨/告命诗途/创世之神谕/一念去留断/几曾识干戈/静止领域/一念生死叹/孤身绝念刺/命运之初/奇镰解放/毁灭元神/神权忤逆/雅髯狮啸），计数 182→198
-- **[横槊赋诗](/cards/token/heng_shuo_fu_shi.md)**：由先古牌移入衍生牌（与源码 Token 卡池一致），更新相关计数与引用
-- 移除重复的"我思故我在"详情页（保留与本地化一致的版本）
+**调整：**
 
-## 2026-09-01
+- **[好男孩](/cards/colorless/good_boy)**
+- **[殉道者圣别](/cards/colorless/martyr_holy_divine)**
+- **[群生俯首](/cards/character/all_life_submit)**
+- **[阿玛迪斯光](/cards/character/amadeus_light)**
+- **[二律背反](/cards/character/antinomy)**
+- **[亢龙有悔](/cards/character/arrogant_dragon_repents)**
+- **[八月的流火](/cards/character/august_flame)**
+- **[灼目天星](/cards/character/blinding_heaven_star)**
+- **[竭血残蝶](/cards/character/blood_exhaust_butterfly)**
+- **[戕伐樊笼](/cards/character/cage_destruction)**
+- **[逍遥游](/cards/character/carefree_journey)**
+- **[禁术·契灭](/cards/character/contract_destruction)**
+- **[拨乱反正](/cards/character/correct_mistakes)**
+- **[宇宙胎动](/cards/character/cosmic_movement)**
+- **[荒烬涂天](/cards/character/desolate_ash_sky)**
+- **[蔑天行·残虐](/cards/character/despise_heaven_cruelty)**
+- **[朦光混影术](/cards/character/dim_light_shadow_art)**
+- **[龙寤揭天](/cards/character/dragon_awakening_sky)**
+- **[龙族烙印](/cards/character/dragon_brand)**
+- **[王·龙予狂宴](/cards/character/dragon_feast)**
+- **[龙王波](/cards/character/dragon_king_wave)**
+- **[龙舞·祭](/cards/character/dragon_martial_sacrifice)**
+- **[龙鳞切割](/cards/character/dragon_scale_cut)**
+- **[火种永存](/cards/character/eternal_flame)**
+- **[无终痴念](/cards/character/endless_obsession)**
+- **[恶影袭](/cards/character/evil_shadow_strike)**
+- **[极度冰点](/cards/character/extreme_freeze)**
+- **[绝命火焰](/cards/character/fatal_flame)**
+- **[黎羽幻生](/cards/character/feather_phantom)**
+- **[飞龙在天](/cards/character/flying_dragon_sky)**
+- **[飞燕游龙](/cards/character/flying_swallow_dragon)**
+- **[森罗万象](/cards/character/forest_all_things)**
+- **[傳馥明王最胜语](/cards/character/fragrant_king_supreme_word)**
+- **[耀武遗辉](/cards/character/glorious_remnant)**
+- **[荣尽枯生](/cards/character/glory_exhaustion)**
+- **[大数回廊](/cards/character/great_number_corridor)**
+- **[天霜杀伐](/cards/character/heaven_frost_slaughter)**
+- **[天谴](/cards/character/heaven_punishment)**
+- **[天灵净野](/cards/character/heaven_spirit_pure_field)**
+- **[苍鹭幻翎](/cards/character/heron_illusion_feather)**
+- **[潜龙伏地啸](/cards/character/hidden_dragon_roar)**
+- **[圣灵魔闪光](/cards/character/holy_flash)**
+- **[圣盾护佑](/cards/character/holy_shield)**
+- **[我思故我在](/cards/character/i_think_therefore_i_am)**
+- **[不死之身](/cards/character/immortal_body)**
+- **[不朽之盾](/cards/character/immortal_shield)**
+- **[在劫难逃](/cards/character/inescapable_doom)**
+- **[狩·无限连爪](/cards/character/infinite_claw)**
+- **[无限·虚数湮灭](/cards/character/infinite_void_annihilation)**
+- **[智能起源](/cards/character/intelligence_origin)**
+- **[一月的雪鹄](/cards/character/january_snow_owl)**
+- **[几米能量](/cards/character/jimmy_energy)**
+- **[七月的海螺](/cards/character/july_conch)**
+- **[王·联盟审判](/cards/character/king_alliance_judgment)**
+- **[王·天乖陆离](/cards/character/king_heaven_strange)**
+- **[鲲·千里击涛](/cards/character/kun_thousand_miles_wave)**
+- **[同生共死](/cards/character/life_death_together)**
+- **[光之盾](/cards/character/light_shield)**
+- **[孤单映青釭](/cards/character/lone_hero_green_blade)**
+- **[怀晦之亟盼](/cards/character/longing_for_darkness)**
+- **[魔·黑天暗罚](/cards/character/magic_black_sky_punishment)**
+- **[五月的锋芒](/cards/character/may_edge)**
+- **[沧溟珠泪](/cards/character/ocean_pearl_tear)**
+- **[过载能源](/cards/character/overload_energy)**
+- **[鹏·万里遨游](/cards/character/peng_thousand_miles_soar)**
+- **[五芒星](/cards/character/pentagram)**
+- **[无始源光](/cards/character/primordial_light)**
+- **[孤洁之傲](/cards/character/proud_solitude)**
+- **[异能突变](/cards/character/psionic_mutation)**
+- **[纯净能量](/cards/character/pure_energy)**
+- **[赤胆缀银枪](/cards/character/red_bold_spear)**
+- **[金钱攻击](/cards/character/money_attack)**
+- **[镇魂歌](/cards/character/requiem)**
+- **[归途](/cards/character/return_path)**
+- **[义乂梵我婆娑纱](/cards/character/righteous_brahma_veil)**
+- **[秘纹护体](/cards/character/secret_rune)**
+- **[寻己遥途](/cards/character/seek_distant_path)**
+- **[九月的枷锁](/cards/character/september_shackles)**
+- **[七重沙海](/cards/character/sevenfold_sand_sea)**
+- **[长叹天人命途](/cards/character/sigh_celestial_fate)**
+- **[欷歔证道难](/cards/character/sigh_tao_difficulty)**
+- **[银雾之翼](/cards/character/silver_mist_wing)**
+- **[滔天龙汲水](/cards/character/soaring_dragon_water)**
+- **[太阳能](/cards/character/solar_energy)**
+- **[蒸汽能源](/cards/character/steam_energy)**
+- **[石破天惊](/cards/character/stone_breaker)**
+- **[夏花之灿](/cards/character/summer_bloom)**
+- **[逐日长诗](/cards/character/sun_chase_long_poem)**
+- **[日月安属](/cards/character/sun_moon_belong)**
+- **[千重影缠身](/cards/character/thousand_shadow_bind)**
+- **[瞬雷天闪](/cards/character/thunder_flash)**
+- **[雷神天明闪](/cards/character/thunder_god_flash)**
+- **[福泽聚宝象](/cards/character/treasure_elephant)**
+- **[真龙吐息](/cards/character/true_dragon_breath)**
+- **[奸奇](/cards/character/tzeentch)**
+- **[沦·亡灵天灾](/cards/character/undead_catastrophe)**
+- **[彼空·根源重释](/cards/character/void_root_reinterpret)**
+- **[白霞逐夜](/cards/character/white_dawn_chase_night)**
+- **[风林火山](/cards/character/wind_forest_mountain)**
+- **[枯萎能量](/cards/character/withered_energy)**
+- **[萧·零落绯如故](/cards/character/xiao_falling_red)**
+- **[墟埪](/cards/character/xukong)**
+- **[神圣启示歌](/cards/ancient/divine_revelation)**
+- **[神圣复苏](/cards/ancient/holy_revival)**
+- **[疯狂编码](/cards/colorless/crazy_code)**
+- **[夜·冥昭瞢闇](/cards/colorless/dark_oblivion)**
+- **[御象灵尊](/cards/colorless/elephant_spirit_lord)**
+- **[帝天战佛](/cards/colorless/emperor_war_buddha)**
+- **[无尽能源](/cards/colorless/endless_energy)**
+- **[首发压制](/cards/colorless/first_strike_suppress)**
+- **[电石混地](/cards/colorless/flint_stone_earth)**
+- **[予天繁星](/cards/colorless/give_heaven_stars)**
+- **[好女孩](/cards/colorless/good_girl)**
+- **[大威势明王](/cards/colorless/great_might_vidyaraja)**
+- **[圣耀明瞳斩](/cards/colorless/holy_eye_slash)**
+- **[战·圣灵天威](/cards/colorless/holy_heavenly_might)**
+- **[圣地擎山碎](/cards/colorless/holy_mountain_crush)**
+- **[圣灵雷霆斩](/cards/colorless/holy_thunder_slash)**
+- **[低等精灵](/cards/colorless/low_elf)**
+- **[元神启动](/cards/colorless/spirit_activation)**
+- **[十倍二长老？](/cards/colorless/ten_times_two_elder)**
+- **[米咔](/cards/event/mika)**
+- **[暴政统治者](/cards/event/tyrant_ruler)**
+- **[婵·命定星缘](/cards/token/destined_star_bond)**
+- **[大奖？](/cards/token/grand_prize)**
 
-### 事件
+### 修改的遗物
 
-- **调整出现层数**：[M78星云的外交时刻](/events/nebula_diplomacy.md)、[莱达宇宙：缺失的愚者塔罗](/events/missing_fool_tarot.md)、[逝者巨樽的宿命对峙](/events/deceased_giant_jar_confrontation.md) 限定为密林/暗港（第一层）；[圣战福利：百分百宝石附魔机](/events/gem_enchantment_machine.md)、[神兽空间](/events/divine_beast_space.md) 限定为密林/暗港（第一层）及巢穴（第二层）
-- **调整出现层数**：[无光黑洞的长老许诺](/events/lightless_black_hole_promise.md)、[塔中奇遇：谁才是天选主角](/events/who_is_the_chosen_one.md) 限定为巢穴（第二层）及荣耀（第三层）；[战斗专家](/events/combat_expert.md)、[史莱姆的加冕](/events/slime_coronation.md)、[奸商](/events/swindler.md)、[伏魔空间](/events/demon_space.md)、[盖亚与瑞尔斯](/events/gaiya_ruiersi.md) 限定为巢穴（第二层）
-- **调整出现层数**：[梅赫维特](/events/mehvet.md)、[克洛斯星](/events/keluosi_star.md) 限定为巢穴（第二层）及荣耀（第三层）；[决战回响：混沌深渊的宿命对决](/events/chaos_abyss_duel.md)、[七宗罪的试炼](/events/seven_sins_trial.md)、[穹明号](/events/qiong_ming_hao.md)、[尤纳斯](/events/yunas_event.md) 限定为荣耀（第三层）
+- **[群星的礼赠](/relics/starter/elemental_core)**（重做）
+- **[佩尔之舌](/relics/ancient/pael_rare_relic)**（改造）
+- **[吕蒙](/relics/ancient/lu_meng)**
+- 苍龙、阿尔蒂克、刘备、万恶魔主、钢傀、女祭司、世界、混沌魔君索伦森、弑序神罗（意图封印统一）
 
-### 机制
+### 修改的能力
 
-- 意图机制全面更新：新增[攻击无效](/mechanics/intent.md)与[封属](/mechanics/intent.md)两种封印意图类型（额外意图图标显示，类似"解析"）；原"无效化"意图更名为"行动失效"（纯意图行动被封印整体失效时出现）
-- [凝滞](/mechanics/abnormal-status.md)对怪物改为施加封属（非攻击意图效果失效）
+- **[曝](/powers/expose_power)**：异常状态施加失效 + 消逝不打断复活
 
-### 卡牌
+### 修复的 bug
 
-- [跪地求饶](/cards/character/kneel_beg.md)：随机无效化 X 个意图 → 随机施加 X 次攻击无效或封属
-- [天霜杀伐](/cards/character/heaven_frost_slaughter.md)：冰封失败则对其施加攻击无效
-- [无限·虚数湮灭](/cards/character/infinite_void_annihilation.md)：对所有敌人施加封属
-- [十玄释](/cards/character/shi_xuan_shi.md)：自动打出判定条件中的"无效化"更新为"行动失效"
+- 曹操遗物：战斗结束结算时生成卡牌越界导致的卡死
+- 麦汪汪遗物：战斗外回血触发自动打出导致的异常
+- 卡牌图鉴：先古 / 角色列表页补全缺失的缩略图
 
-### 遗物
+### 其他（机制 / 关键词 / 附魔 / wiki）
 
-- [苍龙](/relics/uncommon/azure_dragon.md)、[阿尔蒂克](/relics/epic/arteck.md)、[刘备](/relics/rare/benevolent_heaven_lord_liu_bei.md)、[万恶魔主](/relics/rare/evil_beast_emperor.md)、[钢傀](/relics/epic/steel_puppet.md)、[女祭司](/relics/common/tarot_high_priestess.md)、[世界](/relics/common/tarot_world.md)、[混沌魔君索伦森](/relics/legendary/chaos_demon_lord.md)、[弑序神罗](/relics/legendary/order_killing_god_luo.md)：意图失效机制统一更新为攻击无效/封属（按意图类型生效，不再是整回合击晕）
-
-### 能力
-
-- [凝滞](/powers/stasis_power.md)、[钢傀守卫](/powers/steel_puppet_guard_power.md)、[支援](/powers/support_power.md)、[支援效果翻倍](/powers/support_double_power.md)、[致命印记](/powers/fatal_mark_power.md)：意图失效机制统一更新为攻击无效/封属
-
-- 新增[连营](/mechanics/lian_ying.md)词条详情页，介绍该 Mod 原创的群体自动打出关键词机制
-
-### 其他
-
-- 重构[关键词](/mechanics/keywords.md)为导航目录页，采用表格形式展示全部 34 个关键词，每行含名称与效果摘要，点击跳转至详情页
-- 修正[吕蒙](/relics/ancient/lu_meng.md)小贴士中的源码术语（`CardSelectCmd.FromSimpleGrid`、`SeerLvMengCardSelectPatch`）
-- 修复[吕蒙](/relics/ancient/lu_meng.md)、[鬼焰神君·陆逊](/relics/ancient/gui_yan_shen_jun_lu_xun.md)、[横槊赋诗](/cards/ancient/heng_shuo_fu_shi.md)多处死链
-- 清理[斩一](/powers/sharp_one_power.md)、[斩二](/powers/sharp_two_power.md)、[斩三](/powers/sharp_three_power.md)、[锁定I](/powers/lock_one_power.md)、[锁定II](/powers/lock_two_power.md)、[解离](/powers/resolve_power.md)、[强韧体魄III](/powers/strong_body_three_power.md)、[虎刃反击](/powers/tiger_crit_counter_power.md)等能力详情页中的违规源码术语（如钩子名、字段名、类名引用）
-- 清理[雷霆](/monsters/boss/ray_monster.md)、[摩吉](/monsters/elite/mojj_monster.md)、[史莱姆之王](/monsters/normal/slime_king_monster.md)、[盖亚](/monsters/boss/gaia_monster.md)等怪物详情页及[暴击](/powers/critical_strike_power.md)、[固定伤害](/powers/fixed_damage_power.md)、[狂暴](/powers/fury_power.md)等机制详情页的"## 源码"段落，移除文件名后的描述性文字，仅保留纯文件名列表
-- 批量修复 160+ 个 wiki 页面的"## 源码"段落，移除所有文件名后的中文括号描述
-
+- 附魔「无效」
+- 关键词「进化」（史莱姆系列）
+- 关键词「连营」（群体自动打出）
+- 机制「意图封印」：新增〔攻击无效〕〔封属〕两种封印意图，原"无效化"意图更名为〔行动失效〕；凝滞对怪物改施〔封属〕；关键词图鉴收录全部 34 个关键词
+- wiki 建构改造：卡图缩略图补全、无色牌关键词与描述文本整理

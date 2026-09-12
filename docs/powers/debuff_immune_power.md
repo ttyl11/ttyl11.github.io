@@ -33,7 +33,8 @@
 
 ## 相关卡牌
 
-- [灼目天星](/cards/character/blinding_heaven_star.md)（施加 <span style="color:#3aa675;font-weight:600">2</span> 回合异常免疫，升级后 <span style="color:#3aa675;font-weight:600">3</span> 回合）
+- [灼目天星](/cards/character/blinding_heaven_star.md)（施加 <span style="color:#3aa675;font-weight:600">2</span>
+              回合异常免疫，升级后 <span style="color:#3aa675;font-weight:600">4</span> 回合）
 - [阑珊百转](/cards/character/waning_turns.md)
 - [染夜天妖](/cards/character/night_demon.md)
 - [魔·黑天暗罚](/cards/character/magic_black_sky_punishment.md)

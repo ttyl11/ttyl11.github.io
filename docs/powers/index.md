@@ -1,6 +1,6 @@
-# 能力图鉴（378 项）
+# 能力图鉴（379 项）
 
-共 378 个能力。点击条目查看详情。
+共 379 个能力。点击条目查看详情。
 
 <table>
 <thead><tr><th>图片</th><th>名称</th><th>效果</th></tr></thead>
@@ -384,6 +384,7 @@
 <tr><td><img src="/images/powers/wrathful_judgment_power.png" alt="拒赦怒威态" style="width:80px;height:auto" /></td><td><a href="wrathful_judgment_power">拒赦怒威态</a></td><td>回合开始时，自身清除现有属性，变为混沌系，先制+1。自身所有攻击造成伤害提升30%，回合结束减1层。</td></tr>
 <tr><td><img src="/images/powers/yellow_dragon_scale_power.png" alt="黄色龙鳞" style="width:80px;height:auto" /></td><td><a href="yellow_dragon_scale_power">黄色龙鳞</a></td><td>免疫异常状态。触发免疫时消除对手基础属性提升，然后自身消失。</td></tr>
 <tr><td><img src="/images/powers/spring_bonus_power.png" alt="弹簧" style="width:80px;height:auto" /></td><td><a href="spring_bonus_power">弹簧</a></td><td>每回合开始时多抽指定张牌并多获得指定点能量。回合结束减1层，归零时再触发一次后消失。</td></tr>
+<tr><td><img src="/images/powers/xi_meng_piao_miao_jian_power.png" alt="戏梦缥缈间" style="width:80px;height:auto" /></td><td><a href="xi_meng_piao_miao_jian_power">戏梦缥缈间</a></td><td>下回合开始时，将手牌抽满。</td></tr>
 <tr><td>—</td><td><a href="courage_soul_power">勇气之魂</a></td><td>自身下个回合结束时，再额外开启一回合。</td></tr>
 </tbody></table>
 
