@@ -27,12 +27,12 @@
   - 触发时机：回合开始时，但**每两回合才触发一次**（内部回合计数，偶数回合触发）
   - 目标选择：无目标，作用于自身
   - 效果：恢复 <span style="color:#3aa675;font-weight:600">5</span> 点生命
-  - 音效：`sfx/passive_lightning_orb`
+  - 音效：`event:/sfx/characters/defect/defect_lightning_passive`
 - **激发效果**：
   - 目标：无目标，作用于自身
   - 效果：恢复已损失生命值的 10% + 每层集中额外 +5%，恢复量 = 已损失生命 × (10% + 集中层数 × 5%)
-  - 音效：`sfx/evoke_lightning_orb`
-- **生成音效**：`sfx/channel_lightning_orb`
+  - 音效：`event:/sfx/characters/defect/defect_lightning_evoke`
+- **生成音效**：`event:/sfx/characters/defect/defect_lightning_channel`
 - **集中影响**：
   - 被动数值受[集中](/powers/focus_power.md)影响（基础值 5）
   - 激发效果受集中影响（每层集中 +5% 恢复比例），但计算方式与被动数值不同，是独立公式

@@ -1,13 +1,13 @@
-# 能力图鉴（379 项）
+# 能力图鉴（406 项）
 
-共 379 个能力。点击条目查看详情。
+共 406 个能力。点击条目查看详情。
 
 <table>
 <thead><tr><th>图片</th><th>名称</th><th>效果</th></tr></thead>
 <tbody>
 <tr><td><img src="/images/powers/absolute_law_one_power.png" alt="绝律一" style="width:80px;height:auto" /></td><td><a href="absolute_law_one_power">绝律一</a></td><td>敌人打出15张牌时，强制结束回合。</td></tr>
 <tr><td><img src="/images/powers/absolute_law_two_power.png" alt="绝律二" style="width:80px;height:auto" /></td><td><a href="absolute_law_two_power">绝律二</a></td><td>敌人打出10张牌时，强制结束回合。</td></tr>
-<tr><td><img src="/images/powers/accumulate_power.png" alt="蓄力" style="width:80px;height:auto" /></td><td><a href="accumulate_power">蓄力</a></td><td>在你的回合开始时，先制+1。每层蓄力提升造成的伤害35%，每使用一次攻击技能，蓄力层数-1。</td></tr>
+<tr><td><img src="/images/powers/accumulate_power.png" alt="蓄力" style="width:80px;height:auto" /></td><td><a href="accumulate_power">蓄力</a></td><td>在你的回合开始时，先制+1。每层蓄力提升造成的伤害35%，最多9层，每使用一次攻击技能，蓄力层数-1。</td></tr>
 <tr><td><img src="/images/powers/accuracy_power.png" alt="命中" style="width:80px;height:auto" /></td><td><a href="accuracy_power">命中</a></td><td>负数层数时每层5%几率使伤害降为0。</td></tr>
 <tr><td><img src="/images/powers/artifact_power.png" alt="人工制品" style="width:80px;height:auto" /></td><td><a href="artifact_power">人工制品</a></td><td>免疫负面效果。</td></tr>
 <tr><td><img src="/images/powers/ancient_magic_power.png" alt="远古魔法" style="width:80px;height:auto" /></td><td><a href="ancient_magic_power">远古魔法</a></td><td>第一回合开始时，移除自身当前属性，随机添加2个克制对方的属性。</td></tr>
@@ -25,15 +25,18 @@
 <tr><td><img src="/images/powers/battle_fury_power.png" alt="斗气" style="width:80px;height:auto" /></td><td><a href="battle_fury_power">斗气</a></td><td>每层斗气使自身攻击附加你已损失生命值1%的伤害。</td></tr>
 <tr><td><img src="/images/powers/bear_power.png" alt="小熊" style="width:80px;height:auto" /></td><td><a href="bear_power">小熊</a></td><td>受到卡牌伤害时累积怒气，每满10层强行结束敌方回合。</td></tr>
 <tr><td><img src="/images/powers/beast_king_power.png" alt="百兽之王" style="width:80px;height:auto" /></td><td><a href="beast_king_power">百兽之王</a></td><td>战斗开始时使敌人臣服并害怕2回合。</td></tr>
-<tr><td><img src="/images/powers/bewitch_power.png" alt="魅惑" style="width:80px;height:auto" /></td><td><a href="bewitch_power">魅惑</a></td><td>在你的回合开始时，自身每个Buff有10%概率眩晕。</td></tr>
+<tr><td><img src="/images/powers/begonia_flower_power.png" alt="海棠花" style="width:80px;height:auto" /></td><td><a href="begonia_flower_power">海棠花</a></td><td>回合开始：每1朵减堕落10。回合结束：生命未满则消耗1朵，回7生命和共4点PP。</td></tr>
+<tr><td><img src="/images/powers/bewitch_power.png" alt="魅惑" style="width:80px;height:auto" /></td><td><a href="bewitch_power">魅惑</a></td><td>在你的回合开始时，按概率被击晕。概率=色欲累计次数×5%+可见增益数×10%（需打出妖精的蛊惑）。</td></tr>
+<tr><td><img src="/images/powers/big_snake_venom_power.png" alt="大蛇毒液" style="width:80px;height:auto" /></td><td><a href="big_snake_venom_power">大蛇毒液</a></td><td>每回合开始时向你的手牌加入一张蛇咬，蛇咬必须优先打出。</td></tr>
 <tr><td><img src="/images/powers/blaze_power.png" alt="烈焰" style="width:80px;height:auto" /></td><td><a href="blaze_power">烈焰</a></td><td>回合结束时10%概率转化为燎原之火，未转化的消失。转化时令等量个敌人流失最大生命值伤害（Boss减半）。</td></tr>
-<tr><td><img src="/images/powers/bleed_power.png" alt="流血" style="width:80px;height:auto" /></td><td><a href="bleed_power">流血</a></td><td>在你的回合结束时受到等于层数的伤害。受到攻击时额外获得1层流血。</td></tr>
+<tr><td><img src="/images/powers/bleed_power.png" alt="流血" style="width:80px;height:auto" /></td><td><a href="bleed_power">流血</a></td><td>在你的回合结束时受到层数÷2点伤害。受到攻击时额外获得1层流血。</td></tr>
 <tr><td><img src="/images/powers/blind_one_power.png" alt="致盲I" style="width:80px;height:auto" /></td><td><a href="blind_one_power">致盲I</a></td><td>在你的回合开始时，对面所有人命中-1。</td></tr>
 <tr><td><img src="/images/powers/blind_power.png" alt="失明" style="width:80px;height:auto" /></td><td><a href="blind_power">失明</a></td><td>攻击时，50%几率自伤20%原伤害，其余几率只造成50%伤害。在你的回合结束时减少1层。</td></tr>
 <tr><td><img src="/images/powers/blind_two_power.png" alt="致盲II" style="width:80px;height:auto" /></td><td><a href="blind_two_power">致盲II</a></td><td>在你的回合开始时，对面所有人命中-2。</td></tr>
 <tr><td><img src="/images/powers/block_one_power.png" alt="格挡I" style="width:80px;height:auto" /></td><td><a href="block_one_power">格挡I</a></td><td>减少受到的伤害2点。</td></tr>
 <tr><td><img src="/images/powers/block_three_power.png" alt="格挡III" style="width:80px;height:auto" /></td><td><a href="block_three_power">格挡III</a></td><td>减少受到的伤害6点。</td></tr>
 <tr><td><img src="/images/powers/block_two_power.png" alt="格挡II" style="width:80px;height:auto" /></td><td><a href="block_two_power">格挡II</a></td><td>减少受到的伤害4点。</td></tr>
+<tr><td><img src="/images/powers/blood_exhaust_butterfly_power.png" alt="竭血残蝶" style="width:80px;height:auto" /></td><td><a href="blood_exhaust_butterfly_power">竭血残蝶</a></td><td>受到伤害时，可选抽牌堆一张牌，将其清空PP并消耗。</td></tr>
 <tr><td><img src="/images/powers/blood_rule_power.png" alt="血" style="width:80px;height:auto" /></td><td><a href="blood_rule_power">血</a></td><td>受到的伤害变为3倍。第3回合起，自身攻击将直接处决敌人。</td></tr>
 <tr><td><img src="/images/powers/blood_suck_one_power.png" alt="汲血1" style="width:80px;height:auto" /></td><td><a href="blood_suck_one_power">汲血1</a></td><td>造成伤害时回复10%伤害值。</td></tr>
 <tr><td><img src="/images/powers/blood_suck_three_power.png" alt="汲血3" style="width:80px;height:auto" /></td><td><a href="blood_suck_three_power">汲血3</a></td><td>造成伤害时回复20%伤害值。</td></tr>
@@ -45,7 +48,7 @@
 <tr><td>—</td><td><a href="buff_sleep_trigger_power">Buff消失睡眠触发</a></td><td>层数回合内，自身任一buff消失，则使对手睡眠2回合。</td></tr>
 <tr><td><img src="/images/powers/buffer_power.png" alt="缓冲" style="width:80px;height:auto" /></td><td><a href="buffer_power">缓冲</a></td><td>阻止下一次你受到的生命值损伤。</td></tr>
 <tr><td><img src="/images/powers/bug_power.png" alt="虫" style="width:80px;height:auto" /></td><td><a href="bug_power">虫</a></td><td>虫属性。克制草、地面、战斗、混沌、虫。对水、火、冰、光微弱。</td></tr>
-<tr><td><img src="/images/powers/bupo_punishment_power.png" alt="不破诛罚" style="width:80px;height:auto" /></td><td><a href="bupo_punishment_power">不破诛罚</a></td><td>免疫debuff。在你的回合开始时，获得1能量，抽2张牌，所有生物获得20格挡。在你的回合结束时移除。</td></tr>
+<tr><td><img src="/images/powers/bupo_punishment_power.png" alt="不破诛罚" style="width:80px;height:auto" /></td><td><a href="bupo_punishment_power">不破诛罚</a></td><td>本回合敌方无法获得先制，解除并免疫异常（凝滞除外）。反强，获3能量、5辉星。下回合开始移除。</td></tr>
 <tr><td><img src="/images/powers/burn_power.png" alt="烧伤" style="width:80px;height:auto" /></td><td><a href="burn_power">烧伤</a></td><td>在你的回合开始时受到3点伤害。攻击伤害降低1点。然后减少1层。</td></tr>
 <tr><td><img src="/images/powers/burst_power.png" alt="爆发" style="width:80px;height:auto" /></td><td><a href="burst_power">爆发</a></td><td>本回合内力量 +2，回合结束时移除。</td></tr>
 <tr><td><img src="/images/powers/calamity_shift_power.png" alt="祸移" style="width:80px;height:auto" /></td><td><a href="calamity_shift_power">祸移</a></td><td>在你的回合开始时，获得1点荆棘。</td></tr>
@@ -60,27 +63,33 @@
 <tr><td><img src="/images/powers/chant_shams_power.png" alt="唱词：莎木斯" style="width:80px;height:auto" /></td><td><a href="chant_shams_power">唱词：莎木斯</a></td><td>每回合结束时，若对手处于异常状态，每有一层，自身全属性+1。</td></tr>
 <tr><td><img src="/images/powers/chaos_attribute_power.png" alt="混沌属性" style="width:80px;height:auto" /></td><td><a href="chaos_attribute_power">混沌属性</a></td><td>伤害和受伤随机变化。</td></tr>
 <tr><td><img src="/images/powers/chaos_power.png" alt="混沌" style="width:80px;height:auto" /></td><td><a href="chaos_power">混沌</a></td><td>混沌属性。克制飞行、冰、神秘、次元、邪灵、自然、神灵。对电、机械、战斗、轮回、虚空微弱。</td></tr>
+<tr><td><img src="/images/powers/chaos_realm_power.png" alt="混沌魔域" style="width:80px;height:auto" /></td><td><a href="chaos_realm_power">混沌魔域</a></td><td>记录当前最大生命值，战斗结束时恢复到记录值（生命值不变）。</td></tr>
 <tr><td><img src="/images/powers/chaos_shadow_power.png" alt="混沌暗影" style="width:80px;height:auto" /></td><td><a href="chaos_shadow_power">混沌暗影</a></td><td>受击时将敌方消耗堆中的状态牌与诅咒牌洗回其抽牌堆。</td></tr>
 <tr><td><img src="/images/powers/clarity_power.png" alt="清" style="width:80px;height:auto" /></td><td><a href="clarity_power">清</a></td><td>打出非攻击牌时，有层数%概率令随机对手睡眠2回合。在你的回合结束时移除。</td></tr>
 <tr><td><img src="/images/powers/compassionate_bodhi_power.png" alt="怀生菩怜态" style="width:80px;height:auto" /></td><td><a href="compassionate_bodhi_power">怀生菩怜态</a></td><td>回合开始时，自身清除现有属性，变为光系。使用牌后随机对随机敌人附加1种异常状态1回合，回合结束减1层。</td></tr>
 <tr><td><img src="/images/powers/computing_power.png" alt="算力" style="width:80px;height:auto" /></td><td><a href="computing_power">算力</a></td><td>初始层数为敌方牌库总数。</td></tr>
+<tr><td><img src="/images/powers/confusion_power.png" alt="混乱" style="width:80px;height:auto" /></td><td><a href="confusion_power">混乱</a></td><td>在你的回合开始时受到5点伤害，命中-1。然后减少1层。</td></tr>
 <tr><td><img src="/images/powers/constrict_power.png" alt="束缚" style="width:80px;height:auto" /></td><td><a href="constrict_power">束缚</a></td><td>此状态存在时，自身无法获取先制。在你的回合结束时减少1层。</td></tr>
 <tr><td><img src="/images/powers/corrupt_power.png" alt="腐化" style="width:80px;height:auto" /></td><td><a href="corrupt_power">腐化</a></td><td>对面每造成一次伤害，对面力量、命中、速度、防御各-1。</td></tr>
 <tr><td><img src="/images/powers/crescent_edge_reflect_power.png" alt="弦月反弹" style="width:80px;height:auto" /></td><td><a href="crescent_edge_reflect_power">弦月反弹</a></td><td>免疫下一次攻击伤害，以固定伤害形式反弹等额伤害后移除。</td></tr>
 <tr><td><img src="/images/powers/critical_strike_power.png" alt="暴击" style="width:80px;height:auto" /></td><td><a href="critical_strike_power">暴击</a></td><td>攻击时有12.5%几率造成暴击，造成1.5倍伤害。</td></tr>
 <tr><td><img src="/images/powers/curse_power.png" alt="诅咒" style="width:80px;height:auto" /></td><td><a href="curse_power">诅咒</a></td><td>攻击伤害降低10%。在玩家回合开始时获得一张诅咒牌。在你的回合结束时，若为怪物则受到3-50点随机伤害。在你的回合结束时减少1层</td></tr>
+<tr><td><img src="/images/powers/dark_gate_power.png" alt="黑暗之门" style="width:80px;height:auto" /></td><td><a href="dark_gate_power">黑暗之门</a></td><td>本场战斗内每有100层堕落，最大能量+1。</td></tr>
 <tr><td><img src="/images/powers/dark_orb_counter_power.png" alt="黑暗充能球" style="width:80px;height:auto" /></td><td><a href="dark_orb_counter_power">黑暗充能球</a></td><td>回合结束时，每球Evoke值+6。满槽再生成时激发最旧的，对生命值最少的敌人造成该球Evoke值的伤害。最多2个球。</td></tr>
 <tr><td><img src="/images/powers/dark_stagnation_power.png" alt="幽滞" style="width:80px;height:auto" /></td><td><a href="dark_stagnation_power">幽滞</a></td><td>对手每打出一张牌，降低对手任意卡牌1点PP。</td></tr>
 <tr><td><img src="/images/powers/dawn_power.png" alt="晓" style="width:80px;height:auto" /></td><td><a href="dawn_power">晓</a></td><td>打出攻击牌时，有层数%概率令随机对手睡眠2回合。在你的回合结束时移除。</td></tr>
+<tr><td><img src="/images/powers/death_whisper_power.png" alt="逝者亡语" style="width:80px;height:auto" /></td><td><a href="death_whisper_power">逝者亡语</a></td><td>每有1层，打出牌时有6%概率免费重放。至多12层。达6层后，打带堕落的牌先制+1。</td></tr>
 <tr><td><img src="/images/powers/debuff_immune_power.png" alt="异常免疫" style="width:80px;height:auto" /></td><td><a href="debuff_immune_power">异常免疫</a></td><td>免疫异常状态1回合。 在你的回合结束时减少1层。</td></tr>
 <tr><td><img src="/images/powers/debuff_immune_reflect_power.png" alt="异常免疫·反弹" style="width:80px;height:auto" /></td><td><a href="debuff_immune_reflect_power">异常免疫·反弹</a></td><td>免疫异常状态1回合，并将受到的异常状态反弹给所有敌人。 在你的回合结束时减少1层。</td></tr>
 <tr><td><img src="/images/powers/defense_power.png" alt="防御" style="width:80px;height:auto" /></td><td><a href="defense_power">防御</a></td><td>每有一层，受到的攻击伤害降低1点。</td></tr>
 <tr><td><img src="/images/powers/delayed_first_strike_power.png" alt="多回合先制" style="width:80px;height:auto" /></td><td><a href="delayed_first_strike_power">多回合先制</a></td><td>在你的回合开始时获得1点先制。持续1回合。</td></tr>
 <tr><td><img src="/images/powers/delayed_heal_power.png" alt="延迟治疗" style="width:80px;height:auto" /></td><td><a href="delayed_heal_power">延迟治疗</a></td><td>在你的回合结束时层数减1，当层数降至0时，回复20点生命值。</td></tr>
 <tr><td><img src="/images/powers/demise_power.png" alt="消亡" style="width:80px;height:auto" /></td><td><a href="demise_power">消亡</a></td><td>这个生物在其回合结束时失去生命。</td></tr>
+<tr><td>—</td><td><a href="demon_takeover_power">魔君接管</a></td><td>自动打出手中所有可打出的牌，优先耗能更高。持续到自身下回合开始。</td></tr>
 <tr><td><img src="/images/powers/demon_form_power.png" alt="恶魔形态" style="width:80px;height:auto" /></td><td><a href="demon_form_power">恶魔形态</a></td><td>能力形态之一，由超算鲁比克在矩阵秩为 2 时赋予。</td></tr>
 <tr><td><img src="/images/powers/demon_king_curse_power.png" alt="魔王咒怨" style="width:80px;height:auto" /></td><td><a href="demon_king_curse_power">魔王咒怨</a></td><td>攻击伤害增加5%、伤害减免5%，攻击技能有3%概率秒杀对面（秒杀传染同HP敌人），达到10层时自身免疫异常状态。</td></tr>
 <tr><td><img src="/images/powers/desolate_ash_sky_power.png" alt="荒灰天" style="width:80px;height:auto" /></td><td><a href="desolate_ash_sky_power">荒灰天</a></td><td>在你的回合开始时，获得2层先制，对所有敌人施加1层烧伤和1层焚烬。</td></tr>
+<tr><td><img src="/images/powers/desperate_last_stand_power.png" alt="殊死" style="width:80px;height:auto" /></td><td><a href="desperate_last_stand_power">殊死</a></td><td>16回合后死亡。</td></tr>
 <tr><td><img src="/images/powers/dexterity_power.png" alt="敏捷" style="width:80px;height:auto" /></td><td><a href="dexterity_power">敏捷</a></td><td>敏捷会增加从卡牌中获得的格挡。</td></tr>
 <tr><td><img src="/images/powers/dimensional_power.png" alt="次元" style="width:80px;height:auto" /></td><td><a href="dimensional_power">次元</a></td><td>次元属性。克制飞行、机械、超能、邪灵、自然、虫、虚空。对冰、王、混沌、神灵、轮回、暗影微弱。</td></tr>
 <tr><td><img src="/images/powers/dispel_power.png" alt="驱散" style="width:80px;height:auto" /></td><td><a href="dispel_power">驱散</a></td><td>在对手回合开始时，消除其力量、命中、速度、防御的提升。</td></tr>
@@ -94,6 +103,7 @@
 <tr><td><img src="/images/powers/double_reflect_power.png" alt="双倍反弹" style="width:80px;height:auto" /></td><td><a href="double_reflect_power">双倍反弹</a></td><td>受到伤害时，将实际受到的伤害双倍反弹给攻击者。</td></tr>
 <tr><td><img src="/images/powers/drache_moire_power.png" alt="德莱赫墨" style="width:80px;height:auto" /></td><td><a href="drache_moire_power">德莱赫墨</a></td><td>最高4层。1层：受到伤害减少40%；2层：受到伤害减少20%；3层：造成伤害增加30%，先制+1；4层：造成伤害增加45%，先制+2。</td></tr>
 <tr><td><img src="/images/powers/dragon_anger_power.png" alt="青龙的震怒" style="width:80px;height:auto" /></td><td><a href="dragon_anger_power">青龙的震怒</a></td><td>在其回合开始时，自身力量+1，并回复已损失生命值的10%。</td></tr>
+<tr><td><img src="/images/powers/dragon_breath_power.png" alt="龙缘之息" style="width:80px;height:auto" /></td><td><a href="dragon_breath_power">龙缘之息</a></td><td>抽到名称带龙的牌时，自动打出该牌。</td></tr>
 <tr><td><img src="/images/powers/dragon_devour_power.png" alt="邪龙之噬" style="width:80px;height:auto" /></td><td><a href="dragon_devour_power">邪龙之噬</a></td><td>每打出一次卡牌，对随机敌人造成6点伤害，获得1层先制，然后减少1层。</td></tr>
 <tr><td><img src="/images/powers/dragon_majesty_power.png" alt="龙威" style="width:80px;height:auto" /></td><td><a href="dragon_majesty_power">龙威</a></td><td>战斗开始时，自身获得等量于敌人牌组中「龙」牌数量的全属性加成。你打出的牌与上一张类型不同时，会重放一次；类型相同时此牌无效。</td></tr>
 <tr><td><img src="/images/powers/dragon_power.png" alt="龙" style="width:80px;height:auto" /></td><td><a href="dragon_power">龙</a></td><td>龙属性。克制冰、龙、圣灵、邪灵。对草、水、火、电、远古、虫微弱。</td></tr>
@@ -106,6 +116,7 @@
 <tr><td><img src="/images/powers/earth_guard_power.png" alt="大地守护" style="width:80px;height:auto" /></td><td><a href="earth_guard_power">大地守护</a></td><td>受到的伤害减少50%。在其回合开始时获得2点防御。</td></tr>
 <tr><td><img src="/images/powers/eat_moon_power.png" alt="吃月亮" style="width:80px;height:auto" /></td><td><a href="eat_moon_power">吃月亮</a></td><td>在你的回合开始时为所有对手附加固定伤害，并使自己恢复等量生命。在你的回合结束时减少1层。</td></tr>
 <tr><td><img src="/images/powers/electric_power.png" alt="电" style="width:80px;height:auto" /></td><td><a href="electric_power">电</a></td><td>电属性。克制水、飞行、暗影、次元、混沌、虚空。对草、电、神秘、圣灵、自然、神灵、地面微弱。</td></tr>
+<tr><td><img src="/images/powers/embrace_flame_power.png" alt="赴火" style="width:80px;height:auto" /></td><td><a href="embrace_flame_power">赴火</a></td><td>1回合后，你耗能不大于阈值的牌会重新打出1次。</td></tr>
 <tr><td><img src="/images/powers/emperor_war_buddha_power.png" alt="帝天战佛" style="width:80px;height:auto" /></td><td><a href="emperor_war_buddha_power">帝天战佛</a></td><td>当对手单次伤害超过阈值时，吸取其全属性buff。</td></tr>
 <tr><td><img src="/images/powers/endless_energy_power.png" alt="无尽能源" style="width:80px;height:auto" /></td><td><a href="endless_energy_power">无尽能源</a></td><td>本回合中你每打出一张牌，向你的手牌中放入1张随机赛尔诅咒。</td></tr>
 <tr><td><img src="/images/powers/endless_illusion_power.png" alt="无尽幻象" style="width:80px;height:auto" /></td><td><a href="endless_illusion_power">无尽幻象</a></td><td>死亡时分裂为2只史莱姆。</td></tr>
@@ -123,8 +134,10 @@
 <tr><td><img src="/images/powers/evolve_power.png" alt="进化" style="width:80px;height:auto" /></td><td><a href="evolve_power">进化</a></td><td>每造成一次伤害，自身力量、命中、速度、防御各+1。</td></tr>
 <tr><td><img src="/images/powers/execute_power.png" alt="处决" style="width:80px;height:auto" /></td><td><a href="execute_power">处决</a></td><td>层数向下涵盖。1层：回合开始受到5点固定伤害。2层：自身无法回复生命，治疗后受到等量固定伤害。3层：回合开始时清除自身所有Buff。最高3层。</td></tr>
 <tr><td><img src="/images/powers/expose_power.png" alt="曝" style="width:80px;height:auto" /></td><td><a href="expose_power">曝</a></td><td>不可计数。持有此状态的敌怪所对应的所有幻扰施加异常状态成功概率下降50%，且此敌怪死亡后，直接消逝。</td></tr>
+<tr><td><img src="/images/powers/extra_draw_power.png" alt="额外抽牌" style="width:80px;height:auto" /></td><td><a href="extra_draw_power">额外抽牌</a></td><td>每回合多抽2张牌。回合结束减1层。</td></tr>
 <tr><td><img src="/images/powers/facing_power.png" alt="凝视" style="width:80px;height:auto" /></td><td><a href="facing_power">凝视</a></td><td>你的朝向会影响部分技能与怪物能力的效果。使用指定目标的卡牌或药水可以改变你的朝向。</td></tr>
 <tr><td><img src="/images/powers/fat_shield_power.png" alt="脂肪护盾" style="width:80px;height:auto" /></td><td><a href="fat_shield_power">脂肪护盾</a></td><td>自身每次受到攻击时，获得2层斗气。持续层数回合。</td></tr>
+<tr><td><img src="/images/powers/fallen_power.png" alt="堕落" style="width:80px;height:auto" /></td><td><a href="fallen_power">堕落</a></td><td>持有堕落层数，每场战斗独立，不会清零。每满100层会被魔君接管：立即自动打出手中所有可打出的牌，并获得混沌化身与抽3张牌。</td></tr>
 <tr><td><img src="/images/powers/fatal_mark_power.png" alt="致命印记" style="width:80px;height:auto" /></td><td><a href="fatal_mark_power">致命印记</a></td><td>标记在对手的每个随机意图上，敌人使用此意图后消失。每个意图最多能被标记3层。1层：使用后受到10点固定伤害。2层：使用后我获得1点能量。3层：对该类型所有意图施加封印（攻击→攻击无效，非攻击→封属）。</td></tr>
 <tr><td><img src="/images/powers/fatal_rift_power.png" alt="致命裂痕" style="width:80px;height:auto" /></td><td><a href="fatal_rift_power">致命裂痕</a></td><td>根据层数触发不同效果：1层：造成伤害降低10%。2层：受到伤害增加20%。3层：使用技能先制-1。</td></tr>
 <tr><td><img src="/images/powers/fate_morning_star_power.png" alt="命运晨星" style="width:80px;height:auto" /></td><td><a href="fate_morning_star_power">命运晨星</a></td><td>最多5层。每有一层：造成伤害增加6%，受到伤害降低6%。每回合结束时，恢复等同于层数的生命。</td></tr>
@@ -132,6 +145,7 @@
 <tr><td><img src="/images/powers/fate_strike_power.png" alt="命运之击" style="width:80px;height:auto" /></td><td><a href="fate_strike_power">命运之击</a></td><td>在其回合结束时，50%概率对你造成10点流失伤害，否则自伤10点。</td></tr>
 <tr><td><img src="/images/powers/fatigue_power.png" alt="疲惫" style="width:80px;height:auto" /></td><td><a href="fatigue_power">疲惫</a></td><td>攻击伤害降低20%。每次造成伤害时，自身受到等于层数的不可格挡伤害。在你的回合结束时减少1层。</td></tr>
 <tr><td><img src="/images/powers/fear_power.png" alt="害怕" style="width:80px;height:auto" /></td><td><a href="fear_power">害怕</a></td><td>攻击伤害降低30%。在你的回合结束时减少1层。</td></tr>
+<tr><td><img src="/images/powers/feng_xie_zhang_power.png" alt="封邪之嶂" style="width:80px;height:auto" /></td><td><a href="feng_xie_zhang_power">封邪之嶂</a></td><td>受未格挡的攻击后，消除所有敌方格挡。每有1层，持有格挡时减伤10%。至多4层。</td></tr>
 <tr><td><img src="/images/powers/february_camera_power.png" alt="相机" style="width:80px;height:auto" /></td><td><a href="february_camera_power">相机</a></td><td>每回合开始时，若有敌人生命值大于记录值，全部调整至记录值。</td></tr>
 <tr><td><img src="/images/powers/fighting_power.png" alt="战斗" style="width:80px;height:auto" /></td><td><a href="fighting_power">战斗</a></td><td>战斗属性。克制机械、冰、龙、圣灵。对超能、战斗、暗影、邪灵、王微弱。</td></tr>
 <tr><td><img src="/images/powers/fighting_spirit_power.png" alt="战意" style="width:80px;height:auto" /></td><td><a href="fighting_spirit_power">战意</a></td><td>每层减少5%固定伤害、增加5%攻击伤害。最高20层。</td></tr>
@@ -151,6 +165,7 @@
 <tr><td><img src="/images/powers/frostbite_power.png" alt="冻伤" style="width:80px;height:auto" /></td><td><a href="frostbite_power">冻伤</a></td><td>在你的回合开始时受到5点伤害并减少1层。</td></tr>
 <tr><td><img src="/images/powers/fury_power.png" alt="狂暴" style="width:80px;height:auto" /></td><td><a href="fury_power">狂暴</a></td><td>每有一层，攻击伤害增加25%。在你的回合结束时减少1层。</td></tr>
 <tr><td><img src="/images/powers/future_singularity_power.png" alt="未来奇点" style="width:80px;height:auto" /></td><td><a href="future_singularity_power">未来奇点</a></td><td>免疫减益效果，免疫时消耗1层。 1层：所有敌人速度-1。 2层：所有敌人失去格挡。 3层：自身先制+1，打出卡牌时随机恢复1张PP牌1点PP。</td></tr>
+<tr><td><img src="/images/powers/genesis_oracle_reward_power.png" alt="创世神谕" style="width:80px;height:auto" /></td><td><a href="genesis_oracle_reward_power">创世神谕</a></td><td>创世之神谕斩杀敌人时的奖励提示能力（实际奖励由卡牌直接发放）。</td></tr>
 <tr><td><img src="/images/powers/ghost_fire_power.png" alt="鬼火" style="width:80px;height:auto" /></td><td><a href="ghost_fire_power">鬼火</a></td><td>受到伤害后，使伤害者获得2层焚烬和2层烧伤。</td></tr>
 <tr><td><img src="/images/powers/glory_exhaustion_power.png" alt="荣尽枯生" style="width:80px;height:auto" /></td><td><a href="glory_exhaustion_power">荣尽枯生</a></td><td>受到敌人伤害时，对伤害来源施加2层中毒。在你的回合开始时层数减1。</td></tr>
 <tr><td><img src="/images/powers/god_funeral_power.png" alt="神明送葬" style="width:80px;height:auto" /></td><td><a href="god_funeral_power">神明送葬</a></td><td>下2次受到伤害时，为所有敌人施加3层圣诰。</td></tr>
@@ -210,12 +225,15 @@
 <tr><td><img src="/images/powers/life_breath_two_power.png" alt="生息2" style="width:80px;height:auto" /></td><td><a href="life_breath_two_power">生息2</a></td><td>在你的回合开始时，获得6%最大生命值。</td></tr>
 <tr><td><img src="/images/powers/life_choke_one_power.png" alt="扼生一" style="width:80px;height:auto" /></td><td><a href="life_choke_one_power">扼生一</a></td><td>敌人恢复生命时，受到2点固定伤害。</td></tr>
 <tr><td><img src="/images/powers/life_choke_two_power.png" alt="扼生二" style="width:80px;height:auto" /></td><td><a href="life_choke_two_power">扼生二</a></td><td>敌人恢复生命时，受到4点固定伤害。</td></tr>
+<tr><td><img src="/images/powers/life_gem_power.png" alt="生命灵珠" style="width:80px;height:auto" /></td><td><a href="life_gem_power">生命灵珠</a></td><td>生命低于50%时获得20%减伤，高于50%时获得40%增伤。</td></tr>
 <tr><td><img src="/images/powers/life_power.png" alt="生命" style="width:80px;height:auto" /></td><td><a href="life_power">生命</a></td><td>本回合内，每使用1张牌，恢复层数点生命。</td></tr>
+<tr><td><img src="/images/powers/life_tundra_gum_power.png" alt="苔原汲取" style="width:80px;height:auto" /></td><td><a href="life_tundra_gum_power">苔原汲取</a></td><td>每打出一张牌，从随机敌人身上汲取1点生命。</td></tr>
 <tr><td><img src="/images/powers/light_power.png" alt="光" style="width:80px;height:auto" /></td><td><a href="light_power">光</a></td><td>光属性。克制超能、暗影、虫。对机械、冰、光、圣灵、邪灵、自然、神灵、轮回、虚空、草微弱。</td></tr>
 <tr><td><img src="/images/powers/light_sword_power.png" alt="光明剑道" style="width:80px;height:auto" /></td><td><a href="light_sword_power">光明剑道</a></td><td>回合开始时，按递增概率秒杀敌方（基础3%，每回合+1%）。</td></tr>
 <tr><td><img src="/images/powers/light_weaken_power.png" alt="光刃虚弱" style="width:80px;height:auto" /></td><td><a href="light_weaken_power">光刃虚弱</a></td><td>造成的攻击伤害降低50%。回合结束减少1层。</td></tr>
 <tr><td><img src="/images/powers/lightning_orb_counter_power.png" alt="闪电充能球" style="width:80px;height:auto" /></td><td><a href="lightning_orb_counter_power">闪电充能球</a></td><td>在其回合结束时，每球对你造成3点伤害。最多2个球。</td></tr>
 <tr><td><img src="/images/powers/ling_lai_swim_hall_power.png" alt="灵籁泳馆" style="width:80px;height:auto" /></td><td><a href="ling_lai_swim_hall_power">灵籁泳馆</a></td><td>免疫力量、防御、命中、速度的下降。在你的回合结束时恢复3点生命并减少1层。</td></tr>
+<tr><td><img src="/images/powers/liu_hun_gu_power.png" alt="留魂之蛊" style="width:80px;height:auto" /></td><td><a href="liu_hun_gu_power">留魂之蛊</a></td><td>该生物复活或回复生命时，每层输送16生命至你。至多4层。</td></tr>
 <tr><td><img src="/images/powers/lock_one_power.png" alt="锁定I" style="width:80px;height:auto" /></td><td><a href="lock_one_power">锁定I</a></td><td>自身暴击率修改为50%。</td></tr>
 <tr><td><img src="/images/powers/lock_two_power.png" alt="锁定II" style="width:80px;height:auto" /></td><td><a href="lock_two_power">锁定II</a></td><td>自身暴击率修改为100%。</td></tr>
 <tr><td><img src="/images/powers/long_lasting_hp_power.png" alt="长效体力" style="width:80px;height:auto" /></td><td><a href="long_lasting_hp_power">长效体力</a></td><td>在你的回合开始时恢复2点体力，免疫固定伤害。在你的回合开始时减少1层。</td></tr>
@@ -229,6 +247,7 @@
 <tr><td><img src="/images/powers/mercy_feather_damage_reduction_power.png" alt="怜羽护佑" style="width:80px;height:auto" /></td><td><a href="mercy_feather_damage_reduction_power">怜羽护佑</a></td><td>受到的攻击伤害减少20%。</td></tr>
 <tr><td><img src="/images/powers/mirror_image_power.png" alt="镜影术" style="width:80px;height:auto" /></td><td><a href="mirror_image_power">镜影术</a></td><td>自身受到的伤害放大1000倍。在其回合结束时，若生命值低于10%，获得20层狂暴。</td></tr>
 <tr><td><img src="/images/powers/mirror_power.png" alt="镜反" style="width:80px;height:auto" /></td><td><a href="mirror_power">镜反</a></td><td>免疫并反弹暴击伤害。</td></tr>
+<tr><td><img src="/images/powers/mo_ran_power.png" alt="墨染" style="width:80px;height:auto" /></td><td><a href="mo_ran_power">墨染</a></td><td>自身回合开始时：每211层获得10金币；达到985层时清空全部墨染，获得1颗通用刻印激活水晶。</td></tr>
 <tr><td><img src="/images/powers/mountain_god_power.png" alt="山神之力" style="width:80px;height:auto" /></td><td><a href="mountain_god_power">山神之力</a></td><td>自身生命值首次低于50%时，获得40%伤害减免与壁垒，并向你的抽牌堆中加入7张随机状态牌。仅触发一次。</td></tr>
 <tr><td><img src="/images/powers/multi_turn_heal_power.png" alt="多回合恢复生命" style="width:80px;height:auto" /></td><td><a href="multi_turn_heal_power">多回合恢复生命</a></td><td>在你的回合结束时恢复2点生命并减少1层。</td></tr>
 <tr><td><img src="/images/powers/muse_requiem_power.png" alt="安魂曲" style="width:80px;height:auto" /></td><td><a href="muse_requiem_power">安魂曲</a></td><td>受到攻击时，令攻击者陷入睡眠2回合。剩余层数次触发机会。</td></tr>
@@ -249,7 +268,7 @@
 <tr><td><img src="/images/powers/north_sea_mad_blade_power.png" alt="北冥狂刃" style="width:80px;height:auto" /></td><td><a href="north_sea_mad_blade_power">北冥狂刃</a></td><td>自身攻击必定暴击，自身暴击伤害提升40%。且一回合内，每次造成伤害，附加给对手上一次造成伤害相同的固定伤害。</td></tr>
 <tr><td><img src="/images/powers/nightmare_power.png" alt="梦魇" style="width:80px;height:auto" /></td><td><a href="nightmare_power">梦魇</a></td><td>敌人回合开始时，若此状态层数大于圣武天尊·关羽持有者的最大生命，敌人死亡。</td></tr>
 <tr><td><img src="/images/powers/november_citrus_power.png" alt="柑橘" style="width:80px;height:auto" /></td><td><a href="november_citrus_power">柑橘</a></td><td>使用1张牌，恢复1点生命，第二张恢复2点，第三张3点，以此类推。每回合重置。</td></tr>
-<tr><td><img src="/images/powers/octagon_debt_power.png" alt="八方债" style="width:80px;height:auto" /></td><td><a href="octagon_debt_power">八方债</a></td><td>2回合后，生命值降为1，所有牌消耗，有PP的牌PP清0。</td></tr>
+<tr><td><img src="/images/powers/octagon_debt_power.png" alt="君临天下" style="width:80px;height:auto" /></td><td><a href="octagon_debt_power">君临天下</a></td><td>6回合内抽满手牌、能量+6、攻击必定暴击、任何牌附加固定伤害；结束后所有牌PP清0并消耗，生命设为1。</td></tr>
 <tr><td><img src="/images/powers/october_record_power.png" alt="唱片" style="width:80px;height:auto" /></td><td><a href="october_record_power">唱片</a></td><td>当你打出的牌与上一张类型不同时，随机一名敌人获得随机1种异常状态1回合。</td></tr>
 <tr><td>—</td><td><a href="ophelia_revive_power">奥菲利娅复活</a></td><td>整局游戏首次死亡时，恢复自身25点生命与所有PP。这场战斗结束后，向牌组中加入1张终末·赫星黎明。</td></tr>
 <tr><td><img src="/images/powers/orbit_return_power.png" alt="轨道回归" style="width:80px;height:auto" /></td><td><a href="orbit_return_power">轨道回归</a></td><td>每2个回合触发一次，根据层数赋予1×层数的轨道能力。</td></tr>
@@ -265,8 +284,9 @@
 <tr><td><img src="/images/powers/petrify_power.png" alt="石化" style="width:80px;height:auto" /></td><td><a href="petrify_power">石化</a></td><td>攻击伤害降低70%，本应造成的伤害有70%转化为自身的格挡。在你的回合结束时减少1层。</td></tr>
 <tr><td><img src="/images/powers/phantom_break_power.png" alt="幻灵破碎" style="width:80px;height:auto" /></td><td><a href="phantom_break_power">幻灵破碎</a></td><td>每当有状态牌进入你的消耗牌堆时，扣除1点最大生命。</td></tr>
 <tr><td><img src="/images/powers/phoenix_nirvana_power.png" alt="凤之涅槃" style="width:80px;height:auto" /></td><td><a href="phoenix_nirvana_power">凤之涅槃</a></td><td>在其回合结束时，向你的抽牌堆中加入1张烬翎。自身死亡时最大生命值降为80%并满血复活，获得1层缓冲并再给予1张烬翎。其回合开始时，场上烬翎累计达20片时真正死亡。</td></tr>
+<tr><td><img src="/images/powers/phoenix_fire_aura_power.png" alt="火焰护身" style="width:80px;height:auto" /></td><td><a href="phoenix_fire_aura_power">火焰护身</a></td><td>2回合内，自身攻击必定使对手陷入烧伤2回合。</td></tr>
 <tr><td><img src="/images/powers/plating_power.png" alt="覆甲" style="width:80px;height:auto" /></td><td><a href="plating_power">覆甲</a></td><td>在你的回合结束时获得格挡。覆甲会在你的回合开始时减少1层。</td></tr>
-<tr><td><img src="/images/powers/poison_power.png" alt="中毒" style="width:80px;height:auto" /></td><td><a href="poison_power">中毒</a></td><td>在你的回合开始时受到1+层数÷2点伤害，然后减少1层。</td></tr>
+<tr><td><img src="/images/powers/poison_power.png" alt="中毒" style="width:80px;height:auto" /></td><td><a href="poison_power">中毒</a></td><td>在你的回合开始时受到等于层数的伤害，然后层数减半（向下取整）。</td></tr>
 <tr><td><img src="/images/powers/potion_backlash_power.png" alt="药剂反噬" style="width:80px;height:auto" /></td><td><a href="potion_backlash_power">药剂反噬</a></td><td>每当你使用一瓶药水时，失去4点最大生命值。</td></tr>
 <tr><td><img src="/images/powers/pp_protection_power.png" alt="PP守护" style="width:80px;height:auto" /></td><td><a href="pp_protection_power">PP守护</a></td><td>PP耗尽时，防止该牌被消耗。</td></tr>
 <tr><td><img src="/images/powers/primordial_light_buff_power.png" alt="无始源光·增益" style="width:80px;height:auto" /></td><td><a href="primordial_light_buff_power">无始源光·增益</a></td><td>回合开始时速度和力量+1，并减少1层。</td></tr>
@@ -274,13 +294,14 @@
 <tr><td><img src="/images/powers/psychic_interference_power.png" alt="精神干涉" style="width:80px;height:auto" /></td><td><a href="psychic_interference_power">精神干涉</a></td><td>在你的回合开始时，你的命中-1，速度-1。</td></tr>
 <tr><td><img src="/images/powers/psychic_power.png" alt="超能" style="width:80px;height:auto" /></td><td><a href="psychic_power">超能</a></td><td>超能属性。克制战斗、神秘、自然。对机械、超能、虫、光微弱。</td></tr>
 <tr><td><img src="/images/powers/puni_energy_reflect_power.png" alt="能量反弹" style="width:80px;height:auto" /></td><td><a href="puni_energy_reflect_power">能量反弹</a></td><td>下3次受到伤害时，每次将实际受到的伤害×2反弹给攻击者，然后层数-1。</td></tr>
-<tr><td><img src="/images/powers/puni_form_phase_power.png" alt="秩段档位" style="width:80px;height:auto" /></td><td><a href="puni_form_phase_power">秩段档位</a></td><td>谱尼当前秩段档位（0-6为七形态，7为最终阶段）。每次切换+111最大生命。</td></tr>
-<tr><td><img src="/images/powers/puni_revive_power.png" alt="七形态化身" style="width:80px;height:auto" /></td><td><a href="puni_revive_power">七形态化身</a></td><td>被击杀时进入下一秩段档位，最大生命+111并满血复活。七形态全破后进入最终阶段，方可真正击杀。</td></tr>
+<tr><td><img src="/images/powers/puni_form_phase_power.png" alt="秩段档位" style="width:80px;height:auto" /></td><td><a href="puni_form_phase_power">秩段档位</a></td><td>谱尼当前秩段档位（0-6为七形态，7为最终阶段）。每次切换最大生命+当前上限的35%。</td></tr>
+<tr><td><img src="/images/powers/puni_revive_power.png" alt="七形态化身" style="width:80px;height:auto" /></td><td><a href="puni_revive_power">七形态化身</a></td><td>被击杀时进入下一秩段档位，最大生命+当前上限的35%并满血复活。七形态全破后进入最终阶段，方可真正击杀。</td></tr>
 <tr><td><img src="/images/powers/puni_spirit_counter_power.png" alt="圣灵迭印" style="width:80px;height:auto" /></td><td><a href="puni_spirit_counter_power">圣灵迭印</a></td><td>谱尼的圣灵迭印。每张圣灵牌变化位置时+1。达到7时清零并切换下一形态。自身被击杀会直接进入下一形态且不会清零</td></tr>
 <tr><td><img src="/images/powers/puni_spirit_incarnation_power.png" alt="圣灵化身" style="width:80px;height:auto" /></td><td><a href="puni_spirit_incarnation_power">圣灵化身</a></td><td>回合结束时，你未打出的手牌返回抽牌堆而非进入弃牌堆。</td></tr>
 <tr><td><img src="/images/powers/pure_rebirth_power.png" alt="净世新生" style="width:80px;height:auto" /></td><td><a href="pure_rebirth_power">净世新生</a></td><td>下2次恢复生命时，为所有敌人施加3层邪诲。</td></tr>
 <tr><td><img src="/images/powers/purple_fire_power.png" alt="紫火" style="width:80px;height:auto" /></td><td><a href="purple_fire_power">紫火</a></td><td>双方造成伤害提升25%。</td></tr>
 <tr><td><img src="/images/powers/rainstorm_power.png" alt="雷雨天" style="width:80px;height:auto" /></td><td><a href="rainstorm_power">雷雨天</a></td><td>自身攻击必定暴击。每次造成伤害（含自伤）后，闪电充能球+1。充能球伤害不触发雷雨天。</td></tr>
+<tr><td><img src="/images/powers/random_upgrade_power.png" alt="随机升级" style="width:80px;height:auto" /></td><td><a href="random_upgrade_power">随机升级</a></td><td>战斗结束时，随机升级1张牌。</td></tr>
 <tr><td><img src="/images/powers/rashomon_power.png" alt="罗生门" style="width:80px;height:auto" /></td><td><a href="rashomon_power">罗生门</a></td><td>免疫异常状态。敌方打出PP牌时PP额外减2。回合结束减少1层。</td></tr>
 <tr><td><img src="/images/powers/red_dragon_scale_power.png" alt="红色龙鳞" style="width:80px;height:auto" /></td><td><a href="red_dragon_scale_power">红色龙鳞</a></td><td>免疫攻击伤害与固定伤害。触发免疫时消除对手非基础属性提升的buff，然后自身消失。</td></tr>
 <tr><td><img src="/images/powers/reflect_block_power.png" alt="护盾反弹" style="width:80px;height:auto" /></td><td><a href="reflect_block_power">护盾反弹</a></td><td>本回合反弹被护盾格挡住的伤害。</td></tr>
@@ -313,7 +334,7 @@
 <tr><td><img src="/images/powers/soul_sustenance_power.png" alt="灵魂寄托" style="width:80px;height:auto" /></td><td><a href="soul_sustenance_power">灵魂寄托</a></td><td>自身死亡时，随机移除你的一个遗物。</td></tr>
 <tr><td><img src="/images/powers/soulson_chaos_counter_power.png" alt="混沌迭印" style="width:80px;height:auto" /></td><td><a href="soulson_chaos_counter_power">混沌迭印</a></td><td>索伦森的混沌迭印。每张混沌牌变化位置时+1，灵之殇+10。每达到7的倍数时，你获得1层双倍消耗（不清0）。</td></tr>
 <tr><td><img src="/images/powers/soulson_chaos_energy_double_power.png" alt="双倍消耗" style="width:80px;height:auto" /></td><td><a href="soulson_chaos_energy_double_power">双倍消耗</a></td><td>你下一张牌耗能翻倍，打出后移除。</td></tr>
-<tr><td><img src="/images/powers/soulson_chaos_incarnation_power.png" alt="混沌化身" style="width:80px;height:auto" /></td><td><a href="soulson_chaos_incarnation_power">混沌化身</a></td><td>你的能量为0时，仍可打出卡牌，消耗等量最大生命值。</td></tr>
+<tr><td><img src="/images/powers/soulson_chaos_incarnation_power.png" alt="混沌化身" style="width:80px;height:auto" /></td><td><a href="soulson_chaos_incarnation_power">混沌化身</a></td><td>你的能量不足时，仍可打出卡牌，差额部分消耗等量最大生命值。</td></tr>
 <tr><td><img src="/images/powers/soulson_fallen_world_revive_power.png" alt="堕世" style="width:80px;height:auto" /></td><td><a href="soulson_fallen_world_revive_power">堕世</a></td><td>2回合内，自身死亡时立即满血复活。</td></tr>
 <tr><td><img src="/images/powers/sovereign_shield_power.png" alt="拥君之盾" style="width:80px;height:auto" /></td><td><a href="sovereign_shield_power">拥君之盾</a></td><td>开启时，自身获得6层覆甲。持有时，自身免疫臣服，造成伤害提升25%。</td></tr>
 <tr><td><img src="/images/powers/star_stage_power.png" alt="星璨舞台" style="width:80px;height:auto" /></td><td><a href="star_stage_power">星璨舞台</a></td><td>造成伤害提升25%。在你的回合结束时，恢复3张随机卡牌1点PP并减少1层。</td></tr>
@@ -349,8 +370,10 @@
 <tr><td><img src="/images/powers/thunder_gaia_bond_power.png" alt="雷霆盖亚之契" style="width:80px;height:auto" /></td><td><a href="thunder_gaia_bond_power">雷霆盖亚之契</a></td><td>打出攻击卡时，随机将一张技能卡加入手牌；打出技能卡时，随机将一张攻击卡加入手牌。</td></tr>
 <tr><td><img src="/images/powers/tiger_crit_counter_power.png" alt="冲天霸气" style="width:80px;height:auto" /></td><td><a href="tiger_crit_counter_power">冲天霸气</a></td><td>下2次攻击必定致命一击。</td></tr>
 <tr><td><img src="/images/powers/tiger_down_mountain_power.png" alt="猛虎下山" style="width:80px;height:auto" /></td><td><a href="tiger_down_mountain_power">猛虎下山</a></td><td>切换姿态时，清空你随机2张PP牌的PP值，并解除自身所有负面状态。</td></tr>
+<tr><td><img src="/images/powers/tian_ben_shi_zui_power.png" alt="天奔释罪" style="width:80px;height:auto" /></td><td><a href="tian_ben_shi_zui_power">天奔释罪</a></td><td>下回合开始时，消除所有敌人全属性提升，解除自身全属性下降，清除并免疫异常1回合，恢复7生命，所有牌PP回满。</td></tr>
 <tr><td><img src="/images/powers/time_end_power.png" alt="时之彼端" style="width:80px;height:auto" /></td><td><a href="time_end_power">时之彼端</a></td><td>下次受到的伤害100%反馈给对手。若受到的伤害&gt;20，则恢复等量体力。触发后移除。</td></tr>
 <tr><td><img src="/images/powers/tiny_power.png" alt="渺小" style="width:80px;height:auto" /></td><td><a href="tiny_power">渺小</a></td><td>打出卡牌时，每张手牌中的渺小牌造成2点伤害。无渺小牌时移除。</td></tr>
+<tr><td><img src="/images/powers/tooth_trap_power.png" alt="牙齿陷阱" style="width:80px;height:auto" /></td><td><a href="tooth_trap_power">牙齿陷阱</a></td><td>本回合内，当自身受到伤害时，给予所有敌人等量固定伤害。下个回合开始时移除。</td></tr>
 <tr><td><img src="/images/powers/tower_orb_counter_power.png" alt="高塔充能球" style="width:80px;height:auto" /></td><td><a href="tower_orb_counter_power">高塔充能球</a></td><td>每回合开始时，每球获得1层覆甲。</td></tr>
 <tr><td><img src="/images/powers/town_guard_one_power.png" alt="镇御1" style="width:80px;height:auto" /></td><td><a href="town_guard_one_power">镇御1</a></td><td>在你的回合开始时，获得5点格挡。</td></tr>
 <tr><td><img src="/images/powers/town_guard_three_power.png" alt="镇御3" style="width:80px;height:auto" /></td><td><a href="town_guard_three_power">镇御3</a></td><td>在你的回合开始时，获得10点格挡。</td></tr>
@@ -360,7 +383,7 @@
 <tr><td><img src="/images/powers/true_dragon_form_power.png" alt="真龙形态" style="width:80px;height:auto" /></td><td><a href="true_dragon_form_power">真龙形态</a></td><td>战斗结束时调整生命值不大于记录值。</td></tr>
 <tr><td><img src="/images/powers/turn_damage_boost_power.png" alt="回合增伤" style="width:80px;height:auto" /></td><td><a href="turn_damage_boost_power">回合增伤</a></td><td>攻击伤害提升10%。持续1回合。</td></tr>
 <tr><td><img src="/images/powers/turn_damage_reduction_power.png" alt="回合减伤" style="width:80px;height:auto" /></td><td><a href="turn_damage_reduction_power">回合减伤</a></td><td>受到的攻击伤害减少30%。持续1回合。</td></tr>
-<tr><td><img src="/images/powers/turn_guaranteed_crit_power.png" alt="回合必定暴击" style="width:80px;height:auto" /></td><td><a href="turn_guaranteed_crit_power">回合必定暴击</a></td><td>本回合所有攻击必定暴击（1.5倍伤害）。</td></tr>
+<tr><td><img src="/images/powers/turn_guaranteed_crit_power.png" alt="回合必定暴击" style="width:80px;height:auto" /></td><td><a href="turn_guaranteed_crit_power">回合必定暴击</a></td><td>持续层数回合，期间所有攻击必定暴击（1.5倍伤害）。</td></tr>
 <tr><td><img src="/images/powers/turn_immune_fixed_damage_power.png" alt="回合免疫固伤" style="width:80px;height:auto" /></td><td><a href="turn_immune_fixed_damage_power">回合免疫固伤</a></td><td>1回合内免疫固定伤害。在你的回合结束时减少1层。</td></tr>
 <tr><td><img src="/images/powers/twin_flower_power.png" alt="双生花" style="width:80px;height:auto" /></td><td><a href="twin_flower_power">双生花</a></td><td>在你的回合开始时，晓和清交替出现。晓/清打出攻击/非攻击牌时，有层数%概率令随机对手睡眠2回合。</td></tr>
 <tr><td><img src="/images/powers/universal_divergence_power.png" alt="万相乖离" style="width:80px;height:auto" /></td><td><a href="universal_divergence_power">万相乖离</a></td><td>免疫debuff。造成攻击伤害+层数×3。 【2层+】在你的回合开始时，若生命不满，消耗PP牌治疗。 【3层+】在你的回合开始时，若对手有正面属性，消耗PP牌清除。 【4层+】在你的回合开始时，若对手不攻击，消耗PP牌施加异常。 【5层】在</td></tr>
@@ -374,11 +397,13 @@
 <tr><td><img src="/images/powers/wall_one_power.png" alt="铁壁I" style="width:80px;height:auto" /></td><td><a href="wall_one_power">铁壁I</a></td><td>自身免疫低于4点的伤害。</td></tr>
 <tr><td><img src="/images/powers/wall_three_power.png" alt="铁壁III" style="width:80px;height:auto" /></td><td><a href="wall_three_power">铁壁III</a></td><td>自身免疫低于15点的伤害。</td></tr>
 <tr><td><img src="/images/powers/wall_two_power.png" alt="铁壁II" style="width:80px;height:auto" /></td><td><a href="wall_two_power">铁壁II</a></td><td>自身免疫低于8点的伤害。</td></tr>
+<tr><td><img src="/images/powers/wan_li_chun_ti_power.png" alt="万里春啼" style="width:80px;height:auto" /></td><td><a href="wan_li_chun_ti_power">万里春啼</a></td><td>回合结束时解除所有生物异常（每解除1种，所有敌人全属性-1）；下回合开始敌人受到等量随机异常2回合。</td></tr>
 <tr><td><img src="/images/powers/water_power.png" alt="水" style="width:80px;height:auto" /></td><td><a href="water_power">水</a></td><td>水属性。克制火、地面。对草、水、圣灵、自然、混沌、神灵微弱。</td></tr>
 <tr><td><img src="/images/powers/weak_power.png" alt="虚弱" style="width:80px;height:auto" /></td><td><a href="weak_power">虚弱</a></td><td>虚弱的生物造成的攻击伤害减少25%。</td></tr>
 <tr><td><img src="/images/powers/weaken_power.png" alt="衰弱" style="width:80px;height:auto" /></td><td><a href="weaken_power">衰弱</a></td><td>每有一层，受到的攻击伤害增加25%。在你的回合结束时减少1层。</td></tr>
 <tr><td><img src="/images/powers/white_dragon_scale_power.png" alt="白色龙鳞" style="width:80px;height:auto" /></td><td><a href="white_dragon_scale_power">白色龙鳞</a></td><td>每层可免疫一次攻击伤害、固定伤害、异常状态或属性下降。被免疫攻击后获得100%伤害提升；被免疫固定伤害后反弹25点固定伤害；被免疫异常后随机给对手3种异常；被免疫属性下降后对手力量敏捷命中速度-2。在你的回合结束时减少1层。消失时消除对手所</td></tr>
 <tr><td><img src="/images/powers/wildfire_power.png" alt="燎原之火" style="width:80px;height:auto" /></td><td><a href="wildfire_power">燎原之火</a></td><td>火焰的最终形态，不再转化。</td></tr>
+<tr><td><img src="/images/powers/wind_dragon_knot_power.png" alt="风龙结" style="width:80px;height:auto" /></td><td><a href="wind_dragon_knot_power">风龙结</a></td><td>每有1个，自身造成伤害+1%，最多100个。到达100个时消耗全部：若不为龙，恢复所有PP并变为龙；若为龙（每场仅一次），永久减伤50%。</td></tr>
 <tr><td><img src="/images/powers/wind_grace_power.png" alt="予风余芳" style="width:80px;height:auto" /></td><td><a href="wind_grace_power">予风余芳</a></td><td>每打出一张牌，有20%概率为对手附加随机异常状态2回合。持续1回合。</td></tr>
 <tr><td><img src="/images/powers/wrath_stance_power.png" alt="愤怒姿态" style="width:80px;height:auto" /></td><td><a href="wrath_stance_power">愤怒姿态</a></td><td>自身造成和受到的伤害翻倍。</td></tr>
 <tr><td><img src="/images/powers/wrathful_judgment_power.png" alt="拒赦怒威态" style="width:80px;height:auto" /></td><td><a href="wrathful_judgment_power">拒赦怒威态</a></td><td>回合开始时，自身清除现有属性，变为混沌系，先制+1。自身所有攻击造成伤害提升30%，回合结束减1层。</td></tr>

@@ -13,7 +13,8 @@
 |---|---|
 | EnchantCount（五音附魔牌数） | 5 |
 | MaxHpGainPercent（击杀获取最大生命百分比） | 3 |
-| MaxHpLossPerTurn（复活后每回合扣除最大生命） | 3 |
+| MaxHpLossPerTurn（复活后每回合失去最大生命） | 3 |
+| FallenPercent（复活后每回合堕落百分比） | 13 |
 | CurseTurns（渍·诅咒回合） | 3 |
 | DamagePerIntent（柱·每意图伤害） | 3 |
 | HealPerPp（烙·每 PP 回复生命） | 3 |
@@ -21,7 +22,7 @@
 
 ## 描述
 
-①拾起时，随机 <span style="color:#3aa675;font-weight:600">5</span> 张牌附带[五音附魔](/mechanics/enchantment.md)。<br/>②敌方怪物死亡时，[空妄诗章](/mechanics/void-poem.md)+<span style="color:#3aa675;font-weight:600">1</span>，获得其最大生命 <span style="color:#3aa675;font-weight:600">3</span>% 的最大生命。<br/>③整局限一次，首次死亡时失去所有[空妄诗章](/mechanics/void-poem.md)，移除[异常状态](/mechanics/abnormal-status.md)并保留 <span style="color:#3aa675;font-weight:600">1</span> 血复活。之后[空元之诗](/mechanics/void-poem.md)不消耗诗章，但每回合结束扣除 <span style="color:#3aa675;font-weight:600">3</span> 最大生命。<br/>④战斗开始时，每有一篇[空妄诗章](/mechanics/void-poem.md)，随机一张牌获得[空元之诗](/mechanics/void-poem.md)。打出时消耗一篇诗章，随机触发五项效果（每打出一次多触发一种）。
+①拾起时，随机 <span style="color:#3aa675;font-weight:600">5</span> 张牌附带[五音附魔](/mechanics/enchantment.md)。<br/>②敌方怪物死亡时，[空妄诗章](/mechanics/void-poem.md)+<span style="color:#3aa675;font-weight:600">1</span>，获得其最大生命 <span style="color:#3aa675;font-weight:600">3</span>% 的最大生命。<br/>③整局限一次，首次死亡时失去所有[空妄诗章](/mechanics/void-poem.md)，移除[异常状态](/mechanics/abnormal-status.md)并保留 <span style="color:#3aa675;font-weight:600">1</span> 血复活。之后[空元之诗](/mechanics/void-poem.md)不消耗诗章，但每回合结束失去 <span style="color:#3aa675;font-weight:600">3</span> 最大生命并<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span> <span style="color:#3aa675;font-weight:600">13</span>%。<br/>④战斗开始时，每有一篇[空妄诗章](/mechanics/void-poem.md)，随机一张牌获得[空元之诗](/mechanics/void-poem.md)。打出时消耗一篇诗章，随机触发五项效果（每打出一次多触发一种）。
 
 - **空元之诗五项效果**（详见 [空元之诗机制](/mechanics/void-poem.md)）：
   - **渍**：所有敌人 <span style="color:#3aa675;font-weight:600">3</span> 回合[诅咒](/powers/curse_power.md)。
@@ -30,7 +31,7 @@
   - **烙**：打出牌每剩余 <span style="color:#3aa675;font-weight:600">1</span> [PP](/mechanics/pp-system.md) 恢复 <span style="color:#3aa675;font-weight:600">3</span> 生命。
   - **均**：对随机敌人造成自身与其体力之差 <span style="color:#3aa675;font-weight:600">50</span>% 的非攻击伤害。
 - **触发递增**：第 n 次打出[空元之诗](/mechanics/void-poem.md)牌触发 n 种效果（最多 <span style="color:#3aa675;font-weight:600">5</span> 种），从五项中不重复随机选取。
-- **复活后免费**：复活之后打出[空元之诗](/mechanics/void-poem.md)不再消耗诗章，但每回合结束扣 <span style="color:#3aa675;font-weight:600">3</span> 最大生命。
+- **复活后免费**：复活之后打出[空元之诗](/mechanics/void-poem.md)不再消耗诗章，但每回合结束失去 <span style="color:#3aa675;font-weight:600">3</span> 最大生命并[堕落](/powers/fallen_power.md) <span style="color:#3aa675;font-weight:600">13</span>%（按当前堕落层数计算）。
 
 ## 风味文字
 
@@ -40,7 +41,7 @@
 
 - **滚雪球式成长**：击杀敌方怪物时空妄诗章 +1，同时获得该怪物最大生命 3% 的最大生命。前期多打小怪战积累诗章和血量上限——击杀 20 只最大生命 100 的怪物，就累积 20 篇诗章 + 60 点最大生命。诗章数量直接决定战斗中空元之诗牌的分配数量，是整个遗物的成长基础。
 - **空元之诗的递增爆发**：打出空元之诗牌时，第 1 次触发 1 种效果，第 2 次触发 2 种，第 5 次及以上触发全部 5 种。配合回响、重放、多打牌等手段快速累积打出次数，第 5 次是爆发点——群体诅咒、自身免疫异常、多意图伤害、PP 回血、体力差斩杀同时触发。但每打出一次消耗 1 篇诗章，诗章耗尽则不再触发。
-- **复活是高风险转折**：首次死亡时清空所有诗章、移除自身异常状态、保留 1 血复活，之后空元之诗不再消耗诗章（可无限触发），但每回合结束扣除 3 点最大生命。复活后进入"燃烧"状态——输出能力暴涨（空元之诗免费无限触发），但血量上限持续流失，必须速战速决。复活时机很关键：诗章少时复活浪费成长，诗章多时复活等于清空积累，需要权衡。
+- **复活是高风险转折**：首次死亡时清空所有诗章、移除自身异常状态、保留 1 血复活，之后空元之诗不再消耗诗章（可无限触发），但每回合结束失去 3 点最大生命并[堕落](/powers/fallen_power.md) 13%（当前堕落层数的 13%）。复活后进入"燃烧"状态——输出能力暴涨（空元之诗免费无限触发），但血量上限持续流失、堕落越滚越高（堕落在满 100 层倍数时会触发混沌化身的连锁效果），必须速战速决。复活时机很关键：诗章少时复活浪费成长，诗章多时复活等于清空积累，需要权衡。
 - **消逝改变击杀逻辑，还会扩散 Debuff**：持有此遗物时，敌方怪物死亡一律"消逝"——跳过亡语与复活机制（克制亡语怪与复活怪），同时**把死者身上的所有减益类状态原样传染给所有存活的敌人**。这意味着你给敌人叠的中毒/烧伤/诅咒等减益不会随死亡清空，反而会扩散到全场——异常流打法配这件遗物等于"打死一个，毒传全场"。注意传染的判定是"减益类"能力：少数负面效果若不属于减益类型则不传染。击杀仍然正常积累诗章与最大生命，只是跳过死亡阶段的额外触发。
 - **五种效果覆盖全维度**：渍（群体诅咒，控制）、镀（自身免疫下两次异常，防御）、柱（多意图敌人受伤，克制多段攻击型敌人）、烙（PP 回血，配合 PP 牌）、均（体力差斩杀，满血打残血最强）。每次触发随机选取，无法指定，需根据当前局面灵活应对。
 - **柱与均造成非攻击伤害**：柱和均造成的是非攻击伤害（不受力量加成、可被格挡、立即结算），并非[固定伤害](/powers/fixed_damage_power.md)。因此不会被"免疫固定伤害"或"坚毅反弹"针对，但也无法穿盾——面对高格挡敌人时伤害会被格挡抵消。

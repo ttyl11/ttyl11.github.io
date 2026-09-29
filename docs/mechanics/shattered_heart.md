@@ -1,4 +1,4 @@
-﻿# 碎心
+# 碎心
 
 > mod 关键词（SEER_KEYWORD_SHATTERED_HEART）
 
@@ -22,8 +22,7 @@
 
 ## 相关卡牌
 
-- [魔·决裂黎明](/cards/character/demon_breaking_dawn.md)（升级后移除碎心）
-- [婵·命定星缘](/cards/token/destined_star_bond.md)（衍生卡，带有碎心）
+- [魔·决裂黎明](/fifth-skill/demon_breaking_dawn.md)（升级后移除碎心）
 
 ## 源码
 

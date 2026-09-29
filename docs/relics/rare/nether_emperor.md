@@ -15,15 +15,16 @@
 | 先制层数 | 1 |
 | 最大生命伤害百分比 | 15（%） |
 | 暴击倍率 | 150（即 1.5×） |
+| 堕落百分比 | 19（%） |
 
 ## 描述
 
-在你的回合开始时，若生命值><span style="color:#3aa675;font-weight:600">70</span>%，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">[先制](/powers/first_strike_power.md)</span>；若生命值≤<span style="color:#3aa675;font-weight:600">70</span>%，本回合所有攻击必定[暴击](/powers/critical_strike_power.md)（伤害×<span style="color:#3aa675;font-weight:600">1.5</span>）。
-击败敌人时，对随机存活敌人造成其最大生命<span style="color:#3aa675;font-weight:600">15</span>%的伤害，并回复等量生命。
+①你的回合开始时，若生命值><span style="color:#3aa675;font-weight:600">70</span>%，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">[先制](/powers/first_strike_power.md)</span>；否则本回合所有攻击必定[暴击](/powers/critical_strike_power.md)。<br/>②击败敌人时，对随机存活敌人造成其最大生命<span style="color:#3aa675;font-weight:600">15</span>%的伤害，回复等量生命。<br/>③打出带<span style="color:#d4a017;font-weight:600">「命」字</span>的牌时，<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span><span style="color:#3aa675;font-weight:600">19</span>%。
 
 - **触发边界**：生命百分比严格大于阈值（70%）时给先制，小于等于阈值时改为本回合必暴击，二者每回合二选一。
 - **暴击只加成攻击伤害**：必暴击仅对攻击牌造成的伤害生效（×1.5），烧伤、中毒等非攻击伤害不受影响。
 - **死亡触发范围**：任意敌方生物死亡即触发连锁——不要求你亲手击杀，毒/烧伤磨死的、队友击杀的、连锁伤害反杀的都算；连锁伤害若再次击杀敌人会继续触发，形成连环收割。
+- **堕落19%**：打出带「命」字的牌时，自身获得"当前堕落层数×19%"（向下取整）的[堕落](/powers/fallen_power.md)，与[黑啵啵](/relics/uncommon/hei_bo_bo.md)同口径。
 
 ## 风味文字
 

@@ -1,4 +1,4 @@
-# 诅咒牌（18 项）
+# 诅咒牌（17 项）
 
 诅咒卡牌，通常带有负面效果，会干扰玩家的战斗节奏。
 
@@ -20,7 +20,6 @@
 <tr><td><img src="/images/cards/price_up.png" alt="涨价" style="width:80px;height:auto" /></td><td><a href="price_up">涨价</a></td><td>抽到时所有手牌费用+2，打出任何牌后移除。打出后下回合所有手牌费用+1，回合结束移除。</td></tr>
 <tr><td><img src="/images/cards/pride.png" alt="傲慢" style="width:80px;height:auto" /></td><td><a href="pride">傲慢</a></td><td>在你的回合结束时，若此牌在你手牌中，受到12点伤害。</td></tr>
 <tr><td><img src="/images/cards/rat_poison.png" alt="老鼠药" style="width:80px;height:auto" /></td><td><a href="rat_poison">老鼠药</a></td><td>此牌在手牌中时，使用药水失去4点最大生命值。</td></tr>
-<tr><td><img src="/images/cards/shame.png" alt="羞耻" style="width:80px;height:auto" /></td><td><a href="shame">羞耻</a></td><td></td></tr>
 <tr><td><img src="/images/cards/sloth.png" alt="懒惰" style="width:80px;height:auto" /></td><td><a href="sloth">懒惰</a></td><td>此牌在手牌中时，你造成的攻击伤害为0。</td></tr>
 <tr><td><img src="/images/cards/tiny.png" alt="渺小" style="width:80px;height:auto" /></td><td><a href="tiny">渺小</a></td><td>不可打出。打出卡牌时，每张手牌中的渺小牌造成2点伤害。</td></tr>
 <tr><td><img src="/images/cards/turtle.png" alt="开龟" style="width:80px;height:auto" /></td><td><a href="turtle">开龟</a></td><td>此牌在手牌中时，每回合当你造成大于等于30点伤害时，强制结束你的回合。</td></tr>

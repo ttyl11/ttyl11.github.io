@@ -31,12 +31,12 @@
     - 1 → [防御](/powers/defense_power.md)
     - 2 → [命中](/powers/accuracy_power.md)
     - 3 → [速度](/powers/speed_power.md)
-  - 音效：`sfx/passive_dark_orb`
+  - 音效：`event:/sfx/characters/defect/defect_dark_channel`
 - **激发效果**：
   - 目标：手牌中一张未附魔的随机卡牌
   - 效果：从可用附魔池中筛选可附魔且非测试占位的附魔，随机施加一个
-  - 音效：`sfx/evoke_dark_orb`
-- **生成音效**：`sfx/channel_dark_orb`
+  - 音效：`event:/sfx/characters/defect/defect_dark_channel`
+- **生成音效**：`event:/sfx/characters/defect/defect_dark_channel`（原版暗球仅此一个 FMOD 事件，被动/激发复用）
 - **集中影响**：不受[集中](/powers/focus_power.md)影响（被动数值和激发数值均为固定值）
 - **附魔过滤**：激发时过滤测试占位附魔，仅施加正式附魔
 - **悬浮提示**：提供力量、防御、命中、速度的能力说明悬浮提示

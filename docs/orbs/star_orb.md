@@ -27,12 +27,12 @@
   - 触发时机：回合开始时
   - 目标选择：无目标，作用于自身
   - 效果：获得 <span style="color:#3aa675;font-weight:600">3</span> 点辉星
-  - 音效：`sfx/passive_dark_orb`
+  - 音效：`event:/sfx/characters/defect/defect_dark_channel`
 - **激发效果**：
   - 目标：无目标，卡牌加入手牌
   - 效果：从储君卡池中随机选一张卡牌加入手牌（确保多人同步）
-  - 音效：`sfx/evoke_dark_orb`
-- **生成音效**：`sfx/channel_dark_orb`
+  - 音效：`event:/sfx/characters/defect/defect_dark_channel`
+- **生成音效**：`event:/sfx/characters/defect/defect_dark_channel`（原版暗球仅此一个 FMOD 事件，被动/激发复用）
 - **集中影响**：被动数值受[集中](/powers/focus_power.md)影响（基础值 3），激发不受影响（固定添加 1 张卡牌）
 - **悬浮提示**：提供辉星的静态悬浮提示
 

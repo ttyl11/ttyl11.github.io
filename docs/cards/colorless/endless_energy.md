@@ -13,11 +13,11 @@
 
 ## 描述
 
-获得<span style="color:#3aa675;font-weight:600">999</span>点[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)。本回合每打出一张牌，向[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)加入1张随机[<span style="color:#d4a017;font-weight:600">诅咒</span>](/mechanics/curse.md)（含原版诅咒）。
+获得<span style="color:#3aa675;font-weight:600">999</span>点[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)。本回合每打出一张牌，向[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)加入1张随机[<span style="color:#d4a017;font-weight:600">诅咒</span>](/mechanics/curse-system.md)（含原版诅咒）。
 
 ## 升级后
 
-获得<span style="color:#3aa675;font-weight:600">999</span>点[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)。本回合每打出一张牌，向[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)加入1张随机[<span style="color:#d4a017;font-weight:600">诅咒</span>](/mechanics/curse.md)（含原版诅咒）。
+获得<span style="color:#3aa675;font-weight:600">999</span>点[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)。本回合每打出一张牌，向[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)加入1张随机[<span style="color:#d4a017;font-weight:600">诅咒</span>](/mechanics/curse-system.md)（含原版诅咒）。
 
 ## 小贴士
 
@@ -38,7 +38,7 @@
 
 - [能量](/mechanics/energy.md)（获得 999 点能量）
 - [手牌](/mechanics/hand.md)（诅咒牌加入手牌）
-- [诅咒](/mechanics/curse.md)（随机诅咒含原版）
+- [诅咒](/mechanics/curse-system.md)（随机诅咒含原版）
 
 ## 源码
 

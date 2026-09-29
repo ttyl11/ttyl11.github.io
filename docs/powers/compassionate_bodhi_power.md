@@ -43,7 +43,7 @@
 
 - [傳馥明王最胜语](/cards/character/fragrant_king_supreme_word.md)（怀生菩怜态时获得保留1血）
 - [义乂梵我婆娑纱](/cards/character/righteous_brahma_veil.md)（怀生菩怜态时使对手疲惫）
-- [万卍觉心法界镇](/cards/character/myriad_awakening_realm_suppression.md)
+- [万卍觉心法界镇](/fifth-skill/myriad_awakening_realm_suppression.md)
 - [一莲托生·世母](/cards/character/lotus_birth_world_mother.md)
 
 ## 源码

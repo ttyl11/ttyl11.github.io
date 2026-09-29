@@ -1,7 +1,7 @@
 # 多回合先制
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[苍鹭幻翎](/cards/character/heron_illusion_feather.md)（卡牌）、[无始源光](/cards/character/primordial_light.md)（卡牌）、[瞬影药水](/potions/first_strike_potion.md)（药水，游戏中描述为"延迟先制"）
+> **施加来源**：玩家获得——[苍鹭幻翎](/cards/character/heron_illusion_feather.md)（卡牌）、[无始源光](/cards/character/primordial_light.md)（卡牌）、[幻影蝶](/relics/uncommon/phantom_butterfly.md)（遗物）、[瞬影](/potions/first_strike_potion.md)（药水，游戏中描述为"延迟先制"）
 
 <img src="/images/powers/delayed_first_strike_power.png" alt="多回合先制" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -18,7 +18,7 @@
 | 每回合先制量（默认） | 1 |
 | 持续回合（默认） | 1 |
 
-不同施加来源会覆写这两个参数（如[瞬影药水](/potions/first_strike_potion.md)为每回合 2 层、持续 2 回合），以实际施加时为准。
+不同施加来源会覆写这两个参数（如[瞬影](/potions/first_strike_potion.md)为每回合 2 层、持续 2 回合），以实际施加时为准。
 
 ## 描述
 
@@ -44,7 +44,7 @@
 
 ## 相关药水
 
-- [瞬影药水](/potions/first_strike_potion.md)（每回合 2 层先制、持续 2 回合）
+- [瞬影](/potions/first_strike_potion.md)（每回合 2 层先制、持续 2 回合）
 
 ## 源码
 

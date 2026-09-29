@@ -10,7 +10,7 @@
 
 ## 描述
 
-拾起时，向你的[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)中加入<span style="color:#3aa675;font-weight:600">3</span>张随机稀有牌，它们会分别在<span style="color:#3aa675;font-weight:600">2/3/4</span>场战斗结束后从[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)移除。每场战斗中，首次打出"仅剩<span style="color:#3aa675;font-weight:600">1</span>场就被移除"的此类牌时，令一名随机敌人获得[<span style="color:#d4a017;font-weight:600">曝</span>](/mechanics/pp-system.md)。战斗结束时，若本场有敌人**消逝**，向你的[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)中加入<span style="color:#3aa675;font-weight:600">1</span>张[<span style="color:#3aa675;font-weight:600">灵魂</span>](/cards.md)。
+拾起时，向你的[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)中加入<span style="color:#3aa675;font-weight:600">3</span>张随机稀有牌，它们会分别在<span style="color:#3aa675;font-weight:600">2/3/4</span>场战斗结束后从[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)移除。每场战斗中，首次打出"仅剩<span style="color:#3aa675;font-weight:600">1</span>场就被移除"的此类牌时，令一名随机敌人获得[<span style="color:#d4a017;font-weight:600">曝</span>](/mechanics/pp-system.md)。战斗结束时，若本场有敌人**消逝**，向你的[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)中加入<span style="color:#3aa675;font-weight:600">1</span>张[<span style="color:#3aa675;font-weight:600">灵魂+</span>](/cards/character/demon_ghost.md)。
 
 > **"消逝" ≠ 死亡**：这里的"敌人消逝"特指敌人因\*\*挂着「曝」**或**持「空元行者」\*\*而死亡时的特殊离场（直接消失、不触发复活与亡语），**普通击杀不算**。
 
@@ -40,7 +40,7 @@
 
 - **和"会消失"的心态**：因为它注定离场，可以大胆用其高费/一次性效果，不用心疼牌组厚度；这三张就是"借来的爆发"，打空也不亏。
 
-- **敌消逝才给灵阆**：只有当本场有敌人**消逝**（挂着「曝」死亡、或持「空元行者」时死亡），才会往永久牌组塞一张"灵魂"（0 费技能、消耗、打出抽 2）；普通打死敌人不会给。想稳定入手灵魂，就让敌人挂上「曝」再击杀——这件遗物正好每场能白送一次曝。
+- **敌消逝才给灵阆**：只有当本场有敌人**消逝**（挂着「曝」死亡、或持「空元行者」时死亡），才会往永久牌组塞一张"灵魂+"（升级版灵魂：0 费技能、消耗、打出抽 2）；普通打死敌人不会给。想稳定入手灵魂+，就让敌人挂上「曝」再击杀——这件遗物正好每场能白送一次曝。
 
 - **性价比**：稀有遗物，以"三张会消失的随机稀有牌"换前期爆发，附带可控的曝挂 + 敌人消逝换永久抽牌引擎，强度中规中矩，适合想前期提一手的卡组。
 

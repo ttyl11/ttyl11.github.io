@@ -1,31 +1,33 @@
-# 烬灭之拥
+﻿# 烬灭之拥
 
 <img src="/images/cards/ruin_embrace.png" alt="烬灭之拥" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
+- **分类**: 角色牌
 - **最大PP**: 3
 - **能量消耗**: 0
 - **类型**: 技能
 - **稀有度**: 罕见
 - **目标**: 自身
 - **可升级**: 是（1 级）
+- **关键词**: [归源](/mechanics/xu_pp.md)
 
 ### 数值参数
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
+| 堕落 | 4 | 4 |
 | PP | 3 | 3 |
 | 最大PP | 3 | 3 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 将[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)、[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)与[<span style="color:#d4a017;font-weight:600">弃牌堆</span>](/mechanics/discard_pile.md)的所有牌放入[<span style="color:#d4a017;font-weight:600">销毁牌堆</span>](/mechanics/destroyed_pile.md)。将[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)牌堆的牌回满PP，依次放入手牌并打出。
+PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 将[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)、[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)与[<span style="color:#3aa675;font-weight:600">弃牌堆</span>](/mechanics/discard_pile.md)的所有牌放入[<span style="color:#d4a017;font-weight:600">销毁牌堆</span>](/mechanics/destroyed_pile.md)。将[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)牌堆的牌回满PP，依次放入手牌并打出。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">4</span>。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 将[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)、[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)与[<span style="color:#d4a017;font-weight:600">弃牌堆</span>](/mechanics/discard_pile.md)的所有牌放入[<span style="color:#d4a017;font-weight:600">销毁牌堆</span>](/mechanics/destroyed_pile.md)。将[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)牌堆的牌回满PP，依次放入手牌并打出。
+[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 将[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)、[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)与[<span style="color:#d4a017;font-weight:600">弃牌堆</span>](/mechanics/discard_pile.md)的所有牌放入[<span style="color:#d4a017;font-weight:600">销毁牌堆</span>](/mechanics/destroyed_pile.md)。将[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)牌堆的牌回满PP，依次放入手牌并打出。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">4</span>。
 
 ## 详细机制
 
@@ -45,6 +47,7 @@ PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa
 - **打出后你就没牌了**：销毁清空三堆 + 消耗堆打完后入手的牌也全部打出——这一回合结束后手牌、抽牌堆、弃牌堆全部见底，接下来几个回合基本空过。开这张牌之前确认：这一波能打死，或者战斗马上结束。
 - **中途杀人立即停止**：连打循环在战斗结束的瞬间断开——消耗堆哪怕还有 20 张牌，敌人死光就不再结算。不会出现"人都死了还在放动画"的尴尬，也意味着溢出伤害不浪费你的时间。
 - **升级保留 = 等最肥的一刻**：0 费 + 保留，这张牌可以无限期囤在手里，每回合看一眼消耗堆的厚度再决定开不开。没升级的版本被迫早打，时机经常不理想——升级的价值不在数值而在择时权。
+- **堕落 4：终结技的零头暗账**：每次打出 +<span style="color:#3aa675;font-weight:600">4</span>[堕落](/powers/fallen_power.md)——终结回合开一次只加 4 层，是全场最温和的堕落档位之一。堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层被[魔君接管](/powers/demon_takeover_power.md)强制乱打，但 4 层几乎可以忽略，不影响"终盘爆发"的决策。
 - **PP 成本要看时机**：3 PP 是不小的 PP 投入。终结回合花 3 PP 换全场爆发不亏；前期 PP 紧张时开出纯属资敌——配合保留囤到终盘再放，PP 压力自然消解。
 - **销毁堆里的牌还有救吗**：本场战斗内，销毁堆中的牌被隔离，常规手段取不回（部分"毁灭"相关效果会与销毁堆联动，详见[销毁牌堆](/mechanics/destroyed_pile.md)）。开牌前想清楚哪些牌是你本场还要用的。
 
@@ -56,6 +59,7 @@ PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa
 - [手牌](/mechanics/hand.md)（被清空到销毁牌堆）
 - [抽牌堆](/mechanics/draw_pile.md)（被清空到销毁牌堆）
 - [弃牌堆](/mechanics/discard_pile.md)（被清空到销毁牌堆）
+- [堕落](/powers/fallen_power.md)（每打出一次固定 +4 层）
 
 ## 源码
 

@@ -12,14 +12,16 @@
 | 参数 | 数值 |
 |---|---|
 | 封印概率 | 25% |
+| 堕落百分比 | 19（%） |
 
 ## 描述
 
-敌方回合开始时，意图含攻击或防御的怪物有<span style="color:#3aa675;font-weight:600">25</span>%概率被同时施加[攻击无效](/mechanics/intent)与[封属](/mechanics/intent)（攻击与非攻击意图全部失效）。
+①敌方回合开始时，意图含<span style="color:#d4a017;font-weight:600">攻击</span>或<span style="color:#d4a017;font-weight:600">防御</span>的怪物有<span style="color:#3aa675;font-weight:600">25</span>%概率被施加[攻击无效](/mechanics/intent)与[封属](/mechanics/intent)，本回合意图全部失效。<br/>②打出带<span style="color:#d4a017;font-weight:600">「世」字</span>的牌时，<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span><span style="color:#3aa675;font-weight:600">19</span>%。
 
 - **敌方回合开始触发**：敌方回合开始时，对每个存活怪物独立判定 25% 概率——判定发生在你回合结束之后，无法提前看到结果、也无法围绕它做操作。
 - **仅对包含攻击/防御意图的行动判定**：只有当怪物本回合的意图里包含攻击或防御类意图时才掷骰，纯辅助行动（如只给自己上增益）不受影响。
 - **触发后整回合跳过**：判定成功时同时施加攻击无效 + 封属，该怪物本回合的攻击与非攻击意图效果**全部**失效——意图栏末尾显示攻击无效/封属图标，怪物本回合什么都不做。
+- **堕落19%**：打出带「世」字的牌时，自身获得"当前堕落层数×19%"（向下取整）的[堕落](/powers/fallen_power.md)，与[黑啵啵](/relics/uncommon/hei_bo_bo.md)同口径。
 
 ## 风味文字
 

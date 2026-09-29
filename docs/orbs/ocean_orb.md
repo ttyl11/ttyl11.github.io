@@ -27,12 +27,12 @@
   - 触发时机：回合结束时
   - 目标选择：随机选择一个敌人（确保多人同步）
   - 效果：对随机敌人施加 <span style="color:#3aa675;font-weight:600">3</span> 层[冻伤](/powers/frostbite_power.md)
-  - 音效：`sfx/passive_frost_orb`
+  - 音效：`event:/sfx/characters/defect/defect_frost_channel`
 - **激发效果**：
   - 目标：所有可命中敌人
   - 效果：对所有敌人施加 <span style="color:#3aa675;font-weight:600">3</span> 层[冰封](/powers/freeze_power.md)
-  - 音效：`sfx/evoke_frost_orb`
-- **生成音效**：`sfx/channel_frost_orb`
+  - 音效：`event:/sfx/characters/defect/defect_frost_channel`
+- **生成音效**：`event:/sfx/characters/defect/defect_frost_channel`（原版霜球仅此一个 FMOD 事件，被动/激发复用）
 - **集中影响**：被动数值和激发数值均受[集中](/powers/focus_power.md)影响
 - **悬浮提示**：提供冻伤和冰封的能力说明悬浮提示
 

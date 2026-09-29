@@ -42,12 +42,13 @@
 ## 带迟涌的卡牌
 
 - [几曾识干戈](/cards/character/ji_ceng_shi_gan_ge.md)：造成伤害随战斗递增，迟涌防止它在早期低伤害时被过早抽到
+- [龙缘之息](/cards/character/dragon_breath.md)：抽到名称带「龙」的牌自动打出的常驻能力，迟涌限制其出现频率
 
 ## 相关词条
 
 - [凝驻（NingZhu）](/mechanics/ningzhu.md) — 牌无法洗入抽牌堆的关键词
 - [消耗（Exhaust）](/mechanics/exhaust.md) — 移出本局游戏的关键词
 - [预见（Scry）](/mechanics/scry.md) — 查看并可选丢弃牌堆顶的关键词
-- [几曾识干戈](/cards/character/ji_ceng_shi_gan_ge.md) — 唯一带迟涌的赛尔角色牌
+- [几曾识干戈](/cards/character/ji_ceng_shi_gan_ge.md) — 带迟涌的赛尔角色牌
 
 <br />

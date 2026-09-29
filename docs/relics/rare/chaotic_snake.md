@@ -15,15 +15,17 @@
 | 低伤恢复PP数 | 1 |
 | 睡眠触发概率(%) | 20 |
 | 下次伤害倍率(%) | 150 |
+| 堕落百分比 | 19（%） |
 
 ## 描述
 
-受到敌方攻击伤害后：若伤害≤<span style="color:#3aa675;font-weight:600">20</span>，恢复所有牌<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">[PP](/mechanics/pp-system.md)</span>且下次造成伤害×<span style="color:#3aa675;font-weight:600">1.5</span>；若伤害><span style="color:#3aa675;font-weight:600">20</span>，恢复随机1张<span style="color:#d4a017;font-weight:600">[PP牌](/mechanics/pp-system.md)</span>的满<span style="color:#d4a017;font-weight:600">[PP](/mechanics/pp-system.md)</span>（优先<span style="color:#d4a017;font-weight:600">[PP](/mechanics/pp-system.md)</span>为0的牌），获得1层<span style="color:#d4a017;font-weight:600">[缓冲](/powers/buffer_power.md)</span>。<br/>打出卡牌后，有<span style="color:#3aa675;font-weight:600">20</span>%概率令所有对手进入<span style="color:#d4a017;font-weight:600">[睡眠](/powers/sleep_power.md)</span>。
+①受到敌方攻击伤害后：若伤害≤<span style="color:#3aa675;font-weight:600">20</span>，恢复所有牌<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">[PP](/mechanics/pp-system.md)</span>且下次造成伤害×<span style="color:#3aa675;font-weight:600">1.5</span>；若伤害><span style="color:#3aa675;font-weight:600">20</span>，恢复随机1张<span style="color:#d4a017;font-weight:600">[PP牌](/mechanics/pp-system.md)</span>的满<span style="color:#d4a017;font-weight:600">[PP](/mechanics/pp-system.md)</span>，获得1层<span style="color:#d4a017;font-weight:600">[缓冲](/powers/buffer_power.md)</span>。<br/>②打出卡牌后，有<span style="color:#3aa675;font-weight:600">20</span>%概率令所有对手<span style="color:#d4a017;font-weight:600">[睡眠](/powers/sleep_power.md)</span>。<br/>③打出带<span style="color:#d4a017;font-weight:600">「天」字</span>的牌时，<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span><span style="color:#3aa675;font-weight:600">19</span>%。
 
 - **低伤分支**：实际掉血≤20 时，所有 PP 牌恢复 1 点 PP（不超过上限），并使你下次攻击伤害×1.5。
-- **高伤分支**：实际掉血>20 时，随机 1 张 PP 牌恢复满 PP（优先 PP 为 0 的），并获得 1 层<span style="color:#d4a017;font-weight:600">[缓冲](/powers/buffer_power.md)</span>。
+- **高伤分支**：实际掉血>20 时，随机 1 张 PP 牌恢复满 PP，并获得 1 层<span style="color:#d4a017;font-weight:600">[缓冲](/powers/buffer_power.md)</span>。
 - **下次伤害倍率**：×1.5 只对攻击牌伤害生效，打出后立即清除，战斗结束重置。
 - **睡眠触发**：每次打出自身卡牌后 20% 概率令所有对手睡眠 1 层。
+- **堕落19%**：打出带「天」字的牌时，自身获得"当前堕落层数×19%"（向下取整）的[堕落](/powers/fallen_power.md)，与[黑啵啵](/relics/uncommon/hei_bo_bo.md)同口径。
 
 ## 风味文字
 

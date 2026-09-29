@@ -15,7 +15,7 @@
 
 ## 描述
 
-打出与上一张类型相同的牌时，生成1张同类型随机牌到手牌。<br/>打出与上一张牌名相同的牌时，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#9b59b6;font-weight:600">[滑溜](/powers/slippery_power.md)</span>。
+打出与上一张同类型的牌时，手牌中生成1张同类型牌。<br/>打出与上一张同名的牌时，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#9b59b6;font-weight:600">[滑溜](/powers/slippery_power.md)</span>。
 
 - **同类型牌生牌**：打出与上一张相同类型（攻击/技能/能力）的牌时，从当前角色卡池的已解锁牌中随机生成 1 张同类型牌到手牌顶部。
 - **同名牌给滑溜**：打出与上一张同名的牌（同一张卡，升级前后算同名）时，获得 1 层[滑溜](/powers/slippery_power.md)。滑溜使单次受到的 HP 损失封顶为 1 点，每次受到未格挡伤害消耗 1 层。

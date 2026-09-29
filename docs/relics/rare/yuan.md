@@ -10,7 +10,7 @@
 
 ## 描述
 
-战斗开始时，向[<span style="color:#d4a017;font-weight:600">消耗牌堆</span>](/mechanics/hand.md)加入<span style="color:#3aa675;font-weight:600">2</span>张<span style="color:#3aa675;font-weight:600">许愿</span>。自身恢复生命时，可以从消耗牌堆选择一张牌获得，并回满它的[<span style="color:#d4a017;font-weight:600">PP</span>](/mechanics/pp-system.md)。
+①战斗开始时，向[<span style="color:#d4a017;font-weight:600">消耗牌堆</span>](/mechanics/hand.md)加入<span style="color:#3aa675;font-weight:600">2</span>张<span style="color:#3aa675;font-weight:600">许愿</span>。<br/>②自身恢复生命时，可从消耗牌堆选择一张牌获得，回满它的[<span style="color:#d4a017;font-weight:600">PP</span>](/mechanics/pp-system.md)。
 
 - **触发条件**：仅自身**恢复生命**（非扣血）时触发，每恢复一次弹一次选择（可选跳过）。
 

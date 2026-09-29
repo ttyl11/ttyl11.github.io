@@ -29,6 +29,9 @@
 ## 带残鸣的卡牌
 
 - [神权忤逆](/cards/character/shen_quan_wu_ni.md)：被消耗时从消耗牌堆选择 1 张加入手牌
+- [轮墓边狱](/cards/character/rinbo_purgatory.md)：被消耗时每有 50 层堕落，随机打出抽牌堆一张牌
+- [百鬼夜行](/cards/character/hundred_ghosts.md)：被消耗时召唤 7（奥斯提最大生命+7）
+- [耀武遗辉](/cards/character/glorious_remnant.md)：被消耗时所有牌归源（此牌除外），将消耗牌堆的所有牌添加重放1
 
 ## 与类似机制的区别
 

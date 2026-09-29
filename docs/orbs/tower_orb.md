@@ -27,12 +27,12 @@
   - 触发时机：回合开始时
   - 目标选择：无目标，作用于自身
   - 效果：获得 <span style="color:#3aa675;font-weight:600">1</span> 层[覆甲](/powers/plating_power.md)
-  - 音效：`sfx/passive_lightning_orb`
+  - 音效：`event:/sfx/characters/defect/defect_lightning_passive`
 - **激发效果**：
   - 目标：无目标，作用于自身
   - 效果：获得 <span style="color:#3aa675;font-weight:600">4</span> 层[覆甲](/powers/plating_power.md)
-  - 音效：`sfx/evoke_lightning_orb`
-- **生成音效**：`sfx/channel_lightning_orb`
+  - 音效：`event:/sfx/characters/defect/defect_lightning_evoke`
+- **生成音效**：`event:/sfx/characters/defect/defect_lightning_channel`
 - **集中影响**：被动数值和激发数值均受[集中](/powers/focus_power.md)影响
 - **悬浮提示**：提供覆甲的能力说明悬浮提示
 

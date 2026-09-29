@@ -17,7 +17,7 @@
 
 > 注：实际施加时由卡牌指定回合数（如 [灼目天星](/cards/character/blinding_heaven_star.md) 施加 <span style="color:#3aa675;font-weight:600">2</span> 回合）。
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[灼目天星](/cards/character/blinding_heaven_star.md)（卡牌）、[魔·黑天暗罚](/cards/character/magic_black_sky_punishment.md)（卡牌）、[十玄释](/cards/character/shi_xuan_shi.md)（卡牌）、[瀚宇星皇](/relics/legendary/cosmic_emperor.md)（遗物）、[缔笙](/relics/epic/di_sheng.md)（遗物）、[群星的礼赠](/relics/starter/elemental_core.md)（遗物）、[启灵元神](/relics/legendary/enlightened_spirit_god.md)（遗物）、[至序圣华](/relics/legendary/order_holy_hua.md)（遗物）、[弑序神罗](/relics/legendary/order_killing_god_luo.md)（遗物）、[混元天尊](/relics/legendary/primordial_tianzun.md)（遗物）
+> **施加来源**：玩家获得——[灼目天星](/cards/character/blinding_heaven_star.md)（卡牌）、[魔·黑天暗罚](/fifth-skill/magic_black_sky_punishment.md)（卡牌）、[十玄释](/cards/character/shi_xuan_shi.md)（卡牌）、[瀚宇星皇](/relics/legendary/cosmic_emperor.md)（遗物）、[缔笙](/relics/epic/di_sheng.md)（遗物）、[群星的礼赠](/relics/starter/elemental_core.md)（遗物）、[启灵元神](/relics/legendary/enlightened_spirit_god.md)（遗物）、[至序圣华](/relics/legendary/order_holy_hua.md)（遗物）、[弑序神罗](/relics/legendary/order_killing_god_luo.md)（遗物）、[混元天尊](/relics/legendary/primordial_tianzun.md)（遗物）
 
 ## 描述
 
@@ -33,11 +33,12 @@
 
 ## 相关卡牌
 
+- [创灵护界决](/cards/character/creation_world_ward.md)
 - [灼目天星](/cards/character/blinding_heaven_star.md)（施加 <span style="color:#3aa675;font-weight:600">2</span>
               回合异常免疫，升级后 <span style="color:#3aa675;font-weight:600">4</span> 回合）
 - [阑珊百转](/cards/character/waning_turns.md)
 - [染夜天妖](/cards/character/night_demon.md)
-- [魔·黑天暗罚](/cards/character/magic_black_sky_punishment.md)
+- [魔·黑天暗罚](/fifth-skill/magic_black_sky_punishment.md)
 
 ## 相关能力
 

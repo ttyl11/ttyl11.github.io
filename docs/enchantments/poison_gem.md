@@ -1,4 +1,4 @@
-﻿# 中毒宝石
+# 中毒宝石
 
 <img src="/images/enchantments/seer_poison_gem.png" alt="中毒宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -31,11 +31,11 @@
 
 ## 相关状态
 
-- [中毒](/powers/poison_power.md)：异常状态（Debuff）。回合开始受到 <span style="color:#3aa675;font-weight:600">(1 + 层数/2)</span> 点伤害（向下取整）；每回合末层数 -1
+- [中毒](/powers/poison_power.md)：异常状态（Debuff）。回合开始受到等于层数的伤害，结算后层数减半（向下取整）
 
 ## 小贴士
 
-- **层数非线性增伤**：中毒伤害 = 1 + 层数/2，3 层时伤害 2、6 层时伤害 4，层数越高单次伤害越大，适合多段叠加。
+- **层数即伤害**：中毒伤害 = 层数本身（6 层 = 6 点），贴得越厚单跳越痛；但结算后立刻减半，适合"贴一大口立刻爆发"而不是慢慢耗。
 - **可与感染联动**：配合[感染宝石](./infect_gem.md)形成毒系扩散——感染回合末转 2 层中毒，单次施加触发双重异常。
 
 ## 源码

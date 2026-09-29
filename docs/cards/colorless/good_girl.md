@@ -9,7 +9,7 @@
 - **类型**: 能力
 - **稀有度**: 普通
 - **目标**: 自身
-- **关键词**: [固有](/mechanics/innate.md)
+- **关键词**: [固有](/mechanics/innate.md)、[随机异常](/mechanics/sui_ji_yi_chang.md)
 - **可升级**: 是（1 级）
 
 ### 数值参数

@@ -1,7 +1,7 @@
 # 永昌玺
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[八方·无人来朝](/cards/character/octagon.md)（卡牌）、[天下一国](/cards/character/world_one_country.md)（卡牌）
+> **施加来源**：玩家获得——[八方·无人来朝](/fifth-skill/octagon.md)（卡牌）、[天下一国](/cards/character/world_one_country.md)（卡牌）、[始皇帝·嬴政](/relics/legendary/shi_huang_di_ying_zheng.md)（遗物，回合结束）
 
 <img src="/images/powers/eternal_seal_power.png" alt="永昌玺" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -14,7 +14,19 @@
 
 ## 描述
 
-最高六层。造成伤害提升<span style="color:#3aa675;font-weight:600">8%</span>；大于1层时每次攻击后附加<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>；大于2层时在你的回合结束时恢复<span style="color:#3aa675;font-weight:600">3</span>点<span style="color:#d4a017;font-weight:600">体力</span>并恢复一张<span style="color:#d4a017;font-weight:600">PP牌</span>；达到3层时自身免疫<span style="color:#d44;font-weight:600">异常状态</span>；大于4层时当对手获得<span style="color:#d4a017;font-weight:600">先制</span>时自己也获得<span style="color:#d4a017;font-weight:600">先制</span>；大于5层时每隔<span style="color:#3aa675;font-weight:600">2</span>回合使对手意图失效一次。
+最高[blue]6[/blue]层，**永远只能到6，不会溢出**。①造成伤害提升 8%/层。②攻击后附加固定伤害（6层时5点）。③回合结束恢复3点体力并恢复1张PP牌。④免疫异常状态。⑤对手获得先制时自己也获得。⑥每2回合使对手意图失效一次。**达到6层时立即开启君临天下**（本场只触发一次）。
+
+## 详细机制
+
+- **层数上限6且永不溢出**：代码在 `TryModifyPowerAmountReceived` 中对自身施加封顶（`cap = 6 - 当前层数`），无论来源一次给多少，最多加到6——八方·无人来朝给6层、遗物每回合给1+N层、天下一国按牌数给，全被压到上限。
+- **满6层触发君临天下**：层数达到6的当次变化立即触发[君临天下](/powers/octagon_debt_power.md)（6回合增益+结束后清PP降命至1）。**每场战斗只触发一次**（`junLinTriggered` 标记），之后永昌玺保持6层不再重复触发。
+- **逐层解锁效果**（EffectiveAmount = min(层数, 6)）：
+  - 每层：攻击伤害 +8%（乘区）。
+  - 层数>1：每次攻击后对所有敌人附加 `min(层数-1, 5)` 点固定伤害。
+  - 层数>2：回合结束恢复3点体力，并从弃牌堆随机一张PP牌将其PP设为1。
+  - 层数≥3：免疫异常状态（施加时改量为0拦截）。
+  - 层数>4：对手获得先制时，自己也获得等量先制。
+  - 层数>5：每2回合击晕一次对手（使意图失效）。
 
 ## 源码
 

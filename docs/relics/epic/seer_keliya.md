@@ -18,8 +18,8 @@
 
 ## 描述
 
-自身[死亡](/powers/demise_power.md)时，以<span style="color:#3aa675;font-weight:600">{CurrentChance}%</span>概率满血复活一次。成功复活后，下次死亡复活概率减半。<br/>
-当前复活概率：<span style="color:#3aa675;font-weight:600">{CurrentChance}%</span>
+自身[死亡](/powers/demise_power.md)时，以<span style="color:#3aa675;font-weight:600">100%</span>概率满血复活一次（初始概率，成功复活后减半）。成功复活后，下次死亡复活概率减半。<br/>
+当前复活概率：<span style="color:#3aa675;font-weight:600">100%</span>（随成功复活次数减半）
 
 ## 风味文字
 
@@ -28,7 +28,7 @@
 ## 详细机制
 
 - **全局累计复活次数**：`ReviveCount` 是持久化计数，**跨战斗累计**——上一场用掉的复活会降低今后所有战斗的复活概率。首次死亡 100% 必活，成功复活一次后变 50%，再成功变 25%… 依次减半，**下限 1%**（不再归零）。
-- **概率动态显示**：遗物面板上的 `{CurrentChance}%` 会随 `ReviveCount` 实时刷新——你当前还剩多少概率复活，看到的就是多少，含下方"当前复活概率"一行。
+- **概率动态显示**：遗物面板上的当前复活概率会随 `ReviveCount` 实时刷新——你当前还剩多少概率复活，看到的就是多少，含下方"当前复活概率"一行。
 - **战斗开始时挂上复活拦截**：`BeforeCombatStart` 为自身施加隐藏的 `SeerKeliyaRevivePower`（单层、不可见）。之后每次死亡都经它判定。
 - **判定方式**：死亡时掷骰 `Rng.Niche.NextInt(0,100)`，结果落在 `[0, 概率)` 内即复活（概率=100 时必中）。随机源用同步 RNG，多人对战表现一致。
 - **成功→满血复活并减记**：判定通过则在死亡结算前拦截（`ShouldDieLate` 返回假），随后 `AfterPreventingDeath` 把生命回满，`ReviveCount+1` 并刷新概率。

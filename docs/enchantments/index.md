@@ -7,9 +7,9 @@ table img { width: 70px; height: 70px; object-fit: contain; image-rendering: -we
 seer mod 中的附魔分为**原版附魔**和 **mod 新增附魔**两大类。
 
 - [原版附魔](#原版附魔)（22 种）：杀戮尖塔 2 原版自带
-- [mod 新增附魔](#mod-新增附魔)（31 种）：seer mod 新增
+- [mod 新增附魔](#mod-新增附魔)（32 种）：seer mod 新增
   - [状态宝石](#状态宝石)（22 种）：打出时对目标施加状态
-  - [特殊附魔](#特殊附魔)（4 种）：重放、永耀、星皇之怒、无效
+  - [特殊附魔](#特殊附魔)（5 种）：重放、永耀、星皇之怒、无效、孤雷风暴
   - [五音附魔](#五音附魔)（5 种）：仐、囙、乂、册、卩
 
 ## 原版附魔
@@ -80,6 +80,7 @@ seer mod 中的附魔分为**原版附魔**和 **mod 新增附魔**两大类。
 | ![星皇之怒](/images/enchantments/seer_star_emperor_wrath.png) | [星皇之怒](star_emperor_wrath.md) | 第一次打出此牌后，此牌获得重放+1 |
 | ![永耀](/images/enchantments/seer_eternal_radiance_enchantment.png) | [永耀](eternal_radiance_enchantment.md) | 此类牌耗能降为 0，拥有关键词保留，但所有永耀牌每回合只能打出一张 |
 | ![无效](/images/enchantments/seer_invalid_enchantment.png) | [无效](invalid_enchantment.md) | 无实际效果，占位附魔 |
+| ![孤雷风暴](/images/enchantments/seer_gu_lei_feng_bao.png) | [孤雷风暴](gu_lei_feng_bao.md) | 打出时，选择销毁抽牌堆/弃牌堆/消耗牌堆中各最多 2 张牌，每销毁一张，全属性+1 |
 
 ### 五音附魔
 

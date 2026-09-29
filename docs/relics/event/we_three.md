@@ -16,10 +16,10 @@
 
 ## 描述
 
-战斗开始时，随机升级牌组中 <span style="color:#3aa675;font-weight:600">3</span> 张卡牌。<br/>回合开始时，将1张<span style="color:#9b59b6;font-weight:600">[米咔](/cards/event/mika.md)</span>加入[手牌](/mechanics/hand.md)。
+战斗开始时，随机升级牌组中 <span style="color:#3aa675;font-weight:600">3</span> 张卡牌。<br/>回合开始时，将1张<span style="color:#9b59b6;font-weight:600">[米咔](/cards/token/mika.md)</span>加入[手牌](/mechanics/hand.md)。
 
 - **临时升级**：升级作用于战斗中的抽牌堆卡牌，战斗结束后自动销毁，无需手动降级。
-- **米咔入手**：拥有者每回合开始向[手牌](/mechanics/hand.md)加入1张[米咔](/cards/event/mika.md)衍生牌。
+- **米咔入手**：拥有者每回合开始向[手牌](/mechanics/hand.md)加入1张[米咔](/cards/token/mika.md)衍生牌。
 
 ## 风味文字
 

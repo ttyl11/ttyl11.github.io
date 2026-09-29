@@ -15,7 +15,7 @@
 
 ## 描述
 
-奇数回合内，使用<span style="color:#d4a017;font-weight:600">攻击牌</span>时吸取任一敌人<span style="color:#3aa675;font-weight:600">1</span>点生命。<br/>偶数回合内，使用<span style="color:#d4a017;font-weight:600">技能牌</span>时吸取任一敌人<span style="color:#3aa675;font-weight:600">1</span>点生命。<br/>（吸取：随机敌人失去等量生命，你回复等量生命）
+①奇数回合内，使用<span style="color:#d4a017;font-weight:600">攻击牌</span>时吸取任一敌人<span style="color:#3aa675;font-weight:600">1</span>点生命。<br/>②偶数回合内，使用<span style="color:#d4a017;font-weight:600">技能牌</span>时吸取任一敌人<span style="color:#3aa675;font-weight:600">1</span>点生命。<br/>③吸取：随机敌人失去等量生命，你回复等量生命。
 
 - **奇偶分工**：第 1、3、5……回合（奇数）打攻击牌触发；第 2、4、6……回合（偶数）打技能牌触发。战斗开始时回合计数重置，第 1 回合算奇数回合。
 - **吸取的含义**：随机选一个存活敌人，敌人失去 1 点生命（无视格挡的非攻击生命流失），你回复 1 点生命。

@@ -1,41 +1,41 @@
 # 卡牌图鉴
 
-Seer Mod 共有 291 张卡牌，按以下 9 个分类分组展示。点击对应分类进入卡牌列表。
+Seer Mod 共有 345 张常规卡牌，按以下 9 个分类分组展示；另有 23 张第五技能卡，见[第五技能图鉴](/fifth-skill/)。
 
 <div class="card-category-grid">
 
 <a href="/cards/basic/" class="card-category-item">
   <div class="card-category-icon">🧱</div>
   <div class="card-category-name">基础牌</div>
-  <div class="card-category-count">9 项</div>
-  <div class="card-category-desc">谱尼的初始卡牌：7 张初始 PP 牌与打击、防御</div>
+  <div class="card-category-count">16 项</div>
+  <div class="card-category-desc">谱尼与索伦森的初始卡牌：谱尼 7 张初始 PP 牌与打防、索伦森专属打防与 5 张初始牌</div>
 </a>
 
 <a href="/cards/character/" class="card-category-item">
   <div class="card-category-icon">🎭</div>
-  <div class="card-category-name">角色（圣灵谱尼）牌</div>
-  <div class="card-category-count">203 项</div>
-  <div class="card-category-desc">谱尼角色专属卡牌，构成战斗的核心卡池</div>
+  <div class="card-category-name">角色牌</div>
+  <div class="card-category-count">228 项</div>
+  <div class="card-category-desc">谱尼与索伦森共用卡池，构成战斗的核心卡池</div>
 </a>
 
 <a href="/cards/ancient/" class="card-category-item">
   <div class="card-category-icon">📜</div>
   <div class="card-category-name">先古牌</div>
-  <div class="card-category-count">11 项</div>
-  <div class="card-category-desc">先古稀有度卡牌（含横向 7 张真神牌），效果强大且带有特殊机制</div>
+  <div class="card-category-count">12 项</div>
+  <div class="card-category-desc">先古稀有度卡牌（含真神牌、混沌灭世决），效果强大且带有特殊机制</div>
 </a>
 
 <a href="/cards/curse/" class="card-category-item">
   <div class="card-category-icon">💀</div>
   <div class="card-category-name">诅咒牌</div>
-  <div class="card-category-count">18 项</div>
+  <div class="card-category-count">17 项</div>
   <div class="card-category-desc">带有负面效果的卡牌，会干扰玩家的战斗节奏</div>
 </a>
 
 <a href="/cards/status/" class="card-category-item">
   <div class="card-category-icon">⚗️</div>
   <div class="card-category-name">状态牌</div>
-  <div class="card-category-count">13 项</div>
+  <div class="card-category-count">15 项</div>
   <div class="card-category-desc">不可打出或具有被动效果，通常由其他机制生成</div>
 </a>
 
@@ -49,14 +49,14 @@ Seer Mod 共有 291 张卡牌，按以下 9 个分类分组展示。点击对应
 <a href="/cards/event/" class="card-category-item">
   <div class="card-category-icon">✨</div>
   <div class="card-category-name">事件牌</div>
-  <div class="card-category-count">9 项</div>
+  <div class="card-category-count">2 项</div>
   <div class="card-category-desc">由特定事件或剧情触发获得的卡牌</div>
 </a>
 
 <a href="/cards/token/" class="card-category-item">
   <div class="card-category-icon">🎴</div>
   <div class="card-category-name">衍生牌</div>
-  <div class="card-category-count">12 项</div>
+  <div class="card-category-count">18 项</div>
   <div class="card-category-desc">通过其他卡牌/遗物/能力在战斗中生成的卡牌</div>
 </a>
 

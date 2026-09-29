@@ -10,13 +10,13 @@
 - **稀有度**: 罕见
 - **目标**: 自身
 - **可升级**: 是（1 级）
-- **升级后关键词**: [<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)
+- **关键词**: [反强](/mechanics/fan_qiang.md)
 
 ### 数值参数
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 基础耗能 | 8 | 8 |
+| 基础耗能 | 8 | 6 |
 
 ## 描述
 
@@ -24,7 +24,7 @@
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。每损失<span style="color:#3aa675;font-weight:600">10</span>%生命，耗能<span style="color:#3aa675;font-weight:600">-1</span>。将所有敌人生命比例调整至与自身相同。本场战斗受击时反转其[<span style="color:#d4a017;font-weight:600">全属性</span>](/mechanics/all_attributes.md)提升。（升级不变费，改为获得保留）
+基础耗能降至<span style="color:#3aa675;font-weight:600">6</span>。每损失<span style="color:#3aa675;font-weight:600">10</span>%生命，耗能<span style="color:#3aa675;font-weight:600">-1</span>。将所有敌人生命比例调整至与自身相同。本场战斗受击时反转其[<span style="color:#d4a017;font-weight:600">全属性</span>](/mechanics/all_attributes.md)提升。
 
 ## 小贴士
 
@@ -34,7 +34,7 @@
 - **受击反转全属性（N → −N）**：之后本场每次受击（实际掉血），所有敌人的[全属性](/mechanics/all_attributes.md)（[力量](/powers/strength_power.md)/命中/[防御](/powers/defense_power.md)/速度）中的**正值** N 被施加 −2N——即 +N 反转成 −N。克制疯狂叠属性的 Boss：它叠 +10 力量，你挨一巴掌它变 −10（攻击伤害反而暴跌），负[防御](/powers/defense_power.md)还让它受攻击伤害增加。
 - **反转只针对正增益**：属性本来就是 0 或负数的敌人不受影响——对不叠属性的普通怪价值有限，本质是"属性战特化"反制牌。
 - **三段式定位**：①残血时低价打出 ②按你血线压斩全场 ③之后每次挨打都在惩罚属性增益敌人——一张牌把"卖血流/斩杀/反制"三条线全部占齐，8 费的基础定价是它唯一的门槛。
-- **升级改为[保留](/mechanics/retain.md)**：升级不变费——8 费基础全局保留，抽到后回合结束不弃，可耗尽血线时再从容打出。不再是无脑必升（升级不加斩杀档位），保留的价值在于让你有机会叠到更高血量差再使用。
+- **升级降至<span style="color:#3aa675;font-weight:600">6</span>费**：基础 8 费降到 6 费——配合"每损 10% 生命费 -1"的动态减费，残血时更易打出来。升级不加斩杀档位、不改关键词，纯粹把门槛费降下来。
 
 ## 相关能力
 

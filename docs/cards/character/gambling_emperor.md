@@ -4,7 +4,7 @@
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
+- **分类**: 角色牌
 - **最大PP**: 1
 - **能量消耗**: 0
 - **类型**: 能力
@@ -18,16 +18,17 @@
 |---|---|---|
 | 获胜概率 | 3% | 5% |
 | 失败失去最大生命 | 1 | 1 |
+| 堕落 | 21 | 21 |
 | PP | 1 | 1 |
 | 最大PP | 1 | 1 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 有<span style="color:#3aa675;font-weight:600">3</span>%的概率直接获得战斗胜利，否则失去<span style="color:#3aa675;font-weight:600">1</span>点最大生命。每回合开始时复制<span style="color:#3aa675;font-weight:600">1</span>张此牌加入<span style="color:#d4a017;font-weight:600">抽牌堆</span>。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 有<span style="color:#3aa675;font-weight:600">3</span>%的概率直接获得战斗胜利，否则失去<span style="color:#3aa675;font-weight:600">1</span>点最大生命。每回合开始时复制<span style="color:#3aa675;font-weight:600">1</span>张此牌加入<span style="color:#d4a017;font-weight:600">抽牌堆</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">21</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 有<span style="color:#3aa675;font-weight:600">5</span>%的概率直接获得战斗胜利，否则失去<span style="color:#3aa675;font-weight:600">1</span>点最大生命。每回合开始时复制<span style="color:#3aa675;font-weight:600">1</span>张此牌加入<span style="color:#d4a017;font-weight:600">抽牌堆</span>。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 有<span style="color:#3aa675;font-weight:600">5</span>%的概率直接获得战斗胜利，否则失去<span style="color:#3aa675;font-weight:600">1</span>点最大生命。每回合开始时复制<span style="color:#3aa675;font-weight:600">1</span>张此牌加入<span style="color:#d4a017;font-weight:600">抽牌堆</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">21</span>。
 
 ## 小贴士
 
@@ -41,11 +42,13 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 - **复制品不继承升级**：升级只把**被升级的那一张**的胜率从 3% 提到 5%；之后复制出的所有赛皇都是未升级的 3%。所以"升级一张、全场受益"是不成立的——想要更高胜率，得靠卡组里本来就带的多张赛皇各自升级。
 - **累积概率（按 3% 估算）**：每回合打 1 张，10 回合内至少成功一次约 26%，20 回合约 46%。看似能磨，但前提是你的牌组扛得住 20 回合的双线失血（最大生命 + 抽牌质量）。
 - **升级的定位**：3%→5% 对单张是 67% 的相对提升，值得升，但改变不了复制品的 3% 底色——它是锦上添花，不是质变。
+- **堕落 21/张：赌博的第三重失血**：每打出一张赛皇 +<span style="color:#3aa675;font-weight:600">21</span>[堕落](/powers/fallen_power.md)——堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层被[魔君接管](/powers/demon_takeover_power.md)强制乱打。配合复制机制，"每回合抽一张打一张"会让堕落和牌堆一起滚雪球：打满约 5 张就触发一次接管，失控 + 赌博失败 + 牌堆污染三重叠加，等于把这张牌的风险面又加了一层。
 - **性价比**：0 费不占能量，这是它唯一的"便宜"。代价是结构性的：抽牌质量 + 最大生命双输，且自我增殖、难以止损。只适合两类局面：预判到超长消耗战（防守反击、能兜住血线）时提前铺开赌概率；或本来就无所谓牌堆质量的娱乐局。速攻、依赖关键牌组合的卡组**别拿**——它会把你的牌堆变成赌场，而庄家不是你。
 
 ## 相关机制
 
 - 最大生命（失败时失去 1 点，无法通过治疗恢复）
+- [堕落](/powers/fallen_power.md)（每打出一张 +21 层，满 100 触发魔君接管）
 
 ## 源码
 

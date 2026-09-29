@@ -1,6 +1,6 @@
-# 起源流转
+# 圣灵起源
 
-<img src="/images/relics/origin_shift.png" alt="起源流转" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/relics/origin_shift.png" alt="圣灵起源" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 

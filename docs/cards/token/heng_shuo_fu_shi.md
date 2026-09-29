@@ -35,15 +35,15 @@ tags: \["先古", "卡牌", "Token"]
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 随机选取抽牌堆中 <span style="color:#3aa675;font-weight:600">1</span> 张无五音的牌，赋予其随机五音效果。对目标敌人造成等于自身上一回合受到的所有伤害。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 随机选取抽牌堆中 <span style="color:#3aa675;font-weight:600">1</span> 张无五音的牌，赋予其随机五音效果。对目标敌人造成等于自身上一回合受到的未格挡伤害。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 随机选取抽牌堆中 <span style="color:#3aa675;font-weight:600">2</span> 张无五音的牌，赋予其\[临时]五音效果，战斗结束清除。对目标敌人造成等于自身上一回合受到的所有伤害。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 随机选取抽牌堆中 <span style="color:#3aa675;font-weight:600">2</span> 张无五音的牌，赋予其\[临时]五音效果，战斗结束清除。对目标敌人造成等于自身上一回合受到的未格挡伤害。
 
 ## 小贴士
 
-* **伤害计算**：横槊赋诗造成的伤害值等于本角色上一回合受到的所有伤害。若上一回合没有受到任何伤害（例如全程格挡或无敌人攻击），则伤害下限为 <span style="color:#3aa675;font-weight:600">1</span>。
+* **伤害计算**：横槊赋诗造成的伤害值等于本角色上一回合受到的未格挡伤害（即扣除格挡后的实际伤害）。若上一回合没有受到任何未格挡伤害（例如全程格挡或无敌人攻击），则伤害下限为 <span style="color:#3aa675;font-weight:600">1</span>。
 
 * **五音系统——五种附魔随机一种**：从五音中随机挑选一种附魔到抽牌堆中的一张无附魔牌上，每种附魔效果不同：
 

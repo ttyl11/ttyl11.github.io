@@ -4,7 +4,7 @@
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
+- **分类**: 角色牌
 
 - **最大PP**: 5
 
@@ -18,7 +18,7 @@
 
 - **可升级**: 是（1 级）
 
-- **关键词**: [迟涌](/mechanics/keywords.md)
+- **关键词**: [迟涌](/mechanics/chiyong.md)
 
 ### 数值参数
 
@@ -31,7 +31,7 @@
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对单个敌人造成自身在本场战斗中造成的[未格挡伤害](/mechanics/block.md)总量。若[抽牌堆](/mechanics/draw_pile.md)为空，伤害<span style="color:#d44;font-weight:600">×2</span>。[迟涌](/mechanics/keywords.md)。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对单个敌人造成自身在本场战斗中造成的[未格挡伤害](/mechanics/block.md)总量。若[抽牌堆](/mechanics/draw_pile.md)为空，伤害<span style="color:#d44;font-weight:600">×2</span>。[迟涌](/mechanics/chiyong.md)。
 
 ## 升级后
 
@@ -43,7 +43,7 @@
 
 - **翻倍条件的战术时机**：抽牌堆为空时伤害翻倍，这是在绝境中的爆发设计。建议在抽牌堆即将耗尽时保留此牌，等真正空堆那一刻打出，获得毁灭性一击。
 
-- **迟涌的战略意义**：[迟涌](/mechanics/keywords.md)使此牌在[洗入抽牌堆](/mechanics/draw_pile.md)时位于底部，延迟其再次进入手牌的时间。这张牌伤害随战斗递增，越早打出收益越低——迟涌防止它在伤害较低时被过早抽到。
+- **迟涌的战略意义**：[迟涌](/mechanics/chiyong.md)使此牌在[洗入抽牌堆](/mechanics/draw_pile.md)时位于底部，延迟其再次进入手牌的时间。这张牌伤害随战斗递增，越早打出收益越低——迟涌防止它在伤害较低时被过早抽到。
 
 - **与翻云覆雨的联动**：[翻云覆雨](./fan_yun_fu_yu.md)可将弃牌堆洗回抽牌堆，延缓抽牌堆耗尽；而干戈在抽牌堆真正空时才爆发翻倍。两者配合形成"延缓耗尽→攒伤害→抽空爆发"的完整节奏。
 
@@ -53,7 +53,7 @@
 
 - [PP系统](/mechanics/pp-system.md)
 
-- [迟涌](/mechanics/keywords.md)
+- [迟涌](/mechanics/chiyong.md)
 
 - [未格挡伤害](/mechanics/block.md)
 

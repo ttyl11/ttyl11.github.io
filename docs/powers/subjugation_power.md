@@ -1,7 +1,7 @@
 # 臣服
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家施加给敌方——[群生俯首](/cards/character/all_life_submit.md)（卡牌）、[蔑天行·残虐](/cards/character/despise_heaven_cruelty.md)（卡牌）、[龙族烙印](/cards/character/dragon_brand.md)（卡牌）、[无相谛](/cards/character/nothingness.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）；怪物施加给玩家——[猛虎王](/monsters/normal/menghuwang_monster.md)
+> **施加来源**：玩家施加给敌方——[群生俯首](/cards/character/all_life_submit.md)（卡牌）、[蔑天行·残虐](/cards/character/despise_heaven_cruelty.md)（卡牌）、[龙族烙印](/cards/character/dragon_brand.md)（卡牌）、[无相谛](/fifth-skill/nothingness.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）；怪物施加给玩家——[猛虎王](/monsters/normal/menghuwang_monster.md)
 
 <img src="/images/powers/subjugation_power.png" alt="臣服" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 

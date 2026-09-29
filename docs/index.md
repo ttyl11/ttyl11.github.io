@@ -17,6 +17,9 @@ features:
   - title: 卡牌图鉴
     details: 全部 mod 卡牌，含图片、类型、稀有度、PP、效果描述。
     link: /cards/
+  - title: 第五技能图鉴
+    details: 23 张遗物解锁的特殊卡牌，含解锁遗物概率表、获取途径与专属外观。
+    link: /fifth-skill/
   - title: 遗物图鉴
     details: 全部 mod 遗物，含稀有度、效果、数值参数。
     link: /relics/
@@ -30,13 +33,13 @@ features:
     details: 全部 mod 充能球，含图标、激发效果。
     link: /orbs/
   - title: 药水图鉴
-    details: 全部 26 种 mod 药水，按功能分类，含稀有度、数值参数、详细机制。
+    details: 全部 68 种 mod 药水，按功能分类，含稀有度、数值参数、详细机制。
     link: /potions/
   - title: 核心机制
-    details: PP 系统、异常状态、元素克制表、关键词、铸造系统、复活机制。
+    details: PP 系统、固定伤害、元素克制、异常状态、永久属性与全属性、赛尔豆与泰坦之灵、唱词、暴击、诅咒卡，以及关键词、充能球、真神牌堆、独有战斗机制等完整规则。
     link: /mechanics/
   - title: 关键词
-    details: 34 个 Mod 原创关键词全解析，动态/静态分类、触发时序、配合策略与实战建议。
+    details: 45 个 Mod 原创关键词（另含原版 7 个，共 52 项），含动态/静态分类、触发时序、配合策略与实战建议。
     link: /mechanics/keywords
   - title: 怪物图鉴
     details: 全部 mod 怪物，含血量、意图、技能、遭遇战信息。
@@ -45,7 +48,7 @@ features:
     details: 34 个 mod 专属事件，含剧情抉择、功能服务、职业导师、特殊商店。
     link: /events/
   - title: 角色介绍
-    details: 圣灵谱尼，含初始卡组、初始遗物、专属机制、风味文字。
+    details: 圣灵谱尼与混沌魔君·索伦森，含初始卡组、初始遗物、专属机制、风味文字。
     link: /characters/
   - title: 版本更新
     details: Mod 上线后开始记录版本更新。

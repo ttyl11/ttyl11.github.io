@@ -1,4 +1,4 @@
-﻿# 缓冲
+# 缓冲
 
 
 
@@ -26,7 +26,7 @@
 
 ## 相关卡牌
 
-- [禁术·契灭](/cards/character/contract_destruction.md)（消耗 PP 超过阈值时获得 <span style="color:#3aa675;font-weight:600">1</span> 层缓冲）
+- [禁术·契灭](/fifth-skill/contract_destruction.md)（消耗 PP 超过阈值时获得 <span style="color:#3aa675;font-weight:600">1</span> 层缓冲）
 
 ## 源码
 

@@ -61,7 +61,7 @@
 
 - **效果**：本回合该敌人**非攻击意图**的效果全部失效（增益/减益/防御/治疗/召唤/状态牌等）
 
-- **来源**：卡牌（[跪地求饶](/cards/character/kneel_beg)、[无限·虚数湮灭](/cards/character/infinite_void_annihilation)）、遗物（[苍龙](/relics/uncommon/azure_dragon)、[阿尔蒂克](/relics/epic/arteck)、[钢傀](/relics/epic/steel_puppet)、[刘备](/relics/rare/benevolent_heaven_lord_liu_bei)、[万恶魔主](/relics/rare/evil_beast_emperor)、[塔罗系列](/relics/)）、能力（[凝滞](/mechanics/abnormal-status)、[致命印记](/relics/legendary/order_killing_god_luo)、[支援](/powers/support_power)）等
+- **来源**：卡牌（[跪地求饶](/cards/character/kneel_beg)、[无限·虚数湮灭](/cards/character/infinite_void_annihilation)）、遗物（[天玄苍魂·青龙](/relics/rare/azure_dragon)、[阿尔蒂克](/relics/epic/arteck)、[钢傀](/relics/epic/steel_puppet)、[刘备](/relics/rare/benevolent_heaven_lord_liu_bei)、[万恶魔主](/relics/rare/evil_beast_emperor)、[塔罗系列](/relics/)）、能力（[凝滞](/mechanics/abnormal-status)、[致命印记](/relics/legendary/order_killing_god_luo)、[支援](/powers/support_power)）等
 
 - **显示**：作为额外意图图标显示在敌人意图栏末尾，与"解析"同机制
 

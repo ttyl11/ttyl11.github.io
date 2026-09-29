@@ -1,4 +1,4 @@
-# 先古遗物（75 项）
+# 先古遗物（77 项）
 
 由[先古之民](/mechanics/ancients.md)提供的遗物，拥有强大效果。先古遗物按其提供者（8 位先古之民）分组。
 
@@ -30,7 +30,7 @@
 <tr><td><img src="/images/relics/neow_deceased_legacy.png" alt="不死之人" style="width:80px;height:auto" /></td><td><a href="neow_deceased_legacy">不死之人</a></td><td>拾起时，获得遗物逝者巨樽。每场战斗结束后，获得1张随机非Seer卡牌加入牌组。</td></tr>
 <tr><td><img src="/images/relics/neow_desperate_survival.png" alt="涅奥的复苏琥珀" style="width:80px;height:auto" /></td><td><a href="neow_desperate_survival">涅奥的复苏琥珀</a></td><td>拾起时，将当前生命值调整为最大生命值的10%。每当你进入一个房间时，恢复10点生命。</td></tr>
 <tr><td><img src="/images/relics/neow_dual_blessing.png" alt="双生印绶" style="width:80px;height:auto" /></td><td><a href="neow_dual_blessing">双生印绶</a></td><td>拾起时，从3张随机Seer罕见卡牌中选择至多2张加入牌组。随机1张打击牌和1张防御牌获得永恒。</td></tr>
-<tr><td><img src="/images/relics/neow_endless_gift.png" alt="涅奥的丰饶角" style="width:80px;height:auto" /></td><td><a href="neow_endless_gift">涅奥的丰饶角</a></td><td>拾起时，将1张贪婪加入牌组。每场战斗结束获得1个大礼包药水。</td></tr>
+<tr><td><img src="/images/relics/neow_endless_gift.png" alt="涅奥的丰饶角" style="width:80px;height:auto" /></td><td><a href="neow_endless_gift">涅奥的丰饶角</a></td><td>拾起时，将1张贪婪加入牌组。每场战斗结束获得1个星愿礼盒。</td></tr>
 <tr><td><img src="/images/relics/neow_fate_twin.png" alt="宿命纺锤" style="width:80px;height:auto" /></td><td><a href="neow_fate_twin">宿命纺锤</a></td><td>拾起时，获得2张随机Seer卡牌加入牌组。</td></tr>
 <tr><td><img src="/images/relics/neow_first_gift.png" alt="启程行囊" style="width:80px;height:auto" /></td><td><a href="neow_first_gift">启程行囊</a></td><td>拾起时，从6张随机Seer普通卡牌中选择至多3张加入牌组。</td></tr>
 <tr><td><img src="/images/relics/neow_nirvana_fate.png" alt="焚心劫灰" style="width:80px;height:auto" /></td><td><a href="neow_nirvana_fate">焚心劫灰</a></td><td>拾起时，将10张打击和10张防御加入牌组，所有打击和防御牌获得寂灭关键词。第一层的战斗奖励全都只有1张牌可选。</td></tr>
@@ -110,7 +110,7 @@
 <tr><td><img src="/images/relics/tezcatara_double_relic.png" alt="散财黑曜匣" style="width:80px;height:auto" /></td><td><a href="tezcatara_double_relic">散财黑曜匣</a></td><td>拾起时，获得2个随机Seer稀有遗物，失去所有金币。</td></tr>
 <tr><td><img src="/images/relics/tezcatara_tarot_holy_passing.png" alt="殉道者占卜盘" style="width:80px;height:auto" /></td><td><a href="tezcatara_tarot_holy_passing">殉道者占卜盘</a></td><td>拾起时，获得6个随机塔罗遗物。在你的回合开始时将1张圣逝加入弃牌堆。</td></tr>
 <tr><td><img src="/images/relics/tezcatara_tear_and_corridor.png" alt="航海图" style="width:80px;height:auto" /></td><td><a href="tezcatara_tear_and_corridor">航海图</a></td><td>拾起时，获得1张沧溟珠泪和1张大数回廊。</td></tr>
-<tr><td><img src="/images/relics/tezcatara_triple_card.png" alt="双生不朽" style="width:80px;height:auto" /></td><td><a href="tezcatara_triple_card">双生不朽</a></td><td>拾起时，获得1张好女孩、1张好男孩和1张不死之身（均附注能附魔）。</td></tr>
+<tr><td><img src="/images/relics/tezcatara_triple_card.png" alt="双生不朽" style="width:80px;height:auto" /></td><td><a href="tezcatara_triple_card">双生不朽</a></td><td>拾起时，获得1张好女孩和1张好男孩（均附注能附魔）。</td></tr>
 <tr><td><img src="/images/relics/tezcatara_warmth_shield.png" alt="余烬星核" style="width:80px;height:auto" /></td><td><a href="tezcatara_warmth_shield">余烬星核</a></td><td>拾起时，获得1张余温之辰卡牌，每场战斗开始时获得2点能量。</td></tr>
 </tbody></table>
 

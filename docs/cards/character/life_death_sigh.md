@@ -4,8 +4,8 @@
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
-- **最大PP**: 1
+- **分类**: 角色牌
+- **最大PP**: 5
 - **能量消耗**: 1
 - **类型**: 攻击
 - **稀有度**: 罕见
@@ -20,16 +20,16 @@
 | 基础伤害 | 15 | 25 |
 | 生命优势伤害加成 | 50% | 50% |
 | 斩杀回复比例 | 30% | 30% |
-| PP | 1 | 1 |
-| 最大PP | 1 | 1 |
+| PP | 5 | 5 |
+| 最大PP | 5 | 5 |
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 对单个敌人造成<span style="color:#d44;font-weight:600">15</span>点伤害。若自身[<span style="color:#3aa675;font-weight:600">生命</span>]高于目标，伤害增加<span style="color:#3aa675;font-weight:600">50%</span>。<span style="color:#d4a017;font-weight:600">30%</span>[<span style="color:#d4a017;font-weight:600">饮血</span>]——若此攻击[<span style="color:#d44;font-weight:600">斩杀</span>]目标，回复造成伤害量的<span style="color:#3aa675;font-weight:600">30%</span>生命。<span style="color:#9b59b6;font-weight:600">凝驻</span>。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对单个敌人造成<span style="color:#d44;font-weight:600">15</span>点伤害。若自身[<span style="color:#3aa675;font-weight:600">生命</span>]高于目标，伤害增加<span style="color:#3aa675;font-weight:600">50%</span>。<span style="color:#d4a017;font-weight:600">30%</span>[<span style="color:#d4a017;font-weight:600">饮血</span>]——若此攻击[<span style="color:#d44;font-weight:600">斩杀</span>]目标，回复造成伤害量的<span style="color:#3aa675;font-weight:600">30%</span>生命。<span style="color:#9b59b6;font-weight:600">凝驻</span>。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 对单个敌人造成<span style="color:#d44;font-weight:600">25</span>点伤害。若自身[<span style="color:#3aa675;font-weight:600">生命</span>]高于目标，伤害增加<span style="color:#3aa675;font-weight:600">50%</span>。<span style="color:#d4a017;font-weight:600">30%</span>[<span style="color:#d4a017;font-weight:600">饮血</span>]——若此攻击[<span style="color:#d44;font-weight:600">斩杀</span>]目标，回复造成伤害量的<span style="color:#3aa675;font-weight:600">30%</span>生命。<span style="color:#9b59b6;font-weight:600">凝驻</span>。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对单个敌人造成<span style="color:#d44;font-weight:600">25</span>点伤害。若自身[<span style="color:#3aa675;font-weight:600">生命</span>]高于目标，伤害增加<span style="color:#3aa675;font-weight:600">50%</span>。<span style="color:#d4a017;font-weight:600">30%</span>[<span style="color:#d4a017;font-weight:600">饮血</span>]——若此攻击[<span style="color:#d44;font-weight:600">斩杀</span>]目标，回复造成伤害量的<span style="color:#3aa675;font-weight:600">30%</span>生命。<span style="color:#9b59b6;font-weight:600">凝驻</span>。
 
 ## 详细机制
 
@@ -45,7 +45,7 @@
   - 一念生死叹：自身生命**高于**目标时增伤 + 斩杀回复
   - 一念去留断：自身生命**低于**目标时增伤 + 未斩杀贴[曝](/powers/expose_power.md)
   - 两者是互补关系——根据当前血量状态选择使用，形成"高HP爆发/低HP压制"的双生体系。
-- **[凝驻](/mechanics/ningzhu.md)的管理**：凝驻让此牌无法从[弃牌堆](/mechanics/discard_pile.md)洗入[抽牌堆](/mechanics/draw_pile.md)，打出后停留在弃牌堆，需要靠回收/洗牌类手段才能再次进入抽牌循环。配合 PP 较低的消耗节奏，适合"关键目标斩杀"的定位。不要指望它反复上手——把它留给血量优势明显且有斩杀把握的目标。
+- **[凝驻](/mechanics/ningzhu.md)的管理**：凝驻让此牌无法从[弃牌堆](/mechanics/discard_pile.md)洗入[抽牌堆](/mechanics/draw_pile.md)，打出后停留在弃牌堆，需要靠回收/洗牌类手段才能再次进入抽牌循环。PP 上限 5，配合凝驻的限用特性，适合"关键目标斩杀"的定位。不要指望它反复上手——把它留给血量优势明显且有斩杀把握的目标。
 - **升级收益分析**：基础伤害从15→25（+10），斩杀回复也随之提升（30%×25=7.5 vs 30%×15=4.5）。升级同时提升伤害和续航，优先级高。
 - **最佳使用时机**：①自身满血/高HP vs 低HP敌人时爆发；②有斩杀把握时触发[饮血](/mechanics/vampiric.md)回复；③配合[创世之神谕](./genesis_oracle.md)形成斩杀连锁（此卡先削弱或斩杀，为创世之神谕创造斩杀条件）。
 

@@ -4,46 +4,50 @@
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
+- **分类**: 角色牌
 - **最大PP**: 1
-- **能量消耗**: 0
-- **类型**: 技能
-- **稀有度**: 罕见
+- **能量消耗**: 2
+- **类型**: 能力
+- **稀有度**: 稀有
 - **目标**: 自身
-- **关键词**: [寂灭](/mechanics/nirvana.md)、[迁鸣](/mechanics/qianming.md)
-- **可升级**: 是（1 级）
+- **关键词**: [迁鸣](/mechanics/qianming.md)
+- **可升级**: 是（1 级，升级获得[固有](/mechanics/innate.md)）
 
 ### 数值参数
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 生命消耗 | 9 | 6 |
 | PP | 1 | 1 |
 | 最大PP | 1 | 1 |
+| 能量消耗 | 2 | 2 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 消耗自身<span style="color:#3aa675;font-weight:600">9</span>点生命。下一场战斗中获得[<span style="color:#d4a017;font-weight:600">必定暴击</span>](/powers/turn_guaranteed_crit_power.md)和[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)免疫。[<span style="color:#d4a017;font-weight:600">迁鸣</span>](/mechanics/qianming.md)：获得一张[<span style="color:#d4a017;font-weight:600">烬翎</span>](../token/phoenix_feather_card.md)。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 受到伤害时，可选[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)一张牌，将其清空<span style="color:#3aa675;font-weight:600">[PP](/mechanics/pp-system.md)</span>并[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)。[<span style="color:#d44;font-weight:600">迁鸣</span>](/mechanics/qianming.md)：手牌加入一张[<span style="color:#d4a017;font-weight:600">烬翎</span>](../token/phoenix_feather_card.md)。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 消耗自身<span style="color:#3aa675;font-weight:600">6</span>点生命。下一场战斗中获得[<span style="color:#d4a017;font-weight:600">必定暴击</span>](/powers/turn_guaranteed_crit_power.md)和[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)免疫。[<span style="color:#d4a017;font-weight:600">迁鸣</span>](/mechanics/qianming.md)：获得一张[<span style="color:#d4a017;font-weight:600">烬翎</span>](../token/phoenix_feather_card.md)。
+<span style="color:#d4a017;font-weight:600">[固有](/mechanics/innate.md)</span>。PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 受到伤害时，可选[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)一张牌，将其清空<span style="color:#3aa675;font-weight:600">[PP](/mechanics/pp-system.md)</span>并[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)。[<span style="color:#d44;font-weight:600">迁鸣</span>](/mechanics/qianming.md)：手牌加入一张[<span style="color:#d4a017;font-weight:600">烬翎</span>](../token/phoenix_feather_card.md)。
+
+## 详细机制
+
+- **能力牌（被动）**：打出后施加同名能力，持续整场战斗——此后每次受到伤害（总伤害大于 0）时触发一次。
+- **受伤触发选择**：受到伤害后，从[抽牌堆](/mechanics/draw_pile.md)中任意选择一张 <span style="color:#3aa675;font-weight:600">PP 大于 0</span> 的牌，将其 [PP](/mechanics/pp-system.md) 清空并移入[消耗堆](/mechanics/exhaust_pile.md)。抽牌堆中没有 PP 牌时不会弹窗。
+- **迁鸣·烬翎**：任何抽牌/弃牌/消耗/销毁等牌堆变化触发[迁鸣](/mechanics/qianming.md)时，获得一张[烬翎](../token/phoenix_feather_card.md)加入[手牌](/mechanics/hand.md)顶部。烬翎为 0 费衍生牌（抽 1 张牌、获得 2 点能量），等于"牌堆一动就白嫖一张抽牌+能量"。
 
 ## 小贴士
 
-- **迁鸣·烬翎（牌堆变化触发）**：带有[迁鸣](/mechanics/qianming.md)关键词——任何抽牌/弃牌/消耗/销毁/手牌变化（迁鸣覆盖的牌堆常规变化）触发时，获得一张[烬翎](../token/phoenix_feather_card.md)加入[手牌](/mechanics/hand.md)顶部。烬翎为 0 费衍生牌（抽 1 张牌、获得 2 点能量），等于"牌堆一动就白嫖一张抽牌+能量"，提供额外的过牌与回能，配合抽牌循环可以高频触发。
-- **寂灭意味着一次性**：[寂灭](/mechanics/nirvana.md)——打出时，本场战斗结束后从你的牌组中移除此牌（没打出就结束战斗则不会移除）。所以这张牌是"用 9 点血换下一场战斗的开局优势"，摸到不打就永远只是一张白板。
-- **下场增益按层预存**：打出时为下一场战斗累计 <span style="color:#3aa675;font-weight:600">1</span> 层预备——下场战斗开始时兑现为 <span style="color:#3aa675;font-weight:600">1</span> 层[回合必定暴击](/powers/turn_guaranteed_crit_power.md)（该回合所有攻击暴击）+ 整场[异常免疫](/powers/debuff_immune_power.md)。注意：免疫同亢龙有悔一样只挡 25 种异常状态，不挡虚弱/易伤等原版减益。
-- **自伤直接扣血**：9 点生命消耗为不可格挡的非攻击伤害，不吃力量/易伤，也不触发"受到攻击"类效果。前期 9 点偏贵，升级降到 6 点后压力小很多。
-- **性价比**：0 费合理——血量换下一场战斗全局优势；若当前战斗必赢且下场是精英/Boss，这是最划算的购买时机。
-- **升级优先级高**：9→6 是 33% 的代价降幅，且这张牌打一次就消失，升级窗口只有一次机会，**摸到就该升**。
+- **受伤被动的核心价值是"拆牌"**：每次挨打都能从抽牌堆挑一张 PP 牌清 PP 并消耗——既能削弱敌方往你牌堆塞的 PP 牌，也能主动拆掉自己牌组里卡手的牌。配合多段攻击的敌人，一次敌方攻击触发多次受伤结算，拆牌效率更高。
+- **迁鸣联动是过牌引擎**：能力自带的迁鸣让每次牌堆变化都白送一张烬翎（抽 1 + 能量 2），配合抽牌循环可以高频触发，整场战斗不缺过牌和回能。
+- **升级优先级高**：升级获得[固有](/mechanics/innate.md)后首回合必定在手牌中，先打出去为整场战斗铺好被动，值得优先升级。
+- **2 费稀有能力牌定位**：价格偏贵但一劳永逸——打出一次、被动全程生效，适合在战斗前期尽早打出。
 
 ## 相关能力
 
-- [回合必定暴击](/powers/turn_guaranteed_crit_power.md)（下一场战斗获得，每层覆盖一个回合）
-- [异常免疫](/powers/debuff_immune_power.md)（下一场战斗获得，999 层≈整场）
-- [暴击](/powers/critical_strike_power.md)（必定暴击的底层机制）
+- [竭血残蝶（能力）](/powers/blood_exhaust_butterfly_power.md)（受伤触发的被动，来自本牌）
+- [烬翎](../token/phoenix_feather_card.md)（迁鸣白嫖的衍生牌）
 
 ## 源码
 
 - `SeerBloodExhaustButterfly.cs`
+- `SeerBloodExhaustButterflyPower.cs`

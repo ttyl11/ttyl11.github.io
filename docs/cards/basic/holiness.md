@@ -12,7 +12,7 @@
 - **目标**: 自身
 - **获得格挡**: 是
 - **可升级**: 是（1 级）
-- **对应先古牌**: [璨灵圣光](/cards/ancient/radiant_holy_light.md)（由[起源流转](/relics/starter/origin_shift.md)转化）
+- **对应先古牌**: [璨灵圣光](/cards/ancient/radiant_holy_light.md)（由[圣灵起源](/relics/starter/origin_shift.md)转化）
 
 ### 数值参数
 
@@ -25,11 +25,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。立即解除自身所有减益。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。清除自身所有减益。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。立即解除自身所有减益。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。清除自身所有减益。
 
 ## 小贴士
 

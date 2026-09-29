@@ -43,7 +43,7 @@ stateDiagram-v2
 |--------|------|------|------|
 | **振翅** | 振翅 <span style="color:#3aa675;font-weight:600">7</span> | 自身增益 | 自身获得 7 层[振翅](/powers/flutter_power.md)：受到的攻击伤害减半，每受一次攻击 -1 层，归零时被击晕 |
 | **魔龙冲天** | 攻击 <span style="color:#3aa675;font-weight:600">6</span> ×N | 多段攻击 | 造成 6 点攻击伤害 ×（<span style="color:#3aa675;font-weight:600">2 + 累计使用次数</span>）次。每用一次连击 +1 |
-| **不朽战甲** | 不朽战甲 | 自身增益 | 自身获得 <span style="color:#3aa675;font-weight:600">15</span> 格挡 + [防御](/powers/defense_power.md) <span style="color:#3aa675;font-weight:600">+2</span> + 恢复 <span style="color:#3aa675;font-weight:600">15</span> 生命 |
+| **不朽战甲** | 不朽战甲 | 自身增益 | 自身获得 <span style="color:#3aa675;font-weight:600">15</span> 格挡 + [防御](/powers/defense_power.md) <span style="color:#3aa675;font-weight:600">+2</span> + 恢复最大生命的 <span style="color:#3aa675;font-weight:600">14%</span>（108~113 血时 <span style="color:#3aa675;font-weight:600">15</span> 点） |
 | **传说龙力** | 传说龙力 | 削弱 | 对所有敌方扣除 <span style="color:#3aa675;font-weight:600">3</span> 点最大生命（永久，不可恢复） |
 
 ::: warning 振翅机制

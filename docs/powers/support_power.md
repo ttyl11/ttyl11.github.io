@@ -1,7 +1,7 @@
 # 支援
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[终末·赫星黎明（攻击）](/cards/token/final_star_dawn_attack.md)（卡牌）、[终末·赫星黎明（技能）](/cards/character/final_star_dawn_skill.md)（卡牌）、[奥菲利娅](/relics/legendary/ophelia.md)（遗物）
+> **施加来源**：玩家获得——[终末·赫星黎明（攻击）](/cards/token/final_star_dawn_attack.md)（卡牌）、[终末·赫星黎明（技能）](/fifth-skill/final_star_dawn_skill.md)（卡牌）、[奥菲利娅](/relics/legendary/ophelia.md)（遗物）
 
 <img src="/images/powers/support_power.png" alt="支援" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -37,7 +37,7 @@
 - **星命之愿（连击意图）**：自己回合开始时（敌人新意图已生成、你尚未出牌的时点），若场上有敌人携带连击意图，随机选其中一个敌人，随机对其施加[攻击无效](/mechanics/intent.md)或[封属](/mechanics/intent.md)（翻倍时施加 2 次）。连击意图的判定口径是**多段攻击（段数 > 1）**——无论是原版怪的多段攻击还是带自定义技能名的连击技（如提亚斯"螺旋烈风"、钢颚鲨"火箭头槌"）都算。施加的封印类型按该敌人随机意图决定——攻击意图→攻击无效，非攻击意图→封属。
 - **支援成功的固定收尾**：每次触发（无论哪个条件）都会执行：支援 -1 → 消耗 1 层[支援效果翻倍](/powers/support_double_power.md)（若有）→ 获得 1 层[命运晨星](/powers/fate_morning_star_power.md)（上限 5 层）→ 获得 2 层[支援庇护](/powers/support_immune_count_power.md)。
 - **判定顺序按"每个受击目标"独立进行**：暴击 → 击杀 → 低伤，对单个目标命中哪个就结算哪个并结束（一次暴击同时击杀了该目标，按暴击结算，击杀条件不再对同一目标重复触发）。但**群体攻击的每个受击目标各自判定**——AoE 暴击命中 3 个敌人可触发 3 次支援；多段攻击的每段命中也各自判定。
-- **层数耗尽即沉默**：支援为 0 层时所有条件全部休眠，直到再次获得层数（[终末·赫星黎明（技能）](/cards/character/final_star_dawn_skill.md)或其它补层手段）。
+- **层数耗尽即沉默**：支援为 0 层时所有条件全部休眠，直到再次获得层数（[终末·赫星黎明（技能）](/fifth-skill/final_star_dawn_skill.md)或其它补层手段）。
 
 ## 相关遗物
 
@@ -45,7 +45,7 @@
 
 ## 相关卡牌
 
-- [终末·赫星黎明（技能）](/cards/character/final_star_dawn_skill.md)（无支援时获得 3 层）
+- [终末·赫星黎明（技能）](/fifth-skill/final_star_dawn_skill.md)（无支援时获得 3 层）
 - [终末·赫星黎明（攻击）](/cards/token/final_star_dawn_attack.md)（获得 3 层支援 + 施加 3 次翻倍）
 
 ## 源码

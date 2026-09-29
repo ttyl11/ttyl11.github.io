@@ -1,4 +1,4 @@
-﻿# 人工制品
+# 人工制品
 
 
 
@@ -32,7 +32,7 @@
 
 - [大数回廊](/cards/character/great_number_corridor.md)（获得 1 层人工制品，抵消减益后清除对手全属性）
 - [冰天花葬](/cards/character/ice_sky_flower_burial.md)（获得 1 层人工制品）
-- [沦·亡灵天灾](/cards/character/undead_catastrophe.md)（获得 1 层人工制品）
+- [沦·亡灵天灾](/fifth-skill/undead_catastrophe.md)（获得 1 层人工制品）
 
 ## 源码
 

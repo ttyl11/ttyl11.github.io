@@ -18,18 +18,18 @@
 | 致命裂痕层数（受伤附加） | 1 |
 | 首回合免疫回合数 | 1 |
 | 每层裂痕辉星牌数 | 1 |
-| 辉星获取（恢复生命时） | 5 |
+| 辉星获取（获得堕落时） | 5 |
 | 固伤免疫回合数 | 1 |
 
 ## 描述
 
-①战斗开始时，为对手所有可选技能的全部[意图](/mechanics/intent.md)散布 <span style="color:#3aa675;font-weight:600">10</span> 枚<span style="color:#9b59b6;font-weight:600">[致命印记](/powers/fatal_mark_power.md)</span>，怪物数量大于 <span style="color:#3aa675;font-weight:600">2</span> 时，散布 <span style="color:#3aa675;font-weight:600">16</span> 枚，每意图最多 <span style="color:#3aa675;font-weight:600">3</span> 层。<br/>②自身受到伤害后，为伤害者附加 <span style="color:#3aa675;font-weight:600">1</span> 层<span style="color:#9b59b6;font-weight:600">[致命裂痕](/powers/fatal_rift_power.md)</span>。（不会作用于自己）<span style="color:#9b59b6;font-weight:600">致命裂痕</span>按层数解锁效果：<span style="color:#3aa675;font-weight:600">1</span> 层造成伤害降低 <span style="color:#3aa675;font-weight:600">10</span>%，<span style="color:#3aa675;font-weight:600">2</span> 层受到伤害增加 <span style="color:#3aa675;font-weight:600">20</span>%，<span style="color:#3aa675;font-weight:600">3</span> 层使用技能先制 -<span style="color:#3aa675;font-weight:600">1</span>。<br/>③第一回合免疫[异常状态](/mechanics/abnormal-status.md)和能力下降。每回合开始时，敌人每有 <span style="color:#3aa675;font-weight:600">1</span> 层<span style="color:#9b59b6;font-weight:600">[致命裂痕](/powers/fatal_rift_power.md)</span>（总和），获得一张随机辉星牌。<br/>④自身回合结束时，若自身恢复过生命，则获得 <span style="color:#3aa675;font-weight:600">5</span> 点辉星。若未恢复过，这回合<span style="color:#d4a017;font-weight:600">免疫固定伤害</span>。
+①战斗开始时，为对手所有可选技能的全部[意图](/mechanics/intent.md)散布 <span style="color:#3aa675;font-weight:600">10</span> 枚<span style="color:#9b59b6;font-weight:600">[致命印记](/powers/fatal_mark_power.md)</span>，怪物数量大于 <span style="color:#3aa675;font-weight:600">2</span> 时，散布 <span style="color:#3aa675;font-weight:600">16</span> 枚，每意图最多 <span style="color:#3aa675;font-weight:600">3</span> 层。<br/>②自身受到伤害后，为伤害者附加 <span style="color:#3aa675;font-weight:600">1</span> 层<span style="color:#9b59b6;font-weight:600">[致命裂痕](/powers/fatal_rift_power.md)</span>。（不会作用于自己）<span style="color:#9b59b6;font-weight:600">致命裂痕</span>按层数解锁效果：<span style="color:#3aa675;font-weight:600">1</span> 层造成伤害降低 <span style="color:#3aa675;font-weight:600">10</span>%，<span style="color:#3aa675;font-weight:600">2</span> 层受到伤害增加 <span style="color:#3aa675;font-weight:600">20</span>%，<span style="color:#3aa675;font-weight:600">3</span> 层使用技能先制 -<span style="color:#3aa675;font-weight:600">1</span>。<br/>③第一回合免疫[异常状态](/mechanics/abnormal-status.md)和能力下降。每回合开始时，敌人每有 <span style="color:#3aa675;font-weight:600">1</span> 层<span style="color:#9b59b6;font-weight:600">[致命裂痕](/powers/fatal_rift_power.md)</span>（总和），获得一张随机辉星牌。<br/>④自身回合结束时，若自身获得过<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span>，则获得 <span style="color:#3aa675;font-weight:600">5</span> 点辉星。若未获得过，这回合<span style="color:#d4a017;font-weight:600">免疫固定伤害</span>。
 
 - **按意图分配印记**：①把敌人「所有可选技能的全部意图」作为随机投放点散布印记，不是只标记当前回合展示的意图。每个意图最多叠 3 层。怪物数量大于 2 时散布 16 枚，否则散布 10 枚。
 - **受伤反制叠加裂痕**：②自身实际受到伤害（被格挡后仍有扣血）时，给伤害来源附加 1 层致命裂痕。自己打自己不会触发。
 - **致命裂痕三档效果**：致命裂痕按层数解锁效果——1 层使敌人造成伤害降低 10%（固定值，不随层数叠加），2 层使敌人受到伤害增加 20%（固定值），3 层在其回合开始时获得 1 层负[先制](/powers/first_strike_power.md)——效果是**你打出牌的耗能 -1**（最低 0，打一张牌后移除）。敌人攻击越频繁，裂痕叠得越快、越深，自身反而越安全。
 - **首回合双免疫**：③第一回合同时免疫[异常状态](/mechanics/abnormal-status.md)和能力下降，保护覆盖你的回合和敌方回合。之后每回合开始时，统计所有敌人身上的致命裂痕总层数，获得等量的随机辉星牌。
-- **恢复生命的二选一**：④本回合如果以任何形式恢复过生命，回合结束时获得 5 点辉星；如果完全没回血，则这回合免疫固定伤害（覆盖敌方回合）。
+- **堕落的二选一**：④本回合如果**获得过堕落**（任意来源，含遗物/卡牌/效果），回合结束时获得 5 点辉星；如果完全没获得堕落，则这回合免疫固定伤害（覆盖敌方回合）。
 
 ## 风味文字
 
@@ -44,9 +44,9 @@
 - **致命裂痕是被动反制**：②实际掉血（被格挡的部分不算）后给伤害者挂 1 层致命裂痕，敌人打你越多裂痕越深。1 层减其伤害 10%，2 层增其受伤 20%，3 层使你打它的牌费用 -1。面对高频攻击敌人时，裂痕会快速叠到 3 层，既能削弱其输出又能白嫖费用折扣，是反打高频攻击敌人的利器。注意 3 层的"负先制"挂在敌人身上，效果是**你**打牌耗能 -1——别误以为是敌人抢先出招。
 - **3 层封印的是"整个类型"，不是单个意图**：印记 3 层触发时对该意图所属类型施加封印——攻击→攻击无效（该技能**所有**攻击意图都废），非攻击→封属（该技能**所有**非攻击意图都废）。比如"攻击+上增益"的复合技能，攻击意图堆到 3 层后该技能的攻击全废、增益照上；想完整废掉一个复合技能，得把攻击和非攻击两种类型的意图各堆到 3 层（两种封印各一个）。
 - **裂痕 → 辉星牌的滚雪球**：③每回合开始按所有敌人裂痕总层数发随机辉星牌。辉星牌从**全部角色卡池+共享卡池**随机选（不限谱尼自己），可能开出任何带辉星费用的牌。挨打越多→裂痕越多→辉星牌越多——把"被打"变成"摸奖"，越战越强。
-- **辉星牌获取与恢复生命的矛盾选择**：④每回合必须在"恢复生命→拿 5 点辉星"和"未恢复→免疫固定伤害"之间二选一。想堆辉星就要主动回血（吸血牌、治疗牌），想扛固伤就不能回血。面对固伤流派敌人时，必要时主动放弃回血换取免疫；面对攻击流派则放心回血叠辉星。
+- **辉星牌获取与堕落的矛盾选择**：④每回合必须在"获得堕落→拿 5 点辉星"和"未获得堕落→免疫固定伤害"之间二选一。想堆辉星就要主动叠堕落（堕落牌、堕落遗物），想扛固伤就这回合别碰堕落。面对固伤流派敌人时，必要时放弃堕落换取免疫；面对攻击流派则放心叠堕落拿辉星。注意判定是"本回合是否获得过堕落"——被打掉堕落层数（减少）不算。
 - **第一回合双免疫保命**：③首回合同时免疫异常状态和能力下降，保护覆盖你的整个第一回合加敌方第一回合——开局不会被控也不会被减速/降属性，可以稳定展开。配合①的开局印记压制，第一回合通常是安全的展开期。
-- **4 件套互相咬合**：印记（①开局压制）→ 裂痕（②挨打反制）→ 辉星牌（③裂痕变现）→ 固伤免疫/辉星（④续航二选一）。挨打有裂痕补偿、裂痕换辉星牌、没回血还有固伤保底——四个效果形成闭环，是传说遗物里攻防资源循环最完整的一个。
+- **4 件套互相咬合**：印记（①开局压制）→ 裂痕（②挨打反制）→ 辉星牌（③裂痕变现）→ 固伤免疫/辉星（④续航二选一）。挨打有裂痕补偿、裂痕换辉星牌、没堕落还有固伤保底——四个效果形成闭环，是传说遗物里攻防资源循环最完整的一个。
 
 ## 源码
 

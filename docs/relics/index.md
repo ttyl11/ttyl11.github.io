@@ -1,69 +1,69 @@
 # 遗物图鉴
 
-Seer Mod 共包含 239 个遗物。按稀有度分类浏览。
+Seer Mod 共包含 311 个遗物。按稀有度分类浏览。
 
 <div class="relic-category-grid">
 
 <a href="/relics/starter/" class="relic-category-item">
   <div class="relic-category-icon">🌱</div>
   <div class="relic-category-name">初始遗物</div>
-  <div class="relic-category-count">2 项</div>
+  <div class="relic-category-count">3 项</div>
   <div class="relic-category-desc">游戏开始时获得的初始遗物</div>
 </a>
 
 <a href="/relics/common/" class="relic-category-item">
   <div class="relic-category-icon">⚪</div>
   <div class="relic-category-name">普通遗物</div>
-  <div class="relic-category-count">45 项</div>
+  <div class="relic-category-count">55 项</div>
   <div class="relic-category-desc">普通稀有度，常规战斗奖励获取（含塔罗遗物）</div>
 </a>
 
 <a href="/relics/uncommon/" class="relic-category-item">
   <div class="relic-category-icon">🔵</div>
   <div class="relic-category-name">罕见遗物</div>
-  <div class="relic-category-count">23 项</div>
+  <div class="relic-category-count">31 项</div>
   <div class="relic-category-desc">罕见稀有度，获取难度中等</div>
 </a>
 
 <a href="/relics/rare/" class="relic-category-item">
   <div class="relic-category-icon">🟣</div>
   <div class="relic-category-name">稀有遗物</div>
-  <div class="relic-category-count">34 项</div>
+  <div class="relic-category-count">46 项</div>
   <div class="relic-category-desc">稀有稀有度，较为罕见</div>
 </a>
 
 <a href="/relics/shop/" class="relic-category-item">
   <div class="relic-category-icon">💰</div>
   <div class="relic-category-name">商店遗物</div>
-  <div class="relic-category-count">17 项</div>
+  <div class="relic-category-count">15 项</div>
   <div class="relic-category-desc">可在商店中购买的遗物</div>
 </a>
 
 <a href="/relics/event/" class="relic-category-item">
   <div class="relic-category-icon">✨</div>
   <div class="relic-category-name">事件遗物</div>
-  <div class="relic-category-count">17 项</div>
+  <div class="relic-category-count">18 项</div>
   <div class="relic-category-desc">通过事件或特殊途径获取</div>
 </a>
 
 <a href="/relics/ancient/" class="relic-category-item">
   <div class="relic-category-icon">📜</div>
   <div class="relic-category-name">先古遗物</div>
-  <div class="relic-category-count">72 项</div>
+  <div class="relic-category-count">77 项</div>
   <div class="relic-category-desc">由先古之民提供的遗物，拥有强大效果</div>
 </a>
 
 <a href="/relics/epic/" class="relic-category-item">
   <div class="relic-category-icon">🟠</div>
   <div class="relic-category-name">史诗遗物</div>
-  <div class="relic-category-count">27 项</div>
+  <div class="relic-category-count">40 项</div>
   <div class="relic-category-desc">史诗稀有度（自定义），极强大效果</div>
 </a>
 
 <a href="/relics/legendary/" class="relic-category-item">
   <div class="relic-category-icon">🟡</div>
   <div class="relic-category-name">传说遗物</div>
-  <div class="relic-category-count">21 项</div>
+  <div class="relic-category-count">26 项</div>
   <div class="relic-category-desc">传说稀有度（自定义），最强效果</div>
 </a>
 

@@ -4,7 +4,7 @@
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
+- **分类**: 角色牌
 - **最大PP**: 5
 - **能量消耗**: 3
 - **类型**: 技能
@@ -19,6 +19,7 @@
 |---|---|---|
 | PP | 5 | 5 |
 | 最大PP | 5 | 5 |
+| 能量消耗 | 3 | 2 |
 
 ## 描述
 
@@ -26,7 +27,7 @@
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">戏法</span>](/mechanics/trick.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 选择一张[<span style="color:#d4a017;font-weight:600">弃牌堆</span>](/mechanics/discard_pile.md)的牌，将其消耗，并获得等量[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)。[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：生成一个海洋[<span style="color:#d4a017;font-weight:600">充能球</span>](/orbs/ocean_orb.md)。
+耗能降至 <span style="color:#3aa675;font-weight:600">2</span>。[<span style="color:#d4a017;font-weight:600">戏法</span>](/mechanics/trick.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 选择一张[<span style="color:#d4a017;font-weight:600">弃牌堆</span>](/mechanics/discard_pile.md)的牌，将其消耗，并获得等量[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)。[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：生成一个海洋[<span style="color:#d4a017;font-weight:600">充能球</span>](/orbs/ocean_orb.md)。
 
 ## 小贴士
 

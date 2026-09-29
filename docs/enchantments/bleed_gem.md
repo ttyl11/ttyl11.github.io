@@ -1,4 +1,4 @@
-﻿# 流血宝石
+# 流血宝石
 
 <img src="/images/enchantments/seer_bleed_gem.png" alt="流血宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -31,12 +31,12 @@
 
 ## 相关状态
 
-- [流血](/powers/bleed_power.md)：异常状态（Debuff）。回合末受到等于当前层数的伤害；受到伤害时层数 +<span style="color:#3aa675;font-weight:600">1</span>；每回合末层数 -1
+- [流血](/powers/bleed_power.md)：异常状态（Debuff）。回合末受到层数一半（÷2 向下取整）的伤害；受到攻击时层数 +<span style="color:#3aa675;font-weight:600">1</span>；每回合末层数 -1
 
 ## 小贴士
 
-- **层数自我放大**：流血目标每受一次伤害层数 +1，配合多段攻击（如[百鬼夜行](../cards/character/hundred_ghosts.md)）可快速堆叠层数，回合末一次性爆发伤害。
-- **不适合开场**：流血初始层数低（3 回合 = 3 层），首回合伤害只有 3，需多段攻击叠加后才显威力。
+- **层数自我放大**：流血目标每次受到攻击层数 +1，配合多段攻击（如[百鬼夜行](../cards/character/hundred_ghosts.md)）可快速堆叠层数、抬高回合末的结算伤害。
+- **不适合开场**：流血初始层数低（3 回合 = 3 层），首回合结算只有 1 点（3÷2 向下取整），需多段攻击叠加后才显威力。
 
 ## 源码
 

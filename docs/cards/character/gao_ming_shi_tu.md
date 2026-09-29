@@ -4,14 +4,14 @@
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
+- **分类**: 角色牌
 - **最大PP**: 3
 - **能量消耗**: 3
 - **类型**: 技能
 - **稀有度**: 稀有
 - **目标**: 自身
 - **可升级**: 是（1 级）
-- **关键词**: [迁鸣](/mechanics/keywords.md)、[保留](/mechanics/retain.md)（升级后移除）
+- **关键词**: [迁鸣](/mechanics/qianming.md)、[保留](/mechanics/retain.md)（升级后移除）
 
 ### 数值参数
 
@@ -22,11 +22,11 @@
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 回满[牌组](/mechanics/card-pool-extension.md)中所有被[附魔](/mechanics/enchantment.md)的牌的 PP 并免费自动打出。[迁鸣](/mechanics/keywords.md)：牌堆变化时，从手牌选一张未附魔的牌添加随机[五音附魔](/mechanics/enchantment.md)。[保留](/mechanics/retain.md)。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 回满[牌组](/mechanics/card-pool-extension.md)中所有被[附魔](/mechanics/enchantment.md)的牌的 PP 并免费自动打出。[迁鸣](/mechanics/qianming.md)：牌堆变化时，从手牌选一张未附魔的牌添加随机[五音附魔](/mechanics/enchantment.md)。[保留](/mechanics/retain.md)。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 回满[牌组](/mechanics/card-pool-extension.md)中所有被[附魔](/mechanics/enchantment.md)的牌的 PP 并免费自动打出。[迁鸣](/mechanics/keywords.md)：牌堆变化时，从手牌选一张未附魔的牌添加随机[五音附魔](/mechanics/enchantment.md)。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 回满[牌组](/mechanics/card-pool-extension.md)中所有被[附魔](/mechanics/enchantment.md)的牌的 PP 并免费自动打出。[迁鸣](/mechanics/qianming.md)：牌堆变化时，从手牌选一张未附魔的牌添加随机[五音附魔](/mechanics/enchantment.md)。
 
 ## 工作机制
 
@@ -44,7 +44,7 @@
 - **N=0 时的陷阱**：若牌组中没有已附魔的 PP 牌（开局阶段或未进入附魔节奏），打出此牌 PP 归零且无任何效果，3 费白亏。建议在已经附着 2-3 张五音附魔后再使用。
 - **升级移除保留是必选项**：升级后不再保留，从"每场一次"变为"每回合可用"，配合 PP=3 可反复唤醒附魔体系。升级优先级极高。
 - **迁鸣的五音随机性**：迁鸣触发时从五种五音附魔中随机选一种，结果不可控；且迁鸣是被动触发，不依赖本牌在手牌中，每回合都可能触发——需要做好应对。
-- **与神权忤逆的连锁**：[神权忤逆](./shen_quan_wu_ni.md)的[蚀返](/mechanics/keywords.md)和[残鸣](/mechanics/keywords.md)在被[消耗](/mechanics/exhaust.md)时触发。告命诗途免费自动打出的附魔牌若在过程中被消耗，可同时激活这些触发效果，形成打出→消耗→再触发的连锁。
+- **与神权忤逆的连锁**：[神权忤逆](./shen_quan_wu_ni.md)的[蚀返](/mechanics/shifan.md)和[残鸣](/mechanics/canming.md)在被[消耗](/mechanics/exhaust.md)时触发。告命诗途免费自动打出的附魔牌若在过程中被消耗，可同时激活这些触发效果，形成打出→消耗→再触发的连锁。
 - **与逍遥游的配合**：[逍遥游](./carefree_journey.md)可以从消耗牌堆捞回高 PP 核心卡并恢复其 PP。告命诗途免费自动打出附魔牌后，部分牌可能被消耗进消耗堆，逍遥游可将其捞回并回满 PP，再次成为告命诗途的连锁目标。
 - **五音附魔的战术目标**：迁鸣触发时应优先给高 PP 的核心牌附魔（如[王·龙予狂宴](./dragon_feast.md) PP=1、[奇镰解放](./qi_lian_liberation.md) PP=1 等），附魔后它们会在告命诗途打出时被免费自动打出，收益倍增。
 - **与纯伤害附魔牌的配合**：若附魔的是高伤害攻击牌，告命诗途免费打出后可直接造成大量伤害而不消耗额外 PP，是后期爆发的关键手段。
@@ -52,7 +52,7 @@
 ## 相关能力
 
 - [五音附魔](/mechanics/enchantment.md)（册/乂/囙/卩/仐五种随机附魔）
-- [迁鸣](/mechanics/keywords.md)（牌堆变化时触发）
+- [迁鸣](/mechanics/qianming.md)（牌堆变化时触发）
 
 ## 相关机制
 

@@ -25,7 +25,7 @@
 | 亡灵契约师牌池 | <span style="color:#3aa675;font-weight:600">50</span> 万赛尔豆 | 随机 10 张亡灵契约师候选卡中选最多 5 张 |
 | 储君牌池 | <span style="color:#3aa675;font-weight:600">50</span> 万赛尔豆 | 随机 10 张储君候选卡中选最多 5 张 |
 | 赛尔豆换天牌 | <span style="color:#3aa675;font-weight:600">10</span> 万赛尔豆 | 随机 1 张带「天」的牌 |
-| 金币换大礼包 | <span style="color:#3aa675;font-weight:600">300</span> 金币 | 3 个大礼包药水 |
+| 金币换星愿礼盒 | <span style="color:#3aa675;font-weight:600">300</span> 金币 | 3 个星愿礼盒 |
 | 金币换附魔 | <span style="color:#3aa675;font-weight:600">70</span> 金币 | 1 张未附魔的牌随机附魔 |
 | 金币换变化一张 | <span style="color:#3aa675;font-weight:600">72</span> 金币 | 变化 1 张牌 |
 | 泰坦之灵换升级 | <span style="color:#3aa675;font-weight:600">10</span> 泰坦之灵 | 随机升级 <span style="color:#3aa675;font-weight:600">7</span> 张牌 |

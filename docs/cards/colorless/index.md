@@ -9,7 +9,7 @@
 <tbody>
 <tr><td><img src="/images/cards/coin.png" alt="星币" style="width:80px;height:auto" /></td><td><a href="coin">星币</a></td><td>获得36金币。打出后重新放入手牌。</td></tr>
 <tr><td><img src="/images/cards/crazy_code.png" alt="疯狂编码" style="width:80px;height:auto" /></td><td><a href="crazy_code">疯狂编码</a></td><td>将随机4张故障机器人牌加入抽牌堆，重放1。</td></tr>
-<tr><td><img src="/images/cards/dark_oblivion.png" alt="夜·冥昭瞢闇" style="width:80px;height:auto" /></td><td><a href="dark_oblivion">夜·冥昭瞢闇</a></td><td>召唤8。给予所有敌人等同于奥斯提最大生命值的灾厄。</td></tr>
+<tr><td><img src="/images/cards/dark_oblivion.png" alt="夜·冥昭瞢闇" style="width:80px;height:auto" /></td><td><a href="dark_oblivion">夜·冥昭瞢闇</a></td><td>召唤8（奥斯提最大生命+8）。给予所有敌人等同于奥斯提最大生命值的灾厄。</td></tr>
 <tr><td><img src="/images/cards/elephant_spirit_lord.png" alt="御象灵尊" style="width:80px;height:auto" /></td><td><a href="elephant_spirit_lord">御象灵尊</a></td><td>每回合，此牌耗能-2。自身获得等于当前回合数的蓄力（最多为6）。</td></tr>
 <tr><td><img src="/images/cards/emperor_war_buddha.png" alt="帝天战佛" style="width:80px;height:auto" /></td><td><a href="emperor_war_buddha">帝天战佛</a></td><td>当对手单次伤害超过15时，吸取其全属性提升。</td></tr>
 <tr><td><img src="/images/cards/endless_energy.png" alt="无尽能源" style="width:80px;height:auto" /></td><td><a href="endless_energy">无尽能源</a></td><td>获得999点能量。本回合每打出一张牌，向手牌加入1张随机诅咒（含原版诅咒）。</td></tr>

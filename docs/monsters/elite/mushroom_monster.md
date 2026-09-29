@@ -55,19 +55,16 @@ stateDiagram-v2
 
 蘑菇怪使用的是 seer mod 的中毒能力，与原版中毒不同：
 
-- **伤害公式**：每回合开始时受到 <span style="color:#3aa675;font-weight:600">1 + 层数 ÷ 2</span> 点伤害（向下取整），然后减少 1 层
+- **伤害公式**：每回合开始时受到等于层数的伤害，然后层数减半（向下取整）
 - **伤害类型**：不可格挡伤害（不受力量/易伤影响）
 - **6 层中毒伤害曲线**：
 
 | 回合 | 层数 | 伤害 |
 |------|------|------|
-| 第 1 回合 | 6 | 1 + 6÷2 = <span style="color:#3aa675;font-weight:600">4</span> |
-| 第 2 回合 | 5 | 1 + 5÷2 = <span style="color:#3aa675;font-weight:600">3</span> |
-| 第 3 回合 | 4 | 1 + 4÷2 = <span style="color:#3aa675;font-weight:600">3</span> |
-| 第 4 回合 | 3 | 1 + 3÷2 = <span style="color:#3aa675;font-weight:600">2</span> |
-| 第 5 回合 | 2 | 1 + 2÷2 = <span style="color:#3aa675;font-weight:600">2</span> |
-| 第 6 回合 | 1 | 1 + 1÷2 = <span style="color:#3aa675;font-weight:600">1</span> |
-| **合计** | | **<span style="color:#3aa675;font-weight:600">15</span> 点** |
+| 第 1 回合 | 6 | <span style="color:#3aa675;font-weight:600">6</span> |
+| 第 2 回合 | 3 | <span style="color:#3aa675;font-weight:600">3</span> |
+| 第 3 回合 | 1 | <span style="color:#3aa675;font-weight:600">1</span> |
+| **合计** | | **<span style="color:#3aa675;font-weight:600">10</span> 点** |
 
 ### 毒素（状态牌）
 
@@ -106,7 +103,7 @@ stateDiagram-v2
 ## 源码
 
 - 怪物：`SeerMushroomMonster.cs`（生命 112-117，回合计数器 + 自击晕机制 + 光源波奇偶节奏）
-- 中毒能力：`SeerPoisonPower.cs`（每回合 1 + 层数÷2 点不可格挡伤害）
+- 中毒能力：`SeerPoisonPower.cs`（每回合受到等于层数的不可格挡伤害，结算后层数减半）
 - 毒素状态牌：`Toxic.cs`（原版，消耗，回合结束在手牌造成 5 点可格挡伤害）
 - 遭遇战：`SeerMushroomElite.cs`（第一层精英池）、`SeerEventTwoMushroomEncounter.cs`（双蘑菇事件，无奖励）、`SeerMixedEliteEncounter.cs`（混合精英池）
 - 本地化：`monsters.json`（`SEER_MONSTER_SEER_MUSHROOM_MONSTER.*`）、`intents.json`（`SEER_POISON_POWDER.*`、`SEER_MOUNTAIN_CRUSH.*`、`SEER_SHIELD_GUARD.*`、`SEER_LIGHT_WAVE.*`）、`powers.json`（`SEER_POWER_SEER_POISON_POWER.*`）

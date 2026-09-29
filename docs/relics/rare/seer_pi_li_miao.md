@@ -16,7 +16,7 @@
 
 ## 描述
 
-你打出[gold]能力牌[/gold]时，所有生物[gold]麻痹[/gold][blue]2[/blue]回合。你的回合结束时：若自身处于[gold]麻痹[/gold]，恢复已损生命的[blue]15[/blue]%；若对手处于[gold]麻痹[/gold]，生成[blue]1[/blue]个[gold]闪电充能球[/gold]。
+①你打出[gold]能力牌[/gold]时，所有生物[gold]麻痹[/gold][blue]2[/blue]回合。<br/>②你的回合结束时：若自身处于[gold]麻痹[/gold]，恢复已损生命的[blue]15[/blue]%；若对手处于[gold]麻痹[/gold]，生成[blue]1[/blue]个[gold]闪电充能球[/gold]。
 
 ## 风味文字
 

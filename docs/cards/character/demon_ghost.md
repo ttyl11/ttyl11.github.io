@@ -1,10 +1,10 @@
-# 魑魅魍魉
+﻿# 魑魅魍魉
 
 <img src="/images/cards/demon_ghost.png" alt="魑魅魍魉" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
+- **分类**: 角色牌
 - **最大PP**: 10
 - **能量消耗**: 1
 - **类型**: 技能
@@ -17,16 +17,17 @@
 | 参数 | 数值 | 升级后 |
 |---|---|---|
 | 百分比 | 15 | 22 |
+| 堕落 | 2 | 2 |
 | PP | 10 | 10 |
 | 最大PP | 10 | 10 |
 
 ## 描述
 
-PP: 10/10 附加其<span style="color:#3aa675;font-weight:600">15</span>%当前生命值的[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+PP: 10/10 附加其<span style="color:#3aa675;font-weight:600">15</span>%当前生命值的[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">2</span>。
 
 ## 升级后
 
-PP: 10/10 附加其<span style="color:#3aa675;font-weight:600">22</span>%当前生命值的[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+PP: 10/10 附加其<span style="color:#3aa675;font-weight:600">22</span>%当前生命值的[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">2</span>。
 
 ## 小贴士
 
@@ -39,6 +40,7 @@ PP: 10/10 附加其<span style="color:#3aa675;font-weight:600">22</span>%当前�
 - **免疫与转移交互**：持有[固定伤害免疫](/powers/immune_fixed_damage_power.md)类能力的目标会在结算时直接免疫（固伤移除、不掉血）；持有[意志](/powers/resolve_power.md)的目标更会把固伤**反弹给它的所有对手**——给这类敌人挂固伤等于打自己，务必先看清目标的能力栏。
 - **配合建议**：开局第一手打出收益最大（敌人满血）。面对高血量 Boss（如 300+ HP）时，一张 45+ 固伤远超常规攻击牌；配合 PP 10 多次叠层，Boss 回合开始一口气掉一大截。不适合作为收尾牌（残血敌人固伤极低）。
 - **升级的价值**：百分比从 15% 提升至 22%（约 +47%）。100 血敌人从 15 固伤提升到 22，200 血 Boss 从 30 提升到 44。升级收益随敌人血量线性放大，对高血量 Boss 战升级优先级高。
+- **堕落是隐藏的失控进度**：每次打出固定 +<span style="color:#3aa675;font-weight:600">2</span>[堕落](/powers/fallen_power.md)。PP<span style="color:#3aa675;font-weight:600">10</span> 单场打满就是 <span style="color:#3aa675;font-weight:600">20</span> 层——堕落本身是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层会被[魔君接管](/powers/demon_takeover_power.md)强制乱打手牌；好在单次 +2 叠得很慢，这张牌几乎不会成为"压垮骆驼的稻草"，属于可以忽略不计的轻微代价。
 - **性价比**：1 费造成 15% 当前血量的固伤，对高血量敌人非常超值（200 血 Boss = 30 固伤/1 费）；但对低血量敌人性价比骤降（20 血小怪 = 3 固伤/1 费）。普通稀有度易获取，高血量环境下是性价比怪物。
 
 ## 源码

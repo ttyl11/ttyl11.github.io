@@ -12,19 +12,16 @@
 
 | 参数   | 数值                   |
 | ---- | -------------------- |
-| 伤害阈值 | 750 点                |
-| 奖励   | 通用刻印激活水晶 ×1（+1 手牌上限） |
-| 累计显示 | 遗物计数器                |
+| 战斗开始墨染 | 20 层                 |
+| 每回合翻倍 | 是（自身回合开始）            |
+| 兑换节奏 | 约 6 回合到 985 层（单独持有）  |
 
 ## 描述
 
-你每造成 <span style="color:#3aa675;font-weight:600">750</span> 点伤害，获得 <span style="color:#3aa675;font-weight:600">1</span> 个[通用刻印激活水晶](/relics/event/universal_engraving_gem_relic)。
+[战斗开始](/mechanics/game-flow.md)时，自身获得 <span style="color:#3aa675;font-weight:600">20</span> 层[墨染](/powers/mo_ran_power.md)。每[回合开始](/mechanics/game-flow.md)时，[墨染](/powers/mo_ran_power.md)翻倍。
 
-- **累计口径**：按你实际造成的全部伤害累计，击杀时溢出的伤害同样计入（不会因过杀而少算进度）。
-
-- **进度可见**：累计伤害显示在遗物计数器上，随时能看到还差多少到 750。
-
-- **水晶效果**：[通用刻印激活水晶](/relics/event/universal_engraving_gem_relic)永久增加 1 点[手牌上限](/mechanics/hand)，重复获得可叠加。
+- **翻倍先于结算**：每个自身回合开始时，先把当前墨染翻倍，再按翻倍后的层数结算金币/水晶。
+- **墨染的用途**：自身回合开始时每 <span style="color:#3aa675;font-weight:600">211</span> 层换 <span style="color:#3aa675;font-weight:600">10</span> 金币；达到 <span style="color:#3aa675;font-weight:600">985</span> 层时清空全部墨染，换 <span style="color:#3aa675;font-weight:600">1</span> 颗[通用刻印激活水晶](/relics/event/universal_engraving_gem_relic.md)（永久 +1 [手牌上限](/mechanics/hand.md)）。
 
 ## 风味文字
 
@@ -32,17 +29,26 @@
 
 ## 小贴士
 
-- **击杀溢出也算，别怕"过杀浪费"**：计数器按实际造成的全部伤害累计，最后一击把敌人打死的溢出部分同样计入——越打越放得开，不用为了卡进度去留血皮。
+- **它是墨染经济的启动器**：<span style="color:#3aa675;font-weight:600">20</span> → <span style="color:#3aa675;font-weight:600">40</span> → <span style="color:#3aa675;font-weight:600">80</span> → <span style="color:#3aa675;font-weight:600">160</span> → <span style="color:#3aa675;font-weight:600">320</span> → <span style="color:#3aa675;font-weight:600">640</span> → <span style="color:#3aa675;font-weight:600">1280</span>，约 <span style="color:#3aa675;font-weight:600">6</span> 回合摸到 <span style="color:#3aa675;font-weight:600">985</span> 层的水晶线，此后从 0 重新开始滚。
+- **前几回合"看着像假的"**：<span style="color:#3aa675;font-weight:600">211</span> 层才开始有钱，前 <span style="color:#3aa675;font-weight:600">3</span> 回合颗粒无收、第 <span style="color:#3aa675;font-weight:600">4</span> 回合才见到第一笔 <span style="color:#3aa675;font-weight:600">10</span> 金币——这是滚雪球型遗物，越往后每回合进账越多（<span style="color:#3aa675;font-weight:600">640</span> 层就是 <span style="color:#3aa675;font-weight:600">30</span> 金币）。
+- **和学神是黄金搭档**：[学神](/relics/shop/study_god.md)在战斗开始白给 <span style="color:#3aa675;font-weight:600">333</span> 层，两件同持从 <span style="color:#3aa675;font-weight:600">353</span> 起翻，<span style="color:#3aa675;font-weight:600">2</span> 回合内就能破 <span style="color:#3aa675;font-weight:600">985</span> 换水晶——这是墨染经济的最快形态。
+- **墨眉是它的加速键**：[墨眉](/cards/character/mo_mei.md)一次 +<span style="color:#3aa675;font-weight:600">150</span> 层，在翻倍前垫进去，等于给滚雪球直接加一大截本金。
+- **性价比**：普通遗物白送一套"利滚利"经济——战斗内中期开始稳定产金币，长线还能不断换永久手牌上限；代价是前几回合几乎没有产出，属于越打越值的长线投资。
 
-- **750 一个水晶，节奏偏慢的细水长流**：750 点累计伤害不是一两场能凑齐的，属于慢工出细活的普通遗物；但水晶永久 +1 手牌上限且可叠加，长期吃下来很香。
+## 相关能力
 
-- **多段和群伤刷得飞快**：每一下攻击都全额计入，AOE、多段攻击、清小怪场景进度涨得很快——卡组越能铺伤害，拿水晶拿得越勤。
+- [墨染](/powers/mo_ran_power.md)（本遗物的全部效果载体）
 
-- **越后期越值：手牌上限永远不嫌多**：卡组越肥越依赖手牌上限支撑，雁翎隔着个把战斗白送一颗，配合其它手牌上限来源一起叠，后期手牌管理压力明显下降。
+## 相关遗物
 
-- **性价比**：普通稀有度，用战斗中的累计伤害白换永久手牌上限，零代价纯收益；只是节奏偏慢，适合愿意主动铺伤害输出的卡组。
+- [学神](/relics/shop/study_god.md)（战斗开始 +333 层，与雁翎同持收益最大）
+- [通用刻印激活水晶](/relics/event/universal_engraving_gem_relic.md)（满 985 层兑换的奖励）
+
+## 相关卡牌
+
+- [墨眉](/cards/character/mo_mei.md)（打出 +150 层）
 
 ## 源码
 
 - `SeerYanLing.cs`
-
+- `SeerMoRanPower.cs`

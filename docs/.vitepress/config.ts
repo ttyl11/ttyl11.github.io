@@ -39,6 +39,7 @@ export default withMermaid(defineConfig({
         text: '图鉴',
         items: [
           { text: '卡牌', link: '/cards/' },
+          { text: '第五技能', link: '/fifth-skill/' },
           { text: '遗物', link: '/relics/' },
           { text: '能力', link: '/powers/' },
           { text: '附魔', link: '/enchantments/' },
@@ -52,18 +53,76 @@ export default withMermaid(defineConfig({
       {
         text: '机制',
         items: [
-          { text: 'PP 系统', link: '/mechanics/pp-system' },
-          { text: '异常状态', link: '/mechanics/abnormal-status' },
-          { text: '元素克制', link: '/mechanics/element-affinity' },
-          { text: '关键词', link: '/mechanics/keywords' },
-          { text: '铸造系统', link: '/mechanics/forge' },
-          { text: '复活机制', link: '/mechanics/revive' }
+          { text: '核心机制总览', link: '/mechanics/' },
+          {
+            text: '一、Mod 独有核心系统',
+            items: [
+              { text: 'PP 系统', link: '/mechanics/pp-system' },
+              { text: '固定伤害', link: '/mechanics/fixed-damage' },
+              { text: '元素克制', link: '/mechanics/element-affinity' },
+              { text: '异常状态', link: '/mechanics/abnormal-status' },
+              { text: '永久属性', link: '/mechanics/permanent-bonus' },
+              { text: '全属性', link: '/mechanics/all_attributes' },
+              { text: '赛尔豆与泰坦之灵', link: '/mechanics/currency' },
+              { text: '唱词系统', link: '/mechanics/chant' },
+              { text: '暴击', link: '/mechanics/critical-strike' },
+              { text: '诅咒卡系统', link: '/mechanics/curse-system' },
+              { text: 'Mod 配置系统', link: '/mechanics/mod-settings' }
+            ]
+          },
+          {
+            text: '二、Mod 改造的原版系统',
+            items: [
+              { text: '关键词', link: '/mechanics/keywords' },
+              { text: '充能球', link: '/mechanics/orb' },
+              { text: '附魔', link: '/mechanics/enchantment' },
+              { text: '意图', link: '/mechanics/intent' },
+              { text: '角色卡牌标签', link: '/mechanics/card-tags' }
+            ]
+          },
+          {
+            text: '三、关键词衍生子系统',
+            items: [
+              { text: '真神牌堆', link: '/mechanics/true-god-pile' },
+              { text: '销毁牌堆', link: '/mechanics/destroyed_pile' },
+              { text: '湮灭', link: '/mechanics/annihilation' },
+              { text: '空元之诗', link: '/mechanics/void-poem' },
+              { text: '薇尔诗', link: '/mechanics/vier-poem' },
+              { text: '预见', link: '/mechanics/scry' }
+            ]
+          },
+          {
+            text: '四、独有战斗机制',
+            items: [
+              { text: '消逝', link: '/mechanics/vanish' },
+              { text: '混沌化身', link: '/mechanics/chaos-incarnation' },
+              { text: '手牌快照', link: '/mechanics/hand-snapshot' },
+              { text: '龙威', link: '/mechanics/dragon-majesty' }
+            ]
+          },
+          {
+            text: '五、UI 与交互机制',
+            items: [
+              { text: '遗物右键点击', link: '/mechanics/relic-right-click' },
+              { text: '自定义遗物稀有度', link: '/mechanics/custom-rarity' },
+              { text: '休息处选项', link: '/mechanics/rest_site' }
+            ]
+          },
+          {
+            text: '六、地图与进度系统',
+            items: [
+              { text: '游戏流程改造', link: '/mechanics/game-flow' },
+              { text: '卡牌池扩展', link: '/mechanics/card-pool-extension' },
+              { text: '先古之民', link: '/mechanics/ancients' }
+            ]
+          }
         ]
       },
       {
         text: '杂项',
         items: [
           { text: '版本更新', link: '/changelog/' },
+          { text: '组合推荐', link: '/combos/' },
           { text: '支持作者', link: '/support/' },
           { text: '公共评论区', link: '/comments/' }
         ]
@@ -81,7 +140,7 @@ export default withMermaid(defineConfig({
         {
           text: '按分类浏览',
           items: [
-            { text: '角色（圣灵谱尼）牌', link: '/cards/character/' },
+            { text: '角色牌', link: '/cards/character/' },
             { text: '先古牌', link: '/cards/ancient/' },
             { text: '诅咒牌', link: '/cards/curse/' },
             { text: '状态牌', link: '/cards/status/' },
@@ -89,6 +148,14 @@ export default withMermaid(defineConfig({
             { text: '事件牌', link: '/cards/event/' },
             { text: '衍生牌', link: '/cards/token/' },
             { text: '任务牌', link: '/cards/quest/' }
+          ]
+        }
+      ],
+      '/fifth-skill/': [
+        {
+          text: '第五技能图鉴',
+          items: [
+            { text: '总览', link: '/fifth-skill/' }
           ]
         }
       ],

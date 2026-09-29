@@ -10,9 +10,10 @@
 
 ## 描述
 
-拾起时，获得 <span style="color:#3aa675;font-weight:600">2</span> 张**精神过载**。自身回合结束时，自身的[灾厄](/powers/doom_power)翻倍。敌人回合开始时，将自身的[灾厄](/powers/doom_power)以 <span style="color:#3aa675;font-weight:600">3</span> 倍复制给敌人。
+①拾起时，获得 <span style="color:#3aa675;font-weight:600">2</span> 张**精神过载**。<br/>②每回合开始时，<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span>等于当前自身的[灾厄](/powers/doom_power)数。<br/>③自身回合结束时，自身的[灾厄](/powers/doom_power)翻倍。<br/>④敌人回合开始时，将自身的[灾厄](/powers/doom_power)以 <span style="color:#3aa675;font-weight:600">3</span> 倍复制给敌人。
 
 - **灾厄**（原版）：持有者灾厄层数 ≥ 当前生命时，于该方回合结束时直接死亡。
+- **每回合堕落**：在你自己的回合开始时，堕落层数等于当前灾厄数——灾厄越多，"自身堕落"涨得越快。
 - **自身翻倍**：在你自身回合结束后，你身上的灾厄层数变为 2 倍。
 - **复制给敌**：每次敌人回合开始时，把你自己当前灾厄层数 × <span style="color:#3aa675;font-weight:600">3</span> 分发给所有存活敌人。
 - **精神过载**：原版 <span style="color:#3aa675;font-weight:600">0</span> 费能力牌，打出获得 <span style="color:#3aa675;font-weight:600">3</span> 点能量、抽 <span style="color:#3aa675;font-weight:600">2</span> 张，并让你自身每回合开始时获得 <span style="color:#3aa675;font-weight:600">3</span> 层灾厄——是灾厄的稳定种子来源。
@@ -30,6 +31,7 @@
 - **核心矛盾：越强越接近死**：[灾厄](/powers/doom_power)在你身上翻倍后，一旦 ≥ 你的生命值，你会**在自己回合结束死亡**。这是典型的"对赌"遗物——你必须在自身被灾厄吞没之前，用复制给敌人的 <span style="color:#3aa675;font-weight:600">3</span> 倍灾厄把对面先击垮。
 
 - **节奏是关键**：前期灾厄低时翻倍无害，趁敌人累计到可判死（灾厄 ≥ 生命）之前尽量多滚动；当你自身逼近危险线时，就**别再主动给自己加灾厄**（少打或不打新的精神过载），并想办法清掉自己的灾厄续命，再继续给敌人灌。
+- **堕落和灾厄是两条并行的命线**：每回合开始堕落当前灾厄数，灾厄翻倍滚动得越快，堕落也跟着加速。堕落是**负面层数**，满 <span style="color:#3aa675;font-weight:600">100</span> 会被[魔君接管](/powers/demon_takeover_power.md)当回合失控自动打牌（附带抽 3 与混沌化身补偿）——和灾厄一样是第二根自我毁灭倒计时，滚雪球时两条线都得盯着。
 
 - **性价比**：稀有，输出潜力爆炸（每回合指数级复制灾厄），但自带自我毁灭倒计时，只适合能控好自身灾厄节奏的玩法。
 

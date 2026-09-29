@@ -1,4 +1,4 @@
-# 状态牌（13 项）
+# 状态牌（15 项）
 
 状态卡牌，不可打出或具有被动效果，通常由其他卡牌/机制生成。
 
@@ -8,10 +8,12 @@
 <thead><tr><th>图片</th><th>名称</th><th>效果</th></tr></thead>
 <tbody>
 <tr><td><img src="/images/cards/barren.png" alt="芜" style="width:80px;height:auto" /></td><td><a href="barren">芜</a></td><td>当你所有牌堆里的芜总共有5张时，你死亡。</td></tr>
+<tr><td><img src="/images/cards/birth.png" alt="生" style="width:80px;height:auto" /></td><td><a href="birth">生</a></td><td>抽到此牌时，生命低于50%：恢复5生命。</td></tr>
+<tr><td><img src="/images/cards/death.png" alt="死" style="width:80px;height:auto" /></td><td><a href="death">死</a></td><td>抽到此牌时，生命高于50%：受到5点伤害。</td></tr>
 <tr><td><img src="/images/cards/depletion.png" alt="枯竭" style="width:80px;height:auto" /></td><td><a href="depletion">枯竭</a></td><td>在你的回合结束时，若此牌在你手牌中，你下回合开始时能量-1。</td></tr>
 <tr><td><img src="/images/cards/erosion.png" alt="侵蚀" style="width:80px;height:auto" /></td><td><a href="erosion">侵蚀</a></td><td>抽到时，获得1层魂缚。</td></tr>
 <tr><td><img src="/images/cards/holy_passing.png" alt="圣逝" style="width:80px;height:auto" /></td><td><a href="holy_passing">圣逝</a></td><td>抽到此牌时，最大生命值-1。</td></tr>
-<tr><td><img src="/images/cards/inner_demon.png" alt="心魔" style="width:80px;height:auto" /></td><td><a href="inner_demon">心魔</a></td><td>抽到此牌时，你必须先打出此牌。</td></tr>
+<tr><td><img src="/images/cards/inner_demon.png" alt="心魔" style="width:80px;height:auto" /></td><td><a href="inner_demon">心魔</a></td><td>在手牌中期间持续锁住其余手牌打出权，须先打出此牌（耗能 2）。</td></tr>
 <tr><td><img src="/images/cards/morning_star.png" alt="辰" style="width:80px;height:auto" /></td><td><a href="morning_star">辰</a></td><td>抽到此牌时，获得2点辉星和1点能量，并将1张储君的牌加入手牌中。</td></tr>
 <tr><td><img src="/images/cards/noise.png" alt="杂音" style="width:80px;height:auto" /></td><td><a href="noise">杂音</a></td><td>你的回合结束时，自我复制一份到手牌。</td></tr>
 <tr><td><img src="/images/cards/puni_spirit_card.png" alt="圣灵" style="width:80px;height:auto" /></td><td><a href="puni_spirit_card">圣灵</a></td><td>圣灵。无事发生。</td></tr>

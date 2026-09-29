@@ -40,6 +40,7 @@
 
 ## 相关卡牌
 
+- [烬灭神咒剑](/cards/character/ruin_curse_sword.md)
 - [灼目天星](/cards/character/blinding_heaven_star.md)（对所有敌人焚烬 2 回合）
 - [逐日长诗](/cards/character/sun_chase_long_poem.md)
 - [曙光普照](/cards/character/shining_light.md)

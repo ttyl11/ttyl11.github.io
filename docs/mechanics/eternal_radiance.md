@@ -1,4 +1,4 @@
-﻿# 永耀
+# 永耀
 
 > mod 附魔（Enchantment）
 
@@ -31,7 +31,7 @@
 
 ## 相关卡牌
 
-- [合奏·常昼大诰](/cards/character/ensemble_eternal_edict.md)（为生成的 4 张牌附魔永耀）
+- [合奏·常昼大诰](/fifth-skill/ensemble_eternal_edict.md)（为生成的 4 张牌附魔永耀）
 
 ## 源码
 

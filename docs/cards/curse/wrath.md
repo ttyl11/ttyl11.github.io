@@ -1,4 +1,4 @@
-﻿# 暴怒
+# 暴怒
 
 <img src="/images/cards/wrath.png" alt="暴怒" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -22,7 +22,7 @@
 
 ## 小贴士
 
-- **诅咒牌中少见的"可打出"类型**：能量消耗 <span style="color:#3aa675;font-weight:600">1</span>，需主动打出结算效果，而非像[羞耻](/cards/curse/shame.md)那样"无法打出"滞留手牌。它在[手牌](/mechanics/hand.md)中以红色高亮警示。
+- **诅咒牌中少见的"可打出"类型**：能量消耗 <span style="color:#3aa675;font-weight:600">1</span>，需主动打出结算效果，而非像[不可打出](/mechanics/unplayable.md)的诅咒那样"无法打出"滞留手牌。它在[手牌](/mechanics/hand.md)中以红色高亮警示。
 - **在手=出牌权被锁死**：暴怒在自己手牌中时，**其余属于你的手牌一律无法打出**——你被迫先花 1 费把它甩出去。仅四种例外可绕过：①要打的牌本身也是暴怒；②牌不属于你（如队友的牌）；③牌不在手牌中（抽牌堆/弃牌堆里的自动效果不受限）；④系统自动打出的牌。
 - **全场无差别 8 点，先敌后己**：结算分两段——先对所有**敌方生物**各造成 <span style="color:#3aa675;font-weight:600">8</span> 点攻击伤害，再对所有**玩家方生物**（含你自己）各造成 <span style="color:#3aa675;font-weight:600">8</span> 点攻击伤害。本质是"全场 AOE + 固定自伤 8"。
 - **是攻击伤害，吃力量与增减伤**：两段均为攻击伤害——会被[格挡](/mechanics/block.md)减免、受[易伤](/powers/vulnerable_power.md)放大、受[虚弱](/powers/weak_power.md)缩小，还吃[力量](/powers/strength_power.md)加成。你自己那 8 点可以靠格挡完全挡下；但若力量很高，自伤部分也会跟着膨胀，残血时务必先算清楚。

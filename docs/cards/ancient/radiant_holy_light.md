@@ -11,6 +11,7 @@
 - **稀有度**: 先古
 - **目标**: 无
 - **可升级**: 是（1 级）
+- **关键词**: [随机异常](/mechanics/sui_ji_yi_chang.md)
 
 ### 数值参数
 
@@ -22,11 +23,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span><br/>清除自身debuff和敌方buff，每有<span style="color:#3aa675;font-weight:600">x</span>层数，敌方获得<span style="color:#3aa675;font-weight:600">x</span>种[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">x</span>回合。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span><br/>清除自身[减益](/mechanics/abnormal-status.md)和敌方[增益](/mechanics/bound.md)，每清除<span style="color:#3aa675;font-weight:600">x</span>层，每个敌方获得<span style="color:#3aa675;font-weight:600">x</span>种[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">x</span>回合。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span><br/>清除自身debuff和敌方buff，每有<span style="color:#3aa675;font-weight:600">x</span>层数，敌方获得<span style="color:#3aa675;font-weight:600">x</span>种[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">x</span>回合。耗能降至<span style="color:#3aa675;font-weight:600">0</span>。
+PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span><br/>清除自身[减益](/mechanics/abnormal-status.md)和敌方[增益](/mechanics/bound.md)，每清除<span style="color:#3aa675;font-weight:600">x</span>层，每个敌方获得<span style="color:#3aa675;font-weight:600">x</span>种[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">x</span>回合。耗能降至<span style="color:#3aa675;font-weight:600">0</span>。
 
 ## 小贴士
 
@@ -42,7 +43,7 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 
 ## 相关机制
 
-- [异常状态](/mechanics/abnormal-status.md)：25 种异常状态池，根据清除层数随机不重复选取
+- [异常状态](/mechanics/abnormal-status.md)：26 种异常状态池，根据清除层数随机不重复选取
 - [先古牌](/mechanics/ancients.md)：先古稀有度卡牌的总览与 PP 规则
 
 ## 源码

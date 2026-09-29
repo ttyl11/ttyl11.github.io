@@ -1,4 +1,4 @@
-﻿# 邪冥龙帝
+# 邪冥龙帝
 
 <img src="/images/relics/evil_nether_dragon_emperor.png" alt="邪冥龙帝" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -16,7 +16,7 @@
 
 ## 描述
 
-战斗开始时，生成<span style="color:#3aa675;font-weight:600">1</span>张随机<span style="color:#d4a017;font-weight:600">随从卡</span>到手牌。<br/>造成伤害后：伤害<<span style="color:#3aa675;font-weight:600">10</span>时获得1点<span style="color:#d4a017;font-weight:600">[能量](/mechanics/energy.md)</span>；伤害≥<span style="color:#3aa675;font-weight:600">10</span>时目标获得1层<span style="color:#9b59b6;font-weight:600">[害怕](/powers/fear_power.md)</span>。<br/>每回合每种效果最多触发1次。
+战斗开始时，将<span style="color:#3aa675;font-weight:600">1</span>张随机<span style="color:#d4a017;font-weight:600">随从卡</span>加入手牌。<br/>造成伤害后：伤害<<span style="color:#3aa675;font-weight:600">10</span>时获得1点<span style="color:#d4a017;font-weight:600">[能量](/mechanics/energy.md)</span>；伤害≥<span style="color:#3aa675;font-weight:600">10</span>时目标获得1层<span style="color:#9b59b6;font-weight:600">[害怕](/powers/fear_power.md)</span>。每回合每种至多1次。
 
 - **战斗开始送随从牌**：从 3 张原版仆从牌（仆从打击：伤害+抽牌 / 仆从捐躯：格挡 / 仆从俯冲：伤害）中随机抽 1 张加入手牌。
 - **造成伤害按阈值分两档**：伤害 <10 回 1 点能量；伤害 ≥10 给被打击的目标 1 层[害怕](/powers/fear_power.md)（**目标造成的攻击伤害 -30%**，持续到其回合结束）。两档各自每回合最多触发 1 次。

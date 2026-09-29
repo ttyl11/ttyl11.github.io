@@ -9,7 +9,7 @@
 
 ## 描述
 
-你受到伤害时，<span style="color:#d4a017;font-weight:600">召唤</span>奥斯提（增加<span style="color:#3aa675;font-weight:600">等量</span>点最大生命）。
+受到伤害时，<span style="color:#d4a017;font-weight:600">召唤</span>等量。
 
 ## 风味文字
 

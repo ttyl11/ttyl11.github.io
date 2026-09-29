@@ -16,6 +16,6 @@ Boss 怪物，出现于 Boss 战斗房间，每层结尾遭遇。击败后掉落
 <tr><td><img src="/images/monsters/phoenix_monster.png" alt="菲尼克斯" style="width:80px;height:auto" /></td><td><a href="phoenix_monster">菲尼克斯</a></td><td>45 - 50</td><td>烈风火羽、凤舞、火焰护身、凤凰九重天</td></tr>
 <tr><td><img src="/images/monsters/puni_monster.png" alt="谱尼" style="width:80px;height:auto" /></td><td><a href="puni_monster">谱尼</a></td><td>222 - 222</td><td>虚无、元素、能量、生命、轮回、永恒、圣洁、圣灵魔闪光</td></tr>
 <tr><td><img src="/images/monsters/ray_monster.png" alt="雷伊" style="width:80px;height:auto" /></td><td><a href="ray_monster">雷伊</a></td><td>118 - 123</td><td>白光刃、极电千鸟、瞬雷天闪、雷祭</td></tr>
-<tr><td><img src="/images/monsters/soulson_monster.png" alt="索伦森" style="width:80px;height:auto" /></td><td><a href="soulson_monster">索伦森</a></td><td>777 - 777</td><td>灵之殇、堕世、消亡、寂灭、灭世挽歌、邪灵降世、邪灵魔闪光、混沌连击</td></tr>
+<tr><td><img src="/images/monsters/soulson_monster.png" alt="索伦森" style="width:80px;height:auto" /></td><td><a href="soulson_monster">索伦森</a></td><td>1165 - 1165</td><td>灵之殇、堕世、消亡、寂灭、灭世挽歌、邪灵降世、邪灵魔闪光、混沌连击</td></tr>
 <tr><td><img src="/images/monsters/tiger_monster.png" alt="泰格尔" style="width:80px;height:auto" /></td><td><a href="tiger_monster">泰格尔</a></td><td>173 - 178</td><td>冲天霸气、白虎的审判、破天虎威震、雷光铠甲</td></tr>
 </tbody></table>

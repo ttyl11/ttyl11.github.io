@@ -15,9 +15,9 @@
 
 ## 描述
 
-战斗开始时，将<span style="color:#3aa675;font-weight:600">3</span>张费用-<span style="color:#3aa675;font-weight:600">1</span>的<span style="color:#9b59b6;font-weight:600">[魔·黑天暗罚](/cards/character/magic_black_sky_punishment.md)</span>加入抽牌堆。
+战斗开始时，将<span style="color:#3aa675;font-weight:600">3</span>张费用-<span style="color:#3aa675;font-weight:600">1</span>的<span style="color:#9b59b6;font-weight:600">[魔·黑天暗罚](/fifth-skill/magic_black_sky_punishment.md)</span>加入抽牌堆。
 
-- **本地化与实际卡名不一致**：本地化写"魔·大暗黑天"，实际生成的卡是[魔·黑天暗罚](/cards/character/magic_black_sky_punishment.md)（大暗黑天系列对称卡），以实际效果为准。
+- **本地化与实际卡名不一致**：本地化写"魔·大暗黑天"，实际生成的卡是[魔·黑天暗罚](/fifth-skill/magic_black_sky_punishment.md)（大暗黑天系列对称卡），以实际效果为准。
 - **触发时机**：每场战斗开始前自动创建 3 张魔·黑天暗罚加入抽牌堆。
 - **费用减免**：每张卡整场战斗费用 -1（最低 0，不会变负）。
 - **加入位置**：抽牌堆随机位置。
@@ -28,7 +28,7 @@
 
 ## 小贴士
 
-- **3 张战斗生成的全能终端**：每场战斗开局白送 3 张[魔·黑天暗罚](/cards/character/magic_black_sky_punishment.md)——35 点伤害、Boss 房伤害翻倍、造成伤害 25% 吸血、2 回合[异常免疫](/powers/debuff_immune_power.md)、[先制](/powers/first_strike_power.md)+2、随机 2 种[异常状态](/mechanics/abnormal-status.md) 2 回合，一张牌把输出/续航/保命/加速/控制全包。生成的卡**只在战斗内存在**：不进牌组、不占牌组位、战斗结束即消失。
+- **3 张战斗生成的全能终端**：每场战斗开局白送 3 张[魔·黑天暗罚](/fifth-skill/magic_black_sky_punishment.md)——35 点伤害、Boss 房伤害翻倍、造成伤害 25% 吸血、2 回合[异常免疫](/powers/debuff_immune_power.md)、[先制](/powers/first_strike_power.md)+2、随机 2 种[异常状态](/mechanics/abnormal-status.md) 2 回合，一张牌把输出/续航/保命/加速/控制全包。生成的卡**只在战斗内存在**：不进牌组、不占牌组位、战斗结束即消失。
 - **PP 3/3，每场最多 9 次暗罚**：每张 PP 3——单张单场可打出 3 次，3 张合计 9 次。Boss 战 9 次 × 70 点（翻倍后）理论上限 630 点伤害，每次还附带吸血与异常覆盖，持续作战能力极强。
 - **减费全名牌共享，越打越便宜**：遗物先压到 4 费，同名牌递减再叠加——第 1 次 4 费、第 2 次 3 费、第 3 次 2 费、第 4 次 1 费、第 5 次起 0 费，9 次全打总成本仅 **10 点能量**。
 - **先制 +2 的接牌技巧**：每次打出给 2 层[先制](/powers/first_strike_power.md)（下一张牌耗能 -2）——打出暗罚后紧接着甩一张高费牌最赚，等于把 4 费的暗罚净成本压回 2 费左右；连续打出时先制层层相续，费用曲线进一步下探。

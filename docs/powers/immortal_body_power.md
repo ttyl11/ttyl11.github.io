@@ -1,4 +1,4 @@
-﻿# 不死之身
+# 不死之身
 
 
 <img src="/images/powers/immortal_body_power.png" alt="不死之身" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
@@ -22,11 +22,11 @@
  3. 受伤的是自己。
 - **一次性**：触发时先移除此能力、再执行死亡——只会生效一次（当然，人也没了）。
 - **不随回合消失**：作为增益常驻整场战斗，直到触发或战斗结束。相应地，它**可以被"消除增益"类效果移除**——移除掉标记就等于拆掉了处决引信。
-- **唯一的施加来源**：[不死之身](/cards/character/immortal_body.md)卡——打出时获得 6 层[缓冲](/powers/buffer_power.md)（升级 8 层）+ 本能力。整套机制是"缓冲在=真不死，缓冲尽=处决"的对赌，详见卡牌页面。
+- **唯一的施加来源**：[不死之身](/cards/character/immortal_body.md)卡——打出时获得 8 层[缓冲](/powers/buffer_power.md)（升级 10 层）+ 本能力。整套机制是"缓冲在=真不死，缓冲尽=处决"的对赌，详见卡牌页面。
 
 ## 相关卡牌
 
-- [不死之身](/cards/character/immortal_body.md)（唯一施加来源，捆绑 6/8 层缓冲）
+- [不死之身](/cards/character/immortal_body.md)（唯一施加来源，捆绑 8/10 层缓冲）
 
 ## 相关能力
 

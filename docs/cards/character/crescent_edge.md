@@ -1,10 +1,10 @@
-# 弦月锋华
+﻿# 弦月锋华
 
 <img src="/images/cards/crescent_edge.png" alt="弦月锋华" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
+- **分类**: 角色牌
 - **最大PP**: 5
 - **能量消耗**: 1
 - **类型**: 技能
@@ -16,16 +16,17 @@
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
+| 堕落 | 16 | 16 |
 | PP | 5 | 5 |
 | 最大PP | 5 | 5 |
 
 ## 描述
 
-PP: 5/5 免疫下次受到的伤害，并以[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)形式反弹给攻击者。
+PP: 5/5 免疫下次受到的伤害，并以[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)形式反弹给攻击者。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">16</span>。
 
 ## 升级后
 
-耗能降至<span style="color:#3aa675;font-weight:600">0</span>。PP: 5/5 免疫下次受到的伤害，并以[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)形式反弹给攻击者。
+耗能降至<span style="color:#3aa675;font-weight:600">0</span>。PP: 5/5 免疫下次受到的伤害，并以[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)形式反弹给攻击者。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">16</span>。
 
 ## 小贴士
 
@@ -38,6 +39,7 @@ PP: 5/5 免疫下次受到的伤害，并以[<span style="color:#d4a017;font-wei
 - **只认敌方攻击**：自己打自己、非攻击伤害（DOT/固定伤害）既不抵消也不反弹、也不消耗层数——只有**敌方来源的攻击伤害**才走"抵消+反弹+掉层"的完整流程。
 - **固定伤害反弹**：反弹的伤害以[固定伤害](/powers/fixed_damage_power.md)形式施加给攻击者——目标**下回合开始时**才结算伤害。这意味着反弹不是即时伤害，目标有一回合的时间可以应对（如获得固定伤害免疫）。
 - **配合建议**：最佳配合是**故意不堆格挡**——让格挡少一些，更多伤害溢出触发反弹。面对高攻击力的 Boss 时尤其有效，Boss 一拳打 30+ 伤害，反弹 30+ 固定伤害回去。多层弦月反弹（多次打出）可以反弹多次攻击。
+- **堕落 16：防御牌的暗账**：每次打出 +<span style="color:#3aa675;font-weight:600">16</span>[堕落](/powers/fallen_power.md)，PP<span style="color:#3aa675;font-weight:600">5</span> 打满就是 <span style="color:#3aa675;font-weight:600">80</span> 层——堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层被[魔君接管](/powers/demon_takeover_power.md)强制乱打。一张免疫牌叠多了也会把失控阈值推到嘴边，好在有[混沌起源](/relics/starter/chaos_origin.md)兜底，"坏而不致命"，但滥用免疫时要想好接管回合的牌序。
 - **升级的价值**：耗能从 1 降至 0。0 费的免疫+反弹等于每回合免费获得一次伤害免疫——升级后质变，可以从"关键时刻用"变成"每回合无脑用"。升级优先级极高。
 - **性价比**：升级前 1 费换一次免疫+反弹已经很值，升级后 0 费更是超值。作为罕见牌，这是谱尼防御体系的核心组件之一。
 
@@ -49,6 +51,7 @@ PP: 5/5 免疫下次受到的伤害，并以[<span style="color:#d4a017;font-wei
 ## 相关机制
 
 - [格挡](/mechanics/block.md)（免疫机制中格挡先正常消耗）
+- [堕落](/powers/fallen_power.md)（每打出一次固定 +16 层）
 
 ## 源码
 

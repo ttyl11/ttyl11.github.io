@@ -17,7 +17,7 @@
 
 ## 描述
 
-战斗开始时，获得<span style="color:#9b59b6;font-weight:600">[北冥之刃](/powers/north_sea_blade_power.md)</span>：所有攻击必定[暴击](/powers/critical_strike_power.md)，暴击伤害+<span style="color:#3aa675;font-weight:600">15</span>%。<br/>每结束一场战斗，胜利计数+1。<br/>当胜利计数达到<span style="color:#3aa675;font-weight:600">5</span>场后，<span style="color:#9b59b6;font-weight:600">[北冥之刃](/powers/north_sea_blade_power.md)</span>升级为<span style="color:#9b59b6;font-weight:600">[北冥狂刃](/powers/north_sea_mad_blade_power.md)</span>：暴击伤害+40%，且暴击后附加等量<span style="color:#d4a017;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>。
+①战斗开始时，获得<span style="color:#9b59b6;font-weight:600">[北冥之刃](/powers/north_sea_blade_power.md)</span>：所有攻击必定[暴击](/powers/critical_strike_power.md)，暴击伤害+<span style="color:#3aa675;font-weight:600">15</span>%。<br/>②每结束一场战斗，胜利计数+1。<br/>③当胜利计数达到<span style="color:#3aa675;font-weight:600">5</span>场后，<span style="color:#9b59b6;font-weight:600">[北冥之刃](/powers/north_sea_blade_power.md)</span>升级为<span style="color:#9b59b6;font-weight:600">[北冥狂刃](/powers/north_sea_mad_blade_power.md)</span>：暴击伤害+40%，且暴击后附加等量<span style="color:#d4a017;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>。
 
 - **形态判定**：战斗开始前比较胜利计数与狂刃阈值，决定施加[北冥之刃](/powers/north_sea_blade_power.md)或[北冥狂刃](/powers/north_sea_mad_blade_power.md)。
 - **实际加成与描述一致**：遗物会在战斗开始时把自身的暴击伤害数值（之刃+15%、狂刃+40%）传入战斗中的能力实例，故实际加成与遗物文本、战斗中能力图标显示完全一致（之刃 **+15%**、狂刃 **+40%**）。

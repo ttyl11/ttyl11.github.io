@@ -11,7 +11,7 @@
 - **稀有度**: 基础
 - **目标**: 自身
 - **可升级**: 是（1 级）
-- **对应先古牌**: [神圣复苏](/cards/ancient/holy_revival.md)（由[起源流转](/relics/starter/origin_shift.md)转化）
+- **对应先古牌**: [神圣复苏](/cards/ancient/holy_revival.md)（由[圣灵起源](/relics/starter/origin_shift.md)转化）
 
 ### 数值参数
 

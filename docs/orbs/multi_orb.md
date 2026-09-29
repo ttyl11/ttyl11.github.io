@@ -27,15 +27,15 @@
   - 触发时机：回合结束时
   - 目标选择：无目标，作用于自身
   - 效果：铸造 <span style="color:#3aa675;font-weight:600">2</span> + 召唤 <span style="color:#3aa675;font-weight:600">2</span>
-  - 音效：`sfx/passive_lightning_orb`
+  - 音效：`event:/sfx/characters/defect/defect_lightning_passive`
 - **激发效果**：
   - 目标：手牌中最多 3 张随机卡牌
   - 效果：随机排序手牌，取前 min(3, 手牌数) 张，依次赋予关键词：
     - 第 1 张：[奇巧](/mechanics/sly.md)（被弃时免费打出）
     - 第 2 张：消耗
     - 第 3 张：虚无
-  - 音效：`sfx/evoke_lightning_orb`
-- **生成音效**：`sfx/channel_lightning_orb`
+  - 音效：`event:/sfx/characters/defect/defect_lightning_evoke`
+- **生成音效**：`event:/sfx/characters/defect/defect_lightning_channel`
 - **集中影响**：被动数值受[集中](/powers/focus_power.md)影响（基础值 2），激发不受影响（固定赋予 3 个关键词）
 - **悬浮提示**：提供铸造、奇巧、消耗、虚无的悬浮提示
 

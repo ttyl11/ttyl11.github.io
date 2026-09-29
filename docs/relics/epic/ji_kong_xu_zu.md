@@ -16,7 +16,7 @@
 
 ## 描述
 
-每回合开始时，从[purple]所有角色[/purple]的[gold]先古牌[/gold]中随机[blue]{OfferCount}[/blue]张，选择[blue]1[/blue]张加入手牌。
+每回合开始时，从[purple]所有角色[/purple]的[gold]先古牌[/gold]中随机[blue]4[/blue]张，选择[blue]1[/blue]张加入手牌。
 
 ## 详细机制
 

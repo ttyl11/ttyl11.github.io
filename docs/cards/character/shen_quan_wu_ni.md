@@ -4,7 +4,7 @@
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
+- **分类**: 角色牌
 
 - **最大PP**: 1
 
@@ -18,7 +18,7 @@
 
 - **可升级**: 是（1 级）
 
-- **关键词**: [蚀返](/mechanics/keywords.md)、[残鸣](/mechanics/keywords.md)
+- **关键词**: [蚀返](/mechanics/shifan.md)、[残鸣](/mechanics/canming.md)
 
 ### 数值参数
 
@@ -33,11 +33,11 @@
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#d4a017;font-weight:600">8</span>点[格挡](/mechanics/block.md)，恢复共<span style="color:#3aa675;font-weight:600">24</span>点 PP，从[弃牌堆](/mechanics/discard_pile.md)随机抽<span style="color:#3aa675;font-weight:600">2</span>张牌，选择丢弃<span style="color:#3aa675;font-weight:600">1</span>张牌。[蚀返](/mechanics/keywords.md)：被[消耗](/mechanics/exhaust.md)时向[抽牌堆](/mechanics/draw_pile.md)生成一张复制品。[残鸣](/mechanics/keywords.md)：被消耗时从消耗牌堆选择<span style="color:#3aa675;font-weight:600">1</span>张加入手牌。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#d4a017;font-weight:600">8</span>点[格挡](/mechanics/block.md)，恢复共<span style="color:#3aa675;font-weight:600">24</span>点 PP，从[弃牌堆](/mechanics/discard_pile.md)随机抽<span style="color:#3aa675;font-weight:600">2</span>张牌，选择丢弃<span style="color:#3aa675;font-weight:600">1</span>张牌。[蚀返](/mechanics/shifan.md)：被[消耗](/mechanics/exhaust.md)时向[抽牌堆](/mechanics/draw_pile.md)生成一张复制品。[残鸣](/mechanics/canming.md)：被消耗时从消耗牌堆选择<span style="color:#3aa675;font-weight:600">1</span>张加入手牌。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#d4a017;font-weight:600">14</span>点格挡，恢复共<span style="color:#3aa675;font-weight:600">24</span>点 PP，从[弃牌堆](/mechanics/discard_pile.md)随机抽<span style="color:#3aa675;font-weight:600">2</span>张牌，选择丢弃<span style="color:#3aa675;font-weight:600">1</span>张牌。[蚀返](/mechanics/keywords.md)：被[消耗](/mechanics/exhaust.md)时向[抽牌堆](/mechanics/draw_pile.md)生成一张复制品。[残鸣](/mechanics/keywords.md)：被消耗时从消耗牌堆选择<span style="color:#3aa675;font-weight:600">1</span>张加入手牌。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#d4a017;font-weight:600">14</span>点格挡，恢复共<span style="color:#3aa675;font-weight:600">24</span>点 PP，从[弃牌堆](/mechanics/discard_pile.md)随机抽<span style="color:#3aa675;font-weight:600">2</span>张牌，选择丢弃<span style="color:#3aa675;font-weight:600">1</span>张牌。[蚀返](/mechanics/shifan.md)：被[消耗](/mechanics/exhaust.md)时向[抽牌堆](/mechanics/draw_pile.md)生成一张复制品。[残鸣](/mechanics/canming.md)：被消耗时从消耗牌堆选择<span style="color:#3aa675;font-weight:600">1</span>张加入手牌。
 
 ## 工作机制
 
@@ -63,9 +63,9 @@
 
 ## 相关能力
 
-- [蚀返](/mechanics/keywords.md)（消耗时生成复制品到抽牌堆）
+- [蚀返](/mechanics/shifan.md)（消耗时生成复制品到抽牌堆）
 
-- [残鸣](/mechanics/keywords.md)（消耗时从消耗牌堆选牌入手）
+- [残鸣](/mechanics/canming.md)（消耗时从消耗牌堆选牌入手）
 
 ## 相关机制
 

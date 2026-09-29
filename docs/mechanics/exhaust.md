@@ -20,7 +20,7 @@
 
 ## 相关卡牌
 
-- 带有"消耗"关键词的卡牌（如 [竭血残蝶](/cards/character/blood_exhaust_butterfly.md)）
+- 带有"消耗"关键词的卡牌（如 [大奖！](/cards/token/grand_prize.md)）
 
 ## 相关机制
 

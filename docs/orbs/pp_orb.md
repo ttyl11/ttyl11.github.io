@@ -27,12 +27,12 @@ PP充能球受[<span style="color:#d4a017;font-weight:600">集中</span>](/power
   - 触发时机：回合开始时
   - 目标选择：无目标，作用于自身所有未满 PP 的 PP 卡牌
   - 效果：随机分配 <span style="color:#3aa675;font-weight:600">2</span> 点 PP 给未满的 PP 卡牌（每次随机选一张未满 PP 牌 +1，直到分配完）
-  - 音效：`sfx/passive_frost_orb`
+  - 音效：`event:/sfx/characters/defect/defect_frost_channel`
 - **激发效果**：
   - 目标：无目标，作用于自身所有未满 PP 的 PP 卡牌
   - 效果：随机分配 <span style="color:#3aa675;font-weight:600">6</span> 点 PP 给未满的 PP 卡牌
-  - 音效：`sfx/evoke_frost_orb`
-- **生成音效**：`sfx/channel_frost_orb`
+  - 音效：`event:/sfx/characters/defect/defect_frost_channel`
+- **生成音效**：`event:/sfx/characters/defect/defect_frost_channel`（原版霜球仅此一个 FMOD 事件，被动/激发复用）
 - **集中影响**：被动数值和激发数值均受[集中](/powers/focus_power.md)影响
 - **PP 分配规则**：遍历所有 PP 卡牌，筛选未满 PP 的卡牌，每次随机选一张 +1 PP，重复至分配额度耗尽或所有 PP 牌已满
 - **悬浮提示**：无额外悬浮提示
@@ -43,7 +43,7 @@ PP充能球受[<span style="color:#d4a017;font-weight:600">集中</span>](/power
 
 ## 相关卡牌
 
-- [虚无](/cards/character/nothingness.md)（生成 1 个 PP 充能球）
+- [虚无](/fifth-skill/nothingness.md)（生成 1 个 PP 充能球）
 - [圣杯](/cards/colorless/holy_grail.md)（打出时随机生成 2 个充能球，含 PP）
 - [圣灵雷霆斩](/cards/colorless/holy_thunder_slash.md)（获得 4 个随机充能球，含 PP）
 - [魔法元素泡泡](/cards/character/magic_element_bubble.md)（随机生成充能球，含 PP）

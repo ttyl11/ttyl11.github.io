@@ -28,7 +28,7 @@
 |---|---|---|
 | 3 | [打击](/cards/basic/puni_strike.md) | 谱尼专属基础攻击牌 |
 | 3 | [防御](/cards/basic/puni_defend.md) | 谱尼专属基础防御牌 |
-| 1 | [虚无](/cards/character/nothingness.md) | 谱尼七形态之一 |
+| 1 | [虚无](/cards/basic/void_nothingness.md) | 谱尼七形态之一 |
 | 1 | [元素](/cards/basic/element.md) | 谱尼七形态之一 |
 | 1 | [能量](/cards/basic/energy.md) | 谱尼七形态之一 |
 | 1 | [生命](/cards/basic/life.md) | 谱尼七形态之一 |
@@ -42,16 +42,16 @@
 
 ## 初始遗物
 
-- [起源流转](/relics/starter/origin_shift.md)：每场战斗开始时获得[神灵](/powers/divine_power.md)属性；每经过 7 个战斗房间（精英算 2 次，Boss 算 3 次），随机将 1 张基础牌转化为对应的先古任务牌。
+- [圣灵起源](/relics/starter/origin_shift.md)：每场战斗开始时获得[神灵](/powers/divine_power.md)属性；每经过 7 个战斗房间（精英算 2 次，Boss 算 3 次），随机将 1 张基础牌转化为对应的先古任务牌。
 
-### 起源流转转化表
+### 圣灵起源转化表
 
-[起源流转](/relics/starter/origin_shift.md)会将基础形态牌转化为对应的先古任务牌，转化关系固定（7 种）：
+[圣灵起源](/relics/starter/origin_shift.md)会将基础形态牌转化为对应的先古任务牌，转化关系固定（7 种）：
 
 | 基础形态牌 | 转化为 | 先古任务牌位置 |
 |---|---|---|
 | [生命](/cards/basic/life.md) | [光荣之梦](/cards/ancient/glorious_dream.md) | 角色牌 |
-| [虚无](/cards/character/nothingness.md) | [圣灵悲魂曲](/cards/ancient/holy_requiem.md) | 角色牌 |
+| [虚无](/cards/basic/void_nothingness.md) | [圣灵悲魂曲](/cards/ancient/holy_requiem.md) | 角色牌 |
 | [轮回](/cards/basic/reincarnation.md) | [神圣复苏](/cards/ancient/holy_revival.md) | 角色牌 |
 | [元素](/cards/basic/element.md) | [神灵之触](/cards/ancient/divine_touch.md) | 先古牌 |
 | [能量](/cards/basic/energy.md) | [神圣启示歌](/cards/ancient/divine_revelation.md) | 先古牌 |
@@ -64,11 +64,11 @@
 
 ## 角色专属机制
 
-谱尼作为 Seer Mod 唯一角色，以下核心机制均围绕其设计：
+谱尼与混沌魔君·索伦森共用 Seer Mod 的基础机制（PP/元素/异常状态/全属性/固定伤害/充能球等），但谱尼有以下独有机制围绕其设计：
 
 - [PP 系统](/mechanics/pp-system.md)：谱尼卡牌独有的 PP 资源系统，每场战斗重置，打出 PP 卡消耗 PP。
 - [元素克制](/mechanics/element-affinity.md)：26 种元素属性相生相克，谱尼七形态对应不同元素。
-- [异常状态](/mechanics/abnormal-status.md)：25 种异常状态，是 mod 战斗的核心压制手段。
+- [异常状态](/mechanics/abnormal-status.md)：26 种异常状态，是 mod 战斗的核心压制手段。
 - [全属性](/mechanics/all_attributes.md)：力量/命中/防御/速度四属性体系。
 - [固定伤害](/mechanics/fixed-damage.md)：延迟结算、不可格挡的特殊伤害机制。
 - [充能球](/mechanics/orb.md)：谱尼初始 1 槽位，mod 新增 9 种充能球。
@@ -78,23 +78,23 @@
 
 ## 角色可用资源统计
 
-谱尼作为 mod 唯一角色，可使用以下全部 mod 内容：
+谱尼与混沌魔君·索伦森共用全部 mod 资源池，以下数字与索伦森一致：
 
 | 资源类型 | 数量 | 链接 |
 |---|---|---|
-| 角色牌 | 192 张 | [角色牌图鉴](/cards/character/) |
-| 先古牌 | 6 张 | [先古牌图鉴](/cards/ancient/) |
+| 角色牌 | 210 张 | [角色牌图鉴](/cards/character/) |
+| 先古牌 | 12 张 | [先古牌图鉴](/cards/ancient/) |
 | 无色牌 | 35 张 | [无色牌图鉴](/cards/colorless/) |
-| 诅咒牌 | 18 张 | [诅咒牌图鉴](/cards/curse/) |
-| 状态牌 | 13 张 | [状态牌图鉴](/cards/status/) |
-| 事件牌 | 9 张 | [事件牌图鉴](/cards/event/) |
-| 衍生牌 | 8 张 | [衍生牌图鉴](/cards/token/) |
+| 诅咒牌 | 17 张 | [诅咒牌图鉴](/cards/curse/) |
+| 状态牌 | 12 张 | [状态牌图鉴](/cards/status/) |
+| 事件牌 | 2 张 | [事件牌图鉴](/cards/event/) |
+| 衍生牌 | 18 张 | [衍生牌图鉴](/cards/token/) |
 | 任务牌 | 2 张 | [任务牌图鉴](/cards/quest/) |
-| 遗物 | 205 个 | [遗物图鉴](/relics/) |
-| 能力 | 200+ 种 | [能力图鉴](/powers/) |
-| 附魔 | 52 种 | [附魔图鉴](/enchantments/) |
+| 遗物 | 248 个 | [遗物图鉴](/relics/) |
+| 能力 | 405 种 | [能力图鉴](/powers/) |
+| 附魔 | 53 种 | [附魔图鉴](/enchantments/) |
 | 充能球 | 9 种 | [充能球图鉴](/orbs/) |
-| 药水 | 26 种 | [药水图鉴](/potions/) |
+| 药水 | 68 种 | [药水图鉴](/potions/) |
 
 ## 风味文字
 
@@ -106,8 +106,8 @@
 
 ## 小贴士
 
-- **低血量高机制**：初始生命仅 77，是所有角色中最低档之一，但凭借七形态体系和起源流转的转化机制，后期成长性极强。
-- **七形态是核心**：七张形态牌是谱尼卡组的核心，每张对应一种元素，配合元素克制系统可针对不同敌人。起源流转将基础牌转化为先古任务牌，是长期成长的关键。
+- **低血量高机制**：初始生命仅 77，是所有角色中最低档之一，但凭借七形态体系和圣灵起源的转化机制，后期成长性极强。
+- **七形态是核心**：七张形态牌是谱尼卡组的核心，每张对应一种元素，配合元素克制系统可针对不同敌人。圣灵起源将基础牌转化为先古任务牌，是长期成长的关键。
 
 ## 源码
 

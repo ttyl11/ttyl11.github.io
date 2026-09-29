@@ -13,14 +13,16 @@
 |---|---|
 | 睡眠回合数 | 2 |
 | 常之罚层数 | 1 |
+| 堕落百分比 | 19（%） |
 
 ## 描述
 
-敌人回合开始时，消除其[全属性](/mechanics/all_attributes.md)强化，消除成功则令其[睡眠](/powers/sleep_power.md)<span style="color:#3aa675;font-weight:600">2</span>回合。<br/>自身回合开始时，获得1层<span style="color:#9b59b6;font-weight:600">[常之罚](/powers/chang_fa_power.md)</span>。
+敌人回合开始时，消除其[全属性](/mechanics/all_attributes.md)强化，消除成功则令其[睡眠](/powers/sleep_power.md)<span style="color:#3aa675;font-weight:600">2</span>回合。<br/>自身回合开始时，获得1层<span style="color:#9b59b6;font-weight:600">[常之罚](/powers/chang_fa_power.md)</span>。<br/>打出带<span style="color:#d4a017;font-weight:600">「常」字</span>的牌时，<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span><span style="color:#3aa675;font-weight:600">19</span>%。
 
 - **敌方触发**：敌方回合开始时，消除其四项属性（[力量](/powers/strength_power.md)/[防御](/powers/defense_power.md)/[速度](/powers/speed_power.md)/[命中](/powers/accuracy_power.md)）的正值层数，至少消除一项才施加睡眠。
 - **睡眠效果**：被睡眠的敌人攻击伤害降低 50%，受到任何未格挡伤害时立即苏醒（移除全部睡眠层数），该敌人回合结束减 1 层。
 - **自身触发**：自身回合开始时无条件获得 1 层[常之罚](/powers/chang_fa_power.md)，覆盖你整个回合和其后的敌方回合，敌方回合结束时才移除。
+- **堕落19%**：打出带「常」字的牌时，自身获得"当前堕落层数×19%"（向下取整）的[堕落](/powers/fallen_power.md)，与[黑啵啵](/relics/uncommon/hei_bo_bo.md)同口径。
 
 ## 风味文字
 

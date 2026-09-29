@@ -1,16 +1,16 @@
-# 妖族异术
+﻿# 妖族异术
 
 <img src="/images/cards/yao_zu_yi_shu.png" alt="妖族异术" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
-- **分类**: 角色（圣灵谱尼）牌
+- **分类**: 角色牌
 - **最大PP**: 3
 - **能量消耗**: 1
 - **类型**: 技能
 - **稀有度**: 稀有
 - **目标**: 自身
-- **关键词**: [溯引](/mechanics/suyin.md)
+- **关键词**: [溯引](/mechanics/suyin.md)、[弹控](/mechanics/dan_kong.md)
 - **可升级**: 是（1 级）
 
 ### 数值参数
@@ -19,16 +19,17 @@
 |---|---|---|
 | 自伤 | 7 | 7 |
 | 反弹回合数 | 4 | 4 |
+| 堕落 | 50%+20 | 50%+20 |
 | PP | 3 | 3 |
 | 最大PP | 3 | 3 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 损失<span style="color:#3aa675;font-weight:600">7</span>点生命，<span style="color:#3aa675;font-weight:600">4</span>回合内免疫并反弹[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。战斗结束后随机升级一张牌。[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#9b59b6;font-weight:600">仪式</span>](/powers/ritual_power.md)。
+PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 损失<span style="color:#3aa675;font-weight:600">7</span>点生命，<span style="color:#3aa675;font-weight:600">4</span>回合内免疫并反弹[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。战斗结束后随机升级一张牌。[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#9b59b6;font-weight:600">仪式</span>](/powers/ritual_power.md)。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">50%+20</span>。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">固有</span>](/mechanics/innate.md)。PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 损失<span style="color:#3aa675;font-weight:600">7</span>点生命，<span style="color:#3aa675;font-weight:600">4</span>回合内免疫并反弹[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。战斗结束后随机升级一张牌。[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#9b59b6;font-weight:600">仪式</span>](/powers/ritual_power.md)。
+[<span style="color:#d4a017;font-weight:600">固有</span>](/mechanics/innate.md)。PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 损失<span style="color:#3aa675;font-weight:600">7</span>点生命，<span style="color:#3aa675;font-weight:600">4</span>回合内免疫并反弹[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。战斗结束后随机升级一张牌。[<span style="color:#d4a017;font-weight:600">溯引</span>](/mechanics/suyin.md)：获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#9b59b6;font-weight:600">仪式</span>](/powers/ritual_power.md)。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">50%+20</span>。
 
 ## 小贴士
 
@@ -39,6 +40,7 @@ PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa
 - **战斗结束随机升级一张牌**：每场战斗胜利后，随机把牌库中一张尚未升级的牌永久+。持久战/多波次 run 中越打牌库越强，是典型的"越用越强"成长件。随机性意味着可能升级到不那么关键的牌，但总量可观。
 - **溯引白嫖仪式**：[溯引](/mechanics/suyin.md)在抽到此牌时触发，获得 <span style="color:#3aa675;font-weight:600">1</span> 层[仪式](/powers/ritual_power.md)——仅当抽到并还在手牌时净亏不了。仪式层数越高，后续每回合收益越大，属于锦上添花的持续强化。
 - **升级固化启动**：升级后[固有](/mechanics/innate.md)——开局就在[手牌](/mechanics/hand.md)中，保证第一回合就能打出免疫反弹与启动成长，减少关键回合裸奔的风险。
+- **堕落滚雪球，但堕落本身是负面**：[堕落](/powers/fallen_power.md) = 当前[堕落](/powers/fallen_power.md)层数 × <span style="color:#3aa675;font-weight:600">50%</span> + <span style="color:#3aa675;font-weight:600">20</span>——堕落越多涨得越快，但堕落可不是奖励：层数每满<span style="color:#3aa675;font-weight:600">100</span>就会被[魔君接管](/powers/demon_takeover_power.md)强制乱打手牌，等于把失控进度越推越快。打这张牌等于主动接受"负面但不算致命"的代价——有[混沌起源](/relics/starter/chaos_origin.md)回上限兜底时可承受，没有时要留心别让堕落叠过头。
 - **性价比**：<span style="color:#3aa675;font-weight:600">1</span> 费、PP<span style="color:#3aa675;font-weight:600">3</span> 换长期免疫反弹 + 永久升级引擎，稀有度合理。自伤 <span style="color:#3aa675;font-weight:600">7</span> 点是主要代价，配回复/护甲才稳；纯速攻短战斗收益相对降低。
 
 ## 相关能力
@@ -51,6 +53,7 @@ PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa
 - [异常状态](/mechanics/abnormal-status.md)：被免疫并反弹的独立状态体系
 - [溯引](/mechanics/suyin.md)：抽到此牌时触发
 - [固有](/mechanics/innate.md)：升级后开局入手
+- [堕落](/powers/fallen_power.md)：打出时按 50%+20 累积堕落层数
 - [PP 系统](/mechanics/pp-system.md)
 
 ## 源码

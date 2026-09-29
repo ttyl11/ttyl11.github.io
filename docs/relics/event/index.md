@@ -1,4 +1,4 @@
-# 事件遗物（17 项）
+# 事件遗物（18 项）
 
 通过事件或特殊途径获取的遗物。其中部分遗物当前无获取途径，已标注 。
 
@@ -18,6 +18,7 @@
 <tr><td><img src="/images/relics/ethereal_next_combat_relic.png" alt="虚无诅咒" style="width:80px;height:auto" /></td><td><a href="ethereal_next_combat_relic">虚无诅咒</a></td><td>本场战斗所有卡牌附带虚无。战斗结束后移除此遗物。</td></tr>
 <tr><td><img src="/images/relics/genesis_box.png" alt="创世魔盒" style="width:80px;height:auto" /></td><td><a href="genesis_box">创世魔盒</a></td><td>每次击败精英后，随机获得1件<span style="color:#d4a017;font-weight:600">塔罗遗物</span>。</td></tr>
 <tr><td><img src="/images/relics/gold_slime_relic.png" alt="黄金史莱姆" style="width:80px;height:auto" /></td><td><a href="gold_slime_relic">黄金史莱姆</a></td><td>每场战斗开始时，恢复等量于牌组中“黏液”牌数量的生命。打出“暴政统治者”20次后，变为“暴君史莱姆”。</td></tr>
+<tr><td><img src="/images/relics/permanent_element_relic.png" alt="属性转化印记" style="width:80px;height:auto" /></td><td><a href="permanent_element_relic">属性转化印记</a></td><td>记录你永久改变属性的元素。持有期间，于每场战斗开始时重新施加该元素。当前属性：{当前元素}。（使用「永久变 X 系」药水或庆典多味豆时自动附身）</td></tr>
 <tr><td><img src="/images/relics/star_tracker_relic.png" alt="星辰之录" style="width:80px;height:auto" /></td><td><a href="star_tracker_relic">星辰之录</a></td><td>记录你在泰坦之灵房间获得的所有永久增益。  已累计抽奖：0 次 ★ 0  ★★ 0  ★★★ 0  ★★★★ 0  ★★★★★ 0  ★★★★★★ 0  ——— 当前永久效果 ——— 增伤 %  减伤 % 活力 0  辉星 0  召唤 0 </td></tr>
 <tr><td><img src="/images/relics/status_cards_next_combat_relic.png" alt="状态牌诅咒" style="width:80px;height:auto" /></td><td><a href="status_cards_next_combat_relic">状态牌诅咒</a></td><td>本场战斗首回合开始时，向牌堆添加状态牌。每场战斗结束后移除。</td></tr>
 <tr><td><img src="/images/relics/tyrant_slime_relic.png" alt="暴君史莱姆" style="width:80px;height:auto" /></td><td><a href="tyrant_slime_relic">暴君史莱姆</a></td><td>每回合开始时，消耗自身所有“黏液”，每消耗一张，对随机敌人施加1层凝滞。受到攻击伤害时，令敌方速度-2、命中-2。造成伤害时，50%概率伤害翻倍，否则为目标施加15层固定伤害。战斗结束时，移除牌组中一张“黏液”。</td></tr>

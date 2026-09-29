@@ -1,4 +1,4 @@
-﻿# 悼
+# 悼
 
 > mod 关键词
 
@@ -22,7 +22,7 @@
 下回合玩家进入"自动预打出阶段"的后期时触发瓦库行动：
 
 - 仅悼能力的拥有者触发
-- 循环打出最多 99 张牌，每张牌：
+- 循环打出最多 33 张牌，每张牌：
   - 若战斗已结束或玩家已准备结束回合，则停止
   - 从手牌中查找第一张可打出的卡牌
   - 根据卡牌的目标类型选择目标：
@@ -40,7 +40,7 @@
 
 ## 相关卡牌
 
-- [岳·命寻星叹](/cards/event/yue_fate_star_sigh.md)（PP 1/1，下个回合所有牌会多打出一次）
+- [岳·命寻星叹](/fifth-skill/yue_fate_star_sigh.md)（PP 1/1，2 费；下个回合由瓦库接管自动打牌，同时自身所有牌结算次数 +1）
 - [鲲·千里击涛](/cards/character/kun_thousand_miles_wave.md)（PP 5/5，伤害 36，触发悼）
 - [鹏·万里遨游](/cards/character/peng_thousand_miles_soar.md)（衍生卡，触发悼）
 - [千里击涛](/cards/colorless/thousand_miles_wave.md)（带悼，强制结束回合）

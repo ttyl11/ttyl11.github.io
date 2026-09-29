@@ -11,7 +11,7 @@
 - **稀有度**: 基础
 - **目标**: 敌方单体
 - **可升级**: 是（1 级）
-- **对应先古牌**: [神灵之触](/cards/ancient/divine_touch.md)（由[起源流转](/relics/starter/origin_shift.md)转化）
+- **对应先古牌**: [神灵之触](/cards/ancient/divine_touch.md)（由[圣灵起源](/relics/starter/origin_shift.md)转化）
 
 ### 数值参数
 

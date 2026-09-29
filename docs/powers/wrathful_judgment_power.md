@@ -44,7 +44,7 @@
 
 - [傳馥明王最胜语](/cards/character/fragrant_king_supreme_word.md)（拒赦怒威态时下一次伤害提升 54%）
 - [义乂梵我婆娑纱](/cards/character/righteous_brahma_veil.md)（拒赦怒威态时使对手害怕）
-- [万卍觉心法界镇](/cards/character/myriad_awakening_realm_suppression.md)
+- [万卍觉心法界镇](/fifth-skill/myriad_awakening_realm_suppression.md)
 - [一莲托生·孽妣](/cards/character/lotus_birth_sin_ancestor.md)
 
 ## 源码

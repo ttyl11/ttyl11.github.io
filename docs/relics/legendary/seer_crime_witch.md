@@ -10,7 +10,7 @@
 
 ## 描述
 
-战斗结束的[<span style="color:#d4a017;font-weight:600">卡牌奖励</span>](/mechanics/game-flow.md)张数固定为<span style="color:#3aa675;font-weight:600">7</span>。每场战斗后，额外获得一次[<span style="color:#d4a017;font-weight:600">稀有卡牌奖励</span>](/mechanics/custom-rarity.md)。卡牌奖励界面额外出现「余罪」选项：放弃本次卡牌选择，随机获得七罪之一的效果（无负面、可无限次）。每并入<span style="color:#3aa675;font-weight:600">1</span>个七罪，每次随机触发<span style="color:#3aa675;font-weight:600">1</span>个效果（即触发数量 = 已并入七罪数）。
+战斗结束的[<span style="color:#d4a017;font-weight:600">卡牌奖励</span>](/mechanics/game-flow.md)张数固定为<span style="color:#3aa675;font-weight:600">7</span>。每场战斗后，额外获得一次[<span style="color:#d4a017;font-weight:600">稀有卡牌奖励</span>](/mechanics/custom-rarity.md)。卡牌奖励界面额外出现「余罪」选项：放弃本次卡牌选择，随机获得七罪之一的效果（无负面、可无限次）。每并入<span style="color:#3aa675;font-weight:600">1</span>个七罪，每次随机触发<span style="color:#3aa675;font-weight:600">1</span>个效果（即触发数量 = 已并入七罪数）。每回合开始时，获得<span style="color:#3aa675;font-weight:600">7</span>层<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span>。
 
 ## 风味文字
 
@@ -35,6 +35,8 @@
 - **「余罪」按钮**：在任何卡牌奖励界面出现。点击即放弃本次选牌，并**随机获得七罪之一的效果**——效果来自下方七罪的"无负面版"，可无限次使用。
 
 - **随机效果 = 已并入数**：每次点击会从七罪里**不重复**地随机抽取「并入数」个效果并全部触发。并入越多，一次点出越多效果。
+
+- **每回合堕落 7**：自身回合开始时获得 7 层[堕落](/powers/fallen_power.md)（每场战斗独立计数）。堕落满 100 层倍数会触发混沌化身（抽 3 张 + 魔君接管自动打牌），长战斗中会自动滚出连锁收益。
 
 - **新局清零计数**：「余罪」抽到各罪多少次会显示在悬浮框里，用于回溯这次随机到了什么；进入新的一局自动清零。
 
@@ -65,6 +67,8 @@
 - **抢先手建优势**：每场开战先靠固定 7 张和额外稀有奖励把卡池喂肥，再用余罪滚资源，中后期卡组厚度和资源密度都远超无魔女的对局。
 
 - **注意与傲慢排除的差异**：余罪会排除当批复选牌，若你正想在奖励里锁定某张牌，先拿到手再点，避免误排。
+
+- **每回合 7 层堕落是白送的联动资源**：即便不玩索伦森角色，拿到余罪魔女后每回合白得 7 层[堕落](/powers/fallen_power.md)——长战斗自动往 100 层里程碑滚，满 100 层触发一次混沌化身（抽 3 张牌 + 魔君接管自动打牌）；配合[混沌起源](/relics/starter/chaos_origin.md)（每 50 堕落 +1 最大生命）、[万魔天尊](/relics/rare/wan_mo_tian_zun.md)（每场战斗开始堕落 X）等堕落体系收益还能持续变现。
 
 - **多人协作**：在多人中，固定 7 张 + 多波稀有奖励会让自身成长明显更快，可作为团队的主力输出/资源位。
 
