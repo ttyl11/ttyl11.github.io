@@ -31,4 +31,4 @@
 
 - `SeerKeyOnePower.cs`
 - 多段共享判定依据：原版 `AttackCommand.cs:536-538`
-- 随机池配置：`SeerElementalCore.cs:99`（`0.000025/房`）
+- 随机池配置：`SeerGlobalMonsterPowerPatch.cs`（`0.000025/房`）

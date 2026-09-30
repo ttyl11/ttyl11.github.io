@@ -38,7 +38,7 @@ stateDiagram-v2
 
 | 招式 | 意图 | 描述 | 数值 |
 |---|---|---|---|
-| 冲天霸气 | 冲天霸气 | 进入愤怒姿态，下两次攻击必定造成致命一击。切换姿态时清空玩家随机2张PP牌并解除自身负面减益。 | 暴击次数 <span style="color:#3aa675;font-weight:600">2</span>；清PP <span style="color:#3aa675;font-weight:600">2</span> 张 |
+| 冲天霸气 | 冲天霸气 | 进入愤怒姿态，下两次攻击必定暴击。切换姿态时清空玩家随机2张PP牌并解除自身负面减益。 | 暴击次数 <span style="color:#3aa675;font-weight:600">2</span>；清PP <span style="color:#3aa675;font-weight:600">2</span> 张 |
 | 白虎的审判 | 白虎的审判 | 造成伤害。你获得瘫痪2层。 | 伤害 <span style="color:#3aa675;font-weight:600">10</span>；瘫痪 <span style="color:#3aa675;font-weight:600">2</span> 层 |
 | 破天虎威震 | 破天虎威震 | 造成伤害多次。 | 伤害 <span style="color:#3aa675;font-weight:600">4</span> × <span style="color:#3aa675;font-weight:600">3</span> 次 |
 | 雷光铠甲 | 雷光铠甲 | 进入平静姿态，全属性+2。切换姿态时清空玩家随机2张PP牌并解除自身负面减益。 | 力量/防御/命中/速度 各 <span style="color:#3aa675;font-weight:600">+2</span>；清PP <span style="color:#3aa675;font-weight:600">2</span> 张 |
@@ -92,7 +92,7 @@ stateDiagram-v2
 
 冲天霸气暴击计数器（不可消除，计数器类型）。
 
-- **效果**：下 2 次攻击必定致命一击（1.5x 伤害）。自身攻击且层数大于 0 时伤害 ×1.5。每次攻击后层数 -1，归零时移除。
+- **效果**：下 2 次攻击必定暴击（真暴击判定，×1.5 由[暴击](/powers/critical_strike_power.md)引擎结算，触发"暴击时"联动）。每次攻击后层数 -1，归零时移除。
 - **与锁定II 的差异**：锁定II 是永久 100% 暴击（实例化类型），本能力是计数器类型，仅下 2 次攻击生效。
 
 ## 遭遇战

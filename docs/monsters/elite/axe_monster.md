@@ -55,7 +55,7 @@ stateDiagram-v2
 - **冰封**：攻击伤害降低 <span style="color:#3aa675;font-weight:600">20%</span>，回合结束时移除并转化为 <span style="color:#3aa675;font-weight:600">2</span> 层冻伤
 - **冻伤**：回合开始时受到 <span style="color:#3aa675;font-weight:600">5</span> 点伤害并减少 1 层（每层持续 1 回合）
 - **先制 -1**：下一张打出的牌耗能 <span style="color:#3aa675;font-weight:600">+1</span>，打出后移除所有先制
-- **速度 -2**：每 2 层影响 1 张抽牌数，-2 即少抽 <span style="color:#3aa675;font-weight:600">1</span> 张牌
+- **速度 -2**：负速度不再直接减少抽牌，而是镜像给敌方——每只敌人视为 +2 层，各自回合开始获得最大生命 <span style="color:#3aa675;font-weight:600">10%</span> 的格挡
 - **攻击 +2**（自身力量）：每层 +1 攻击伤害
 :::
 

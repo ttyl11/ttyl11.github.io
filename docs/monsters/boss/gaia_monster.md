@@ -8,7 +8,7 @@
 |---|---|
 | 分类 | [Boss 怪物](/monsters/boss/) |
 | 生命值 | <span style="color:#3aa675;font-weight:600">138 - 143</span> |
-| 被动能力 | [返璞归真](#被动能力)（暴击回血）+ [暴击](#被动能力)（<span style="color:#3aa675;font-weight:600">12.5%</span> 暴击率）+ [横幅规则](#横幅规则)（开局 <span style="color:#3aa675;font-weight:600">3</span> 选 <span style="color:#3aa675;font-weight:600">1</span>） |
+| 被动能力 | [返璞归真](#被动能力)（暴击回血）+ [暴击](#被动能力)（初始暴击率 <span style="color:#3aa675;font-weight:600">0%</span>，随命中成长）+ [横幅规则](#横幅规则)（开局 <span style="color:#3aa675;font-weight:600">3</span> 选 <span style="color:#3aa675;font-weight:600">1</span>） |
 
 ## 行动逻辑
 
@@ -36,7 +36,7 @@ flowchart TD
 | 招式 | 意图 | 描述 | 数值 |
 |---|---|---|---|
 | 石破天惊 | 攻击 | 造成 <span style="color:#3aa675;font-weight:600">16</span> 点伤害。自身速度 +1，并反转你所有的属性提升 | 伤害 <span style="color:#3aa675;font-weight:600">16</span>；速度 +<span style="color:#3aa675;font-weight:600">1</span> |
-| 不灭斗气 | 不灭斗气 | 自身全属性 +2，且下次攻击必定造成致命一击 | 全属性 +<span style="color:#3aa675;font-weight:600">2</span> |
+| 不灭斗气 | 不灭斗气 | 自身全属性 +2，且下次攻击必定暴击 | 全属性 +<span style="color:#3aa675;font-weight:600">2</span> |
 | 日月皆伤 | 攻击 | 造成 <span style="color:#3aa675;font-weight:600">12</span> 点伤害。将下次受到的伤害双倍反弹给你 | 伤害 <span style="color:#3aa675;font-weight:600">12</span> |
 | 碎梦吟 | 多段攻击 | 造成 <span style="color:#3aa675;font-weight:600">3</span> 点伤害 <span style="color:#3aa675;font-weight:600">5</span> 次。每次伤害施加 1 层易伤 | <span style="color:#3aa675;font-weight:600">3</span> 伤害 × <span style="color:#3aa675;font-weight:600">5</span> 次 |
 
@@ -64,13 +64,13 @@ flowchart TD
 
 ### 返璞归真
 
-自身造成暴击时，恢复等量于该次暴击伤害的生命值。每次命中单独判定（多段攻击每次命中都判定暴击回血）。
+自身造成暴击时，恢复等量于该次暴击伤害的生命值。多段攻击的每一段命中都会结算一次回血（暴击判定整段共享）。
 
 - **能力类型**：不可消除（不被消除 buff/debuff 类效果清除）。
 
 ### 暴击
 
-攻击时有 <span style="color:#3aa675;font-weight:600">12.5%</span> 几率造成暴击，造成 <span style="color:#3aa675;font-weight:600">1.5</span> 倍伤害。盖亚开局自带 1 层，是与"返璞归真"联动的内部能力。
+攻击伤害暴击时 ×<span style="color:#3aa675;font-weight:600">1.5</span>。暴击率由盖亚自己的命中提供（每层 +<span style="color:#3aa675;font-weight:600">10%</span>）——盖亚开局没有命中（暴击率 <span style="color:#3aa675;font-weight:600">0%</span>），使用「不灭斗气」（全属性 +2）后命中增长，暴击率随之提升。盖亚开局自带 1 层暴击，是与「返璞归真」联动的内部能力。
 
 ## 横幅规则
 

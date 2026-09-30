@@ -66,7 +66,7 @@
 | <img src="/images/cards/fallen_dragon_force.png" alt="堕落龙力" style="width:80px;height:auto" /> | [堕落龙力](fallen_dragon_force) | PP: 5/5 龙属性生物随机变属性；其余生物获14点格挡。堕落18。 |
 | <img src="/images/cards/fan_yun_fu_yu.png" alt="翻云覆雨" style="width:80px;height:auto" /> | [翻云覆雨](fan_yun_fu_yu) | PP: 5/5 对单个敌人造成8点伤害，然后将弃牌堆洗入抽牌堆。 |
 | <img src="/images/cards/fatal_flame.png" alt="绝命火焰" style="width:80px;height:auto" /> | [绝命火焰](fatal_flame) | PP: 5/5 造成5点伤害。14%概率秒杀（对Boss无效）。 |
-| <img src="/images/cards/fate_reincarnation.png" alt="命宇轮回" style="width:80px;height:auto" /> | [命宇轮回](fate_reincarnation) | PP: 5/5 选择抽牌堆的1张牌，附魔星皇之怒。获得8点格挡。 |
+| <img src="/images/cards/fate_reincarnation.png" alt="命宇轮回" style="width:80px;height:auto" /> | [命宇轮回](fate_reincarnation) | PP: 5/5 选择抽牌堆的1张牌，附魔星皇之怒。获得10点格挡。 |
 | <img src="/images/cards/feather_phantom.png" alt="黎羽幻生" style="width:80px;height:auto" /> | [黎羽幻生](feather_phantom) | PP: 5/5 全属性+1。获得1层神耀能量。下两次攻击必定暴击。 |
 | <img src="/images/cards/february_camera.png" alt="二月的相机" style="width:80px;height:auto" /> | [二月的相机](february_camera) | PP: 1/1 记录自身与最强敌人的生命差值。每回合开始时，生命高于此值的敌人调整为该值。 |
 | <img src="/images/cards/find_fault.png" alt="找茬" style="width:80px;height:auto" /> | [找茬](find_fault) | PP: 5/5 每安装一个mod，场上所有生物获得1回合狂暴。对所有敌人造成6点伤害。 |

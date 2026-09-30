@@ -35,7 +35,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">固有</span>](/keywords/innate.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 抽<span style="color:#3aa675;font-weight:600">1</span>张牌，获得<span style="color:#3aa675;font-weight:600">2</span>点[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)，损失<span style="color:#3aa675;font-weight:600">3</span>点生命，所有敌人获得<span style="color:#3aa675;font-weight:600">4</span>层[<span style="color:#d4a017;font-weight:600">灾厄</span>](/powers/doom_power.md)，获得<span style="color:#3aa675;font-weight:600">5</span>点[<span style="color:#d4a017;font-weight:600">辉星</span>](/mechanics/star.md)，给其它牌分配<span style="color:#3aa675;font-weight:600">6</span>点PP，[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">7</span>。每打出一次，所有数值+1（PP不变，耗能+1）。
+[<span style="color:#d4a017;font-weight:600">固有</span>](/mechanics/innate.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 抽<span style="color:#3aa675;font-weight:600">1</span>张牌，获得<span style="color:#3aa675;font-weight:600">2</span>点[<span style="color:#d4a017;font-weight:600">能量</span>](/mechanics/energy.md)，损失<span style="color:#3aa675;font-weight:600">3</span>点生命，所有敌人获得<span style="color:#3aa675;font-weight:600">4</span>层[<span style="color:#d4a017;font-weight:600">灾厄</span>](/powers/doom_power.md)，获得<span style="color:#3aa675;font-weight:600">5</span>点[<span style="color:#d4a017;font-weight:600">辉星</span>](/mechanics/star.md)，给其它牌分配<span style="color:#3aa675;font-weight:600">6</span>点PP，[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">7</span>。每打出一次，所有数值+1（PP不变，耗能+1）。
 
 ## 小贴士
 
@@ -53,7 +53,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 - [灾厄](/powers/doom_power.md)
 - [辉星](/mechanics/star.md)
 - [堕落](/powers/fallen_power.md)
-- [固有](/keywords/innate.md)
+- [固有](/mechanics/innate.md)
 
 ## 相关卡牌
 

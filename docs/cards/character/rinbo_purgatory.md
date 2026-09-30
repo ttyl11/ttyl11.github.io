@@ -1,4 +1,4 @@
-﻿# 轮墓边狱
+# 轮墓边狱
 
 <img src="/images/cards/rinbo_purgatory.png" alt="轮墓边狱" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -60,7 +60,7 @@
 
 - **消强专治叠四维的强敌**：只消四维（力量/防御/命中/速度），对叠[力量](/powers/strength_power.md)/[防御](/powers/defense_power.md)的精英和 Boss 是关键解牌；反弱则是"属性下降流"的自救开关，配合先被压属性再反打的节奏。
 
-- **反弱的命中/速度即时收益弱**：力量正层直接加攻击伤害、防御正层直接减受击伤害，但命中正层只用于抵消负命中、无直接增益，速度需累积到 <span style="color:#3aa675;font-weight:600">2</span> 层才多抽 <span style="color:#3aa675;font-weight:600">1</span> 张——若自身只有命中/速度是负值，反弱的即时收益不如力量/防御明显。
+- **反弱的命中/速度即时收益弱**：力量正层直接加攻击伤害、防御正层直接减受击伤害，但命中正层只提供 +10%/层的暴击率（仅放大攻击伤害），速度单层只多抽 1 张并须弃掉半数——若自身只有命中/速度是负值，反弱的即时收益不如力量/防御明显。
 
 - **升级降费**：<span style="color:#3aa675;font-weight:600">1</span> 费 → <span style="color:#3aa675;font-weight:600">0</span> 费，其余数值不变。0 费让"消强反弱+格挡+残鸣"整套可以当免费动作穿插在任何回合，性价比大幅提升。
 

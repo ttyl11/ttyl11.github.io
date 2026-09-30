@@ -1,4 +1,4 @@
-﻿# 冲天霸气
+# 冲天霸气
 
 > **归属**：怪物专属（玩家无法施加）
 > **施加来源**：怪物招式——[泰格尔](/monsters/boss/tiger_monster.md)「冲天霸气」：切入[愤怒姿态](/powers/wrath_stance_power.md)的同时施加 <span style="color:#3aa675;font-weight:600">2</span> 层
@@ -15,19 +15,19 @@
 
 | 参数 | 数值 |
 |---|---|
-| 致命一击倍率 | 1.5 |
+| 暴击倍率 | 1.5 |
 | 施加层数 | 2 |
 
 ## 描述
 
-下<span style="color:#3aa675;font-weight:600">2</span>次攻击必定<span style="color:#d4a017;font-weight:600">致命一击</span>。
+下<span style="color:#3aa675;font-weight:600">2</span>次攻击必定<span style="color:#d4a017;font-weight:600">暴击</span>。
 
 ## 详细机制
 
 - **计数器版"必定暴击"**：与[必定暴击](/powers/next_guaranteed_crit_power.md)（单次、攻击后整体移除）不同，本能力是计数器——每次攻击后层数 -1，归零才移除，真正实现"下 2 次"。
-- **致命一击 ×1.5**：拥有者造成攻击伤害时伤害 ×1.5，无需掷骰——独立乘法修正，与其它乘区链式相乘。
+- **暴击 ×1.5（真暴击）**：攻击前写入暴击判定，倍率由[暴击](/powers/critical_strike_power.md)引擎结算——**触发全部"暴击时"联动**（[镜](/powers/mirror_power.md)、[二律背反](/powers/antinomy_power)等），在场期间暴击率显示 100%。
 - **多段攻击算一次**：一次攻击命令（如"攻击 ×3"）无论几段都只让层数 -1，且**每一段都享受 ×1.5**——多段攻击在计数器上"赚"。
-- **不算"真暴击"**：×1.5 不写入暴击判定系统——"暴击时触发"类效果（[镜](/powers/mirror_power.md)、[二律背反](/powers/antinomy_power.md)等）不因本能力触发；若同一次攻击的自然暴击（12.5%）也命中，总倍率 ×1.5 ×1.5 = **×2.25**。
+- **与随机暴击同层**：与[命中](/powers/accuracy_power.md)/[锁定](/powers/lock_one_power.md)提供的暴击属同一判定——同时存在时仍为 ×1.5，不会叠乘。
 - **只影响常规攻击**——固定伤害、生命流失等非攻击伤害不吃加成。
 
 ## 小贴士

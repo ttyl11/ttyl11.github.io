@@ -1,4 +1,4 @@
-﻿# 至序圣华
+# 至序圣华
 
 <img src="/images/relics/order_holy_hua.png" alt="至序圣华" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -21,7 +21,7 @@
 
 ①裁决：在每场战斗开始时，生命值最高的敌人获得<span style="color:#3aa675;font-weight:600">3</span>层<span style="color:#9b59b6;font-weight:600">[处决](/powers/execute_power.md)</span>。<br/>②圣铸：每消耗1点能量铸造1。累计铸造达到<span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">30</span>/<span style="color:#3aa675;font-weight:600">100</span>时，分别生成<span style="color:#d4a017;font-weight:600">圣剑一/二/三</span>（每场战斗各一次）。打出<span style="color:#d4a017;font-weight:600">君王之剑</span>后先制+1。首次死亡时回复到最大生命值的<span style="color:#3aa675;font-weight:600">20</span>%，此后永久失去圣铸与复活能力，改为：每场战斗开始时消耗所有攻击牌并清空其PP，每清空1点PP铸造1。<br/>③加冕：第<span style="color:#3aa675;font-weight:600">1</span>回合免疫异常状态与属性下降。前<span style="color:#3aa675;font-weight:600">3</span>回合打出牌不消耗PP。<br/>④秩序：在你的回合结束时，生命值高于<span style="color:#3aa675;font-weight:600">50%</span>的敌人使你先制+1；生命值等于或低于<span style="color:#3aa675;font-weight:600">50%</span>的敌人获得1层<span style="color:#9b59b6;font-weight:600">[处决](/powers/execute_power.md)</span>。
 
-- **裁决按最大生命值选目标**：①的处决挂在**最大生命值最高**的敌人身上（不是当前生命）——Boss 战必定点名 Boss，多怪战则给血条最厚的那只。开局就是满 3 层，处决三档效果全开。
+- **裁决按最大生命值选目标**：①的处决挂在**最大生命值最高**的敌人身上（不是当前生命）——Boss 战必定点名 Boss，多怪战则给血条最厚的那只。开局就是满 3 层，处决三档效果全开。注意 3 层的「清空自身全部增益」**连复活类增益一并清除**（[复苏](/powers/revive_three_power.md)I/II/III、【不灭之血】等，详见[处决](/powers/execute_power.md)）——被清掉的怪之后被击杀**不会再复活**（菲尼克斯涅槃、谱尼换形态这类非增益型复活不受影响）。
 - **圣铸的所有来源都计数**：②不只统计能量消耗——[铸造](/mechanics/forge.md)无论来自哪里（本遗物的能量消耗、[神剑·天音](/relics/uncommon/divine_sword_tianyin.md)的受伤铸造、[星灵圣王](/relics/common/star_holy_king.md)的生成/消耗铸造等），只要是你自己触发的铸造，全部累积进 10/30/100 计数。同时每次铸造照常喂养君王之剑（永久+等量伤害，没有剑时首次铸造直接生成一张到手牌）。
 - **圣剑生成进手牌**：达到 10/30/100 铸造量的瞬间，对应的[圣剑一](/cards/token/holy_sword_one.md)/[圣剑二](/cards/token/holy_sword_two.md)/[圣剑三](/cards/token/holy_sword_three.md)立即加入手牌（每场各限一次）。三把圣剑都是 0 费能力牌，打出时各自附带先制+1。
 - **复活是一次性保险**：首次死亡时复活到最大生命的 20%（向下取整），复活过程**无敌**（免疫伤害、不可被施加效果、不可被选中，不存在被补刀）。复活后当场失去圣铸计数与复活能力，且永久切换：此后每场战斗开始时，**所有攻击牌（PP 牌）被移入消耗堆并清空 PP**，每清空 1 点 PP 铸造 1。裁决/加冕/秩序不受复活影响，照常生效。

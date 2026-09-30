@@ -24,18 +24,18 @@
 ## 详细机制
 
 - **回合开始触发**：持有者（怪物）自己回合开始时，给**玩家方全体**施加[命中](/powers/accuracy_power.md) -<span style="color:#3aa675;font-weight:600">2</span>（负层数命中）。
-- **落空判定**：负命中每层提供 <span style="color:#3aa675;font-weight:600">5%</span> 未命中概率——命中 -2 时每次攻击 <span style="color:#3aa675;font-weight:600">10%</span> 概率整刀落空（伤害 ×0），且随回合持续累积。
-- **多段攻击共享判定**：落空掷骰在整个攻击命令发起前进行一次——多段攻击要么全部落空、要么全部命中。
-- **只影响常规攻击**——[固定伤害](/powers/fixed_damage_power.md)、DoT 不吃命中判定。
+- **闪避判定**：负命中每层使**受击目标**[闪避](/powers/dodge_power.md)率 +<span style="color:#3aa675;font-weight:600">5%</span>——命中 -2 时，你的每次攻击 <span style="color:#3aa675;font-weight:600">10%</span> 概率被敌人闪避（伤害归零），且随回合持续累积。
+- **多段攻击共享判定**：[闪避](/powers/dodge_power.md)判定在整个攻击命令发起前进行一次——多段攻击要么全部被闪避、要么全部命中。
+- **只影响常规攻击**——[固定伤害](/powers/fixed_damage_power.md)、DoT 不吃闪避判定。
 - **强化版**：与[致盲I](/powers/blind_one_power.md)（每回合 -1）同机制，数值翻倍。
 
 ## 小贴士
 
-- **命中崩塌速度 ×2**：5 个怪物回合后命中 -10，每次攻击 50% 落空——输出直接腰斩，此词缀的怪必须最优先击杀。
-- **对冲手段**：命中加成类卡牌/遗物每回合补正；负命中是 Debuff、可用净化自身负面效果的卡牌/遗物定期清除；或依靠不吃命中的伤害（[固定伤害](/powers/fixed_damage_power.md)、[烧伤](/powers/burn_power.md)等 DoT）绕过落空判定。
+- **命中崩塌速度 ×2**：5 个怪物回合后命中 -10，每次攻击 50% 概率被闪避——输出直接腰斩，此词缀的怪必须最优先击杀。
+- **对冲手段**：命中加成类卡牌/遗物每回合补正；负命中是 Debuff、可用净化自身负面效果的卡牌/遗物定期清除；或依靠不吃命中的伤害（[固定伤害](/powers/fixed_damage_power.md)、[烧伤](/powers/burn_power.md)等 DoT）绕过闪避判定。
 
 ## 源码
 
 - `SeerBlindTwoPower.cs`
 - `SeerAccuracyPower.cs`
-- `SeerElementalCore.cs`
+- `SeerGlobalMonsterPowerPatch.cs`

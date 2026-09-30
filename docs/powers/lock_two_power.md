@@ -13,16 +13,16 @@
 
 ## 描述
 
-自身<span style="color:#d4a017;font-weight:600">暴击率</span>修改为<span style="color:#3aa675;font-weight:600">100%</span>。
+自身<span style="color:#d4a017;font-weight:600">暴击率</span>至少<span style="color:#3aa675;font-weight:600">100%</span>。
 
 ## 详细机制
 
-- **本体是"档位标记"**：自身无任何逻辑——它是被[暴击](/powers/critical_strike_power.md)引擎读取的标记：引擎在每次攻击前掷骰时看到持有者身上有锁定II，**跳过掷骰直接判定暴击**（必暴，100% 必暴）。
+- **本体是"档位标记"**：自身无任何逻辑——它是被[暴击](/powers/critical_strike_power.md)引擎读取的标记：引擎在每次攻击前结算触发率时看到持有者身上有锁定II，**跳过掷骰直接判定暴击**（必暴）。
 - **伤害无条件 ×1.5**：引擎的乘区倍增对锁定II 持有者的常规攻击**直接返回 1.5 倍**——不依赖暴击判定结果，是确定性的 <span style="color:#3aa675;font-weight:600">×1.5</span>。
 - **必暴是全体系联动的**：其它能力对"暴击攻击"的联动全部吃满（如[镜反](/powers/mirror_power.md)的暴击归零+反弹、盖亚「返璞归真」的暴击回血）。
 - **每次攻击有效**：必暴没有次数限制——锁定II 标记本身一直在场，整场战斗每刀都暴。
 - **只影响常规攻击**——[固定伤害](/powers/fixed_damage_power.md)、DoT 不参与暴击。
-- **前提是引擎在场**：怪物必须同时持有暴击引擎才有效——[群星的礼赠](/relics/starter/elemental_core.md)持有者的战斗中所有怪物自动获得引擎；雷伊/提亚斯自带引擎。
+- **施加时自动获得引擎**：锁定被施加时会自动补上[暴击](/powers/critical_strike_power.md)引擎——任何单位拿到锁定II 即可拥有必暴，无需其它条件。
 
 ## 小贴士
 

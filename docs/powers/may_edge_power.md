@@ -13,7 +13,7 @@
 
 ## 描述
 
-自身每次打出<span style="color:#d4a017;font-weight:600">致命一击</span>时，<span style="color:#d4a017;font-weight:600">先制</span>+1。
+自身每次打出<span style="color:#d4a017;font-weight:600">暴击</span>时，<span style="color:#d4a017;font-weight:600">先制</span>+1。
 
 ## 源码
 

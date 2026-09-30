@@ -15,7 +15,7 @@
 
 ## 描述
 
-①每次生成<span style="color:#d4a017;font-weight:600">状态牌</span>时，获得<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">[力量](/powers/strength_power.md)</span>。<br/>②打出<span style="color:#d4a017;font-weight:600">攻击牌</span>时，随机生成1张<span style="color:#d4a017;font-weight:600">状态牌</span>加入弃牌堆。<br/>③打出<span style="color:#d4a017;font-weight:600">技能牌</span>时，随机消耗弃牌堆中1张<span style="color:#d4a017;font-weight:600">状态牌</span>。<br/>④每次回复生命时，随机解除自身1个<span style="color:#d44;font-weight:600">[异常状态](/mechanics/abnormal-status.md)</span>。
+①场上每次生成<span style="color:#d4a017;font-weight:600">状态牌</span>时，获得<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">[力量](/powers/strength_power.md)</span>。<br/>②打出<span style="color:#d4a017;font-weight:600">攻击牌</span>时，随机生成1张<span style="color:#d4a017;font-weight:600">状态牌</span>加入弃牌堆。<br/>③打出<span style="color:#d4a017;font-weight:600">技能牌</span>时，随机消耗弃牌堆中1张<span style="color:#d4a017;font-weight:600">状态牌</span>。<br/>④每次回复生命时，随机解除自身1个<span style="color:#d44;font-weight:600">[异常状态](/mechanics/abnormal-status.md)</span>。
 
 - **本地化与源码不一致**：本地化④说的是"debuff"，实际从异常状态列表中随机移除一个[异常状态](/mechanics/abnormal-status.md)，实际效果以实际效果为准。
 

@@ -1,5 +1,58 @@
 # 版本更新
 
+## V4.6（支持多人联机 · 适配测试版 0.111.0）
+
+### 多人联机支持
+
+- **全面支持多人联机**：Seer Mod 现在可以正常联机游玩——此前状态不同步、只有一端生效、双方卡死等问题已系统性修复
+- **战斗选择同步**：修复多处「选择」不同步的问题（此前只有房主生效，或两端结果不一致）
+- **状态同步**：修复多项状态只在本端生效、或作用错玩家的问题
+- **抽牌链与事件选择**：修复打牌触发的抽牌连锁不同步的问题；25 个事件由「房主单独选择」改为「各自选择」，两端独立判定
+- **多人可玩性说明**：多人联机目前为「理论完全支持」，欢迎实测反馈
+
+### 适配测试版 0.111.0
+
+- **双版本支持**：同一款 Mod 提供适配正式版（0.107.1）与测试版（0.111.0）的两个版本，均可正常使用
+- **切换方式**：切分支时成对替换 seer.dll + seer.json 两个文件即可，其余文件不动
+- ⚠️ **风险提示**：测试版写入的存档格式较新，正式版无法读取。**来回切换分支前请务必备份存档**（存档不按分支隔离），否则可能被改名成 *.FUT.corrupt 直接弃档
+
+### 修改的遗物
+
+- 以下遗物统一新增「每回合至多触发 5 次」的上限：[星灵圣王](/relics/common/star_holy_king)、[鬼剑骷髅](/relics/common/seer_ghost_sword_skeleton)、[宿主岩](/relics/common/host_rock)、[鬼剑罗刹](/relics/common/ghost_sword_rakshasa)
+
+### 修改的卡牌
+
+- **[匠心](/cards/quest/craftsman_heart)**（进度判定由「伤害平方之和 ÷ 8」改为伤害之和，阈值 8000 不变）
+- **[龙魂](/cards/quest/dragon_soul)**（龙牌阈值 9 → 12）
+- **[命宇轮回](/cards/character/fate_reincarnation)**（格挡 8 → 10）
+
+### 修复的 bug
+
+- **[海棠教皇·未明](/relics/epic/hai_tang_jiao_huang_wei_ming)**：「必定暴击」与[五月之锋](/cards/character/may_edge)、[二律背反](/powers/antinomy_power)等暴击联动此前会在战斗之间失效，已修复
+- 闪避图标：0 层闪避载体此前会留下悬浮无内容的空图标（如持有[奥斯卡](/relics/common/oscar)等遗物时可见），已修复
+- **[隐者](/relics/common/tarot_hermit)**：开场自动施加的属性不再被误判为「变换属性」，不再白送 1 层[无实体](/powers/intangible_power)
+- **[超算鲁比克](/relics/rare/rubik_supercomputer)**：其施加的[虚空形态](/powers/void_form_power)/[群蛇形态](/powers/serpent_form_power)/[恶魔形态](/powers/demon_form_power)导致战斗卡死的问题已修复
+- **[星辰之录](/relics/event/star_tracker_relic)**（泰坦之灵房间）：金蛋抽奖此前固定为同一条结果序列（与进店时机、抽奖次数无关），已改为每名玩家独立推进的随机流
+- **[混灵·莱茵哈特](/relics/epic/hun_ling_lai_yin_ha_te)**：敌人的复活（泰勒斯无穷血复活、谱尼换形态满血、凤凰涅槃等）此前被误判成回血、错误触发①的反击与召唤，已修正——只有非复活回血才触发①
+- **[群星的礼赠](/relics/starter/elemental_core)**（遗物宝库）：史诗/传说档给敌人增加最大生命时，不再触发「敌方回血」类联动（敌人强度不变）
+- 战斗音乐：播放赛尔战斗 BGM 后进入休息处可能闪退的问题已修复
+- 战斗音乐（重叠）：连续战斗（子地图连打等）时，上一场曲目与新曲重叠的问题已修复（新战斗开始时旧曲立即终止）
+- 暴击率显示：拥有必定暴击来源（[霍光](/relics/epic/huo_guang)的北冥之刃/狂刃、[海棠教皇·未明](/relics/epic/hai_tang_jiao_huang_wei_ming)满血）时，暴击率角标与描述此前仍按命中叠加值显示，现已实时显示 100%（海棠随生命起落切换）
+- 暴击判定统一：所有必定暴击类效果——[回合必定暴击](/powers/turn_guaranteed_crit_power)（幻影蝶）、[必定暴击](/powers/next_guaranteed_crit_power)（梦祈天怜/黎羽幻生/倒吊人及不灭斗气/圣光气/灭魂天葬击）、[冲天霸气](/powers/tiger_crit_counter_power)、[君临天下](/powers/octagon_debt_power)、[幽冥帝尊·修罗](/relics/rare/nether_emperor)——此前只加 ×1.5 伤害、不写入暴击判定，[五月之锋](/cards/character/may_edge)、[二律背反](/powers/antinomy_power)、[镜](/powers/mirror_power)等「暴击时」联动不触发，现已全部接入真暴击判定（不再与随机暴击叠乘）
+- **[沸涌](/powers/boiling_power)**：暴击检测此前按「对方拥有暴击能力」判断，非暴击攻击会被误当暴击抬高倍率，已改用实时暴击判定
+- **[必定暴击](/powers/next_guaranteed_crit_power)**（下次攻击）改为计数器：[黎羽幻生](/cards/character/feather_phantom)「下两次攻击必暴」此前只覆盖一次，现每次攻击 -1 层——黎羽幻生真正覆盖两次，[倒吊人](/relics/common/tarot_hanged_man)随受击叠层
+
+### 其他（机制 / 本地化 / 音乐）
+
+- **四属性体系重做（命中 / 暴击 / 闪避 / 速度）**：命中正层改为提升[暴击](/mechanics/critical-strike)率；负层不再让伤害落空、改为使受击目标更易[闪避](/powers/dodge_power)；暴击基础率归零、完全由命中驱动（[锁定](/powers/lock_one_power)保底）；新增[闪避](/powers/dodge_power)——按概率完全闪避攻击；[速度](/powers/speed_power)改为玩家「多抽并须弃掉半数」、怪物「获得最大生命 5%×层数格挡」，正负层双向镜像。暴击/闪避角标实时显示概率（随命中/锁定变化即刻刷新），暴击描述改为「有概率造成 1.5 倍伤害」
+- **负命中→闪避可视化**：[闪避](/powers/dodge_power)载体改为懒挂载（负命中出现时自动给对位全体补挂、挂上常驻；与[暴击](/mechanics/critical-strike)引擎同模式），角标与描述实时显示有效闪避率
+- **闪避描述逐敌化**：[闪避](/powers/dodge_power)悬浮描述逐个点名敌人、写明对其的闪避几率——单个敌人拆开构成（自身 X% + 负命中加成 Y%），多个敌人逐行列出（数值相同的合并一行）；角标仍取最高值
+- **接管机制上限调整**：[瓦库接管](/mechanics/mourning)与[魔君接管](/powers/demon_takeover_power)的自动打牌上限 33 张 → 18 张
+- **命中调整**：每层命中的暴击率加成 5% → 10%（负命中→[闪避](/powers/dodge_power)每层 5% 不变）
+- **战斗音乐**：遭遇赛尔系怪物时随机播放专属战斗 BGM，多人两端选曲一致
+- **本地化修缮**：重写开场介绍（补充多人联机说明；暴击、命中、速度三段更新为当前机制）；「无效化」更名为「行动失效」；补齐一批[关键词](/mechanics/keywords)与附魔文本；修复部分能力悬浮框显示异常；生成类遗物描述补充「场上」触发口径（[星灵圣王](/relics/common/star_holy_king)、[克雷弗德](/relics/epic/clifford)、[圣王·萨格罗斯](/relics/rare/holy_king_sargeros)）；[速度](/powers/speed_power)描述改为直接写明算法
+- **术语统一**：「致命一击」全部改为[暴击](/mechanics/critical-strike)（冲天霸气、五月之锋、不灭斗气等表述同步）
+
 ## V4.5（新增混沌魔君·索伦森角色体系 · 药水图鉴重写）
 
 ### 新增的角色
@@ -376,14 +429,14 @@
 - **[温泉贝贝](/relics/rare/seer_wen_quan_bei_bei)**（稀有）
 - **[克洛伊](/relics/rare/seer_ke_luoyi)**（稀有）
 - **[布布种子](/relics/common/seer_bush_seed)**（普通）
-- **[杰诺](/relics/rare/seer_jino)**（稀有）
+- **[杰诺](/relics/uncommon/seer_jino)**（稀有）
 - **[鰥](/relics/rare/seer_guan)**（稀有）
 - **[源·宵](/relics/uncommon/seer_yuan_xiao)**（稀有）
 - **[创世兵魂](/relics/shop/chuang_shi_bing_hun)**（商店）
 - **[雁翎](/relics/common/yan_ling)**（普通）
 - **[夜香刀神](/relics/rare/ye_xiang_dao_shen)**（稀有）
 - **[愿](/relics/rare/yuan)**（稀有）
-- **[摆渡者·费雷](/relics/rare/ferryman)**（稀有）
+- **[摆渡者·费雷](/relics/rare/seer_ferryman)**（稀有）
 
 ### 修改的卡牌
 
