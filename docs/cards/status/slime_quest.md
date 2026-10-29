@@ -24,6 +24,10 @@
 
 抽<span style="color:#3aa675;font-weight:600">2</span>张牌。向你的[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)加入<span style="color:#3aa675;font-weight:600">1</span>张黏液。
 
+## 升级后
+
+抽2张牌。向你的手牌加入2张黏液。
+
 ## 小贴士
 
 - **表面是污染，实际是抽牌引擎**：0 费打出抽 <span style="color:#3aa675;font-weight:600">2</span> 张牌，代价只是手里多 1 张黏液（原版 1 费状态牌：消耗、打出抽 <span style="color:#3aa675;font-weight:600">1</span> 张）。黏液本身还能再花 1 费抽 1——整条链是"0费抽2 → 1费抽1"的过牌流水线，纯抽牌效率并不亏。
@@ -35,7 +39,7 @@
 
 ## 相关卡牌
 
-- 黏液（原版 Slimed，打出时生成进手牌顶：1 费消耗，抽 1 张牌）
+- 黏液（原版 Slimed：1 费、消耗，打出后抽 1 张牌）
 
 ## 相关怪物
 
@@ -46,7 +50,7 @@
 
 - [保留](/mechanics/retain.md)（回合结束不弃牌）
 - [消耗](/mechanics/exhaust.md)（打出后进消耗堆——注意会喂异次元冲击）
-- [手牌](/mechanics/hand.md)（黏液的加入位置）
+- [手牌](/mechanics/hand.md)（黏液？生成的黏液加入手牌末尾）
 
 ## 源码
 

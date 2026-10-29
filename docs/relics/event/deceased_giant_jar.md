@@ -22,9 +22,9 @@
 
 ## 描述
 
-①在每场战斗开始时，移除你的现有属性，转为<span style="color:#9b59b6;font-weight:600">[混沌属性](/powers/chaos_power.md)</span>，获得<span style="color:#d4a017;font-weight:600">守护者</span>卡牌。<br/>②在你的回合开始时，以<span style="color:#3aa675;font-weight:600">X</span>点生命<span style="color:#d4a017;font-weight:600">召唤</span>奥斯提。<br/>③每击杀1个敌人X+<span style="color:#3aa675;font-weight:600">2</span>（精英+<span style="color:#3aa675;font-weight:600">5</span>，Boss+<span style="color:#3aa675;font-weight:600">10</span>），X当前值为<span style="color:#3aa675;font-weight:600">X</span>（跨战斗保留）。<br/>④每受到1次未被格挡的攻击伤害X-<span style="color:#3aa675;font-weight:600">2</span>，X<0时直接死亡。
+①在每场战斗开始时，移除你的现有属性，转为<span style="color:#9b59b6;font-weight:600">混沌属性</span>，获得<span style="color:#d4a017;font-weight:600">守护者</span>卡牌。<br/>②在你的回合开始时，<span style="color:#d4a017;font-weight:600">召唤</span><span style="color:#3aa675;font-weight:600">4</span>。<br/>③每击杀1个敌人X+<span style="color:#3aa675;font-weight:600">2</span>（精英+<span style="color:#3aa675;font-weight:600">5</span>，Boss+<span style="color:#3aa675;font-weight:600">10</span>），X当前值为<span style="color:#3aa675;font-weight:600">4</span>（跨战斗保留）。<br/>④每受到1次未被格挡的攻击伤害X-<span style="color:#3aa675;font-weight:600">2</span>，X<0时直接死亡。
 
-- **混沌属性替换**：战斗开始时移除你身上所有元素属性，再施加 1 层混沌属性。你攻击持有飞行/冰/神秘/次元/邪灵/自然/圣灵 7 种元素的敌人时伤害 ×1.5，攻击持有电/机械/格斗/轮回/虚空 5 种元素的敌人时伤害 ×0.75。
+- **混沌属性替换**：战斗开始时移除你身上所有元素属性，再施加 1 层混沌属性。你攻击持有飞行/冰/神秘/次元/邪灵/自然/神灵 7 种元素的敌人时伤害 ×1.5，攻击持有电/机械/战斗/轮回/虚空 5 种元素的敌人时伤害 ×0.75。
 - **守护者卡牌**：每场战斗开始时把 1 张守护者加入手牌底部。守护者是原版奥斯提联动卡——1 费攻击牌，由奥斯提造成 10 点伤害并额外造成等量于奥斯提最大生命值的伤害（升级后 0 费、基础伤害 15）。奥斯提不在场时守护者打不出伤害（卡牌会红光警示）。
 - **召唤奥斯提**：回合开始时以 X 点生命召唤奥斯提。若奥斯提已存活，则改为最大生命 +X 并回复 X 点生命——奥斯提是越养越厚的成长型坦克。若奥斯提阵亡，下回合会以 X 点生命复活（最大生命重置为 X，本场的累积清零）。
 - **击杀加分**：**必须由你亲手击杀**（你本体打出的攻击伤害）——X 增加。普通敌人 +2、精英 +5、Boss +10，按击杀发生时的房间类型决定加值档次。

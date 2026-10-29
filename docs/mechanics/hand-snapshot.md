@@ -96,6 +96,6 @@
 
 ## 源码
 
-- 快照抓取补丁（打出包装器前抓取手牌）
-- 快照容器
-- 关键词效果管理器（快照查询与位置判定）
+- `SeerHandSnapshotPatch.cs`
+- `HandSnapshotHolder.cs`
+- `SeerKeywordEffectManager.cs`

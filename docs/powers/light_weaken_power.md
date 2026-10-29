@@ -13,7 +13,7 @@
 
 ## 描述
 
-造成的攻击伤害降低50%。回合结束减少1层。
+自身造成的攻击伤害降低<span style="color:#3aa675;font-weight:600">50%</span>。<br/>自身回合结束时层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 源码
 

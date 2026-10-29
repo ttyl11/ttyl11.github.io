@@ -25,11 +25,11 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 
 ## 升级后
 
-<span style="color:#d4a017;font-weight:600">固有</span>。PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 自身所有攻击牌获得[<span style="color:#d4a017;font-weight:600">饮血</span>](/mechanics/vampiric.md)。
+PP: 1/1 自身所有攻击牌获得<span style="color:#d4a017;font-weight:600">饮血</span>。
 
 ## 小贴士
 
-- **所有攻击牌变吸血——每次攻击都是"打人 + 回血"**：打出后自身所有攻击牌（手牌、抽牌堆、弃牌堆中的全部战斗卡牌）立即获得[饮血](/mechanics/vampiric.md)，造成攻击伤害时回复该段总伤害（含被格挡部分）的 <span style="color:#3aa675;font-weight:600">20</span>% 生命值（不足 <span style="color:#3aa675;font-weight:600">1</span> 点不回复）。伤害越高回血越多，把攻击牌从纯输出变成输出 + 续航双重收益。
+- **所有攻击牌变吸血——每次攻击都是"打人 + 回血"**：打出后自身所有攻击牌（战斗中所有牌堆里的攻击牌）立即获得[饮血](/mechanics/vampiric.md)，造成攻击伤害时回复该段总伤害（含被格挡部分）的 <span style="color:#3aa675;font-weight:600">20</span>% 生命值（不足 <span style="color:#3aa675;font-weight:600">1</span> 点不回复）。伤害越高回血越多，把攻击牌从纯输出变成输出 + 续航双重收益。
 - **每回合自动刷新新抽的攻击牌**：能力在每回合开始时重新检查所有攻击牌——新抽到的攻击牌也会自动获得饮血，不需要重新打出这张能力牌。
 - **是增益，但被消增益清除后已到手的饮血保留**：皇冠本身是增益类型能力，被消除增益的效果（如敌人的消增益技能）会清掉这个 Power——但已经加到卡牌上的饮血关键词**不会跟着消失**，只有后续新抽到的攻击牌不再自动获得。换句话说消增益只能切断"续杯"，喝到嘴里的收不回去。
 - **多段攻击牌回血最猛**：饮血按每次伤害结算单独触发——多段攻击牌每一段独立回复该段伤害 <span style="color:#3aa675;font-weight:600">20</span>% 的生命值，多段高伤攻击牌一张就能回大量血。

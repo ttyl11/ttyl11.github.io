@@ -411,9 +411,9 @@ function parseCsFile(filePath, targetClassName) {
   const costMatch = content.match(/CanonicalEnergyCost\s*=>\s*(\d+)/)
   const energyCostOverride = costMatch ? parseInt(costMatch[1]) : null
 
-  // 卡牌构造函数 base 参数: base(cost, (CardType)X or CardType.Name, (CardRarity)Y or CardRarity.Name, (TargetType)Z or TargetType.Name)
-  const baseMatch = content.match(/:\s*base\((\-?\d+),\s*(?:\(CardType\)(\d+)|CardType\.(\w+)),\s*(?:\(CardRarity\)(\d+)|CardRarity\.(\w+)),\s*(?:\(TargetType\)(\d+)|TargetType\.(\w+))\)/)
-  let baseCost = baseMatch ? parseInt(baseMatch[1]) : energyCostOverride
+  // 卡牌构造函数 base 参数: base(cost, (CardType)X or CardType.Name, (CardRarity)Y or CardRarity.Name, (TargetType)Z or TargetType.Name[, 额外参数])
+  const baseMatch = content.match(/:\s*base\((\-?\d+),\s*(?:\(CardType\)(\d+)|CardType\.(\w+)),\s*(?:\(CardRarity\)(\d+)|CardRarity\.(\w+)),\s*(?:\(TargetType\)(\d+)|TargetType\.(\w+))(?:,\s*[^)]*)?\)/)
+  let baseCost = energyCostOverride !== null ? energyCostOverride : (baseMatch ? parseInt(baseMatch[1]) : null)
   let cardType = baseMatch ? (baseMatch[2] || baseMatch[3]) : null
   let cardRarity = baseMatch ? (baseMatch[4] || baseMatch[5]) : null
   let targetType = baseMatch ? (baseMatch[6] || baseMatch[7]) : null
@@ -654,28 +654,38 @@ function parseCsFile(filePath, targetClassName) {
   const upgradeChanges = {}
   const onUpgradeMatch = content.match(/override\s+void\s+OnUpgrade\(\)\s*\{([\s\S]*?)\n\s*\}/)
   if (onUpgradeMatch) {
-    const upgradeContent = onUpgradeMatch[1]
-    // 支持 =（赋值）、+=（增量）、-=（减量）三种形式
-    const changeRegex = /DynamicVars\["(\w+)"\]\.BaseValue\s*(\+=|-=|=)\s*(\d+(?:\.\d+)?)m?/g
+    // 归一化多种 DynamicVars 访问写法，便于统一解析：
+    //   ((DynamicVar)DynamicVars.Block).UpgradeValueBy(7m)
+    //   base.DynamicVars.Damage.UpgradeValueBy(3m)
+    //   DynamicVars[_blockKey].UpgradeValueBy(4m)
+    let upgradeContent = onUpgradeMatch[1]
+      .replace(/\(\s*\(\s*(?:DynamicVar|CardsVar|BlockVar|DamageVar)\s*\)\s*/g, '(')
+      .replace(/base\.DynamicVars/g, 'DynamicVars')
+      .replace(/DynamicVars\[\s*([A-Za-z_]\w*)\s*\]/g, (full, key) => {
+        if (constStrings[key]) return `DynamicVars["${constStrings[key]}"]`
+        return full
+      })
+
+    // BaseValue 赋值/增量：DynamicVars["X"].BaseValue = 15m / += 7m / -= 3m
+    const changeRegex = /DynamicVars(?:\.(\w+)|\["(\w+)"\])\s*\)?\s*\.\s*BaseValue\s*(\+=|-=|=)\s*(-?\d+(?:\.\d+)?)m?/g
     let m
     while ((m = changeRegex.exec(upgradeContent)) !== null) {
-      const varName = m[1]
-      const op = m[2] // "=", "+=", "-="
-      const num = parseFloat(m[3])
+      const varName = m[1] || m[2]
+      const op = m[3]
+      const num = parseFloat(m[4])
       if (op === '+=') {
         upgradeChanges[varName] = (vars[varName] || 0) + num
       } else if (op === '-=') {
         upgradeChanges[varName] = (vars[varName] || 0) - num
       } else {
-        // 直接赋值
         upgradeChanges[varName] = num
       }
     }
-    // UpgradeValueBy 形式：DynamicVars["X"].UpgradeValueBy(num)
-    const upgradeByRegex = /DynamicVars\["(\w+)"\]\.UpgradeValueBy\s*\(\s*(\d+(?:\.\d+)?)m?\s*\)/g
+    // UpgradeValueBy 形式：DynamicVars["X"].UpgradeValueBy(num) / DynamicVars.X.UpgradeValueBy(num)
+    const upgradeByRegex = /DynamicVars(?:\.(\w+)|\["(\w+)"\])\s*\)?\s*\.\s*UpgradeValueBy\s*\(\s*(-?\d+(?:\.\d+)?)m?\s*\)/g
     while ((m = upgradeByRegex.exec(upgradeContent)) !== null) {
-      const varName = m[1]
-      const num = parseFloat(m[2])
+      const varName = m[1] || m[2]
+      const num = parseFloat(m[3])
       upgradeChanges[varName] = (vars[varName] || 0) + num
     }
     // AddKeyword 等其他升级变化（暂不解析，只关注数值）
@@ -1102,11 +1112,11 @@ const TARGET_TYPE_MAP = {
 }
 
 const POWER_TYPE_MAP = {
-  1: '增益', 2: '减益', 3: '中性'
+  0: '无', 1: '增益', 2: '减益'
 }
 
 const STACK_TYPE_MAP = {
-  1: '递减', 2: '叠加', 3: '替换'
+  0: '无', 1: '计数', 2: '单例'
 }
 
 // ============ 页面生成 ============
@@ -1493,4 +1503,27 @@ function generate() {
   }
 }
 
-generate()
+// 仅在直接运行时生成；被其它脚本 import 时只导出函数，避免误删 docs 内容
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  generate()
+}
+
+export {
+  MOD_ROOT,
+  LOC_DIR,
+  CODE_DIR,
+  DOCS_DIR,
+  toSnakeCase,
+  entryToClassName,
+  parseKey,
+  buildClassIndex,
+  findCodeFile,
+  parseCsFile,
+  processDesc,
+  plainDesc,
+  replaceVars,
+  processIfUpgraded,
+  varToCn,
+  getCardSubdir,
+  CATEGORY_MAP,
+}

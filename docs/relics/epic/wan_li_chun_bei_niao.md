@@ -20,13 +20,13 @@
 
 ## 描述
 
-①战斗开始：所有生物[混乱](/powers/confusion_power.md)<span style="color:#3aa675;font-weight:600">2</span>；无[记录](/mechanics/abnormal-status.md)时，首个异常转为<span style="color:#3aa675;font-weight:600">3</span>回合[混乱](/powers/confusion_power.md)并[记录](/mechanics/abnormal-status.md)（[混乱](/powers/confusion_power.md)不记录），此后异常不再转化。②回合开始：全场[异常](/mechanics/abnormal-status.md)每有<span style="color:#3aa675;font-weight:600">1</span>层，自身恢复<span style="color:#3aa675;font-weight:600">2</span>生命；总层数><span style="color:#3aa675;font-weight:600">5</span>触发[万里春啼](/powers/wan_li_chun_ti_power.md)。③有[记录](/mechanics/abnormal-status.md)：打出[攻击牌](/mechanics/card-tags.md)，敌人进入记录异常<span style="color:#3aa675;font-weight:600">2</span>回合；无[记录](/mechanics/abnormal-status.md)：受到伤害-<span style="color:#3aa675;font-weight:600">30%</span>。
+①战斗开始：所有生物<span style="color:#d44;font-weight:600">混乱</span><span style="color:#3aa675;font-weight:600"></span>；无<span style="color:#d4a017;font-weight:600">记录</span>时，首个<span style="color:#d44;font-weight:600">异常</span>转为<span style="color:#3aa675;font-weight:600"></span>回合<span style="color:#d44;font-weight:600">混乱</span>并<span style="color:#d4a017;font-weight:600">记录</span>（<span style="color:#d44;font-weight:600">混乱</span>不记录），此后<span style="color:#d44;font-weight:600">异常</span>不再转化。<br/>②回合开始：全场<span style="color:#d44;font-weight:600">异常</span>每有<span style="color:#3aa675;font-weight:600">1</span>层，自身恢复<span style="color:#3aa675;font-weight:600"></span>生命；总层数><span style="color:#3aa675;font-weight:600">5</span>触发<span style="color:#9b59b6;font-weight:600">万里春啼</span>。<br/>③有<span style="color:#d4a017;font-weight:600">记录</span>：打出<span style="color:#d4a017;font-weight:600">攻击牌</span>，敌人进入<span style="color:#d44;font-weight:600">记录异常</span><span style="color:#3aa675;font-weight:600">2</span>回合；无<span style="color:#d4a017;font-weight:600">记录</span>：受到伤害-<span style="color:#3aa675;font-weight:600">%</span>。<br/>当前<span style="color:#d4a017;font-weight:600">记录</span>：
 
 ## 详细机制
 
 ### ① 开场混乱 + 首个异常转化（记录核心）
 
-- **战斗开始**：敌我**所有生物**各获得[混乱](/powers/confusion_power.md) 2 层；同时清空北鸟的记录（记录即本场内首个被拦截的异常类型，跨战斗保留，但每场战斗开始时清空）。
+- **战斗开始**：敌我**所有生物**各获得[混乱](/powers/confusion_power.md) 2 层；同时清空北鸟的记录（记录即本场内首个被拦截的异常类型，仅本场有效：战斗开始与战斗结束都会清空）。
 - **首个异常转化**：自身**无记录**且**首次**进入异常状态时——
   - [混乱](/powers/confusion_power.md)本身：**不参与记录、不转化**（开场全场混乱 2 照常生效）；
   - **首个非混乱异常**：施加量被拦截（不生效），改为转化为 [混乱](/powers/confusion_power.md) 3 层，并把该异常类型**记录**下来（只记第一个，此后不再改记）。

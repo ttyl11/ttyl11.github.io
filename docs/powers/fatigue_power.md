@@ -1,7 +1,7 @@
 # 疲惫
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家获得——[圣诰](/powers/holy_edict_power.md)（能力联动）；玩家施加给敌方——[义乂梵我婆娑纱](/cards/character/righteous_brahma_veil.md)（卡牌）、[滔天龙汲水](/cards/character/soaring_dragon_water.md)（卡牌）、[激鸣雷封](/cards/token/thunder_seal.md)（卡牌）；怪物施加给玩家——[朵拉格](/monsters/boss/durgar_monster.md)
+> **施加来源**：玩家获得——[圣诰](/powers/holy_edict_power.md)（能力联动）；玩家施加给敌方——[义乂梵我婆娑纱](/cards/character/righteous_brahma_veil.md)（卡牌）、[滔天龙汲水](/cards/character/soaring_dragon_water.md)（卡牌）、[激鸣雷封](/cards/token/thunder_seal.md)（卡牌）；怪物施加给玩家——[朵拉格](/monsters/boss/durgar_monster.md)、[苍天歌](/monsters/elite/cang_tian_ge_monster.md)、[堕息·迹](/monsters/elite/duoxiji_monster.md)、[终末大天使](/monsters/elite/end_archangel_monster.md)、[鬼面阎罗](/monsters/elite/ghost_face_yama_monster.md)、[泰格尔](/monsters/boss/tiger_monster.md)、[逆魂·佩特菲德](/monsters/elite/reverse_soul_petefide_monster.md)；遗物——[天奔流·东辉](/relics/epic/tian_ben_liu_dong_hui.md)；药水——[永寒精华](/potions/eternal_cold_essence_potion.md)
 
 <img src="/images/powers/fatigue_power.png" alt="疲惫" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -20,7 +20,7 @@
 
 ## 描述
 
-攻击伤害降低<span style="color:#3aa675;font-weight:600">20</span>%。每次造成伤害时，自身受到等于层数的不可[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)伤害。在你的回合结束时减少<span style="color:#3aa675;font-weight:600">1</span>层。
+①攻击伤害降低<span style="color:#3aa675;font-weight:600">20%</span>。<br/>②每次造成伤害时，自身受到等于层数的不可<span style="color:#d4a017;font-weight:600">格挡</span>伤害。<br/>自身回合结束时减少<span style="color:#3aa675;font-weight:600">1</span>层。
 
 ## 详细机制
 

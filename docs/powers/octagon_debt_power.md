@@ -1,4 +1,4 @@
-# 君临天下（原八方债）
+# 君临天下
 
 > **归属**：玩家可施加
 > **施加来源**：玩家获得——[始皇帝·嬴政](/relics/legendary/shi_huang_di_ying_zheng.md)（遗物，永昌玺满6触发）、[八方·无人来朝](/fifth-skill/octagon.md)（卡牌，永昌玺提升至6后触发）
@@ -13,7 +13,7 @@
 
 ## 描述
 
-<span style="color:#3aa675;font-weight:600">6</span>回合内：每回合开始抽满手牌、能量+<span style="color:#3aa675;font-weight:600">6</span>，攻击必定暴击，任何牌附加<span style="color:#3aa675;font-weight:600">15</span>点[固定伤害](/powers/fixed_damage_power.md)。结束后所有牌[PP](/mechanics/pp-system.md)清0并消耗，生命设为<span style="color:#3aa675;font-weight:600">1</span>。
+①<span style="color:#3aa675;font-weight:600">6</span>回合内：每回合开始时将手牌抽满，<span style="color:#d4a017;font-weight:600">能量</span>+<span style="color:#3aa675;font-weight:600">6</span>，攻击必定<span style="color:#d4a017;font-weight:600">暴击</span>，所有牌额外造成<span style="color:#3aa675;font-weight:600">15</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>。<br/>②结束后，所有牌的<span style="color:#d4a017;font-weight:600">PP</span>清零并被消耗，生命值变为<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 

@@ -1,7 +1,7 @@
 # 黑暗充能球
 
-> **归属**：玩家可施加
-> **施加来源**：玩家获得——[黑暗充能球](/powers/dark_orb_counter_power.md)（能力联动）
+> **归属**：怪物专属（玩家无法施加）
+> **施加来源**：怪物自带——[尤纳斯](/monsters/elite/younas_monster.md)；布莱克亦复用该充能球
 
 <img src="/images/powers/dark_orb_counter_power.png" alt="黑暗充能球" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 

@@ -25,7 +25,7 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 
 ## 升级后
 
-<span style="color:#d4a017;font-weight:600">固有</span>。PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 自身打出[<span style="color:#d4a017;font-weight:600">暴击</span>](/powers/critical_strike_power.md)时，[<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)+<span style="color:#3aa675;font-weight:600">1</span>。
+PP: 1/1 自身打出<span style="color:#d4a017;font-weight:600">暴击</span>时，<span style="color:#d4a017;font-weight:600">先制</span>+1。
 
 ## 小贴士
 

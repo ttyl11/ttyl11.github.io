@@ -1,4 +1,4 @@
-# 衍生牌（18 项）
+# 衍生牌（20 项）
 
 衍生卡牌（Token），不通过常规卡牌奖励获得，而是通过其他卡牌/遗物/能力/事件在战斗中生成。
 
@@ -17,7 +17,7 @@
 <tr><td><img src="/images/cards/surprise_grand_prize.png" alt="&quot;大奖！&quot;" style="width:80px;height:auto" /></td><td><a href="surprise_grand_prize">&quot;大奖！&quot;</a></td><td>消耗。将3张3费牌加入你的弃牌堆。</td></tr>
 <tr><td><img src="/images/cards/giga_battle_instrument.png" alt="千兆战斗仪" style="width:80px;height:auto" /></td><td><a href="giga_battle_instrument">千兆战斗仪</a></td><td>永恒。打出后：诅咒自身999回合，失去1点生命。击杀次数达到阈值时触发额外效果。</td></tr>
 <tr><td><img src="/images/cards/final_star_dawn_attack.png" alt="终末·赫星黎明" style="width:80px;height:auto" /></td><td><a href="final_star_dawn_attack">终末·赫星黎明</a></td><td>消耗。对所有敌人造成20点伤害，附加20点格挡。每有1个敌人，上述数值翻倍。获得3层支援，下3次支援效果翻倍。</td></tr>
-<tr><td><img src="/images/cards/seer_heng_shuo_fu_shi.png" alt="横槊赋诗" style="width:80px;height:auto" /></td><td><a href="heng_shuo_fu_shi">横槊赋诗</a></td><td>PP: 1/1 随机选取抽牌堆中1张无五音的牌赋予随机五音效果，对目标敌人造成上一回合未格挡伤害量的伤害。</td></tr>
+<tr><td><img src="/images/cards/seer_heng_shuo_fu_shi.png" alt="横槊赋诗" style="width:80px;height:auto" /></td><td><a href="heng_shuo_fu_shi">横槊赋诗</a></td><td>PP: 1/1 随机选取抽牌堆中1张未附魔的牌赋予随机五音附魔，造成等于上一回合受到的未格挡伤害。</td></tr>
 <tr><td><img src="/images/cards/spring.png" alt="弹簧" style="width:80px;height:auto" /></td><td><a href="spring">弹簧</a></td><td>PP: 5/5 获得9点格挡，丢弃手中所有牌。下次回合开始时多抽2张牌、多获得2点能量。</td></tr>
 <tr><td><img src="/images/cards/mika.png" alt="米咔" style="width:80px;height:auto" /></td><td><a href="mika">米咔</a></td><td>PP: 5/5 回合结束时若在手牌中则自动打出。一回合打出超过3张牌时，此牌移入弃牌堆。获得3点格挡。对所有敌人造成3点伤害，附加1种随机异常状态3回合，造成3点固定伤害。</td></tr>
 <tr><td><img src="/images/cards/thunder_seal.png" alt="激鸣雷封" style="width:80px;height:auto" /></td><td><a href="thunder_seal">激鸣雷封</a></td><td>PP: 3/3 打出后回到手牌。100%令所有对手疲惫2回合，召唤奥斯提获得3点最大生命。</td></tr>
@@ -25,4 +25,6 @@
 <tr><td><img src="/images/cards/six_wing_light_sword.png" alt="六翼光剑" style="width:80px;height:auto" /></td><td><a href="six_wing_light_sword">六翼光剑</a></td><td>PP: 3/3 造成66点伤害。当你首次洗牌后可用。</td></tr>
 <tr><td><img src="/images/cards/thunder_gaia_bond.png" alt="雷盖之交" style="width:80px;height:auto" /></td><td><a href="thunder_gaia_bond">雷盖之交</a></td><td>PP: 1/1 每打出一张攻击牌，手牌加入1张赛尔技能牌；每打出一张技能牌，手牌加入1张赛尔攻击牌。</td></tr>
 <tr><td><img src="/images/cards/residual_warmth_star.png" alt="余温之辰" style="width:80px;height:auto" /></td><td><a href="residual_warmth_star">余温之辰</a></td><td>PP: 10/10 回合开始时若在抽牌堆则自动打出。将2X张「温」加入消耗牌堆。牌堆洗牌时，消耗此牌，将所有「温」变为「辰」并移入抽牌堆。</td></tr>
+<tr><td><img src="/images/cards/fate_death.png" alt="死亡" style="width:80px;height:auto" /></td><td><a href="fate_death">死亡</a></td><td>命运抉择：立即死亡。</td></tr>
+<tr><td><img src="/images/cards/fate_remove.png" alt="移除" style="width:80px;height:auto" /></td><td><a href="fate_remove">移除</a></td><td>命运抉择：随机永久移除1件非初始遗物。</td></tr>
 </tbody></table>

@@ -20,7 +20,7 @@
 
 ## 描述
 
-下回合开始时，消除所有敌人[gold]全属性[/gold]提升，解除自身[gold]全属性[/gold]下降，清除并免疫[red]异常[/red]1回合，恢复<span style="color:#3aa675;font-weight:600">7</span>生命，所有牌 [PP](/mechanics/pp-system.md) 回满。
+下回合开始时，移除所有敌人的<span style="color:#d4a017;font-weight:600">全属性</span>提升与自身的<span style="color:#d4a017;font-weight:600">全属性</span>下降，移除自身<span style="color:#d44;font-weight:600">异常状态</span>并获得<span style="color:#3aa675;font-weight:600">1</span>回合<span style="color:#d4a017;font-weight:600">免控</span>，回复<span style="color:#3aa675;font-weight:600">7</span>点生命值，将所有牌的<span style="color:#d4a017;font-weight:600">PP</span>回满。
 
 ## 详细机制
 
@@ -28,7 +28,7 @@
 - **触发时期望效果依次结算**：
   1. **消强**：消除所有敌人的全属性提升（四维正值移除）；
   2. **解弱**：解除自身全属性下降（四维负值移除）；
-  3. **清异常**：清除自身所有异常状态（24 种）；
+  3. **清异常**：清除自身所有异常状态（27 种）；
   4. **异常免疫**：获得[异常免疫](/powers/debuff_immune_power.md) 1 回合；
   5. **恢复**：恢复 7 点生命；
   6. **回 PP**：所有自己的卡牌 PP 回满。

@@ -1,4 +1,4 @@
-﻿# 飞翼连击
+# 飞翼连击
 
 <img src="/images/cards/wing_combo.png" alt="飞翼连击" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -21,21 +21,22 @@
 
 ## 描述
 
-令随机一张[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)获得[<span style="color:#d4a017;font-weight:600">重放</span>](/mechanics/replay.md)<span style="color:#3aa675;font-weight:600">1</span>。战斗结束时，向手牌加入一张<span style="color:#d4a017;font-weight:600">异鸟扑击</span>。
+随机一张手牌获得<span style="color:#d4a017;font-weight:600">重放</span><span style="color:#3aa675;font-weight:600">1</span>。战斗结束时，向<span style="color:#d4a017;font-weight:600">抽牌堆</span>加入一张<span style="color:#d4a017;font-weight:600">异鸟扑击</span>。
+
+> 卡面/悬浮提示写的是"向抽牌堆加入"，实际结算为**加入牌组**。
 
 ## 升级后
 
-令随机一张[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)获得[<span style="color:#d4a017;font-weight:600">重放</span>](/mechanics/replay.md)<span style="color:#3aa675;font-weight:600">1</span>。战斗结束时，向手牌加入一张<span style="color:#d4a017;font-weight:600">异鸟扑击</span>。
+随机一张手牌获得<span style="color:#d4a017;font-weight:600">重放</span><span style="color:#3aa675;font-weight:600">1</span>。战斗结束时，向<span style="color:#d4a017;font-weight:600">抽牌堆</span>加入一张<span style="color:#d4a017;font-weight:600">异鸟扑击</span>。
 
 ## 小贴士
 
-- **关键词**：此牌带有[寂灭](/mechanics/nirvana.md)关键词——本场战斗结束后从牌组中移除，是"租来用一场"的一次性能力。
-- **重放赋予**：随机选择[手牌](/mechanics/hand.md)中一张**非自身**的卡牌，赋予其[重放](/mechanics/replay.md) <span style="color:#3aa675;font-weight:600">1</span> 次——该牌下次打出后再额外自动打出一次，等效白嫖一张牌的效果。
-- **随机目标不可控**：重放落在哪张手牌上是随机的——手里牌越少、质量越齐，越容易砸中关键牌；手里废牌多时价值大打折扣。
-- **战斗结束的奖励是永久的**：战斗结束时（需存活）向**牌组**永久加入一张"异鸟扑击"（原版事件卡：0 费攻击，造成 <span style="color:#3aa675;font-weight:600">14</span> 点伤害，可升级至 <span style="color:#3aa675;font-weight:600">18</span> 点）——描述中的"手牌"指结算展示，实际直接进局外牌组，后续战斗都能抽到。
-- **一张换一张**：此牌自身因寂灭战后离场，换来一张 0 费 14 伤的异鸟扑击常驻牌组——牌组总数不变，白赚一次当回合的重放。
-- **追踪能力**（mod 不可见能力）：打出时施加 <span style="color:#3aa675;font-weight:600">1</span> 层隐藏追踪能力，负责在战斗结束时发放异鸟扑击；重复打出此牌不会重复获得追踪能力（发放也只有一次）。
-- **升级效果**：耗能从 <span style="color:#3aa675;font-weight:600">3</span> 降至 <span style="color:#3aa675;font-weight:600">2</span>，重放次数与奖励不变——纯粹的性价比提升。
+- **🔑 一次性能力，换一张永久攻击牌**：带[寂灭](/mechanics/nirvana.md)，打出后本场战斗结束从牌组移除；同时由隐藏追踪能力在战斗结束时发一张**异鸟扑击**进**牌组**——通常是一换一，牌组总数不变。
+- **重放赋予**：随机选择[手牌](/mechanics/hand.md)中一张**非自身**的卡牌，令其重放 +<span style="color:#3aa675;font-weight:600">1</span>——该牌之后每次打出都会额外再打一次。若手里除它以外没有别的牌，则只挂追踪能力、不给重放。
+- **随机目标不可控**：重放落在哪张手牌上随机——手里牌越少、质量越齐，越容易砸中关键牌；废牌多时价值打折。
+- **奖励是永久的**：战斗结束（需存活）后获得一张异鸟扑击：原版事件稀有度攻击牌，0 费、<span style="color:#3aa675;font-weight:600">14</span> 伤、可升级至 <span style="color:#3aa675;font-weight:600">18</span>；奖励的是**未升级版**，后续可在营火升级。
+- **每场战斗最多发一张**：追踪能力隐藏且单例，同一场重复打出不会多挂、也不会多发；但每场战斗各算一次，带多张飞翼连击就能跨战斗各领一张。
+- **升级效果**：耗能 <span style="color:#3aa675;font-weight:600">3</span> → <span style="color:#3aa675;font-weight:600">2</span>，重放次数与奖励不变。
 
 ## 相关机制
 

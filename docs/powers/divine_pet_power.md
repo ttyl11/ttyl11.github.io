@@ -8,12 +8,12 @@
 ## 基本信息
 
 - **类型**: 无类型（不参与增益/减益分类，不可被驱散/净化）
-- **叠加方式**: 叠加
+- **叠加方式**: 计数（Counter，按层数递减）
 - **可见**: 是
 
 ## 描述
 
-自身被击败后，所有玩家获得<span style="color:#3aa675;font-weight:600">20万</span>赛尔豆，并召唤一只新的皮皮。剩余<span style="color:#3aa675;font-weight:600">层数</span>次。
+自身被击败后，所有玩家获得<span style="color:#3aa675;font-weight:600">20万</span>赛尔豆，并召唤一只新的皮皮。初始剩余 <span style="color:#3aa675;font-weight:600">5</span> 次，每次召唤后 -1。
 
 ## 源码
 

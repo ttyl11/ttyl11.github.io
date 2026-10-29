@@ -20,12 +20,12 @@
 
 ## 描述
 
-受未格挡的攻击后，消除所有敌方[gold]格挡[/gold]。每有[blue]1[/blue]层，持有[gold]格挡[/gold]时[gold]减伤[/gold][blue]10%[/blue]。至多[blue]4[/blue]层。
+①受到未被格挡的攻击后，移除所有敌人的<span style="color:#d4a017;font-weight:600">格挡</span>。<br/>②每有<span style="color:#3aa675;font-weight:600">1</span>层，持有<span style="color:#d4a017;font-weight:600">格挡</span>时获得<span style="color:#3aa675;font-weight:600">10%</span><span style="color:#d4a017;font-weight:600">减伤</span>，至多<span style="color:#3aa675;font-weight:600">4</span>层。
 
 ## 详细机制
 
-- **①受未格挡攻击后消除所有敌方格挡**：自身受到**未被格挡的攻击伤害**（`AfterDamageReceived`，`UnblockedDamage>0`）后触发，将所有敌人的[格挡](/mechanics/block.md)全部清零（`CreatureCmd.LoseBlock`）。敌人堆格挡越厚，这一口清得越赚。
-- **②持有格挡时减伤 10%/层**：自身**当前有格挡**（`Block>0`）时才提供减伤，只乘[攻击伤害](/mechanics/block.md)（`IsPoweredAttack`），每层减 10%，4 层封顶 40%：1 层 -10%、2 层 -20%、3 层 -30%、4 层 -40%。**无格挡时不减伤**——裸奔状态本能力不兜底。
+- **①受未格挡伤害后消除所有敌方格挡**：自身受到**未格挡伤害**（不限攻击伤害，固定伤害等非攻击伤害也算）后触发，将所有敌人的[格挡](/mechanics/block.md)全部清零。敌人堆格挡越厚，这一口清得越赚。
+- **②持有格挡时减伤 10%/层**：自身**当前有格挡**时才提供减伤，只乘[攻击伤害](/mechanics/block.md)，每层减 10%，4 层封顶 40%：1 层 -10%、2 层 -20%、3 层 -30%、4 层 -40%。**无格挡时不减伤**——裸奔状态本能力不兜底。
 - **②不吃固定伤害**：本能力只对攻击伤害生效，[固定伤害](/powers/fixed_damage_power.md)等非攻击伤害不受减伤影响。
 - **叠加方式**：计时器叠加（Counter），由[觉醒遗物](/relics/legendary/hun_dun_di_wang_lai_yin_ha_te_awakened.md)②逐次 +1，至多 4 层；不会自然衰减。
 

@@ -9,7 +9,7 @@
 - **能量消耗**: 1
 - **类型**: 技能
 - **稀有度**: 普通
-- **目标**: 自身
+- **目标**: 无
 - **可升级**: 是（1 级）
 - **关键词**: [免固](/mechanics/mian_gu.md)
 
@@ -24,11 +24,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 获得<span style="color:#3aa675;font-weight:600">8</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。<span style="color:#3aa675;font-weight:600">2</span>回合内免疫[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+PP: 10/10 <span style="color:#d44;font-weight:600">免固</span><span style="color:#3aa675;font-weight:600">2</span>。 获得<span style="color:#3aa675;font-weight:600">8</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 获得<span style="color:#3aa675;font-weight:600">12</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。<span style="color:#3aa675;font-weight:600">2</span>回合内免疫[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+PP: 10/10 <span style="color:#d44;font-weight:600">免固</span><span style="color:#3aa675;font-weight:600">3</span>。 获得<span style="color:#3aa675;font-weight:600">12</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。
 
 ## 详细机制
 

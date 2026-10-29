@@ -1,7 +1,7 @@
 # 石化
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家获得——[石化之视](/powers/petrify_gaze_power.md)（能力联动）；玩家施加给敌方——[怀晦之亟盼](/cards/character/longing_for_darkness.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）；怪物施加给玩家——[墨杜萨](/monsters/elite/medusa_monster.md)
+> **施加来源**：玩家施加给敌方——[怀晦之亟盼](/cards/character/longing_for_darkness.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[逆魂·佩特菲德](/relics/epic/ni_hun_pei_te_fei_de.md)（遗物）、[混灵·莱茵哈特](/relics/epic/hun_ling_lai_yin_ha_te.md)（遗物）；怪物施加给玩家——[墨杜萨](/monsters/elite/medusa_monster.md)、[石化之视](/powers/petrify_gaze_power.md)（墨杜萨被动能力）、[狂沙之主·萨特](/monsters/elite/mad_sand_lord_sate_monster.md)、[逆魂·佩特菲德](/monsters/elite/reverse_soul_petefide_monster.md)
 
 <img src="/images/powers/petrify_power.png" alt="石化" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -20,7 +20,7 @@
 
 ## 描述
 
-攻击伤害降低<span style="color:#3aa675;font-weight:600">70</span>%，本应造成的伤害有<span style="color:#3aa675;font-weight:600">70</span>%转化为自身的<span style="color:#d4a017;font-weight:600">格挡</span>。在你的回合结束时减少1层。
+自身攻击伤害降低<span style="color:#3aa675;font-weight:600">70%</span>；本应造成的伤害有<span style="color:#3aa675;font-weight:600">70%</span>转化为自身的<span style="color:#d4a017;font-weight:600">格挡</span>。<br/>自身回合结束时层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 
@@ -32,6 +32,7 @@
   - 攻击结算后，获得等于**原始伤害** × 70% 的[格挡](/mechanics/block.md)
   - "原始伤害"指减伤前的伤害值，而非实际造成的伤害
   - 例：原始 10 点攻击 → 实际造成 3 点（×0.3）+ 获得 7 点格挡（10×70%）
+  - **每次攻击只算一次**：多段/多目标攻击只取第一段的原始伤害计算一次格挡，不会逐段累加
 - **回合结束减层**：持有者一方回合结束时，层数 -1
 
 ## 小贴士

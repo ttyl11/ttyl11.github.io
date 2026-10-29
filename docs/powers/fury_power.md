@@ -1,7 +1,7 @@
 # 狂暴
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[蔑天行·残虐](/cards/character/despise_heaven_cruelty.md)（卡牌）、[王·龙予狂宴](/cards/character/dragon_feast.md)（卡牌）、[找茬](/cards/character/find_fault.md)（卡牌）、[狂暴宝石](/enchantments/fury_gem.md)（附魔）、[镜影术](/powers/mirror_image_power.md)（能力联动）；玩家施加给敌方——[狂能激发](/cards/character/frenzy_excitation.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）
+> **施加来源**：玩家获得——[蔑天行·残虐](/cards/character/despise_heaven_cruelty.md)（卡牌）、[王·龙予狂宴](/cards/character/dragon_feast.md)（卡牌）、[找茬](/cards/character/find_fault.md)（卡牌）、[狂暴宝石](/enchantments/fury_gem.md)（附魔）、[镜影术](/powers/mirror_image_power.md)（能力联动）；玩家施加给敌方——[狂能激发](/cards/character/frenzy_excitation.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）
 
 <img src="/images/powers/fury_power.png" alt="狂暴" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -20,7 +20,7 @@
 
 ## 描述
 
-每有一层，攻击伤害增加<span style="color:#3aa675;font-weight:600">25</span>%。在你的回合结束时减少<span style="color:#3aa675;font-weight:600">1</span>层。
+每有一层，攻击伤害增加<span style="color:#3aa675;font-weight:600">25</span>%。自身回合结束时减少<span style="color:#3aa675;font-weight:600">1</span>层。
 
 ## 详细机制
 
@@ -30,7 +30,9 @@
 
 ## 小贴士
 
-- **Buff 型异常**：狂暴是增益（Buff），但列入异常状态列表，可被[凝滞](/powers/stasis_power.md)免疫。对玩家是增益，施加给敌人则增强其输出。
+- **属于异常状态，但不在随机池**：狂暴在 27 种异常状态名单内（可被"免疫异常"识别），但被排除在 23 种随机池外——随机施加异常的效果不会抽到它。
+- **友方增益保护**：自身或友方施加的狂暴不会被己方免控/弹控拦截；敌方给你施加时，免控仍会挡下。
+- 对玩家是增益，施加给敌人则增强其输出。
 
 ## 相关卡牌
 
@@ -39,4 +41,4 @@
 
 ## 源码
 
-- `SeerFuryPower.cs`
+- `SeerFuryPower.cs`、`SeerAbnormalStatus.cs`

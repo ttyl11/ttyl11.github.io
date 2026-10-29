@@ -24,24 +24,24 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 向[抽牌堆](/mechanics/draw_pile.md)加入<span style="color:#3aa675;font-weight:600">3</span>张呼唤。每有一张状态牌，所有敌人获得1种随机[异常状态](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">3</span>回合。
+PP: 1/1 每有一张状态牌，所有敌人<span style="color:#d44;font-weight:600">随机异常</span><span style="color:#3aa675;font-weight:600">1，3</span>。 向<span style="color:#d4a017;font-weight:600">抽牌堆</span>加入<span style="color:#3aa675;font-weight:600">3</span>张<span style="color:#d4a017;font-weight:600">呼唤</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 向[抽牌堆](/mechanics/draw_pile.md)加入<span style="color:#3aa675;font-weight:600">3</span>张呼唤。每有一张状态牌，所有敌人获得1种随机[异常状态](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">4</span>回合。
+PP: 1/1 每有一张状态牌，所有敌人<span style="color:#d44;font-weight:600">随机异常</span><span style="color:#3aa675;font-weight:600">1，4</span>。 向<span style="color:#d4a017;font-weight:600">抽牌堆</span>加入<span style="color:#3aa675;font-weight:600">3</span>张<span style="color:#d4a017;font-weight:600">呼唤</span>。
 
 ## 小贴士
 
 - **呼唤是原版状态牌**：向抽牌堆**随机位置**加入 <span style="color:#3aa675;font-weight:600">3</span> 张呼唤。呼唤在手牌中回合结束扣生命，是加入抽牌堆的代价。
-- **状态牌联动触发**：打出时统计所有状态牌（抽牌堆+手牌+弃牌堆原有 + 新加入 <span style="color:#3aa675;font-weight:600">3</span> 张呼唤），每张让所有敌人获得 <span style="color:#3aa675;font-weight:600">1</span> 种随机异常状态。无原有状态牌时 = 3 次随机异常 × 所有敌人。
-- **26 种异常随机**：从 <span style="color:#3aa675;font-weight:600">26</span> 种异常状态（睡眠、凝滞、烧伤、冰封、中毒、流血、冻伤、害怕、瘫痪、沉默、衰弱、狂暴、束缚、沸涌、石化、感染、超频、焚烬、失明、诅咒、臣服、寄生、麻痹、神游、易燃、混乱）中随机选取，多人模式两端一致。
-- **1 费换全敌人异常**：1 费换 3 次随机异常 × 所有敌人 × 3 回合。多敌人时价值放大，3 个敌人 = 9 次异常施加。代价是 3 张呼唤进抽牌堆（回合结束扣血）。
+- **状态牌联动触发**：打出时统计抽牌堆、手牌、弃牌堆里的状态牌（原有状态牌 + 新加入的 <span style="color:#3aa675;font-weight:600">3</span> 张呼唤），每张让所有敌人获得 <span style="color:#3aa675;font-weight:600">1</span> 种随机异常状态。无原有状态牌时 = 3 次随机异常 × 所有敌人。消耗堆里的状态牌不计入。
+- **随机异常抽取（23 种）**：从已排除狂暴、星赐、凝滞、超频后的 <span style="color:#3aa675;font-weight:600">23</span> 种负面异常状态中随机选取，绝不会随机给敌人提供增益，多人模式两端一致。每抽到 1 种，就对**所有存活敌人**各施加 1 份——同一次抽到的类型对所有敌人都相同。
+- **1 费换全敌人异常**：1 费换 3 次随机异常 × 所有敌人 × 3 回合。多敌人时价值放大，3 个敌人 = 3 次抽取、共 9 份异常施加。代价是 3 张呼唤进抽牌堆（回合结束扣血）。
 - **升级增异常回合**：异常回合 <span style="color:#3aa675;font-weight:600">3</span> → <span style="color:#3aa675;font-weight:600">4</span>。每多 1 回合 = 异常多触发 1 轮，控制效果延长。
-- **带[化墟](/mechanics/ruination.md)**：打出时向你的[弃牌堆](/mechanics/discard_pile.md)加入一张随机状态牌（原版状态牌池）。与"呼唤"一样会往牌堆塞状态资源，配合本卡"每张状态牌触发异常"的机制，反而加固了它的主效果。
+- **带[化墟](/mechanics/ruination.md)**：打出后向你的[弃牌堆](/mechanics/discard_pile.md)加入一张随机状态牌（原版状态牌池）。注意它是在本牌主效果结算之后才加入，所以不会增加本次的异常施加次数；价值在于给下一次打出、或其它"数状态牌"的牌提前铺资源。
 
 ## 相关机制
 
-- [异常状态](/mechanics/abnormal-status.md)（25 种 mod 异常状态随机施加）
+- [异常状态](/mechanics/abnormal-status.md)（27 种权威异常状态，其中 23 种进入随机池）
 - [抽牌堆](/mechanics/draw_pile.md)（加入 3 张呼唤状态牌）
 - [化墟](/mechanics/ruination.md)（打出时向弃牌堆加入一张随机状态牌）
 

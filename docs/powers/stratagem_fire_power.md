@@ -13,7 +13,7 @@
 
 ## 描述
 
-本回合攻击伤害+<span style="color:#3aa675;font-weight:600">4</span>。回合结束时移除。
+本回合攻击伤害+<span style="color:#3aa675;font-weight:600">4</span>。<br/>下个回合开始时移除。
 
 ## 源码
 

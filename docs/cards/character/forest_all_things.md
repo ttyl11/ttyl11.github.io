@@ -11,7 +11,7 @@
 - **稀有度**: 普通
 - **目标**: 自身
 - **可升级**: 是（1 级）
-- **关键词**: [戏法](/mechanics/trick.md)
+- **关键词**: [戏法](/mechanics/trick.md)、[奇巧](/mechanics/sly.md)
 
 ### 数值参数
 
@@ -23,16 +23,17 @@
 
 ## 描述
 
-[戏法](/mechanics/trick.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [生成](/mechanics/channeling.md)<span style="color:#3aa675;font-weight:600">2</span>个[森林](/orbs/forest_orb.md)[充能球](/mechanics/orb.md)。
+PP: 5/5 <span style="color:#d4a017;font-weight:600">生成</span><span style="color:#3aa675;font-weight:600">2</span>个森林<span style="color:#d4a017;font-weight:600">充能球</span>。
 
 ## 升级后
 
-[戏法](/mechanics/trick.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [生成](/mechanics/channeling.md)<span style="color:#3aa675;font-weight:600">3</span>个[森林](/orbs/forest_orb.md)[充能球](/mechanics/orb.md)。
+PP: 5/5 <span style="color:#d4a017;font-weight:600">生成</span><span style="color:#3aa675;font-weight:600">2</span>个森林<span style="color:#d4a017;font-weight:600">充能球</span>。
 
 ## 小贴士
 
-- **充能球生成牌**：打出后生成 2 个（升级后 3 个）[森林充能球](/orbs/forest_orb.md)填入充能球栏位。森林球被动：你回合结束时随机敌人 3 层[中毒](/powers/poison_power.md)；激发：对所有敌人 3 层[感染](/powers/infect_power.md)（造成攻击伤害 -20%，且每回合结束时自身再长 2 层中毒）——森林球是一台自带"中毒增殖"的毒引擎：被动直接上毒，激发的感染还会让敌人自己持续产毒。
-- **戏法抽牌**：带[戏法](/mechanics/trick.md)——打出时若[弃牌堆](/mechanics/discard_pile.md)有牌，随机从弃牌堆抽 1 张到手中。生成球的同时补一张手牌，缓解了 3 费的不赚节奏。
+- **充能球生成牌**：打出后生成 2 个（升级后 3 个）[森林充能球](/orbs/forest_orb.md)填入充能球栏位。森林球被动：你回合结束时随机敌人 3 层[中毒](/powers/poison_power.md)；激发：对所有敌人 3 层[感染](/powers/infect_power.md)（攻击伤害 -20%，每层持续到该敌人下个回合结束——回合结束 -1 层并转 2 层中毒）——森林球是一台自带"中毒增殖"的毒引擎：被动直接上毒，激发的感染还会让敌人自己持续产毒。
+- **戏法抽牌**：带[戏法](/mechanics/trick.md)——打出时若[弃牌堆](/mechanics/discard_pile.md)有牌，随机从弃牌堆拿 1 张到手中。生成球的同时补一张手牌，缓解了 3 费的亏节奏。
+- **奇巧白嫖**：带[奇巧](/mechanics/sly.md)——被任何弃牌效果弃置时会免费自动打出（不耗能量，但仍扣 1 PP；回合结束清手牌不触发），生成球与戏法补牌照常结算。弃牌类卡组里等于只花 1 PP 白赚两个球。
 - **数值吃集中**：森林球的被动/激发数值（3/3）都走充能球数值管线，[集中](/powers/focus_power.md)每层让它们各 +1——集中 3 时被动就是 6 层中毒/球/回合，是 orb 流的标配乘区。
 - **PP 5 持续供球**：单场最多打 5 次（升级后累计 15 个球）。充能球栏位有限：栏位满时继续生成会挤掉最早的球（触发激发结算）——森罗万象反复打出反而能主动"挤球"收割感染，不必怕爆栏。
 - **配合建议**：中毒流核心供件——配合中毒加深/感染扩散类效果滚雪球；配合[集中](/powers/focus_power.md)提升单球数值；配合激发触发类卡牌把感染批量铺到全体。
@@ -43,6 +44,8 @@
 
 - [充能球](/mechanics/orb.md)（生成森林充能球）
 - [戏法](/mechanics/trick.md)（打出时若弃牌堆有牌随机抽 1 张）
+- [奇巧](/mechanics/sly.md)（被弃置时免费自动打出）
+- [PP 系统](/mechanics/pp-system.md)（每次打出消耗 1 点 PP）
 
 ## 相关充能球
 

@@ -1,16 +1,25 @@
 # 圣剑二标记
 
-**被动型** · 不可见能力 · 无图标
+## 基本信息
 
-## 效果
+- **归属**：玩家能力（隐藏图标）
+- **类型**：增益
+- **叠加**：单层
+- **施加来源**：[圣剑二](/cards/token/holy_sword_two.md)（卡牌）
+- **可见**: 否
 
-你的**君王之剑**命中后，对目标施加等于伤害 **50%** 的[固定伤害](/mechanics/fixed-damage.md)。
+## 描述
 
-## 来源
+你的**君王之剑**命中后，对目标造成等同于该次伤害 <span style="color:#3aa675;font-weight:600">50%</span> 的[固定伤害](/mechanics/fixed-damage)。
 
-- [君王之剑II](/cards/token/holy_sword_two.md)（代币牌）
+## 详细机制
 
-## 关联机制
+- 只认**君王之剑**这张牌造成的伤害，其他攻击牌不触发。
+- 按该次实际造成的总伤害计算 50%，再以固定伤害形式施加给同一个目标。
+- 固定伤害在目标下回合开始时结算，不受格挡影响，也不受力量/易伤二次加成。
+- 代码只检查"总伤害 > 0"，不额外检查目标是否存活；击杀时挂上的固伤对已死目标没有实际意义。
 
-- [君王之剑](/cards/token/holy_sword_one.md) 系列：I / II / III 三个等级，效果逐阶递增。
-- [固定伤害](/powers/fixed_damage_power.md)：不受[格挡](/mechanics/block.md)和[力量](/powers/strength_power.md)影响。
+## 源码
+
+- `SeerHolySwordTwoPower.cs`
+- `SeerHolySwordTwo.cs`（圣剑二）

@@ -17,7 +17,7 @@
 
 ## 描述
 
-记录你[永久改变属性](/mechanics/element-affinity.md)的元素。持有期间，于每场战斗开始时重新施加该元素。当前属性：<span style="color:#e08a1e;font-weight:600">{当前元素}</span>。
+记录你<span style="color:#d4a017;font-weight:600">永久改变属性</span>的元素。持有期间，于每场<span style="color:#d4a017;font-weight:600">战斗开始</span>时重新施加该元素。当前属性：[orange][/orange]。
 
 ## 风味文字
 
@@ -43,7 +43,7 @@
 - **永久元素不会叠加**：再次使用变身药会**覆盖**旧元素（先清空再施加），不会同时持有两种永久元素。
 - **每场战斗都白嫖一次变身**：核心价值在这里——一次用药，之后整局的每一场战斗开局都自动带上该元素，长期收益远超单发变身。
 - **元素决定双向倍率**：你的元素既影响你打敌人的伤害倍率，也影响有元素的敌人打你的倍率（克制 ×1.5、被克 ×0.75）。选元素时要兼顾"克敌"和"不被敌克"。
-- **能记录的元素共 26 种**：草 / 水 / 火 / 飞 / 电 / 机械 / 地 / 普通 / 冰 / 超能 / 格斗 / 光 / 暗影 / 神秘 / 龙 / 圣灵 / 次元 / 远古 / 邪灵 / 自然 / 王 / 混沌 / 神 / 轮回 / 虫 / 虚。
+- **能记录的元素共 26 种**：草 / 水 / 火 / 飞行 / 电 / 机械 / 地面 / 普通 / 冰 / 超能 / 战斗 / 光 / 暗影 / 神秘 / 龙 / 圣灵 / 次元 / 远古 / 邪灵 / 自然 / 王 / 混沌 / 神灵 / 轮回 / 虫 / 虚空。
 
 ## 相关药水（12 种）
 
@@ -63,9 +63,8 @@
 ## 相关机制
 
 - [属性克制](/mechanics/element-affinity.md)（元素的实际作用）
-- [26 种异常状态](/mechanics/abnormal-status.md)（元素与异常状态是两套独立系统）
+- [27 种异常状态](/mechanics/abnormal-status.md)（元素与异常状态是两套独立系统）
 
 ## 源码
 
-- `SeerPermanentElementRelic.cs`
-- `SeerElementHelper.cs`（定义于同文件，元素列表与施加工具）
+- `SeerPermanentElementRelic.cs`（`SeerPermanentElementRelic`、`SeerElementHelper`）

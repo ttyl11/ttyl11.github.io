@@ -15,7 +15,7 @@
 
 ## 描述
 
-回合开始时，<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#9b59b6;font-weight:600">[防御](/powers/defense_power.md)</span>。<br/>自身<span style="color:#9b59b6;font-weight:600">[防御](/powers/defense_power.md)</span>从正值被削减到0及以下时，阻止该削减。
+回合开始时，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#9b59b6;font-weight:600">防御</span>。<br/>若自身<span style="color:#9b59b6;font-weight:600">防御</span>为正被削减至≤0，阻止该削减。
 
 - **防御获取**：每回合开始获得 1 层[防御](/powers/defense_power.md)。
 - **削减阻止**：当[防御](/powers/defense_power.md)为正值且即将被削减至 0 或以下时，完全阻止该次削减。

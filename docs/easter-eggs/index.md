@@ -22,7 +22,7 @@
 
 ## 梗值数据
 
-- **怪物血量梗**：史莱姆 114512、试炼史莱姆 114514、魔狮迪露 999998——均为源码设定的初始血量（详见[怪物图鉴](/monsters/index.md)）。
+- **怪物血量梗**：史莱姆 114514、试炼史莱姆 114514、魔狮迪露 1000000——均为源码设定的初始血量（详见[怪物图鉴](/monsters/index.md)）。
 - **卡名的梗**：诅咒牌[拖50](/cards/curse/drag_burden.md)、[氪金](/cards/curse/pay_to_win.md)、[云玩家](/cards/curse/cloud_gamer.md)、[保底](/cards/curse/guaranteed.md)、[老鼠药](/cards/curse/rat_poison.md)；无色牌[好男孩](/cards/colorless/good_boy.md)/[好女孩](/cards/colorless/good_girl.md)、[低等精灵](/cards/colorless/low_elf.md)、[疯狂编码](/cards/colorless/crazy_code.md)；衍生牌["大奖？"](/cards/token/grand_prize.md)/["大奖！"](/cards/token/surprise_grand_prize.md)。
 - **[保底](/cards/curse/guaranteed.md)的抽卡彩蛋**：战斗结束若它在手，1% 概率白送一张随机稀有卡——99% 落空、1% 出货，就是"抽卡保底"的梗。
 - **五音"卩"**：[卩](/enchantments/five_tone_seal.md)是彩蛋级成长附魔——以此牌击败对手后永久 +10% 攻击伤害、-5% 受伤（可叠加），每次触发最大生命 -20。

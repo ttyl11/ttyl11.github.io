@@ -1,7 +1,7 @@
 # 虫
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[群星的礼赠](/relics/starter/elemental_core.md)（遗物）；玩家施加给敌方——[🌫️ 无相](/potions/attribute_change_potion.md)（药水）
+> **施加来源**：任何角色——全局元素分配（玩家回合开始时，尚无元素的生物各随机获得 1 种元素）；玩家自身换元素——[🌫️ 无相](/potions/attribute_change_potion.md)（药水）
 
 <img src="/images/powers/bug_power.png" alt="虫" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,14 +13,14 @@
 
 ## 描述
 
-<span style="color:#9b59b6;font-weight:600">虫</span>属性。克制<span style="color:#9b59b6;font-weight:600">草</span>、<span style="color:#9b59b6;font-weight:600">地面</span>、<span style="color:#9b59b6;font-weight:600">战斗</span>、<span style="color:#9b59b6;font-weight:600">混沌</span>、<span style="color:#9b59b6;font-weight:600">虫</span>。对<span style="color:#9b59b6;font-weight:600">水</span>、<span style="color:#9b59b6;font-weight:600">火</span>、<span style="color:#9b59b6;font-weight:600">冰</span>、<span style="color:#9b59b6;font-weight:600">光</span>微弱。
+①<span style="color:#9b59b6;font-weight:600">虫</span>属性。<br/>②克制<span style="color:#9b59b6;font-weight:600">草</span>、<span style="color:#9b59b6;font-weight:600">地面</span>、<span style="color:#9b59b6;font-weight:600">战斗</span>、<span style="color:#9b59b6;font-weight:600">混沌</span>、<span style="color:#9b59b6;font-weight:600">虫</span>。<br/>③对<span style="color:#9b59b6;font-weight:600">水</span>、<span style="color:#9b59b6;font-weight:600">火</span>、<span style="color:#9b59b6;font-weight:600">冰</span>、<span style="color:#9b59b6;font-weight:600">光</span>微弱。
 
 ## 详细机制
 
 - **元素能力载体**：本能力是[元素属性](/mechanics/element-affinity.md)系统的载体，中性属性（非 Buff/Debuff），不可被消除类效果清除。
-- **克制倍率**：克制 ×1.5 / 被克 ×0.75（龙系被克 ×0.5）/ 中性 ×1.0，只作用于**攻击伤害**的乘法结算。
+- **克制倍率**：克制 ×1.5 / 被克 ×0.75 / 中性 ×1.0，只作用于**攻击伤害**的乘法结算。
 - **不受影响的伤害**：异常状态持续伤害、[固定伤害](/mechanics/fixed-damage.md)、充能球伤害、荆棘反伤、生命流失均不吃元素克制。
-- **随机分配**：每场战斗开始时玩家与敌人各自随机获得元素属性，可通过卡牌/遗物/事件追加或变化。
+- **元素分配**：每场战斗的玩家回合开始时，所有尚无元素的生物由全局元素分配各随机获得 1 种元素；新元素会先移除旧元素，保证身上只有一个元素。玩家也可用[🌫️ 无相](/potions/attribute_change_potion.md)把**自身**换成指定元素，不会改变敌人的元素。
 
 ## 小贴士
 

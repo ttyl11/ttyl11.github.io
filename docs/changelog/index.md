@@ -1,5 +1,70 @@
 # 版本更新
 
+## V5.0（大版本更新）
+
+本次大版本加入刻印系统、赛尔手册、12 个秘境活动、第四/五幕与 20 级新进阶，并同步调整了大量机制与平衡。
+
+### 新增系统
+
+- **刻印系统**：284 条刻印（二角 83 / 三角 30 / 四角 35 / 五角 68 / 特殊 68），最多同时装备 3 条，战斗外更换；每条刻印带试炼，达成后触发赐予并消耗次数。
+- **赛尔手册**：游戏内 18 章资料库，支持目录树、全库搜索与可交互元素克制环。
+- **子地图活动**：12 个秘境活动全部上线，打完会推进到下一幕的 Boss 后免费邀请，通关二选一奖励（随机 20 件史诗选 1 / 随机传说遗物）。
+- **数十个新怪物**：普通、精英、Boss 与子地图变体持续加入，含马尔修斯、不灭·艾恩斯、混沌·千夜死神、莫塔里安、百罗鬼帝等第四/五幕 Boss 与 12 秘境守关怪，怪物图鉴达到 110 个。
+- **第四幕与第五幕**：新增「星海尽头」与「终焉之门」，含 9 位专属 Boss、混编遭遇、出身幕缩放与五幕事件池。
+- **20 个新进阶（A11~A30）**：A11~A20 引入怪物异能、经济收紧与全幕双 Boss；A21~A30 加入泰坦商店封缄、跨幕降级、全幕三 Boss 与终焉先攻。
+
+### 子地图 12 活动
+
+- **界王神灵**：9 张翻牌全部翻正；锁牌 30 泰坦之灵。
+- **圣光的恩泽**：6 盏天灯全部点亮；点到已亮灯会熄灭全部未锁灯。
+- **幽暗之证**：100 个普通节点；1% 基础概率，每 4 泰坦之灵 +1%，最多叠到 100%。
+- **贪婪洞窟**：6 层 4×4 洞窟，累计 800 个石像小鬼；体力 100、攻击 20。
+- **黑暗之心**：种树攒风能/光能，收获果实，累计 10 枚通关。
+- **永恒幻瞳**：9 只缪斯中找真身；40 泰坦之灵移除 1 个分身。
+- **极天之翼**：20 个精英节点，通过 4 关；初始 3 次机会，40 泰坦之灵买 1 次。
+- **王者之证**：4 列秘境掉四类药水，战斗力 ≥ 10000 且攻击、穿透各 > 30。
+- **地神试炼**：10 个精英节点，初始 3 回合内击杀；30 泰坦之灵延长 1 回合。
+- **真命龙王**：左/右精英分别掉奇数/偶数星龙珠，集齐 1~7 星各一颗。
+- **激活节点**：6 格词条，融合随机抽 3 个，正好是灵巧/凌冽/持续即通关。
+- **探寻本心**：10×10 网格，按回合数移动；抵达 BOSS 后连赢 3 场。
+
+### 机制与规则
+
+- **元素相克**：改为赛尔号官方 n 属性公式，多属性合并计算，全克制为 1.5×n；结算只由主属性执行一次，避免重复叠乘。
+- **异常状态**：狂暴、星赐、凝滞、超频属于异常状态，但不会进入随机异常池（随机池 23 种）；传说结界改为全量免疫异常。
+- **永久增伤/减伤**：仍属增益，但不会被消除增益/驱散类效果移除；战斗结束清除、下场战斗重新施加。
+- **赛尔豆商店**：打怪/秘境服务下线，改为「拓印」；价格整体上调——拓印 200 万、抽奖 300 万、升级 600 万、删除 800 万，遗物 900/1200/1800/2800/3600/5000 万。
+- **志旭之战**：投身阵营的删牌数 5 → 3；坚守自我正义改为 50 张卡池（普通 ≤30 / 罕见 ≤15 / 稀有 ≤5），最多选 5 张。
+- **事件层数**：多个事件重新限定出现层数，第四/五幕事件池改为原版四幕全部事件（幕内 39 + 共享 18）+ 30 个赛尔事件；特殊商店与志旭之战不参与混编。
+- **属性加成**：战后金币由 2/3/6 提高到 20/30/60（每个属性 10 金币）。
+
+### 平衡调整
+
+- **卡牌**：一次性调整一批角色牌；后续主要修正为混沌魔域 4 → 6 费且升级改保留等。
+- **刻印**：多轮下调触发次数与数值——高级念力刻印改为累计 20 点速度换 3 点命中、限 4 次；锦·荼白、阳·灵犀、快爆之印、超级速体刻印等同步下调。
+- **遗物**：尤纳斯、麦汪汪新增「每回合至多触发 5 次」上限。
+- **子地图**：活动数值经过多轮调整，当前口径为锁牌 30、圣光灯 9~64 阶梯、幽暗每 4 点 +1%、贪婪 1 泰坦换 10 体力、果实 30、幻瞳移除 40、极天机会 40、王者药水 35、地神延长 30、龙珠碎屑 2。
+
+### 修复的 Bug（重点）
+
+- 目标取错导致怪物「固定伤害打不到玩家」（吃月亮等一批能力）修复；回血派生效果统一按实际回复量结算。
+- 反弱/反强统一改为「先反再打伤害」，避免同类招式前后不一致。
+- 封印口径拆分为「无法打出」与「无效」；圣战瑞尔斯的「挫锐」并入多回合先制，正负两用。
+- 焚心劫灰、军衔之敬、混沌化身等能力/遗物行为修正；战斗音乐重叠问题修复。
+- 多人同步：事件选择各自判定，伤害、能力、子地图表决与泰坦之灵付款两端一致。
+
+### 内容抽查修正（2026-10-29）
+
+- **[亢龙有悔](/cards/character/arrogant_dragon_repents)**：升级后描述的弹控回合数由 3 修正为 5；性价比不再复述 PP 次数。
+- **[小丑](/cards/token/joker)**：小贴士改为单条性价比说明，不再重复 PP 用法。
+- **[圣剑一](/cards/token/holy_sword_one)**：检索范围补充消耗牌堆。
+- **[神宠](/powers/divine_pet_power)**：叠加方式标为计数（Counter）；剩余次数写明初始 5 次、每次召唤 -1。
+- **[先制](/powers/first_strike_power)**：来源数量由过期的「52 个」改为「50+ 个」。
+- **[星皇之怒](/enchantments/star_emperor_wrath)**：详细机制去掉内部字段名，改为玩家可读描述。
+- **[格挡](/mechanics/block)**：相关卡牌名「傲龙有悔」更正为「亢龙有悔」。
+- **[手牌快照](/mechanics/hand-snapshot)**：源码段落改为真实文件名。
+- **[残鸣](/mechanics/canming)**：源码段落去掉方法名，只保留文件名。
+
 ## V4.6（支持多人联机 · 适配测试版 0.111.0）
 
 ### 多人联机支持
@@ -25,6 +90,7 @@
 - **[匠心](/cards/quest/craftsman_heart)**（进度判定由「伤害平方之和 ÷ 8」改为伤害之和，阈值 8000 不变）
 - **[龙魂](/cards/quest/dragon_soul)**（龙牌阈值 9 → 12）
 - **[命宇轮回](/cards/character/fate_reincarnation)**（格挡 8 → 10）
+- **诅咒牌重做**：17 张自定义诅咒牌效果与关键词全面重做——[借鉴](/cards/curse/borrow)、[冲锋](/cards/curse/charge)、[云玩家](/cards/curse/cloud_gamer)、[拖50](/cards/curse/drag_burden)、[嫉妒](/cards/curse/envy)、[暴食](/cards/curse/gluttony)、[贪婪](/cards/curse/greed)、[保底](/cards/curse/guaranteed)、[色欲](/cards/curse/lust)、[氪金](/cards/curse/pay_to_win)、[傲慢](/cards/curse/pride)、[涨价](/cards/curse/price_up)、[老鼠药](/cards/curse/rat_poison)、[懒惰](/cards/curse/sloth)、[渺小](/cards/curse/tiny)、[开龟](/cards/curse/turtle)、[暴怒](/cards/curse/wrath)
 
 ### 修复的 bug
 
@@ -41,6 +107,9 @@
 - 暴击判定统一：所有必定暴击类效果——[回合必定暴击](/powers/turn_guaranteed_crit_power)（幻影蝶）、[必定暴击](/powers/next_guaranteed_crit_power)（梦祈天怜/黎羽幻生/倒吊人及不灭斗气/圣光气/灭魂天葬击）、[冲天霸气](/powers/tiger_crit_counter_power)、[君临天下](/powers/octagon_debt_power)、[幽冥帝尊·修罗](/relics/rare/nether_emperor)——此前只加 ×1.5 伤害、不写入暴击判定，[五月之锋](/cards/character/may_edge)、[二律背反](/powers/antinomy_power)、[镜](/powers/mirror_power)等「暴击时」联动不触发，现已全部接入真暴击判定（不再与随机暴击叠乘）
 - **[沸涌](/powers/boiling_power)**：暴击检测此前按「对方拥有暴击能力」判断，非暴击攻击会被误当暴击抬高倍率，已改用实时暴击判定
 - **[必定暴击](/powers/next_guaranteed_crit_power)**（下次攻击）改为计数器：[黎羽幻生](/cards/character/feather_phantom)「下两次攻击必暴」此前只覆盖一次，现每次攻击 -1 层——黎羽幻生真正覆盖两次，[倒吊人](/relics/common/tarot_hanged_man)随受击叠层
+- **[星辰之录](/relics/event/star_tracker_relic)**（泰坦之灵房间）：金蛋抽奖抽到[通用刻印激活水晶](/relics/event/universal_engraving_gem_relic)时，结果栏此前显示乱码代号、水晶也不会到手，已修复
+- **海玻璃**（原版遗物，欧洛巴斯事件）：mod 角色获取后标题此前显示乱码，已修复
+- **[速度](/powers/speed_power)**：速度过高时「多抽」会被手牌上限截断，弃牌却仍按层数全额扣除，导致「没多抽到几张、反而把手牌弃光」的负收益；现弃牌数封顶为当前手牌上限的一半
 
 ### 其他（机制 / 本地化 / 音乐）
 
@@ -52,6 +121,7 @@
 - **战斗音乐**：遭遇赛尔系怪物时随机播放专属战斗 BGM，多人两端选曲一致
 - **本地化修缮**：重写开场介绍（补充多人联机说明；暴击、命中、速度三段更新为当前机制）；「无效化」更名为「行动失效」；补齐一批[关键词](/mechanics/keywords)与附魔文本；修复部分能力悬浮框显示异常；生成类遗物描述补充「场上」触发口径（[星灵圣王](/relics/common/star_holy_king)、[克雷弗德](/relics/epic/clifford)、[圣王·萨格罗斯](/relics/rare/holy_king_sargeros)）；[速度](/powers/speed_power)描述改为直接写明算法
 - **术语统一**：「致命一击」全部改为[暴击](/mechanics/critical-strike)（冲天霸气、五月之锋、不灭斗气等表述同步）
+- **堕落表述统一**：修正一批把[堕落](/powers/fallen_power.md)当成纯正面收益的卡牌 / 遗物页面（如"堕落白拿""堕落收益""堕落进账可观"等），统一注明它本质是负面层数——满 100 层会触发[魔君接管](/powers/demon_takeover_power.md)强控乱打（并伴随最大生命消耗）；同时修正多处把[堕落]()误链到陨（Fallen）关键词页的链接
 
 ## V4.5（新增混沌魔君·索伦森角色体系 · 药水图鉴重写）
 
@@ -70,7 +140,7 @@
 - **[邪灵降世](/cards/basic/evil_descent)**
 - **[混沌灭世决](/cards/ancient/world_end_decree)**（先古真神牌）
 - **[神灵救世光](/cards/ancient/divine_salvation_light)**（先古真神牌）
-- **[邪灵魔闪光](/cards/character/evil_spirit_flash)**
+- **[邪灵魔闪光](/fifth-skill/evil_spirit_flash)**
 - **[厌世](/cards/character/misanthropy)**
 - **[黑暗之门](/cards/character/dark_gate)**
 - **[混沌魔域](/cards/character/chaos_realm)**
@@ -212,7 +282,7 @@
 - **[恶魔男爵](/relics/uncommon/demon_baron)**（新增堕落）
 - 召唤类遗物描述统一精简：[咕噜咕王](/relics/uncommon/guru_guru_king)、[宿主岩](/relics/common/host_rock)、[克雷弗德](/relics/epic/clifford)、[混元天尊](/relics/legendary/primordial_tianzun)、[蓓丽安特](/relics/epic/beliant)
 - **[黑啵啵](/relics/uncommon/hei_bo_bo)**（新增堕落12%）
-- **[伽罗·八部天龙](/relics/uncommon/garo_eight_dragon)**（文本精简）
+- **[伽罗·八部天龙](/relics/rare/garo_eight_dragon)**（文本精简）
 - **[昆仑](/relics/uncommon/seer_kun_lun)**（新增堕落24）
 - **[魔狮迪露](/relics/uncommon/moshi_dilu)**（新增堕落91）
 - **[圣甲盖亚](/relics/uncommon/holy_armor_gaia)**（新增堕落）
@@ -358,7 +428,7 @@
 - 充能球统一加固：全 mod 28 处充能点统一走新增的 SeerOrbHelper.SafeChannel——球位满且激发链反向补位时不再抛「OrbQueue is full」卡死（未满/无球位时行为与原来完全一致）
 - 接管机制上限调整：[瓦库接管](/mechanics/mourning.md)与[魔君接管](/powers/demon_takeover_power.md)的自动打牌上限 99 张 → 33 张
 - wiki 同步补全 6 张新卡页面、[墨染](/powers/mo_ran_power)能力页、[雁翎](/relics/common/yan_ling)/[学神](/relics/shop/study_god)遗物页重写；角色牌索引 222 → 228，卡牌总数 339 → 345
-- wiki 新增[组合推荐](/combos/)、[彩蛋](/easter-eggs/)、[数据冷知识](/trivia/)板块；清理 powers.json 中 5 个无源码引用的残留条目（九死未悔/雪鹄/海螺/受击计数/残影记伤）
+- wiki 新增[组合推荐](/combos/)、[彩蛋](/easter-eggs/)、[冷知识](/mechanics/trivia)板块；清理 powers.json 中 5 个无源码引用的残留条目（九死未悔/雪鹄/海螺/受击计数/残影记伤）
 - wiki 补全[孤雷风暴](/enchantments/gu_lei_feng_bao)附魔详情页并收录进[附魔图鉴](/enchantments/)（mod 新增附魔 31 → 32 种）
 - wiki 修正遗物图鉴计数（总数 310 → 311；普通 54 → 55、罕见 27 → 31、稀有 52 → 46、商店 13 → 15）与[先古之民](/mechanics/ancients.md)遗物数据（涅奥 26 → 27）
 - wiki 修正首页与[核心机制总览](/mechanics/)的过期计数：关键词 34 → 45（另含原版 7 个，共 52 项）、药水 26 → 68、异常状态 25 → 26
@@ -411,7 +481,7 @@
 - **[兹拉特](/relics/common/zi_la_te)**（普通）
 - **[金瑞福龙](/relics/common/jin_rui_fu_long)**（普通）
 - **[无影剑客](/relics/uncommon/seer_shadowless_swordsman)**（罕见）
-- **[迅剑](/relics/common/seer_swift_sword)**（普通）
+- **[迅剑](/relics/uncommon/seer_swift_sword)**（罕见）
 - **[鬼剑骷髅](/relics/common/seer_ghost_sword_skeleton)**（普通）
 - **[超级果然多](/relics/uncommon/seer_super_guo_ran_duo)**（普通）
 - **[吉拉提斯](/relics/common/seer_ji_la_ti_si)**（普通）
@@ -494,7 +564,7 @@
 - **[天灵净野](/cards/character/heaven_spirit_pure_field)**
 - **[苍鹭幻翎](/cards/character/heron_illusion_feather)**
 - **[潜龙伏地啸](/cards/character/hidden_dragon_roar)**
-- **[圣灵魔闪光](/cards/character/holy_flash)**
+- **[圣灵魔闪光](/fifth-skill/holy_flash)**
 - **[圣盾护佑](/cards/character/holy_shield)**
 - **[我思故我在](/cards/character/i_think_therefore_i_am)**
 - **[不死之身](/cards/character/immortal_body)**
@@ -584,7 +654,7 @@
 - **[群星的礼赠](/relics/starter/elemental_core)**（重做）
 - **[佩尔之舌](/relics/ancient/pael_rare_relic)**（改造）
 - **[吕蒙](/relics/ancient/lu_meng)**
-- [天玄苍魂·青龙](/relics/rare/azure_dragon)、[阿尔蒂克](/relics/epic/arteck)、[刘备](/relics/rare/benevolent_heaven_lord_liu_bei)、[万恶魔主](/relics/rare/evil_beast_emperor)、[钢傀](/relics/epic/steel_puppet)、[女祭司](/relics/common/tarot_high_priestess)、[世界](/relics/common/tarot_world)、[混沌魔君索伦森](/relics/legendary/chaos_demon_lord)、[弑序神罗](/relics/legendary/order_killing_god_luo)（意图封印统一）
+- [天玄苍魂·青龙](/relics/rare/azure_dragon)、[阿尔蒂克](/relics/epic/arteck)、[刘备](/relics/epic/benevolent_heaven_lord_liu_bei)、[万恶魔主](/relics/rare/evil_beast_emperor)、[钢傀](/relics/epic/steel_puppet)、[女祭司](/relics/common/tarot_high_priestess)、[世界](/relics/common/tarot_world)、[混沌魔君索伦森](/relics/legendary/chaos_demon_lord)、[弑序神罗](/relics/legendary/order_killing_god_luo)（意图封印统一）
 - [武心婵](/relics/legendary/wu_xin_chan)、[卫岳](/relics/epic/wei_yue)、[霍光](/relics/epic/huo_guang)（悬浮框新增「第五技能」条目）
 
 ### 修改的能力

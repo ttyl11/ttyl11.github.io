@@ -19,7 +19,7 @@
 
 ## 描述
 
-回合开始时，自身清除现有属性，变为光系。使用牌后随机对随机敌人附加<span style="color:#3aa675;font-weight:600">1</span>种[异常状态](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">1</span>回合，回合结束减<span style="color:#3aa675;font-weight:600">1</span>层。
+①回合开始时，自身移除现有属性，变为光系。<br/>②使用牌后随机对随机敌人附加<span style="color:#3aa675;font-weight:600">1</span>种异常状态<span style="color:#3aa675;font-weight:600">1</span>层，回合结束减1层。
 
 ## 详细机制
 

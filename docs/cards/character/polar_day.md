@@ -25,14 +25,14 @@
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 耗能降至<span style="color:#3aa675;font-weight:600">0</span>。清除所有[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)，获得等量[格挡](/mechanics/block.md)。
+PP: 1/1 清除所有<span style="color:#d44;font-weight:600">堕落</span>，获得等量<span style="color:#d4a017;font-weight:600">格挡</span>。
 
 ## 详细机制
 
 - 读取自身当前[堕落](/powers/fallen_power.md)层数；若为 0，则**完全不结算**（不移除、不获得格挡）。
 - 移除自身堕落能力（层数清零），并获得**等于清掉层数**的[格挡](/mechanics/block.md)。
 - 格挡按招式来源结算，可被格挡类加成影响。
-- **持[枫落殇·西叶](/relics/epic/feng_luo_shang_xi_ye.md)时堕落另有用途**（回合结束按 10:1 转[召唤](/mechanics/summon.md)并清空），此时用这张牌会把转化计数提前清掉。
+- **持[枫落殇·西叶](/relics/epic/feng_luo_shang_xi_ye.md)时堕落另有用途**（己方回合结束每满 10 层按 10:1 转[召唤](/mechanics/summon.md)并清空，不足 10 层则保留），此时用这张牌会把转化计数提前清掉。
 
 ## 小贴士
 

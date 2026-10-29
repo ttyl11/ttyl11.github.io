@@ -29,25 +29,25 @@ Seer Mod 在原版药水基础上新增 68 种自定义药水，均注册在共�
 | [星愿礼盒](gift_box_potion) | 罕见 | 任意 | 10% 概率获得随机遗物，否则获得 99 金币 |
 | [大暗黑天秘药](great_dark_sky_potion) | 稀有 | 战斗 | 将 1 张魔·黑天暗罚加入手牌，本回合 0 费 |
 | [战神联盟秘药](war_god_alliance_potion) | 稀有 | 战斗 | 将 1 张王·联盟审判加入手牌，本回合 0 费 |
-| [瞬影](first_strike_potion) | 普通 | 战斗 | 获得延迟先制 7 回合，每回合 +2 先制 |
-| [炽焰之心](blazing_heart_potion) | 罕见 | 战斗 | 获得 50 层火种（回合末高方差全转或全消） |
-| [罐装草莓](canned_strawberry_potion) | 罕见 | 任意 | 回复已损失生命的 30%；可投掷给商人换 1 个草莓遗物 |
+| [瞬影](first_strike_potion) | 普通 | 战斗 | 7 回合内每回合 +2 层先制（下一张牌减费） |
+| [炽焰之心](blazing_heart_potion) | 罕见 | 战斗 | 获得 50 层火种（每层 10% 转化，期望 +5 增伤/减伤） |
+| [罐装草莓](canned_strawberry_potion) | 罕见 | 战斗 / 商人 | 回复已损失生命的 30%；可投掷给商人换 1 个草莓遗物 |
 | [红色恶魔水晶](red_demon_crystal_potion) | 罕见 | 战斗 | 持有时每回合 +2 力量 +2 速度；使用扣 1 最大生命随机变身 |
 | [紫色恶魔水晶](purple_demon_crystal_potion) | 罕见 | 战斗 | 持有时每回合 +1 能量 +1 先制；使用扣 1 最大生命随机变身 |
 | [绿色恶魔水晶](green_demon_crystal_potion) | 罕见 | 战斗 | 持有时每回合 +2 防御并额外抽 1；使用扣 1 最大生命随机变身 |
-| [齿轮核心](mechanical_nut_potion) | 普通 | 战斗外 | 永久获得 1 个额外药水栏位 |
+| [齿轮核心](mechanical_nut_potion) | 普通 | 任意 | 永久获得 1 个额外药水栏位 |
 | [黑色暮光](black_twilight_potion) | 普通 | 战斗 | 所有敌人获得束缚/害怕/诅咒各 2 回合 |
 | [皮神的羽毛](pi_feather_potion) | 稀有 | 战斗 | 获得 3 片神羽 |
 | [高热溶解弹](high_temp_shell_potion) | 普通 | 战斗 | 随机打出抽牌堆与弃牌堆中 5 张牌 |
 | [永寒精华](eternal_cold_essence_potion) | 普通 | 战斗 | 所有敌人获得冻伤/疲惫/瘫痪各 2 回合 |
 | [位面分离枪](dimensional_separation_gun_potion) | 罕见 | 战斗外 | 下个房间起可进行 1 次非相邻移动后消耗 |
 | [一副涂鸦](doodle_map_potion) | 稀有 | 战斗外 | 仅先古之民节点重置当前章节整张地图 |
-| [黑日之核](black_sun_core_potion) | 稀有 | 任意 | 死亡时以 44% 生命复活后移除；可投掷给商人换随机史诗遗物 |
+| [黑日之核](black_sun_core_potion) | 稀有 | 战斗外（仅商人） | 死亡时以 44% 生命复活后移除；可投掷给商人换随机史诗遗物 |
 | [翩跹之蝶](fluttering_butterfly_potion) | 罕见 | 战斗 | 跳过一次普通战斗且不获得任何奖励 |
 | [智慧果实](wisdom_fruit_potion) | 普通 | 战斗 | 永久变自然系，手牌加入 4 张随机 0 费牌 |
 | [蓝色药丸](blue_pill_potion) | 普通 | 战斗 | 永久变水系；二选一免费打出超临界态(4能量)或重启(洗牌抽4) |
 | [返祖针剂](atavism_injection_potion) | 稀有 | 战斗 | 永久变普通系并恢复满血 |
-| [庆典多味豆](celebration_beans_potion) | 稀有 | 战斗 | 之后每场战斗开始 2 次三选一选择两个属性 |
+| [庆典多味豆](celebration_beans_potion) | 稀有 | 战斗 | 之后每场战斗开始，两次从 26 种属性中各选 1 种获得 |
 | [绯红鱼罐头](crimson_fish_can_potion) | 普通 | 战斗 | 永久变火系；选抽牌堆任意张消耗并清空 PP |
 | [暗物质巧克力](dark_matter_chocolate_potion) | 普通 | 战斗 | 永久变暗影系，所有敌人 15 层固定伤害 |
 | [梦境边陲棉花糖](dream_cotton_candy_potion) | 普通 | 战斗 | 永久变超能系；手牌至多 3 张随机变牌 |

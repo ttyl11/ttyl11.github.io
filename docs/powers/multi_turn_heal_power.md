@@ -1,20 +1,40 @@
-# 多回合恢复生命
+# 多回合回复生命
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[义乂梵我婆娑纱](/cards/character/righteous_brahma_veil.md)（卡牌）
+> **施加来源**：玩家获得——[义乂梵我婆娑纱](/cards/character/righteous_brahma_veil.md)（卡牌，施加 3 层）
 
-<img src="/images/powers/multi_turn_heal_power.png" alt="多回合恢复生命" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/powers/multi_turn_heal_power.png" alt="多回合回复生命" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**: 增益（Buff）
-- **叠加方式**: 叠加
+- **叠加方式**: 按层数叠加（层数＝剩余回合）
 - **可见**: 是
+
+### 数值参数
+
+| 参数 | 数值 |
+|---|---|
+| HealAmount | 2 |
 
 ## 描述
 
-在你的回合结束时恢复<span style="color:#3aa675;font-weight:600">2</span>点<span style="color:#d4a017;font-weight:600">生命</span>并减少1层。
+在你的回合结束时，回复[blue]2[/blue]点[gold]生命值[/gold]，然后层数-[blue]1[/blue]。
+
+## 详细机制
+
+- **每次自己回合结束回复 HealAmount 点**：结算时机是持有者自己的回合结束，然后层数 −1。
+- **层数＝跳数**：婆娑纱给 3 层 → 连续 3 个自己的回合各回 4 点，合计 12 点（能力默认 HealAmount=2，婆娑纱施加时覆盖为 4）；中途获得的层数会延长持续时间。
+- **死亡不结算**：持有者已死亡时不再回血、也不再减层。
+- **与其它回复独立**：和再生、久战等每回合回血能力分别结算，互不替代。
+
+## 小贴士
+
+- **早用早回**：层数按自己的回合结束消耗，越早打出越能吃到完整 3 跳。
+- **可叠加延长**：再次获得层数会在剩余层数上加算，等于延长总回合数。
+- **回血不防溢出伤害**：它只在回合结束回血，挡不住本回合被打死。
 
 ## 源码
 
 - `SeerMultiTurnHealPower.cs`
+- `SeerRighteousBrahmaVeil.cs`（义乂梵我婆娑纱）

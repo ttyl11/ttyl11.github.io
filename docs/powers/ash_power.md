@@ -1,14 +1,14 @@
 # 焚烬
 
 > **归属**：玩家可施加
-> **施加来源**：玩家施加给敌方——[灼目天星](/cards/character/blinding_heaven_star.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[逐日长诗](/cards/character/sun_chase_long_poem.md)（卡牌）、[火山](/orbs/volcano_orb.md)（充能球）、[荒灰天](/powers/desolate_ash_sky_power.md)（能力联动）、[火种永存](/powers/eternal_flame_power.md)（能力联动）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[太阳](/relics/common/tarot_sun.md)（遗物）；玩家侧联动——[鬼火](/powers/ghost_fire_power.md)
+> **施加来源**：玩家施加给敌方——[灼目天星](/cards/character/blinding_heaven_star.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[逐日长诗](/cards/character/sun_chase_long_poem.md)（卡牌）、[火山](/orbs/volcano_orb.md)（充能球）、[荒灰天](/powers/desolate_ash_sky_power.md)（能力联动）、[火种永存](/powers/eternal_flame_power.md)（能力联动）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[烬灭神咒剑](/cards/character/ruin_curse_sword.md)（卡牌）、[太阳](/relics/common/tarot_sun.md)（遗物）、[阿波罗](/relics/common/apollo.md)（遗物）；玩家侧联动——[鬼火](/powers/ghost_fire_power.md)
 
 <img src="/images/powers/ash_power.png" alt="焚烬" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**: 减益（Debuff）
-- **叠加方式**: 递减（刷新型）
+- **叠加方式**: 计数（每回合结束时 -1）
 - **可见**: 是
 
 ### 数值参数
@@ -20,7 +20,7 @@
 
 ## 描述
 
-攻击伤害降低<span style="color:#3aa675;font-weight:600">20</span>%。在你的回合结束时获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">烧伤</span>并减少1层。
+①自身攻击伤害降低<span style="color:#3aa675;font-weight:600">20</span>%。<br/>②自身回合结束时，获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">烧伤</span>，然后<span style="color:#d44;font-weight:600">焚烬</span>层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 

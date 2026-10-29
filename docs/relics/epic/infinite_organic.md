@@ -15,7 +15,7 @@
 
 ## 描述
 
-①你造成的攻击伤害额外+当前回合数。<br/>②自身每 <span style="color:#3aa675;font-weight:600">2</span> 回合获得回合数一半的<span style="color:#d4a017;font-weight:600">[先制](/powers/first_strike_power.md)</span>。<br/>③若自身无任何负面[全属性](/mechanics/all_attributes.md)，造成的<span style="color:#d4a017;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>+<span style="color:#3aa675;font-weight:600">50</span>%，受到的<span style="color:#d4a017;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>-<span style="color:#3aa675;font-weight:600">50</span>%。
+①你造成的所有伤害额外+当前回合数。<br/>②自身每2回合获得回合数一半的<span style="color:#d4a017;font-weight:600">先制</span>。<br/>③若自身无任何负面属性，造成的<span style="color:#d4a017;font-weight:600">固定伤害</span>+50%，受到的<span style="color:#d4a017;font-weight:600">固定伤害</span>-50%。
 
 - **回合伤害加成**：每回合自身回合开始时回合数+1，造成的攻击伤害额外+当前回合数（只加成攻击伤害，非攻击伤害不受此加成；固定伤害的加成由③单独处理）。第1回合+1，第5回合+5，第10回合+10——越往后打伤害越高。
 - **先制获取**：当回合数为偶数时，获得回合数一半层数的[先制](/powers/first_strike_power.md)（如第 2 回合获得 <span style="color:#3aa675;font-weight:600">1</span> 层、第 4 回合获得 <span style="color:#3aa675;font-weight:600">2</span> 层）。先制在**回合开始时**施加——当回合打出的第一张牌就能吃到减费（这与[缔笙](/relics/epic/di_sheng.md)回合结束给先制、下回合才生效的时序不同）。

@@ -17,7 +17,7 @@
 
 ## 描述
 
-①每个敌人：有属性提升则消除并<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">[烧伤](/powers/burn_power.md)</span>；无属性提升则<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">[烧伤](/powers/burn_power.md)</span>，若失败则消除其所有<span style="color:#d4a017;font-weight:600">增益</span>。<br/>②回合结束时，若任一方处于<span style="color:#d44;font-weight:600">[异常状态](/mechanics/abnormal-status.md)</span>，回复<span style="color:#3aa675;font-weight:600">3</span>点生命，恢复消耗牌堆中随机1张PP牌<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">[PP](/mechanics/pp-system.md)</span>。
+回合开始时，若自身无任一属性提升，下次攻击必定暴击。<br/>对每个敌人：若有属性提升，消除之并施加<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">烧伤</span>；若无属性提升，施加<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">烧伤</span>，若失败则消除其所有<span style="color:#d4a017;font-weight:600">增益</span>。<br/>回合结束时，若双方任意一方处于<span style="color:#d44;font-weight:600">异常状态</span>，回复<span style="color:#3aa675;font-weight:600">3</span>点生命，恢复消耗牌堆中随机1张卡牌<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">PP</span>。
 
 - **敌人处理**：对每个敌人，若有属性正值则消除其正值属性并施加 <span style="color:#3aa675;font-weight:600">2</span> 层[烧伤](/powers/burn_power.md)；若无属性正值则施加 <span style="color:#3aa675;font-weight:600">2</span> 层[烧伤](/powers/burn_power.md)，若敌人免疫烧伤则清空其所有可见增益。
 - **回合结束回复**：若自身或任一敌人处于[异常状态](/mechanics/abnormal-status.md)，回复 <span style="color:#3aa675;font-weight:600">3</span> 点生命，并从消耗堆随机选 1 张 PP 未满的 PP 牌恢复 <span style="color:#3aa675;font-weight:600">1</span> 点 PP。

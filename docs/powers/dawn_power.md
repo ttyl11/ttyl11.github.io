@@ -14,7 +14,7 @@
 
 ## 描述
 
-打出攻击牌时，令随机对手<span style="color:#d4a017;font-weight:600">睡眠</span><span style="color:#3aa675;font-weight:600">2</span>回合。在你的回合结束时移除。
+打出攻击牌时，令随机对手<span style="color:#d4a017;font-weight:600">睡眠</span><span style="color:#3aa675;font-weight:600">2</span>回合。<br/>在你的下个回合开始时移除。
 
 ## 源码
 

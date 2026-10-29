@@ -22,7 +22,14 @@
 
 ## 描述
 
-在你的回合开始时，<span style="color:#d4a017;font-weight:600">先制</span>+<span style="color:#3aa675;font-weight:600">1</span>。每层<span style="color:#9b59b6;font-weight:600">蓄力</span>提升造成的伤害<span style="color:#3aa675;font-weight:600">35%</span>，最多 <span style="color:#3aa675;font-weight:600">9</span> 层。每使用一次攻击技能，<span style="color:#9b59b6;font-weight:600">蓄力</span>层数-1。
+①自身回合开始时，<span style="color:#d4a017;font-weight:600">先制</span>+<span style="color:#3aa675;font-weight:600">1</span>。<br/>②每层<span style="color:#9b59b6;font-weight:600">蓄力</span>使自身造成的伤害提高<span style="color:#3aa675;font-weight:600">35%</span>，最多<span style="color:#3aa675;font-weight:600">9</span>层。<br/>③每发起<span style="color:#3aa675;font-weight:600">1</span>次攻击，<span style="color:#9b59b6;font-weight:600">蓄力</span>层数-<span style="color:#3aa675;font-weight:600">1</span>。
+
+## 详细机制
+
+- **先制**：每个自身回合开始时获得 <span style="color:#3aa675;font-weight:600">1</span> 层[先制](/powers/first_strike_power.md)，只减下一张牌的耗能，打出后即消耗。
+- **增伤**：每层使自身造成的**攻击伤害** +<span style="color:#3aa675;font-weight:600">35%</span>；固定伤害、DoT 等非攻击伤害不吃加成。
+- **递减**：每发起**一次攻击**（一次攻击命令，无论打几段、命中几个目标）层数 -<span style="color:#3aa675;font-weight:600">1</span>，所以 9 层最多覆盖 9 次攻击。
+- **上限锁死 9 层**：任何来源施加超过 9 层的部分都会被丢弃，不存在 10 层以上的蓄力。
 
 ## 源码
 

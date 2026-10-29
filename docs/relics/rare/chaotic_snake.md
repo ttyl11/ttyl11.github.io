@@ -19,7 +19,7 @@
 
 ## 描述
 
-①受到敌方攻击伤害后：若伤害≤<span style="color:#3aa675;font-weight:600">20</span>，恢复所有牌<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">[PP](/mechanics/pp-system.md)</span>且下次造成伤害×<span style="color:#3aa675;font-weight:600">1.5</span>；若伤害><span style="color:#3aa675;font-weight:600">20</span>，恢复随机1张<span style="color:#d4a017;font-weight:600">[PP牌](/mechanics/pp-system.md)</span>的满<span style="color:#d4a017;font-weight:600">[PP](/mechanics/pp-system.md)</span>，获得1层<span style="color:#d4a017;font-weight:600">[缓冲](/powers/buffer_power.md)</span>。<br/>②打出卡牌后，有<span style="color:#3aa675;font-weight:600">20</span>%概率令所有对手<span style="color:#d4a017;font-weight:600">[睡眠](/powers/sleep_power.md)</span>。<br/>③打出带<span style="color:#d4a017;font-weight:600">「天」字</span>的牌时，<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span><span style="color:#3aa675;font-weight:600">19</span>%。
+受到敌方攻击伤害后：若伤害≤<span style="color:#3aa675;font-weight:600">20</span>，恢复所有牌<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">PP</span>且下次造成伤害×1.5；若伤害><span style="color:#3aa675;font-weight:600">20</span>，恢复随机1张<span style="color:#d4a017;font-weight:600">PP牌</span>的满<span style="color:#d4a017;font-weight:600">PP</span>（优先<span style="color:#d4a017;font-weight:600">PP</span>为0的牌），获得1层<span style="color:#d4a017;font-weight:600">缓冲</span>。<br/>打出卡牌后，有<span style="color:#3aa675;font-weight:600">20</span>%概率令所有对手进入<span style="color:#d4a017;font-weight:600">睡眠</span>。
 
 - **低伤分支**：实际掉血≤20 时，所有 PP 牌恢复 1 点 PP（不超过上限），并使你下次攻击伤害×1.5。
 - **高伤分支**：实际掉血>20 时，随机 1 张 PP 牌恢复满 PP，并获得 1 层<span style="color:#d4a017;font-weight:600">[缓冲](/powers/buffer_power.md)</span>。

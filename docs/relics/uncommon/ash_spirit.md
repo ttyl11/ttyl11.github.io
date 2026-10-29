@@ -9,7 +9,7 @@
 
 ## 描述
 
-自身回合开始时，将[弃牌堆](/mechanics/discard_pile.md)的非 [PP 牌](/mechanics/pp-system.md)移入[消耗牌堆](/mechanics/exhaust_pile.md)。
+回合开始时，将弃牌堆的非<span style="color:#d4a017;font-weight:600">PP牌</span>移入<span style="color:#d4a017;font-weight:600">消耗</span>牌堆。
 
 ## 详细机制
 

@@ -18,7 +18,7 @@
 
 ## 描述
 
-[铸造](/mechanics/forge.md)时：<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span><span style="color:#3aa675;font-weight:600">4</span>，生成一张<span style="color:#d4a017;font-weight:600">灵魂</span>进抽牌堆。每回合至多触发<span style="color:#3aa675;font-weight:600">5</span>次。
+<span style="color:#d4a017;font-weight:600">铸造</span>时：<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">4</span>，生成一张<span style="color:#d4a017;font-weight:600">灵魂</span>进抽牌堆。
 
 ## 风味文字
 

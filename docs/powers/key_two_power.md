@@ -1,7 +1,7 @@
 # 要点探寻II
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：怪物随机能力池（全局补丁）——玩家回合开始时，怪物按概率获得；概率随已访问房间数增长，不需要遗物
 
 <img src="/images/powers/key_two_power.png" alt="要点探寻II" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -31,4 +31,4 @@
 
 - `SeerKeyTwoPower.cs`
 - 多段共享判定依据：原版 `AttackCommand.cs:536-538`
-- 随机池配置：`SeerElementalCore.cs:100`（`0.000015/房`）
+- 随机池配置：`SeerGlobalMonsterPowerPatch.cs`（`0.000015/房`）

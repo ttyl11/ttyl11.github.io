@@ -1,7 +1,7 @@
 # 臣服
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家施加给敌方——[群生俯首](/cards/character/all_life_submit.md)（卡牌）、[蔑天行·残虐](/cards/character/despise_heaven_cruelty.md)（卡牌）、[龙族烙印](/cards/character/dragon_brand.md)（卡牌）、[无相谛](/fifth-skill/nothingness.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）；怪物施加给玩家——[猛虎王](/monsters/normal/menghuwang_monster.md)
+> **施加来源**：玩家施加给敌方——[群生俯首](/cards/character/all_life_submit.md)（卡牌）、[蔑天行·残虐](/cards/character/despise_heaven_cruelty.md)（卡牌）、[龙族烙印](/cards/character/dragon_brand.md)（卡牌）、[无相谛](/fifth-skill/nothingness.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）；怪物施加给玩家——[猛虎王](/monsters/normal/menghuwang_monster.md)、[百罗鬼帝](/monsters/boss/bailuoguidi_monster.md)、[堕息·迹](/monsters/elite/duoxiji_monster.md)、[狂沙之主·萨特](/monsters/elite/mad_sand_lord_sate_monster.md)；玩家侧——[始皇帝·嬴政](/relics/legendary/shi_huang_di_ying_zheng.md)（战斗开始对所有敌人施加）
 
 <img src="/images/powers/subjugation_power.png" alt="臣服" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -21,7 +21,7 @@
 
 ## 描述
 
-攻击伤害降低<span style="color:#3aa675;font-weight:600">70</span>%。移除时，若为玩家则获得<span style="color:#3aa675;font-weight:600">2</span>张随从牌，若为怪物则获得<span style="color:#3aa675;font-weight:600">3</span>点<span style="color:#d4a017;font-weight:600">力量</span>。在你的回合结束时减少<span style="color:#3aa675;font-weight:600">1</span>层。
+①自身攻击伤害降低<span style="color:#3aa675;font-weight:600">70%</span>。<br/>②此能力移除时，若持有者为玩家，获得<span style="color:#3aa675;font-weight:600">2</span>张随从牌；若持有者为怪物，获得<span style="color:#3aa675;font-weight:600">3</span>点<span style="color:#d4a017;font-weight:600">力量</span>。<br/>自身回合结束时层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 

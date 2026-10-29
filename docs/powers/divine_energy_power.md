@@ -8,7 +8,7 @@
 ## 基本信息
 
 - **类型**: 增益（Buff）
-- **叠加方式**: 递减（计数型）
+- **叠加方式**: 叠加（计数型，不自动递减）
 - **可见**: 是
 - **来源**: mod 能力
 
@@ -22,7 +22,7 @@
 
 ## 描述
 
-每层减少<span style="color:#3aa675;font-weight:600">12</span>%受到伤害，最高<span style="color:#3aa675;font-weight:600">6</span>层。其它效果由遗物提供。
+每层使自身受到的伤害降低<span style="color:#3aa675;font-weight:600">12%</span>，最高<span style="color:#3aa675;font-weight:600">6</span>层。<br/>其他效果由遗物提供。
 
 ## 详细机制
 

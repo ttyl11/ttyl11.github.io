@@ -1,7 +1,7 @@
-# 全属性下降免疫
+# 免弱
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——SeerKeywordEffectManager（关键词）
+> **施加来源**：玩家获得——关键词系统
 
 <img src="/images/powers/attribute_down_immune_power.png" alt="全属性下降免疫" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,7 +13,7 @@
 
 ## 描述
 
-永久免疫<span style="color:#d4a017;font-weight:600">力量</span>、<span style="color:#d4a017;font-weight:600">防御</span>、<span style="color:#d4a017;font-weight:600">命中</span>、<span style="color:#d4a017;font-weight:600">速度</span>的下降。
+永久<span style="color:#d4a017;font-weight:600">免弱</span>：免疫<span style="color:#d4a017;font-weight:600">力量</span>、<span style="color:#d4a017;font-weight:600">防御</span>、<span style="color:#d4a017;font-weight:600">命中</span>、<span style="color:#d4a017;font-weight:600">速度</span>的下降。
 
 ## 源码
 

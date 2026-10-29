@@ -28,8 +28,8 @@
 - **触发时机**：在拥有者一方回合结束时触发。
 - **力量损失**：扣除 <span style="color:#3aa675;font-weight:600">1</span> 点[力量](/powers/strength_power.md)。
 - **防御获取**：获得 <span style="color:#3aa675;font-weight:600">1</span> 点[防御](/powers/defense_power.md)。
-- **格挡获取**：获得等于层数的[格挡](/mechanics/block.md)。层数由卡牌施加时传入（好男孩卡牌传入 <span style="color:#3aa675;font-weight:600">12</span>，升级后 <span style="color:#3aa675;font-weight:600">20</span>）。
-- **叠加特性**：按计数叠加，实例化（每次施加独立实例）。
+- **格挡获取**：获得等于层数的[格挡](/mechanics/block.md)。层数由卡牌施加时传入（好男孩卡牌传入 <span style="color:#3aa675;font-weight:600">12</span>，升级后 <span style="color:#3aa675;font-weight:600">20</span>）。这是无加成格挡：不吃敏捷/脆弱修正。
+- **叠加特性**：实例化——每次施加是独立实例，各自在回合结束时结算一次。
 
 ## 相关卡牌
 

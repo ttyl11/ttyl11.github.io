@@ -1,7 +1,7 @@
 # 逝者亡语
 
 > **归属**：玩家专属（[混灵·莱茵哈特](/relics/epic/hun_ling_lai_yin_ha_te.md)②施加，作用于自身）
-> **施加来源**：混灵·莱茵哈特②——战斗开始 1 层（首次死亡后 5 层）+ 全场生物死亡各 +1
+> **施加来源**：混灵·莱茵哈特②——战斗开始 1 层（首次死亡后 5 层）+ 全场生物死亡各 +1；[尘封八荒](/cards/character/dust_sealed_eight_wastes.md)——每 48 堕落 +1 层（上限 12）
 
 <img src="/images/powers/death_whisper_power.png" alt="逝者亡语" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -21,16 +21,16 @@
 
 ## 描述
 
-每有[blue]1[/blue]层，打出牌时有[blue]6%[/blue]概率免费[gold]重放[/gold]。至多[blue]12[/blue]层。达[blue]6[/blue]层后，打带[red]堕落[/red]的牌[gold]先制[/gold]+[blue]1[/blue]。
+①每有<span style="color:#3aa675;font-weight:600">1</span>层，打出牌时有<span style="color:#3aa675;font-weight:600">6%</span>概率免费<span style="color:#d4a017;font-weight:600">重放</span>，至多<span style="color:#3aa675;font-weight:600">12</span>层。<br/>②达到<span style="color:#3aa675;font-weight:600">6</span>层后，打出带有<span style="color:#d44;font-weight:600">堕落</span>的牌时<span style="color:#d4a017;font-weight:600">先制</span>+<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 
-- **免费重放**：每层提供 **6%** 概率，在你打出任意牌后，按层数累计概率判定（1 层 6%、2 层 12%…12 层 72%）——命中则用[自动打出](/mechanics/replay.md)（`CardCmd.AutoPlay`）**免费重打同一张牌一次**（不耗能量：`EnergySpent=0`）。
-- **重放防递归**：自动打出的牌会被跳过判定（`IsAutoPlay`），不会死循环——~试想 12 层 72% 概率也不会无限重打。
+- **免费重放**：每层提供 **6%** 概率，在你打出任意牌后，按层数累计概率判定（1 层 6%、2 层 12%…12 层 72%）——命中则[自动打出](/mechanics/replay.md)**免费重打同一张牌一次**（不耗能量）。
+- **重放防递归**：自动打出的牌会被跳过判定，不会死循环——~试想 12 层 72% 概率也不会无限重打。
 - **重放继承目标**：重放沿用同一张牌的实例与目标；若原目标已死亡则放弃重打（需要指向敌人的牌在敌人死亡后不会空打）。
-- **先制+1 门槛**：**≥6 层**后，打出**带[堕落](/mechanics/fallen.md)**的牌（判定「牌面描述含'堕落'字样」）时，自身[先制](/powers/first_strike_power.md)+1。每打出一次带堕落牌都触发，先制可无限叠加。
+- **先制+1 门槛**：**≥6 层**后，打出**带[堕落](/powers/fallen_power.md)**的牌（判定「牌面描述含'堕落'字样」）时，自身[先制](/powers/first_strike_power.md)+1。每打出一次带堕落牌都触发，先制可无限叠加。
 - **层数来源**：[混灵·莱茵哈特](/relics/epic/hun_ling_lai_yin_ha_te.md)②——战斗开始 1 层（首次死亡后 5 层），此后**全场任意生物死亡**（敌我双方，含自身）各 +1，至多 12 层（12 层封顶不再叠加）。
-- **概率随机数**：重放概率使用 `RunState.Rng.Niche` 子随机数——多人同步环境下两端消耗同一随机源，数值一致不出偏差。
+- **多人一致**：重放概率采用多人同步的随机判定——两端数值一致，不会出现偏差。
 
 ## 小贴士
 
@@ -43,7 +43,7 @@
 
 - [重放](/mechanics/replay.md)（核心效果）
 - [先制](/powers/first_strike_power.md)（≥6 层附带）
-- [堕落](/mechanics/fallen.md)（先制触发的判定词条）
+- [堕落](/powers/fallen_power.md)（先制触发的判定词条）
 
 ## 相关遗物
 

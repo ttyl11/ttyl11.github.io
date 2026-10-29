@@ -15,7 +15,7 @@
 
 ## 描述
 
-①场上每次生成<span style="color:#d4a017;font-weight:600">状态牌</span>时，获得<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">[力量](/powers/strength_power.md)</span>。<br/>②打出<span style="color:#d4a017;font-weight:600">攻击牌</span>时，随机生成1张<span style="color:#d4a017;font-weight:600">状态牌</span>加入弃牌堆。<br/>③打出<span style="color:#d4a017;font-weight:600">技能牌</span>时，随机消耗弃牌堆中1张<span style="color:#d4a017;font-weight:600">状态牌</span>。<br/>④每次回复生命时，随机解除自身1个<span style="color:#d44;font-weight:600">[异常状态](/mechanics/abnormal-status.md)</span>。
+①每次生成<span style="color:#d4a017;font-weight:600">状态牌</span>时，获得<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">力量</span>。<br/>②打出<span style="color:#d4a017;font-weight:600">攻击牌</span>时，随机生成1张<span style="color:#d4a017;font-weight:600">状态牌</span>加入弃牌堆。<br/>③打出<span style="color:#d4a017;font-weight:600">技能牌</span>时，随机消耗弃牌堆中1张<span style="color:#d4a017;font-weight:600">状态牌</span>。<br/>④每次回复生命时，随机解除自身1个<span style="color:#d44;font-weight:600">debuff</span>。
 
 - **本地化与源码不一致**：本地化④说的是"debuff"，实际从异常状态列表中随机移除一个[异常状态](/mechanics/abnormal-status.md)，实际效果以实际效果为准。
 
@@ -36,7 +36,7 @@
 - **③是双向阀门：清废牌 + 触发温暖**：打出技能牌随机消耗弃牌堆 1 张状态牌——既能清掉②和敌人塞的废牌，防止弃牌堆越积越脏；也能定向"引爆"温暖（温暖进消耗堆时给格挡，②生成温暖 → ③消耗它 = 白得格挡）。注意是**随机**消耗，无法指定目标。
 - **长战有"芜"的风险**：②的随机池没有排除**芜**（不可打出、所有牌堆凑满 5 张即死亡的倒计时牌）。每次打攻击牌都有约 1/21 概率自塞一张芜——单场战斗问题不大，但攻击牌打得多时记得用③把它们从弃牌堆消耗掉，别攒。
 - **重放/多段攻击的差别**：②③按"打出"触发，多段攻击一张只触发一次②；但**重放**（如[冷却时间](/enchantments/cooldown_time_enchantment.md)附魔）的技能牌每执行一遍都各触发一次③——重放+1 的技能牌一次消耗 2 张状态牌。
-- **④是"异常免疫机"的雏形**：战斗内任何回血（药水、吸血、回血卡）都随机解除 1 个[异常状态](/mechanics/abnormal-status.md)。注意范围是 mod 的 24 种异常状态（灼烧、中毒、流血、麻痹、石化等），**不包含原版减益**（原版的虚弱/易伤不在列表里）。吸血流配它，异常基本挂不住。
+- **④是"异常免疫机"的雏形**：战斗内任何回血（药水、吸血、回血卡）都随机解除 1 个[异常状态](/mechanics/abnormal-status.md)。注意范围是 mod 的 27 种异常状态（烧伤、中毒、流血、麻痹、石化等），**不包含原版减益**（原版的虚弱/易伤不在列表里）。吸血流配它，异常基本挂不住。
 - **本地化与源码不一致**：本地化④写的是"debuff"，实际从 mod 异常状态列表中随机移除一个，效果以实际为准。
 
 ## 源码

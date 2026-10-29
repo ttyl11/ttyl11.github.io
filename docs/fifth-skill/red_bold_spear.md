@@ -25,11 +25,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 自身每有一种[<span style="color:#d4a017;font-weight:600">属性提升</span>](/mechanics/all_attributes.md)，耗能<span style="color:#3aa675;font-weight:600">-1</span>，对所有敌人造成 <span style="color:#3aa675;font-weight:600">7</span>×属性提升种类数 伤害并附加 <span style="color:#3aa675;font-weight:600">7</span>×属性提升种类数 点[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。打出时耗能&lt;<span style="color:#3aa675;font-weight:600">4</span>，恢复已损失生命<span style="color:#3aa675;font-weight:600">50</span>%。
+PP: 5/5 每种<span style="color:#d4a017;font-weight:600">属性提升</span>耗能<span style="color:#3aa675;font-weight:600">-1</span>。对全体敌人造成<span style="color:#3aa675;font-weight:600">7</span>点伤害并附加<span style="color:#3aa675;font-weight:600">7</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>，均<span style="color:#3aa675;font-weight:600">×属性提升种类数</span>。耗能<<span style="color:#3aa675;font-weight:600">4</span>时恢复已损失生命<span style="color:#3aa675;font-weight:600">50</span>%。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 自身每有一种[<span style="color:#d4a017;font-weight:600">属性提升</span>](/mechanics/all_attributes.md)，耗能<span style="color:#3aa675;font-weight:600">-1</span>，对所有敌人造成 <span style="color:#3aa675;font-weight:600">7</span>×属性提升种类数 伤害并附加 <span style="color:#3aa675;font-weight:600">7</span>×属性提升种类数 点[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。打出时耗能&lt;<span style="color:#3aa675;font-weight:600">4</span>，恢复已损失生命<span style="color:#3aa675;font-weight:600">75</span>%。（升级提升回复百分比 50% → 75%）
+PP: 5/5 每种<span style="color:#d4a017;font-weight:600">属性提升</span>耗能<span style="color:#3aa675;font-weight:600">-1</span>。对全体敌人造成<span style="color:#3aa675;font-weight:600">7</span>点伤害并附加<span style="color:#3aa675;font-weight:600">7</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>，均<span style="color:#3aa675;font-weight:600">×属性提升种类数</span>。耗能<<span style="color:#3aa675;font-weight:600">4</span>时恢复已损失生命<span style="color:#3aa675;font-weight:600">75</span>%。
 
 ## 小贴士
 

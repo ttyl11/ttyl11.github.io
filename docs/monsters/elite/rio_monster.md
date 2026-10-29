@@ -7,7 +7,7 @@
 | 属性 | 数值 |
 |---|---|
 | 分类 | [精英怪物](/monsters/elite/) |
-| 生命值 | <span style="color:#3aa675;font-weight:600">98 - 103</span> |
+| 生命值 | <span style="color:#3aa675;font-weight:600">101 - 104</span> |
 | 被动能力 | [鬼火](#被动能力)（<span style="color:#3aa675;font-weight:600">1</span> 层） |
 
 ## 行动逻辑
@@ -17,22 +17,23 @@
 ```mermaid
 stateDiagram-v2
     direction TB
-    state "电光火石" as s1
+    state "电光火石（第 1 回合）" as s1
     state "烈火燎原" as s2
-    state "回击" as s3
-    [*] --> s1: 第1回合
-    s1 --> s2: 第2回合
-    s2 --> s1: 第3回合
-    s1 --> s3: 第4回合
-    s3 --> s1: 循环
+    state "电光火石（第 3 回合）" as s3
+    state "回击" as s4
+    [*] --> s1: 第 1 回合
+    s1 --> s2: 第 2 回合
+    s2 --> s3: 第 3 回合
+    s3 --> s4: 第 4 回合
+    s4 --> s1: 循环
 ```
 
-## 招式
+## 招式表
 
 | 招式 | 意图 | 描述 | 数值 |
 |---|---|---|---|
-| 电光火石 | 电光火石 | 自身先制+1，全属性+2。 | 先制+<span style="color:#3aa675;font-weight:600">1</span>；力量/防御/命中/速度各+<span style="color:#3aa675;font-weight:600">2</span> |
-| 烈火燎原 | 烈火燎原 | 造成10点伤害。你每有1层异常状态，伤害+1。 | 基础 <span style="color:#3aa675;font-weight:600">10</span> 伤害 + 目标每层异常状态 +<span style="color:#3aa675;font-weight:600">1</span> |
+| 电光火石 | 电光火石 | 自身先制+1，全属性+2，获得20格挡。 | 先制+<span style="color:#3aa675;font-weight:600">1</span>；力量/防御/命中/速度各+<span style="color:#3aa675;font-weight:600">2</span>；格挡 <span style="color:#3aa675;font-weight:600">20</span> |
+| 烈火燎原 | 烈火燎原 | 造成15点伤害。你每有1层异常状态，伤害+1。 | 基础 <span style="color:#3aa675;font-weight:600">15</span> 伤害 + 目标每层异常状态 +<span style="color:#3aa675;font-weight:600">1</span> |
 | 回击 | 回击 | 造成15点伤害。自身每损失1点生命值，伤害+1%。 | 基础 <span style="color:#3aa675;font-weight:600">15</span>，公式 15×(1+已损失生命/100) |
 
 ## 被动能力
@@ -52,12 +53,12 @@ stateDiagram-v2
 |---|---|---|---|---|
 | `SeerRioElite` | Elite | 精英池（第一层 Overgrowth） | <span style="color:#3aa675;font-weight:600">1</span> 只 | 无具名位置 |
 
-## 攻略要点
+## 策略提示
 
 - **鬼火反伤**：每次攻击里奥斯都会被反挂 <span style="color:#3aa675;font-weight:600">2</span> 层焚烬 + <span style="color:#3aa675;font-weight:600">2</span> 层烧伤，多段攻击（如多段充能球）会反复触发，高频率小伤害反而最吃亏。建议用少量高伤害单次攻击。
-- **烈火燎原惩罚异常状态**：基础 10 伤害，你身上每层异常状态 +1。被鬼火挂上焚烬/烧伤后，下一次烈火燎原伤害会显著抬高，注意在烈火燎原回合前清除异常或硬扛。
+- **烈火燎原惩罚异常状态**：基础 15 伤害，你身上每层异常状态 +1。被鬼火挂上焚烬/烧伤后，下一次烈火燎原伤害会显著抬高，注意在烈火燎原回合前清除异常或硬扛。
 - **回击越残越痛**：回击伤害随里奥斯已损失生命值线性增长（每损 1 点 +1%）。残血时回击可远超 15，斩杀线计算时务必把回击回合的动态伤害纳入考量。
-- **电光火石滚雪球**：每次电光火石使全属性 +2、先制 +1，多轮循环后里奥斯属性会逐步增长，建议速战。
+- **电光火石滚雪球**：每次电光火石使全属性 +2、先制 +1，并获得 20 格挡，多轮循环后里奥斯属性与防御都会逐步增长，建议速战。
 - **视觉资源**：使用自定义序列帧动画场景（精英 2x 缩放）。
 
 ## 小贴士

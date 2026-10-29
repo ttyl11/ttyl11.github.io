@@ -23,7 +23,7 @@
 
 ## 描述
 
-最多 <span style="color:#3aa675;font-weight:600">5</span> 层。每有一层：造成伤害增加 <span style="color:#3aa675;font-weight:600">6</span>%，受到伤害降低 <span style="color:#3aa675;font-weight:600">6</span>%。<br/>每回合结束时，恢复等同于层数的生命。
+最多<span style="color:#3aa675;font-weight:600">5</span>层。<br/>①每层使自身造成的伤害提高<span style="color:#3aa675;font-weight:600">6%</span>，受到的伤害降低<span style="color:#3aa675;font-weight:600">6%</span>。<br/>②你的回合结束时，回复等同于层数的生命值。
 
 ## 详细机制
 

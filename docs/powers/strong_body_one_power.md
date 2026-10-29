@@ -1,7 +1,7 @@
 # 强体1
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：全局怪物能力池（全局补丁）——玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长
 
 <img src="/images/powers/strong_body_one_power.png" alt="强体1" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,11 +13,11 @@
 
 ## 描述
 
-战斗开始时，获得最大生命值15%的最大生命值。
+战斗开始时，最大生命值提高<span style="color:#3aa675;font-weight:600">15%</span>。
 
 ## 详细机制
 
-- **开局一次性膨胀**：战斗开始的瞬间，最大生命 +<span style="color:#3aa675;font-weight:600">15%</span>（按当前 MaxHp 计算、向下取整，至少 +1）。
+- **开局一次性膨胀**：战斗开始的瞬间，最大生命 +<span style="color:#3aa675;font-weight:600">15%</span>（按当前 MaxHp 的 15% 向下取整；不足 1 点时不增加）。
 - **加血即满血**：内置等量回血（上限加多少、当前血同时回多少）——效果是**满血状态整体膨胀 15%**，不是"多出一段空血条"。
 - **只在开局结算一次**：之后不再成长，与[生息](/powers/life_breath_one_power.md)系的每回合复利完全不同。
 
@@ -31,4 +31,4 @@
 ## 源码
 
 - `SeerStrongBodyOnePower.cs`
-- `SeerElementalCore.cs`
+- `SeerGlobalMonsterPowerPatch.cs`（随机池）

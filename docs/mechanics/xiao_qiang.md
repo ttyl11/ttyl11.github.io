@@ -21,6 +21,7 @@
 - [银雾之翼](/cards/character/silver_mist_wing.md)
 - [石破天惊](/cards/character/stone_breaker.md)
 - [逐日长诗](/cards/character/sun_chase_long_poem.md)
+- [尘封八荒](/cards/character/dust_sealed_eight_wastes.md)
 - [万卍觉心法界镇](/fifth-skill/myriad_awakening_realm_suppression.md)
 
 ## 相关词条

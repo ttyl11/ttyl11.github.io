@@ -1,4 +1,4 @@
-# 时之彼端
+# 伤害反弹
 
 > **归属**：玩家可施加
 > **施加来源**：玩家获得——[终末·时之彼端](/cards/character/time_end.md)（卡牌）
@@ -13,7 +13,7 @@
 
 ## 描述
 
-下次受到的伤害<span style="color:#3aa675;font-weight:600">100%</span>反馈给对手。若受到的伤害><span style="color:#3aa675;font-weight:600">20</span>，则恢复等量<span style="color:#d4a017;font-weight:600">体力</span>。触发后移除。
+①下次受到的伤害<span style="color:#3aa675;font-weight:600">100%</span>反弹给攻击者。<br/>②若该伤害高于<span style="color:#3aa675;font-weight:600">20</span>，自身回复等量<span style="color:#d4a017;font-weight:600">生命值</span>。<br/>触发后移除此能力。
 
 ## 详细机制
 

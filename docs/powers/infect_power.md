@@ -20,7 +20,7 @@
 
 ## 描述
 
-攻击伤害降低<span style="color:#3aa675;font-weight:600">20</span>%。在你的回合结束时减少<span style="color:#3aa675;font-weight:600">1</span>层并获得<span style="color:#3aa675;font-weight:600">2</span>层[中毒](/powers/poison_power.md)。
+①自身攻击伤害降低<span style="color:#3aa675;font-weight:600">20%</span>。<br/>②自身回合结束时层数-<span style="color:#3aa675;font-weight:600">1</span>，并获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">中毒</span>。
 
 ## 详细机制
 

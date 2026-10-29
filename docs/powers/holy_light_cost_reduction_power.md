@@ -15,17 +15,17 @@
 
 | 参数 | 数值 |
 |---|---|
-| 耗能减免 | 1（每层） |
+| 耗能减免 | 1（固定，不随层数增加） |
 
 ## 描述
 
-你的所有牌耗能 -<span style="color:#3aa675;font-weight:600">1</span>（每层叠加）。
+本回合你的所有牌耗能-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 
-- **全场减费**：拥有此增益时，你的所有牌耗能 -<span style="color:#3aa675;font-weight:600">1</span>（最低降到 <span style="color:#3aa675;font-weight:600">0</span>）。
-- **叠加效果**：多张[圣光](/cards/ancient/holy_light.md)打出时效果叠加。<span style="color:#3aa675;font-weight:600">2</span> 层=所有牌耗能 -<span style="color:#3aa675;font-weight:600">2</span>，<span style="color:#3aa675;font-weight:600">3</span> 层=耗能 -<span style="color:#3aa675;font-weight:600">3</span>……层数越多减费越多。
-- **本场战斗持续**：增益持续到战斗结束，不会在回合间消失。
+- **全场减费**：拥有此增益时，你自己的所有牌耗能 -1（最低降到 0）。
+- **层数不减更多**：减费固定为 1；多张圣光叠加只增加层数，不会变成 -2/-3。
+- **本回合有效**：自己的回合结束时移除，不是整场战斗常驻。
 - **触发方式**：由[圣光](/cards/ancient/holy_light.md)牌打出时施加。[圣光](/cards/ancient/holy_light.md)牌由[圣光灵神](/relics/legendary/holy_light_spirit.md)遗物的"净化"效果生成（将抽牌堆的诅咒牌和状态牌转化为[圣光](/cards/ancient/holy_light.md)）。
 
 ## 相关卡牌

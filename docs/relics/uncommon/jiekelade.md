@@ -20,7 +20,7 @@
 
 ## 描述
 
-①每回合：所有敌人<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">[寄生](/powers/parasite_power.md)</span>，-<span style="color:#3aa675;font-weight:600">1</span><span style="color:#d4a017;font-weight:600">[命中](/powers/accuracy_power.md)</span>。<br/>②每2回合：所有敌人[全属性](/mechanics/all_attributes.md)-1（[力量](/powers/strength_power.md)/[防御](/powers/defense_power.md)/[命中](/powers/accuracy_power.md)/[速度](/powers/speed_power.md)）。<br/>③每3回合：清除敌我全体[全属性](/mechanics/all_attributes.md)，对每个敌人造成等于清除总量之和的<span style="color:#d4a017;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>。<br/>④造成<span style="color:#d4a017;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>时，<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span>等量。
+①每1回合：所有敌人<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">[寄生](/powers/parasite_power.md)</span>，-<span style="color:#3aa675;font-weight:600">1</span><span style="color:#d4a017;font-weight:600">[命中](/powers/accuracy_power.md)</span>。<br/>②每2回合：所有敌人[全属性](/mechanics/all_attributes.md)-1。<br/>③每3回合：清除敌我全体[全属性](/mechanics/all_attributes.md)，对每个敌人造成等于清除总量之和的<span style="color:#d4a017;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>。<br/>④造成<span style="color:#d4a017;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>时，自身获得等量<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span>。
 
 - **清除总量计算**：对每个敌人造成的固定伤害 = 自身清除的全属性绝对值之和 + 该敌人清除的全属性绝对值之和。负属性同样贡献正伤害。
 - **移除方式差异**：清除时自身和敌人的全属性增减益（无论正负）整体移除，双方回到无修正状态——不是"减到 0"，是把力量/防御/命中/速度的层数整个洗掉。
@@ -40,11 +40,11 @@
 
 - **固定伤害的结算细节**：收割挂的是固伤层数，在**敌方回合开始时**一次性结算掉血（你第 3 回合打完牌、敌人回合一开始才生效），不可被格挡；但会被固伤免疫类效果免疫、被[无实体](/powers/intangible_power.md)封顶为 1 点。层数等于伤害值，跳一次后清空。
 
-- **④堕落跟着收割一起涨**：每施加一次固伤就堕落等量——每 3 回合清一次属性，敌人越多、属性叠得越厚，一次收割既打固伤又推堕落。堕落是**负面层数**，满 <span style="color:#3aa675;font-weight:600">100</span> 会被[魔君接管](/powers/demon_takeover_power.md)当回合失控自动打牌（附带抽 3 与混沌化身补偿）。收割爆发的那几回合堕落涨得最快，节奏要心里有数。
+- **④堕落跟着收割一起涨**：每施加一次固伤就堕落等量——每 3 回合清一次属性，敌人越多、属性叠得越厚，一次收割既打固伤又推堕落。堕落是**负面层数**，满 <span style="color:#3aa675;font-weight:600">100</span> 会被[魔君接管](/powers/demon_takeover_power.md)当回合失控自动打牌（附带抽 1 与混沌化身补偿）。收割爆发的那几回合堕落涨得最快，节奏要心里有数。
 
 - **寄生是不吃清除的永续滴灌**：每回合 +1 层、敌方回合开始消耗 1 层——稳定在"每轮每敌 2 点不可格挡掉血 + 回你 2 血"。3 回合一次的属性清除不碰寄生，所以整场战斗这份磨血+回血雷打不动，多敌人战斗里总收益相当可观。
 
-- **命中减益是波浪形的**：每层 -1 命中 = 敌人攻击 5% 概率 Miss。周期内累积到约 -3（15% Miss）就被清除洗掉、从头再叠。它不是永久压制，而是让每个周期的中后段敌人攻击变得更不可靠。
+- **命中减益是波浪形的**：每层 -1 命中 = 敌人攻击被你闪避的概率 +5%。周期内累积到约 -3（+15% 闪避）就被清除洗掉、从头再叠。它不是永久压制，而是让每个周期的中后段敌人攻击变得更不可靠。
 
 - **与力量/属性构筑天然冲突**：你的力量加成同样活不过 3 回合——第 3 回合开始（出牌前）就被收割成固伤。力量在第 1-2 回合的攻击中仍然全额生效，第 3 回合就只剩"一次性变现"。纯叠力量的输出构筑拿着它会周期性断档；反而"叠一波属性 → 收割爆发"的节奏流、或干脆不依赖属性加成的构筑（固伤流、异常流）和它相性最好。
 

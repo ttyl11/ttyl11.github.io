@@ -30,7 +30,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 ## 小贴士
 
 - **看似自残实则无损的双阶段设计**：阶段1把敌人异常转移到自身，阶段2立即解除自身所有异常——转移过来的异常根本来不及生效就被清掉了。所以这张牌表面是"替敌人承担异常"，实际是"清空敌人异常 + 用异常数量换群体石化"，自身零负担。
-- **阶段1：转移异常 + 群体降命中**：把所有敌人身上的[异常状态](/mechanics/abnormal-status.md)每一项以原层数转移到自身并从敌人身上移除。每转移一项，**所有敌人**[命中](/powers/accuracy_power.md) <span style="color:#3aa675;font-weight:600">-2</span>（命中负数时每层增加攻击落空几率）。注意是群体降命中——哪怕只转移了一个敌人的异常，所有敌人都掉命中。
+- **阶段1：转移异常 + 群体降命中**：把所有敌人身上的[异常状态](/mechanics/abnormal-status.md)每一项以原层数转移到自身并从敌人身上移除。每转移一项，**所有敌人**[命中](/powers/accuracy_power.md) <span style="color:#3aa675;font-weight:600">-2</span>（敌人负命中每层让你闪避它攻击的概率 +5%）。注意是群体降命中——哪怕只转移了一个敌人的异常，所有敌人都掉命中。
 - **阶段2：解除异常 + 群体石化**：先记下自身所有异常（含阶段1转移来的 + 原本就有的），再逐一移除。每移除一个，对所有敌人施加[石化](/powers/petrify_power.md) <span style="color:#3aa675;font-weight:600">1</span> 回合。所以异常数量 = 石化回合数，敌人异常越多石化越久。
 - **计数按"种类"不按"层数"**：转移和解除都按异常的**种类数**计数——敌人身上 <span style="color:#3aa675;font-weight:600">5</span> 层灼烧只算 <span style="color:#3aa675;font-weight:600">1</span> 项（命中 -2、石化 1 回合），灼烧+冻伤+麻痹 <span style="color:#3aa675;font-weight:600">3</span> 种才算 <span style="color:#3aa675;font-weight:600">3</span> 项。层数原样转移/直接作废，但不影响计数——想最大化收益要叠异常**种类**，不是单种层数。
 - **敌人异常越多收益越大是核心**：这张牌的价值完全取决于敌人身上有多少异常。敌人 <span style="color:#3aa675;font-weight:600">3</span> 种异常 = 所有敌人命中 <span style="color:#3aa675;font-weight:600">-6</span> + 群体石化 <span style="color:#3aa675;font-weight:600">3</span> 回合；敌人 <span style="color:#3aa675;font-weight:600">0</span> 个异常 = 这张牌等于空过。所以要先给敌人上异常再打这张牌。
@@ -41,8 +41,8 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 ## 相关能力
 
-- [命中](/powers/accuracy_power.md)：属性能力，负数层数时每层增加攻击伤害降为 0 的几率
-- [石化](/powers/petrify_power.md)：异常状态，攻击伤害降低并将部分伤害转化为敌方格挡
+- [命中](/powers/accuracy_power.md)：四维属性之一，正层每层 +10% 暴击、并使受击目标闪避 -5%/层；负层让受击目标闪避 +5%/层
+- [石化](/powers/petrify_power.md)：异常状态，攻击伤害 -70%，并把原伤害的 70% 转化为自身格挡
 
 ## 源码
 

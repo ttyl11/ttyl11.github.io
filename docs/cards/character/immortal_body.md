@@ -24,25 +24,24 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#3aa675;font-weight:600">8</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。若自身在本场战斗中受到伤害，则直接死亡。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">40</span>。
+PP: 1/1 获得<span style="color:#3aa675;font-weight:600">8</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。本场受到伤害即死亡。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">40</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#3aa675;font-weight:600">10</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。若自身在本场战斗中受到伤害，则直接死亡。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">40</span>。
+PP: 1/1 获得<span style="color:#3aa675;font-weight:600">10</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。本场受到伤害即死亡。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">40</span>。
 
 ## 小贴士
 
 - **先理解整套对赌**：打出后同时获得 8 层[缓冲](/powers/buffer_power.md)与[不死之身](/powers/immortal_body_power.md)标记，两者的交互决定了这张牌的生死线：
  - **缓冲在 = 真不死**：缓冲会把每次生命值损失直接归零——没有实际掉血，不死之身就不会触发。这期间敌人的攻击（无论多大）、乃至一切掉血型伤害都被缓冲全额吞掉，你确实是"不死之身"。
- - **缓冲尽 = 处决**：第 9 次受伤起缓冲见底，下一次**攻击伤害只要实际掉血 1 点**（哪怕你满血、哪怕只剩 1 点穿透格挡），不死之身立即触发——先移除标记、再直接死亡，复活类效果也救不回这一刀。
+ - **缓冲尽 = 处决**：缓冲耗尽后，下一次**攻击伤害只要实际掉血 1 点**（哪怕你满血、哪怕只剩 1 点穿透格挡），不死之身立即触发——先移除标记、再尝试击杀。击杀不是强制击杀，免死/复活类效果（如原版蜥蜴尾巴、[复活](/mechanics/revive.md)）仍能拦下这一刀，但标记已经先没了，不会留下第二次处决。
 - **死亡判定的精确条件**：必须同时满足"是攻击伤害"+"实际掉了血"。因此：
  - **格挡挡满就不死**：缓冲耗尽后，只要攻击被格挡完全吸收（穿透 0），照样不触发——靠格挡堆叠可以硬撑。
  - **非攻击掉血绝对安全**：[固定伤害](/powers/fixed_damage_power.md)、灼烧等持续伤害、能力伤害掉血**不会**触发死亡——缓冲耗尽后宁可吃非攻击伤害也别挨打。
 - **拆引信的两种办法**：不死之身是增益，**可被"消除增益"类效果移除**（自行解除或被敌方消除都能拆掉处决）；战斗结束自然消失。
 - **升级多 2 层保险**：缓冲 8 → 10，多吞 2 次伤害。但注意牌面描述"受到伤害则直接死亡"没有次数豁免——升级改变的是缓冲厚度，不是死亡条件。
-- **堕落 40：与死神共舞的暗账**：每打出一次 +<span style="color:#3aa675;font-weight:600">40</span>[堕落](/powers/fallen_power.md)——堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层被[魔君接管](/powers/demon_takeover_power.md)强制乱打。对赌免伤的同时还在把失控阈值大幅前推（打 2~3 次就触发接管），被接管自动乱打可能恰好把缓冲磨掉一层——**堕落推进与"不死"对赌是互相拆台的**，使用前要想好谁来兜底。
-- **多人模式更耐久**：缓冲在多人下按人数缩放（2 人 ×3 = 18 层、3 人 ×5、4 人 ×7），对赌上限大幅提高，是张多人友好牌。
-- **带[邪恶](/mechanics/evil.md)**：打出后本场战斗结束时向牌组加入一张此牌的复制品（每场每张一次）。意味着对赌失败死了,下局还有张翻本的特权；但复制品同样带死亡条款，别默认它安全。
+- **堕落 40：与死神共舞的暗账**：每打出一次 +<span style="color:#3aa675;font-weight:600">40</span>[堕落](/powers/fallen_power.md)——堕落是负面机制，每跨过<span style="color:#3aa675;font-weight:600">100</span>的倍数就被[魔君接管](/powers/demon_takeover_power.md)强制乱打。PP 1 意味着单场最多打 1 次，但堕落跨战斗累积：第 3 次打出时（40×3=120）就会触发接管。被接管自动乱打可能恰好把缓冲磨掉一层——**堕落推进与"不死"对赌是互相拆台的**，使用前要想好谁来兜底。
+- **带[邪恶](/mechanics/evil.md)**：打出后本场战斗结束时向牌组加入一张此牌的复制品（每场每张一次）。复制品同样带死亡条款，别默认它安全。
 - **3 费的定位**：本质是"买 8~10 次绝对免伤，附赠一条到期处决条款"。适合被集火的坦克回合、预知大量攻击频率的Boss战；配合控场（冰封/硬控削减敌人攻击次数）或稳定的格挡来源，把死亡线永远压在战斗结束之后。
 
 ## 相关能力
@@ -54,7 +53,7 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 ## 相关机制
 
 - [邪恶](/mechanics/evil.md)（打出后战斗结束向牌组加入复制品）
-- [堕落](/powers/fallen_power.md)（满 100 层触发魔君接管）
+- [堕落](/powers/fallen_power.md)（累积计数，每跨过 100 的倍数触发魔君接管）
 
 ## 源码
 

@@ -1,7 +1,7 @@
 # 愈合II
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：怪物随机能力池（全局补丁）——玩家回合开始时，怪物按概率获得；概率随已访问房间数增长，不需要遗物。仅进阶 11+（异能苏醒）生效（A13 原版怪概率 ×2、A28 全体再 ×2），且已持有任一 Seer 怪物能力的怪物不再获得。
 
 <img src="/images/powers/heal_two_power.png" alt="愈合II" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,7 +13,7 @@
 
 ## 描述
 
-在你的回合开始时恢复已损失<span style="color:#d4a017;font-weight:600">体力</span>的<span style="color:#3aa675;font-weight:600">1/8</span>。
+自身回合开始时回复已损失<span style="color:#d4a017;font-weight:600">生命值</span>的<span style="color:#3aa675;font-weight:600">1/8</span>。
 
 ## 详细机制
 
@@ -30,4 +30,4 @@
 ## 源码
 
 - `SeerHealTwoPower.cs`
-- 随机池配置：`SeerElementalCore.cs:111`（`0.00025/房`）
+- 随机池配置：`SeerGlobalMonsterPowerPatch.cs`（`0.00025/房`）

@@ -1,4 +1,4 @@
-﻿# 免疫
+# 免疫
 
 > **归属**：预留能力（当前无获取途径）
 > **施加来源**：无——没有任何卡牌、遗物、怪物或事件施加本能力；它是凝滞等异常免疫判定的源码参考实现，正常游玩不会见到
@@ -14,19 +14,19 @@
 
 ## 描述
 
-免疫负面效果。
+免疫[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。
 
 ## 详细机制
 
-- **双轨免疫**：同时免疫所有 25 种 Seer [异常状态](/mechanics/abnormal-status.md)**和所有被判定为减益（Debuff）的能力**——施加量一律归零，覆盖面与[永久异常免疫](/powers/permanent_debuff_immune_power.md)相同。
+- **异常状态免疫**：免疫所有 27 种 Seer [异常状态](/mechanics/abnormal-status.md)——施加量一律归零。
+- **不阻断友方增益**：自身或友方施加的正面增益（包括属于异常体系的狂暴、星赐等）不会被拦截。
 - **不可见能力不免疫**：仅对可见的能力生效，隐藏的内部能力照常施加。
 - **无层数、不衰减**：单次型能力，整场战斗持续生效。
-- **判定基准**：本能力的免疫判定（"是否为 Debuff 或异常状态"）是 [凝滞](/powers/stasis_power.md) 等其它免疫能力的源码参考实现——凝滞复用了同一套判定，只是把范围收窄到异常状态。
 
 ## 小贴士
 
 - 正常游玩**无法获得**本能力：全 mod 没有任何施加入口。若未来版本开放获取途径，本页会同步更新。
-- 与同类免疫的范围对比：[永久异常免疫](/powers/permanent_debuff_immune_power.md)（异常+Debuff，可获取）、[异常免疫](/powers/debuff_immune_power.md)（仅异常，按回合消耗）——本能力机制上等同前者，但无来源。
+- 与同类免疫的范围对比：[永久免控](/powers/permanent_debuff_immune_power.md)（异常+属性下降，可获取）、[异常免疫](/powers/debuff_immune_power.md)（仅异常，按回合消耗）。
 
 ## 相关能力
 

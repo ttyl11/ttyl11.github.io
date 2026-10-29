@@ -25,12 +25,12 @@
 ## 小贴士
 
 - **任务牌特性**：类型为任务牌，稀有度为任务。带有[不能被打出](/mechanics/unplayable.md)，不参与抽牌/弃牌，仅存在于主牌组。
-- **龙属性**（mod 能力）：每场战斗开始时，若此牌在主牌组中，获得 <span style="color:#3aa675;font-weight:600">1</span> 层[龙属性](/powers/dragon_power.md)——这是**全程白嫖的永久增益**，哪怕最终凑不齐 12 张龙牌，这张牌也一直在赚。
-- **🔑 龙牌判定看的是内部类名含「Dragon」**：[龙威](/cards/character/dragon_awe.md)、[龙烙](/cards/character/dragon_brand.md)、[龙宴](/cards/character/dragon_feast.md)、[龙王波](/cards/character/dragon_king_wave.md)、[真龙形态](/cards/character/true_dragon_form.md)、[滔天龙汲水](/cards/character/soaring_dragon_water.md)等 <span style="color:#3aa675;font-weight:600">20</span>+ 张牌都算；判定与升级、费用、类型无关，只看类名。凑 12 张需要一定龙牌浓度，正常龙体系构筑可以自然达标。
-- **达标的代价是龙牌全部清空**：触发奖励时会**移除牌组中所有龙牌**（仅保留龙魂自身直到离场）——你的龙体系输出核心会被连根拔起。这是终局转型奖励：拿一整套龙遗物、放弃龙牌构筑，多张核心龙牌在手时要掂量一下时机。
+- **龙属性**（mod 能力）：每场战斗开始时，若此牌在主牌组中，获得 <span style="color:#3aa675;font-weight:600">1</span> 层[龙属性](/powers/dragon_power.md)——战斗内持续，战斗结束随能力清空，下场再给。只要任务牌还在牌组，这份开局增益每场都白拿；哪怕最终凑不齐 <span style="color:#3aa675;font-weight:600">12</span> 张龙牌也不亏。龙属性克制冰、龙、圣灵、邪灵（×1.5），对草、水、火、电、远古、虫微弱（×0.75）。
+- **龙牌判定看类名**：只看内部类名是否带龙——英文类名含 Dragon 即可，与升级、费用、类型无关。[龙威](/cards/character/dragon_awe.md)、[龙烙](/cards/character/dragon_brand.md)、[龙宴](/cards/character/dragon_feast.md)、[龙王波](/cards/character/dragon_king_wave.md)、[真龙形态](/cards/character/true_dragon_form.md)、[滔天龙汲水](/cards/character/soaring_dragon_water.md)等 <span style="color:#3aa675;font-weight:600">20</span> 多张牌都算。**龙魂自身类名也含 Dragon，自己算 1 张**——牌组里再凑 <span style="color:#3aa675;font-weight:600">11</span> 张即可达标，正常龙体系构筑可以自然满足。
+- **达标的代价是龙牌全部清空**：触发奖励时会**移除牌组中所有龙牌**（含升级版，仅排除龙魂自身）——你的龙体系输出核心会被连根拔起。这是终局转型奖励：拿一整套龙遗物、放弃龙牌构筑，多张核心龙牌在手时要掂量一下时机。
 - **神秘奖励**：达到 <span style="color:#3aa675;font-weight:600">12</span> 张龙牌时（战斗结束时结算）触发：
  1. 移除[牌组](/mechanics/draw_pile.md)中所有龙牌（排除自身）。
- 2. 获得**所有**带"龙"的遗物（限普通/罕见/稀有/史诗/传说五个品级，**已拥有的不重复获得**）——一次性打包全部龙遗物。**额外兜底**：[镇世·乔特鲁德](/relics/legendary/world_suppressor_jortrud.md) 标题不带"龙"字，但作为"龙"被**白名单**强制纳入奖励。
+ 2. 获得**所有**带"龙"的遗物（判定含标题中的龙/Dragon/Draconic/Qinglong/Jinruifulong；限普通/罕见/稀有/史诗/传说五个品级，**已拥有的不重复获得**）——一次性打包全部龙遗物。**额外兜底**：[镇世·乔特鲁德](/relics/legendary/world_suppressor_jortrud.md) 标题不带"龙"字，但作为"龙"被**白名单**强制纳入奖励。
 - **跨战斗持久化**：奖励领取状态跨战斗保存，只会触发一次。奖励领取后，进入下一个房间时从[牌组](/mechanics/draw_pile.md)移除此牌。
 - **龙牌计数更新**：每场战斗结束时重新统计牌组中的龙牌数量，加牌/删牌都会实时反映在下一场结算里。
 

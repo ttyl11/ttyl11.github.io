@@ -28,6 +28,7 @@
 | 迁鸣堕落 | 7 | 7 |
 | 伤害倍率 | 每满100层堕落×2 | 每满100层堕落×2 |
 | PP | 5 | 5 |
+| 最大PP | 5 | 5 |
 
 ## 描述
 
@@ -39,9 +40,11 @@
 
 ## 工作机制
 
-- **回响复制**：[<span style="color:#d44;font-weight:600">回响</span>](/mechanics/echo.md)——此牌在[抽牌堆](/mechanics/draw_pile.md)时，每个回合开始时向[弃牌堆](/mechanics/discard_pile.md)生成一张复制品，等于持续自我增殖。
+- **回响复制**：[<span style="color:#d44;font-weight:600">回响</span>](/mechanics/echo.md)——此牌在[抽牌堆](/mechanics/draw_pile.md)时，**己方回合开始时**向[弃牌堆](/mechanics/discard_pile.md)底部生成一张复制品；复制品按基础版生成（未升级、PP 回满），等于持续自我增殖。
 
-- **迁鸣堕落7**：[<span style="color:#d44;font-weight:600">迁鸣</span>](/mechanics/qianming.md)——此牌每次[变化牌堆](/mechanics/qianming.md)时堕落+7；配合回响复制体反复进出牌堆，堕落快速累积。
+- **迁鸣堕落7**：[<span style="color:#d44;font-weight:600">迁鸣</span>](/mechanics/qianming.md)——此牌每次[变化牌堆](/mechanics/qianming.md)时堕落+7（进入打出堆的瞬间不触发）；配合回响复制体反复进出牌堆，堕落快速累积。
+
+- **伤害类型**：<span style="color:#3aa675;font-weight:600">7</span>/<span style="color:#3aa675;font-weight:600">10</span> 点是普通攻击伤害，吃[力量](/powers/strength_power.md)、目标[易伤](/powers/vulnerable_power.md)与暴击加成，也会被格挡；倍率在打出时结算。
 
 - **堕落倍率**：伤害基数 × 2^⌊堕落/100⌋，且堕落%100 非零时以该值百分比概率再翻倍一次（例：堕落 333 → 100/200/300 各翻倍 = ×8，另有33%概率 ×16）。
 

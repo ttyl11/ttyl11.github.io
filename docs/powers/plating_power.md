@@ -1,6 +1,7 @@
 ﻿# 覆甲
 
-
+> **归属**：玩家与怪物均可持有
+> **施加来源**：玩家获得——[龙舞九天](/cards/character/dragon_dance_nine_heavens.md)（卡牌）、[高塔](/orbs/tower_orb.md)（充能球）、[拥君之盾](/powers/sovereign_shield_power.md)（能力联动）、[群星的礼赠](/relics/starter/elemental_core.md)（遗物）；刻印——[泠·冰棱](/engravings/index.md)；怪物自带——[巴斯特](/monsters/boss/buster_monster.md)、[狄修斯](/monsters/normal/dixius_monster.md)、[斗魔旺乔](/monsters/elite/dou_mo_wang_qiao_monster.md)
 
 <img src="/images/powers/plating_power.png" alt="覆甲" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 

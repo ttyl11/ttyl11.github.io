@@ -10,13 +10,13 @@
 
 ## 描述
 
-拾起时，向你的[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)中加入<span style="color:#3aa675;font-weight:600">3</span>张随机稀有牌，它们会分别在<span style="color:#3aa675;font-weight:600">2/3/4</span>场战斗结束后从[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)移除。每场战斗中，首次打出"仅剩<span style="color:#3aa675;font-weight:600">1</span>场就被移除"的此类牌时，令一名随机敌人获得[<span style="color:#d4a017;font-weight:600">曝</span>](/mechanics/pp-system.md)。战斗结束时，若本场有敌人**消逝**，向你的[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)中加入<span style="color:#3aa675;font-weight:600">1</span>张[<span style="color:#3aa675;font-weight:600">灵魂+</span>](/cards/character/demon_ghost.md)。
+①拾起时，向你的<span style="color:#d4a017;font-weight:600">牌组</span>加入<span style="color:#3aa675;font-weight:600">3</span>张随机稀有牌，分别于<span style="color:#3aa675;font-weight:600">2/3/4</span>场战斗结束后移除。<br/>②每场战斗首次打出「仅剩<span style="color:#3aa675;font-weight:600">1</span>场」的此类牌时，令一名随机敌人获得<span style="color:#9b59b6;font-weight:600">曝</span>。<br/>③战斗结束，若本场有敌人消逝，向你的<span style="color:#d4a017;font-weight:600">牌组</span>加入<span style="color:#3aa675;font-weight:600">1</span>张<span style="color:#d4a017;font-weight:600">灵魂+</span>。
 
 > **"消逝" ≠ 死亡**：这里的"敌人消逝"特指敌人因\*\*挂着「曝」**或**持「空元行者」\*\*而死亡时的特殊离场（直接消失、不触发复活与亡语），**普通击杀不算**。
 
 ### 彼岸契约（遗物动态提示）
 
-这 3 张随机稀有牌上带有隐藏标记 keyword「<span style="color:#d4a017;font-weight:600">彼岸契约</span>」（不显示在卡面，不作为卡牌词条）。剩余卡名与场次会**动态显示在遗物描述末尾**，每场战斗结束自动刷新（数量递减、各自剩场次递减），形如：
+这 3 张随机稀有牌上带有可见关键词「<span style="color:#d4a017;font-weight:600">彼岸契约</span>」（显示在卡面描述前）。剩余卡名与场次会**动态显示在遗物描述末尾**，每场战斗结束自动刷新（数量递减、各自剩场次递减），形如：
 
 > 剩余彼岸契约牌：
 >
@@ -36,7 +36,7 @@
 
 - **它们会"排着队走"**：不是同时消失，而是第 2 场走 1 张、第 3 场再走 1 张、第 4 场走完。用它们要趁早，别把关键牌留到最后。
 
-- **契约牌"遗言"= 给随机敌人曝**：当某张「彼岸契约」牌处在"仅剩 1 场"状态，本场首次打出它会白送一个敌人"曝"。曝能让该敌被幻扰克制的异常命中率大降、并让其死亡时直接消逝加传染——这也是最容易稳定触发"敌人消逝→给灵魂"的来源。
+- **契约牌"遗言"= 给随机敌人曝**：当某张「彼岸契约」牌处在"仅剩 1 场"状态，本场首次打出它会白送一个敌人"曝"。曝会让该敌施加的**任何异常状态**有 50% 概率失效（不再限定幻扰），并在其死亡时直接消逝、把减益传染给存活队友——这也是最容易稳定触发"敌人消逝→给灵魂"的来源。
 
 - **和"会消失"的心态**：因为它注定离场，可以大胆用其高费/一次性效果，不用心疼牌组厚度；这三张就是"借来的爆发"，打空也不亏。
 
@@ -48,5 +48,5 @@
 
 - `SeerFerryman.cs`
 
-- 标记 keyword：`SeerKeywords.BorrowPact`（「彼岸契约」，CardDescriptionPlacement=None，不显示在卡面；由遗物 description 动态显示剩余牌名与场次）
+- 标记 keyword：`SeerKeywords.BorrowPact`（「彼岸契约」，CardDescriptionPlacement=BeforeCardDescription，显示在卡面描述前；剩余牌名与场次另由遗物 description 动态显示）
 

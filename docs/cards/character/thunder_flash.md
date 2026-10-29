@@ -23,11 +23,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">8</span>点伤害，令其[<span style="color:#d44;font-weight:600">麻痹</span>](/powers/ma_power.md)两回合。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">8</span>点伤害，对手<span style="color:#d4a017;font-weight:600">麻痹</span>2。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">12</span>点伤害，令其[<span style="color:#d44;font-weight:600">麻痹</span>](/powers/ma_power.md)两回合。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">12</span>点伤害，对手<span style="color:#d4a017;font-weight:600">麻痹</span>2。
 
 ## 小贴士
 

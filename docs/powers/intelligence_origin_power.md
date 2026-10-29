@@ -15,6 +15,12 @@
 
 你每打出<span style="color:#3aa675;font-weight:600">2</span>张牌，获得<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">能量</span>。
 
+## 详细机制
+
+- **按自己出牌计数**：只统计拥有者自己打出的牌，每第 2、4、6…张各 +1 能量。
+- **每回合重置**：自己的回合开始时计数归零。
+- **自动打出也计入**（同样会触发 AfterCardPlayed）。
+
 ## 源码
 
 - `SeerIntelligenceOriginPower.cs`

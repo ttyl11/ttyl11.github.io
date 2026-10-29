@@ -23,14 +23,14 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 消耗所有<span style="color:#d4a017;font-weight:600">唱词</span>，每消耗一句，对所有敌人造成<span style="color:#3aa675;font-weight:600">7</span>点伤害，自身恢复<span style="color:#3aa675;font-weight:600">3</span>点体力。为随机对手附加[<span style="color:#9b59b6;font-weight:600">曝</span>](/powers/expose_power.md)。
+PP: 1/1 消耗所有<span style="color:#d4a017;font-weight:600">唱词</span>，每消耗一句，对所有敌人造成<span style="color:#3aa675;font-weight:600">7</span>点伤害，自身恢复<span style="color:#3aa675;font-weight:600">3</span>点体力。随机对手<span style="color:#9b59b6;font-weight:600">曝</span>。
 
 ## 小贴士
 
 - **伤害和回复都按唱词数量线性放大**：实际伤害 = 7 × 消耗的唱词数，实际回复 = 3 × 消耗的唱词数。消耗 2 句唱词时，造成 14 点群体伤害 + 6 点自愈；消耗全部 4 句时，28 点群体伤害 + 12 点自愈。**所以这张牌的价值完全取决于你积累了多少唱词**——没唱词时打出来等于空过。
-- **伤害是攻击伤害**：吃力量加成、吃暴击、可被格挡。配合力量 buff 或暴击能力，28 点群体伤害可以放大到 42+ 点。**注意是群体攻击**——对多敌人遭遇战的收益是单体伤害 × 敌人数量，3 个敌人时 28 点 ≈ 84 点总伤害。
-- **唱词为 0 时空过**：没唱词时打出来等于空过，连"曝"都不会施加。所以这张牌不能空放——必须先有唱词才有意义。
-- **曝是附带收割手段，不依赖唱词数量**：只要打出时**有唱词**（哪怕只剩 1 句），就给随机 <span style="color:#3aa675;font-weight:600">1</span> 个敌人施加 1 层[曝](/powers/expose_power.md)：①该敌人向任何生物施加[<span style="color:#9b59b6;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)时，<span style="color:#3aa675;font-weight:600">50%</span> 概率令该次施加失效（不限于[幻扰](/powers/illusion_disturb_power.md)，对灼烧、冰冻、虚弱等所有异常状态通用）；②**死亡后直接消逝**（不触发复活和亡语——分裂、复活类被动全部跳过）、消逝时把自身所有负面状态传染给全部存活队友。对会分裂/复活的敌人（如[史莱姆国王](/monsters/normal/slime_king_monster.md)的无尽幻象）是精准克制。随机目标走战斗目标随机数，多人模式两端一致。
+- **伤害是一次性结算的攻击伤害**：7 × 唱词数合并为**一次**攻击结算（不是每句各打一次），力量等加攻只加一次，可被格挡；触发暴击时按 1.5 倍结算（4 句 28 → 42）。**注意是群体攻击**——每个敌人各受这么多，3 个敌人时一共 84 点。
+- **唱词为 0 时空过**：没唱词时打出来等于空过，连"曝"都不会施加；但打出本身的 1 点 PP 照扣（0 费不耗能量）。所以这张牌不能空放——必须先有唱词才有意义。
+- **曝是附带收割手段，不依赖唱词数量**：只要打出时**有唱词**（哪怕只剩 1 句），就给随机 <span style="color:#3aa675;font-weight:600">1</span> 个**仍存活**的敌人施加 1 层[曝](/powers/expose_power.md)（单例，不叠加）：①该敌人向任何生物施加[<span style="color:#9b59b6;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)时，<span style="color:#3aa675;font-weight:600">50%</span> 概率令该次施加失效（不限[幻扰](/powers/illusion_disturb_power.md)，烧伤、冻伤、中毒等全部异常状态通用）；②**死亡后直接消逝**——跳过亡语（[史莱姆国王](/monsters/normal/slime_king_monster.md)的无尽幻象分裂会因此失效），并把自身所有负面状态传染给全部存活队友。**但带复活能力的目标豁免**：圣灵谱尼、原版实验体等带复活能力的目标不会被消逝打断，会正常复活。随机目标走战斗目标随机数，多人模式两端一致；若这次伤害已清场，则没有存活敌人可挂曝。
 - **性价比**：0 费合理——唱词积累后爆发收尾，PP1 限制每次回收周期打 1 次。
 - **无法升级**：摸到什么样就是什么样，强度完全靠唱词积累，不靠升级提升。
 

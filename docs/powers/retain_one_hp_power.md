@@ -1,4 +1,4 @@
-# 保留1血
+# 残念
 
 > **归属**：玩家可施加
 > **施加来源**：玩家获得——[傳馥明王最胜语](/cards/character/fragrant_king_supreme_word.md)（卡牌）
@@ -13,7 +13,7 @@
 
 ## 描述
 
-下一次受到致死伤害时不死亡，恢复<span style="color:#3aa675;font-weight:600">1</span>点生命后移除自身。
+下一次受到致命伤害时免于死亡，回复<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">生命值</span>，然后移除此能力。
 
 ## 详细机制
 

@@ -20,13 +20,13 @@
 
 ## 描述
 
-下<span style="color:#3aa675;font-weight:600">2</span>次受到伤害时，为所有敌人施加<span style="color:#3aa675;font-weight:600">3</span>层[<span style="color:#9b59b6;font-weight:600">圣诰</span>](/powers/holy_edict_power.md)。
+下<span style="color:#3aa675;font-weight:600">层数</span>次受到伤害时，为所有敌人施加<span style="color:#3aa675;font-weight:600">3</span>层<span style="color:#9b59b6;font-weight:600">圣诰</span>。
 
 ## 详细机制
 
 - **触发时机**：在拥有者受到伤害后触发。
-- **触发条件**：拥有者本人受到伤害、伤害 > 0、且层数 > 0。
-- **圣诰施加**：对所有可攻击的敌人施加 <span style="color:#3aa675;font-weight:600">3</span> 层[圣诰](/powers/holy_edict_power.md)。
+- **触发条件**：拥有者本人受到**总伤害 > 0** 的伤害（含被格挡部分，完全格挡也算）；不限定伤害来源，自伤/队友伤害同样触发。
+- **圣诰施加**：对所有可攻击的敌人施加 3 层圣诰。
 - **次数递减**：每次触发后层数 -<span style="color:#3aa675;font-weight:600">1</span>，归零后自动移除。
 - **叠加特性**：按计数叠加，多次施加合并剩余次数。
 

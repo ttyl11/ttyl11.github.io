@@ -23,18 +23,19 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 所有敌人[<span style="color:#d4a017;font-weight:600">中毒</span>](/powers/poison_power.md)<span style="color:#3aa675;font-weight:600">25</span>层。此后每回合开始时，向你的[<span style="color:#d4a017;font-weight:600">手牌</span>]加入一张[<span style="color:#d4a017;font-weight:600">蛇咬</span>]，蛇咬必须优先打出，且你的蛇咬施加的[<span style="color:#d4a017;font-weight:600">中毒</span>]改为 seer[<span style="color:#d4a017;font-weight:600">中毒</span>]。
+PP: 1/1 所有敌人<span style="color:#d4a017;font-weight:600">中毒</span><span style="color:#3aa675;font-weight:600">25</span>。每回合获得一张<span style="color:#d4a017;font-weight:600">蛇咬</span>并优先打出。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 所有敌人[<span style="color:#d4a017;font-weight:600">中毒</span>](/powers/poison_power.md)<span style="color:#3aa675;font-weight:600">40</span>层。此后每回合开始时，向你的[<span style="color:#d4a017;font-weight:600">手牌</span>]加入一张[<span style="color:#d4a017;font-weight:600">蛇咬</span>]，蛇咬必须优先打出，且你的蛇咬施加的[<span style="color:#d4a017;font-weight:600">中毒</span>]改为 seer[<span style="color:#d4a017;font-weight:600">中毒</span>]。
+PP: 1/1 所有敌人<span style="color:#d4a017;font-weight:600">中毒</span><span style="color:#3aa675;font-weight:600">40</span>。每回合获得一张<span style="color:#d4a017;font-weight:600">蛇咬</span>并优先打出。
 
 ## 小贴士
 
-- **能力牌·全敌开局中毒**：打出即让所有敌人获得 <span style="color:#3aa675;font-weight:600">25</span> 层[中毒](/powers/poison_power.md)（升级 <span style="color:#3aa675;font-weight:600">40</span> 层），直接铺开高额 DoT，配合高 PP 单次开局压制。
-- **每回合白嫖蛇咬**：此后每回合开始时向手牌加入一张[蛇咬]（原版 Snakebite），免费获得持续的毒源，且不占用抽牌。
-- **蛇咬必须优先打出**：手牌有蛇咬时其它牌不能打出，需先打蛇咬（参考原版[执迷]的拦截逻辑），节奏上会锁定你的每回合首出牌。
-- **换毒为 seer 中毒**：蛇咬原本施加的中毒会改为施加等量 seer[中毒](/powers/poison_power.md)（伤害公式改为等于层数、结算后层数减半），蛇咬越多，换成 seer 毒的收益越大。
+- **能力牌·全敌开局中毒**：打出即让所有敌人获得 <span style="color:#3aa675;font-weight:600">25</span> 层赛尔[中毒](/powers/poison_power.md)（升级 <span style="color:#3aa675;font-weight:600">40</span> 层）——中毒在持有者所在阵营回合开始时造成等于层数的伤害，结算后层数减半，是一张强力的开局铺毒牌。
+- **每回合白拿一张蛇咬（但不是免费打出）**：此后每回合抽牌之后，向手牌随机位置加入一张原版[蛇咬]——<span style="color:#3aa675;font-weight:600">2</span> 费技能、带[保留](/mechanics/retain.md)、施加 <span style="color:#3aa675;font-weight:600">7</span> 层毒（升级 10）。牌是白拿的，**打出仍要付 2 费**；不打出就会一直留在手里（保留），越积越多。
+- **蛇咬会锁住出牌**：手牌里有任何一张蛇咬时，**其它牌都不能手动打出**（只能先打蛇咬；自动打出不受限）。能量不足 2 点时等于被完全锁住，所以这张能力牌并不适合低费/低能量回合——打之前先确认后续每回合都能支付蛇咬的费用。
+- **换毒为赛尔中毒**：蛇咬原本施加的原版中毒会被全局规则统一替换为等量的赛尔[中毒](/powers/poison_power.md)（伤害等于层数、结算后层数减半），蛇咬越多，叠毒效率越高。
+- **单例能力**：重复打出不会叠加，每回合仍只加一张蛇咬；多带几张也只是多一次开局铺毒。
 - **升级只加毒层**：升级仅将初始中毒 25→40 层，蛇咬相关机制不变，推荐优先升级。
 
 ## 相关机制
@@ -44,4 +45,4 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 ## 源码
 
 - `SeerBigSnakeVenom.cs`
-- `SeerBigSnakeVenomPower.cs`（隐形能力：每回合加蛇咬 / 优先打出拦截 / 换毒）
+- `SeerBigSnakeVenomPower.cs`（可见能力：每回合加蛇咬 / 优先打出拦截 / 换毒）

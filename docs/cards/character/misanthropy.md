@@ -24,21 +24,21 @@
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 基础伤害 | 9 | 15 |
+| 基础伤害 | 6 | 10 |
 | 堕落 | 31 | 31 |
 | PP | 5 | 5 |
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">31</span>。造成<span style="color:#d44;font-weight:600">9</span>点伤害，并将目标最大生命值削减至其当前生命值。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">31</span>。造成<span style="color:#d44;font-weight:600">6</span>点伤害，并将目标最大生命值削减至其当前生命值。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">31</span>。造成<span style="color:#d44;font-weight:600">15</span>点伤害，并将目标最大生命值削减至其当前生命值。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">31</span>。造成<span style="color:#d44;font-weight:600">10</span>点伤害，并将目标最大生命值削减至其当前生命值。
 
 ## 工作机制
 
-- **伤害 + 上限削减双效**：先造成 9/15 点普通伤害，再将目标的最大生命值直接压低到其当前生命值——损失多少血，上限就削多少，等于"永久带走去上限的部分"。
+- **伤害 + 上限削减双效**：先造成 6/10 点普通伤害，再将目标的最大生命值直接压低到其当前生命值——损失多少血，上限就削多少，等于"永久带走去上限的部分"。
 
 - **堕落31**：基础固定的堕落代价，不随目标或自身状态变化。
 
@@ -52,7 +52,7 @@
 
 - **对高血量敌人优先**：Boss 战里越早打，压制其上限的收益越接近"永久伤害"，把前几回合的爆发转化为可持续的减法。
 
-- **升级收益清晰**：伤害 9→15（+6），上限削减量不变但伤害兑现更快，更快把敌人推入"上限=残血"的斩杀区。
+- **升级收益清晰**：伤害 6→10（+4），上限削减量不变但伤害兑现更快，更快把敌人推入"上限=残血"的斩杀区。
 
 ## 相关能力
 

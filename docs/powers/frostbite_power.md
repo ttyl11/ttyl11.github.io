@@ -1,7 +1,7 @@
 # 冻伤
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家获得——[冰封](/powers/freeze_power.md)（能力联动）；玩家施加给敌方——[冰天花葬](/cards/character/ice_sky_flower_burial.md)（卡牌）、[一月的雪鹄](/cards/character/january_snow_owl.md)（卡牌）、[沧溟珠泪](/cards/character/ocean_pearl_tear.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[白霞逐夜](/cards/character/white_dawn_chase_night.md)（卡牌）、[海洋](/orbs/ocean_orb.md)（充能球）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[东海龙王](/relics/common/east_sea_dragon_king.md)（遗物）、[海天使](/relics/uncommon/sea_angel.md)（遗物）、[恋人](/relics/common/tarot_lovers.md)（遗物）；怪物施加给玩家——[阿克希亚](/monsters/elite/axe_monster.md)、[斯普林特](/monsters/normal/splinter_monster.md)
+> **施加来源**：玩家获得——[冰封](/powers/freeze_power.md)（能力联动）；玩家施加给敌方——[冰天花葬](/cards/character/ice_sky_flower_burial.md)（卡牌）、[一月的雪鹄](/cards/character/january_snow_owl.md)（卡牌）、[沧溟珠泪](/cards/character/ocean_pearl_tear.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[白霞逐夜](/cards/character/white_dawn_chase_night.md)（卡牌）、[海洋](/orbs/ocean_orb.md)（充能球）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[东海龙王](/relics/common/east_sea_dragon_king.md)（遗物）、[海天使](/relics/uncommon/sea_angel.md)（遗物）、[恋人](/relics/common/tarot_lovers.md)（遗物）、[永寒精华](/potions/eternal_cold_essence_potion.md)（药水）、[冻伤宝石](/enchantments/frostbite_gem.md)（附魔）；怪物施加给玩家——[阿克希亚](/monsters/elite/axe_monster.md)、[斯普林特](/monsters/normal/splinter_monster.md)、[布蕾里克](/monsters/elite/buleilike_monster.md)
 
 <img src="/images/powers/frostbite_power.png" alt="冻伤" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -21,7 +21,7 @@
 
 ## 描述
 
-在你的回合开始时受到<span style="color:#3aa675;font-weight:600">5</span>点伤害并减少1层。
+自身回合开始时受到<span style="color:#3aa675;font-weight:600">5</span>点伤害并减少1层。
 
 ## 详细机制
 

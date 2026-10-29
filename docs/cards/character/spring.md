@@ -4,17 +4,17 @@
 
 ## 基本信息
 
-* **分类**: 角色牌
+* **分类**: 衍生牌
 
 * **最大PP**: 5
 
 * **能量消耗**: 2
 
-* **类型**: 技能
+* **类型**: 攻击
 
-* **稀有度**: 普通
+* **稀有度**: 衍生
 
-* **目标**: 自身
+* **目标**: 无
 
 * **可升级**: 是（1 级）
 
@@ -30,7 +30,7 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [奇巧](/mechanics/sly.md) 获得<span style="color:#3aa675;font-weight:600">9</span>点[格挡](/mechanics/block.md)，丢弃手中所有牌。施加[弹簧能力](/powers/spring_bonus_power.md)，每回合多抽<span style="color:#3aa675;font-weight:600">2</span>张牌，多获得<span style="color:#3aa675;font-weight:600">2</span>点[能量](/mechanics/energy.md)，持续<span style="color:#3aa675;font-weight:600">1</span>回合。
+获得<span style="color:#3aa675;font-weight:600">9</span>点<span style="color:#d4a017;font-weight:600">格挡</span>，丢弃手中所有牌。下次回合开始时多抽<span style="color:#3aa675;font-weight:600">2</span>张牌，多获得<span style="color:#3aa675;font-weight:600">2</span>点<span style="color:#d4a017;font-weight:600">能量</span>。
 
 ## 升级后
 
@@ -42,23 +42,23 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 * 打出弹簧时消耗 <span style="color:#3aa675;font-weight:600">1</span> 点 PP。打出后 PP 变为 <span style="color:#3aa675;font-weight:600">4</span>。
 
-* PP 的恢复**不依赖回合开始**，而是当这张牌被**重新抽入手牌时自动恢复**至满 PP（游戏系统在卡牌克隆时重置 PP）。
+* PP **不会**因为抽回手牌而自动恢复：同一张弹簧打出后留在弃牌堆，抽回来仍是 4。只有**新生成**的弹簧（如克雷扎每回合从抽牌堆变形出的新牌）作为新克隆才自带满 PP。
 
-* 只要 PP > 0，弹簧就可以再次打出。
+* 手动打出需要 PP > 0；奇巧连锁属于自动打出，不检查 PP——PP 为 0 也能继续连锁，有 PP 时则照常扣 1 点。
 
-* 若持有遗物 [不行动唤醒者](/relics/)（SeerInactionAwakener），即使 PP 为 0 也可打出。
+* 若持有遗物 [不行动唤醒者](/relics/legendary/inaction_awakener.md)（SeerInactionAwakener），即使 PP 为 0 也可手动打出。
 
 ### 奇巧（Sly）连锁 Combo
 
 * 弹簧带有 [奇巧](/mechanics/sly.md) 关键词：**如果这张牌在你的回合结束前从手牌中被丢弃，则免费将其打出。**
 
-* 打出弹簧后，手牌中的其他弹簧会因被丢弃而触发奇巧，**免费重新打出**——形成连锁 Combo。
+* 打出弹簧后，手牌中的其他弹簧会因被丢弃而触发奇巧，**免费重新打出**（免的是能量，PP 有则照常扣 1）——形成连锁 Combo。
 
 * 连锁流程示例（手牌有 2 张未升级弹簧）：
 
   1. 打出第 1 张弹簧：获得 9 格挡，丢弃全手牌（含第 2 张弹簧），施加弹簧能力（Amount=1，Bonus=2）
   2. 第 2 张弹簧因奇巧免费打出：再获得 9 格挡，丢弃剩余手牌，施加弹簧能力（Amount+1=2，Bonus=2）
-  3. 两张弹簧能力合并为同一实例，Amount=2，Bonus=2，持续 2 回合——每回合多抽 2 张牌、多获 2 点能量，第二回合结束时能力移除
+  3. 两张弹簧能力合并为同一实例，Amount=2，Bonus=2，持续 2 回合——每回合多抽 2 张牌、多获 2 点能量，第二回合开始时结算后移除
 
 * 此机制使多张弹簧在同一回合内反复打出成为可能，大幅扩展战术深度。
 
@@ -76,7 +76,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 ## 小贴士
 
-* **PP 在抽牌时恢复**：打出弹簧只消耗 1 PP（PP 从 5 变为 4），并非耗光。卡牌被重新抽到时，PP 自动恢复至满值 5。
+* **PP 不随抽牌恢复**：打出弹簧只消耗 1 PP（PP 从 5 变为 4），抽回手中仍是 4；想再次手动打出需要 PP > 0，或等克雷扎生成一张新的满 PP 弹簧。奇巧连锁是自动打出，不受 PP 门槛限制，但会照常扣 PP（有则扣）。
 
 * **奇巧 Combo 是核心玩法**：弹簧的弃牌效果与奇巧关键词形成天然联动——打出弹簧后手牌中若有其他弹簧，它们会免费重新打出，实现连锁收益。这也是"弹簧卡组"名称的由来。
 

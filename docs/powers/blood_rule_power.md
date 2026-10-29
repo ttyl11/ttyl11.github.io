@@ -13,7 +13,7 @@
 
 ## 描述
 
-受到的伤害变为3倍。第3回合起，自身攻击将直接处决敌人。
+①自身受到的伤害变为<span style="color:#3aa675;font-weight:600">2</span>倍。<br/>②自身第<span style="color:#3aa675;font-weight:600">3</span>个回合起，自身攻击直接消灭目标。
 
 ## 源码
 

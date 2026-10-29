@@ -13,7 +13,7 @@
 
 ## 描述
 
-在你的回合结束时层数减1，当层数降至0时，回复<span style="color:#3aa675;font-weight:600">20</span>点<span style="color:#d4a017;font-weight:600">生命</span>值。
+在你的回合结束时层数-<span style="color:#3aa675;font-weight:600">1</span>；层数降至<span style="color:#3aa675;font-weight:600">0</span>时，回复<span style="color:#3aa675;font-weight:600">20</span>点<span style="color:#d4a017;font-weight:600">生命值</span>。
 
 ## 源码
 

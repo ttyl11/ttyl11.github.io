@@ -13,7 +13,7 @@
 
 ## 描述
 
-受击时将敌方消耗堆中的状态牌与诅咒牌洗回其抽牌堆。
+受到伤害后，将敌方消耗牌堆中的<span style="color:#d4a017;font-weight:600">状态牌</span>与<span style="color:#d4a017;font-weight:600">诅咒牌</span>随机洗回其抽牌堆。
 
 ## 源码
 

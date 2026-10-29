@@ -15,7 +15,7 @@
 
 ## 描述
 
-①拾起时，获得1张<span style="color:#d4a017;font-weight:600">[多元时间线](/cards/character/multiple_timeline.md)</span>。<br/>②选择<span style="color:#3aa675;font-weight:600">1</span>张卡牌附魔：<span style="color:#9b59b6;font-weight:600">冷却时间</span>。
+拾起时，获得1张<span style="color:#d4a017;font-weight:600">多元时间线</span>。<br/>选择<span style="color:#3aa675;font-weight:600">1</span>张卡牌附魔：<span style="color:#9b59b6;font-weight:600">冷却时间</span>。
 
 - **多元时间线卡**：拾起时生成一张多元时间线卡加入牌组。
 - **附魔选择**：拾起时弹出卡牌选择界面，从牌组中选 1 张未附魔且可附魔的牌附加<span style="color:#9b59b6;font-weight:600">冷却时间</span>。

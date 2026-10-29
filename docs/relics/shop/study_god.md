@@ -19,8 +19,7 @@
 
 ## 描述
 
-①战斗开始时，获得 <span style="color:#3aa675;font-weight:600">333</span> 层[墨染](/powers/mo_ran_power.md)。
-②战斗开始时，预测本场战斗打出的牌数；战斗结束时，按预测偏差结算<span style="color:#d4a017;font-weight:600">金币</span>、<span style="color:#d4a017;font-weight:600">赛尔豆</span>、<span style="color:#d4a017;font-weight:600">泰坦之灵</span>奖励，越准确奖励越高。
+战斗开始时，预测本场战斗打出的牌数。战斗结束时，根据预测偏差结算<span style="color:#d4a017;font-weight:600">金币</span>、<span style="color:#d4a017;font-weight:600">赛尔豆</span>、<span style="color:#d4a017;font-weight:600">泰坦之灵</span>奖励，越准确奖励越高。
 
 - **[墨染](/powers/mo_ran_power.md)是什么**：自身回合开始时每 <span style="color:#3aa675;font-weight:600">211</span> 层换 <span style="color:#3aa675;font-weight:600">10</span> 金币，达到 <span style="color:#3aa675;font-weight:600">985</span> 层清空并换 <span style="color:#3aa675;font-weight:600">1</span> 颗[通用刻印激活水晶](/relics/event/universal_engraving_gem_relic.md)；<span style="color:#3aa675;font-weight:600">333</span> 层相当于每回合白拿 <span style="color:#3aa675;font-weight:600">10</span> 金币的底仓。
 - **预测弹窗**：战斗开始时弹出输入框（输入范围 0-999），输入预测的本场打牌数。

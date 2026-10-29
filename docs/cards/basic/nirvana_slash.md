@@ -23,16 +23,16 @@
 
 ## 描述
 
-PP: 5/5 造成<span style="color:#3aa675;font-weight:600">6</span>点伤害，每拥有[堕落](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">10</span>额外造成<span style="color:#3aa675;font-weight:600">1</span>点伤害。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">6</span>点伤害，每<span style="color:#3aa675;font-weight:600">10</span>层<span style="color:#d44;font-weight:600">堕落</span>额外造成<span style="color:#3aa675;font-weight:600">1</span>点伤害。
 
 ## 升级后
 
-PP: 5/5 造成<span style="color:#3aa675;font-weight:600">10</span>点伤害，每拥有[堕落](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">10</span>额外造成<span style="color:#3aa675;font-weight:600">1</span>点伤害。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">10</span>点伤害，每<span style="color:#3aa675;font-weight:600">10</span>层<span style="color:#d44;font-weight:600">堕落</span>额外造成<span style="color:#3aa675;font-weight:600">1</span>点伤害。
 
 ## 详细机制
 
 - **堕落加伤向下取整**：额外伤害 = 当前[堕落](/powers/fallen_power.md)层数 ÷ 10 向下取整。堕落 9 层无加成、10 层 +1、19 层 +1、20 层 +2——小数部分不结算。
-- **堕落不清零**：[堕落](/powers/fallen_power.md)层数每场战斗独立且**不会清零**（满 100 层倍数才触发[魔君接管](/powers/demon_takeover_power.md)），所以加伤会随战斗推进稳定增长，越拖越高。
+- **堕落战斗内不清零**：[堕落](/powers/fallen_power.md)层数在**本场战斗内不会清零**，每逢 100 层倍数触发一次[魔君接管](/powers/demon_takeover_power.md)；战斗结束后堕落能力随玩家能力一起清除，下场重新从 0 累积。所以加伤会随战斗推进稳定增长，越拖越高。
 - **⚠️ 与关键词「寂灭」同名不同物**：[寂灭](/mechanics/nirvana.md)是 mod 关键词（打出后战斗结束从牌组移除本牌），本卡是索伦森初始攻击牌，**不携带**该关键词——名字相同，机制毫无关系，战斗结束本卡不会从牌组移除。
 
 ## 小贴士

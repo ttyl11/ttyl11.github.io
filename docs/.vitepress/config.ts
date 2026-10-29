@@ -45,6 +45,7 @@ export default withMermaid(defineConfig({
           { text: '附魔', link: '/enchantments/' },
           { text: '充能球', link: '/orbs/' },
           { text: '药水', link: '/potions/' },
+          { text: '刻印', link: '/engravings/' },
           { text: '怪物', link: '/monsters/' },
           { text: '事件', link: '/events/' },
           { text: '角色', link: '/characters/' }
@@ -74,6 +75,7 @@ export default withMermaid(defineConfig({
             text: '二、Mod 改造的原版系统',
             items: [
               { text: '关键词', link: '/mechanics/keywords' },
+              { text: '尘封', link: '/mechanics/sealed' },
               { text: '充能球', link: '/mechanics/orb' },
               { text: '附魔', link: '/mechanics/enchantment' },
               { text: '意图', link: '/mechanics/intent' },
@@ -111,9 +113,12 @@ export default withMermaid(defineConfig({
           {
             text: '六、地图与进度系统',
             items: [
+              { text: '第四幕与第五幕', link: '/mechanics/act-four-five' },
               { text: '游戏流程改造', link: '/mechanics/game-flow' },
+              { text: '子地图与活动', link: '/mechanics/submap-activity' },
               { text: '卡牌池扩展', link: '/mechanics/card-pool-extension' },
-              { text: '先古之民', link: '/mechanics/ancients' }
+              { text: '先古之民', link: '/mechanics/ancients' },
+              { text: '进阶挑战 (A1~A30)', link: '/mechanics/ascension' }
             ]
           }
         ]
@@ -121,6 +126,7 @@ export default withMermaid(defineConfig({
       {
         text: '杂项',
         items: [
+          { text: '冷知识', link: '/mechanics/trivia' },
           { text: '版本更新', link: '/changelog/' },
           { text: '组合推荐', link: '/combos/' },
           { text: '支持作者', link: '/support/' },
@@ -215,6 +221,14 @@ export default withMermaid(defineConfig({
           ]
         }
       ],
+      '/engravings/': [
+        {
+          text: '刻印图鉴',
+          items: [
+            { text: '总览', link: '/engravings/' }
+          ]
+        }
+      ],
       '/monsters/': [
         {
           text: '怪物图鉴',
@@ -241,55 +255,75 @@ export default withMermaid(defineConfig({
           ]
         },
         {
-          text: '剧情抉择事件',
+          text: '全层（1~5）',
+          items: [
+            { text: '魔鬼教官的特训', link: '/events/combat_expert' },
+            { text: '七宗罪的试炼', link: '/events/seven_sins_trial' },
+            { text: '包你满意抽奖铺', link: '/events/swindler' },
+            { text: '谁才是天选主角', link: '/events/who_is_the_chosen_one' },
+            { text: '万能属性添加机', link: '/events/attribute_inflation' },
+            { text: '濒死的故障机器人', link: '/events/broken_robot' },
+            { text: '群星王座的继承人', link: '/events/crown_prince' },
+            { text: '勇者之塔', link: '/events/infinite_loop' },
+            { text: '篝火旁的铁甲战士', link: '/events/iron_warrior' },
+            { text: '莱达长老的电车难题考验', link: '/events/leda_elder_trolley_problem' },
+            { text: '火星港商人罗开', link: '/events/luokai_xiang' },
+            { text: '紫雾中的亡灵契约师', link: '/events/necromancer' },
+            { text: '派克博士的概率博弈', link: '/events/probability_game' },
+            { text: '高塔边的紫袍学者', link: '/events/purple_robed_scholar' },
+            { text: '暗影中的猎手', link: '/events/silent_hunter' },
+            { text: '负伤的丛林霸主', link: '/events/wounded_jungle_overlord' }
+          ]
+        },
+        {
+          text: '1、2、4、5 层',
+          items: [
+            { text: '逝者巨樽的宿命对峙', link: '/events/deceased_giant_jar_confrontation' },
+            { text: '克洛斯星', link: '/events/keluosi_star' },
+            { text: '史莱姆的加冕', link: '/events/slime_coronation' },
+            { text: '百分百宝石附魔机', link: '/events/gem_enchantment_machine' },
+            { text: '缺失的愚者塔罗', link: '/events/missing_fool_tarot' }
+          ]
+        },
+        {
+          text: '1、4、5 层',
+          items: [
+            { text: '神兽空间', link: '/events/divine_beast_space' },
+            { text: 'M78星云的外交时刻', link: '/events/nebula_diplomacy' }
+          ]
+        },
+        {
+          text: '2、4、5 层',
+          items: [
+            { text: '伏魔空间', link: '/events/demon_space' },
+            { text: '战神与斗神', link: '/events/gaiya_ruiersi' }
+          ]
+        },
+        {
+          text: '2、3、4、5 层',
+          items: [
+            { text: '无光黑洞的长老许诺', link: '/events/lightless_black_hole_promise' },
+            { text: '太阳神的合奏', link: '/events/mehvet' }
+          ]
+        },
+        {
+          text: '3、4、5 层',
+          items: [
+            { text: '混沌深渊的宿命对决', link: '/events/chaos_abyss_duel' },
+            { text: '穹明号', link: '/events/qiong_ming_hao' },
+            { text: '异空间影魔尤纳斯', link: '/events/yunas_event' }
+          ]
+        },
+        {
+          text: '1~3 层（有条件）',
+          items: [
+            { text: '！？商店？！', link: '/events/weird_shop' }
+          ]
+        },
+        {
+          text: '特殊事件',
           items: [
             { text: '志旭之战', link: '/events/zhixu_battle' },
-            { text: '负伤的丛林霸主', link: '/events/wounded_jungle_overlord' },
-            { text: '无光黑洞的长老许诺', link: '/events/lightless_black_hole_promise' },
-            { text: '莱达宇宙：缺失的愚者塔罗', link: '/events/missing_fool_tarot' },
-            { text: '逝者巨樽的宿命对峙', link: '/events/deceased_giant_jar_confrontation' },
-            { text: '莱达长老的电车难题考验', link: '/events/leda_elder_trolley_problem' },
-            { text: '高塔边的紫袍学者', link: '/events/purple_robed_scholar' },
-            { text: '属性内卷的路边争论', link: '/events/attribute_inflation' },
-            { text: 'M78星云的外交时刻', link: '/events/nebula_diplomacy' },
-            { text: '决战回响：混沌深渊的宿命对决', link: '/events/chaos_abyss_duel' },
-            { text: '塔中奇遇：谁才是天选主角', link: '/events/who_is_the_chosen_one' },
-            { text: '伏魔空间', link: '/events/demon_space' },
-            { text: '穹明号', link: '/events/qiong_ming_hao' },
-            { text: '克洛斯星', link: '/events/keluosi_star' },
-            { text: '盖亚与瑞尔斯', link: '/events/gaiya_ruiersi' },
-            { text: '神兽空间', link: '/events/divine_beast_space' },
-            { text: '尤纳斯', link: '/events/yunas_event' },
-            { text: '梅赫维特', link: '/events/mehvet' },
-            { text: '史莱姆的加冕', link: '/events/slime_coronation' }
-          ]
-        },
-        {
-          text: '功能事件',
-          items: [
-            { text: '勇者之塔', link: '/events/infinite_loop' },
-            { text: '七宗罪的试炼', link: '/events/seven_sins_trial' },
-            { text: '战斗专家', link: '/events/combat_expert' },
-            { text: '圣战福利：百分百宝石附魔机', link: '/events/gem_enchantment_machine' },
-            { text: '派克博士的概率博弈', link: '/events/probability_game' },
-            { text: '！？商店？！', link: '/events/weird_shop' },
-            { text: '罗开', link: '/events/luokai_xiang' },
-            { text: '奸商', link: '/events/swindler' }
-          ]
-        },
-        {
-          text: '职业导师事件',
-          items: [
-            { text: '铁甲战士', link: '/events/iron_warrior' },
-            { text: '静默猎手', link: '/events/silent_hunter' },
-            { text: '储君', link: '/events/crown_prince' },
-            { text: '故障机器人', link: '/events/broken_robot' },
-            { text: '亡灵契约师', link: '/events/necromancer' }
-          ]
-        },
-        {
-          text: '特殊商店',
-          items: [
             { text: '赛尔豆商店', link: '/events/elite_shop' },
             { text: '泰坦之灵商店', link: '/events/boss_shop' }
           ]
@@ -330,6 +364,7 @@ export default withMermaid(defineConfig({
           text: '二、Mod 改造的原版系统',
           items: [
             { text: '关键词', link: '/mechanics/keywords' },
+            { text: '尘封', link: '/mechanics/sealed' },
             { text: '充能球', link: '/mechanics/orb' },
             { text: '附魔', link: '/mechanics/enchantment' },
             { text: '意图', link: '/mechanics/intent' },
@@ -366,9 +401,12 @@ export default withMermaid(defineConfig({
         {
           text: '六、地图与进度系统',
           items: [
+            { text: '第四幕与第五幕', link: '/mechanics/act-four-five' },
             { text: '游戏流程改造', link: '/mechanics/game-flow' },
+            { text: '子地图与活动', link: '/mechanics/submap-activity' },
             { text: '卡牌池扩展', link: '/mechanics/card-pool-extension' },
-            { text: '先古之民', link: '/mechanics/ancients' }
+            { text: '先古之民', link: '/mechanics/ancients' },
+            { text: '进阶挑战 (A1~A30)', link: '/mechanics/ascension' }
           ]
         },
         {

@@ -23,21 +23,21 @@
 
 ## 描述
 
-下回合开始：解除[异常状态](/mechanics/abnormal-status.md)，手牌上限+<span style="color:#3aa675;font-weight:600">8</span>，打出[PP 牌](/mechanics/pp-system.md)不消耗[PP](/mechanics/pp-system.md)，立即将手中外的<span style="color:#3aa675;font-weight:600">0PP</span>牌放入手中。回合结束移除。
+下回合开始时：移除自身所有[异常状态](/mechanics/abnormal-status.md)，[gold]手牌上限[/gold]+<span style="color:#3aa675;font-weight:600">8</span>，打出[gold]PP牌[/gold]不消耗[gold]PP[/gold]，并将手牌以外的<span style="color:#3aa675;font-weight:600">0PP</span>牌加入手牌。<br/>回合结束时移除此能力。
 
 ## 详细机制
 
 ### 触发与生效时机
 
 - **触发**：由[枫落殇·西叶](/relics/epic/feng_luo_shang_xi_ye.md)在自身回合结束时（异常种类 > 4 时）赋予，**下回合开始时**生效。
-- **手牌上限 +8 提前激活**：在抽牌阶段之前生效，本回合抽牌上限 +8。
+- **手牌上限 +8 提前激活**：在抽牌阶段之前生效，本回合可持有的手牌数 +8。
 - **一次性**：持续 1 回合，激活回合结束时自移除。
 
 ### 下回合开始
 
 1. **解除异常**：移除自身所有[异常状态](/mechanics/abnormal-status.md)——正好把西叶"异常种类 > 4"的条件清零。
-2. **PP 免费 + 0PP 可打出**：本回合打出 PP 牌不消耗 PP，0PP 牌也可打出（能量消耗保持卡牌原值）。
-3. **0PP 牌入手**：立即将抽牌堆、弃牌堆、消耗堆中所有当前 PP=0 的 PP 牌放入手中。
+2. **PP 免费 + 0PP 可打出**：本回合所有 PP 牌打出都不扣 PP（原本 PP 不够的牌也能打），0PP 牌也解锁为可打出；能量消耗仍按卡牌原值。
+3. **0PP 牌入手**：立即将抽牌堆、弃牌堆、消耗堆中所有**当前 PP=0** 的赛尔牌放入手中（原本手牌里的不重复加入）。
 
 ## 小贴士
 

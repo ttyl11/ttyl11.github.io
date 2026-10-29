@@ -21,12 +21,12 @@
 
 ## 描述
 
-每回合开始时，多抽 <span style="color:#3aa675;font-weight:600">{Bonus}</span> 张牌并多获得 <span style="color:#3aa675;font-weight:600">{Bonus}</span> 点[能量](/mechanics/energy.md)，持续 <span style="color:#3aa675;font-weight:600">{Amount}</span> 回合。每回合结束 Amount − 1，归零时能力移除。
+每回合开始时，多抽 <span style="color:#3aa675;font-weight:600">X</span> 张牌并多获得 <span style="color:#3aa675;font-weight:600">X</span> 点[能量](/mechanics/energy.md)，持续 <span style="color:#3aa675;font-weight:600">N</span> 回合。每回合开始时结算完抽牌与能量后 N − 1，归零时能力移除。
 
 ## 详细机制
 
 - **每回合触发**：
-  - 玩家回合开始时，先执行抽牌阶段（多抽 Bonus 张），再执行能量重置（多获 Bonus 点），最后执行回合结束（Amount − 1）
+  - 玩家回合开始时，先执行抽牌阶段（多抽 Bonus 张），再执行能量重置（多获 Bonus 点），本侧回合开始结算完成后 Amount − 1
   - Amount > 0 时每次玩家回合都触发，Amount 归零时能力自动移除
 
 - **多张弹簧的叠加规则（只加回合，不加数值）**：

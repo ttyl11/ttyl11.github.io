@@ -18,7 +18,7 @@
 
 ## 描述
 
-①你的回合开始时，若当前<span style="color:#d4a017;font-weight:600">生命</span>高于对手，获得<span style="color:#d4a017;font-weight:600">[先制](/powers/first_strike_power.md)</span>+<span style="color:#3aa675;font-weight:600">1</span>且当回合攻击伤害+<span style="color:#3aa675;font-weight:600">30</span>%；若低于对手，获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#9b59b6;font-weight:600">[邪龙之噬](/powers/dragon_devour_power.md)</span>。<br/>②打出带<span style="color:#d4a017;font-weight:600">「难」字</span>的牌时，<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span><span style="color:#3aa675;font-weight:600">19</span>%。
+①你的回合开始时，若当前<span style="color:#d4a017;font-weight:600">生命</span>高于对手，获得<span style="color:#d4a017;font-weight:600">先制</span>+<span style="color:#3aa675;font-weight:600">1</span>且当回合攻击伤害+<span style="color:#3aa675;font-weight:600">30</span>%；若低于对手，获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#9b59b6;font-weight:600">邪龙之噬</span>。<br/>②打出名称含<span style="color:#d4a017;font-weight:600">难</span>的牌时，获得当前<span style="color:#d44;font-weight:600">堕落</span>层数<span style="color:#3aa675;font-weight:600">19%</span>的<span style="color:#d44;font-weight:600">堕落</span>。
 
 - **生命对比**：你的回合开始时，比较你的当前生命与所有存活敌人的当前生命**之和**。高于则走进攻分支，低于则走防守分支，相等时不触发任何效果。
 - **进攻分支（生命高于对手）**：获得 1 层先制（下张牌减 1 费）+ 当回合攻击伤害 +30%。加成是乘法百分比修正，只对攻击牌伤害生效。

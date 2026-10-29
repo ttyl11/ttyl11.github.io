@@ -6,7 +6,7 @@
 
 - **分类**: 非塔罗遗物
 - **稀有度**: 事件
-- **获取途径**: [「决战回响：混沌深渊的宿命对决」](/events/chaos_abyss_duel.md) 事件「投靠湮灭之主·咤克斯」选项——同时获得[咤克斯的诅咒](/relics/event/zhakes_curse_relic.md)（每场战斗后塞 1 张诅咒）和卡牌「绝灭·万物哀鸣」
+- **获取途径**: [「混沌深渊的宿命对决」](/events/chaos_abyss_duel.md) 事件「投靠湮灭之主·咤克斯」选项——同时获得[咤克斯的诅咒](/relics/event/zhakes_curse_relic.md)（每场战斗后塞 1 张诅咒）和卡牌「绝灭·万物哀鸣」
 
 ### 数值参数
 

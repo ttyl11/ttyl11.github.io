@@ -1,13 +1,13 @@
 # 凝滞
 
 > **归属**：玩家可施加
-> **施加来源**：玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[暴君史莱姆](/relics/event/tyrant_slime_relic.md)（遗物）
+> **施加来源**：玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[暴君史莱姆](/relics/event/tyrant_slime_relic.md)（遗物）、[不破帝·南霜](/relics/epic/bupo_emperor_nanshuang.md)（遗物，自身与敌方）
 
 <img src="/images/powers/stasis_power.png" alt="凝滞" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
-- **类型**: 增益（Buff），但列入[异常状态](/mechanics/abnormal-status.md)列表
+- **类型**: 减益（Debuff）/ [异常状态](/mechanics/abnormal-status.md)
 - **叠加方式**: 叠加
 - **可见**: 是
 - **多人同步缩放**: 是
@@ -16,11 +16,11 @@
 
 | 参数 | 数值 |
 |---|---|
-| 免疫回合数 | 1 |
+| Amount（层数/免疫回合数，施加时决定，默认 1） | 1 |
 
 ## 描述
 
-免疫<span style="color:#d44;font-weight:600">异常状态</span><span style="color:#3aa675;font-weight:600">1</span>回合。怪物：回合开始时对其施加[封属](/mechanics/intent.md)（非攻击意图效果失效）。玩家：无法额外抽牌。在你的回合结束时减少1层。
+①获得<span style="color:#3aa675;font-weight:600">层数</span>回合<span style="color:#d4a017;font-weight:600">免控</span>。<br/>②玩家持有时，无法额外抽牌。<br/>③怪物持有时，回合开始时随机施加<span style="color:#d4a017;font-weight:600">封属</span>。<br/>自身回合结束时层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 

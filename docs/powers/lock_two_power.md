@@ -1,7 +1,7 @@
-# 锁定II
+﻿# 锁定II
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物自带——[雷伊](/monsters/boss/ray_monster.md)开局自带、[提亚斯](/monsters/elite/tias_monster.md)「精神同步」第 2 次使用时施加（同时移除[锁定I](/powers/lock_one_power.md)）；怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：怪物自带——[雷伊](/monsters/boss/ray_monster.md)开局自带、[提亚斯](/monsters/elite/tias_monster.md)「精神同步」第 2 次使用时施加（同时移除[锁定I](/powers/lock_one_power.md)）；全局怪物能力池（全局补丁）——玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长
 
 <img src="/images/powers/lock_two_power.png" alt="锁定II" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -37,4 +37,4 @@
 - `SeerCriticalStrikePower.cs`
 - `SeerRayMonster.cs`
 - `SeerTiasMonster.cs`
-- `SeerElementalCore.cs`
+- `SeerGlobalMonsterPowerPatch.cs`

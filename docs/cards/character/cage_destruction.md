@@ -1,4 +1,4 @@
-﻿# 戕伐樊笼
+# 戕伐樊笼
 
 <img src="/images/cards/cage_destruction.png" alt="戕伐樊笼" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -17,7 +17,7 @@
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 异常免疫次数 | 4 | 4 |
+| 异常免疫层数 | 4 | 4 |
 | 消亡层数 | 18 | 30 |
 | 堕落 | 31% | 31% |
 | PP | 5 | 5 |
@@ -25,34 +25,44 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 清除双方所有增益和减益。自身获得<span style="color:#3aa675;font-weight:600">4</span>次[<span style="color:#d4a017;font-weight:600">异常免疫</span>](/powers/debuff_immune_power.md)。对方获得<span style="color:#3aa675;font-weight:600">18</span>层[<span style="color:#9b59b6;font-weight:600">消亡</span>](/powers/demise_power.md)。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">31%</span>。
+PP: 5/5 <span style="color:#d44;font-weight:600">净场</span>。自身获得<span style="color:#3aa675;font-weight:600">4</span>次<span style="color:#d4a017;font-weight:600">异常免疫</span>。对方获得<span style="color:#3aa675;font-weight:600">18</span>层<span style="color:#9b59b6;font-weight:600">消亡</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">31%</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 清除双方所有增益和减益。自身获得<span style="color:#3aa675;font-weight:600">4</span>次[<span style="color:#d4a017;font-weight:600">异常免疫</span>](/powers/debuff_immune_power.md)。对方获得<span style="color:#3aa675;font-weight:600">30</span>层[<span style="color:#9b59b6;font-weight:600">消亡</span>](/powers/demise_power.md)。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">31%</span>。
+PP: 5/5 <span style="color:#d44;font-weight:600">净场</span>。自身获得<span style="color:#3aa675;font-weight:600">4</span>次<span style="color:#d4a017;font-weight:600">异常免疫</span>。对方获得<span style="color:#3aa675;font-weight:600">30</span>层<span style="color:#9b59b6;font-weight:600">消亡</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">31%</span>。
+
+## 详细机制
+
+- **净化范围**：清除所有**可命中敌人**的增益与减益，再清除**自己**的增益与减益；**不含队友**。卡面“双方”指“敌方与自己”。
+- **净化保护**：不会移除动画相关能力（惊跳、幻影、蒸汽喷发、沙坑）、原版受击一次性被动（蜷身），以及泰坦之灵的永久增伤/减伤。
+- **异常免疫 4 层**：免疫持续到接下来 **4 个敌方回合结束**，每个敌方回合结束 -1 层。在这段窗口内可以挡下**任意多次**异常施加，不是“只能挡 4 次”。
+- **免疫范围**：只挡赛尔的 27 种异常状态；同阵营施加的正面增益不会被拦；自己给自己施加的非增益异常也会被挡下。
+- **消亡**：对每个敌人施加 18 层（升级 30 层）。消亡不衰减，敌人在**自己的回合结束**时受到等于当前层数的不可格挡、不受力量影响的伤害。
+- **堕落 31%**：按当前堕落层数 × 31% 计算，向下取整；0 层时无收益。堕落累计每跨过 100 的倍数，触发混沌化身、抽 1 张与魔君接管。
+- **升级**：消亡 18 → 30（+12），异常免疫层数与堕落比例不变。
 
 ## 小贴士
 
-- **清场+斩杀+护身三合一**：一次打出同时做三件事——清除双方所有增益和减益（包括力量、敏捷、虚弱、易伤等全部）、给所有敌人挂 18 层（升级后 30 层）消亡、自身获得 4 次异常免疫。这是 mod 中少有的"全清+护身"效果，面对堆满增益且带异常控制的精英/Boss 时价值极高。
-- **消亡的伤害是持续放血**：消亡是原版减益，持有者**回合结束时**失去等于当前层数的生命（不可格挡的非攻击伤害），**且层数不衰减**——18 层消亡 = 敌人每回合稳定掉 18 点，直到战斗结束或敌人用"清除自身减益"类手段移掉它。3 回合就是 54 点真实伤害（升级后 30 层 = 每回合 30 点，3 回合 90 点），对高格挡/高血量 Boss 是绕过防御的斩杀线。多敌人遭遇战时每个敌人都挂 18/30 层，总伤按敌人数量倍增。
-- **异常免疫护身**：自身获得 4 次[异常免疫](/powers/debuff_immune_power.md)——接下来 4 次异常状态施加被免疫掉。配合清场效果，打出后自己短期内不会被敌人挂异常，为后续输出提供安全窗口。
-- **双刃剑——自己也被清**：清除是**双方**的，你的力量、敏捷、活力等增益也会被一并清掉。最佳使用时机是你身上增益不多、敌人身上增益很多的时候。如果你正在跑力量体系或活力体系，打出这张等于自废武功。
-- **凝驻关键词（不会洗入抽牌堆）**：带有[凝驻](/mechanics/ningzhu.md)——此牌无法从[弃牌堆](/mechanics/discard_pile.md)洗入[抽牌堆](/mechanics/draw_pile.md)，打出后停留在弃牌堆。配合回手效果（如[返璞归真](./return_to_nature.md)类回收牌）或复制手段可以反复打出；但正常洗牌循环里它不会自动回来，需要主动回收手段才能多用一次。
-- **清除范围有保护**：清除时会自动排除动画相关的能力（如惊跳、幻影、蒸汽喷发、沙坑），不会导致游戏异常。但 mod 自定义的怪物增益属于正常增益/减益，会被清除。
-- **配合建议**：适合作为"重启键"——当你被敌人挂满减益、敌人自己堆满增益时，一张牌清空全部、自身免疫异常再挂消亡斩杀。消亡的生命损失配合后续的攻击牌可以快速收割。升级后 30 层消亡是质变——每回合 30 点真实伤害足以单靠 DOT 磨死多数精英。
-- **堕落 31%：清场牌的暗账**：打出时获得当前[堕落](/powers/fallen_power.md)×<span style="color:#3aa675;font-weight:600">31%</span>——堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层被[魔君接管](/powers/demon_takeover_power.md)强制乱打；好在按比例计算、叠得不算猛，多数战斗只贡献十几到几十层，属于可管理的代价。
-- **升级的价值**：消亡层数从 18 提升至 30（+12）。异常免疫次数不变（4 次）。升级纯增伤，是斩杀线的直接提升。升级优先级高。
-- **性价比**：1 费合理——清全场增益减益加 30 层消亡生命损失与 4 次异常免疫，斩杀、重启、护身一体。
+- **清场 + 斩杀 + 护身三合一**：一次打出同时清掉敌人与自己的全部增益减益、给所有敌人挂消亡、自身获得 4 层异常免疫。面对堆满增益且带异常控制的精英/Boss 时价值最高。
+- **消亡是持续放血**：消亡层数不衰减，敌人每回合稳定掉 18 点（升级 30 点），三回合就是 54 / 90 点不可格挡伤害，对高格挡、高血量目标相当于绕过防御的斩杀线。多敌人时每个敌人各挂一份。
+- **异常免疫按回合算，不按次数算**：4 层覆盖 4 个敌方回合；期间敌人连续施加多次异常都会被挡下，层数只在敌方回合结束时 -1，不会因为多挡几次而额外减少。
+- **双刃剑——自己也被清**：你的力量、敏捷、活力等增益同样会被清掉。若你正在跑力量/活力体系，打出这张等于自废武功；最佳时机是自己增益不多、敌人增益很多的时候。
+- **清除范围有保护**：动画相关能力、蜷身和泰坦之灵永久属性不会被误清；其余 mod 自定义的怪物增益属于正常增益，会被清除。
+- **凝驻**：这张牌不会随洗牌进入抽牌堆，打出后停留在弃牌堆；正常洗牌循环里不会自动回来，需要主动回收才能再用一次。
+- **堕落是暗账**：按当前堕落层数的 31% 向下取整，0 层打出完全没有代价；但堕落越叠越高，这张牌的“利息”也越贵。累计跨过 100 的倍数会被魔君接管。
+- **升级的价值**：消亡 18 → 30，是斩杀线的直接提升；异常免疫仍是 4 层。升级优先级高。
+- **性价比**：1 费 + 1 PP（本牌 PP 5，最多打 5 次），换来全场净化、30 层消亡与 4 个敌方回合的异常免疫，斩杀、重启、护身一体。
 
 ## 相关能力
 
-- [异常免疫](/powers/debuff_immune_power.md)（自身获得 4 次）
-- [消亡](/powers/demise_power.md)（对方获得 18/30 层）
+- [异常免疫](/powers/debuff_immune_power.md)（自身获得 4 层）
+- [消亡](/powers/demise_power.md)（所有敌人各获得 18/30 层）
 - [堕落](/powers/fallen_power.md)（按当前堕落层数 ×31% 累积）
 
 ## 相关机制
 
 - [凝驻](/mechanics/ningzhu.md)（mod 关键词，不随洗牌进入抽牌堆）
+- [净场](/mechanics/jing_chang.md)（清除全场增益减益）
 
 ## 源码
 

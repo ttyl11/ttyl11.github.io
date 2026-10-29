@@ -17,7 +17,7 @@
 
 ## 描述
 
-①打出<span style="color:#d4a017;font-weight:600">技能牌</span>时，随机敌人<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">[诅咒](/powers/curse_power.md)</span>。<br/>②打出<span style="color:#d4a017;font-weight:600">攻击牌</span>造成伤害时，目标<span style="color:#3aa675;font-weight:600">5</span>点<span style="color:#d4a017;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>。<br/>③打出带<span style="color:#d4a017;font-weight:600">「道」字</span>的牌时，<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span><span style="color:#3aa675;font-weight:600">19</span>%。
+①自身打出<span style="color:#d4a017;font-weight:600">技能牌</span>时，对随机敌人附加<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">诅咒</span>。<br/>②自身打出<span style="color:#d4a017;font-weight:600">攻击牌</span>造成伤害时，对目标附加<span style="color:#3aa675;font-weight:600">5</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>。
 
 - **诅咒目标随机**：技能牌通常无指定目标，效果①从存活敌人中随机选一个施加<span style="color:#d44;font-weight:600">[诅咒](/powers/curse_power.md)</span>。
 - **固定伤害针对攻击目标**：效果②对攻击牌命中的目标施加<span style="color:#d4a017;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>，不是随机。

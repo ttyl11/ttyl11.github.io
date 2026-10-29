@@ -22,11 +22,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得等量于当前PP的[<span style="color:#9b59b6;font-weight:600">魔王咒怨</span>](/powers/demon_king_curse_power.md)。若已有[<span style="color:#9b59b6;font-weight:600">魔王咒怨</span>](/powers/demon_king_curse_power.md)，对目标造成所有敌人生命值之和<span style="color:#3aa675;font-weight:600">50</span>%的伤害。
+PP: 5/5 获得等量当前PP的<span style="color:#9b59b6;font-weight:600">魔王咒怨</span>。已有<span style="color:#9b59b6;font-weight:600">魔王咒怨</span>时，对目标造成全体敌人生命之和<span style="color:#3aa675;font-weight:600">50</span>%的伤害。
 
 ## 升级后
 
-不再[虚无](/mechanics/ethereal.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得等量于当前PP的[<span style="color:#9b59b6;font-weight:600">魔王咒怨</span>](/powers/demon_king_curse_power.md)。若已有[<span style="color:#9b59b6;font-weight:600">魔王咒怨</span>](/powers/demon_king_curse_power.md)，对目标造成所有敌人生命值之和<span style="color:#3aa675;font-weight:600">50</span>%的伤害。
+不再虚无。PP: 5/5 获得等量当前PP的<span style="color:#9b59b6;font-weight:600">魔王咒怨</span>。已有<span style="color:#9b59b6;font-weight:600">魔王咒怨</span>时，对目标造成全体敌人生命之和<span style="color:#3aa675;font-weight:600">50</span>%的伤害。
 
 ## 小贴士
 

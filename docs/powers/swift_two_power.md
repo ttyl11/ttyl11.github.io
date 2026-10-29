@@ -1,7 +1,7 @@
-# 迅捷II
+﻿# 迅捷II
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：全局怪物能力池（全局补丁）——玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长
 
 <img src="/images/powers/swift_two_power.png" alt="迅捷II" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,7 +13,7 @@
 
 ## 描述
 
-在你的回合开始时获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">先制</span>。
+自身回合开始时获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">先制</span>。
 
 ## 详细机制
 
@@ -31,4 +31,4 @@
 
 - `SeerSwiftTwoPower.cs`
 - 先制结算：`SeerFirstStrikePower.cs`（敌方持有时玩家耗能 +层数；玩家打出任意牌后移除）
-- 随机池配置：`SeerElementalCore.cs:87`（`0.000015/房`）
+- 随机池配置：`SeerGlobalMonsterPowerPatch.cs`

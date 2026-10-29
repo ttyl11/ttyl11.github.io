@@ -1,7 +1,7 @@
 # 镜反
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：全局怪物能力池（全局补丁）——进阶 11+（异能苏醒）下，玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长（A13 原版怪翻倍、A28 全体再翻倍）
 
 <img src="/images/powers/mirror_power.png" alt="镜反" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -20,7 +20,7 @@
 - **暴击伤害归零**：持有者（怪物）受到伤害时，若伤害来源持有[暴击](/powers/critical_strike_power.md)且本次攻击判定为暴击（当次随机暴击判定命中——暴击率由攻击者[命中](/powers/accuracy_power.md)正层提供；或[锁二](/powers/lock_two_power.md)类 100% 暴击），HP 损失直接归 <span style="color:#3aa675;font-weight:600">0</span>——**暴击打它一点血都不掉**。
 - **原量反弹**：被暴击命中的瞬间，立即对攻击者反弹**本次攻击的完整伤害量**（格挡前数值），类型为普通伤害，**可被[格挡](/mechanics/block.md)**。
 - **判定的是攻击者侧**：看的是**你**（攻击者）的暴击状态，与怪物自己有没有暴击无关——你的[命中](/powers/accuracy_power.md)正层带来的暴击率、[北冥之刃](/powers/north_sea_blade_power.md)的必暴击，全都会被镜反惩罚。
-- **普攻/固伤/DoT 无碍**：非暴击的常规攻击正常掉血；[固定伤害](/powers/fixed_damage_power.md)、灼烧等无来源伤害不触发反弹（`BeforeDamageReceived` 有 `dealer != null` 过滤）。
+- **普攻/固伤/DoT 无碍**：非暴击的常规攻击正常掉血；[固定伤害](/powers/fixed_damage_power.md)、灼烧等无来源伤害不触发反弹（反弹只对判定为暴击的伤害生效，非暴击的有来源伤害同样不反弹）。
 
 ## 小贴士
 

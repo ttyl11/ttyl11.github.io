@@ -16,7 +16,7 @@
 
 ## 描述
 
-①每次使用牌，附加对方已损失生命 <span style="color:#3aa675;font-weight:600">5</span>% 的<span style="color:#d4a017;font-weight:600">[固定伤害](/mechanics/fixed-damage.md)</span>。<br/>②整局游戏限一次自身死亡后，满血重生一次。<br/>③重生后获得永久增伤 <span style="color:#3aa675;font-weight:600">50</span>%（全局通用）。<br/>④每回合开始前，净化抽牌堆的所有诅咒牌和状态牌。净化：将诅咒牌和状态牌变为"圣光"。
+①每次使用牌：附加目标已损失生命<span style="color:#3aa675;font-weight:600">5</span>%的<span style="color:#9b59b6;font-weight:600">固定伤害</span><br/>②整局限一次：死亡后满血重生<br/>③重生后：永久增伤<span style="color:#3aa675;font-weight:600">50</span>%（全局通用）<br/>④回合开始前：净化抽牌堆的<span style="color:#d44;font-weight:600">诅咒牌</span>和<span style="color:#d44;font-weight:600">状态牌</span>（变为<span style="color:#d4a017;font-weight:600">圣光</span>）
 
 - **失血固伤**：①每次打出牌时，对这张牌指定的目标敌人施加固定伤害，数值为目标敌人已损失生命的 5%（向下取整）。敌人血越残固伤越高。只对牌指定的目标生效——没有指定目标的牌（纯增益、全体牌等）不触发。
 - **限一次复活**：②整局游戏只有一次。首次死亡时满血复活，复活期间免疫所有伤害和异常状态。

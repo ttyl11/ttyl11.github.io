@@ -1,16 +1,17 @@
-# 铁甲战士（职业导师）
+# 篝火旁的铁甲战士
 
 篝火边，一个全身暗红色铠甲的人影正用破布狠狠擦着剑刃。"坐下。"他没抬头，语气像在发号施令，"你身上有血的味道。别告诉我那是你自己的。"
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_iron_warrior.png" alt="铁甲战士（职业导师）" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_iron_warrior.png" alt="篝火旁的铁甲战士" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**：职业导师事件
 - **战斗**：否
 - **卡池主题**：[易伤](/mechanics/abnormal-status.md)、[消耗](/mechanics/exhaust.md)、力量相关的铁甲战士卡牌
+- **出现层数**：1~5 层
 
 ## 选项一览
 

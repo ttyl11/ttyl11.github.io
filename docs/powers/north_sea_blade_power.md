@@ -1,14 +1,28 @@
 # 北冥之刃
 
-> **归属**：玩家可施加
-> **施加来源**：玩家获得——[霍光](/relics/epic/huo_guang.md)（遗物）
-
 <img src="/images/powers/north_sea_blade_power.png" alt="北冥之刃" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
-- **类型**: 增益（Buff）
-- **叠加方式**: 单例（不可叠加）
+- **归属**：玩家能力
+- **类型**：增益
+- **叠加**：单层
+- **施加来源**：[霍光](/relics/epic/huo_guang.md)（历史胜场不足 <span style="color:#3aa675;font-weight:600">5</span> 时，战斗开始获得）
 - **可见**: 是
 
-赛尔增益能力。持有期间，自身所有攻击必定暴击（强制[暴击](/powers/critical_strike_power.md)），且暴击伤害按 `CritDamageBoost` 百分比提升。
+## 描述
+
+自身攻击必定[暴击](/mechanics/critical-strike)，自身暴击伤害提升 <span style="color:#3aa675;font-weight:600">15%</span>。
+
+## 详细机制
+
+- 获得时自动确保暴击系统在场，攻击前强制本次攻击暴击。
+- 只对拥有者的**攻击伤害**生效，固定伤害与流失不参与暴击。
+- 增伤是在暴击 1.5 倍的基础上再乘 1.15，不是把倍率改成 1.65。
+- 霍光的历史胜场达到 5 场后，战斗开始改为获得[北冥狂刃](/powers/north_sea_mad_blade_power.md)。
+
+## 源码
+
+- `SeerNorthSeaBladePower.cs`
+- `SeerHuoGuang.cs`（霍光）
+- `SeerCriticalStrikePower.cs`（暴击系统）

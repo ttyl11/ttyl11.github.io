@@ -1,16 +1,17 @@
-# 静默猎手（职业导师）
+# 暗影中的猎手
 
 穿过被暗影笼罩的林地时，后腰突然被什么又尖又冷的东西抵住了。一个影子贴在你身后——你甚至没听到她靠近的声音。
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_silent_hunter.png" alt="静默猎手（职业导师）" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_silent_hunter.png" alt="暗影中的猎手" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**：职业导师事件
 - **战斗**：否
 - **卡池主题**：[奇巧](/mechanics/sly.md)、丢弃、小刀、中毒相关的静默猎手卡牌
+- **出现层数**：1~5 层
 
 ## 选项一览
 

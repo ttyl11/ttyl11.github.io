@@ -13,10 +13,12 @@
 
 ## 详细机制
 
-- **触发时机**：在一场战斗**胜利结束后**触发（`AfterCombatVictory` 钩子），不要求这张牌当场被打出——只要牌组中存在带有进化的牌，获胜即触发。
-- **全牌组生效**：升级的是牌组中**所有同名的进化牌**（例如持有 N 张攻击史莱姆，获胜后 N 张全部各 +1 级），并非仅升打出的那一张。
-- **与无限升级叠加**：带进化的四史莱姆均为"无限升级、每级成长"的蓄水池牌（攻击/防御/速度每级 +1，体力每级 +2）——每获胜一场所有同型史莱姆自动再升一级，是**随战斗自动滚雪球**的成长引擎。
-- **不触发条件**：逃跑/失败/中途退出等非胜利结局不会升级。
+- **具体触发看卡牌实现**：四张史莱姆（攻击/防御/速度/体力）在战斗**胜利**后触发；[保底](/cards/curse/guaranteed.md)则在**每场战斗结束**时触发（胜负都算）。
+- **只升级牌组里的牌**：战斗中的临时复制品不会升级，升级对象是牌组本体。
+- **四史莱姆：全牌组同型一起升，且张数会互相催化**：牌组中每有 1 张同型进化牌，胜利后就执行一次"升级牌组中全部同型牌"——持有 N 张攻击史莱姆时，每张各升 N 级。不用打出，只要在牌组里就生效。
+- **保底：只升自己**：每场战斗结束这张牌自身 +1 级，多张各自独立，最高 99 级。
+- **与无限升级叠加**：四张史莱姆的升级没有上限（攻击/防御/速度每级 +1，体力每级 +2），配合进化会随胜场自动滚雪球。
+- **不触发条件**：非胜利结局不会让四张史莱姆升级；保底不受胜负影响。
 
 ## 相关卡牌
 
@@ -24,9 +26,10 @@
 - [防御史莱姆](/cards/colorless/slime_defense.md)（获得防御，每级 +1，进化）
 - [速度史莱姆](/cards/colorless/slime_speed.md)（获得速度，每级 +1，进化）
 - [体力史莱姆](/cards/colorless/slime_stamina.md)（回复生命，每级 +2，进化）
+- [保底](/cards/curse/guaranteed.md)（诅咒牌，每场战斗结束 +1 级，最高 99 级）
 
 ## 源码
 
-- `SeerSlimeAttack.cs` / `SeerSlimeDefense.cs` / `SeerSlimeSpeed.cs` / `SeerSlimeStamina.cs`（`AfterCombatVictory` 全牌组升级）
-- `SeerKeywords.cs`（关键词定义）
+- `SeerSlimeAttack.cs` / `SeerSlimeDefense.cs` / `SeerSlimeSpeed.cs` / `SeerSlimeStamina.cs`（`AfterCombatVictory` 全牌组同型升级）
+- `SeerGuaranteed.cs`（`AfterCombatEnd` 自身升级）
 - `card_keywords.json`（本地化）

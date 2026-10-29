@@ -1,4 +1,4 @@
-﻿# 恶咒追魂
+# 恶咒追魂
 
 <img src="/images/cards/evil_curse_chasing.png" alt="恶咒追魂" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -24,11 +24,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#3aa675;font-weight:600">2</span>层[<span style="color:#d4a017;font-weight:600">跟踪</span>](/powers/tracking_power.md)。为所有敌人附加<span style="color:#3aa675;font-weight:600">2</span>层[<span style="color:#9b59b6;font-weight:600">虚弱</span>](/powers/weak_power.md)。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">17</span>。
+PP: 1/1 获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#9b59b6;font-weight:600">跟踪</span>。所有敌人<span style="color:#d4a017;font-weight:600">虚弱</span><span style="color:#3aa675;font-weight:600">2</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">17</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#3aa675;font-weight:600">2</span>层[<span style="color:#d4a017;font-weight:600">跟踪</span>](/powers/tracking_power.md)。为所有敌人附加<span style="color:#3aa675;font-weight:600">3</span>层[<span style="color:#9b59b6;font-weight:600">虚弱</span>](/powers/weak_power.md)。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">17</span>。
+PP: 1/1 获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#9b59b6;font-weight:600">跟踪</span>。所有敌人<span style="color:#d4a017;font-weight:600">虚弱</span><span style="color:#3aa675;font-weight:600">3</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">17</span>。
 
 ## 小贴士
 
@@ -39,9 +39,9 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 - **配合建议**：
  - **跟踪爆发流**：配合多段攻击牌可以充分利用跟踪 ×2——多段攻击每段都吃跟踪加成，总收益线性放大。
  - 配合群体攻击牌可以让所有敌人同时吃跟踪 ×2——群体虚弱已铺好路，群攻直接全场翻倍。
- - 注意：虚弱是原版减益，不属于 mod 的 24 种异常状态，因此不能触发[四月的信徒](./april_believer.md)（只对 mod 异常状态翻倍）。
+ - 注意：虚弱是原版减益，不属于 mod 的 27 种异常状态，因此不能触发[四月的信徒](./april_believer.md)（只对 mod 异常状态翻倍）。
 - **升级的关键性**：虚弱层数从 <span style="color:#3aa675;font-weight:600">2</span> 增至 <span style="color:#3aa675;font-weight:600">3</span>（+1），跟踪层数不变。升级提升中等——虚弱多 1 层意味着多 1 回合的跟踪触发条件和减伤。升级优先级中等。
-- **堕落 17：常驻牌的暗账**：每打出一次 +<span style="color:#3aa675;font-weight:600">17</span>[堕落](/powers/fallen_power.md)——能力牌通常只打一次，单发 17 层不算多；堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层被[魔君接管](/powers/demon_takeover_power.md)强制乱打，好在 17 属于温和档位，不会独自把阈值顶爆，与其他堕落源叠加时才需要留意。
+- **堕落 17：常驻牌的暗账**：每打出一次 +<span style="color:#3aa675;font-weight:600">17</span>[堕落](/powers/fallen_power.md)——能力牌通常只打一次，单发 17 层不算多；堕落是负面机制，每跨过 100 层被[魔君接管](/powers/demon_takeover_power.md)强制乱打，好在 17 属于温和档位，不会独自把阈值顶爆，与其他堕落源叠加时才需要留意。
 - **性价比**：2 费换来跟踪 2 层 + 群体虚弱 2 层，是体系成型的关键节点。能力牌常驻无需复用。罕见稀有度合理——联动能力本就稀缺。适合跟踪流和群体爆发体系。
 
 ## 相关能力

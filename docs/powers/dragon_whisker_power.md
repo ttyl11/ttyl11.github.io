@@ -1,4 +1,4 @@
-﻿# 龙胆
+# 龙胆
 
 > **归属**：玩家可施加
 > **施加来源**：
@@ -16,14 +16,15 @@
 
 ## 描述
 
-每层：使用牌时对随机敌人造成 <span style="color:#3aa675;font-weight:600">1</span> 点[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)；受到[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)时消耗 <span style="color:#3aa675;font-weight:600">1</span> 层抵消。
+每层使自身打出牌时，对随机<span style="color:#3aa675;font-weight:600">1</span>个敌人造成<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>。<br/>受到<span style="color:#d44;font-weight:600">异常状态</span>时，消耗<span style="color:#3aa675;font-weight:600">1</span>层抵消。
 
 ## 详细机制
 
-- **打牌输出**：自己每打出一张牌，就对**随机敌人**施加等同于当前层数的[固定伤害](/powers/fixed_damage_power.md)（N 层 = 一次 N 点，下回合开始结算）。目标随机，不保证打中同一个敌人。
+- **打牌输出**：自己每打出一张牌，就对**随机敌人**施加等同于当前层数的[固定伤害](/powers/fixed_damage_power.md)（N 层 = 一次 N 点，在**目标自己的回合开始时**结算）。目标随机，不保证打中同一个敌人。
 - **异常抵消**：即将受到[异常状态](/mechanics/abnormal-status.md)时，施加量归零（完全免疫该次施加），本能力消耗 1 层——**不是按回合消耗**，没异常可挡时层数一直保留。
+- **层数硬上限 7**：无论来自遗物、卡牌还是溯引，叠到 7 层后多余层数直接被截断。
 - **消耗即减输出**：每抵消一次异常就少 1 层，下一张牌的附带固伤也同步少 1 点——防御和输出共享同一池子。
-- **不衰减**：没有回合衰减机制，层数只通过"抵消异常"消耗。
+- **不衰减**：没有回合衰减机制，层数只通过"抵消异常"消耗，或叠到 7 层封顶。
 
 ## 小贴士
 

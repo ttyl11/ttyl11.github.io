@@ -33,7 +33,7 @@
 
 ## 相关机制
 
-- 负面能力判定（`SeerElementalCore.IsNegativePower`）
+- 负面能力判定（按统一规则）
 
 ## 源码
 

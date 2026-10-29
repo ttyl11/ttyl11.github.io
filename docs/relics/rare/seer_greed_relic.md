@@ -10,7 +10,7 @@
 
 ## 描述
 
-战斗结束的[<span style="color:#d4a017;font-weight:600">卡牌奖励</span>](/mechanics/game-flow.md)选项数 +<span style="color:#3aa675;font-weight:600">1</span>。卡牌奖励界面额外出现「贪婪」选项，选择后放弃本次卡牌选择，获得<span style="color:#3aa675;font-weight:600">3</span>点[<span style="color:#d4a017;font-weight:600">泰坦之灵</span>](/mechanics/currency.md)。累计选择「贪婪」<span style="color:#3aa675;font-weight:600">7</span>次后，向[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)中加入[<span style="color:#3aa675;font-weight:600">贪婪</span>](/cards/curse/greed)。
+战斗结束<span style="color:#d4a017;font-weight:600">卡牌奖励</span>选项数+1。<br/>①【贪婪】放弃选牌，获得<span style="color:#3aa675;font-weight:600">3</span>点<span style="color:#d4a017;font-weight:600">泰坦之灵</span>。<br/>累计选<span style="color:#3aa675;font-weight:600">7</span>次后，牌组加入<span style="color:#d4a017;font-weight:600">贪婪</span>。
 
 ## 风味文字
 
@@ -32,7 +32,7 @@
 
 - **对资源型构筑友好**：需要大量泰坦之灵升级/兑换/强化时，可反复点贪婪放弃选牌来"刷"资源；泰坦之灵本身弹性大，存着不会贬值。
 
-- **与暴食同理的"无限养"**：停在 6 次以内，每场都能用贪婪白赚 3 点泰坦之灵，只是它加的是货币而不是血，适合追求资源上限的玩法。
+- **最多 7 次，共 +21 泰坦之灵**：累计点满 7 次后「贪婪」按钮永久消失并加入[贪婪诅咒](/cards/curse/greed)，无法继续获取；适合追求资源上限、愿意用 7 次选牌换 21 点泰坦之灵的玩法。
 
 - **收益是否"亏"取决于资源需求**：如果你泰坦之灵已满载、或当前卡组急缺卡牌，点贪婪换资源不一定划算；反之资源紧张时它是雪中送炭。
 

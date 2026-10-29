@@ -1,7 +1,7 @@
 # 烧伤
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家获得——[八月的流火](/cards/character/august_flame.md)（卡牌）、[天灵净野](/cards/character/heaven_spirit_pure_field.md)（卡牌）、[焚烬](/powers/ash_power.md)（能力联动）、[易燃](/powers/flammable_power.md)（能力联动）、[炎龙圣帝](/relics/uncommon/flame_dragon_emperor.md)（遗物）；玩家施加给敌方——[醉酒燃烧](/cards/character/drunken_burn.md)（卡牌）、[秘纹护体](/cards/character/secret_rune.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[火山](/orbs/volcano_orb.md)（充能球）、[🔥 焚天](/potions/burn_sky_potion.md)（药水）、[荒灰天](/powers/desolate_ash_sky_power.md)（能力联动）、[好女孩](/powers/good_girl_power.md)（能力联动）、[凤之涅槃](/powers/phoenix_nirvana_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）、[阿波罗](/relics/common/apollo.md)（遗物）、[炎龙圣帝](/relics/uncommon/flame_dragon_emperor.md)（遗物）、[枫眠](/relics/rare/maple_sleep.md)（遗物）、[恋人](/relics/common/tarot_lovers.md)（遗物）、[太阳](/relics/common/tarot_sun.md)（遗物）；玩家侧联动——[鬼火](/powers/ghost_fire_power.md)；怪物施加给玩家——[安妮](/monsters/normal/annie_monster.md)、[吉尔](/monsters/normal/jill_monster.md)、[坤格](/monsters/normal/kunge_monster.md)；怪物侧联动——[斯嘟尔](/monsters/normal/siduer_monster.md)
+> **施加来源**：玩家获得——[八月的流火](/cards/character/august_flame.md)（卡牌）、[天灵净野](/cards/character/heaven_spirit_pure_field.md)（卡牌）、[焚烬](/powers/ash_power.md)（能力联动）、[易燃](/powers/flammable_power.md)（能力联动）、[炎龙圣帝](/relics/uncommon/flame_dragon_emperor.md)（遗物）；玩家施加给敌方——[醉酒燃烧](/cards/character/drunken_burn.md)（卡牌）、[秘纹护体](/cards/character/secret_rune.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[火山](/orbs/volcano_orb.md)（充能球）、[🔥 焚天](/potions/burn_sky_potion.md)（药水）、[荒灰天](/powers/desolate_ash_sky_power.md)（能力联动）、[火种永存](/powers/eternal_flame_power.md)（能力联动）、[好女孩](/powers/good_girl_power.md)（能力联动）、[凤之涅槃](/powers/phoenix_nirvana_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）、[阿波罗](/relics/common/apollo.md)（遗物）、[炎龙圣帝](/relics/uncommon/flame_dragon_emperor.md)（遗物）、[枫眠](/relics/rare/maple_sleep.md)（遗物）、[恋人](/relics/common/tarot_lovers.md)（遗物）、[太阳](/relics/common/tarot_sun.md)（遗物）；玩家侧联动——[鬼火](/powers/ghost_fire_power.md)；怪物施加给玩家——[安妮](/monsters/normal/annie_monster.md)、[吉尔](/monsters/normal/jill_monster.md)、[坤格](/monsters/normal/kunge_monster.md)、[希拓](/monsters/elite/xituo_monster.md)、[孤烛灯使](/monsters/boss/guzhudengshi_monster.md)、[不灭·艾恩斯](/monsters/boss/bumie_ai_en_si_monster.md)；怪物侧联动——[斯嘟尔](/monsters/normal/siduer_monster.md)
 
 <img src="/images/powers/burn_power.png" alt="烧伤" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -21,7 +21,7 @@
 
 ## 描述
 
-在你的回合开始时受到<span style="color:#3aa675;font-weight:600">3</span>点伤害。攻击伤害降低<span style="color:#3aa675;font-weight:600">1</span>点。然后减少1层。
+①自身回合开始时受到<span style="color:#3aa675;font-weight:600">3</span>点伤害。<br/>②自身攻击伤害降低<span style="color:#3aa675;font-weight:600">1</span>点。<br/>然后<span style="color:#d44;font-weight:600">烧伤</span>层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 
@@ -50,12 +50,11 @@
 - [秘纹护体](/cards/character/secret_rune.md)
 - [天灵净野](/cards/character/heaven_spirit_pure_field.md)
 
-## 相关遗物（6 个）
+## 相关遗物（5 个）
 
 - [塔罗·太阳](/relics/common/tarot_sun.md)
 - [塔罗·恋人](/relics/common/tarot_lovers.md)
 - [枫眠](/relics/rare/maple_sleep.md)
-- [无极有机](/relics/epic/infinite_organic.md)
 - [焰龙皇](/relics/uncommon/flame_dragon_emperor.md)
 - [阿波罗](/relics/common/apollo.md)
 

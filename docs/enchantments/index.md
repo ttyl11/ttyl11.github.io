@@ -9,7 +9,7 @@ seer mod 中的附魔分为**原版附魔**和 **mod 新增附魔**两大类。
 - [原版附魔](#原版附魔)（22 种）：杀戮尖塔 2 原版自带
 - [mod 新增附魔](#mod-新增附魔)（32 种）：seer mod 新增
   - [状态宝石](#状态宝石)（22 种）：打出时对目标施加状态
-  - [特殊附魔](#特殊附魔)（5 种）：重放、永耀、星皇之怒、无效、孤雷风暴
+  - [特殊附魔](#特殊附魔)（5 种）：冷却时间、永耀、星皇之怒、无效、孤雷风暴
   - [五音附魔](#五音附魔)（5 种）：仐、囙、乂、册、卩
 
 ## 原版附魔
@@ -23,7 +23,7 @@ seer mod 中的附魔分为**原版附魔**和 **mod 新增附魔**两大类。
 | ![腐化](/images/enchantments/corrupted.png) | [腐化](corrupted.md) | Corrupted | 造成的伤害增加50%，但会失去2生命。 |
 | ![华彩](/images/enchantments/glam.png) | [华彩](glam.md) | Glam | 这张牌每场战斗能够重放一次。 |
 | ![黏糊](/images/enchantments/goopy.png) | [黏糊](goopy.md) | Goopy | 这张牌获得消耗。当被打出时，这张牌的格挡值永久增加1点。 |
-| ![注能](/images/enchantments/imbued.png) | [注能](imbued.md) | Imbued | 这张牌在每场战斗开始时自动打出（mod 重写） |
+| ![注能](/images/enchantments/imbued.png) | [注能](imbued.md) | Imbued | 这张牌起手置于抽牌堆底，第 1 回合自动打出（mod 重写） |
 | ![墨影](/images/enchantments/inky.png) | [墨影](inky.md) | Inky | 这张牌额外造成若干点伤害，并造成若干层虚弱。 |
 | ![本能](/images/enchantments/instinct.png) | [本能](instinct.md) | Instinct | 这张牌的攻击伤害翻倍。 |
 | ![动量](/images/enchantments/momentum.png) | [动量](momentum.md) | Momentum | 在本场战斗中，每次打出就增加这张牌的攻击伤害若干点。 |
@@ -59,12 +59,12 @@ seer mod 中的附魔分为**原版附魔**和 **mod 新增附魔**两大类。
 | ![瘫痪宝石](/images/enchantments/seer_paralysis_gem.png) | [瘫痪宝石](paralysis_gem.md) | [瘫痪](/powers/paralysis_power.md) | 异常状态 |
 | ![沉默宝石](/images/enchantments/seer_silence_gem.png) | [沉默宝石](silence_gem.md) | [沉默](/powers/silence_power.md) | 异常状态 |
 | ![衰弱宝石](/images/enchantments/seer_weaken_gem.png) | [衰弱宝石](weaken_gem.md) | [衰弱](/powers/weaken_power.md) | 异常状态 |
-| ![狂暴宝石](/images/enchantments/seer_fury_gem.png) | [狂暴宝石](fury_gem.md) | [狂暴](/powers/fury_power.md) | 异常状态（增益型，对自身施加） |
+| ![狂暴宝石](/images/enchantments/seer_fury_gem.png) | [狂暴宝石](fury_gem.md) | [狂暴](/powers/fury_power.md) | 增益（对自身施加） |
 | ![束缚宝石](/images/enchantments/seer_constrict_gem.png) | [束缚宝石](constrict_gem.md) | [束缚](/powers/constrict_power.md) | 异常状态 |
 | ![沸涌宝石](/images/enchantments/seer_boiling_gem.png) | [沸涌宝石](boiling_gem.md) | [沸涌](/powers/boiling_power.md) | 异常状态 |
 | ![石化宝石](/images/enchantments/seer_petrify_gem.png) | [石化宝石](petrify_gem.md) | [石化](/powers/petrify_power.md) | 异常状态 |
 | ![感染宝石](/images/enchantments/seer_infect_gem.png) | [感染宝石](infect_gem.md) | [感染](/powers/infect_power.md) | 异常状态 |
-| ![超频宝石](/images/enchantments/seer_overclock_gem.png) | [超频宝石](overclock_gem.md) | [超频](/powers/overclock_power.md) | 异常状态（增益型，对自身施加） |
+| ![超频宝石](/images/enchantments/seer_overclock_gem.png) | [超频宝石](overclock_gem.md) | [超频](/powers/overclock_power.md) | 异常状态（对自身施加） |
 | ![焚烬宝石](/images/enchantments/seer_ash_gem.png) | [焚烬宝石](ash_gem.md) | [焚烬](/powers/ash_power.md) | 异常状态 |
 | ![失明宝石](/images/enchantments/seer_blind_gem.png) | [失明宝石](blind_gem.md) | [失明](/powers/blind_power.md) | 异常状态 |
 | ![诅咒宝石](/images/enchantments/seer_curse_status_gem.png) | [诅咒宝石](curse_status_gem.md) | [诅咒](/powers/curse_power.md) | 异常状态 |
@@ -79,7 +79,7 @@ seer mod 中的附魔分为**原版附魔**和 **mod 新增附魔**两大类。
 | ![冷却时间](/images/enchantments/seer_cooldown_time_enchantment.png) | [冷却时间](cooldown_time_enchantment.md) | 这张牌获得重放+1，然后消耗 |
 | ![星皇之怒](/images/enchantments/seer_star_emperor_wrath.png) | [星皇之怒](star_emperor_wrath.md) | 第一次打出此牌后，此牌获得重放+1 |
 | ![永耀](/images/enchantments/seer_eternal_radiance_enchantment.png) | [永耀](eternal_radiance_enchantment.md) | 此类牌耗能降为 0，拥有关键词保留，但所有永耀牌每回合只能打出一张 |
-| ![无效](/images/enchantments/seer_invalid_enchantment.png) | [无效](invalid_enchantment.md) | 无实际效果，占位附魔 |
+| ![无效](/images/enchantments/seer_invalid_enchantment.png) | [无效](invalid_enchantment.md) | 无实际效果；用于增加「已附魔」计数（朦光混影术联动） |
 | ![孤雷风暴](/images/enchantments/seer_gu_lei_feng_bao.png) | [孤雷风暴](gu_lei_feng_bao.md) | 打出时，选择销毁抽牌堆/弃牌堆/消耗牌堆中各最多 2 张牌，每销毁一张，全属性+1 |
 
 ### 五音附魔
@@ -87,7 +87,7 @@ seer mod 中的附魔分为**原版附魔**和 **mod 新增附魔**两大类。
 | 图片 | 名称 | 效果 |
 |---|---|---|
 | ![仐](/images/enchantments/seer_five_tone_umbrella.png) | [仐](five_tone_umbrella.md) | 打出后，自身先制+1 |
-| ![囙](/images/enchantments/seer_five_tone_return.png) | [囙](five_tone_return.md) | 打出后，自身所有 PP 恢复 1 点 |
+| ![囙](/images/enchantments/seer_five_tone_return.png) | [囙](five_tone_return.md) | 打出后，手牌/抽牌堆/弃牌堆中所有 PP 牌各恢复 1 点 |
 | ![乂](/images/enchantments/seer_five_tone_cross.png) | [乂](five_tone_cross.md) | 打出后，解除自身所有异常状态 |
-| ![册](/images/enchantments/seer_five_tone_book.png) | [册](five_tone_book.md) | 打出后，减少对手 10% 当前生命，自身恢复等量生命 |
-| ![卩](/images/enchantments/seer_five_tone_seal.png) | [卩](five_tone_seal.md) | 打出后，若以此牌击败对手，自身最大生命 -20，攻击伤害 +10%，受伤 -5%（可叠加） |
+| ![册](/images/enchantments/seer_five_tone_book.png) | [册](five_tone_book.md) | 打出后，对目标造成其当前生命 10% 的伤害，自身恢复实际伤害量 |
+| ![卩](/images/enchantments/seer_five_tone_seal.png) | [卩](five_tone_seal.md) | 打出后，若以此牌击败对手，自身最大生命 -20，攻击伤害 +10%，受伤 -10%（可叠加） |

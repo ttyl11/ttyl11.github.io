@@ -1,16 +1,17 @@
-# 故障机器人（职业导师）
+# 濒死的故障机器人
 
 堆满废料的走廊里，断断续续的电流声像有什么东西在濒死边缘抽搐。"检……测到……有机生命体。bu-g……bu-g……你……有……电池吗？开玩笑……的。我……需要……答案。"
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_broken_robot.png" alt="故障机器人（职业导师）" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_broken_robot.png" alt="濒死的故障机器人" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**：职业导师事件
 - **战斗**：否
 - **卡池主题**：[充能球](/mechanics/orb.md)、状态牌、[能量](/mechanics/energy.md)相关的故障机器人卡牌
+- **出现层数**：1~5 层
 
 ## 选项一览
 

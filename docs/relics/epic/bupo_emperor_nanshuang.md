@@ -21,7 +21,7 @@
 
 ## 描述
 
-①战斗开始，所有生物[全属性](/mechanics/all_attributes.md)+1。<br/>②打[攻击牌](/mechanics/card-tags.md)：若敌方属性有高于自身的，复制其**强化属性**（四维正值），并获<span style="color:#3aa675;font-weight:600">3</span>倍[格挡](/mechanics/block.md)，全体[凝滞](/powers/stasis_power.md)<span style="color:#3aa675;font-weight:600">3</span>。<br/>③回合开始：敌方每<span style="color:#3aa675;font-weight:600">1</span>点[格挡](/mechanics/block.md)，自身伤害+<span style="color:#3aa675;font-weight:600">6%</span>；任一敌人[格挡](/mechanics/block.md)><span style="color:#3aa675;font-weight:600">30</span>：清除并-30，触发[不破诛罚](/powers/bupo_punishment_power.md)。<br/>④生物回合结束：按自身[全属性](/mechanics/all_attributes.md)提升层数获得[格挡](/mechanics/block.md)。
+①战斗开始时，所有生物[全属性](/mechanics/all_attributes.md)+<span style="color:#3aa675;font-weight:600">1</span>。<br/>②打出[攻击牌](/mechanics/card-tags.md)时，若任一敌方处于[攻击意图](/mechanics/intent.md)且你的某项属性低于敌方，复制全体敌方[全属性](/mechanics/all_attributes.md)正提升层数，获得复制总量×<span style="color:#3aa675;font-weight:600">3</span>点[格挡](/mechanics/block.md)，随后全体生物获得<span style="color:#3aa675;font-weight:600">3</span>层[凝滞](/powers/stasis_power.md)。<br/>③在你的回合开始时，所有敌方每有<span style="color:#3aa675;font-weight:600">1</span>点[格挡](/mechanics/block.md)，你的攻击伤害+<span style="color:#3aa675;font-weight:600">6%</span>；任一敌人[格挡](/mechanics/block.md)超过<span style="color:#3aa675;font-weight:600">30</span>时，其格挡降至原值-<span style="color:#3aa675;font-weight:600">30</span>，你获得[不破诛罚](/powers/bupo_punishment_power.md)。<br/>④每个生物在其回合结束时，按其[全属性](/mechanics/all_attributes.md)正提升层数之和获得等量[格挡](/mechanics/block.md)。
 
 ## 详细机制
 

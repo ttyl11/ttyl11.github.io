@@ -1,7 +1,7 @@
 # 流血
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[流血](/powers/bleed_power.md)（能力联动）；玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌）、[屠·扼心恶世](/cards/character/slaughter_grip_evil_world.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）
+> **施加来源**：玩家获得——[枫落殇·西叶](/relics/epic/feng_luo_shang_xi_ye.md)（遗物）；玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌）、[屠·扼心恶世](/cards/character/slaughter_grip_evil_world.md)（卡牌）、[血涂令](/cards/character/blood_order.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）；怪物施加给玩家——[混沌·千夜死神](/monsters/boss/hundun_qian_ye_si_shen_monster.md)
 
 <img src="/images/powers/bleed_power.png" alt="流血" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -21,7 +21,7 @@
 
 ## 描述
 
-在你的回合结束时受到层数÷<span style="color:#3aa675;font-weight:600">2</span>点伤害。受到攻击时额外获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d44;font-weight:600">流血</span>。
+①自身回合结束时受到等同层数÷<span style="color:#3aa675;font-weight:600">2</span>的伤害。<br/>②受到攻击时，额外获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d44;font-weight:600">流血</span>。
 
 ## 详细机制
 

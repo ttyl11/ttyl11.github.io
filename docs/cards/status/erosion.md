@@ -1,4 +1,4 @@
-﻿# 侵蚀
+# 侵蚀
 
 <img src="/images/cards/erosion.png" alt="侵蚀" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -23,7 +23,7 @@
 
 ## 描述
 
-抽到时，获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">魂缚锁链</span>](/powers/chains_of_binding_power.md)。
+抽到时，获得1层<span style="color:#d4a017;font-weight:600">魂缚</span>。
 
 ## 小贴士
 
@@ -33,7 +33,7 @@
 - **标记每晚清空，层数每晚保留**：回合结束时所有魂缚标记会被清除、出牌名额重置；但魂缚锁链的**层数不衰减**——侵蚀每次被抽到就再 +1 层，锁链会越叠越厚（除非驱散）。长战斗里锁链层数 = 每回合被锁的牌数，持续膨胀。
 - **虚无=不滞留**：侵蚀带[虚无](/mechanics/ethereal.md)关键词，回合结束自动消耗离场——它自己不会占着手牌位，威胁全在抽到的瞬间。
 - **应对策略**：①有驱散能力就驱散锁链；②没驱散时注意锁定顺序——先抽到的牌先吃掉锁定名额，**后抽到的反而安全**，尽量让关键牌安排在抽牌序列靠后；③被锁的多余牌主动弃掉，别堵手牌。
-- **来源**：侵蚀不在常规卡池随机出现，由特定卡牌/敌人效果塞入；此外遗物[状态牌诅咒](/relics/event/status_cards_next_combat_relic.md)会在本场战斗首回合随机混入 8 种状态牌之一（含侵蚀）。
+- **来源**：侵蚀不在常规卡池随机出现，由特定卡牌/敌人效果塞入；此外遗物[状态牌诅咒](/relics/event/status_cards_next_combat_relic.md)会在本场战斗首回合向抽牌堆顶塞 10 张随机状态牌（池中含侵蚀）。
 
 ## 相关能力
 
@@ -47,7 +47,7 @@
 
 ## 相关遗物
 
-- [状态牌诅咒](/relics/event/status_cards_next_combat_relic.md)（随机来源：8 种状态牌随机混入）
+- [状态牌诅咒](/relics/event/status_cards_next_combat_relic.md)（随机来源：首回合向抽牌堆顶塞 10 张随机状态牌）
 
 ## 源码
 

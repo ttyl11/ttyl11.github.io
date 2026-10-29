@@ -1,7 +1,7 @@
 # 诅咒
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[千兆战斗仪](/cards/token/giga_battle_instrument.md)（卡牌）、[贝利亚奥特曼](/relics/epic/belial_ultraman.md)（遗物）；玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[万古邪皇·威斯克](/relics/rare/ancient_evil_emperor.md)（遗物）、[空元行者](/relics/legendary/kong_yuan_xing_zhe.md)（遗物）
+> **施加来源**：玩家获得——[千兆战斗仪](/cards/token/giga_battle_instrument.md)（卡牌）、[贝利亚奥特曼](/relics/epic/belial_ultraman.md)（遗物）；玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[万古邪皇·威斯克](/relics/rare/ancient_evil_emperor.md)（遗物）、[空元行者](/relics/legendary/kong_yuan_xing_zhe.md)（遗物）；怪物施加给玩家——[堕息·迹](/monsters/elite/duoxiji_monster.md)、[鬼面阎罗](/monsters/elite/ghost_face_yama_monster.md)；其它——[黑色暮光](/potions/black_twilight_potion.md)（药水）
 
 <img src="/images/powers/curse_power.png" alt="诅咒" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -23,7 +23,7 @@
 
 ## 描述
 
-攻击伤害降低<span style="color:#3aa675;font-weight:600">10</span>%。在玩家回合开始时获得一张[诅咒牌](/cards/curse/)。在你的回合结束时，若为怪物则受到<span style="color:#3aa675;font-weight:600">3</span>-<span style="color:#3aa675;font-weight:600">50</span>点随机伤害。在你的回合结束时减少1层。
+①自身攻击伤害降低<span style="color:#3aa675;font-weight:600">10</span>%。<br/>②自身回合开始时，获得<span style="color:#3aa675;font-weight:600">1</span>张<span style="color:#d4a017;font-weight:600">诅咒牌</span>。<br/>③自身回合结束时，受到<span style="color:#3aa675;font-weight:600">3</span>~<span style="color:#3aa675;font-weight:600">50</span>点随机伤害，然后层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 

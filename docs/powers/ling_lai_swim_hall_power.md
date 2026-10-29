@@ -13,7 +13,13 @@
 
 ## 描述
 
-免疫[力量](/powers/strength_power.md)、[防御](/powers/defense_power.md)、[命中](/powers/accuracy_power.md)、[速度](/powers/speed_power.md)的下降。在你的回合结束时恢复<span style="color:#3aa675;font-weight:600">3</span>点生命并减少1层。
+①免疫<span style="color:#d4a017;font-weight:600">力量</span>、<span style="color:#d4a017;font-weight:600">防御</span>、<span style="color:#d4a017;font-weight:600">命中</span>、<span style="color:#d4a017;font-weight:600">速度</span>的下降。<br/>②你的回合结束时回复<span style="color:#3aa675;font-weight:600">3</span>点生命值；敌方回合结束时层数-<span style="color:#3aa675;font-weight:600">1</span>。
+
+## 详细机制
+
+- **免疫范围**：只拦四维的**负层**施加（下降量改为0），与其它属性/减益无关。
+- **回血**：自己的回合结束时恢复 3 点生命。
+- **衰减**：对方回合结束时层数 -1；N 层 = 覆盖 N 个完整敌方回合 + N 次回血。
 
 ## 数值参数
 

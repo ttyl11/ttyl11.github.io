@@ -19,17 +19,17 @@
 
 ## 描述
 
-你每打出一张牌，获得<span style="color:#3aa675;font-weight:600">3</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。你身上每有<span style="color:#3aa675;font-weight:600">2</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)，造成的攻击伤害<span style="color:#3aa675;font-weight:600">-1</span>。
+①你每打出一张牌，获得<span style="color:#3aa675;font-weight:600">3</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。<br/>②你身上每有<span style="color:#3aa675;font-weight:600">2</span>点<span style="color:#d4a017;font-weight:600">格挡</span>，造成的攻击伤害-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 
-- **格挡获取**：每打出一张牌时触发
+- **格挡获取**：每打出一张牌时触发（自动打出也算）
   - 触发条件：出牌者为拥有者本人
-  - 效果：获得 3 点[格挡](/mechanics/block.md)（不受力量影响的非攻击伤害类型）
+  - 效果：获得 3 点[格挡](/mechanics/block.md)（固定值，不吃敏捷/脆弱等格挡修正）
 - **伤害减少**：影响攻击伤害
   - 触发条件：拥有者造成攻击伤害时
-  - 效果公式：每 2 点格挡减少 1 点攻击伤害（向下取整）
-  - 这是加法修正，与力量等乘法修正不同，在乘法修正之前/之后叠加
+  - 效果公式：每 6 点当前格挡减少 1 点攻击伤害（向下取整，0~5 点格挡不减）
+  - 这是**加法修正**：先按格挡扣减，再乘力量、易伤等倍率
 - **特殊说明**：
   - 该能力层数始终为 1，不显示具体层数
   - 实际效果由"每牌格挡"变量决定，而非能力层数

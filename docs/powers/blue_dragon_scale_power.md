@@ -14,7 +14,7 @@
 
 ## 描述
 
-免疫属性下降。触发免疫时消除对手<span style="color:#d4a017;font-weight:600">护盾</span>，然后自身消失。
+①免疫属性下降。<br/>②触发免疫时移除对手<span style="color:#d4a017;font-weight:600">护盾</span>，然后自身消失。
 
 ## 数值
 
@@ -27,7 +27,7 @@
 ## 详细机制
 
 - **免疫范围**：免疫[力量](/powers/strength_power.md)、[防御](/powers/defense_power.md)、[命中](/powers/accuracy_power.md)、[速度](/powers/speed_power.md)四项核心属性的下降（仅限负层数施加，正值不受影响）。
-- **反击破盾**：触发免疫的回合结束时，消除所有对手的全部护盾（格挡），然后自身消失。
+- **反击破盾**：触发免疫的当下立即消除所有对手的全部护盾（格挡），然后自身消失。
 - **一次性保护**：触发后自身消失，每场战斗仅一次保护。
 - **合成白色龙鳞**：由[武心婵](/relics/legendary/wu_xin_chan.md)赋予，失去所有红/黄/蓝龙鳞后合成为[白色龙鳞](/powers/white_dragon_scale_power.md)。
 

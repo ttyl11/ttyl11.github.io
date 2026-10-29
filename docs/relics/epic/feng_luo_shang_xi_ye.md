@@ -19,7 +19,7 @@
 
 ## 描述
 
-①有生物死亡：自身[流血](/powers/bleed_power.md)、[寄生](/powers/parasite_power.md)各+<span style="color:#3aa675;font-weight:600">2</span>（此后每死一次各+<span style="color:#3aa675;font-weight:600">1</span>），自身[PP](/mechanics/pp-system.md)回满，全场生物恢复等量生命。②每有<span style="color:#3aa675;font-weight:600">1</span>种[异常](/mechanics/abnormal-status.md)：攻击伤害与[固定伤害](/mechanics/fixed-damage.md)-<span style="color:#3aa675;font-weight:600">20%</span>；回合结束异常种类><span style="color:#3aa675;font-weight:600">4</span>触发[枫落殇思](/powers/maple_fall_sadness_power.md)。③回合结束每<span style="color:#3aa675;font-weight:600">10</span>层[堕落](/mechanics/fallen.md)，[召唤](/mechanics/summon.md)<span style="color:#3aa675;font-weight:600">1</span>，并清空[堕落](/mechanics/fallen.md)。
+①有<span style="color:#d4a017;font-weight:600">生物死亡</span>：自身<span style="color:#d44;font-weight:600">流血</span>、<span style="color:#d44;font-weight:600">寄生</span>各+<span style="color:#3aa675;font-weight:600">2</span>（此后每死一次各+<span style="color:#3aa675;font-weight:600">1</span>），自身<span style="color:#d4a017;font-weight:600">PP</span>回满，全场生物恢复等量生命。<br/>②每有<span style="color:#3aa675;font-weight:600">1</span>种<span style="color:#d44;font-weight:600">异常</span>：攻击伤害与<span style="color:#d4a017;font-weight:600">固定伤害</span>-<span style="color:#3aa675;font-weight:600">%</span>；回合结束<span style="color:#d44;font-weight:600">异常</span>种类><span style="color:#3aa675;font-weight:600">4</span>触发<span style="color:#9b59b6;font-weight:600">枫落殇思</span>。<br/>③回合结束每<span style="color:#3aa675;font-weight:600">10</span>层<span style="color:#d44;font-weight:600">堕落</span>，<span style="color:#d4a017;font-weight:600">召唤</span><span style="color:#3aa675;font-weight:600">1</span>，并清空<span style="color:#d44;font-weight:600">堕落</span>。
 
 ## 详细机制
 
@@ -61,7 +61,7 @@
 
 - [枫落殇思](/powers/maple_fall_sadness_power.md)（②触发，一次性奖励回合）
 - [流血](/powers/bleed_power.md)、[寄生](/powers/parasite_power.md)（①死亡时对自身施加）
-- [异常状态](/mechanics/abnormal-status.md)、[堕落](/mechanics/fallen.md)、[召唤](/mechanics/summon.md)、[PP 系统](/mechanics/pp-system.md)
+- [异常状态](/mechanics/abnormal-status.md)、[堕落](/powers/fallen_power.md)、[召唤](/mechanics/summon.md)、[PP 系统](/mechanics/pp-system.md)
 
 ## 源码
 

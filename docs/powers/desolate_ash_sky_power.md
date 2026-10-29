@@ -15,24 +15,22 @@
 
 | 参数 | 数值 |
 |---|---|
-| 烧伤层数 | 1 |
-| 焚烬层数 | 1 |
-| 先制数值 | 2 |
-| PP | 1 |
-| 最大PP | 1 |
+| BurnStacks | 1 |
+| AshStacks | 1 |
+| Amount | 1 |
 
 ## 描述
 
-每回合（己方回合开始时）获得 <span style="color:#3aa675;font-weight:600">2</span> 层[先制](/powers/first_strike_power.md)，对所有敌人施加 <span style="color:#3aa675;font-weight:600">1</span> 层[烧伤](/powers/burn_power.md)和 <span style="color:#3aa675;font-weight:600">1</span> 层[焚烬](/powers/ash_power.md)。己方回合结束时层数 -<span style="color:#3aa675;font-weight:600">1</span>。
+在你的回合开始时，获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d4a017;font-weight:600">先制</span>，并使所有敌人获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d44;font-weight:600">烧伤</span>与<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d44;font-weight:600">焚烬</span>。
 
 ## 详细机制
 
 - **回合开始触发**：在拥有者一方回合开始时：
   1. 闪烁能力图标
-  2. 对自身施加 <span style="color:#3aa675;font-weight:600">2</span> 层[先制](/powers/first_strike_power.md)
+  2. 对自身施加 <span style="color:#3aa675;font-weight:600">3</span> 层[先制](/powers/first_strike_power.md)
   3. 对每个敌人施加 <span style="color:#3aa675;font-weight:600">1</span> 层[烧伤](/powers/burn_power.md)和 <span style="color:#3aa675;font-weight:600">1</span> 层[焚烬](/powers/ash_power.md)
-- **回合结束递减**：在拥有者一方回合结束时，层数 -<span style="color:#3aa675;font-weight:600">1</span>。
-- **本地化术语说明**：荒灰天能力的本地化描述中作"灰烬"，实际指[焚烬](/powers/ash_power.md)能力。
+- **结算后递减**：同一次回合开始结算完成后，层数 -<span style="color:#3aa675;font-weight:600">1</span>，因此 N 层等于之后 N 个己方回合各触发一次。
+- **与本地化文本的差异**：能力描述写「获得 2 层先制」，源码实际施加 <span style="color:#3aa675;font-weight:600">3</span> 层。
 
 ## 相关卡牌
 

@@ -19,7 +19,7 @@
 
 ## 描述
 
-①回合开始时，消除敌方[全属性](/mechanics/all_attributes.md)提升，任一成功即对该敌人同时施加[攻击无效](/mechanics/intent)与[封属](/mechanics/intent)。<br/>②受到伤害时，若敌方不处于属性提升状态，<span style="color:#3aa675;font-weight:600">50</span>%免疫，未触发则减伤<span style="color:#3aa675;font-weight:600">50</span>%。<br/>③回合结束时，生成1个<span style="color:#d4a017;font-weight:600">黑暗充能球</span>；每获得 <span style="color:#3aa675;font-weight:600">40</span> <span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span>，充能1次。<br/>④战斗结束时，获得<span style="color:#3aa675;font-weight:600">x</span>点最大生命（<span style="color:#3aa675;font-weight:600">x</span>为获得此遗物后的战斗数，遗物显示计数）。
+①回合开始时，消除敌方全部[全属性](/mechanics/all_attributes.md)提升；任一消除成功的敌人，本回合被施加[攻击无效](/mechanics/intent.md)与[封属](/mechanics/intent.md)。<br/>②受到伤害时，若敌方不处于属性提升状态，<span style="color:#3aa675;font-weight:600">50</span>%免疫，未触发则减伤<span style="color:#3aa675;font-weight:600">50</span>%。<br/>③回合结束时，生成1个<span style="color:#d4a017;font-weight:600">黑暗充能球</span>；每获得 <span style="color:#3aa675;font-weight:600">40</span> 点[堕落](/powers/fallen_power.md)，所有<span style="color:#d4a017;font-weight:600">黑暗充能球</span>额外触发<span style="color:#3aa675;font-weight:600">1</span>次被动。<br/>④战斗结束时，获得<span style="color:#3aa675;font-weight:600">x</span>点最大生命（<span style="color:#3aa675;font-weight:600">x</span>为获得此遗物后的战斗数，遗物显示计数）。
 
 - **属性提升范围**：仅指[力量](/powers/strength_power.md)、[防御](/powers/defense_power.md)、[速度](/powers/speed_power.md)、[命中](/powers/accuracy_power.md)四项的正值层数（负值层数=属性降低，不受①影响）。
 - **消除即整体清零**：①直接移除敌人的全部正值属性，不存在"降到与你相同"的中间状态——有属性提升的敌人会被整体清零。
@@ -36,7 +36,7 @@
 - **①是核弹级控场**：每回合开始消除所有敌人的全部属性提升（力量/防御/命中/速度）；谁有属性被消除成功，攻击无效+封属就直接砸在谁头上——其全部意图失效，等于击晕。单 Boss 只要有任意属性提升就必定吃封印；多敌人时各自结算，谁爱 buff 谁被封印。面对爱 buff 的敌人，这等于每回合免费击晕 + 全属性清零。
 - **①②的联动设计**：①在回合开始消除敌方属性，②在受到伤害时检查敌方是否有属性——如果①把敌方属性清光了且敌方当回合没重新 buff，②就能触发 50% 免疫 + 50% 减伤。但很多敌人在自己回合开始时会重新 buff，此时②就不生效。②最稳定对付不自我 buff 的敌人。
 - **②只对攻击牌伤害生效**：免疫和减伤只作用于攻击牌伤害，中毒/烧伤/固定伤害等非攻击伤害不受影响。面对非攻击伤害为主的敌人时，②等于不存在。
-- **③黑暗充能球越攒越疼**：每回合结束生成一个黑暗充能球（被动：回合结束增加伤害，激发：对最低血量敌人造成伤害）。每获得 40 [堕落](/powers/fallen_power.md)触发所有黑暗充能球的被动（伤害+1）——堕落叠得越快，球涨得越猛。战斗越长，球越多、伤害越高，长战斗中累计伤害非常可观。
+- **③黑暗充能球越攒越疼**：每回合结束生成一个黑暗充能球（被动：回合结束增加伤害，激发：对最低血量敌人造成伤害）。每获得 40 [堕落](/powers/fallen_power.md)触发所有黑暗充能球的被动（伤害+1）——堕落叠得越快，球涨得越猛。战斗越长，球越多、伤害越高，长战斗中累计伤害非常可观。但[堕落](/powers/fallen_power.md)本身是负面层数：叠得快，也意味着[魔君接管](/powers/demon_takeover_power.md)强控乱打来得更勤，③本质是"用失控换输出"。
 - **④每战永久涨最大生命**：拿到后第 1 场战斗结束 +1 最大生命，第 2 场 +2，第 10 场 +10；计数永久累积不重置，拿到越早整局收益越大。跑 30 场战斗累计 +465 最大生命，长线局相当于凭空多出数倍血量上限。
 - **核心矛盾：①清属性 vs ②需要敌方无属性**：①帮你清属性，但②要求敌方在你受击时无属性。如果敌方在自己回合重新 buff 后再攻击，②就不触发。所以②不是稳定生效的——面对 buff 型敌人，①负责清控，②大概率不触发；面对非 buff 型敌人，①没东西可清（无封印），但②稳定触发。两个效果互补但不同时最大化。
 - **性价比**：传说稀有度合理——①的群体清属性 + 封印控场本身已是改变战局的控场，③的黑暗充能球提供持续输出，④永久累积最大生命带来长线成长。四个效果覆盖攻防成长，传说稀有度名副其实。

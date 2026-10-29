@@ -15,13 +15,13 @@
 
 ## 描述
 
-战斗开始时获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">[杂耍](/powers/juggling_power.md)</span>。<br/>回合开始时，给予所有敌人等于回合数的<span style="color:#d4a017;font-weight:600">[灾厄](/powers/doom_power.md)</span>，自身<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span>同数值。<br/>战斗胜利时，向<span style="color:#d4a017;font-weight:600">牌组</span>中加入1张<span style="color:#d4a017;font-weight:600">[小丑](/cards/token/joker.md)</span>。
+战斗开始时获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">杂耍</span>。<br/>回合开始时，给予所有敌人等于回合数的<span style="color:#d4a017;font-weight:600">灾厄</span>。<br/>战斗结束时，向<span style="color:#d4a017;font-weight:600">牌组</span>中加入1张<span style="color:#d4a017;font-weight:600">小丑</span>。
 
 - **仅战斗胜利时加入小丑**：小丑挂在战斗**胜利**结算——战败或中途逃跑不会加入。
 - **灾厄是累积死刑倒计时**：每回合给所有敌人施加等于回合数的灾厄，层数**只增不减**。到第 N 回合开始时，敌人身上的灾厄总数为 1+2+…+N = N×(N+1)/2 层。
 - **灾厄处决判定**：敌方回合结束时，若敌人**当前生命 ≤ 灾厄层数**，直接处决——这不是伤害，格挡、[无实体](/powers/intangible_power.md)、伤害减免都无法拦截。
 - **回合计数**：每场战斗重置为 0，第 N 回合开始时给 N 层。
-- **同步积累堕落**：每回合开始时，自身同样获得等于回合数的[堕落](/powers/fallen_power.md)层数（与灾厄同数值）。堕落是**负面层数**、不会清零，满 100 层（跨百位）触发魔君接管：获得[混沌化身](/powers/soulson_chaos_incarnation_power.md)、抽 3 张牌、直到自身下回合开始前所有手牌被自动打出（当回合失控）——对想走堕落流的索伦森是直给的进度，对其它角色则更像负债，进场前想清楚。
+- **同步积累堕落**：每回合开始时，自身同样获得等于回合数的[堕落](/powers/fallen_power.md)层数（与灾厄同数值）。堕落是**负面层数**、不会清零，满 100 层（跨百位）触发魔君接管：获得[混沌化身](/powers/soulson_chaos_incarnation_power.md)、抽 1 张牌、直到自身下回合开始前所有手牌被自动打出（当回合失控）——对想走堕落流的索伦森是直给的进度，对其它角色则更像负债，进场前想清楚。
 
 ## 风味文字
 

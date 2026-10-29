@@ -20,7 +20,7 @@
 
 ## 描述
 
-①自身每有[blue]1[/blue]张[gold]PP[/gold]不满的牌，受到的[gold]固定伤害[/gold]减少[blue]20%[/blue]（满5张完全免疫）。②回合结束时，[gold]PP[/gold]不满的牌数大于[blue]7[/blue]，赋予[gold]天奔释罪[/gold]（下回合开始触发）。③打出[gold]最大PP[/gold]大于[blue]7[/blue]的牌时，清空其剩余[gold]PP[/gold]，对所有敌人施加[red]疲惫[/red][blue]3[/blue]、[red]冰封[/red][blue]3[/blue]。④回合开始时，若任一敌人有[gold]攻击意图[/gold]且不处于[gold]属性提升[/gold]，获得已损生命[blue]1/3[/blue]的格挡。
+①每有<span style="color:#3aa675;font-weight:600">1</span>张<span style="color:#d4a017;font-weight:600">PP</span>不满的牌，<span style="color:#d4a017;font-weight:600">固定伤害</span>减<span style="color:#3aa675;font-weight:600">20%</span>（<span style="color:#3aa675;font-weight:600">5</span>张完全免疫）。<br/>②回合结束，<span style="color:#d4a017;font-weight:600">PP</span>不满牌数><span style="color:#3aa675;font-weight:600">7</span>：获<span style="color:#d4a017;font-weight:600">天奔释罪</span>（下回合触发）。<br/>③打出<span style="color:#d4a017;font-weight:600">最大PP</span>><span style="color:#3aa675;font-weight:600">7</span>的牌：清空其<span style="color:#d4a017;font-weight:600">PP</span>，全体敌人<span style="color:#d44;font-weight:600">疲惫</span><span style="color:#3aa675;font-weight:600">3</span>、<span style="color:#d44;font-weight:600">冰封</span><span style="color:#3aa675;font-weight:600">3</span>。<br/>④回合开始，任一敌人有<span style="color:#d4a017;font-weight:600">攻击意图</span>且无<span style="color:#d4a017;font-weight:600">属性提升</span>：获已损生命<span style="color:#3aa675;font-weight:600">1/3</span>的<span style="color:#d4a017;font-weight:600">格挡</span>。
 
 ## 详细机制
 

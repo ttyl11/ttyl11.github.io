@@ -13,7 +13,14 @@
 
 ## 描述
 
-每当你使用一瓶药水时，失去<span style="color:#3aa675;font-weight:600">4</span>点<span style="color:#d4a017;font-weight:600">最大生命值</span>。
+每当你使用<span style="color:#3aa675;font-weight:600">1</span>瓶药水时，失去<span style="color:#3aa675;font-weight:600">6</span>点<span style="color:#d4a017;font-weight:600">最大生命值</span>。
+
+## 详细机制
+
+- **按「使用者」结算**：谁喝药水就扣谁的最大生命，与药水目标无关。
+- **只扣最大生命**：不是伤害，不触发格挡/减伤/受击联动，但会连带压低当前生命上限。
+- **每瓶都触发**：一次战斗内喝几瓶就扣几次，6 点/瓶，喝多了会被直接压死。
+- **常驻整场**：能力不会自行减少或消失。
 
 ## 源码
 

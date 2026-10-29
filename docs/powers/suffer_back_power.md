@@ -1,7 +1,7 @@
-# 承殃
+﻿# 承殃
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：全局怪物能力池（全局补丁）——玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长
 
 <img src="/images/powers/suffer_back_power.png" alt="承殃" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,11 +13,11 @@
 
 ## 描述
 
-在你的回合开始时，将自身的<span style="color:#d44;font-weight:600">异常状态</span>反弹给所有对手。
+自身回合开始时，将自身的<span style="color:#d44;font-weight:600">异常状态</span>反弹给所有对手。
 
 ## 详细机制
 
-- **回合开始转移**：持有者（怪物）自己回合开始时，把自身全部**可见的**[异常状态](/mechanics/abnormal-status.md)（25 种列表内）原样转出：对**玩家方每个成员**施加同类型异常、层数 = 它身上当时的剩余量，然后**移除自己身上的这些异常**。
+- **回合开始转移**：持有者（怪物）自己回合开始时，把自身全部**可见的**[异常状态](/mechanics/abnormal-status.md)（27 种列表内）原样转出：对**玩家方每个成员**施加同类型异常、层数 = 它身上当时的剩余量，然后**移除自己身上的这些异常**。
 - **是转移不是复制**：转走后怪物自身清空——你给它叠的所有异常，最终一次不差地落在你全队头上，它干干净净。
 - **双人模式人均全份**：逐对手独立施加——两个玩家各自吃一份完整层数。
 - **只转异常状态**：[固定伤害](/powers/fixed_damage_power.md)、降维 debuff 等非异常效果**不会被转**，稳稳留在它身上。
@@ -32,5 +32,5 @@
 ## 源码
 
 - `SeerSufferBackPower.cs`
-- 异常判定：`AbnormalStatusList.cs`（25 种）
-- 随机池配置：`SeerElementalCore.cs:71`（`0.000025/房`）
+- 异常判定：`SeerAbnormalStatus.cs`（27 种）
+- 随机池配置：`SeerGlobalMonsterPowerPatch.cs`

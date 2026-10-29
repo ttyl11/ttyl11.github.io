@@ -1,40 +1,41 @@
-﻿# 贪婪
+# 贪婪
 
 <img src="/images/cards/greed.png" alt="贪婪" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **分类**: 诅咒牌
-- **能量消耗**: 1
+- **能量消耗**: 2
 - **类型**: 诅咒
 - **稀有度**: 诅咒
-- **关键词**: [保留](/mechanics/retain.md)
+- **关键词**: [永恒](/mechanics/eternal.md)、[保留](/mechanics/retain.md)
 - **可升级**: 否
 
 ### 数值参数
 
 | 参数 | 数值 |
 |---|---|
-| 金币获取 | 50 |
-| 伤害百分比 | 8% |
+| 伤害百分比 | 5% |
 
 ## 描述
 
-回合结束时若在[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)中，获得<span style="color:#3aa675;font-weight:600">50</span>[<span style="color:#d4a017;font-weight:600">金币</span>](/mechanics/money_pouch.md)并受到当前[<span style="color:#d4a017;font-weight:600">金币</span>](/mechanics/money_pouch.md)数<span style="color:#3aa675;font-weight:600">8</span>%的伤害。打出：扣除等于最大生命值的[<span style="color:#d4a017;font-weight:600">金币</span>](/mechanics/money_pouch.md)。
+回合结束时若此牌在[手牌](/mechanics/hand.md)中，受到当前[金币](/mechanics/money_pouch.md) <span style="color:#3aa675;font-weight:600">5</span>% 的伤害。
 
 ## 小贴士
 
-- **印钞机+放血器**：带[保留](/mechanics/retain.md)不弃牌，每回合结束稳定 +<span style="color:#3aa675;font-weight:600">50</span> 金币——是全游戏最猛的[金币](/mechanics/money_pouch.md)引擎之一。代价是同步放血：先入账 50 金币，再按**入账后的金币总额** <span style="color:#3aa675;font-weight:600">8</span>% 结算伤害，且该伤害**不可[格挡](/mechanics/block.md)**。
-- **伤害滚雪球**：金币越多，每回合掉血越狠——300 金币时每回合 -24，600 金币时 -48，900 金币时 -72。把它留在手里越久，经济越富、血线越危，是典型的"富贵险中求"。
-- **打出的天价赎身费**：主动打出（<span style="color:#3aa675;font-weight:600">1</span> 费）要扣除**等于你最大生命值**的金币（金币不够则全部扣光、不会变负）。满血 80 就是 80 金币的解约金——血量越高赎身越贵，低血量时反而便宜。
-- **最优使用节奏**：想最大化收益，就在"金币尚少、血线健康"的窗口多留几回合攒钱，赶在金币总额的 8% 开始疼之前打出止血；或者干脆整局不打出，用回复能力硬吃递增伤害换全图购买力。两种打法都成立，最忌讳犹犹豫豫拖到中期——那时金币已多，赎身贵、放血也重。
-- **与金币体系的联动**：配合消耗金币的遗物/事件，把每回合的 50 金币即时花掉，能让 8% 的伤害基数始终压在低位——花得越快，贪婪越无害。
+- **它惩罚的是"囤金币"，不惩罚别的**：留它在手，每回合结束就扣当前金币的 5%（不可[格挡](/mechanics/block.md)）。金币越厚掉得越狠——<span style="color:#3aa675;font-weight:600">100</span> 金每回合 5 点、<span style="color:#3aa675;font-weight:600">500</span> 金 25 点、<span style="color:#3aa675;font-weight:600">1000</span> 金 50 点。**你越有钱，它越致命**。
+- **把金币花掉 = 直接把伤害摁到地板**：5% 向下取整——金币低于 <span style="color:#3aa675;font-weight:600">20</span> 时伤害直接归 0，完全不掉血。所以**囤钱流（靠金币的遗物 / 事件）最怕它，及时消费流几乎免疫**。
+- **保留=不处理就每回合放血**：它不弃牌，会一直躺在手里。想止血只有两条路：花 2 费把它打出去（进弃牌堆、暂时消停），或用消耗类效果移走。
+- **决策点**：金币多且血线紧 → 优先 2 费打出去或消耗掉；金币少 → 留着无妨，甚至可以不管它。
+- **永恒=每场重来**：不能删、不能变，它永远在牌组里，每场战斗都会再来一遍。
+- **性价比**：2 费 = "把这张牌从手里丢掉"的止损价。它没有任何收益，纯粹是负担——**越有钱越该付这 2 费**。
 
 ## 相关机制
 
-- [手牌](/mechanics/hand.md)（回合结束时若在手牌中触发）
-- [保留](/mechanics/retain.md)（回合结束时不弃置，惩罚持续生效）
-- [金币](/mechanics/money_pouch.md)（获得和扣除金币）
+- [手牌](/mechanics/hand.md)（触发条件：回合结束时在手牌）
+- [保留](/mechanics/retain.md)（回合结束不弃牌）
+- [金币](/mechanics/money_pouch.md)（伤害基数）
+- [永恒](/mechanics/eternal.md)（不能删除、不能变化）
 
 ## 源码
 

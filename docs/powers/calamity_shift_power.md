@@ -1,7 +1,7 @@
 # 祸移
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物自带——[仙人掌](/monsters/normal/cactus_monster.md)；怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：怪物自带——[仙人掌](/monsters/normal/cactus_monster.md)；全局怪物能力池（全局补丁）——玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长
 
 <img src="/images/powers/calamity_shift_power.png" alt="祸移" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,7 +13,7 @@
 
 ## 描述
 
-在你的回合开始时，获得<span style="color:#3aa675;font-weight:600">1</span>点[荆棘](/powers/thorns_power.md)。
+自身回合开始时，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">荆棘</span>。
 
 ## 详细机制
 
@@ -34,4 +34,4 @@
 
 - `SeerCalamityShiftPower.cs`
 - 荆棘反弹：原版 `ThornsPower.cs:17-24`（受击时反弹 `Amount` 点）
-- 随机池配置：`SeerElementalCore.cs:72`（`0.00025 + 0.0001/房`）
+- 随机池配置：`SeerGlobalMonsterPowerPatch.cs:83`（`0.00025 + 0.0001/房`）

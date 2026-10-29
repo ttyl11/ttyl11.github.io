@@ -27,7 +27,7 @@
 
 ## 描述
 
-PP: 1/1 下一次攻击伤害<span style="color:#3aa675;font-weight:600">2.5</span>倍。对所有敌人造成<span style="color:#3aa675;font-weight:600">20</span>+自身最大生命值<span style="color:#3aa675;font-weight:600">25</span>%的[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/mechanics/fixed-damage.md)，施加<span style="color:#3aa675;font-weight:600">2</span>种随机[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">2</span>回合。恢复<span style="color:#3aa675;font-weight:600">30</span>%已损失生命。
+PP: 1/1 对所有敌人造成<span style="color:#3aa675;font-weight:600">20</span>+自身最大生命值<span style="color:#3aa675;font-weight:600">25</span>%的<span style="color:#d4a017;font-weight:600">固定伤害</span>，<span style="color:#d44;font-weight:600">随机异常</span><span style="color:#3aa675;font-weight:600">2，2</span>。 下一次攻击伤害<span style="color:#3aa675;font-weight:600">2.5</span>倍。恢复<span style="color:#3aa675;font-weight:600">30</span>%已损失生命。
 
 ## 升级后
 

@@ -23,11 +23,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有敌人造成等同于敌方所有攻击意图伤害之和的伤害。
+PP: 5/5 对所有敌人造成等同敌人攻击意图伤害之和的伤害。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有敌人造成等同于敌方所有攻击意图伤害之和的伤害。
+PP: 5/5 对所有敌人造成等同敌人攻击意图伤害之和的伤害。
 
 ## 小贴士
 

@@ -26,14 +26,14 @@
 
 ## 描述
 
-每有一层，造成的伤害降低 <span style="color:#3aa675;font-weight:600">3</span>%。<span style="color:#d4a017;font-weight:600">3层</span>时，造成的伤害与施加的固定伤害再降低 <span style="color:#3aa675;font-weight:600">15</span>%。<span style="color:#d4a017;font-weight:600">5层</span>时，受到的伤害增加 <span style="color:#3aa675;font-weight:600">30</span>%。<span style="color:#d4a017;font-weight:600">7层</span>时，恢复体力时，受到恢复值 <span style="color:#3aa675;font-weight:600">200</span>% 的[<span style="color:#9b59b6;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+层数向下涵盖。<br/>①每层：自身造成的伤害降低<span style="color:#3aa675;font-weight:600">3%</span>。<br/>②<span style="color:#3aa675;font-weight:600">3</span>层：自身造成的伤害与施加的<span style="color:#d4a017;font-weight:600">固定伤害</span>额外降低<span style="color:#3aa675;font-weight:600">15%</span>。<br/>③<span style="color:#3aa675;font-weight:600">5</span>层：自身受到的伤害提高<span style="color:#3aa675;font-weight:600">30%</span>。<br/>④<span style="color:#3aa675;font-weight:600">7</span>层：自身回复生命时，受到等同于回复量<span style="color:#3aa675;font-weight:600">200%</span>的<span style="color:#d4a017;font-weight:600">固定伤害</span>。
 
 ## 详细机制
 
 - **每层线性减伤**：持有者（敌人）造成的伤害每层降低 <span style="color:#3aa675;font-weight:600">3</span>%——3 层共 -9%，5 层共 -15%，7 层共 -21%。这是**线性叠加**，与[致命裂痕](/powers/fatal_rift_power.md)的固定阈值模式不同。
 - **<span style="color:#d4a017;font-weight:600">3层及以上</span>（双再降 15%）**：在每层减伤的基础上，造成的伤害**再**降低 <span style="color:#3aa675;font-weight:600">15</span>%（乘算叠乘：3 层实际减伤 = 1 - (1-9%)×(1-15%) ≈ 22.65%）；同时持有者施加的[固定伤害](/powers/fixed_damage_power.md)量也再降低 <span style="color:#3aa675;font-weight:600">15</span>%——敌方施加的固伤能力被按施加者身份拦截打折（打折发生在施加时，直接改固伤能力的叠加层数；已累积的层数不追溯，仅覆盖严格口径的固定伤害，灼烧/中毒/流血等 DoT 不参与）。
-- **<span style="color:#d4a017;font-weight:600">5层及以上</span>（易伤）**：持有者受到的所有伤害增加 <span style="color:#3aa675;font-weight:600">30</span>%。与减伤互相独立——5 层时敌人打你 -15%、你打敌人 +30%。
-- **<span style="color:#d4a017;font-weight:600">7层及以上</span>（治疗反噬）**：持有者每次恢复体力，立刻受到**恢复值 200% 的固定伤害**能力——回 10 血就叠 20 层固伤能力，下回合开始全额结算。会自愈的敌人（回血型 Boss）会被自己的奶毒死。反噬量按**请求恢复量**计（含溢出部分）；最大生命提升附带的回血、复活/直接设血同样触发；反噬固伤结算时是扣血（负方向），不会被反噬自身再次触发，无循环。
+- **<span style="color:#d4a017;font-weight:600">5层及以上</span>（易伤）**：持有者受到的所有伤害增加 <span style="color:#3aa675;font-weight:600">30</span>%。与减伤互相独立——5 层时敌人打你约 -27.75%（线性 -15% 之后再乘 3 层阈值的 -15%，即 0.85×0.85），你打敌人 +30%。
+- **<span style="color:#d4a017;font-weight:600">7层及以上</span>（治疗反噬）**：持有者每次恢复体力，立刻受到**恢复值 200% 的固定伤害**能力——回 10 血就叠 20 层固伤能力，下回合开始全额结算。会自愈的敌人（回血型 Boss）会被自己的奶毒死。反噬量按本次**实际恢复的生命值**计（不是卡面请求量，溢出部分不计）；最大生命提升附带的回血、复活/直接设血同样触发；反噬固伤结算时是扣血（负方向），不会被反噬自身再次触发，无循环。
 - **不自然衰减**：印记没有回合衰减——只增不减（除非被敌人的净化类效果移除），战斗越长越恐怖。
 - **施加方式**：[缔笙](/relics/epic/di_sheng.md)的③效果——自身回合开始时，为**所有**对手施加等同于**当前敌人数量**的层数。3 个敌人的战斗每回合全场 +3 层（3 回合即 9 层，四段效果全部解锁），单人 Boss 战每回合 +1 层（7 回合满配）。
 

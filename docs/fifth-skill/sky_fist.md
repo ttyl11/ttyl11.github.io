@@ -24,11 +24,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">7</span>/<span style="color:#3aa675;font-weight:600">7</span> [<span style="color:#d4a017;font-weight:600">消耗牌堆</span>](/mechanics/exhaust_pile.md)每有一张牌，此牌耗能<span style="color:#3aa675;font-weight:600">-1</span>。对所有敌人造成<span style="color:#3aa675;font-weight:600">7</span>点伤害×[<span style="color:#d4a017;font-weight:600">消耗牌堆</span>](/mechanics/exhaust_pile.md)数量。附加等于已消耗PP总值的[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+PP: 7/7 <span style="color:#d4a017;font-weight:600">消耗牌堆</span>每有<span style="color:#3aa675;font-weight:600">1</span>张牌耗能<span style="color:#3aa675;font-weight:600">-1</span>。对所有敌人造成<span style="color:#3aa675;font-weight:600">7</span>点伤害×<span style="color:#d4a017;font-weight:600">消耗牌堆</span>数量，附加等于已消耗PP总值的<span style="color:#d4a017;font-weight:600">固定伤害</span>。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。PP: <span style="color:#3aa675;font-weight:600">7</span>/<span style="color:#3aa675;font-weight:600">7</span> [<span style="color:#d4a017;font-weight:600">消耗牌堆</span>](/mechanics/exhaust_pile.md)每有一张牌，此牌耗能<span style="color:#3aa675;font-weight:600">-1</span>。对所有敌人造成<span style="color:#3aa675;font-weight:600">7</span>点伤害×[<span style="color:#d4a017;font-weight:600">消耗牌堆</span>](/mechanics/exhaust_pile.md)数量。附加等于已消耗PP总值的[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+PP: 7/7 <span style="color:#d4a017;font-weight:600">消耗牌堆</span>每有<span style="color:#3aa675;font-weight:600">1</span>张牌耗能<span style="color:#3aa675;font-weight:600">-1</span>。对所有敌人造成<span style="color:#3aa675;font-weight:600">7</span>点伤害×<span style="color:#d4a017;font-weight:600">消耗牌堆</span>数量，附加等于已消耗PP总值的<span style="color:#d4a017;font-weight:600">固定伤害</span>。
 
 ## 小贴士
 

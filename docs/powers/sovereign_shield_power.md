@@ -14,14 +14,14 @@
 
 ## 描述
 
-开启时，自身获得<span style="color:#3aa675;font-weight:600">6</span>层<span style="color:#d4a017;font-weight:600">覆甲</span>。持有时，自身免疫<span style="color:#d4a017;font-weight:600">臣服</span>，造成伤害提升<span style="color:#3aa675;font-weight:600">25</span>%。
+①开启时，自身获得<span style="color:#3aa675;font-weight:600">6</span>层<span style="color:#d4a017;font-weight:600">覆甲</span>。<br/>②持有时，自身免疫<span style="color:#d4a017;font-weight:600">臣服</span>，造成伤害提升<span style="color:#3aa675;font-weight:600">25%</span>。
 
 ## 数值
 
 | 参数 | 数值 |
 |---|---|
-| 开启获得覆甲层数 | 6 |
-| 造成伤害提升 | 25%（攻击伤害） |
+| PlatingAmount | 6 |
+| DamageBoostPercent | 25（攻击伤害） |
 
 ## 小贴士
 

@@ -1,7 +1,7 @@
 # 弦月反弹
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[弦月锋华](/cards/character/crescent_edge.md)（卡牌）
+> **施加来源**：玩家获得——[弦月锋华](/cards/character/crescent_edge.md)（卡牌）、[日月安属](/cards/character/sun_moon_belong.md)（沉默失败时对自身施加 1 层）
 
 <img src="/images/powers/crescent_edge_reflect_power.png" alt="弦月反弹" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -20,7 +20,7 @@
 
 ## 描述
 
-免疫下次受到的攻击伤害，并以[固定伤害](/powers/fixed_damage_power.md)形式反弹格挡后剩余伤害给攻击者。
+免疫下一次攻击伤害，并以<span style="color:#d4a017;font-weight:600">固定伤害</span>形式向攻击者反弹等额伤害，然后移除此能力。
 
 ## 详细机制
 

@@ -20,16 +20,16 @@
 
 ## 描述
 
-[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。每回合，此牌耗能<span style="color:#3aa675;font-weight:600">-2</span>。自身获得等于当前回合数的[<span style="color:#d4a017;font-weight:600">蓄力</span>](/powers/accumulate_power.md)（最多为<span style="color:#3aa675;font-weight:600">6</span>）。
+每回合，此牌耗能<span style="color:#3aa675;font-weight:600">-2</span>。自身获得等于当前回合数的<span style="color:#d4a017;font-weight:600">蓄力</span>（最多为<span style="color:#3aa675;font-weight:600">6</span>）。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。每回合，此牌耗能<span style="color:#3aa675;font-weight:600">-2</span>。自身获得等于当前回合数的[<span style="color:#d4a017;font-weight:600">蓄力</span>](/powers/accumulate_power.md)（最多为<span style="color:#3aa675;font-weight:600">9</span>）。（[保留](/mechanics/retain.md)为基础关键词；升级将最大蓄力上限由 <span style="color:#3aa675;font-weight:600">6</span> 提升到 <span style="color:#3aa675;font-weight:600">9</span>）
+每回合，此牌耗能<span style="color:#3aa675;font-weight:600">-2</span>。自身获得等于当前回合数的<span style="color:#d4a017;font-weight:600">蓄力</span>（最多为<span style="color:#3aa675;font-weight:600">9</span>）。
 
 ## 详细机制
 
 - **[保留](/mechanics/retain.md)关键词**：回合结束不弃置，可一直攥在手里等降费。
-- **每回合开始双结算**：你的回合开始时——①此牌耗能 <span style="color:#3aa675;font-weight:600">-2</span>；②内部回合计数 +1。
+- **每回合开始双结算**：你的每个回合开始时——①此牌耗能 <span style="color:#3aa675;font-weight:600">-2</span>；②内部回合计数 +1。计数从**战斗第 1 回合**开始累计，牌在抽牌堆/手牌/弃牌堆都照常计数——抽到得越晚，打出时的蓄力越接近满层。
 - **降费时间表**：初始 <span style="color:#3aa675;font-weight:600">9</span> 费 → 第 1 回合 <span style="color:#3aa675;font-weight:600">7</span> → 第 2 回合 <span style="color:#3aa675;font-weight:600">5</span> → 第 3 回合 <span style="color:#3aa675;font-weight:600">3</span> → 第 4 回合 <span style="color:#3aa675;font-weight:600">1</span> → 第 5 回合起 <span style="color:#3aa675;font-weight:600">0</span> 费。
 - **打出时蓄力 = min(当前回合数, 上限)**：基础版第 6 回合起打出 = 满 <span style="color:#3aa675;font-weight:600">6</span> 层；升级后第 9 回合起打出 = 满 <span style="color:#3aa675;font-weight:600">9</span> 层。
 - **[蓄力](/powers/accumulate_power.md)每层的三重价值**（能力，整场持续）：

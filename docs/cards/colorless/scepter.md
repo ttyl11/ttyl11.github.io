@@ -9,6 +9,7 @@
 - **类型**: 技能
 - **稀有度**: 罕见
 - **目标**: 敌方单体
+- **关键词**: [保留](/mechanics/retain.md)
 - **可升级**: 否
 
 ### 数值参数
@@ -19,7 +20,7 @@
 
 ## 描述
 
-对目标附加自己已损失生命值<span style="color:#3aa675;font-weight:600">140</span>%的[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+目标<span style="color:#d4a017;font-weight:600">固定伤害</span>：自身已损失生命<span style="color:#3aa675;font-weight:600">140</span>%。
 
 ## 升级后
 

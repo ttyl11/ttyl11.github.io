@@ -23,11 +23,7 @@
 
 ## 描述
 
-此牌被生成进入战斗时或加入[<span style="color:#d4a017;font-weight:600">消耗牌堆</span>](/mechanics/exhaust_pile.md)时，获得<span style="color:#3aa675;font-weight:600">4</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。
-
-## 升级后
-
-此牌被生成进入战斗时或加入[<span style="color:#d4a017;font-weight:600">消耗牌堆</span>](/mechanics/exhaust_pile.md)时，获得<span style="color:#3aa675;font-weight:600">4</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。
+此牌加入[<span style="color:#d4a017;font-weight:600">消耗牌堆</span>](/mechanics/exhaust_pile.md)时，获得<span style="color:#3aa675;font-weight:600">4</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。
 
 ## 小贴士
 
@@ -37,8 +33,8 @@
   - **生成时**：当此牌被生成进入战斗时（如[余温之辰](/cards/token/residual_warmth_star.md)将「温」直接加入[消耗牌堆](/mechanics/exhaust_pile.md)），立即获得 <span style="color:#3aa675;font-weight:600">4</span> 点[格挡](/mechanics/block.md)。
   - **消耗时**：当此牌被消耗时（含[虚无](/mechanics/ethereal.md)关键词回合结束自动消耗），获得 <span style="color:#3aa675;font-weight:600">4</span> 点[格挡](/mechanics/block.md)。
 - **目标选取**：自身（施法者）。
-- **不可战斗中生成**：此牌仅由特定卡牌效果（如[余温之辰](/cards/token/residual_warmth_star.md)）加入[消耗牌堆](/mechanics/exhaust_pile.md)。
-- **洗牌后变「辰」**：温不是终点——牌堆洗牌时，[余温之辰](/cards/token/residual_warmth_star.md)会把消耗堆里所有温转化为[辰](/cards/status/morning_star.md)移入抽牌堆（辰抽到时提供辉星、能量与储君卡）。温 = 先拿 4 格挡、洗牌后再结一次利息。
+- **只能由特定效果生成**：此牌不会通过随机生成出现，只会由[余温之辰](/cards/token/residual_warmth_star.md)等指定效果加入战斗。
+- **洗牌后变「辰」**：温不是终点——牌堆洗牌时，[余温之辰](/cards/token/residual_warmth_star.md)会把**所有牌堆**（手牌、抽牌堆、弃牌堆、消耗堆、打出堆）里的温全部转化为[辰](/cards/status/morning_star.md)并塞进抽牌堆随机位置，随后余温之辰自身被消耗。温 = 先拿 4 格挡、洗牌后再结一次利息。
 - **升级效果**：本卡不可升级。
 
 ## 相关卡牌

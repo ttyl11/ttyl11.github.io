@@ -1,7 +1,7 @@
-﻿# 复苏I
+# 复苏I
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：全局怪物能力池（全局补丁）——玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长
 
 <img src="/images/powers/revive_one_power.png" alt="复苏I" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,11 +13,11 @@
 
 ## 描述
 
-首次死亡后恢复所有<span style="color:#d4a017;font-weight:600">体力</span>，并获得<span style="color:#d4a017;font-weight:600">力量</span>、<span style="color:#d4a017;font-weight:600">命中</span>、<span style="color:#d4a017;font-weight:600">速度</span>、<span style="color:#d4a017;font-weight:600">防御</span>各+<span style="color:#3aa675;font-weight:600">1</span>。
+首次死亡时复活，回复全部<span style="color:#d4a017;font-weight:600">生命值</span>，并获得<span style="color:#d4a017;font-weight:600">力量</span>、<span style="color:#d4a017;font-weight:600">命中</span>、<span style="color:#d4a017;font-weight:600">速度</span>、<span style="color:#d4a017;font-weight:600">防御</span>各+<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 
-- **首次死亡满血复活**：`ShouldDie` 拦截死亡（未复活过时不判死）→ `AfterPreventingDeath` 瞬间回满全部体力（`Heal(MaxHp)`），随后[力量](/powers/strength_power.md)/[命中](/powers/accuracy_power.md)/[速度](/powers/speed_power.md)/[防御](/powers/defense_power.md)各 +<span style="color:#3aa675;font-weight:600">1</span>，最后移除本能力——**只触发一次**。
+- **首次死亡满血复活**：拦截死亡（未复活过时不判死）→ 瞬间回满全部体力，随后[力量](/powers/strength_power.md)/[命中](/powers/accuracy_power.md)/[速度](/powers/speed_power.md)/[防御](/powers/defense_power.md)各 +<span style="color:#3aa675;font-weight:600">1</span>，最后移除本能力——**只触发一次**。
 - **复活瞬间无敌**：复活流程执行期间（`IsReviving`）伤害 ×0、一切 Power 施加归零、不可被选中——没有任何手段能打断复活或趁复活补刀。
 - **等效双倍血量**：实战按"血条 ×2 + 复活后四维各 +1"规划。
 
@@ -30,5 +30,5 @@
 
 ## 源码
 
-- `SeerReviveOnePower.cs`` + 四维 `Apply` 各 1 + 移除自身；复活期间伤害 ×0/Power 免疫/不可选中）
-- 随机池配置：`SeerElementalCore.cs:96`（`0.000025/房`）
+- `SeerReviveOnePower.cs`（复活后四维各 +1，然后移除自身；复活期间伤害 ×0/Power 免疫/不可选中）
+- 随机池配置：`SeerGlobalMonsterPowerPatch.cs`

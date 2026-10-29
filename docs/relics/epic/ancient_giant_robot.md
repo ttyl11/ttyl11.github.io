@@ -18,17 +18,17 @@
 
 ## 描述
 
-①打出不同类别的牌获得对应充能球/栏位：攻击牌→闪电充能球，技能牌→冰霜充能球，能力牌→玻璃充能球，其他牌→充能球栏位。②当①的四种奖励各获得过至少一次时，①本场战斗失效，随后获得 <span style="color:#3aa675;font-weight:600">25</span>%最大生命。③战斗结束时结算：每有一张满 PP 的牌最大生命 <span style="color:#d4a017;font-weight:600">+1</span>，每有一张不满 PP 的牌最大生命 <span style="color:#d4a017;font-weight:600">-1</span>。
+①你打出<span style="color:#d4a017;font-weight:600">攻击牌</span>：获得1个<span style="color:#3aa675;font-weight:600">闪电充能球</span>；<span style="color:#d4a017;font-weight:600">技能牌</span>：获得1个<span style="color:#3aa675;font-weight:600">冰霜充能球</span>；<span style="color:#d4a017;font-weight:600">能力牌</span>：获得1个<span style="color:#3aa675;font-weight:600">玻璃充能球</span>；<span style="color:#d4a017;font-weight:600">其它牌</span>：获得1个<span style="color:#3aa675;font-weight:600">充能球栏位</span>。<br/>②以上四种奖励各获得过<span style="color:#3aa675;font-weight:600">1</span>次后，①本场战斗<span style="color:#d44;font-weight:600">失效</span>，获得<span style="color:#d44;font-weight:600">25</span>%最大生命的最大生命。<br/>③战斗结束时结算：每有一张<span style="color:#d4a017;font-weight:600">满PP</span>的牌，最大生命<span style="color:#3aa675;font-weight:600">+1</span>；每有一张<span style="color:#d4a017;font-weight:600">不满PP</span>的牌，最大生命<span style="color:#3aa675;font-weight:600">-1</span>。
 
 ## 详细机制
 
-- **①的牌类判定**：按 `Card.Type` 分四类——`Attack`→闪电充能球，`Skill`→冰霜充能球，`Power`→玻璃充能球，其余（包括先古牌、无色牌、诅咒牌、状态牌等）→充能球栏位 +1。打出顺序不限，四种各出一次即完成。
+- **①的牌类判定**：按 `Card.Type` 分四类——`Attack`→闪电充能球，`Skill`→冰霜充能球，`Power`→玻璃充能球，其余 `CardType`（`Status`/`Curse`/`Quest`/`None`，如诅咒牌、状态牌）→充能球栏位 +1；先古牌、无色牌按自身 `Card.Type` 归入前三类，不会一律进栏位。打出顺序不限，四种各出一次即完成。
 
-- **①的充能球结算**：闪电充能球和冰霜充能球为原版对应充能球（每次回合开始自动激发产生伤害），玻璃充能球为原版效果（激发时恢复格挡）。栏位 +1 为永久增加，不影响任何已有充能球。
+- **①的充能球结算**：均为原版对应充能球——闪电球回合结束对随机敌人造成伤害；冰霜球回合结束获得格挡、激发获得格挡；玻璃球回合结束造成伤害（被动每次递减 1）、激发造成双倍伤害。栏位 +1 为永久增加，不影响任何已有充能球。
 
-- **②的触发与切换**：四种类型各打出过至少 1 张的瞬间，①立即失效（后续出牌不再产充能球），同时立即结算 `MaxHp × 25%` 向下取整的最大生命增益（在 `AfterCardPlayed` 中触发，时机与打出牌同一帧）。失效后闪一下图标。
+- **②的触发与切换**：四种类型各打出过至少 1 张的瞬间，①立即失效（后续出牌不再产充能球），同时立即结算 **最大生命 × 25%**（向下取整）的增益（与打出牌同一帧结算）。失效后闪一下图标。
 
-- **③的战斗结束结算**：时机为 `AfterCombatEnd`，在 `PlayerCombatState` 清理之前，可以安全读取所有战斗卡牌。只处理**牌组中的牌**（`DeckVersion != null`，排除战斗中临时衍生的非牌组牌）且拥有 PP 概念的牌（`SeerPpCardModel` 且 `MaxPp > 0`）。满 PP（`Pp >= MaxPp`）每张 +1 最大生命，不满 PP 每张 -1 最大生命。战斗结束时有任意变化则闪图标。
+- **③的战斗结束结算**：时机为**战斗结束时**，此时仍能安全读取所有战斗卡牌。只处理**牌组中的牌**（排除战斗中临时衍生的非牌组牌）且拥有 PP 概念的牌。满 PP 的每张 +1 最大生命，不满 PP 的每张 -1 最大生命。战斗结束时有任意变化则闪图标。
 
 - **③与②的叠加**：②获得的最大生命是永久增益（进入下一场战斗保留），③的战斗结束结算同样作用于当前最大生命并在战斗结束后持久保留——两条路径都能提升最大生命，互不冲突。
 

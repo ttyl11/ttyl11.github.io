@@ -17,33 +17,33 @@
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 基础伤害 | 15 | 25 |
+| 基础伤害 | 20 | 30 |
 | 生命值条件伤害加成 | 50% | 50% |
 | PP | 5 | 5 |
 | 最大PP | 5 | 5 |
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对单个敌人造成<span style="color:#d44;font-weight:600">15</span>点伤害。若自身[<span style="color:#3aa675;font-weight:600">生命</span>]低于目标时伤害+<span style="color:#3aa675;font-weight:600">50%</span>。若目标未死，对其施加[<span style="color:#d44;font-weight:600">曝</span>](/powers/expose_power.md)。[凝驻](/mechanics/ningzhu.md)。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">20</span>点伤害。若自身生命低于敌人，伤害<span style="color:#3aa675;font-weight:600">+50%</span>。未击杀则添加<span style="color:#9b59b6;font-weight:600">曝</span>。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对单个敌人造成<span style="color:#d44;font-weight:600">25</span>点伤害。若自身[<span style="color:#3aa675;font-weight:600">生命</span>]低于目标时伤害+<span style="color:#3aa675;font-weight:600">50%</span>。若目标未死，对其施加[<span style="color:#d44;font-weight:600">曝</span>](/powers/expose_power.md)。[凝驻](/mechanics/ningzhu.md)。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">30</span>点伤害，若自身生命低于敌人则伤害<span style="color:#3aa675;font-weight:600">+50%</span>。未击败敌人，则为此敌人添加<span style="color:#9b59b6;font-weight:600">曝</span>。
 
 ## 工作机制
 
-- **生命差增伤**：`self.CurrentHp < target.CurrentHp` 时，伤害乘 1.5。升级后残血增伤从 22.5 提升至 37.5。
-- **曝状态施加**：伤害结算后，若 `target.CurrentHp > 0`，对其施加 1 层 [曝](/powers/expose_power.md)，降低其幻扰成功率 50%，且该敌死亡后直接[消逝](/mechanics/vanish.md)（不触发复活/亡语）。
-- **凝驻行为**：战斗结束后此牌留在[弃牌堆](/mechanics/discard_pile.md)中，不参与洗入抽牌堆。需主动回收或消除才能重新进入牌组循环。
+- **生命差增伤**：自身当前生命严格低于目标时，伤害 ×1.5（基础 20→30，升级 30→45）；生命持平或更高时没有加成。
+- **曝状态施加**：伤害结算后目标仍存活，则对其施加 1 层 [曝](/powers/expose_power.md)——持有者施加的任何[异常状态](/mechanics/abnormal-status.md)有 50% 概率失效（不限幻扰）；其死亡后直接[消逝](/mechanics/vanish.md)，跳过亡语并把减益传染给存活队友，但带复活能力的敌人仍会正常复活。
+- **凝驻行为**：首次打出后，本场战斗后续洗牌都不会把它洗回抽牌堆，通常会一直留在弃牌堆；用捞牌效果取回才能再次使用。下一场战斗开始时恢复正常洗入。
 
 ## 小贴士
 
-- **以命换伤的博弈**：自身 HP 低于目标时伤害 +50%（15×1.5=22.5，升级后 37.5）。这是典型的"残血爆发"设计——主动压低血量触发增伤，适合配合回复手段或高生存能力使用。
-- **曝状态的连锁价值**：若目标未死，自动施加 1 层 [曝](/powers/expose_power.md)。此减益降低敌人幻扰成功率 50%，且目标死亡后直接[消逝](/mechanics/vanish.md)，彻底阻断其复活或亡语触发。对依赖幻扰机制或拥有复活能力的敌人尤为致命。
-- **凝驻的经济性**：5 PP 冷却，[凝驻](/mechanics/ningzhu.md)使此牌每场战斗限用一次（首次使用后留在弃牌堆，同场后续洗牌不再洗回）。适合用于关键回合的斩杀或贴曝，而非反复使用。
+- **以命换伤的博弈**：自身 HP 低于目标时伤害 +50%（20×1.5=30，升级后 45）。这是典型的"残血爆发"设计——主动压低血量触发增伤，适合配合回复手段或高生存能力使用。
+- **曝状态的连锁价值**：若目标未死，自动施加 1 层 [曝](/powers/expose_power.md)。它让该敌人施加的任何异常状态有 50% 概率失效；目标死亡后跳过亡语、把减益传染给存活队友。对依赖异常施压的敌人尤其有效——但**不会阻止复活**，带复活能力的敌人仍会正常复活。
+- **凝驻的经济性**：PP 5/5，每次打出照扣 1；凝驻让它在首次使用后无法再被洗回抽牌堆，通常一场战斗只能打一次（除非用捞牌效果取回）。适合关键回合斩杀或贴曝，而非反复使用。
 - **与一念生死叹的区别**：两者均为生命差增伤的[凝驻](/mechanics/ningzhu.md)攻击牌，但方向相反——[一念生死叹](./life_death_sigh.md)在自身 HP 高于目标时增伤并触发[饮血](/mechanics/vampiric.md)回复，一念去留断则在自身 HP 低于目标时增伤并施加[曝](/powers/expose_power.md)。根据当前血量态势选择使用：高血时用生死叹（续航），低血时用过留断（爆发+控制）。
-- **升级收益**：基础伤害从 15 提升至 25，残血时伤害可达 37.5，配合[曝](/powers/expose_power.md)的持续压制效果极强。
-- **性价比**：1 费罕见合理——以命换伤的机制在残血时爆发极高，配合曝的斩杀保障让这张卡兼具伤害与控制双重价值。凝驻的限用一次特性意味着它更适合作为斩杀手段而非日常输出，适合配合高伤牌或Boss战使用。
+- **升级收益**：基础伤害从 20 提升至 30，残血时伤害可达 45；配合曝削弱敌人后续的异常施加，兼具爆发与压制。
+- **性价比**：1 费罕见合理——残血时爆发极高，附带的曝能削弱敌人后续的异常施加、并在击杀时跳过亡语；凝驻限用一次，更适合作为关键回合的斩杀/控制手段，而非日常输出。
 
 ## 相关能力
 
@@ -51,9 +51,9 @@
 
 ## 相关机制
 
-- [PP系统](/mechanics/pp-system.md)（PP 消耗与冷却）
+- [PP系统](/mechanics/pp-system.md)（每次打出消耗 1 点 PP）
 - [凝驻](/mechanics/ningzhu.md)（卡牌停留在弃牌堆的机制）
-- [消逝](/mechanics/vanish.md)（目标死亡后直接移除，不触发亡语）
+- [消逝](/mechanics/vanish.md)（目标死亡后跳过亡语、减益传染队友，但不阻止复活）
 - [弃牌堆](/mechanics/discard_pile.md)（凝驻卡牌的存放位置）
 
 ## 源码

@@ -19,7 +19,7 @@
 
 ## 描述
 
-回合开始时，自身清除现有属性，变为混沌系，[先制](/powers/first_strike_power.md)+<span style="color:#3aa675;font-weight:600">1</span>。自身所有攻击造成伤害提升<span style="color:#3aa675;font-weight:600">30</span>%，回合结束减<span style="color:#3aa675;font-weight:600">1</span>层。
+①回合开始时，自身移除现有属性，变为混沌系，先制+1。<br/>②自身所有攻击造成伤害提升<span style="color:#3aa675;font-weight:600">30%</span>，回合结束减1层。
 
 ## 详细机制
 
@@ -31,8 +31,8 @@
   - 触发条件：拥有者造成攻击伤害时
   - 效果公式：伤害 × <span style="color:#3aa675;font-weight:600">1.3</span>（提升 <span style="color:#3aa675;font-weight:600">30</span>%）
 - **回合结束**：层数 -<span style="color:#3aa675;font-weight:600">1</span>
-- **状态转换**：首次施加和移除时触发妙时天女遗物的状态转换效果
-- **三态系统**：与[怀生菩怜态](/powers/compassionate_bodhi_power.md)互斥，由妙时天女遗物管理切换
+- **状态转换**：首次施加和移除时触发[妙时天女](/relics/epic/maiden_of_wondrous_time.md)遗物的状态转换效果
+- **三态系统**：与[怀生菩怜态](/powers/compassionate_bodhi_power.md)、[百天浮世络](/powers/hundred_day_floating_world_power.md)同属"状态"，由妙时天女遗物管理切换；三者总层数还会被「万卍觉心法界镇」读取
 
 ## 相关能力
 

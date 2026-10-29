@@ -1,4 +1,4 @@
-﻿# 狂能激发
+# 狂能激发
 
 <img src="/images/cards/frenzy_excitation.png" alt="狂能激发" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -24,11 +24,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 场上所有敌人获得<span style="color:#3aa675;font-weight:600">6</span>层<span style="color:#9b59b6;font-weight:600">狂暴</span>。获得<span style="color:#3aa675;font-weight:600">5</span>点<span style="color:#d4a017;font-weight:600">能量</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">x²</span>（x=当前能量）。
+PP: 5/5 场上所有敌人获得<span style="color:#3aa675;font-weight:600">6</span>层<span style="color:#9b59b6;font-weight:600">狂暴</span>。获得<span style="color:#3aa675;font-weight:600">5</span>点<span style="color:#d4a017;font-weight:600">能量</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">x²</span>（x=当前能量）。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 场上所有敌人获得<span style="color:#3aa675;font-weight:600">4</span>层<span style="color:#9b59b6;font-weight:600">狂暴</span>。获得<span style="color:#3aa675;font-weight:600">5</span>点<span style="color:#d4a017;font-weight:600">能量</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">x²</span>（x=当前能量）。
+PP: 5/5 场上所有敌人获得<span style="color:#3aa675;font-weight:600">4</span>层<span style="color:#9b59b6;font-weight:600">狂暴</span>。获得<span style="color:#3aa675;font-weight:600">5</span>点<span style="color:#d4a017;font-weight:600">能量</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">x²</span>（x=当前能量）。
 
 ## 小贴士
 
@@ -39,7 +39,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 - **最佳时机**：①本回合能终结战斗（狂暴来不及生效）；②敌人即将进入眩晕/无法攻击的回合；③手里正好有一波爆发需要能量。最差时机：残血防守、手里没牌。
 - **双人房警告**：5 能量只有打牌者自己获得，但敌人狂暴对全队的攻击都增强——队友没同意别乱开，容易坑死队友。
 - **升级是纯减负**：狂暴 6 层 → 4 层（峰值 +150% → +100%，持续 6 → 4 个敌方回合），能量收益不变。0 费牌升级无代价，优先级高。
-- **堕落 = 当前能量²**：堕落按**打出瞬间的当前能量**结算——能量 <span style="color:#3aa675;font-weight:600">1</span> 时只 +<span style="color:#3aa675;font-weight:600">1</span>，能量 <span style="color:#3aa675;font-weight:600">3</span> 时 +<span style="color:#3aa675;font-weight:600">9</span>，满能量高蓄时平方放大。堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层被[魔君接管](/powers/demon_takeover_power.md)强制乱打——想压低堕落就趁能量见底时打，想靠它快速推进失控阈值（配合触发抽牌/混沌化身）就攒满能量再开，节奏完全由你掌控。
+- **堕落 = 获得 5 能量后的能量²**：先结算 +5 能量，再用**加完之后的当前能量**平方——空能量打出是 5²=**25** 层，进场 1 能量是 6²=36 层，3 能量是 8²=64 层，5 能量是 10²=**100** 层（当场触发一次魔君接管）。堕落是累积计数、不会清零，每跨过 100 的倍数就被[魔君接管](/powers/demon_takeover_power.md)强制乱打——想压低堕落就趁能量见底时打（最低也有 25 层），想快速推进失控阈值（配合触发抽牌/混沌化身）就攒满能量再开。
 - **性价比**：0 费换 5 能量是全 mod 最高的能量效率，代价完全可控（速攻/清场局几乎白赚）；持久战和残局慎用。
 
 ## 相关能力
@@ -49,7 +49,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 ## 相关机制
 
 - [能量](/mechanics/energy.md)（获得 5 点能量）
-- [堕落](/powers/fallen_power.md)（堕落 = 当前能量²，满 100 触发魔君接管）
+- [堕落](/powers/fallen_power.md)（堕落 = 获得 5 能量后的当前能量²，每跨过 100 的倍数触发魔君接管）
 
 ## 源码
 

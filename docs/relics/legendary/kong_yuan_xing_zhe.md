@@ -22,7 +22,7 @@
 
 ## 描述
 
-①拾起时，随机 <span style="color:#3aa675;font-weight:600">5</span> 张牌附带[五音附魔](/mechanics/enchantment.md)。<br/>②敌方怪物死亡时，[空妄诗章](/mechanics/void-poem.md)+<span style="color:#3aa675;font-weight:600">1</span>，获得其最大生命 <span style="color:#3aa675;font-weight:600">3</span>% 的最大生命。<br/>③整局限一次，首次死亡时失去所有[空妄诗章](/mechanics/void-poem.md)，移除[异常状态](/mechanics/abnormal-status.md)并保留 <span style="color:#3aa675;font-weight:600">1</span> 血复活。之后[空元之诗](/mechanics/void-poem.md)不消耗诗章，但每回合结束失去 <span style="color:#3aa675;font-weight:600">3</span> 最大生命并<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span> <span style="color:#3aa675;font-weight:600">13</span>%。<br/>④战斗开始时，每有一篇[空妄诗章](/mechanics/void-poem.md)，随机一张牌获得[空元之诗](/mechanics/void-poem.md)。打出时消耗一篇诗章，随机触发五项效果（每打出一次多触发一种）。
+①拾起时，随机<span style="color:#3aa675;font-weight:600">5</span>张牌附带五音附魔。<br/>②敌方怪物死亡时，空妄诗章+1，获得其最大生命<span style="color:#3aa675;font-weight:600">3%</span>的最大生命。<br/>③整局限一次，首次死亡时失去所有空妄诗章，移除异常状态并保留1血复活。之后空元之诗不消耗诗章，但每回合结束扣除<span style="color:#3aa675;font-weight:600">3</span>最大生命。<br/>④战斗开始时，每有一篇空妄诗章，随机一张牌获得空元之诗。打出时消耗一篇诗章，随机触发五项效果（每打出一次多触发一种）。
 
 - **空元之诗五项效果**（详见 [空元之诗机制](/mechanics/void-poem.md)）：
   - **渍**：所有敌人 <span style="color:#3aa675;font-weight:600">3</span> 回合[诅咒](/powers/curse_power.md)。

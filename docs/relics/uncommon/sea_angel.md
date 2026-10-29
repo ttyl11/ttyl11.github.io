@@ -16,7 +16,7 @@
 
 ## 描述
 
-战斗开始时，给予所有敌人<span style="color:#3aa675;font-weight:600">5</span>层[失明](/powers/blind_power.md)和<span style="color:#3aa675;font-weight:600">5</span>层[冻伤](/powers/frostbite_power.md)。
+战斗开始时，给予所有敌人<span style="color:#3aa675;font-weight:600">5</span>回合<span style="color:#d4a017;font-weight:600">失明</span>和<span style="color:#3aa675;font-weight:600">5</span>层<span style="color:#d4a017;font-weight:600">冻伤</span>。
 
 ## 详细机制
 

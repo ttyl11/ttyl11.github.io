@@ -19,7 +19,7 @@
 
 ## 描述
 
-每有 <span style="color:#3aa675;font-weight:600">1</span> 层，回合开始时，造成 <span style="color:#3aa675;font-weight:600">1/8</span> 其当前生命的[固定伤害](/mechanics/fixed-damage.md)。
+每有<span style="color:#3aa675;font-weight:600">1</span>层，自身回合开始时，受到自身当前生命值<span style="color:#3aa675;font-weight:600">1/8</span>的<span style="color:#9b59b6;font-weight:600">固定伤害</span>。
 
 ## 详细机制
 

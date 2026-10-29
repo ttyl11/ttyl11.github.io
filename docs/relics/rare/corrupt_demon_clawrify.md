@@ -18,7 +18,7 @@
 
 ## 描述
 
-①每次受到的<span style="color:#d4a017;font-weight:600">攻击伤害</span>不超过<span style="color:#3aa675;font-weight:600">50</span>-<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span>/100。<br/>②回合结束时，若自身有属性提升：敌方有<span style="color:#d44;font-weight:600">[异常状态](/mechanics/abnormal-status.md)</span>则令敌全体<span style="color:#d4a017;font-weight:600">[寄生](/powers/parasite_power.md)</span><span style="color:#3aa675;font-weight:600">2</span>，否则回复<span style="color:#3aa675;font-weight:600">3</span>点生命；若自身有<span style="color:#d44;font-weight:600">[异常状态](/mechanics/abnormal-status.md)</span>，所有<span style="color:#d44;font-weight:600">[异常状态](/mechanics/abnormal-status.md)</span>回合数减至1。
+①每次受到的攻击伤害不超过<span style="color:#3aa675;font-weight:600">50</span>（每<span style="color:#3aa675;font-weight:600">100</span>层<span style="color:#d44;font-weight:600">堕落</span>降低<span style="color:#3aa675;font-weight:600">1</span>，最低<span style="color:#3aa675;font-weight:600">1</span>）。<br/>②回合结束时，若自身处于任一属性提升：敌方处于<span style="color:#d44;font-weight:600">异常状态</span>则对所有敌人施加<span style="color:#d4a017;font-weight:600">寄生</span><span style="color:#3aa675;font-weight:600">2</span>，否则回复<span style="color:#3aa675;font-weight:600">3</span>点生命；若自身处于<span style="color:#d44;font-weight:600">异常状态</span>则所有<span style="color:#d44;font-weight:600">异常状态</span>回合数减至1。
 
 - **伤害上限**：自身受到的攻击牌伤害不超过 50 - 堕落/100（堕落层数 ÷ 100 向下取整，堕落越高上限越低；下限为 1）。详见小贴士。
 - **②三段逻辑**：自身有属性提升 **且** 敌方有异常 → 给所有敌人 2 层[寄生](/powers/parasite_power.md)；自身有属性提升 **且** 敌方无异常 → 自身回 3 血；自身无属性提升 → 什么都不做。回血同样需要自身有属性提升。
@@ -33,8 +33,8 @@
 - **①伤害上限防的是"高基础伤害重击"，防不了高力量平砍**：上限在伤害结算的加法阶段生效，而敌方力量的加成在这之后才叠上来——敌人"30 基础 +10 力量"的攻击，实际打到你身上是 35 而不是封顶的 50。它真正挡住的是基础伤害本身就超过上限的重型技能（Boss 大招、处决类攻击）；你处于易伤等增伤状态时，封顶后的数值同样会被放大。
 - **①堕落越高，承伤上限越低**：上限 = 50 - 堕落/100（堕落层数 ÷ 100 向下取整），堕落 0-99 层时上限恒为 50，100-199 层时 49，依此类推，最低为 1。堕落是**负面层数**——配合堕落体系（满 100 触发[魔君接管](/powers/demon_takeover_power.md)失控）时，堕落涨得越高，这件遗物能兜住的单次伤害越小，属于"越堕落越脆"的双刃设定。
 - **②的真实逻辑是三段**：自身有属性提升 且 敌方有异常 → 给所有敌人 2 层寄生；自身有属性提升 且 敌方无异常 → 自身回 3 血；自身无属性提升 → 什么都不做。所以②完全靠"自身有属性提升"驱动——[力量](/powers/strength_power.md)/[防御](/powers/defense_power.md)/[速度](/powers/speed_power.md)/[命中](/powers/accuracy_power.md)任意一项为正即可，任何加属性的牌都能点亮它。
-- **②寄生的精确规格**：每层寄生 = 敌方回合开始时敌人受 2 点不可格挡的[固定伤害](/powers/fixed_damage_power.md)式掉血 + 你回 2 血，跳一次消耗 1 层。**掉血和回血是固定值、不随层数增长——层数是持续时间不是强度**。2 层 = 连续两个敌方回合各跳一次。
-- **②多敌人时寄生按敌人数量放大**：寄生是给**每个敌人**各挂 2 层，每个敌人的寄生独立跳——2 个敌人时你每个敌方回合回 2×2=4 血，群体战斗里回血收益翻倍。
+- **②寄生的精确规格**：每跳寄生 = 敌方回合开始时敌人受到等同于当前寄生层数的不可格挡[固定伤害](/powers/fixed_damage_power.md)式掉血，并让你回复等量生命，随后消耗 1 层。**层数既是持续时间也是单跳强度**：2 层是第一跳 2 点、第二跳 1 点，共 3 点伤害/回血。
+- **②多敌人时寄生按敌人数量放大**：寄生是给**每个敌人**各挂 2 层，每个敌人的寄生独立跳——2 个敌人时首次结算合计回 2×2=4 血（第二跳各 1 点，合计 2 血），群体战斗里回血收益翻倍。
 - **②异常压制是控场保险**：自身有任意异常状态时，回合结束时所有层数 >1 的异常全部压到 1 层。等于把身上的重控（如 5 层冰封）削成 1 层，大幅缩短异常的持续时间和强度。
 - **性价比**：稀有度合理——伤害上限保命 + 寄生/回血续航 + 异常压制，三效合一但条件复杂，稀有定价合理。
 

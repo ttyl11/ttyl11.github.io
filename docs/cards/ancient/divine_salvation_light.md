@@ -22,7 +22,7 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">7</span>/<span style="color:#3aa675;font-weight:600">7</span>：[<span style="color:#d44;font-weight:600">真神</span>](/mechanics/true_god.md)。<br/>造成<span style="color:#3aa675;font-weight:600">|[抽牌堆](/mechanics/draw_pile.md)-[弃牌堆](/mechanics/discard_pile.md)|</span>伤害。恢复<span style="color:#3aa675;font-weight:600">[消耗牌堆](/mechanics/exhaust_pile.md)数</span>生命。将<span style="color:#3aa675;font-weight:600">1</span>张随机圣灵谱尼进阶先古牌放入[<span style="color:#d4a017;font-weight:600">真神牌堆</span>](/mechanics/true-god-pile.md)。重复打出直至PP耗尽。
+PP: 7/7 <span style="color:#d44;font-weight:600">真神</span>。造成<span style="color:#3aa675;font-weight:600">|抽牌堆-弃牌堆|</span>伤害。恢复<span style="color:#3aa675;font-weight:600">消耗牌堆数</span>生命。将<span style="color:#3aa675;font-weight:600">1</span>张随机<span style="color:#d4a017;font-weight:600">圣灵谱尼进阶先古牌</span>放入<span style="color:#d4a017;font-weight:600">真神牌堆</span>。重复打出直至PP耗尽。
 
 ## 详细机制
 
@@ -30,7 +30,7 @@ PP: <span style="color:#3aa675;font-weight:600">7</span>/<span style="color:#3aa
 - **一次性倾泻全部 PP**：被触发后进入循环：每轮先消耗 <span style="color:#3aa675;font-weight:600">1</span> PP，然后执行一轮完整效果（伤害+回血+塞真神牌），**循环到 PP 耗尽才停**。触发时剩多少 PP 就连打多少轮，不存在"留一点下次用"——PP 7 的满状态一次触发就是 7 连发。
 - **每轮伤害独立结算**：伤害 = |抽牌堆数 − 弃牌堆数|，取绝对值。攻击伤害属性，每轮独立吃[力量](/powers/strength_power.md)/[易伤](/powers/vulnerable_power.md)增伤。循环期间两堆数量不变（效果本身不抽牌不出牌），所以每轮伤害相同——总伤害 = |抽−弃| × 轮数。
 - **每轮回血一次**：回复量 = 消耗牌堆张数，每轮都回复一次——消耗堆 10 张、7 轮打满就是 70 点总回复。
-- **每轮塞一张先古牌**：每轮向[真神牌堆](/mechanics/true-god-pile.md)添加 <span style="color:#3aa675;font-weight:600">1</span> 张随机[圣灵谱尼进阶先古牌](/mechanics/true-god-pile.md)（光荣之梦等 7 张候选之一），7 轮 = 7 张，为真神体系持续供弹。这 7 张**不是真神牌**（真神牌只有本牌与[混沌灭世决](/cards/ancient/world_end_decree.md)两张），只是放入牌堆的候选弹药。
+- **每轮塞一张先古牌**：每轮向[真神牌堆](/mechanics/true-god-pile.md)添加 <span style="color:#3aa675;font-weight:600">1</span> 张随机[圣灵谱尼进阶先古牌](/mechanics/true-god-pile.md)（光荣之梦等 7 张候选之一），7 轮 = 7 张；若目标死亡提前终止，按实际轮数发放。这 7 张**不是真神牌**（真神牌只有本牌与[混沌灭世决](/cards/ancient/world_end_decree.md)两张），只是放入牌堆的候选弹药。
 - **打出后永久消失**：真神牌被自动打出后从所有牌堆（含弃牌堆/消耗堆）永久移除，牌组中的同类牌也一并移除——不回收、整局彻底消失（参考[真神](/mechanics/true_god.md)关键词）。
 - **循环终止**：每轮结算后检查目标是否存活，目标死亡立即终止剩余轮次。
 

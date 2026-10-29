@@ -18,7 +18,7 @@
 
 ## 描述
 
-①你的回合开始时，若生命值><span style="color:#3aa675;font-weight:600">70</span>%，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">[先制](/powers/first_strike_power.md)</span>；否则本回合所有攻击必定[暴击](/powers/critical_strike_power.md)。<br/>②击败敌人时，对随机存活敌人造成其最大生命<span style="color:#3aa675;font-weight:600">15</span>%的伤害，回复等量生命。<br/>③打出带<span style="color:#d4a017;font-weight:600">「命」字</span>的牌时，<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span><span style="color:#3aa675;font-weight:600">19</span>%。
+在你的回合开始时，若生命值><span style="color:#3aa675;font-weight:600">70</span>%，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">先制</span>；若生命值≤<span style="color:#3aa675;font-weight:600">70</span>%，本回合所有攻击必定暴击（伤害×1.5）。<br/>击败敌人时，对随机存活敌人造成其最大生命<span style="color:#3aa675;font-weight:600">15</span>%的伤害，并回复等量生命。
 
 - **触发边界**：生命百分比严格大于阈值（70%）时给先制，小于等于阈值时改为本回合必暴击，二者每回合二选一。
 - **必暴是真暴击**：低血量回合直接施加 1 层[回合必定暴击](/powers/turn_guaranteed_crit_power.md)——写入暴击判定，可触发[五月之锋](/cards/character/may_edge)、[二律背反](/powers/antinomy_power)等"暴击时"联动，暴击率显示 100%；×1.5 只作用于攻击伤害，烧伤、中毒等非攻击伤害不受影响。

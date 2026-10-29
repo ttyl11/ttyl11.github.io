@@ -18,7 +18,7 @@
 
 ## 描述
 
-①造成的<span style="color:#d4a017;font-weight:600">攻击伤害</span>最低为<span style="color:#3aa675;font-weight:600">7</span>。<br/>②每次受到的伤害减少<span style="color:#3aa675;font-weight:600">2</span>。<br/>③回合结束时，所有敌人<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>并回复等量生命；若<span style="color:#d4a017;font-weight:600">生命值</span>低于<span style="color:#3aa675;font-weight:600">33</span>%则翻倍。
+造成的<span style="color:#d4a017;font-weight:600">攻击伤害</span>最低为<span style="color:#3aa675;font-weight:600">7</span>。<br/>每次受到的伤害减少<span style="color:#3aa675;font-weight:600">2</span>。<br/>回合结束时，给予所有敌人<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>并回复等量生命；若<span style="color:#d4a017;font-weight:600">生命值</span>低于<span style="color:#3aa675;font-weight:600">33</span>%则翻倍。
 
 - **伤害下限**：你打出的攻击牌伤害若低于 7，补到 7。只对攻击牌伤害生效。
 - **减伤**：每次受到的攻击牌伤害减少 2（不会让伤害变负）。只对攻击牌伤害生效。

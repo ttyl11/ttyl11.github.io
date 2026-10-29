@@ -25,18 +25,18 @@
 
 ## 描述
 
-PP: 5/5 造成<span style="color:#3aa675;font-weight:600">6</span>点伤害。[<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)<span style="color:#3aa675;font-weight:600">-1</span>。下一次受到伤害时，反弹<span style="color:#3aa675;font-weight:600">200%</span>的伤害。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">6</span>点伤害。<span style="color:#d4a017;font-weight:600">先制</span><span style="color:#3aa675;font-weight:600">-1</span>。下次受击反弹<span style="color:#3aa675;font-weight:600">200%</span>伤害。
 
 ## 升级后
 
-PP: 5/5 造成<span style="color:#3aa675;font-weight:600">6</span>点伤害。[<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)<span style="color:#3aa675;font-weight:600">-1</span>。下一次受到伤害时，反弹<span style="color:#3aa675;font-weight:600">350%</span>的伤害。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">6</span>点伤害。<span style="color:#d4a017;font-weight:600">先制</span><span style="color:#3aa675;font-weight:600">-1</span>。下次受击反弹<span style="color:#3aa675;font-weight:600">350%</span>伤害。
 
 ## 小贴士
 
 - **核心定位**：1 费基础攻击 + 反弹诱饵卡。6 点伤害 + 先制 -1 + 能量反弹 200%，是谱尼初始卡牌之一。兼具输出和"诱敌反击"功能——打出后敌人攻击你会被反弹重创。基础牌性价比合理，早期攻防一体的主力。
 - **先制 -1（负面代价）**：自身[先制](/powers/first_strike_power.md) <span style="color:#3aa675;font-weight:600">-1</span>，即**下一张牌耗能 +1**。这是这张牌的代价——打出后下一张牌变贵了。建议配合 0 费牌或低费牌使用，避免先制 -1 影响关键牌的打出。
-- **能量反弹（诱饵机制）**：下一次受到伤害时，反弹所受未格挡伤害的 <span style="color:#3aa675;font-weight:600">200%</span>（升级后 <span style="color:#3aa675;font-weight:600">350%</span>）给攻击者，造成不可[格挡](/mechanics/block.md)且非攻击伤害。触发后移除。这是一次性"反弹盾"——敌人打你 10 点，反弹 20 点（升级后 35 点）。
-- **反弹策略**：反弹只对"未格挡伤害"生效。要最大化反弹，**故意不格挡**让敌人打你——但要有足够血量承受。或者配合高格挡，只让少量伤害穿透触发反弹。两种策略各有风险。
+- **能量反弹（诱饵机制）**：下一次受到**攻击伤害**时，反弹所受未格挡伤害的 <span style="color:#3aa675;font-weight:600">200%</span>（升级后 <span style="color:#3aa675;font-weight:600">350%</span>）给攻击者，反弹伤害是非攻击伤害、**但可以被格挡吸收**。触发后移除；如果这次攻击被完全格挡、未格挡伤害为 0，则不触发也不消耗这层反弹。这是一次性"反弹盾"——敌人打你 10 点，反弹 20 点（升级后 35 点）。中毒、灼烧等非攻击伤害不会触发。
+- **反弹策略**：反弹只按"未格挡的攻击伤害"计算。要最大化反弹，**故意不格挡**让敌人打你——但要有足够血量承受。或者配合高格挡，只让少量伤害穿透触发反弹。两种策略各有风险；反弹出去的那部分仍会被敌人格挡。
 - **配合建议**：
  - **反弹流**：配合[格挡](/mechanics/block.md)相关能力，让少量伤害穿透触发反弹——既能防御又能反击。
  - 配合高血量/体力恢复（如[能量滋养](/cards/character/energy_nurture.md)）可以承受伤害触发反弹，形成"挨打反击"循环。

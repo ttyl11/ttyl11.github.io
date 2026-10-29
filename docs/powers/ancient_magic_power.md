@@ -13,8 +13,9 @@
 
 ## 描述
 
-第一回合开始时，移除自身当前属性，随机添加2个克制对方的属性。
+第一回合开始时，移除自身当前属性，随机获得<span style="color:#3aa675;font-weight:600">2</span>个克制对方的属性。
 
 ## 源码
 
-- `SeerAncientMagicPower.cs`
+- `SeerAncientMagicPower.cs`（仅用于图标显示）
+- `SeerSakesenMonster.cs`（第一回合实际结算）

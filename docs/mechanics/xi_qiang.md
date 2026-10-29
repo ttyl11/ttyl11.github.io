@@ -1,6 +1,6 @@
 # 吸强（XiQiang）
 
-**吸强**是 Seer Mod 的自定义卡牌关键词，打出后吸取对手的[全属性](/mechanics/all_attributes.md)提升。
+**吸强**是 Seer Mod 的自定义卡牌关键词，用于吸取对手的[全属性](/mechanics/all_attributes.md)提升。
 
 ## 基本信息
 
@@ -13,7 +13,7 @@
 ## 规则说明
 
 - **吸取目标**：对手的[力量/命中/防御/速度](/mechanics/all_attributes.md)正值提升
-- 吸强将对手属性提升转移/复制给自身，一增一减拉开属性差
+- 吸强把对手的正属性**转移**给自身（对手减掉同等数值、自身加上同等数值），一增一减拉开属性差；不是复制
 - 对比：[消强](/mechanics/xiao_qiang.md)只清不加、[反强](/mechanics/fan_qiang.md)反转而不转移——吸强是"拿走别人强化自己"
 
 ## 携带卡牌

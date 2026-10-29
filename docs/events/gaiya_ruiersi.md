@@ -1,16 +1,16 @@
-# 盖亚与瑞尔斯
+# 战神与斗神
 
 悬崖边，两位强大的战士正在切磋——盖亚和瑞尔斯，一对战神兄弟。他们的拳风撕裂空气，气势惊人。
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_gaiya_ruiersi.png" alt="盖亚与瑞尔斯" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_gaiya_ruiersi.png" alt="战神与斗神" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**：剧情抉择事件
 - **战斗**：是（可选，双人 Boss 级遭遇）
-- **出现层数**：巢穴（第二层）
+- **出现层数**：2、4、5 层
 
 ## 选项一览
 

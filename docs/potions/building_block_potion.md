@@ -18,13 +18,13 @@
 
 ## 描述
 
-单场战斗中，每累计 <span style="color:#3aa675;font-weight:600">1</span> 个回合多 <span style="color:#3aa675;font-weight:600">1</span> 块积木，当前共 `{Bricks}` 块。打出时，获得等量[泰坦之灵](/mechanics/currency.md)。
+单场战斗中，每累计 <span style="color:#3aa675;font-weight:600">1</span> 个回合多 <span style="color:#3aa675;font-weight:600">1</span> 块积木。打出时，获得等于当前积木数的[泰坦之灵](/mechanics/currency.md)。
 
 ## 详细机制
 
-- **被动累积**：持有且在战斗内时，每个**我方回合开始**自动 +1 块积木（`AfterSideTurnStart`），无需任何操作。
+- **被动累积**：持有且在战斗内时，每个**我方回合开始**自动 +1 块积木，无需任何操作。
 - **首回合即有 1 块**：战斗开场我方回合开始立即 +1，因此首回合就已经有 1 块，不需要先"白等一回合"。
-- **单场清零**：每场战斗开始时 `Bricks` 强制归零（`BeforeCombatStart`），避免药水留在腰带上跨战斗继续累加。
+- **单场清零**：每场战斗开始时积木数强制归零，避免药水留在腰带上跨战斗继续累加。
 - **主动打出换资源**：点击使用后按当前积木数一次性转换为等量[泰坦之灵](/mechanics/currency.md)，同时消耗本药水。
 - **泰坦之灵是持久局内货币**：写入局内货币系统，退出重进不丢失，是泰坦之灵房间等处的通用资源。
 
@@ -42,4 +42,4 @@
 
 ## 源码
 
-- `SeerBuildingBlockPotion.cs`（`AfterSideTurnStart` 累积 / `BeforeCombatStart` 清零 / `OnUse` 转换）
+- `SeerBuildingBlockPotion.cs`

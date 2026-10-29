@@ -22,7 +22,7 @@
 
 ## 相关卡牌
 
-- 所有提供格挡的卡牌（如 [傲龙有悔](/cards/character/arrogant_dragon_repents.md) 获得 <span style="color:#3aa675;font-weight:600">7</span> 点格挡）
+- 所有提供格挡的卡牌（如 [亢龙有悔](/cards/character/arrogant_dragon_repents.md) 获得 <span style="color:#3aa675;font-weight:600">7</span> 点格挡）
 
 ## 源码
 

@@ -13,15 +13,22 @@
 
 ## 描述
 
-造成伤害提升<span style="color:#3aa675;font-weight:600">25</span>%。在你的回合结束时，恢复<span style="color:#3aa675;font-weight:600">3</span>张随机卡牌<span style="color:#3aa675;font-weight:600">1</span>点[PP](/mechanics/pp-system.md)并减少1层。
+①自身造成的伤害提高<span style="color:#3aa675;font-weight:600">25%</span>。<br/>②你的回合结束时，恢复<span style="color:#3aa675;font-weight:600">3</span>张随机卡牌各<span style="color:#3aa675;font-weight:600">1</span>点PP，然后层数-<span style="color:#3aa675;font-weight:600">1</span>。
+
+## 详细机制
+
+- **只加攻击伤害**：自身造成的攻击伤害 ×1.25；固定伤害、DoT 不吃。
+- **回合结束回 PP**：自己回合结束时，从手牌/抽牌堆/弃牌堆里随机抽 3 张 PP 未满的牌，各回 1 点 PP。
+- **不重复**：3 张各不相同；候选不足 3 张时有多少回多少。
+- **层数＝持续回合**：每回合结束 −1，归零移除。
 
 ## 数值参数
 
 | 参数 | 数值 |
 |---|---|
-| 伤害提升百分比 | 25 |
-| 恢复卡牌数 | 3 |
-| 每次恢复PP | 1 |
+| DamageBoostPercent | 25 |
+| RestoreCount | 3 |
+| PpRestore | 1 |
 
 ## 关联
 

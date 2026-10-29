@@ -15,7 +15,7 @@
 
 ## 描述
 
-回合开始时，消除所有敌人的全属性提升<br/>每消除1级，自身获得<span style="color:#3aa675;font-weight:600">2</span>点<span style="color:#d4a017;font-weight:600">[格挡](/mechanics/block.md)</span>。
+回合开始时，消除所有敌人任一属性的提升<br/>每消除1级，自身获得<span style="color:#3aa675;font-weight:600">2</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。
 
 - **全属性清除**：清除所有敌人的全部四项[全属性](/mechanics/all_attributes.md)（[力量](/powers/strength_power.md)、[防御](/powers/defense_power.md)、[命中](/powers/accuracy_power.md)、[速度](/powers/speed_power.md)）的正值层数。
 - **格挡获取**：每清除 1 级获得 2 点[格挡](/mechanics/block.md)，总和 = 清除总级数 × 2。

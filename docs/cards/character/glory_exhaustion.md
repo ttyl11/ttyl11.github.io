@@ -25,17 +25,17 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">8</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。<span style="color:#3aa675;font-weight:600">3</span>回合内，受到伤害时对来源施加<span style="color:#3aa675;font-weight:600">4</span>层<span style="color:#d4a017;font-weight:600">中毒</span>。
+PP: 5/5 获得<span style="color:#3aa675;font-weight:600">8</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。<span style="color:#3aa675;font-weight:600">3</span>回合内受击时，来源<span style="color:#d4a017;font-weight:600">中毒</span><span style="color:#3aa675;font-weight:600">4</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">8</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。<span style="color:#3aa675;font-weight:600">3</span>回合内，受到伤害时对来源施加<span style="color:#3aa675;font-weight:600">6</span>层<span style="color:#d4a017;font-weight:600">中毒</span>。
+PP: 5/5 获得<span style="color:#3aa675;font-weight:600">8</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。<span style="color:#3aa675;font-weight:600">3</span>回合内受击时，来源<span style="color:#d4a017;font-weight:600">中毒</span><span style="color:#3aa675;font-weight:600">6</span>。
 
 ## 小贴士
 
 - **格挡+反弹双效**：1 费获得 8 [格挡](/mechanics/block.md) + 获得[荣尽枯生](/powers/glory_exhaustion_power.md)能力 3 层——每个敌方回合内受到来自敌人的伤害时，对伤害来源施加中毒，是防御+反击一体牌。
-- **反弹机制细节**：触发条件是"受到伤害且来源是敌人"——不限于攻击伤害，敌人施加的中毒/灼烧等 DoT 掉血（来源仍算敌人）同样触发反弹；自己打自己或无来源的掉血不触发。多个敌人轮流攻击时每次受击都各反弹一次，敌人攻击越频繁、段数越多，中毒叠得越快。
-- **持续时间**：能力 3 层，每个自己回合开始前 -1 层，覆盖打出后的 **3 个敌方回合**（反弹在敌方回合生效、衰减在自己回合开始前，正好错开不损失）。多次打出层数叠加，覆盖时间顺延。
+- **反弹机制细节**：触发条件是"受到伤害且伤害来源是敌人"——敌人直接攻击、或由敌方能力结算且以该敌人为来源的伤害都会触发；**中毒、灼烧等回合开始掉血没有伤害来源，不触发反弹**；自己打自己或无来源的掉血同样不触发。多个敌人轮流攻击时每次受击都各反弹一次，敌人攻击越频繁、段数越多，中毒叠得越快。
+- **持续时间**：能力 3 层，每个自己回合开始前 -1 层，覆盖打出后的 **3 个敌方回合**（反弹在敌方回合生效、衰减在自己回合开始前，正好错开不损失）。多次打出层数叠加、覆盖时间顺延——但带[凝驻](/mechanics/ningzhu.md)，首次打出后本场战斗不会再被洗回抽牌堆，想叠层得先用捞牌效果取回。
 - **中毒机制**：中毒生物在自身回合开始时失去等于层数的生命，随后层数减半。多次受击不断叠加，敌人攻击频率越高毒性滚得越快。
 - **格挡保底**：8 格挡保证反弹期间不裸奔。注意格挡挡掉的伤害**依然触发反弹**（判定的是"受到伤害"事件而非实际掉血），贴脸承伤不是必须的。
 - **配合建议**：面对多段攻击/群殴型敌人收益最高；配合中毒加深/层数翻倍类效果放大反弹毒性；3 个敌方回合的窗口内敌人攻击欲望越强，这张牌越超值。
@@ -50,6 +50,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 ## 相关机制
 
 - [格挡](/mechanics/block.md)（获得 8 点格挡）
+- [凝驻](/mechanics/ningzhu.md)（首次打出后不再洗回抽牌堆）
 
 ## 源码
 

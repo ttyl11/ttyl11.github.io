@@ -28,17 +28,17 @@
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有敌人造成<span style="color:#d44;font-weight:600">7</span>点伤害，然后将[弃牌堆](/mechanics/discard_pile.md)洗入[抽牌堆](/mechanics/draw_pile.md)。
+PP: 5/5 对所有敌人造成<span style="color:#3aa675;font-weight:600">7</span>点伤害，将<span style="color:#d4a017;font-weight:600">弃牌堆</span>的牌洗入<span style="color:#d4a017;font-weight:600">抽牌堆</span>。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有敌人造成<span style="color:#d44;font-weight:600">10</span>点伤害，然后将[弃牌堆](/mechanics/discard_pile.md)洗入[抽牌堆](/mechanics/draw_pile.md)。
+PP: 5/5 对所有敌人造成<span style="color:#3aa675;font-weight:600">10</span>点伤害，将<span style="color:#d4a017;font-weight:600">弃牌堆</span>的牌洗入<span style="color:#d4a017;font-weight:600">抽牌堆</span>。
 
 ## 小贴士
 
 - **1 费最高效 PP 全体攻击**：仅 1 费对所有敌人造成 7 点伤害（升级 10 点），是全体攻击牌中单体伤害与总伤兼顾的优秀选择。升级后 10 点全体伤害在 1 费档位属于异常收益，优先级极高。
 
-- **洗牌的战略价值**：将弃牌堆全部洗回抽牌堆，让之前打出的低 PP 消耗牌重新进入随机循环。若弃牌堆中有高价值牌（格挡牌、回复牌、带附魔的 PP 牌），收益巨大；若全是废牌则收益较低。
+- **洗牌的战略价值**：将弃牌堆全部洗回抽牌堆（抽牌堆里剩余的牌也会一起重洗），让之前打出的低 PP 消耗牌重新进入随机循环。若弃牌堆中有高价值牌（格挡牌、回复牌、带附魔的 PP 牌），收益巨大；若全是废牌则收益较低。注意洗牌规则：[凝驻](/mechanics/ningzhu.md)牌会留在弃牌堆不参与洗牌，[迟涌](/mechanics/chiyong.md)牌会被放到抽牌堆底。
 
 - **抽牌堆为空时仍生效**：即使弃牌堆为空，此牌照常造成伤害，只是无额外效果。1 费 7 点伤害本身不亏。
 

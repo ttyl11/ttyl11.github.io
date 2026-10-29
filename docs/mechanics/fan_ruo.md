@@ -21,6 +21,7 @@
 - [染夜天妖](/cards/character/night_demon.md)
 - [孤身绝念刺](/cards/character/lone_despair_stab.md)
 - [夷灭](/cards/character/yimie.md)
+- [尘封八荒](/cards/character/dust_sealed_eight_wastes.md)
 
 ## 相关词条
 

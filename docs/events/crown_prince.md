@@ -1,16 +1,17 @@
-# 储君（职业导师）
+# 群星王座的继承人
 
 华美的石室，石壁上嵌着会发光的纹路，像活着的星河。紫金色长袍的身影坐在石台正中，一手托腮转着一颗发光的星体。"哦？一个旅人！我从没见过像你这样的人。"
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_crown_prince.png" alt="储君（职业导师）" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_crown_prince.png" alt="群星王座的继承人" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**：职业导师事件
 - **战斗**：否
 - **卡池主题**：无色、[铸造](/mechanics/forge.md)、辉星相关的储君/无色卡牌
+- **出现层数**：1~5 层
 
 ## 选项一览
 

@@ -1,6 +1,6 @@
-# 第五技能图鉴（23 项）
+# 第五技能图鉴（25 项）
 
-第五技能是独立于常规卡池的 23 张特殊卡牌——平时不进入任何普通牌池，只有获得对应的解锁遗物后，才会按概率出现在战斗奖励与商店的无色栏位中。
+第五技能是独立于常规卡池的 25 张特殊卡牌——平时不进入任何普通牌池，只有获得对应的解锁遗物后，才会按概率出现在战斗奖励与商店的无色栏位中。
 
 ## 获取途径
 
@@ -47,9 +47,12 @@
 | <img src="/images/cards/contract_destruction.png" alt="禁术·契灭" style="width:80px;height:auto" /> | [禁术·契灭](contract_destruction) | [坦普瑞](/relics/epic/tan_pu_rui.md) 9.1%<br/>[节制](/relics/common/tarot_temperance.md) 7%<br/>[教皇](/relics/common/tarot_hierophant.md) 1.9%<br/>[海棠教皇·未明](/relics/epic/hai_tang_jiao_huang_wei_ming.md) 3.9% | 蚀返。PP: 1/1 消耗手牌中所有PP卡牌，造成消耗PP的3倍伤害。消耗PP>15：翻倍并获1层缓冲。堕落20。 |
 | <img src="/images/cards/destined_star_bond.png" alt="婵·命定星缘" style="width:80px;height:auto" /> | [婵·命定星缘](destined_star_bond) | [武心婵](/relics/legendary/wu_xin_chan.md) 15%<br/>[卫岳](/relics/epic/wei_yue.md) 3.2%<br/>[霍光](/relics/epic/huo_guang.md) 2.7% | PP: 1/1 下一次攻击伤害2.5倍。对所有敌人造成20+自身最大生命值25%的固定伤害，施加2种随机异常状态2回合。恢复30%已损失生命。 |
 | <img src="/images/cards/yue_fate_star_sigh.png" alt="岳·命寻星叹" style="width:80px;height:auto" /> | [岳·命寻星叹](yue_fate_star_sigh) | [卫岳](/relics/epic/wei_yue.md) 15%<br/>[武心婵](/relics/legendary/wu_xin_chan.md) 3.2%<br/>[霍光](/relics/epic/huo_guang.md) 2.7% | PP: 1/1 悼。下个回合所有牌会多打出一次。 |
+| <img src="/images/cards/holy_flash.png" alt="圣灵魔闪光" style="width:80px;height:auto" /> | [圣灵魔闪光](holy_flash) | [圣灵起源](/relics/starter/origin_shift.md) 1%<br/>[圣灵谱尼](/relics/legendary/specter.md) 10% | 溯引。PP: 5/5 随机消耗抽牌堆X张牌。造成敌方1/8当前生命值的伤害X次。 |
+| <img src="/images/cards/evil_spirit_flash.png" alt="邪灵魔闪光" style="width:80px;height:auto" /> | [邪灵魔闪光](evil_spirit_flash) | [混沌起源](/relics/starter/chaos_origin.md) 1%<br/>[混沌魔君索伦森](/relics/legendary/chaos_demon_lord.md) 10% | PP: 5/5 获得X点能量。造成敌方最大生命值1/8的伤害X次。堕落增加等同于当前堕落层数的X倍。 |
 
 ## 小贴士
 
 - **概率按遗物叠加**：同一张卡可由多件遗物解锁，同时持有时概率相加——如同时持有[坦普瑞](/relics/epic/tan_pu_rui.md)与[节制](/relics/common/tarot_temperance.md)，[禁术·契灭](contract_destruction)的出现概率为 9.1% + 7% = 16.1%。
 - **进化链越深概率越高**：莱茵哈特进化链的解锁概率随阶段递进——[小特](/relics/common/xiao_te.md) 1% → [莱茵](/relics/uncommon/lai_yin.md) 2% → [莱茵哈特](/relics/rare/lai_yin_ha_te.md) 4% → [混沌地王·莱茵哈特](/relics/epic/hun_dun_di_wang_lai_yin_ha_te.md) 8% → [混沌地王·莱茵哈特（觉醒）](/relics/legendary/hun_dun_di_wang_lai_yin_ha_te_awakened.md) 16%，终局形态拿到[王·天乖陆离](king_heaven_strange)的概率最高。
+- **初始遗物 1% → 先古版 10%**：[圣灵魔闪光](holy_flash)在[圣灵起源](/relics/starter/origin_shift.md)下只有 1%，升级为[圣灵谱尼](/relics/legendary/specter.md)后升到 10%；[邪灵魔闪光](evil_spirit_flash)同理，从[混沌起源](/relics/starter/chaos_origin.md) 1% 提升到[混沌魔君索伦森](/relics/legendary/chaos_demon_lord.md) 10%。两张闪光就是各自角色初始遗物的第五技能，初始遗物 1% 几乎刷不出来，先古版 10% 才算真正能用。
 - **两张第五技能另有遗物直给来源（不占概率）**：[婵·命定星缘](destined_star_bond) 由[武心婵](/relics/legendary/wu_xin_chan.md)在三色龙鳞全失、觉醒白色龙鳞时直接加入手牌；[岳·命寻星叹](yue_fate_star_sigh) 由[卫岳](/relics/epic/wei_yue.md)在拥君之盾与绝缘之罩双开时直接加入手牌。两条途径各每场战斗限 1 张，与上表概率途径互不影响。**遗物直给的那一张耗能额外降为 0**（[婵·命定星缘](destined_star_bond) 本体 4 费、[岳·命寻星叹](yue_fate_star_sigh) 本体 2 费）。

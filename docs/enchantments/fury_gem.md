@@ -1,4 +1,4 @@
-﻿# 狂暴宝石
+# 狂暴宝石
 
 <img src="/images/enchantments/seer_fury_gem.png" alt="狂暴宝石" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -27,7 +27,7 @@
 
 ## 相关状态
 
-- [狂暴](/powers/fury_power.md)：异常状态（Buff）。持有者攻击伤害每层 +<span style="color:#3aa675;font-weight:600">25</span>%；每回合末层数 -1
+- [狂暴](/powers/fury_power.md)：增益（Buff），不属于[异常状态](/mechanics/abnormal-status.md)。持有者攻击伤害每层 +<span style="color:#3aa675;font-weight:600">25</span>%；每回合末层数 -1
 
 ## 小贴士
 

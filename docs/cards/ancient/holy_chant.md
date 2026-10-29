@@ -23,15 +23,16 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">7</span>/<span style="color:#3aa675;font-weight:600">7</span><br/>获得<span style="color:#3aa675;font-weight:600">150</span>pp，分配给未满卡牌的pp，每溢出1点，获得等量[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。
+PP: 7/7 获得<span style="color:#3aa675;font-weight:600">150</span>pp，每溢出1点，获得等量格挡。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">7</span>/<span style="color:#3aa675;font-weight:600">7</span><br/>获得<span style="color:#3aa675;font-weight:600">240</span>pp，分配给未满卡牌的pp，每溢出1点，获得等量[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。
+PP: 7/7 获得<span style="color:#3aa675;font-weight:600">240</span>pp，每溢出1点，获得等量格挡。
 
 ## 小贴士
 
-- **PP 随机分配给未满卡**：获得的 150 pp（升级后 240）随机分给所有 PP 未满的 PP 卡牌——**不分牌堆位置**（手牌/抽牌堆/弃牌堆/消耗堆里的 PP 卡都算），每张 +1 直到分完或全部补满。分配是随机的（CombatTargets RNG），多人模式两端一致。
+- **PP 随机分配给未满卡**：获得的 150 pp（升级后 240）随机分给所有 PP 未满的 PP 卡牌——**不分牌堆位置**（手牌/抽牌堆/弃牌堆/消耗堆/打出堆里的 PP 卡都算），每张 +1 直到分完或全部补满。分配是随机的（CombatTargets RNG），多人模式两端一致。
+- **会给自己回 PP**：打出后这张牌自己进入打出堆，也是“未满 PP 卡”之一，可能被自己的分配补回 PP。它随后进入弃牌堆，之后若再抽到、PP 也够，可以再次打出。
 - **溢出转格挡**：所有卡都补满后，剩余的 pp 每点转化为 1 点[格挡](/mechanics/block.md)。这个格挡**不受力量影响**，是固定值。
 - **卡满时是巨额格挡**：若所有 PP 卡都已补满，150 pp 全部溢出 = 150 点格挡（升级后 240）。配合前期 PP 管理到位，一张牌可顶一面墙。
 - **性价比**：1 费换 150 pp 分配或最多 150 格挡，先古稀有度配得上这个弹性。升级 +90 pp 让上限更高，溢出场景下收益直线提升。

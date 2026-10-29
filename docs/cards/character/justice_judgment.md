@@ -24,11 +24,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 造成<span style="color:#3aa675;font-weight:600">100</span>点伤害，并给对手附加<span style="color:#3aa675;font-weight:600">100</span>点[<span style="color:#9b59b6;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。自身<span style="color:#d4a017;font-weight:600">牌组</span>每有一张牌，能耗<span style="color:#3aa675;font-weight:600">-1</span>。
+PP: 1/1 造成<span style="color:#3aa675;font-weight:600">100</span>点伤害，对手<span style="color:#d4a017;font-weight:600">固定伤害</span><span style="color:#3aa675;font-weight:600">100</span>。自身<span style="color:#d4a017;font-weight:600">牌组</span>每有一张牌，能耗<span style="color:#3aa675;font-weight:600">-1</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 造成<span style="color:#3aa675;font-weight:600">100</span>点伤害。并给对手附加<span style="color:#3aa675;font-weight:600">250</span>点[<span style="color:#9b59b6;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。自身<span style="color:#d4a017;font-weight:600">牌组</span>每有一张牌，能耗<span style="color:#3aa675;font-weight:600">-1</span>。
+PP: 1/1 造成<span style="color:#3aa675;font-weight:600">100</span>点伤害，对手<span style="color:#d4a017;font-weight:600">固定伤害</span><span style="color:#3aa675;font-weight:600">250</span>。自身<span style="color:#d4a017;font-weight:600">牌组</span>每有一张牌，能耗<span style="color:#3aa675;font-weight:600">-1</span>。
 
 ## 小贴士
 
@@ -41,7 +41,7 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 - **不删牌反而是赚**：绝大多数构筑思路都在做减法（删弱牌提高抽牌质量），这张牌把逻辑完全反过来——**每删一张牌，它就贵 1 费**。围绕它构筑时，商店的删牌服务、事件中的移除选项都变成负收益；反而"获得随机牌""往牌组塞牌"类效果（哪怕塞进来的是平庸牌）都在给它降费。这是 mod 里最极端的反主流构筑方向之一。
 - **两段斩杀线**：打出时先造成 <span style="color:#3aa675;font-weight:600">100</span> 点攻击伤害（吃力量/增伤，会被格挡），再附加 <span style="color:#3aa675;font-weight:600">100</span> 点（升级 <span style="color:#3aa675;font-weight:600">250</span> 点）[固定伤害](/powers/fixed_damage_power.md)——固伤在目标下回合开始时结算、不吃格挡。基础合计 200 点斩杀线，升级后 350 点，足以单独终结一场战斗的后期 Boss。
 - **升级只涨固伤**：攻击伤害固定 100 不变，升级把固伤 100 → 250（+150）。对高血量目标来说升级收益极高，建议在卡组成型后优先升级它。
-- **芜生关键词**：带[芜生](/mechanics/void_birth.md)，打出后此牌转化为"芜"。它本身 PP: 1/1、一场也只会打出一次，转化对它几乎没有额外代价。
+- **芜生关键词**：带[芜生](/mechanics/void_birth.md)，打出后此牌转化为"芜"。芜是[不可打出](/mechanics/unplayable.md)的状态牌，同一场战斗中累计到 <span style="color:#3aa675;font-weight:600">5</span> 张时你会直接死亡。这张牌自己每场只留下 <span style="color:#3aa675;font-weight:600">1</span> 张芜，单张不致命；但如果你还带了其它芜生牌，就要把它们的芜一起算进总数。
 - **0 费形态的爽点**：卡组堆到 60 张时它彻底免费，"0 费打 100+250"是这套大卡组构筑给玩家的终极回报——届时每回合多余的能量都可以砸在过牌上，把它尽快抽到手。
 
 ## 相关能力

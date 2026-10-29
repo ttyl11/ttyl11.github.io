@@ -19,10 +19,10 @@
 
 ## 描述
 
-首回合开始时，<span style="color:#d4a017;font-weight:600">[召唤](/mechanics/summon.md)</span>（生命为自身最大生命的<span style="color:#3aa675;font-weight:600">40</span>%+<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span>层数），并<span style="color:#d4a017;font-weight:600">[击晕](/mechanics/stun.md)</span>随机1个敌方。<br/>奥斯提存活时：①奥斯提每损失 10% 生命，当回合自身<span style="color:#d4a017;font-weight:600">攻击伤害</span>+<span style="color:#3aa675;font-weight:600">5</span>%；②自身处于<span style="color:#d44;font-weight:600">[异常状态](/mechanics/abnormal-status.md)</span>时，回合开始时抽 1 张牌；③自身任一[属性](/mechanics/all_attributes.md)为负值时，回合结束时回复<span style="color:#3aa675;font-weight:600">3</span>点生命。<br/>奥斯提死亡时（每场战斗 1 次）：<span style="color:#d4a017;font-weight:600">[击晕](/mechanics/stun.md)</span>随机1个敌方，获得<span style="color:#3aa675;font-weight:600">3</span>层<span style="color:#9b59b6;font-weight:600">[辛之印记](/powers/debuff_immune_power.md)</span>。
+战斗开始时，<span style="color:#d4a017;font-weight:600">召唤</span>奥斯提（生命为自身最大生命的<span style="color:#3aa675;font-weight:600">40</span>%），<span style="color:#d4a017;font-weight:600">击晕</span>随机1个敌方。<br/>奥斯提存活时：①回合开始时，奥斯提每损失10%生命，当回合<span style="color:#d4a017;font-weight:600">攻击伤害</span>+<span style="color:#3aa675;font-weight:600">5</span>%；②回合开始时，若自身处于<span style="color:#d44;font-weight:600">异常状态</span>，抽1张牌；③若自身任一属性为负值，回合结束时回复<span style="color:#3aa675;font-weight:600">3</span>点生命。<br/>奥斯提死亡时，<span style="color:#d4a017;font-weight:600">击晕</span>随机1个敌方（每场战斗1次），获得<span style="color:#3aa675;font-weight:600">3</span>层<span style="color:#9b59b6;font-weight:600">辛之印记</span>（减伤<span style="color:#d44;font-weight:600">异常状态</span>伤害）。
 
 - **增伤档位**：奥斯提每损失10%生命（向下取整），自身攻击伤害+5%。奥斯提半血时+25%，血量只剩10%左右时+45%——**死亡瞬间归零**（奥斯提不存活则无加成），理论最高+45%而非+50%。
-- **属性负值检测**：回合开始时检查力量、敏捷、命中、速度、防御五项属性，任一为负则回合结束回复3点生命。
+- **属性负值检测**：回合开始时检查力量、命中、速度、防御四项属性，任一为负则回合结束回复3点生命。
 - **辛之印记附带专属减伤**：奥斯提死亡时获得的[辛之印记](/powers/debuff_immune_power.md)（实现为能力[异常免疫](/powers/debuff_immune_power.md)，悬浮框已收录「辛之印记」条目）免疫异常状态 3 个敌方回合；且这件遗物让**你身上的辛之印记层数（不限来源）**每层减少 33% 受到的**不可格挡伤害**（异常伤害、固定伤害等，3 层=99%，上限 100%）——用[灼目天星](/cards/character/blinding_heaven_star.md)等卡牌补的层数同样计入这个减伤。
 
 ## 风味文字
@@ -32,10 +32,10 @@
 ## 小贴士
 
 - **首回合召唤奥斯提+击晕**：首回合开始时召唤奥斯提（生命为自身最大生命40% + 当前[堕落](/powers/fallen_power.md)层数），并随机击晕1个敌方。开局就有人帮你承伤+控场，节奏领先。
-- **堕落越多召唤越肉**：召唤生命额外加算堕落层数——战斗开始就叠堕落的遗物/效果（如紫拉特的战斗开始堕落51、八岐大蛇的蛇字牌堕落等）会直接加厚奥斯提。堕落越高的构筑，奥斯提越能扛，残血增伤区间也越持久。
+- **堕落越多召唤越肉（但它是负债）**：召唤生命额外加算堕落层数——战斗开始就叠堕落的遗物/效果（如紫拉特的战斗开始堕落 51、八岐大蛇的蛇字牌堕落等）会直接加厚奥斯提。不过[堕落](/powers/fallen_power.md)本身是负面层数：堆得越高，[魔君接管](/powers/demon_takeover_power.md)的强控越频繁，等于用失控换召唤物的身板。
 - **奥斯提越残血自身攻击越强**：奥斯提存活时，每损失10%生命自身攻击伤害+5%。奥斯提掉到半血时自身攻击+25%，残血只剩一成时+45%。奥斯提承伤=自身增伤，双刃剑设计——想增伤就得让奥斯提挨打，但**别让它打死**：死亡瞬间增伤清零，所有档位收益当场蒸发。控制奥斯提血线在"残而不死"是这件遗物的操作核心。
 - **异常状态抽牌补偿**：奥斯提存活时，回合开始若自身处于异常状态，抽1张牌。被上异常不亏反赚，相当于异常状态的补偿机制。
-- **属性为负回血兜底**：奥斯提存活时，自身任一属性（力量/敏捷/命中/速度/防御）为负，回合结束回3点血。对抗削属性敌人的续航手段。
+- **属性为负回血兜底**：奥斯提存活时，自身任一属性（力量/命中/速度/防御）为负，回合结束回3点血。对抗削属性敌人的续航手段。
 - **奥斯提死亡触发辛之印记+击晕**：奥斯提死亡时获得 3 层[辛之印记](/powers/debuff_immune_power.md)（免疫异常 3 个敌方回合 + 不可格挡减伤 99%），并击晕随机敌方（每场 1 次）。奥斯提死后不白死，留下保命+控场遗产。被固伤/毒烧流敌人压着打时，故意让奥斯提送死换 3 层减伤反而是正解。
 - **增伤只对攻击伤害生效**：奥斯提残血增伤加成的是你造成的所有攻击类伤害（攻击牌、反击等），固定伤害、中毒等非攻击伤害不受影响。想最大化增伤收益集中打攻击牌。
 - **性价比**：传说稀有度合理——召唤+击晕+增伤+抽牌+回血+死亡遗产六合一，全能型传说遗物。

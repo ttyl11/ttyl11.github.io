@@ -10,7 +10,7 @@
 - **稀有度**: 罕见
 - **目标**: 无
 - **可升级**: 否
-- **关键词**: [回收](/mechanics/hui_shou.md)
+- **关键词**: [虚无](/mechanics/ethereal.md)、[回收](/mechanics/hui_shou.md)
 
 ### 数值参数
 
@@ -20,7 +20,7 @@
 
 ## 描述
 
-获得<span style="color:#3aa675;font-weight:600">36</span>[<span style="color:#d4a017;font-weight:600">金币</span>](/mechanics/money_pouch.md)。打出后重新放入[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)。
+获得<span style="color:#3aa675;font-weight:600">36</span><span style="color:#d4a017;font-weight:600">金币</span>。<span style="color:#d44;font-weight:600">回收</span>。
 
 ## 小贴士
 

@@ -15,7 +15,7 @@
 
 ## 描述
 
-永久变[自然系](/powers/nature_power.md)，手牌加入<span style="color:#3aa675;font-weight:600">4</span>张随机 0 费牌。
+永久变[自然系](/powers/nature_power.md)，从本角色卡池加入 <span style="color:#3aa675;font-weight:600">4</span> 张随机 0 费牌到手牌。
 
 ## 详细机制
 

@@ -13,8 +13,9 @@
 
 ## 描述
 
-战斗开始时使敌人臣服并害怕2回合。
+战斗开始时，使敌人获得<span style="color:#3aa675;font-weight:600">4</span>层<span style="color:#d4a017;font-weight:600">臣服</span>与<span style="color:#3aa675;font-weight:600">4</span>层<span style="color:#d4a017;font-weight:600">害怕</span>。
 
 ## 源码
 
 - `SeerBeastKingPower.cs`
+- `SeerMenghuwangMonster.cs`（开局施加臣服/害怕各 4 回合）

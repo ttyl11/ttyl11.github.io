@@ -19,13 +19,13 @@
 
 ## 描述
 
-①战斗开始时，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">[先制](/powers/first_strike_power.md)</span>，进入<span style="color:#9b59b6;font-weight:600">[圣谕形态](/powers/divine_form_power.md)</span>。<br/>②每打出<span style="color:#3aa675;font-weight:600">12</span>张牌变换形态，变换时获得1层<span style="color:#d4a017;font-weight:600">[先制](/powers/first_strike_power.md)</span>。<br/>③回合结束时，随机为<span style="color:#3aa675;font-weight:600">1</span>张手牌附加<span style="color:#d4a017;font-weight:600">[保留](/mechanics/retain.md)</span>。<br/>④回合开始时，若场上任一敌人的<span style="color:#9b59b6;font-weight:600">[邪诲](/powers/evil_teaching_power.md)</span>或<span style="color:#9b59b6;font-weight:600">[圣诰](/powers/holy_edict_power.md)</span>达到<span style="color:#3aa675;font-weight:600">10</span>层，获得1张<span style="color:#d4a017;font-weight:600">[墟埪](/cards/character/xukong.md)</span>并<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span><span style="color:#3aa675;font-weight:600">48</span>%。
+①战斗开始时，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">先制</span>，进入<span style="color:#9b59b6;font-weight:600">圣谕形态</span>。<br/>②每打出<span style="color:#3aa675;font-weight:600">12</span>张牌变换形态，变换时获得1层<span style="color:#d4a017;font-weight:600">先制</span>。<br/>③回合结束时，随机为<span style="color:#3aa675;font-weight:600">1</span>张手牌附加<span style="color:#d4a017;font-weight:600">保留</span>。
 
-- **两种形态的效果**：[圣谕形态](/powers/divine_form_power.md)（开局默认）——免疫[固定伤害](/mechanics/fixed-damage.md)和[异常状态](/mechanics/abnormal-status.md)的施加（防御向）；[邪形态](/powers/evil_form_power.md)——受到的**所有来源伤害** -25%（攻击/固定/异常都算，不限类型）+ 免疫属性降低（力量/防御/速度/命中的负值施加归零）。
-- **教谕体系（攻防都在叠）**：你的**攻击**命中敌人时给目标挂 1 层教谕（圣谕形态挂[圣谕](/powers/holy_edict_power.md)，邪形态挂[邪教谕](/powers/evil_teaching_power.md)）；你**被敌人攻击**命中时给攻击者也挂 1 层（反过来）。两种教谕的效果：圣谕——持有者每次受到攻击伤害时 60% 概率[疲惫](/powers/fatigue_power.md) 2 回合；邪教谕——你攻击持有者时回复造成伤害的 20%（吸血）。
+- **两种形态的效果**：[圣谕形态](/powers/divine_form_power.md)（开局默认）——免疫[固定伤害](/mechanics/fixed-damage.md)和[异常状态](/mechanics/abnormal-status.md)的施加（防御向）；[邪魇形态](/powers/evil_form_power.md)——受到的**所有来源伤害** -25%（攻击/固定/异常都算，不限类型）+ 免疫属性降低（力量/防御/速度/命中的负值施加归零）。
+- **教谕体系（攻防都在叠）**：你的**攻击**命中敌人时给目标挂 1 层教谕（圣谕形态挂[圣诰](/powers/holy_edict_power.md)，邪魇形态挂[邪诲](/powers/evil_teaching_power.md)）；你**被敌人攻击**命中时给攻击者也挂 1 层（反过来）。两种教谕的效果：圣诰——持有者每次受到攻击伤害时 60% 概率[疲惫](/powers/fatigue_power.md) 2 回合；邪诲——你攻击持有者时回复造成伤害的 20%（吸血）。
 - **教谕的持续**：怪物每次受击后，若本次伤害低于"层数 × 50%"才消耗 1 层——常规攻击（伤害 ≥ 1）打 1~2 层的教谕几乎不掉层，教谕接近永久光环；只有高层数教谕才会被多段轻击磨掉。
 - **随机保留**：回合结束时从手牌中**排除已有[保留](/mechanics/retain.md)的牌**，随机 1 张附加单回合保留——已经保留的牌不会被重复选中，每回合保底 1 张新牌不弃。
-- **教谕满层发牌**：④在你的回合开始时检查全场——只要**任意一个敌人**身上的[邪诲](/powers/evil_teaching_power.md)或[圣诰](/powers/holy_edict_power.md)达到 10 层，就获得 1 张[墟埪](/cards/character/xukong.md)（直接入手牌），并获得当前堕落层数 48% 的[堕落](/powers/fallen_power.md)。教谕叠得越快，墟埪和堕落滚得越快，是教谕体系的变现出口。
+- **教谕满层发牌**：④在你的回合开始时检查全场——只要**任意一个敌人**身上的[邪诲](/powers/evil_teaching_power.md)或[圣诰](/powers/holy_edict_power.md)达到 10 层，就获得 1 张[墟埪](/cards/character/xukong.md)（直接入手牌），并获得当前堕落层数 48% 的[堕落](/powers/fallen_power.md)。教谕叠得越快，墟埪和堕落滚得越快，是教谕体系的变现出口。注意[堕落](/powers/fallen_power.md)是负面层数：48% 复利滚得快，层数破百就会招来[魔君接管](/powers/demon_takeover_power.md)强控乱打。
 
 ## 风味文字
 
@@ -33,13 +33,13 @@
 
 ## 小贴士
 
-- **双形态是两种生存哲学，不是强弱之分**：圣谕形态免固伤+免异常，专克控制流和固伤流敌人；邪形态全伤害 -25% + 免属性剥夺，专克高攻物理和降属性流。开局固定圣谕形态，前 12 张牌享受免控铺场——面对不吃控制的敌人，尽快打满 12 张切邪形态吃减伤；反之就在圣谕里多待一会儿。
-- **教谕让攻防一体**：不管你处在哪种形态，**进攻和挨打都在给敌人叠教谕**——圣谕形态下你打人挂圣谕（对面挨打 60% 疲惫）、挨打给攻击者挂邪教谕（下次你打它就吸血）；邪形态下正好反过来。多段攻击牌一跳一挂，教谕叠得飞快。教谕接近永久（常规伤害不掉层），等于给全场敌人长期挂"挨打疲惫"或"被我打=我吸血"的光环。
-- **吸血按已造成伤害结算**：邪教谕的吸血是"回复**实际造成伤害**的 20%"——被[格挡](/mechanics/block.md)挡掉的部分不算。打高格挡敌人时吸血收益缩水。
+- **双形态是两种生存哲学，不是强弱之分**：圣谕形态免固伤+免异常，专克控制流和固伤流敌人；邪魇形态全伤害 -25% + 免属性剥夺，专克高攻物理和降属性流。开局固定圣谕形态，前 12 张牌享受免控铺场——面对不吃控制的敌人，尽快打满 12 张切邪魇形态吃减伤；反之就在圣谕里多待一会儿。
+- **教谕让攻防一体**：不管你处在哪种形态，**进攻和挨打都在给敌人叠教谕**——圣谕形态下你打人挂圣诰（对面挨打 60% 疲惫）、挨打给攻击者挂邪诲（下次你打它就吸血）；邪魇形态下正好反过来。多段攻击牌一跳一挂，教谕叠得飞快。教谕接近永久（常规伤害不掉层），等于给全场敌人长期挂"挨打疲惫"或"被我打=我吸血"的光环。
+- **吸血按已造成伤害结算**：邪诲的吸血是"回复**实际造成伤害**的 20%"——被[格挡](/mechanics/block.md)挡掉的部分不算。打高格挡敌人时吸血收益缩水。
 - **12 张牌的节奏管理**：变换计数只认"打出"不认"弃掉"，一回合打 6 张牌两回合就能切一次形态。注意变换发生在**第 12 张牌打出的瞬间**（当场结算，不是下回合）——如果你正指望圣谕形态的免异常挡下一次控制，差 1 张变换时反而要克制出牌。变换送的 1 层[先制](/powers/first_strike_power.md)让下一张牌 -1 费，配合变换时机的规划能白嫖不少费用。
 - **先制三层起步**：开局 1 层 + 每次变换 1 层。一场打满 36 张牌的长战斗能白嫖 4 层先制（开局+3 次变换），等于 4 张牌各省 1 费。
 - **随机保留是保底不是规划**：③每回合结束随机留 1 张未保留的手牌——你无法控制留哪张，关键牌别指望它，要靠牌自身的[保留](/mechanics/retain.md)关键词或主动手段。它的真实价值是把"回合结束弃光"变成"永远有 1 张种子留到下回合"，配合下回合先制的减费，多 1 张手牌就多 1 次出牌选择。
-- **教谕叠满=每回合白拿墟埪**：①开局圣谕形态下你打人挂圣诰、挨打挂邪诲（切邪形态后相反），教谕常规攻击几乎不掉层，10 层门槛通常几个回合就能攒到。触发后每回合固定白拿 1 张墟埪（清空全场加成再转化为等量邪诲/圣诰，自我循环），同时堕落按 48% 复利滚雪球——层数越高涨得越快，满 100 层还会触发混沌化身的连锁效果。
+- **教谕叠满=每回合白拿墟埪**：①开局圣谕形态下你打人挂圣诰、挨打挂邪诲（切邪魇形态后相反），教谕常规攻击几乎不掉层，10 层门槛通常几个回合就能攒到。触发后每回合固定白拿 1 张墟埪（清空全场加成再转化为等量邪诲/圣诰，自我循环），同时堕落按 48% 复利滚雪球——层数越高涨得越快，而满 100 层会连同[混沌化身](/mechanics/chaos-incarnation.md)一起触发[魔君接管](/powers/demon_takeover_power.md)（强控乱打），不是纯赚。
 - **性价比**：传说稀有度名副其实——双形态切换的攻防体系 + 教谕的全场持续压制 + 先制与保留的节奏润滑 + 教谕满层后每回合白拿墟埪并滚堕落，机制自洽且全程有存在感。
 
 ## 源码

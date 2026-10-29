@@ -23,11 +23,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">9</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。若此牌为本回合首张打出的牌，对所有敌人施加<span style="color:#3aa675;font-weight:600">3</span>层[<span style="color:#9b59b6;font-weight:600">冻伤</span>](/powers/frostbite_power.md)。
+PP: 5/5 获得<span style="color:#3aa675;font-weight:600">9</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。若此牌为本回合首张打出的牌，所有敌人<span style="color:#d4a017;font-weight:600">冻伤</span>3。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">14</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。若此牌为本回合首张打出的牌，对所有敌人施加<span style="color:#3aa675;font-weight:600">3</span>层[<span style="color:#9b59b6;font-weight:600">冻伤</span>](/powers/frostbite_power.md)。
+PP: 5/5 获得<span style="color:#3aa675;font-weight:600">14</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。若此牌为本回合首张打出的牌，所有敌人<span style="color:#d4a017;font-weight:600">冻伤</span>3。
 
 ## 详细机制
 

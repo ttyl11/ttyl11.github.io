@@ -14,7 +14,7 @@
 
 ## 描述
 
-每当自己获得[<span style="color:#9b59b6;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)时，立刻给对面所有怪物附加相同的[<span style="color:#9b59b6;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。
+每当自己获得<span style="color:#d44;font-weight:600">异常状态</span>时，立刻给所有敌人附加相同的<span style="color:#d44;font-weight:600">异常状态</span>。
 
 ## 详细机制
 
@@ -22,14 +22,14 @@
 - **触发条件**：
   - 拥有者自身获得异常状态
   - 仅可见的异常状态
-  - 仅层数增加时触发
-  - 仅 24 种[异常状态](/mechanics/abnormal-status.md)触发
-- **反弹效果**：对每个可攻击的敌人施加相同类型和层数的异常状态。
+  - 仅层数增加时触发（衰减不触发）
+  - 全量 27 种[异常状态](/mechanics/abnormal-status.md)（含狂暴、凝滞、超频、星赐）
+- **反弹效果**：对每个可攻击的敌人施加相同类型、与本次增量相同的层数。
 - **叠加特性**：单例（不叠加），重复施加无效。
 
 ## 相关机制
 
-- [异常状态](/mechanics/abnormal-status.md)（24 种异常状态反弹）
+- [异常状态](/mechanics/abnormal-status.md)（全量 27 种异常状态反弹）
 
 ## 相关卡牌
 

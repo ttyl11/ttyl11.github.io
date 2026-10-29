@@ -13,7 +13,13 @@
 
 ## 描述
 
-在其回合开始时，若自身处于<span style="color:#d4a017;font-weight:600">石化</span>状态，则<span style="color:#d4a017;font-weight:600">力量</span>翻倍。
+自身回合开始时，若自身处于<span style="color:#d4a017;font-weight:600">石化</span>状态，<span style="color:#d4a017;font-weight:600">力量</span>翻倍。
+
+## 详细机制
+
+- **触发时点**：自己每个回合开始前。
+- **条件**：身上有「石化」能力，且力量 > 0；无力量时不触发。
+- **翻倍**：按当前力量再施加等量力量（+N → 2N）。
 
 ## 源码
 

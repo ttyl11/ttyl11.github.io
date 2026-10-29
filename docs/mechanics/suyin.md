@@ -20,13 +20,22 @@
 
 关键细节：
 
-- 溯引是**纯触发型关键词**，描述文本中不显示，只在关键词列表中可见
+- 溯引是**纯触发型关键词**，具体效果写在卡牌描述里，关键词本身只提供触发时机（默认无效果）
 - 触发时机在**抽牌阶段**，不受是否在手牌中打出影响——即使这张牌留在手牌不打，溯引效果也已结算
-- 与**迁鸣**（牌堆变化时触发）的区别：溯引仅响应"被抽到手牌"这一动作，迁鸣响应更广泛的牌堆状态变更（洗牌、抽牌堆顶变化等）
+- **每抽到一次就触发一次**：牌被洗回牌组后再次抽到，会再次触发，不是整场战斗只触发一次
+- 与**迁鸣**的区别：溯引只在"这张牌被抽到手牌"时触发；迁鸣在这张牌于牌堆之间移动时触发（不包括进入打出堆）
 
 ## 带溯引的卡牌
 
-- [圣杯](/cards/colorless/holy_grail.md)：抽到此牌时生成 1 个圣杯充能球
+- [圣杯](/cards/colorless/holy_grail.md)：抽到时生成 1 个圣杯充能球
+- [借鉴](/cards/curse/borrow.md)：抽到时向手牌加入 3 张其他角色的牌（费用 +1）
+- [黑暗之门](/cards/character/dark_gate.md)
+- [朦光混影术](/cards/character/dim_light_shadow_art.md)
+- [饮血屠龙](/cards/character/drink_blood_dragon_slaying.md)
+- [圣灵魔闪光](/fifth-skill/holy_flash.md)
+- [孤胆映青釭](/cards/character/lone_hero_green_blade.md)
+- [昊海垂天](/cards/character/vast_sea_sky.md)
+- [妖族异术](/cards/character/yao_zu_yi_shu.md)
 
 ## 与类似机制的区别
 

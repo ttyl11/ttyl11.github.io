@@ -20,7 +20,7 @@
 
 ## 描述
 
-受到的攻击伤害至少为<span style="color:#3aa675;font-weight:600">5</span>点。受到<span style="color:#d4a017;font-weight:600">暴击</span>时，<span style="color:#d4a017;font-weight:600">暴击</span>倍率提升至2倍。在你的回合结束时减少1层。
+①受到的攻击伤害至少为<span style="color:#3aa675;font-weight:600">5</span>点。<br/>②受到<span style="color:#d4a017;font-weight:600">暴击</span>时，<span style="color:#d4a017;font-weight:600">暴击</span>倍率提升至2倍。<br/>自身回合结束时减少<span style="color:#3aa675;font-weight:600">1</span>层。
 
 ## 详细机制
 
@@ -28,7 +28,7 @@
   - 持有者受到攻击伤害时，伤害至少为 5 点
   - 若原始伤害 < 5，提升至 5；若 ≥ 5，不变
 - **暴击放大**：
-  - 当攻击者持有[暴击](/powers/critical_strike_power.md)能力时（即暴击伤害）：
+  - 当本次攻击判定为暴击时（`IsCurrentAttackCritical`，仅持有暴击能力不算）：
     - 先将暴击伤害还原为基础伤害（÷1.5）
     - 再取基础伤害与 5 的较大值
     - 最后 ×2（而非正常的 ×1.5）

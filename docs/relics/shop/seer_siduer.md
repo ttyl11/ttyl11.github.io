@@ -16,7 +16,7 @@
 
 ## 描述
 
-每次经过[<span style="color:#d4a017;font-weight:600">宝箱房间</span>](/mechanics/game-flow.md)时，获得一个随机[<span style="color:#3aa675;font-weight:600">稀有</span>](/mechanics/custom-rarity.md) seer[<span style="color:#d4a017;font-weight:600">蜡制遗物</span>](#蜡制遗物)，各自在<span style="color:#3aa675;font-weight:600">5</span>场战斗后融化。
+每次经过<span style="color:#d4a017;font-weight:600">宝箱房间</span>时获得一个随机<span style="color:#3aa675;font-weight:600">稀有</span> seer<span style="color:#d4a017;font-weight:600">蜡制遗物</span>，各自在<span style="color:#3aa675;font-weight:600">5</span>场战斗后融化。
 
 - **经过宝箱房即奖励**：每当你进入一个宝箱房间，自动获得一个 **随机稀有稀有度的 seer 遗物**，并以"蜡制遗物"的形式交到你手上。
 - **稀有池**：只从稀有稀有度的 seer 遗物（`SEER_RELIC_SEER_` 前缀）中随机抽取；已持有且不可堆叠者会被避开，不会重复给到无效遗物。

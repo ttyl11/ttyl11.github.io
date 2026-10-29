@@ -30,7 +30,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">固有</span>](/mechanics/innate.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 附加<span style="color:#3aa675;font-weight:600">5</span>点[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。获得<span style="color:#3aa675;font-weight:600">5</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">5</span>。每打出一次，本局永久各<span style="color:#3aa675;font-weight:600">+1</span>（含[堕落](/powers/fallen_power.md)）。
+PP: 5/5 附加<span style="color:#3aa675;font-weight:600">5</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>，获得<span style="color:#3aa675;font-weight:600">5</span>点<span style="color:#d4a017;font-weight:600">格挡</span>，<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">5</span>。本局每打出一次各永久<span style="color:#3aa675;font-weight:600">+1</span>。
 
 ## 小贴士
 

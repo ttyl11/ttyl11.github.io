@@ -20,13 +20,13 @@
 
 ## 描述
 
-本回合敌方无法获得[gold]先制[/gold]，解除并免疫[red]异常[/red]（[gold]凝滞[/gold]除外）。[gold]反强[/gold]，获<span style="color:#3aa675;font-weight:600">3</span>能量、<span style="color:#3aa675;font-weight:600">5</span>[辉星](/mechanics/star.md)。下回合开始移除。
+①本回合敌人无法获得<span style="color:#d4a017;font-weight:600">先制</span>，解除并免疫<span style="color:#d44;font-weight:600">异常</span>（<span style="color:#d4a017;font-weight:600">凝滞</span>除外）。<br/>②<span style="color:#d4a017;font-weight:600">反强</span>，获得<span style="color:#3aa675;font-weight:600">3</span><span style="color:#d4a017;font-weight:600">能量</span>、<span style="color:#3aa675;font-weight:600">5</span><span style="color:#d4a017;font-weight:600">辉星</span>。<br/>下回合开始移除。
 
 ## 详细机制
 
 - **施加时一次性结算以下效果**（能力到手即刻生效，无需等回合开始）：
   1. **敌方无法获得先制**：所有敌方被施加[束缚](/powers/constrict_power.md)（拦截[先制]增益，敌人回合结束自减消失，恰好覆盖敌方整个回合）；
-  2. **解除并免疫异常**：立即移除自身全部异常状态（24 种），本回合内免疫新异常——**凝滞除外**（自带的[凝滞](/powers/stasis_power.md)不会被解除，其"无法额外抽牌"效果照常生效）；
+  2. **解除并免疫异常**：立即移除自身全部异常状态（27 种中除凝滞外可解除 26 种），本回合内免疫新异常——**凝滞除外**（自带的[凝滞](/powers/stasis_power.md)不会被解除，其"无法额外抽牌"效果照常生效）；
   3. **反强**：所有敌人的四维正属性（力量/防御/速度/命中）被反转（+5 → -5，参照夷灭逻辑）；
   4. **能量+3、辉星+5**。
 - **持续与移除**：能力持续一个完整自身回合，到**下个回合开始**时移除。

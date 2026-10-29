@@ -1,7 +1,7 @@
 # 汲血1
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：全局怪物能力池（全局补丁）——玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长
 
 <img src="/images/powers/blood_suck_one_power.png" alt="汲血1" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -19,7 +19,7 @@
 
 ## 描述
 
-造成伤害时回复<span style="color:#3aa675;font-weight:600">10%</span>伤害值。
+造成伤害时，回复等同该伤害<span style="color:#3aa675;font-weight:600">10%</span>的生命值。
 
 ## 详细机制
 

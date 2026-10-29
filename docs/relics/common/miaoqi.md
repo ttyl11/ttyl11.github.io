@@ -15,7 +15,7 @@
 
 ## 描述
 
-打出牌后，若该牌为<span style="color:#d4a017;font-weight:600">[PP](/mechanics/pp-system.md)</span>牌且当前<span style="color:#d4a017;font-weight:600">PP</span>为0，获得<span style="color:#3aa675;font-weight:600">10</span>金币。
+打出牌后，若该牌<span style="color:#d4a017;font-weight:600">PP</span>为0，获得<span style="color:#3aa675;font-weight:600">10</span>金币。
 
 - **触发条件**：仅自身打出的 PP 牌（有 PP 上限）且当前 PP 为 0 时触发，获得 10 金币。非 PP 牌不触发。
 

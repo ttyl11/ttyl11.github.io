@@ -13,7 +13,13 @@
 
 ## 描述
 
-受到伤害后，使伤害者获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">焚烬</span>和<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">烧伤</span>。
+受到伤害后，使伤害来源获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">焚烬</span>和<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">烧伤</span>。
+
+## 详细机制
+
+- **触发条件**：持有者受到**未格挡伤害 > 0** 时触发，每段伤害各判定一次。
+- **施加对象**：本次伤害的来源（不要求是敌方，友方误伤也会被施加）。
+- 完全格挡、无实际扣血时不触发。
 
 ## 源码
 

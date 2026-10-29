@@ -11,6 +11,7 @@
 - **稀有度**: 先古
 - **目标**: 所有敌方
 - **可升级**: 是（1 级）
+- **对应初始牌**: [元素](/cards/basic/element.md)（由[圣灵起源](/relics/starter/origin_shift.md)转化）
 
 ### 数值参数
 
@@ -24,11 +25,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">77</span>/<span style="color:#3aa675;font-weight:600">77</span><br/><span style="color:#5a9e2e;font-weight:600">[先制](/powers/first_strike_power.md)+1</span>，对所有敌人造成<span style="color:#3aa675;font-weight:600">5</span>点伤害，<span style="color:#3aa675;font-weight:600">5</span>点[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。每打出一张攻击牌，此牌自动从任意地方打出。
+PP: 77/77 <span style="color:#5a9e2e;font-weight:600">先制+1</span>，对所有敌人造成<span style="color:#3aa675;font-weight:600">5</span>伤害，<span style="color:#3aa675;font-weight:600">5</span>固定伤害。每打出一张攻击牌，此牌自动从任意地方打出。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">77</span>/<span style="color:#3aa675;font-weight:600">77</span><br/><span style="color:#5a9e2e;font-weight:600">[先制](/powers/first_strike_power.md)+1</span>，对所有敌人造成<span style="color:#3aa675;font-weight:600">5</span>点伤害，<span style="color:#3aa675;font-weight:600">10</span>点[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。每打出一张攻击牌，此牌自动从任意地方打出。
+PP: 77/77 <span style="color:#5a9e2e;font-weight:600">先制+1</span>，对所有敌人造成<span style="color:#3aa675;font-weight:600">5</span>伤害，<span style="color:#3aa675;font-weight:600">10</span>固定伤害。每打出一张攻击牌，此牌自动从任意地方打出。
 
 ## 小贴士
 
@@ -39,7 +40,7 @@ PP: <span style="color:#3aa675;font-weight:600">77</span>/<span style="color:#3a
 - **无视任何"无法出牌"类压制——只要 PP>0 就能飞出**：哪怕被[束缚](/powers/chains_of_binding_power.md)、[懒怠](/powers/sloth_power.md)、[烟雾](/powers/smoggy_power.md)等能力锁住出牌，此牌的自动打出仍会强制触发——是被压制回合里的反制底牌。唯一的闸门是 PP：PP 归零后同样哑火。
 - **PP 77 是单场上限不是无限**：每场战斗 PP 回满 77，即单场最多触发 77 次。攻击流一场通常触发 5-15 次，余量充足；真正该省的是**固定伤害打在谁身上**——对会回血/叠甲的 Boss 价值最大。
 - **升级只提升固定伤害 5→10**：攻击段 5 点不变，固定伤害翻倍——固定伤害无视格挡，这 5 点是"硬收益"，对高格挡敌人效果显著，升级优先级高。
-- **自动触发不挑时机**：攻击牌一落地它立刻飞出，不会等你确认——想让它吃到[易伤](/powers/vulnerable_power.md)增伤，要**先挂易伤再打攻击牌**，否则它抢在易伤之前扫场（固定伤害段则完全不受增伤影响，永远稳定）。
+- **自动触发在整张攻击牌结算完之后**：攻击牌先结算完自己的伤害与效果，神灵之触才飞出，所以这张攻击牌本回合挂上的[易伤](/powers/vulnerable_power.md)，5 点攻击伤害已经能吃到；需要提前挂易伤的情况，只出现在你想让触发牌自身的伤害也吃到易伤时。固定伤害段则完全不受增伤影响，永远稳定。
 
 ## 相关能力
 

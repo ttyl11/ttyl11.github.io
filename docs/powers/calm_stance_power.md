@@ -13,7 +13,7 @@
 
 ## 描述
 
-在其回合开始时，<span style="color:#d4a017;font-weight:600">先制</span>+<span style="color:#3aa675;font-weight:600">1</span>。
+自身回合开始时，<span style="color:#d4a017;font-weight:600">先制</span>+<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 

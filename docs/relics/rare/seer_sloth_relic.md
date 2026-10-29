@@ -10,7 +10,7 @@
 
 ## 描述
 
-战斗结束的[<span style="color:#d4a017;font-weight:600">卡牌奖励</span>](/mechanics/game-flow.md)选项数 +<span style="color:#3aa675;font-weight:600">1</span>。卡牌奖励界面额外出现「懒惰」选项，选择后放弃本次卡牌选择，获得 <span style="color:#3aa675;font-weight:600">1</span> 次[<span style="color:#d4a017;font-weight:600">战斗中右键跳过普通战斗</span>](/mechanics/relic-right-click.md)的机会（可累计）。累计选择「懒惰」<span style="color:#3aa675;font-weight:600">7</span> 次后，向[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)中加入[<span style="color:#3aa675;font-weight:600">懒惰</span>](/cards/curse/sloth)。
+战斗结束<span style="color:#d4a017;font-weight:600">卡牌奖励</span>选项数+1。<br/>①【懒惰】放弃选牌，获得<span style="color:#3aa675;font-weight:600">1</span>次<span style="color:#d4a017;font-weight:600">右键跳过普通战斗</span>机会（可累计）。<br/>累计选<span style="color:#3aa675;font-weight:600">7</span>次后，牌组加入<span style="color:#d4a017;font-weight:600">懒惰</span>。
 
 ## 风味文字
 
@@ -20,7 +20,7 @@
 
 - **选项数 +1**：战斗胜利后的卡牌奖励多给 1 张。
 
-- **「懒惰」替代按钮**：点击即放弃本次选牌，获得一次**"战斗中右键跳过"**机会（机会数可累计，不影响次数上限）。
+- **「懒惰」替代按钮**：点击即放弃本次选牌，获得一次**"战斗中右键跳过"**机会（机会数可累计，最多 7 次）。
 
 - **右键跳过**：在任意**普通战斗**中，右键点击本遗物即可**立即结束当前战斗并不拿任何奖励**，消耗 1 次机会。只能用于普通战斗，对精英与 Boss 无效。
 
@@ -34,7 +34,7 @@
 
 - **弃牌换安全/时间**：本质是把"一次卡牌奖励"换成"跳过一次战斗的安全感"。牌组已成型、不需要普通战斗奖励时最划算。
 
-- **可以攒一大堆**：机会数可累计（上限不限），一路点「懒惰」攒下来，留给后续地图里难缠的普通怪。
+- **最多攒 7 次**：机会数与「懒惰」累计点击同步，累计点满 7 次后按钮消失并加入[懒惰诅咒](/cards/curse/sloth)，无法继续获取；把 7 次机会留给最难的普通战斗。
 
 - **7 次的懒惰诅咒是代价**：攒满 7 次拿[懒惰诅咒](/cards/curse/sloth)，但前面每次换到一次主动跳战的机会，在血量吃紧时可用来避险，价值不低。
 

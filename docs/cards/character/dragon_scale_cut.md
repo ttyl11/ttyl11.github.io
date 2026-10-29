@@ -1,4 +1,4 @@
-﻿# 龙鳞切割
+# 龙鳞切割
 
 <img src="/images/cards/dragon_scale_cut.png" alt="龙鳞切割" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -26,26 +26,26 @@
 
 ## 描述
 
-PP: 10/10 对随机敌人造成<span style="color:#3aa675;font-weight:600">2</span>点伤害<span style="color:#3aa675;font-weight:600">2</span>次，每次令其[<span style="color:#d4a017;font-weight:600">防御</span>](/powers/defense_power.md)<span style="color:#3aa675;font-weight:600">-1</span>。[<span style="color:#d4a017;font-weight:600">重放</span>](/mechanics/replay.md)<span style="color:#3aa675;font-weight:600">1</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">10+5%</span>。
+PP: 10/10 对随机敌人造成<span style="color:#3aa675;font-weight:600">2</span>点伤害<span style="color:#3aa675;font-weight:600">2</span>次，每次其<span style="color:#d4a017;font-weight:600">防御</span><span style="color:#3aa675;font-weight:600">-1</span>。<span style="color:#d4a017;font-weight:600">重放</span><span style="color:#3aa675;font-weight:600">1</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">10+5%</span>。
 
 ## 升级后
 
-PP: 10/10 对随机敌人造成<span style="color:#3aa675;font-weight:600">2</span>点伤害<span style="color:#3aa675;font-weight:600">3</span>次，每次令其[<span style="color:#d4a017;font-weight:600">防御</span>](/powers/defense_power.md)<span style="color:#3aa675;font-weight:600">-1</span>。[<span style="color:#d4a017;font-weight:600">重放</span>](/mechanics/replay.md)<span style="color:#3aa675;font-weight:600">1</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">10+5%</span>。
+PP: 10/10 对随机敌人造成<span style="color:#3aa675;font-weight:600">2</span>点伤害<span style="color:#3aa675;font-weight:600">3</span>次，每次其<span style="color:#d4a017;font-weight:600">防御</span><span style="color:#3aa675;font-weight:600">-1</span>。<span style="color:#d4a017;font-weight:600">重放</span><span style="color:#3aa675;font-weight:600">1</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">10+5%</span>。
 
 ## 小贴士
 
 - **核心定位**：2 费多段随机攻击 + 防御削弱。直接伤害偏低（每次命中仅 2 点），但通过多次命中叠加防御削弱，为后续攻击牌铺路。是一张"起手削防"的功能型攻击牌，价值在于削弱而非输出。
-- **重放机制（买一送一）**：[重放](/mechanics/replay.md) 1 意味着这张牌会**自动额外打出一次**，不消耗额外能量。升级前 2 次命中 × 2 次打出 = **4 次命中**；升级后 3 次命中 × 2 次打出 = **6 次命中**。重放让这张牌的削防效果翻倍，是性价比的关键。
+- **重放机制（买一送一）**：[重放](/mechanics/replay.md) 1 意味着这张牌会**自动额外打出一次**，不消耗额外能量。升级前 2 次命中 × 2 次结算 = **4 次命中**；升级后 3 次命中 × 2 次结算 = **6 次命中**。重放让这张牌的削防效果翻倍，是性价比的关键。注意：**每次结算都会扣 1 PP**——一次卡牌打出触发 2 次结算，共扣 2 PP。
 - **防御削弱联动（核心价值）**：每次命中令目标[防御](/powers/defense_power.md) -1（施加负数层数）。防御每层减少 1 点受到的攻击伤害，所以 -N 防御意味着目标受到的攻击伤害 +N。升级后总共 -6 防御，相当于**后续每张攻击牌 +6 伤害**——这才是这张牌的真正价值。直接伤害 12 点只是附属，削防后的联动收益才是大头。
-- **随机目标**：每次命中从所有可命中敌人中随机选一个目标（多端同步 RNG），每次命中独立随机。多敌人时伤害和削防分散到不同目标，单敌人时全部集中——**单敌人 Boss 战收益最大**，6 点防御削弱全堆在一个目标上。
-- **PP 10 的续航**：单场最多可打出 10 次（详见[PP系统](/mechanics/pp-system.md)），每次都自带重放——理论上一场战斗最多 10 × 6 = 60 次命中、累计 -60 防御，是把敌人防御削穿的地板。当然实际能量撑不起 10 次，但长战斗里它随时可以再补一轮削防。
+- **随机目标**：每次命中从所有可命中敌人中随机选一个目标（多端同步 RNG），每次命中独立随机。多敌人时伤害和削防分散到不同目标，单敌人时全部集中——**单敌人 Boss 战收益最大**，6 点防御削弱全堆在一个目标上。注意同一段结算内的多次命中共用出手时的敌人快照：中途击杀一个敌人后，后续命中仍可能落在它身上而浪费。
+- **PP 10 的续航**：PP 10 指**单场最多 10 次结算**；每次卡牌打出都会因重放执行 2 次结算、扣 2 PP，所以实际最多打出 **5 次卡牌**。按升级后每次 6 段算，一场最多 5 × 6 = 30 次命中、累计 -30 防御；能量也要 5 × 2 = 10 点才够打满。
 - **配合建议**：
  - **先手削防，后手输出**：先打龙鳞切割叠削防，再用高伤攻击牌（如[龙王波](./dragon_king_wave.md)）输出，每张牌都吃 +6 伤害加成。
  - **配合受击触发类减益**：每次命中都是一次独立的攻击伤害结算，能触发目标的[流血](/powers/bleed_power.md)（受击时额外获层）、[易燃](/powers/flammable_power.md)（受击时获烧伤）等"受击触发"效果——多段命中让这些减益快速叠层。
  - 配合多段攻击牌可以充分利用削防——多段攻击每段都吃防御削弱加成。
  - 单敌人遭遇战中优先使用，集中削防收益最高。
 - **升级的关键性**：命中次数从 <span style="color:#3aa675;font-weight:600">2</span> 提升至 <span style="color:#3aa675;font-weight:600">3</span>（+1）。加上重放，总命中从 4 提升至 6（+2）。直接伤害从 8 提升至 12（+4），防御削弱从 -4 提升至 -6（+2）。升级提升中等——削防效果提升 50%，但基础削防已经够用。升级优先级中等。
-- **堕落 10+5%：多段牌的暗账**：每次打出获得当前[堕落](/powers/fallen_power.md)×<span style="color:#3aa675;font-weight:600">5%</span> + <span style="color:#3aa675;font-weight:600">10</span> 的堕落——堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层被[魔君接管](/powers/demon_takeover_power.md)强制乱打；PP<span style="color:#3aa675;font-weight:600">10</span> + 重放让它可反复打出，固定 10 部分会稳定累积（打足 10 次 = 100 层+），削防连打时记得把失控阈值算进节奏里。
+- **堕落 10+5%：多段牌的暗账**：**每次结算**（含重放）获得当前[堕落](/powers/fallen_power.md)×<span style="color:#3aa675;font-weight:600">5%</span> + <span style="color:#3aa675;font-weight:600">10</span> 的堕落——堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层被[魔君接管](/powers/demon_takeover_power.md)强制乱打；PP 10 = 10 次结算 = 5 次卡牌打出，固定 10 部分累计约 100 层（当前堕落的 5% 还会滚雪球），削防连打时记得把失控阈值算进节奏里。
 - **性价比**：2 费 8 点伤害（升级后 12 点） + 4 点防御削弱（升级后 6 点），直接伤害偏低但削防价值高。罕见稀有度合理——作为"削防起手"功能牌，罕见度匹配其稳定的削防+重放价值。适合多段攻击体系和 Boss 战削防流。
 
 ## 相关能力

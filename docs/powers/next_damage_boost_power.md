@@ -5,7 +5,7 @@
 ## 基本信息
 
 - **类型**: 增益（Buff）
-- **叠加方式**: 计数器（1，层数可见，需通过 action 增减）
+- **叠加方式**: 按层数叠加（层数＝增伤百分比）
 - **可见**: 是
 
 ### 数值参数
@@ -15,12 +15,12 @@
 | 增伤百分比 | 10 | 默认基础值（实际值由施加方决定，如首发压制为 333） |
 
 > 注：能力自身默认增伤百分比为 10，但实际数值由施加方传入，并在层数变化时同步到增伤百分比变量。
-> **归属**：玩家可施加
-> **施加来源**：玩家获得——[婵·命定星缘](/fifth-skill/destined_star_bond.md)（卡牌）、[首发压制](/cards/colorless/first_strike_suppress.md)（卡牌）、[傳馥明王最胜语](/cards/character/fragrant_king_supreme_word.md)（卡牌）、[王·联盟审判](/cards/character/king_alliance_judgment.md)（卡牌）、[寂·妖胧天鸣](/cards/character/silent_demon_cry.md)（卡牌）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）、[阿尔蒂克](/relics/epic/arteck.md)（遗物）
+> **归属**：玩家与怪物均可持有
+> **施加来源**：玩家获得——[婵·命定星缘](/fifth-skill/destined_star_bond.md)（卡牌）、[首发压制](/cards/colorless/first_strike_suppress.md)（卡牌）、[傳馥明王最胜语](/cards/character/fragrant_king_supreme_word.md)（卡牌）、[王·联盟审判](/cards/character/king_alliance_judgment.md)（卡牌）、[寂·妖胧天鸣](/cards/character/silent_demon_cry.md)（卡牌）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）、[阿尔蒂克](/relics/epic/arteck.md)（遗物）；怪物自带——[夜使·库帕帕](/monsters/elite/night_envoy_kupapa_monster.md)（50%）
 
 ## 描述
 
-下一次攻击伤害提升<span style="color:#3aa675;font-weight:600">10</span>%。
+下一次攻击的伤害提高<span style="color:#3aa675;font-weight:600">10%</span>。
 
 > 注：默认值为 10%，实际数值由施加方卡牌决定（如[首发压制](/cards/colorless/first_strike_suppress.md)施加 333%）。
 
@@ -32,7 +32,8 @@
   - 为攻击伤害（受力量影响）
 - **效果公式**：伤害 × (1 + 增伤百分比/100)
   - 例：增伤 333% → 伤害 × 4.333（增加 333%）
-- **移除时机**：拥有者攻击后移除自身
+- **移除时机**：拥有者攻击后移除自身（多段攻击也只消耗这 1 次，每一段都享受增伤）
+- **多来源相加**：层数本身就是百分比，多次获得会累加——333% 再叠加 10% 就是 343%
 - **动态变量同步**：层数变化时同步到增伤百分比变量，确保悬浮提示显示正确数值
 
 ## 相关能力

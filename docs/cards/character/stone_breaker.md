@@ -17,25 +17,25 @@
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 伤害 | 6 | 10 |
+| 伤害 | 4 | 7 |
 | PP | 10 | 10 |
 | 最大PP | 10 | 10 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 造成<span style="color:#3aa675;font-weight:600">6</span>点伤害。消除目标[<span style="color:#d4a017;font-weight:600">全属性</span>](/mechanics/all_attributes.md)的提升。
+PP: 10/10 <span style="color:#d44;font-weight:600">消强</span>。 造成<span style="color:#3aa675;font-weight:600">4</span>点伤害。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 造成<span style="color:#3aa675;font-weight:600">10</span>点伤害。消除目标[<span style="color:#d4a017;font-weight:600">全属性</span>](/mechanics/all_attributes.md)的提升。
+PP: 10/10 <span style="color:#d44;font-weight:600">消强</span>。 造成<span style="color:#3aa675;font-weight:600">7</span>点伤害。
 
 ## 小贴士
 
-- **先伤后消的顺序**：先打出 <span style="color:#3aa675;font-weight:600">6</span> 点攻击伤害，再逐项检查目标的[力量](/powers/strength_power.md)、[命中](/powers/accuracy_power.md)、[防御](/powers/defense_power.md)、[速度](/powers/speed_power.md)——只要某项为正层数就整个移除。注意是"移除整个能力"而非"清零到 0"，原能力的来源信息会丢失。
+- **先伤后消的顺序**：先打出 <span style="color:#3aa675;font-weight:600">4</span> 点攻击伤害，再逐项检查目标的[力量](/powers/strength_power.md)、[命中](/powers/accuracy_power.md)、[防御](/powers/defense_power.md)、[速度](/powers/speed_power.md)——只要某项为正层数就整个移除。因为伤害在消强之前，**本次伤害仍会被目标防御削减**，消强保护的是后续攻击。注意是"移除整个能力"而非"清零到 0"，原能力的来源信息会丢失。
 - **只消增益不碰减益**：仅当某项属性为正层数时才整项移除，负层数不动——比如对手[力量](/powers/strength_power.md)被你削到 -3 时，这张牌不会"帮它清掉"这 -3。也不用担心误清原版减益：虚弱、易伤等根本不在它的处理范围内。
 - **消除范围限定四属性**：只处理力量、命中、防御、速度四项 seer 属性，不触碰原版虚弱/易伤等减益，也不影响暴击、先制等其它能力。
-- **保留给叠增益的强敌**：<span style="color:#3aa675;font-weight:600">6</span> 点伤害尚可，真正的价值在于消除属性——留给叠力量/防御的精英或 Boss 才划算。遇到不爱叠属性的敌人，这张牌基本等于 0 费打 6，价值有限。
-- **性价比**：0 费合理——6 点伤害白送，核心价值是属性消除。无增益敌人面前是普通打手，有增益 Boss 面前是关键解牌。
+- **保留给叠增益的强敌**：<span style="color:#3aa675;font-weight:600">4</span> 点伤害偏低，真正的价值在于消除属性——留给叠力量/防御的精英或 Boss 才划算。遇到不爱叠属性的敌人，这张牌基本等于 0 费打 4，价值有限。
+- **性价比**：0 费合理——4 点伤害白送，核心价值是属性消除。无增益敌人面前是普通打手，有增益 Boss 面前是关键解牌。
 
 ## 相关机制
 

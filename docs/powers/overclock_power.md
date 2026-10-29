@@ -1,7 +1,7 @@
 # 超频
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家获得——[超频宝石](/enchantments/overclock_gem.md)（附魔）；玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）；怪物自带——[雷伊](/monsters/boss/ray_monster.md)
+> **施加来源**：玩家获得——[超频宝石](/enchantments/overclock_gem.md)（附魔）、[过载能源](/cards/character/overload_energy.md)（卡牌）；玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）；怪物自带——[雷伊](/monsters/boss/ray_monster.md)、[异星装甲·赛伯斯特](/monsters/elite/alien_armor_sebst_monster.md)
 
 <img src="/images/powers/overclock_power.png" alt="超频" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -20,17 +20,17 @@
 
 ## 描述
 
-在你的回合开始时获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">先制</span>。移除时给予<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">瘫痪</span>。在你的回合结束时减少1层。
+①自身回合开始时获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">先制</span>，然后层数-<span style="color:#3aa675;font-weight:600">1</span>。<br/>②移除时，自身获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">瘫痪</span>。
 
 ## 详细机制
 
 - **回合开始先制**：
-  - 持有者一方回合开始时（`BeforeSideTurnStart`），获得 1 层[先制](/powers/first_strike_power.md)
+  - 持有者一方回合开始时，获得 1 层[先制](/powers/first_strike_power.md)
   - 每回合固定 1 层先制，不随超频层数变化（多层超频仍只获得 1 层先制/回合）
 - **移除时瘫痪**：
-  - 超频被移除时（`AfterRemoved`，无论因减层归零还是被驱散），对原持有者施加 2 层[瘫痪](/powers/paralysis_power.md)
+  - 超频被移除时（无论因减层归零还是被驱散），对原持有者施加 2 层[瘫痪](/powers/paralysis_power.md)
   - 瘫痪会使持有者攻击伤害降 10%，且若上回合未造成伤害则自叠虚弱+易伤+缩小
-- **回合结束减层**：持有者一方回合结束时，层数 -1
+- **回合开始减层**：先制结算后立刻层数 -1——N 层就是接下来 N 个自己的回合各给 1 层先制，减到 0 时移除并触发瘫痪
 - **双刃剑**：先制增益 vs 移除后瘫痪惩罚——短期加速，长期代价
 
 ## 小贴士

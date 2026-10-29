@@ -1,7 +1,7 @@
-﻿# 复苏II
+# 复苏II
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：全局怪物能力池（全局补丁）——玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长
 
 <img src="/images/powers/revive_two_power.png" alt="复苏II" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,11 +13,11 @@
 
 ## 描述
 
-死亡后复活并恢复所有<span style="color:#d4a017;font-weight:600">体力</span>，最多<span style="color:#3aa675;font-weight:600">2</span>次。
+死亡时复活并回复全部<span style="color:#d4a017;font-weight:600">生命值</span>，最多<span style="color:#3aa675;font-weight:600">2</span>次。
 
 ## 详细机制
 
-- **两次满血复活**：`ShouldDie` 拦截死亡（复活次数未用完不判死）→ `AfterPreventingDeath` 瞬间回满全部体力（`Heal(MaxHp)`），最多触发 <span style="color:#3aa675;font-weight:600">2</span> 次，用完后移除本能力。
+- **两次满血复活**：拦截死亡（复活次数未用完不判死）→ 瞬间回满全部体力，最多触发 <span style="color:#3aa675;font-weight:600">2</span> 次，用完后移除本能力。
 - **无属性加成**：与[复苏I](/powers/revive_one_power.md)不同，复活**不带**四维成长——纯"多条命"。
 - **复活瞬间无敌**：复活流程执行期间伤害 ×0、一切 Power 施加归零、不可被选中——无法打断或补刀。
 
@@ -30,5 +30,5 @@
 
 ## 源码
 
-- `SeerReviveTwoPower.cs``，`ReviveCount < 2`；无属性 Apply）
-- 随机池配置：`SeerElementalCore.cs:97`（`0.000015/房`）
+- `SeerReviveTwoPower.cs`（`ReviveCount < 2`；无属性加成）
+- 随机池配置：`SeerGlobalMonsterPowerPatch.cs`

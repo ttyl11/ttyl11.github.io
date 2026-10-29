@@ -12,6 +12,8 @@
 | 参数 | 数值 |
 |---|---|
 | 神羽片数 | 3 |
+| 触发阈值 | 生命低于 <span style="color:#3aa675;font-weight:600">60%</span> |
+| 回复比例 | 回复至 <span style="color:#3aa675;font-weight:600">97%</span> 最大生命 |
 
 ## 描述
 
@@ -20,7 +22,7 @@
 ## 详细机制
 
 - **作用于自身**：无需选择目标，为自身施加[神羽](/powers/divine_feather_power.md)能力 3 层。
-- **神羽机制**：神羽按层数记（1 片 = 1 层计数器）。每个回合结束时，若自身生命低于阈值，消耗 <span style="color:#3aa675;font-weight:600">1</span> 片将生命回复至一定比例——即"低血自动救一次"。
+- **神羽机制**：神羽按层数记（1 片 = 1 层计数器）。每个己方回合结束时，若生命低于 <span style="color:#3aa675;font-weight:600">60%</span>，消耗 <span style="color:#3aa675;font-weight:600">1</span> 片把生命回复到 <span style="color:#3aa675;font-weight:600">97%</span> 最大生命——即"低血自动救一次"。
 - **上限在层数**：一次性灌注 3 层 = 至多 3 次触发机会，用完即空。
 - **悬浮提示**：附带神羽能力提示，可确认剩余片数。
 

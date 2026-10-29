@@ -34,11 +34,11 @@
   - 音效：`event:/sfx/characters/defect/defect_dark_channel`
 - **激发效果**：
   - 目标：手牌中一张未附魔的随机卡牌
-  - 效果：从可用附魔池中筛选可附魔且非测试占位的附魔，随机施加一个
+  - 效果：从 mod 附魔池中筛选可附魔、排除测试占位与注能/永耀/冷却时间后，随机施加一个
   - 音效：`event:/sfx/characters/defect/defect_dark_channel`
 - **生成音效**：`event:/sfx/characters/defect/defect_dark_channel`（原版暗球仅此一个 FMOD 事件，被动/激发复用）
 - **集中影响**：不受[集中](/powers/focus_power.md)影响（被动数值和激发数值均为固定值）
-- **附魔过滤**：激发时过滤测试占位附魔，仅施加正式附魔
+- **附魔过滤**：激发时排除测试占位附魔与注能/永耀/冷却时间，只从可用的正式 mod 附魔中随机
 - **悬浮提示**：提供力量、防御、命中、速度的能力说明悬浮提示
 
 ## 相关能力
@@ -50,8 +50,8 @@
 
 ## 相关卡牌
 
-- [五芒星](/cards/character/pentagram.md)（生成 1 个神谕充能球）
-- [元神启动](/cards/colorless/spirit_activation.md)（每回合开始时生成 1 个神谕充能球）
+- [五芒星](/cards/character/pentagram.md)（生成 3 个神谕充能球）
+- [元神启动](/cards/colorless/spirit_activation.md)（每回合开始时生成 2 个神谕充能球）
 - [圣杯](/cards/colorless/holy_grail.md)（打出时随机生成 2 个充能球，含神谕）
 - [圣灵雷霆斩](/cards/colorless/holy_thunder_slash.md)（获得 4 个随机充能球，含神谕）
 - [魔法元素泡泡](/cards/character/magic_element_bubble.md)（随机生成充能球，含神谕）

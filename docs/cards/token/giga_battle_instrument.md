@@ -27,12 +27,12 @@
 
 ## 描述
 
-[<span style="color:#d4a017;font-weight:600">永恒</span>](/mechanics/eternal.md)。在牌组中时记录击杀。打出：[<span style="color:#9b59b6;font-weight:600">诅咒</span>](/powers/curse_power.md)自身<span style="color:#3aa675;font-weight:600">999</span>回合，失去<span style="color:#3aa675;font-weight:600">1</span>点生命。击杀次数显示在卡牌上。效果与<span style="color:#d4a017;font-weight:600">击杀次数</span>相关。
+在牌组中时记录击杀。打出：<span style="color:#d44;font-weight:600">诅咒自身</span><span style="color:#3aa675;font-weight:600">999</span>回合，失去<span style="color:#3aa675;font-weight:600">1</span>生命。击杀：<span style="color:#3aa675;font-weight:600">0</span>。效果与<span style="color:#d4a017;font-weight:600">击杀次数</span>相关。
 
 ## 详细机制
 
 - **卡面精简 + 击杀效果悬浮框**：四档达标效果不再写在卡面，悬停卡牌时由「击杀效果」悬浮框分行显示——10 次：战斗开始时自动打出 / 25 次：打出时 +3 能量、抽 3 牌 / 50 次：打出时召唤等量 / 100 次：每回合开始时自动打出。
-- **永恒**：此牌带有永恒关键词，无法从牌组中移除或变化——净化、消耗、销毁等手段都无效。
+- **[永恒](/mechanics/eternal.md)**：此牌无法从牌组中移除或变化（净化、变牌类无效）；战斗中被消耗、销毁的只是战斗副本，牌组原件仍在，跨战斗的击杀数也照常保留。
 - **击杀计数**：此牌在牌组中时，每次敌方生物死亡都会让计数 +1，击杀次数**跨战斗永久保留**，不会因战斗结束而清零。被复活拉回的敌人（未真正死亡）不计入；己方生物死亡不计入。
 - **打出后效果**：诅咒自身 999 回合，并直接失去 1 点生命。这次扣血是直接扣血而非固定伤害，**即使有固定伤害免疫也会被扣**。
 - **10 次阈值**：战斗开始时自动从牌堆中找出此牌并打出（第 1 回合开始时触发）。

@@ -8,18 +8,18 @@
 ## 基本信息
 
 - **类型**: 增益
-- **叠加方式**: 递减
+- **叠加方式**: 计数（层数无实际效果，整场持续）
 - **可见**: 是
 
 ### 数值参数
 
 | 参数 | 数值 |
 |---|---|
-| 回复数量 | 2 |
+| 回复数量 | 5 |
 
 ## 描述
 
-在你的回合结束时恢复<span style="color:#3aa675;font-weight:600">2</span>点<span style="color:#d4a017;font-weight:600">体力</span>。
+在你的回合结束时，回复<span style="color:#3aa675;font-weight:600">5</span>点<span style="color:#d4a017;font-weight:600">生命值</span>。
 
 ## 源码
 

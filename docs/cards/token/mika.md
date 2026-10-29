@@ -29,9 +29,7 @@
 
 ## 升级后
 
-获得[<span style="color:#d4a017;font-weight:600">奇巧</span>](/mechanics/sly.md)。
-
-> **勘误**：游戏内升级文本显示"保留"，但源码 `SeerMika.OnUpgrade` 实际施加的是 CardKeyword.Sly（[奇巧](/mechanics/sly.md)：回合结束前从手牌被丢弃时免费打出）。本页以实际效果为准。
+<span style="color:#d4a017;font-weight:600">奇巧</span>。PP: 5/5 回合结束时若在<span style="color:#d4a017;font-weight:600">手牌</span>中则自动打出。一回合打出超过3张牌时，此牌移入<span style="color:#d4a017;font-weight:600">弃牌堆</span>。获得<span style="color:#3aa675;font-weight:600">3</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。对所有敌人造成<span style="color:#3aa675;font-weight:600">3</span>点伤害，造成<span style="color:#3aa675;font-weight:600">3</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>。
 
 ## 小贴士
 
@@ -40,8 +38,8 @@
 - **惩罚连击爆发回合**：当你一回合打出**第 4 张牌**的瞬间，手牌里所有米咔立即移入[弃牌堆](/mechanics/discard_pile.md)——失去本回合的免费自动打出（除非再从弃牌堆抽回来）。想保住米咔的自动触发，当回合出牌数控制在 <span style="color:#3aa675;font-weight:600">3</span> 张以内；要打 4 张以上的爆发回合，就接受米咔进弃牌堆、之后再抽回来的安排。
 - **每次触发消耗 1 PP，一场最多 5 次**：自动打出同样消耗 PP（PP: 5/5）。长战斗里它是每回合稳定触发的免费收益引擎，5 次额度用完就变普通 3 费牌——前期省着用不如前期每回合都触发，PP 上限就是设计好的触发次数预算。
 - **伤害构成是"格挡+双段伤害"**：3 点攻击伤害吃[力量](/powers/strength_power.md)/易伤加成；3 点[固定伤害](/powers/fixed_damage_power.md)不受格挡和力量影响；3 格挡正常获得。数值单看都小，但**免费**两个字让它纯赚。
-- **升级价值：奇巧**：升级后米咔获得[奇巧](/mechanics/sly.md)（被弃时免费打出）——配合各种"弃牌"类效果，弃掉米咔等于再白嫖一次触发；注意游戏内升级文本误写为"保留"，实际行为以奇巧为准。
-- **衍生生成、战斗结束消失**：米咔由事件/其它效果生成入手牌（`CreateInHand`），本场战斗有效，战斗结束后消失，不会留在牌组。
+- **升级价值：奇巧**：升级后米咔获得[奇巧](/mechanics/sly.md)（被弃时免费打出）——配合各种"弃牌"类效果，弃掉米咔等于再白嫖一次触发。
+- **衍生生成、战斗结束消失**：米咔由事件或其它卡牌效果直接加入手牌，本场战斗有效，战斗结束后消失，不会留在牌组。
 
 ## 相关机制
 

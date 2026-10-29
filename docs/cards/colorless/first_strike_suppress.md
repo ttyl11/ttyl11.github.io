@@ -5,7 +5,7 @@
 ## 基本信息
 
 - **分类**: 无色牌
-- **能量消耗**: 13（实际耗能由[弃牌堆](/mechanics/discard_pile.md)卡牌数动态减少）
+- **能量消耗**: 9（实际耗能由[弃牌堆](/mechanics/discard_pile.md)卡牌数动态减少）
 - **类型**: 能力
 - **稀有度**: 罕见
 - **目标**: 自身
@@ -20,11 +20,11 @@
 
 ## 描述
 
-[<span style="color:#d4a017;font-weight:600">击晕</span>](/mechanics/stun.md)所有敌人。下一次攻击伤害增加<span style="color:#3aa675;font-weight:600">333</span>%（获得[<span style="color:#d4a017;font-weight:600">增伤</span>](/powers/next_damage_boost_power.md)）。[<span style="color:#d4a017;font-weight:600">弃牌堆</span>](/mechanics/discard_pile.md)每有一张牌，此牌耗能<span style="color:#3aa675;font-weight:600">-1</span>。
+<span style="color:#d4a017;font-weight:600">击晕</span>所有敌人。下一次攻击伤害增加<span style="color:#3aa675;font-weight:600">333</span>%。<span style="color:#d4a017;font-weight:600">弃牌堆</span>每有一张牌，此牌耗能<span style="color:#3aa675;font-weight:600">-1</span>。
 
 ## 升级后
 
-不再[<span style="color:#d4a017;font-weight:600">固有</span>](/mechanics/innate.md)。[<span style="color:#d4a017;font-weight:600">击晕</span>](/mechanics/stun.md)所有敌人。下一次攻击伤害增加<span style="color:#3aa675;font-weight:600">333</span>%（获得[<span style="color:#d4a017;font-weight:600">增伤</span>](/powers/next_damage_boost_power.md)）。[<span style="color:#d4a017;font-weight:600">弃牌堆</span>](/mechanics/discard_pile.md)每有一张牌，此牌耗能<span style="color:#3aa675;font-weight:600">-1</span>。
+<span style="color:#d4a017;font-weight:600">击晕</span>所有敌人。下一次攻击伤害增加<span style="color:#3aa675;font-weight:600">333</span>%。<span style="color:#d4a017;font-weight:600">弃牌堆</span>每有一张牌，此牌耗能<span style="color:#3aa675;font-weight:600">-1</span>。
 
 ## 小贴士
 

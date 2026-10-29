@@ -28,7 +28,7 @@
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [预见](/mechanics/scry.md)<span style="color:#3aa675;font-weight:600">1</span>张。获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。从你的[<span style="color:#d4a017;font-weight:600">消耗牌堆</span>](/mechanics/exhaust_pile.md)中选择<span style="color:#3aa675;font-weight:600">1</span>张加入[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)（[<span style="color:#d4a017;font-weight:600">PP</span>](/mechanics/pp-system.md)卡回满PP）。
+PP: 5/5 从你的<span style="color:#d4a017;font-weight:600">消耗牌堆</span>中选择1张加入<span style="color:#d4a017;font-weight:600">手牌</span>（<span style="color:#d44;font-weight:600">归源</span>）。 <span style="color:#d4a017;font-weight:600">预见</span><span style="color:#3aa675;font-weight:600">1</span>张。获得<span style="color:#3aa675;font-weight:600">6</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。
 
 ## 小贴士
 
@@ -44,7 +44,7 @@
 - [预见](/mechanics/scry.md)：查看抽牌堆顶N张，可丢弃任意数量
 - [格挡](/mechanics/block.md)：获得6点格挡
 - [消耗牌堆](/mechanics/exhaust_pile.md)：选牌来源
-- [手牌](/mechanics/hand.md)：选中的卡加入手牌底部
+- [手牌](/mechanics/hand.md)：选中的卡加入手牌底
 
 ## 源码
 

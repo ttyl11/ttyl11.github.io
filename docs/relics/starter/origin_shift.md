@@ -16,8 +16,7 @@
 
 ## 描述
 
-在每场战斗开始时，获得<span style="color:#9b59b6;font-weight:600">[神灵](/powers/divine_power.md)</span>属性。
-每经过<span style="color:#3aa675;font-weight:600">7</span>个战斗房间（精英算2次，<span style="color:#d4a017;font-weight:600">Boss</span>算3次），随机将1张基础牌<span style="color:#d4a017;font-weight:600">转化</span>为对应的先古任务牌。
+①每场战斗开始时，获得<span style="color:#9b59b6;font-weight:600">[神灵](/powers/divine_power.md)</span>属性。<br/>②每经过<span style="color:#3aa675;font-weight:600">7</span>个战斗房间（精英战计2个，<span style="color:#d4a017;font-weight:600">Boss</span>战计3个），随机将1张基础牌<span style="color:#d4a017;font-weight:600">转化</span>为对应的先古任务牌。
 
 - **计数权重**：普通战斗+1、精英+2、Boss+3，非战斗房间不计；满 7 触发并清零重新计数。
 

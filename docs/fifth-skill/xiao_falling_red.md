@@ -23,11 +23,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 夺取敌方[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)，每项恢复<span style="color:#3aa675;font-weight:600">3</span>HP。消耗[<span style="color:#d4a017;font-weight:600">弃牌堆</span>](/mechanics/discard_pile.md)中PP卡，将PP值×3+最大HP×50%作为[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)附加给敌人。
+PP: 5/5 夺取敌人<span style="color:#d44;font-weight:600">异常状态</span>，每项恢复<span style="color:#3aa675;font-weight:600">3</span>点生命。消耗<span style="color:#d4a017;font-weight:600">弃牌堆</span>中<span style="color:#d4a017;font-weight:600">PP</span>卡，附加<span style="color:#d4a017;font-weight:600">固定伤害</span>：<span style="color:#d4a017;font-weight:600">PP</span>×<span style="color:#3aa675;font-weight:600">3</span>+最大生命<span style="color:#3aa675;font-weight:600">50</span>%。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 夺取敌方[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)，每项恢复<span style="color:#3aa675;font-weight:600">8</span>HP。消耗[<span style="color:#d4a017;font-weight:600">弃牌堆</span>](/mechanics/discard_pile.md)中PP卡，将PP值×3+最大HP×50%作为[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)附加给敌人。
+PP: 5/5 夺取敌人<span style="color:#d44;font-weight:600">异常状态</span>，每项恢复<span style="color:#3aa675;font-weight:600">8</span>点生命。消耗<span style="color:#d4a017;font-weight:600">弃牌堆</span>中<span style="color:#d4a017;font-weight:600">PP</span>卡，附加<span style="color:#d4a017;font-weight:600">固定伤害</span>：<span style="color:#d4a017;font-weight:600">PP</span>×<span style="color:#3aa675;font-weight:600">3</span>+最大生命<span style="color:#3aa675;font-weight:600">50</span>%。
 
 ## 小贴士
 

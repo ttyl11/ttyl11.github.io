@@ -15,7 +15,7 @@
 
 ## 描述
 
-每打出1张牌，获得等同于已损失生命值<span style="color:#3aa675;font-weight:600">10</span>%的<span style="color:#d4a017;font-weight:600">[格挡](/mechanics/block.md)</span>。
+每打出1张牌，获得等同于已损失生命值<span style="color:#3aa675;font-weight:600">10</span>%的<span style="color:#d4a017;font-weight:600">格挡</span>。<br/>回合结束时，若自身<span style="color:#d4a017;font-weight:600">格挡</span>大于当前生命，消耗所有<span style="color:#d4a017;font-weight:600">格挡</span>对所有敌人造成等量<span style="color:#9b59b6;font-weight:600">固定伤害</span>。
 
 回合结束时，若自身<span style="color:#d4a017;font-weight:600">[格挡](/mechanics/block.md)</span>大于当前生命，消耗所有<span style="color:#d4a017;font-weight:600">[格挡](/mechanics/block.md)</span>对所有敌人造成等量<span style="color:#9b59b6;font-weight:600">[固定伤害](/powers/fixed_damage_power.md)</span>。
 

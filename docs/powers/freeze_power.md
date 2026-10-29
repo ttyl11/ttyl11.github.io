@@ -1,7 +1,7 @@
 # 冰封
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家施加给敌方——[天霜杀伐](/cards/character/heaven_frost_slaughter.md)（卡牌）、[大雨滂沱](/cards/character/heavy_rain.md)（卡牌）、[冰天花葬](/cards/character/ice_sky_flower_burial.md)（卡牌）、[沧溟珠泪](/cards/character/ocean_pearl_tear.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[海洋](/orbs/ocean_orb.md)（充能球）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）；怪物施加给玩家——[阿克希亚](/monsters/elite/axe_monster.md)
+> **施加来源**：玩家施加给敌方——[天霜杀伐](/cards/character/heaven_frost_slaughter.md)（卡牌）、[大雨滂沱](/cards/character/heavy_rain.md)（卡牌）、[冰天花葬](/cards/character/ice_sky_flower_burial.md)（卡牌）、[沧溟珠泪](/cards/character/ocean_pearl_tear.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[海洋](/orbs/ocean_orb.md)（充能球）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）、[天奔流·东辉](/relics/epic/tian_ben_liu_dong_hui.md)（遗物）、[海棠教皇·未明](/relics/epic/hai_tang_jiao_huang_wei_ming.md)（遗物）、[冰封宝石](/enchantments/freeze_gem.md)（附魔）；怪物施加给玩家——[阿克希亚](/monsters/elite/axe_monster.md)、[布蕾里克](/monsters/elite/buleilike_monster.md)
 
 <img src="/images/powers/freeze_power.png" alt="冰封" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -21,7 +21,7 @@
 
 ## 描述
 
-攻击伤害降低<span style="color:#3aa675;font-weight:600">20</span>%。在你的回合结束时移除此状态，并获得<span style="color:#3aa675;font-weight:600">2</span>层[<span style="color:#d44;font-weight:600">冻伤</span>](/powers/frostbite_power.md)。
+①攻击伤害降低<span style="color:#3aa675;font-weight:600">20%</span>。<br/>②自身回合结束时移除此状态，并获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">冻伤</span>。
 
 ## 详细机制
 
@@ -45,7 +45,7 @@
 ## 相关卡牌
 
 - [大雨滂沱](/cards/character/heavy_rain.md)（对所有敌人施加冰封 2 层）
-- [天霜杀伐](/cards/character/heaven_frost_slaughter.md)（对所有敌人施加冰封 2 回合）
+- [天霜杀伐](/cards/character/heaven_frost_slaughter.md)（对所有敌人施加冰封 2 层）
 - [冰天花葬](/cards/character/ice_sky_flower_burial.md)
 - [沧溟珠泪](/cards/character/ocean_pearl_tear.md)
 - [曙光普照](/cards/character/shining_light.md)

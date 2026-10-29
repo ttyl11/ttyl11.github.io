@@ -28,7 +28,7 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 下<span style="color:#3aa675;font-weight:600">3</span>次受到伤害后，获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。（能量消耗降至 <span style="color:#3aa675;font-weight:600">0</span>）
+PP: 1/1 下<span style="color:#3aa675;font-weight:600">3</span>次受到伤害后，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。
 
 ## 小贴士
 

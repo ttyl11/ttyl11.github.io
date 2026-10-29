@@ -17,7 +17,7 @@
 
 ## 描述
 
-拾起时，最大生命提升 <span style="color:#3aa675;font-weight:600">10</span> 倍。
+拾起时，最大生命提升<span style="color:#3aa675;font-weight:600">10</span>倍。<br/>战斗中，受到的伤害提升<span style="color:#3aa675;font-weight:600">10</span>倍。
 
 战斗中，受到的伤害提升 <span style="color:#3aa675;font-weight:600">10</span> 倍。
 

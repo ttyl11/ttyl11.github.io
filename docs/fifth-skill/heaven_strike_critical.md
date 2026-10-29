@@ -29,7 +29,7 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">固有</span>](/mechanics/innate.md)。PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 必须拥有[<span style="color:#d4a017;font-weight:600">龙属性</span>](/powers/dragon_power.md)。造成<span style="color:#3aa675;font-weight:600">100</span>点伤害。附加<span style="color:#3aa675;font-weight:600">50</span>点[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+PP: 1/1 必须拥有<span style="color:#d4a017;font-weight:600">龙属性</span>。造成<span style="color:#3aa675;font-weight:600">100</span>点伤害。附加<span style="color:#3aa675;font-weight:600">50</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>。
 
 ## 小贴士
 

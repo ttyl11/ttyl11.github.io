@@ -16,13 +16,13 @@
 
 | 参数 | 数值 |
 |---|---|
-| 每层增伤 | 自身造成伤害 +1% |
+| 每层增伤 | 自身造成的攻击伤害 +1% |
 | 层数上限 | 100 |
 | 龙属性永久减伤 | 50%（每场仅一次） |
 
 ## 描述
 
-每有 <span style="color:#3aa675;font-weight:600">1</span> 个，自身造成伤害+<span style="color:#3aa675;font-weight:600">1</span>%。最多 <span style="color:#3aa675;font-weight:600">100</span> 个。到达 <span style="color:#3aa675;font-weight:600">100</span> 个时：若不为[龙](/powers/dragon_power.md)，消耗全部并恢复所有 PP、变为[龙](/powers/dragon_power.md)；若为[龙](/powers/dragon_power.md)，[永久减伤](/powers/permanent_damage_reduction_power.md)<span style="color:#3aa675;font-weight:600">50</span>%（每场一次），风龙结保持 <span style="color:#3aa675;font-weight:600">100</span>。
+①每有<span style="color:#3aa675;font-weight:600">1</span>个，自身造成的伤害+<span style="color:#3aa675;font-weight:600">1%</span>，最多<span style="color:#3aa675;font-weight:600">100</span>个。<br/>②达到<span style="color:#3aa675;font-weight:600">100</span>个时：若不为<span style="color:#d4a017;font-weight:600">龙</span>，消耗全部并恢复所有<span style="color:#d4a017;font-weight:600">PP</span>，变为<span style="color:#d4a017;font-weight:600">龙</span>；若为<span style="color:#d4a017;font-weight:600">龙</span>，永久获得<span style="color:#3aa675;font-weight:600">50%</span><span style="color:#d4a017;font-weight:600">减伤</span>（每场战斗一次），并保留<span style="color:#3aa675;font-weight:600">100</span>个<span style="color:#d4a017;font-weight:600">风龙结</span>。
 
 ## 详细机制
 

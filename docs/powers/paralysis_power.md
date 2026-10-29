@@ -1,7 +1,7 @@
 # 瘫痪
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家获得——[电脉充能](/cards/character/electric_pulse_charge.md)（卡牌）、[超频](/powers/overclock_power.md)（能力联动）；玩家施加给敌方——[核威强袭](/cards/token/nuclear_assault.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）；怪物施加给玩家——[雷伊](/monsters/boss/ray_monster.md)、[泰格尔](/monsters/boss/tiger_monster.md)
+> **施加来源**：玩家获得——[电脉充能](/cards/character/electric_pulse_charge.md)（卡牌）、[超频](/powers/overclock_power.md)（能力联动）；玩家施加给敌方——[核威强袭](/cards/token/nuclear_assault.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[灾厄之劫](/cards/character/doom_calamity.md)（卡牌）、[永寒精华](/potions/eternal_cold_essence_potion.md)（药水）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）；怪物施加给玩家——[雷伊](/monsters/boss/ray_monster.md)、[泰格尔](/monsters/boss/tiger_monster.md)
 
 <img src="/images/powers/paralysis_power.png" alt="瘫痪" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -20,11 +20,12 @@
 
 ## 描述
 
-攻击伤害降低<span style="color:#3aa675;font-weight:600">10</span>%。在你的回合开始时，若上回合未造成伤害，则获得[虚弱](/powers/weak_power.md)、[易伤](/powers/vulnerable_power.md)、[缩小](/powers/shrink_power.md)各<span style="color:#3aa675;font-weight:600">1</span>层。在你的回合结束时减少<span style="color:#3aa675;font-weight:600">1</span>层。
+①自身攻击伤害降低<span style="color:#3aa675;font-weight:600">10%</span>。<br/>②自身回合开始时，若上回合未造成伤害，则获得<span style="color:#d44;font-weight:600">虚弱</span>、<span style="color:#d44;font-weight:600">易伤</span>、<span style="color:#d44;font-weight:600">缩小</span>各<span style="color:#3aa675;font-weight:600">1</span>层。<br/>自身回合结束时层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 
 - **伤害降低**：当拥有者造成攻击伤害时，攻击伤害 × <span style="color:#3aa675;font-weight:600">0.9</span>（减少 <span style="color:#3aa675;font-weight:600">10</span>%）。
+  - 层数**不会**加深减伤幅度——2 层、3 层仍然是 10%，层数只决定持续回合数。
   - 仅影响攻击伤害，不影响固定伤害、中毒等非攻击伤害。
 - **伤害记录**：拥有者造成伤害时，标记本回合已造成伤害。
 - **回合开始惩罚**：拥有者一方回合开始前：

@@ -9,7 +9,7 @@
 
 ## 描述
 
-每场战斗中自身[堕落](/powers/fallen_power.md)首次达到 <span style="color:#3aa675;font-weight:600">100</span> 层时，获得 <span style="color:#3aa675;font-weight:600">1</span> 层[无实体](/powers/intangible_power.md)。
+每场战斗中，<span style="color:#d44;font-weight:600">堕落</span>首次达到100层时，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#9b59b6;font-weight:600">无实体</span>。
 
 - **触发时机**：战斗内[堕落](/powers/fallen_power.md)层数首次跨过 100 层（≥100）的瞬间触发，每场战斗仅 1 次。
 - **范围**：仅自身获得 1 层[无实体](/powers/intangible_power.md)（不再施加给敌人）。
@@ -21,7 +21,7 @@
 
 ## 小贴士
 
-- **堕落达到 100 是核心里程碑**：[堕落](/powers/fallen_power.md)是混沌魔君体系的计数属性，跨过 100 层时本就会触发[混沌化身](/powers/soulson_chaos_incarnation_power.md)+抽3张+[魔君接管](/powers/demon_takeover_power.md)（自动打牌）。无常幽鬼在同一个瞬间再补 1 层[无实体](/powers/intangible_power.md)，等于在"魔君接管"最凶险的时刻给自己套上一层减伤保险。
+- **堕落达到 100 是核心里程碑**：[堕落](/powers/fallen_power.md)是混沌魔君体系的计数属性，跨过 100 层时本就会触发[混沌化身](/powers/soulson_chaos_incarnation_power.md)+抽1张+[魔君接管](/powers/demon_takeover_power.md)（自动打牌）。无常幽鬼在同一个瞬间再补 1 层[无实体](/powers/intangible_power.md)，等于在"魔君接管"最凶险的时刻给自己套上一层减伤保险。
 - **与[堕落](/powers/fallen_power.md)流卡牌天然契合**：凡能叠堕落的手段（消亡、堕世、邪灵降世等堕落体系卡）都会推动你逼近 100 层。只要卡组能稳定把第一局堆到 100，就能吃到这层保命无实体。
 - **每场仅 1 次**：只在首次达到 100 层时给 1 层，之后达到200/300层不再重复给。所以它更像"第一次失控时的刹车"，而非持续防御。
 - **无实体挡一切伤害**：无实体把受到的每次伤害与生命损失都封顶在 1 点，多段攻击也只每段 1 点。正好对冲[魔君接管](/powers/demon_takeover_power.md)回合里可能出现的吃伤害风险，是堕落流卡组的重要防线。

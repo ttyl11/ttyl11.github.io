@@ -31,11 +31,11 @@ PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 获得<span style="color:#3aa675;font-weight:600">15</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。[<span style="color:#d4a017;font-weight:600">全属性</span>](/mechanics/all_attributes.md)<span style="color:#3aa675;font-weight:600">+1</span>，每<span style="color:#3aa675;font-weight:600">30</span>点最大生命再<span style="color:#3aa675;font-weight:600">+1</span>。下<span style="color:#3aa675;font-weight:600">4</span>回合[<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)<span style="color:#3aa675;font-weight:600">+1</span>。
+PP: 3/3 获得<span style="color:#3aa675;font-weight:600">8</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。<span style="color:#d4a017;font-weight:600">全属性</span><span style="color:#3aa675;font-weight:600">+1</span>，每<span style="color:#3aa675;font-weight:600">30</span>点最大生命再<span style="color:#3aa675;font-weight:600">+1</span>。下<span style="color:#3aa675;font-weight:600">4</span>回合<span style="color:#d4a017;font-weight:600">先制</span><span style="color:#3aa675;font-weight:600">+1</span>。
 
 ## 小贴士
 
-- **全属性加成有陷阱**：四属性各 +1，但效果不一样——[力量](/powers/strength_power.md)+1 每张攻击牌多 1 伤害、[防御](/powers/defense_power.md)+1 受到的攻击伤害 -1，这两个直接生效；[命中](/powers/accuracy_power.md)+1 对自身**无直接效果**（正数命中只用于抵消敌人施加的负命中）；[速度](/powers/speed_power.md)+1 **单层不生效**，需累积到 2 层才多抽 1 张牌。
+- **四属性各有用处**：[力量](/powers/strength_power.md)+1 每张攻击牌多 1 伤害、[防御](/powers/defense_power.md)+1 受到的攻击伤害 -1、[命中](/powers/accuracy_power.md)+1 暴击率 +10%、[速度](/powers/speed_power.md)+1 每回合多抽 1 张牌（随后弃掉层数一半，+1 层弃 0 张）——四项全部即时生效。
 - **血量越高收益越大**：每 30 点最大生命额外 +1 全属性。90 血时四属性各 +4，150 血时各 +6。配合血量成长遗物（如生命类先古遗物），后期一发出手就是成吨的属性堆叠。
 - **4 回合先制链**：接下来 4 个回合，每回合开始获得 1 点[先制](/powers/first_strike_power.md)——先制让下一张牌耗能 -1，打出后消失。相当于未来 4 回合每回合首张牌减 1 费，适合配合高费爆发牌连打。
 - **性价比**：2 费换 8 格挡+四属性加成+4 回合先制链，罕见稀有度配得上长期收益。格挡数值偏低但属性增益覆盖整场战斗，长期收益补偿即时格挡不足。
@@ -46,8 +46,8 @@ PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa
 - [先制](/powers/first_strike_power.md)（下 4 回合每回合先制 +1）
 - [力量](/powers/strength_power.md)（全属性之一，每层 +1 攻击伤害）
 - [防御](/powers/defense_power.md)（全属性之一，每层受到攻击伤害 -1）
-- [命中](/powers/accuracy_power.md)（全属性之一，正数对自身无直接效果）
-- [速度](/powers/speed_power.md)（全属性之一，每 2 层多抽 1 张）
+- [命中](/powers/accuracy_power.md)（全属性之一，每层 +10% 暴击率）
+- [速度](/powers/speed_power.md)（全属性之一，每层多抽 1 张，随后弃掉层数一半）
 
 ## 相关机制
 

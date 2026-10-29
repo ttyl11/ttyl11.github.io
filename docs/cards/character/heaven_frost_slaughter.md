@@ -22,11 +22,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 所有敌人<span style="color:#9b59b6;font-weight:600">冰封</span><span style="color:#3aa675;font-weight:600">2</span>回合，冰封失败则对其施加[攻击无效](/mechanics/intent)。
+PP: 5/5 所有敌人<span style="color:#d4a017;font-weight:600">冰封</span><span style="color:#3aa675;font-weight:600">2</span>，冰封失败则<span style="color:#d4a017;font-weight:600">攻击无效</span>。
 
 ## 升级后
 
-耗能<span style="color:#3aa675;font-weight:600">-1</span>。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 所有敌人<span style="color:#9b59b6;font-weight:600">冰封</span><span style="color:#3aa675;font-weight:600">2</span>回合，冰封失败则对其施加攻击无效。
+耗能<span style="color:#3aa675;font-weight:600">-1</span>。PP: 5/5 所有敌人<span style="color:#d4a017;font-weight:600">冰封</span><span style="color:#3aa675;font-weight:600">2</span>，冰封失败则<span style="color:#d4a017;font-weight:600">攻击无效</span>。
 
 ## 小贴士
 
@@ -44,7 +44,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 ## 相关机制
 
-- [攻击无效](/mechanics/intent)（冰封失败时施加）
+- [攻击无效](/mechanics/intent.md)（冰封失败时施加）
 
 ## 源码
 

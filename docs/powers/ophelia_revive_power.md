@@ -1,18 +1,25 @@
 # 奥菲利娅复活
 
-**复活型** · 不可见能力 · 无图标
+## 基本信息
 
-## 效果
+- **归属**：玩家能力（隐藏图标）
+- **类型**：增益
+- **叠加**：单层
+- **施加来源**：[奥菲利娅](/relics/legendary/ophelia.md)（整局一次）
 
-整局游戏首次死亡时，恢复自身 25 点生命与所有 PP。
+## 描述
 
-这场战斗结束后，向牌组中加入 1 张「[终末·赫星黎明](/fifth-skill/final_star_dawn_skill.md)」。
+整局游戏首次死亡时，恢复自身 <span style="color:#3aa675;font-weight:600">25</span> 点生命与所有 PP；这场战斗结束后，向牌组加入一张[终末·赫星黎明](/cards/token/final_star_dawn_attack.md)。
 
-## 来源
+## 详细机制
 
-- [奥菲利娅](/relics/legendary/ophelia.md) 遗物相关能力配置
+- **整局限一次**：不是每场战斗一次；触发后标记遗物，后续战斗不再复活。
+- **复活过程无敌**：复活期间免疫伤害、免疫能力施加、不可被攻击，并阻止战斗提前结束。
+- **恢复内容**：固定回复 25 点生命（不是最大生命百分比），并把所有牌堆中每张 PP 牌的 PP 回满。
+- 复活后立即移除这个能力；加牌由奥菲利娅遗物在战斗结束时处理。
 
-## 关联机制
+## 源码
 
-- [复活](/mechanics/revive.md)：首次死亡时触发，恢复生命并清除 PP 消耗。
-- [终末·赫星黎明](/fifth-skill/final_star_dawn_skill.md)：战斗结束后加入牌组的技能牌。
+- `SeerOpheliaRevivePower.cs`
+- `SeerOphelia.cs`（奥菲利娅）
+- `SeerPpCardModel.cs`（PP 恢复）

@@ -1,7 +1,7 @@
 # 中毒
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家获得——[感染](/powers/infect_power.md)（能力联动）；玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌）、[森林](/orbs/forest_orb.md)（充能球）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）；玩家侧联动——[荣尽枯生](/powers/glory_exhaustion_power.md)；怪物施加给玩家——[魔花仙子](/monsters/normal/magic_flower_monster.md)、[蘑菇怪](/monsters/elite/mushroom_monster.md)
+> **施加来源**：玩家获得——[感染](/powers/infect_power.md)（能力联动）；玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌）、[大蛇毒液](/cards/character/big_snake_venom.md)（卡牌）、[圣地擎山碎](/cards/colorless/holy_mountain_crush.md)（卡牌）、[缠管海绵](/potions/seaweed_potion.md)（药水）、[森林](/orbs/forest_orb.md)（充能球）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）；玩家侧联动——[荣尽枯生](/powers/glory_exhaustion_power.md)；怪物施加给玩家——[魔花仙子](/monsters/normal/magic_flower_monster.md)、[蘑菇怪](/monsters/elite/mushroom_monster.md)、[古温婆婆](/monsters/elite/guwen_granny_monster.md)
 
 <img src="/images/powers/poison_power.png" alt="中毒" style="max-width:120px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -21,7 +21,7 @@
 
 ## 描述
 
-在你的回合开始时受到等于层数的伤害，然后层数减半（向下取整）。
+自身回合开始时受到等于层数的伤害，然后层数减半。
 
 ## 详细机制
 

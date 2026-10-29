@@ -18,7 +18,7 @@
 
 ## 描述
 
-免疫[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)和[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。造成攻击伤害时，为对手附加<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#9b59b6;font-weight:600">圣诰</span>](/powers/holy_edict_power.md)。受到攻击伤害时，为攻击者附加<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#9b59b6;font-weight:600">邪诲</span>](/powers/evil_teaching_power.md)。
+①免疫<span style="color:#d4a017;font-weight:600">固定伤害</span>和<span style="color:#d44;font-weight:600">异常状态</span>。<br/>②造成攻击伤害时，为对手附加1层<span style="color:#9b59b6;font-weight:600">圣诰</span>。<br/>③受到攻击伤害时，为攻击者附加1层<span style="color:#9b59b6;font-weight:600">邪诲</span>。
 
 ## 详细机制
 

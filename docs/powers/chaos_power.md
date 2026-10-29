@@ -1,7 +1,7 @@
-# 混沌属性
+# 混沌
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[拒赦怒威态](/powers/wrathful_judgment_power.md)（能力联动）、[逝者巨樽](/relics/event/deceased_giant_jar.md)（遗物）、[群星的礼赠](/relics/starter/elemental_core.md)（遗物）；玩家施加给敌方——[🌫️ 无相](/potions/attribute_change_potion.md)（药水）
+> **施加来源**：玩家获得——[拒赦怒威态](/powers/wrathful_judgment_power.md)（能力联动）、[逝者巨樽](/relics/event/deceased_giant_jar.md)（遗物）、[混沌起源](/relics/starter/chaos_origin.md)（遗物）；任何角色——全局元素分配（玩家回合开始时，尚无元素的生物各随机获得 1 种元素）；玩家自身换元素——[🌫️ 无相](/potions/attribute_change_potion.md)（药水）
 
 <img src="/images/powers/chaos_power.png" alt="混沌属性" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -11,16 +11,23 @@
 - **叠加方式**: 单例（不可叠加）
 - **可见**: 是
 
-一种[元素属性](/mechanics/element-affinity.md)，对飞行/冰/神秘/次元/邪/自然/神圣属性造成 1.5× 伤害加成，对电/机械/格斗/轮回/虚空属性造成 0.75× 伤害衰减。
+## 描述
+
+一种[元素属性](/mechanics/element-affinity.md)，对飞行/冰/神秘/次元/邪灵/自然/神灵属性造成 1.5× 伤害加成，对电/机械/战斗/轮回/虚空属性造成 0.75× 伤害衰减。
 
 ## 详细机制
 
 - **元素能力载体**：本能力是[元素属性](/mechanics/element-affinity.md)系统的载体，中性属性（非 Buff/Debuff），不可被消除类效果清除。
-- **克制倍率**：克制 ×1.5 / 被克 ×0.75（龙系被克 ×0.5）/ 中性 ×1.0，只作用于**攻击伤害**的乘法结算。
+- **克制倍率**：克制 ×1.5 / 被克 ×0.75 / 中性 ×1.0，只作用于**攻击伤害**的乘法结算。
 - **不受影响的伤害**：异常状态持续伤害、[固定伤害](/mechanics/fixed-damage.md)、充能球伤害、荆棘反伤、生命流失均不吃元素克制。
-- **随机分配**：每场战斗开始时玩家与敌人各自随机获得元素属性，可通过卡牌/遗物/事件追加或变化。
+- **元素分配**：每场战斗的玩家回合开始时，所有尚无元素的生物由全局元素分配各随机获得 1 种元素；新元素会先移除旧元素，保证身上只有一个元素。玩家也可用[🌫️ 无相](/potions/attribute_change_potion.md)把**自身**换成指定元素，不会改变敌人的元素。
 
 ## 小贴士
 
 - **选对属性打**：克制时攻击伤害 ×1.5，被克仅 ×0.75——开局先看敌人属性，再决定用哪张属性攻击牌输出。
 - **元素每场随机**：属性分配每场战斗重新随机，依靠克制的卡组需准备多属性手段（如[梅洛](/relics/common/merlot.md)每回合随机变化属性）。
+
+## 源码
+
+- `SeerChaosPower.cs`
+- `SeerElementPower.cs`（元素能力基类）

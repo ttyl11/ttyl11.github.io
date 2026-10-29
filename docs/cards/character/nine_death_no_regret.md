@@ -28,7 +28,7 @@
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 消耗<span style="color:#3aa675;font-weight:600">9</span>点最大生命。每打出<span style="color:#3aa675;font-weight:600">9</span>张牌费用<span style="color:#3aa675;font-weight:600">-1</span>。下场战斗每回合增伤<span style="color:#3aa675;font-weight:600">99</span>%、减伤<span style="color:#3aa675;font-weight:600">9</span>%。战斗结束获得<span style="color:#3aa675;font-weight:600">9</span>-回合数个随机遗物。
+PP: 1/1 消耗<span style="color:#3aa675;font-weight:600">9</span>点最大生命。每打出<span style="color:#3aa675;font-weight:600">9</span>张牌费用<span style="color:#3aa675;font-weight:600">-1</span>。下场战斗每回合增伤<span style="color:#3aa675;font-weight:600">99</span>%、减伤<span style="color:#3aa675;font-weight:600">9</span>%。战斗结束获得<span style="color:#3aa675;font-weight:600">9</span>-回合数个随机遗物。
 
 ## 小贴士
 

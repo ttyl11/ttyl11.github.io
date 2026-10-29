@@ -25,7 +25,7 @@
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 每打出1张牌，恢复等于打出数量的生命。每回合重置。耗能降至<span style="color:#3aa675;font-weight:600">2</span>。
+PP: 1/1 每打出1张牌，恢复等于打出数量的生命。每回合重置。
 
 ## 小贴士
 

@@ -14,14 +14,14 @@ Seer Mod 共包含 311 个遗物。按稀有度分类浏览。
 <a href="/relics/common/" class="relic-category-item">
   <div class="relic-category-icon">⚪</div>
   <div class="relic-category-name">普通遗物</div>
-  <div class="relic-category-count">55 项</div>
+  <div class="relic-category-count">54 项</div>
   <div class="relic-category-desc">普通稀有度，常规战斗奖励获取（含塔罗遗物）</div>
 </a>
 
 <a href="/relics/uncommon/" class="relic-category-item">
   <div class="relic-category-icon">🔵</div>
   <div class="relic-category-name">罕见遗物</div>
-  <div class="relic-category-count">31 项</div>
+  <div class="relic-category-count">30 项</div>
   <div class="relic-category-desc">罕见稀有度，获取难度中等</div>
 </a>
 
@@ -56,7 +56,7 @@ Seer Mod 共包含 311 个遗物。按稀有度分类浏览。
 <a href="/relics/epic/" class="relic-category-item">
   <div class="relic-category-icon">🟠</div>
   <div class="relic-category-name">史诗遗物</div>
-  <div class="relic-category-count">40 项</div>
+  <div class="relic-category-count">42 项</div>
   <div class="relic-category-desc">史诗稀有度（自定义），极强大效果</div>
 </a>
 

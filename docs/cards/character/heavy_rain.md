@@ -18,17 +18,17 @@
 |---|---|---|
 | 格挡 | 9 | 9 |
 | 敌人全属性 | -1 | -1 |
-| 冰封回合 | 2 | 2 |
+| 冰封层数 | 2 | 2 |
 | PP | 7 | 7 |
 | 最大PP | 7 | 7 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">7</span>/<span style="color:#3aa675;font-weight:600">7</span> 获得<span style="color:#3aa675;font-weight:600">9</span><span style="color:#d4a017;font-weight:600">格挡</span>。所有敌人<span style="color:#d4a017;font-weight:600">全属性</span><span style="color:#3aa675;font-weight:600">-1</span>。<span style="color:#d4a017;font-weight:600">冰封</span><span style="color:#3aa675;font-weight:600">2</span>回合，失败则自身所有PP卡牌PP<span style="color:#3aa675;font-weight:600">-2</span>。
+PP: 7/7 获得<span style="color:#3aa675;font-weight:600">9</span><span style="color:#d4a017;font-weight:600">格挡</span>。所有敌人<span style="color:#d4a017;font-weight:600">全属性</span><span style="color:#3aa675;font-weight:600">-1</span>。<span style="color:#d4a017;font-weight:600">冰封</span><span style="color:#3aa675;font-weight:600">2</span>，失败则自身所有PP卡牌PP<span style="color:#3aa675;font-weight:600">-2</span>。
 
 ## 升级后
 
-耗能<span style="color:#3aa675;font-weight:600">-1</span>。PP: <span style="color:#3aa675;font-weight:600">7</span>/<span style="color:#3aa675;font-weight:600">7</span> 获得<span style="color:#3aa675;font-weight:600">9</span><span style="color:#d4a017;font-weight:600">格挡</span>。所有敌人<span style="color:#d4a017;font-weight:600">全属性</span><span style="color:#3aa675;font-weight:600">-1</span>。<span style="color:#d4a017;font-weight:600">冰封</span><span style="color:#3aa675;font-weight:600">2</span>回合，失败则自身所有PP卡牌PP<span style="color:#3aa675;font-weight:600">-2</span>。
+耗能<span style="color:#3aa675;font-weight:600">-1</span>。PP: 7/7 获得<span style="color:#3aa675;font-weight:600">9</span><span style="color:#d4a017;font-weight:600">格挡</span>。所有敌人<span style="color:#d4a017;font-weight:600">全属性</span><span style="color:#3aa675;font-weight:600">-1</span>。<span style="color:#d4a017;font-weight:600">冰封</span><span style="color:#3aa675;font-weight:600">2</span>，失败则自身所有PP卡牌PP<span style="color:#3aa675;font-weight:600">-2</span>。
 
 ## 小贴士
 
@@ -36,7 +36,7 @@ PP: <span style="color:#3aa675;font-weight:600">7</span>/<span style="color:#3aa
 - **冰封链路**：冰封期间敌人攻击伤害 -20%（固定值，不随层数），敌方回合结束时冰封移除并转为 2 层[冻伤](/powers/frostbite_power.md)（之后 2 个敌方回合开始各掉 5 点血）。
 - **冰封失败惩罚是逐敌人叠加的**：每个敌人独立判定"冰封层数是否增加"——**任何一个**免疫敌人失败，就把你手牌/抽牌堆/弃牌堆/消耗堆里**所有 PP 卡**（含这张自己）PP -2；**多个**免疫敌人失败会**重复触发**——3 个免疫敌人 = PP 一次性 -6，基本报废整场 PP 资源。遇到已知免疫异常的敌群（尤其多目标战斗）千万别打这张。
 - **已有冰封可以叠加**：对已带冰封的敌人重复施加（2→4 层）判定为成功，不触发惩罚——真正失败的只有"层数完全没涨"（免疫/被拦截）。
-- **全属性 -1 的收益面**：力量 -1 削敌攻击、防御 -1 让敌人多挨 1 点攻击伤害、命中 -1 抵消敌人正命中（若敌人命中归负则出现落空率）、速度 -1 累积到 -2 时全体玩家多抽 1 张——与[飞龙在天](/cards/character/flying_dragon_sky.md)的减速体系天然联动。
+- **全属性 -1 的收益面**：力量 -1 削敌攻击、防御 -1 让敌人多挨 1 点攻击伤害、命中 -1 让敌人攻击更容易被玩家闪避（每层 +5%）、速度 -1 让全体玩家回合开始多抽 1 张（随后弃掉层数一半）——与[飞龙在天](/cards/character/flying_dragon_sky.md)的减速体系天然联动。
 - **配合建议**：与冰封/冻伤/减速体系组队；打之前先确认敌方无异常免疫（或已用探针类效果验证）；PP 7 的量意味着惩罚触发时损失面极大，风险意识优先。
 - **升级的关键性**：2 费→1 费，三合一效果的性价比直接跃升，优先级高。
 - **性价比**：效果密度全场顶级的群控技能，但惩罚条款苛刻——对普通敌群是超值好牌，对免疫敌群是自杀按钮，敌情侦察决定它的价值。

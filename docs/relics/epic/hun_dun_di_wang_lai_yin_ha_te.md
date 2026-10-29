@@ -21,17 +21,17 @@
 
 ## 描述
 
-①回合开始，处于[gold]能力提升[/gold]获[blue]20[/blue][gold]格挡[/gold]，否则获最大生命[blue]20%[/blue][gold]格挡[/gold]。②[gold]格挡[/gold]非回合结束消失，对所有敌人施加消失数量[gold]固定伤害[/gold]。③回合切换最多保留[red]堕落[/red]层数[blue]10%[/blue][gold]格挡[/gold]。④每场首次[gold]洗牌[/gold]时，本场[red]堕落[/red]、获得格挡、施加固伤三项计数均达[blue]400[/blue]，升级为[gold]混沌地王·莱茵哈特（觉醒）[/gold]。
+①回合开始，处于<span style="color:#d4a017;font-weight:600">能力提升</span>获<span style="color:#3aa675;font-weight:600">20</span><span style="color:#d4a017;font-weight:600">格挡</span>，否则获最大生命<span style="color:#3aa675;font-weight:600">20%</span><span style="color:#d4a017;font-weight:600">格挡</span>。<br/>②<span style="color:#d4a017;font-weight:600">格挡</span>非回合结束消失，对所有敌人施加消失数量<span style="color:#d4a017;font-weight:600">固定伤害</span>。<br/>③回合切换最多保留<span style="color:#d44;font-weight:600">堕落</span>层数<span style="color:#3aa675;font-weight:600">10%</span><span style="color:#d4a017;font-weight:600">格挡</span>。<br/>④每场首次<span style="color:#d4a017;font-weight:600">洗牌</span>时，本场<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">0</span>、获得格挡<span style="color:#3aa675;font-weight:600">0</span>、施加固伤<span style="color:#3aa675;font-weight:600">0</span>均达<span style="color:#3aa675;font-weight:600">400</span>，升级为<span style="color:#d4a017;font-weight:600">混沌地王·莱茵哈特（觉醒）</span>。
 
 ## 详细机制
 
 - **①回合开始格挡二选一**：每个我方回合开始时判断——自身「能力提升」（四维正层数之和）>0 则获得 **20 格挡**；否则按**最大生命 20%** 获得格挡（向下取整：如 120 血 → 24 格挡）。两条路径二选一，不会同时触发。
-- **②"格挡非回合结束消失"后给固伤**：与[莱茵哈特](/relics/rare/lai_yin_ha_te.md)②相同口径——回合内**自消/被击破/被消除**的格挡才算，回合切换自然清空不算。触发时对**所有敌人施加"消失数量"的[固定伤害](/powers/fixed_damage_power.md)**（消失多少格挡，敌人全体吃多少，`AfterBlockBroken` hook）。
+- **②"格挡非回合结束消失"后给固伤**：与[莱茵哈特](/relics/rare/lai_yin_ha_te.md)②相同口径——回合内**自消/被击破/被消除**的格挡才算，回合切换自然清空不算。触发时对**所有敌人施加"消失数量"的[固定伤害](/powers/fixed_damage_power.md)**（消失多少格挡，敌人全体吃多少）。
 - **③跨回合保留堕落10%格挡**：回合切换自然清空格挡时，保留**堕落层数 × 10%**（向下取整）的格挡（可保留数量 = ⌊堕落×10%⌋ 与消失前格挡取小）。堕落 100 → 保留 10；堕落 50 → 保留 5。堕落为 0 时不保留。
-- **④"首次洗牌定格"进化判定**：每场战斗**第一次洗牌**时判定一次（`AfterShuffle`，本场仅一次标记）：本场累积的**堕落 / 获得格挡 / 施加固伤三项计数都 ≥400** 才进化。**判定后三项计数立即冻结**——洗牌之后获得的堕落/格挡/固伤不再计入，也不用担心反复触发。满足条件进化为[混沌地王·莱茵哈特（觉醒）](/relics/legendary/hun_dun_di_wang_lai_yin_ha_te_awakened.md)。
+- **④"首次洗牌定格"进化判定**：每场战斗**第一次洗牌**时判定一次（本场仅一次）：本场累积的**堕落 / 获得格挡 / 施加固伤三项计数都 ≥400** 才进化。**判定后三项计数立即冻结**——洗牌之后获得的堕落/格挡/固伤不再计入，也不用担心反复触发。满足条件进化为[混沌地王·莱茵哈特（觉醒）](/relics/legendary/hun_dun_di_wang_lai_yin_ha_te_awakened.md)。
 - **④三项计数口径**（每场战斗独立清零，实时写入遗物描述）：
-  - **堕落**：施加到**自身**的[堕落](/mechanics/fallen.md)层数（正增量，被清空/消耗不减）；
-  - **获得格挡**：自身获得的格挡总量（`AfterBlockGained`，含①给的）；
+  - **堕落**：施加到**自身**的[堕落](/powers/fallen_power.md)层数（正增量，被清空/消耗不减）；
+  - **获得格挡**：自身获得的格挡总量（含①给的）；
   - **施加固伤**：由你（含宠物）施加的固定伤害（全来源）。
 - **④为什么是"洗牌时"**：牌堆耗尽重洗是战斗节奏的分水岭，洗牌前刷够三项说明本场攻防节奏完整走完——这是"觉醒"的门槛信号。
 
@@ -45,7 +45,7 @@
 
 ## 相关能力 / 机制
 
-- [堕落](/mechanics/fallen.md)（③保留比例 / ④计数）
+- [堕落](/powers/fallen_power.md)（③保留比例 / ④计数）
 - [固定伤害](/powers/fixed_damage_power.md)（②施加 / ④计数）
 - [格挡](/mechanics/block.md)（①②③/④计数）
 - 能力提升（四维正层数之和，①条件）

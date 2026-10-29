@@ -28,7 +28,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">人工制品</span>。生命低于<span style="color:#3aa675;font-weight:600">25</span>%时回血至<span style="color:#3aa675;font-weight:600">60</span>%，下回合再次检查。
+PP: 5/5 获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">人工制品</span>。生命低于<span style="color:#3aa675;font-weight:600">25</span>%时回血至<span style="color:#3aa675;font-weight:600">50</span>%，下回合再次检查。
 
 ## 小贴士
 

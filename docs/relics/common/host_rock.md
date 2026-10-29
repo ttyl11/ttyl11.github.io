@@ -9,7 +9,7 @@
 
 ## 描述
 
-受到伤害时，<span style="color:#d4a017;font-weight:600">召唤</span>等量。每回合至多触发<span style="color:#3aa675;font-weight:600">5</span>次。
+受到伤害时，<span style="color:#d4a017;font-weight:600">召唤</span>等量。
 
 ## 风味文字
 

@@ -14,9 +14,9 @@
 | 能力 | 类型 | 说明 |
 |---|---|---|
 | [力量](/powers/strength_power.md) | 原版 | 攻击伤害增加层数点 |
-| [命中](/powers/accuracy_power.md) | mod | 负层数时每层有概率使伤害降为 0 |
+| [命中](/powers/accuracy_power.md) | mod | 正层每层 +10% 暴击率并使目标闪避 -5%；负层每层使对手对你的闪避 +5% |
 | [防御](/powers/defense_power.md) | mod | 每层减少 1 点受到的攻击伤害 |
-| [速度](/powers/speed_power.md) | mod | 每 2 层影响 1 张抽牌数 |
+| [速度](/powers/speed_power.md) | mod | 玩家正层每层多抽 1 张并弃掉约半数；怪物正层回合开始获得最大生命 5% 格挡；负层镜像给对方 |
 
 ## 相关卡牌
 

@@ -1,7 +1,7 @@
 # 神游
 
-> **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物施加给玩家——[狄修斯](/monsters/normal/dixius_monster.md)
+> **归属**：玩家与怪物均可持有
+> **施加来源**：怪物施加给玩家——[狄修斯](/monsters/normal/dixius_monster.md)；玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动）
 
 <img src="/images/powers/trance_power.png" alt="神游" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -20,7 +20,7 @@
 
 ## 描述
 
-攻击伤害降低<span style="color:#3aa675;font-weight:600">20</span>%。在你的回合结束时获得<span style="color:#3aa675;font-weight:600">2</span>层[<span style="color:#d4a017;font-weight:600">睡眠</span>](/powers/sleep_power.md)并减少1层。
+①自身造成的攻击伤害降低<span style="color:#3aa675;font-weight:600">20%</span>。<br/>②自身回合结束时，获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d4a017;font-weight:600">睡眠</span>，然后层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 

@@ -28,17 +28,17 @@
 
 ## 描述
 
-[化墟](/mechanics/ruination.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> <span style="color:#d4a017;font-weight:600">全属性</span><span style="color:#3aa675;font-weight:600">+1</span>。获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d44;font-weight:600">神耀能量</span>。下两次攻击必定暴击。
+PP: 5/5 下两次攻击<span style="color:#d44;font-weight:600">必暴</span>。 <span style="color:#d4a017;font-weight:600">全属性</span><span style="color:#3aa675;font-weight:600">+1</span>。获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#9b59b6;font-weight:600">神耀能量</span>。
 
 ## 升级后
 
-[化墟](/mechanics/ruination.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> <span style="color:#d4a017;font-weight:600">全属性</span><span style="color:#3aa675;font-weight:600">+1</span>。获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">神耀能量</span>。下两次攻击必定暴击。
+PP: 5/5 下两次攻击<span style="color:#d44;font-weight:600">必暴</span>。 <span style="color:#d4a017;font-weight:600">全属性</span><span style="color:#3aa675;font-weight:600">+1</span>。获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#9b59b6;font-weight:600">神耀能量</span>。
 
 ## 小贴士
 
-- **三合一增益牌**：[化墟](/mechanics/ruination.md) 打出时向弃牌堆加入一张随机状态牌；同时给全属性 +1 + [神耀能量](/powers/divine_energy_power.md) + [必定暴击](/powers/next_guaranteed_crit_power.md)，是 mod 中少有的全维度增益牌。
-- **PP 5 的含金量**：PP 5 = 单场战斗最多打出 5 次（每次正常付 1 费、扣 1 PP），每次打出全部效果重复获得。一场战斗打满 5 次 = 全属性 +5、10 层必定暴击、神耀能量 5 层（升级后 10 层）。它不是一次性的爆发牌，而是可以反复铺场的成长引擎——手里只要留 1 张，整场都在变强。
-- **全属性详解**：[力量](/powers/strength_power.md)+1（每层攻击伤害 +1）、[速度](/powers/speed_power.md)+1（回合开始多抽 1 张、须弃掉半数）、[命中](/powers/accuracy_power.md)+1（+10% 暴击率；被负命中压制时先抵消它——如[极度冰点](/cards/character/extreme_freeze.md)给自己挂的 -12 命中会让攻击频繁被闪避）、[防御](/powers/defense_power.md)+1（每层受到的攻击伤害 -1，最低减到 0）。
+- **三合一增益牌**：[化墟](/mechanics/ruination.md) 打出时向弃牌堆加入一张随机原版状态牌；同时给全属性 +1 + [神耀能量](/powers/divine_energy_power.md) + [必定暴击](/powers/next_guaranteed_crit_power.md)，是 mod 中少有的全维度增益牌。
+- **PP 5 的含金量**：PP 5 = 单场战斗最多打出 5 次（每次正常付 1 费、扣 1 PP），每次打出全部效果重复获得。一场战斗打满 5 次 = 全属性 +5、10 层必定暴击、神耀能量 5 层（升级后 10 层），代价是弃牌堆里多出 5 张随机状态牌。它不是一次性的爆发牌，而是可以反复铺场的成长引擎——手里只要留 1 张，整场都在变强。
+- **全属性详解**：[力量](/powers/strength_power.md)+1（每层攻击伤害 +1）、[速度](/powers/speed_power.md)+1（回合开始多抽 1 张；随后须弃掉有效层数的一半，向下取整——+1 层弃 0 张，+2 层弃 1 张，弃牌数不超过手牌上限的一半）、[命中](/powers/accuracy_power.md)+1（+10% 暴击率）、[防御](/powers/defense_power.md)+1（每层受到的攻击伤害 -1，最低减到 0）。
 - **神耀能量减伤**：每层减少 12% 受到的攻击伤害，**封顶 6 层（72%）**——超出 6 层的部分无效。只对敌人的攻击伤害生效，灼烧/中毒/固定伤害等非攻击伤害照常全额结算。未升级打满 5 次共 5 层（60% 减伤）；升级后每次 2 层，打 3 次即触顶。
 - **必定暴击爆发**：打出后获得 2 层必定暴击（计数器）——接下来 2 次攻击均为**真暴击**（×1.5，写入暴击判定——触发[五月之锋](/cards/character/may_edge.md)等"暴击时"联动）；每次攻击消耗 1 层，多段攻击的每一段都 ×1.5（整次攻击只算 1 次）。
 - **配合建议**：打出后用两次攻击牌收割暴击——每张多段攻击牌整张全段 ×1.5（只消耗 1 层），两次攻击刚好用完；力量/防御/速度是常驻 Power，整场累积。全属性 +1 的设计也让它和任何体系都不冲突，属于"看到就能拿"的润滑剂。
@@ -50,8 +50,8 @@
 - [神耀能量](/powers/divine_energy_power.md)（每层减伤 12%，封顶 6 层）
 - [必定暴击](/powers/next_guaranteed_crit_power.md)（下两次攻击判定 ×1.5）
 - [力量](/powers/strength_power.md)（每层攻击伤害 +1）
-- [速度](/powers/speed_power.md)（每 2 层多抽 1 张）
-- [命中](/powers/accuracy_power.md)（正层抵消负命中的落空率）
+- [速度](/powers/speed_power.md)（每层回合开始多抽 1 张，随后弃掉层数的一半）
+- [命中](/powers/accuracy_power.md)（每层 +10% 暴击率；负层改为让目标闪避 +5%/层）
 - [防御](/powers/defense_power.md)（每层受到攻击伤害 -1）
 
 ## 相关机制

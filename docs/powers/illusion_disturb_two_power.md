@@ -1,7 +1,7 @@
-﻿# 幻扰二
+# 幻扰二
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：怪物随机能力池（全局补丁）——玩家回合开始时，怪物按概率获得；概率随已访问房间数增长，不需要遗物。仅进阶 11+（异能苏醒）生效（A13 原版怪概率 ×2、A28 全体再 ×2），且已持有任一 Seer 怪物能力的怪物不再获得。
 
 <img src="/images/powers/illusion_disturb_two_power.png" alt="幻扰二" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,11 +13,11 @@
 
 ## 描述
 
-在你的回合开始时，给予敌人<span style="color:#3aa675;font-weight:600">1</span>种随机<span style="color:#d44;font-weight:600">异常状态</span><span style="color:#3aa675;font-weight:600">2</span>回合。
+自身回合开始时，使对手随机获得<span style="color:#3aa675;font-weight:600">1</span>种<span style="color:#d44;font-weight:600">异常状态</span>，每种<span style="color:#3aa675;font-weight:600">2</span>层。
 
 ## 详细机制
 
-- **回合开始随机异常**：持有者（怪物）自己回合开始时，对**玩家方全体**各施加 <span style="color:#3aa675;font-weight:600">1</span> 种随机[异常状态](/mechanics/abnormal-status.md) <span style="color:#3aa675;font-weight:600">2</span> 层——与[幻扰一](/powers/illusion_disturb_power.md)同机制，持续时间翻倍。
+- **回合开始随机异常**：持有者（怪物）自己回合开始时，对**所有对手**各施加 1 种随机异常状态（**23 种随机池**）2 层——与[幻扰一](/powers/illusion_disturb_power.md)同机制，层数翻倍。
 - **「曝」压制**：怪物持有[曝](/powers/expose_power.md)时施加 <span style="color:#3aa675;font-weight:600">50%</span> 概率失败。
 - **无限持续**：持有者活着就每回合执行。
 

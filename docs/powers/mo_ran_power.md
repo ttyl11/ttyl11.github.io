@@ -1,7 +1,7 @@
 # 墨染
 
 > **归属**：玩家专属
-> **施加来源**：玩家自身——[雁翎](/relics/common/yan_ling.md)（战斗开始 +20，每回合翻倍）、[学神](/relics/shop/study_god.md)（战斗开始 +333）、[墨眉](/cards/character/mo_mei.md)（打出 +150）
+> **施加来源**：玩家自身——[雁翎](/relics/common/yan_ling.md)（战斗开始 +20，每回合翻倍）、[学神](/relics/shop/study_god.md)（战斗开始 +333）、[墨眉](/cards/character/mo_mei.md)（打出 +150）；刻印奖励——流年·星光（预见 2 次，+222）、水神之印（打出 23 张 PP 牌，+666）
 
 <img src="/images/powers/mo_ran_power.png" alt="墨染" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 

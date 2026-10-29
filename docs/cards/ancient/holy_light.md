@@ -27,7 +27,7 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 本回合你的所有牌耗能<span style="color:#3aa675;font-weight:600">-1</span>。抽<span style="color:#3aa675;font-weight:600">2</span>张牌。（<span style="color:#3aa675;font-weight:600">0</span>费）
+PP: 1/1 本回合你的所有牌耗能-<span style="color:#3aa675;font-weight:600">1</span>。抽<span style="color:#3aa675;font-weight:600">2</span>张牌。
 
 ## 详细机制
 
@@ -39,7 +39,7 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 
 ## 小贴士
 
-- **升级后 0 费过牌 + 全场减费**：升级后 0 费打出：本回合所有牌 -1 费 + 抽 2 张——白嫖一次过牌还润滑整个回合的爆发。先古牌只能打 1 次，最佳时机是手中有大量高费牌时。
+- **升级后 0 费过牌 + 全场减费**：升级后 0 费打出：本回合所有牌 -1 费 + 抽 2 张——白嫖一次过牌还润滑整个回合的爆发。圣光的 PP 只有 1，每场通常只能打一次，最佳时机是手中有大量高费牌时。
 - **多张圣光是抽牌引擎，不是减费引擎**：减耗固定 -1 不叠加，但每张圣光都抽 2 张牌——净化攒下的多张圣光，价值在"每张 2 张过牌"，而不是把减费堆到 -N。连续打出 2 张圣光 = 抽 4 张 + 全场 -1 费，爆费爆牌两不误。
 - **先打出再打高费牌**：减费持续到回合结束，先把圣光甩出去再打高费牌，一张 3 费牌变 2 费、两张 2 费牌变两张 1 费——当回合多省下的能量足够多打一张牌。
 - **净化产生的免费资源**：原本会卡手的诅咒/状态牌被转化为可用的减费+过牌资源，是把负面牌转化为正面收益的核心手段。

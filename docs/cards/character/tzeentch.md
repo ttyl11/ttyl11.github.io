@@ -39,7 +39,8 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 - **泰坦之灵怎么花不影响耗能**：耗能只认打出次数，不再与持有量挂钩——把泰坦之灵花在商店/兑换上不会让这张牌变便宜，放心消费即可（腾出来的钱不用留给它）。
 - **虚无逼你出手**：基础版带[<span style="color:#d4a017;font-weight:600">虚无</span>](/mechanics/ethereal.md)，回合结束时若仍留在手牌则被[<span style="color:#d4a017;font-weight:600">消耗</span>](/mechanics/exhaust.md)。你被迫"抽到就得打"，可偏偏打了又会涨价，是个推你走钢丝的抉择。
 - **升级拔虚无**：升级移除[<span style="color:#d4a017;font-weight:600">虚无</span>](/mechanics/ethereal.md)，让你能把它攥在手里，等能量充裕时再打出——注意攥在手里不会让耗能回落，晚打的代价只有"次数迟早会加"。
-- **堕落 = 泰坦之灵×10，越肥越接近失控**：堕落按**当前泰坦之灵持有量**×<span style="color:#3aa675;font-weight:600">10</span> 结算——持有 5 个就 +50、持有 10 个直接 +100 触发[魔君接管](/powers/demon_takeover_power.md)。堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层强制接管乱打手牌；攒币周期里要算准打出时机。
+- **堕落 = 泰坦之灵×10，越肥越接近失控**：堕落按**打出后（含本次获得）的泰坦之灵总数**×<span style="color:#3aa675;font-weight:600">10</span> 结算——持有 5 个就 +50、持有 10 个直接 +100 触发[魔君接管](/powers/demon_takeover_power.md)。堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层强制接管乱打手牌；攒币周期里要算准打出时机。
+- **PP 1 = 每场最多手动打一次**：PP 是单场资源，本牌 PP1，每场战斗通常只能手动打出一次；想反复滚雪球需要其它 PP 恢复手段。
 - **性价比**：3 费起跳的滚雪球货币牌，长线收益极高但前期负担偏重；加价改为整局按次数后，频繁打出会被费用拖住，适合能稳定回费、并把泰坦之灵及时变现的流派。
 
 ## 相关机制

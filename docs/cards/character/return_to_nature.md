@@ -28,7 +28,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [<span style="color:#d4a017;font-weight:600">力量</span>](/powers/strength_power.md)+<span style="color:#3aa675;font-weight:600">1</span>，获得<span style="color:#3aa675;font-weight:600">8</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)，抽<span style="color:#3aa675;font-weight:600">1</span>张牌。耗能降至<span style="color:#3aa675;font-weight:600">0</span>。
+PP: 5/5 <span style="color:#d4a017;font-weight:600">力量</span>+<span style="color:#3aa675;font-weight:600">1</span>，获得<span style="color:#3aa675;font-weight:600">8</span>点<span style="color:#d4a017;font-weight:600">格挡</span>，抽<span style="color:#3aa675;font-weight:600">1</span>张牌。
 
 ## 小贴士
 

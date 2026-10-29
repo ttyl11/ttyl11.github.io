@@ -22,7 +22,7 @@
 
 ## 描述
 
-攻击时，<span style="color:#3aa675;font-weight:600">50%</span>几率自伤<span style="color:#3aa675;font-weight:600">20%</span>原伤害，其余几率只造成<span style="color:#3aa675;font-weight:600">50%</span>伤害。在你的回合结束时减少1层。
+攻击时，有<span style="color:#3aa675;font-weight:600">50%</span>概率受到相当于原伤害<span style="color:#3aa675;font-weight:600">20%</span>的伤害，否则只造成相当于原伤害<span style="color:#3aa675;font-weight:600">50%</span>的伤害。<br/>自身回合结束时层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 

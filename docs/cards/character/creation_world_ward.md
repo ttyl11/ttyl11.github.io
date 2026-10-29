@@ -16,28 +16,28 @@
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 单条意图伤害 | 7 | 10 |
+| 单条意图伤害 | 6 | 9 |
 | [异常免疫](/powers/debuff_immune_power.md)回合数 | 4 | 4 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [异常免疫](/powers/debuff_immune_power.md)<span style="color:#3aa675;font-weight:600">4</span>回合。对目标造成<span style="color:#3aa675;font-weight:600">7</span>×全场意图总数点伤害。
+PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [异常免疫](/powers/debuff_immune_power.md)<span style="color:#3aa675;font-weight:600">4</span>回合。对目标造成<span style="color:#3aa675;font-weight:600">6</span>×全场意图总数点伤害。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [异常免疫](/powers/debuff_immune_power.md)<span style="color:#3aa675;font-weight:600">4</span>回合。对目标造成<span style="color:#3aa675;font-weight:600">10</span>×全场意图总数点伤害。
+PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [异常免疫](/powers/debuff_immune_power.md)<span style="color:#3aa675;font-weight:600">4</span>回合。对目标造成<span style="color:#3aa675;font-weight:600">9</span>×全场意图总数点伤害。
 
 ## 详细机制
 
 - **结算顺序**：先给自己挂 <span style="color:#3aa675;font-weight:600">4</span> 回合[异常免疫](/powers/debuff_immune_power.md)，再对选定目标一次性结算伤害。
-- **伤害 = 单条伤害 × 全场意图总数**：统计的是**所有敌人**当前头顶的意图条数之和（攻击 + 格挡同时显示即算 <span style="color:#3aa675;font-weight:600">2</span> 条），<span style="color:#3aa675;font-weight:600">7</span>（升级 <span style="color:#3aa675;font-weight:600">10</span>）点/条。
+- **伤害 = 单条伤害 × 全场意图总数**：统计的是**所有敌人**当前头顶的意图条数之和（攻击 + 格挡同时显示即算 <span style="color:#3aa675;font-weight:600">2</span> 条），<span style="color:#3aa675;font-weight:600">6</span>（升级 <span style="color:#3aa675;font-weight:600">9</span>）点/条。
 - **打的是单体，读的是全场**：目标由你选择，但伤害总量取决于全场敌人的意图数量——场上敌人越多、意图越复杂，这一击越重。
 - **全场无意图时只给免疫**：意图总数为 <span style="color:#3aa675;font-weight:600">0</span> 时本卡不造成伤害（[异常免疫](/powers/debuff_immune_power.md)照常获得）。
 - **[异常免疫](/powers/debuff_immune_power.md)**：免疫[异常状态](/mechanics/abnormal-status.md) <span style="color:#3aa675;font-weight:600">4</span> 回合，每经过一个敌方回合结束减少 <span style="color:#3aa675;font-weight:600">1</span> 层。
 
 ## 小贴士
 
-- **多敌人场景才是它的主场**：三个敌人各显示 <span style="color:#3aa675;font-weight:600">2</span> 条意图时就是 <span style="color:#3aa675;font-weight:600">6</span> 条 → <span style="color:#3aa675;font-weight:600">42</span> 点（升级 <span style="color:#3aa675;font-weight:600">60</span> 点），1 费打出 <span style="color:#3aa675;font-weight:600">60</span> 点的量级相当夸张；单怪场景一般只有 <span style="color:#3aa675;font-weight:600">1</span>~<span style="color:#3aa675;font-weight:600">2</span> 条，收益骤降。
+- **多敌人场景才是它的主场**：三个敌人各显示 <span style="color:#3aa675;font-weight:600">2</span> 条意图时就是 <span style="color:#3aa675;font-weight:600">6</span> 条 → <span style="color:#3aa675;font-weight:600">36</span> 点（升级 <span style="color:#3aa675;font-weight:600">54</span> 点），1 费打出 <span style="color:#3aa675;font-weight:600">54</span> 点的量级相当夸张；单怪场景一般只有 <span style="color:#3aa675;font-weight:600">1</span>~<span style="color:#3aa675;font-weight:600">2</span> 条，收益骤降。
 - **出手前先数意图**：敌人意图会随行动轮换变化，"这一轮有几条"决定这张牌的伤害——把它留给意图最多的回合打出，收益最大化。
 - **免异常是抗压底牌**：<span style="color:#3aa675;font-weight:600">4</span> 回合不吃[异常状态](/mechanics/abnormal-status.md)，面对专精异常压制的敌人可以先手挂上，再慢慢运营。
 - **它是"读牌"型输出**：伤害与敌人当前动作强相关，配合能改变敌人意图或拖回合的打法，可以让这张牌在关键回合爆发。

@@ -25,11 +25,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有敌人随机造成<span style="color:#3aa675;font-weight:600">10</span>-<span style="color:#3aa675;font-weight:600">30</span>点伤害。战斗中每使用一次，最低值+<span style="color:#3aa675;font-weight:600">5</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">30%</span>。
+PP: 5/5 对所有敌人随机造成<span style="color:#3aa675;font-weight:600">10</span>-<span style="color:#3aa675;font-weight:600">30</span>点伤害。本场每打出一次，最低值+<span style="color:#3aa675;font-weight:600">5</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">30%</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有敌人随机造成<span style="color:#3aa675;font-weight:600">20</span>-<span style="color:#3aa675;font-weight:600">45</span>点伤害。战斗中每使用一次，最低值+<span style="color:#3aa675;font-weight:600">5</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">30%</span>。
+PP: 5/5 对所有敌人随机造成<span style="color:#3aa675;font-weight:600">20</span>-<span style="color:#3aa675;font-weight:600">45</span>点伤害。本场每打出一次，最低值+<span style="color:#3aa675;font-weight:600">5</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">30%</span>。
 
 ## 小贴士
 

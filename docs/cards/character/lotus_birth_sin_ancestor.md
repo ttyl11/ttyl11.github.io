@@ -32,9 +32,9 @@ PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa
 
 ## 小贴士
 
-- **三态互斥是核心——切换状态换双倍持续时间**：不处于三态时进入 3 回合，已处于三态时清除后进入 6 回合——切换状态换取双倍持续时间。注意这是**能力牌**，打出即离场、PP1 单场只能打一次——想吃到 6 回合分支，必须先打出**另一张**三态牌（如先[世母](/cards/character/lotus_birth_world_mother.md)进 3 回合，再打这张换拒赦怒威 6 回合，合计 <span style="color:#3aa675;font-weight:600">9</span> 回合状态覆盖）。
+- **三态互斥是核心——切换状态换双倍持续时间**：不处于三态时进入 3 回合，已处于三态时清除后进入 6 回合——切换状态换取双倍持续时间。注意这是**能力牌**，打出即离场、PP1 单场只能打一次——想吃到 6 回合分支，必须先打出**另一张**三态牌（如先[世母](/cards/character/lotus_birth_world_mother.md)进 3 回合，再打这张换拒赦怒威 6 回合）。被切换掉的状态剩余层数会直接作废，不是两张牌的持续时间相加。
 - **三态系统**：<span style="color:#d4a017;font-weight:600">三态</span>是[百天浮世络](/powers/hundred_day_floating_world_power.md)、[怀生菩怜态](/powers/compassionate_bodhi_power.md)、[拒赦怒威态](/powers/wrathful_judgment_power.md)三种状态的统称，三者互斥——进入任一状态前会先清除已有的三态。
-- **拒赦怒威态效果**：存续期间**每个回合开始**都会清除自身现有<span style="color:#d4a017;font-weight:600">元素属性</span>、变为[<span style="color:#d4a017;font-weight:600">混沌系</span>](/powers/chaos_power.md)、获得 <span style="color:#3aa675;font-weight:600">1</span> 层[先制](/powers/first_strike_power.md)——<span style="color:#3aa675;font-weight:600">6</span> 回合状态总共白拿 <span style="color:#3aa675;font-weight:600">6</span> 层先制；同时自身所有攻击伤害提升 <span style="color:#3aa675;font-weight:600">30</span>%（乘法增伤）；回合结束减 1 层。是爆发输出型状态。
+- **拒赦怒威态效果**：存续期间**每个回合开始**都会清除自身现有<span style="color:#d4a017;font-weight:600">元素属性</span>、变为[<span style="color:#d4a017;font-weight:600">混沌系</span>](/powers/chaos_power.md)、获得 <span style="color:#3aa675;font-weight:600">1</span> 层[先制](/powers/first_strike_power.md)——6 回合最多触发 6 次（每次的 1 层先制在打出下一张牌后就消耗）；同时自身所有攻击伤害提升 <span style="color:#3aa675;font-weight:600">30</span>%（乘法增伤，只作用于攻击伤害）；回合结束减 1 层。是爆发输出型状态。
 - **注意：状态期间元素属性被"锁死"为混沌系**：每回合开始都会清掉现有元素再变混沌——你用其它卡牌改的元素属性活不过回合切换。靠元素克制打伤害的流派与三态天然冲突，切换前想清楚。
 - **触发逻辑**：
   - **不处于三态**：直接进入拒赦怒威态 <span style="color:#3aa675;font-weight:600">3</span> 回合。

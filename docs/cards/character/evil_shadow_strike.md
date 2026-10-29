@@ -24,24 +24,24 @@
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 对单个敌人造成<span style="color:#d44;font-weight:600">5</span>点伤害。附加敌人已损生命值<span style="color:#d44;font-weight:600">10%</span>的[<span style="color:#9b59b6;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+PP: 10/10 造成<span style="color:#3aa675;font-weight:600">5</span>点伤害。施加敌人已损生命值<span style="color:#3aa675;font-weight:600">10</span>%的<span style="color:#d4a017;font-weight:600">固定伤害</span>。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 对单个敌人造成<span style="color:#d44;font-weight:600">5</span>点伤害。附加敌人已损生命值<span style="color:#d44;font-weight:600">15%</span>的[<span style="color:#9b59b6;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+PP: 10/10 造成<span style="color:#3aa675;font-weight:600">5</span>点伤害。施加敌人已损生命值<span style="color:#3aa675;font-weight:600">15</span>%的<span style="color:#d4a017;font-weight:600">固定伤害</span>。
 
 ## 工作机制
 
 - **基础伤害**：造成 5 点攻击伤害，无连击。
-- **固定伤害施加**：伤害结算后，对目标施加[固定伤害](/powers/fixed_damage_power.md)能力，数值 = 目标已损生命 × 10%（升级后 15%）。固定伤害在目标下回合开始时结算并移除，可绕过格挡。
-- **固定伤害叠层**：同一目标多次被打上固定伤害时，每层独立计算并分别在下回合结算。
+- **固定伤害施加**：伤害结算后，对目标施加[固定伤害](/powers/fixed_damage_power.md)能力，数值 = 目标已损生命 × 10%（升级后 15%）。固定伤害在目标下回合开始时结算并移除，可绕过格挡；算出的数值不足 1 点时不施加。
+- **固定伤害叠层**：同一目标多次被打上固定伤害时会合并进同一个层数池，在目标下回合开始时**一次性结算全部层数**并移除，不会分批结算。
 
 ## 小贴士
 
 - **已损生命即伤害**：固定伤害基数 = 目标已损生命（最大生命 − 当前生命）。目标血量越低，已损生命越大，固定伤害越高——但注意基础伤害始终是固定的 5 点，只有固定伤害部分随目标血量变化。
 - **固定伤害绕格挡**：[固定伤害](/powers/fixed_damage_power.md)以能力形式施加在目标身上，下回合开始时结算，完全不经过格挡计算，是对付高格挡敌人的有效手段。
-- **持久战的连续压制**：高 PP 让这张牌能反复打出，每次叠加新的固定伤害层数。对同一目标连续施加时，层数叠加——每层独立结算，形成持续的延迟伤害压力。
-- **升级收益显著**：固定伤害比例从 10% 提升至 15%（+5%）。目标已损生命 50 点时，升级前后固定伤害从 5 点提升至 7.5 点；目标已损生命 100 点时，从 10 点提升至 15 点。在高血量Boss战中升级收益尤为突出。
+- **持久战的连续压制**：高 PP 让这张牌能反复打出（每次耗 1 PP），每次叠加新的固定伤害层数。对同一目标连续施加时，层数合并到一张固定伤害能力上，在下回合的同一个时点一次性结算。
+- **升级收益显著**：固定伤害比例从 10% 提升至 15%（+5%）。目标已损生命 50 点时，升级前后分别算出 5 点与 7.5 点——固定伤害结算时按整数截断，15% 实际打 7 点；已损生命 100 点时则是 10 点提升至 15 点。在高血量 Boss 战中升级收益尤为突出。
 - **使用节奏建议**：优先在目标血量较高时使用以最大化固定伤害基数（已损生命大）；配合其他固定伤害类卡牌可形成"多段固伤"体系，快速压低敌人血线。1 费的低耗能使其成为填充回合的理想选择。
 
 ## 相关能力

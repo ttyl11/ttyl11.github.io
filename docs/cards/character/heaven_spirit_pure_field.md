@@ -23,11 +23,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有人施加<span style="color:#3aa675;font-weight:600">3</span>层<span style="color:#d4a017;font-weight:600">烧伤</span>。未触发则获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。自身有<span style="color:#d4a017;font-weight:600">烧伤</span>时回复<span style="color:#3aa675;font-weight:600">5</span>点生命。
+PP: 5/5 所有人<span style="color:#d4a017;font-weight:600">烧伤</span><span style="color:#3aa675;font-weight:600">3</span>。未触发则获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。自身有<span style="color:#d4a017;font-weight:600">烧伤</span>时回复<span style="color:#3aa675;font-weight:600">5</span>点生命。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 对所有人施加<span style="color:#3aa675;font-weight:600">4</span>层<span style="color:#d4a017;font-weight:600">烧伤</span>。未触发则获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。自身有<span style="color:#d4a017;font-weight:600">烧伤</span>时回复<span style="color:#3aa675;font-weight:600">7</span>点生命。
+PP: 5/5 所有人<span style="color:#d4a017;font-weight:600">烧伤</span><span style="color:#3aa675;font-weight:600">4</span>。未触发则获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。自身有<span style="color:#d4a017;font-weight:600">烧伤</span>时回复<span style="color:#3aa675;font-weight:600">7</span>点生命。
 
 ## 小贴士
 

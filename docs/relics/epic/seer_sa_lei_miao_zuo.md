@@ -19,7 +19,7 @@
 
 ## 描述
 
-每回合开始时，选择消耗[gold]弃牌堆[/gold]的最多[blue]6[/blue]张牌，每消耗一张获得[blue]1[/blue]点[gold]力量[/gold]、[red]堕落[/red][blue]3[/blue]。击败[blue]4[/blue]场精英战斗后，变化为[gold]飒雷孤影·喵佐[/gold]。
+每回合开始时，选择消耗<span style="color:#d4a017;font-weight:600">弃牌堆</span>的最多<span style="color:#3aa675;font-weight:600">6</span>张牌，每消耗一张获得<span style="color:#3aa675;font-weight:600">1</span>点<span style="color:#d4a017;font-weight:600">力量</span>和<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">3</span>。击败<span style="color:#3aa675;font-weight:600">4</span>场精英战斗后，变化为<span style="color:#d4a017;font-weight:600">飒雷孤影·喵佐</span>。
 
 ## 风味文字
 
@@ -36,7 +36,7 @@
 ## 小贴士
 
 - **主战场是力量成长**：这是半局靠"每回合白嫖 0~6 点力量"滚雪球的遗物——配合多段攻击牌（连击、多目标）收益爆炸。尽量把启动牌先打出再启动本遗物，让弃牌堆积够可选牌。
-- **堕落进账可观**：每消耗一张额外 +3 [堕落](/powers/fallen_power.md)，6 张拉满 = 每回合 +18——配索伦森的堕落体系约 6 回合推满一轮 100 层，稳定供给[魔君接管](/powers/demon_takeover_power.md)等触发。
+- **堕落进账可观，但要算失控频率**：每消耗一张额外 +3 [堕落](/powers/fallen_power.md)，6 张拉满 = 每回合 +18——配索伦森的堕落体系约 6 回合推满一轮 100 层。这也意味着大约每 6 回合就要吃一次[魔君接管](/powers/demon_takeover_power.md)强控乱打；堆得快是把双刃剑。
 - **消耗要挑**：弃牌堆里各牌价值不一，优先消耗**已无用的牌**（诅咒、状态、用完的爆发牌），留有用的核心牌循环；但在力量面前，即使消耗后期核心也不亏，因为每回合都能捞回新牌。
 - **对 PP 牌的取舍**：一次性爆发型 PP 牌被打出后进弃牌堆，此时被此遗物消耗会清空 PP——如果你想保留它的 PP 复用，就别选它；反之选它等于把 PP 变现成力量。
 - **进化路线的取舍**：4 精英要求主动走精英节点。若当前处于精英难打的流派（脆皮法师流），可以晚点进化——但史诗形态的力量成长本身已很强，不必急着变传说形态。

@@ -13,17 +13,17 @@
 |---|---|
 | 触发 | 战斗胜利后自动 |
 | 升级数 | 每次随机 <span style="color:#3aa675;font-weight:600">1</span> 张可升级牌 |
-| 计数 | 已使用 `/10`，累计 <span style="color:#3aa675;font-weight:600">10</span> 次消失 |
+| 计数 | 累计 <span style="color:#3aa675;font-weight:600">10</span> 次后消失 |
 
 ## 描述
 
-战斗胜利后，随机 <span style="color:#3aa675;font-weight:600">1</span> 张牌[升级](/mechanics/card-tags.md)。已使用 `{UsedCount}`/10 次，累计 10 次后此药水消失。
+战斗胜利后，随机 <span style="color:#3aa675;font-weight:600">1</span> 张牌[升级](/mechanics/card-tags.md)。累计升级 10 次后此药水消失。
 
 ## 详细机制
 
 - **自动触发、不可主动用**：使用按钮禁用，由药水在**战斗胜利后**自动执行，挂在身上即可白嫖。
 - **随机升级**：从整副牌随机抽 1 张，仅当该张**可升级**才真正升级（不可升级 / 已满级则本次作废）。
-- **作废也计次（关键）**：无论本次是否成功升级，计数都会 +1（写入常驻起始遗物 `SeerElementalCore.PaintingUpgradeCount` 持有，跨战斗、多人同步）。
+- **作废也计次（关键）**：无论本次是否成功升级，计数都会 +1（计数常驻持有、跨战斗、多人同步）。
 - **消失条件**：累计 10 次后本药水自动消失，与是否真正获得 10 次升级无关。
 
 ## 小贴士
@@ -36,4 +36,4 @@
 
 ## 源码
 
-- `SeerPaintingPotion.cs`（`AfterCombatVictory` 随机升级 + 计次 / 满 10 `Discard()`）
+- `SeerPaintingPotion.cs`

@@ -1,17 +1,17 @@
-# 战斗专家
+# 魔鬼教官的特训
 
 雷蒙教官对着一面墙自言自语，猛然转头用锐利的目光扫视你，咧嘴一笑露出几颗金牙："小赛尔！我看你骨骼惊奇，但打法还是太嫩。要不要学学我的绝活？"
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_combat_expert.png" alt="战斗专家" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_combat_expert.png" alt="魔鬼教官的特训" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 * **类型**：功能事件
 * **战斗**：否
 * **机制**：四套"流派套餐"四选一，每套 = 1 张专属诅咒牌 + 若干带指定附魔的卡牌
-* **出现层数**：巢穴（第二层）
+* **出现层数**：1~5 层
 
 ## 流派一览
 

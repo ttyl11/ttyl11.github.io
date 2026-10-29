@@ -13,7 +13,7 @@
 
 ## 描述
 
-下回合开始时，随机对携带非攻击[意图](/mechanics/intent.md)的敌人施加[封属](/mechanics/intent.md)。
+自身回合开始时，随机使<span style="color:#3aa675;font-weight:600">1</span>个敌人的非攻击意图获得<span style="color:#d4a017;font-weight:600">封属</span>，随后移除此能力。
 
 ## 详细机制
 

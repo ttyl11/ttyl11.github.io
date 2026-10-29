@@ -17,7 +17,7 @@
 
 ## 描述
 
-①每回合开始时，[销毁](/mechanics/destroyed_pile.md)自身所有[诅咒牌](/mechanics/abnormal-status.md)，每销毁一张抽一张牌，自身获得 <span style="color:#3aa675;font-weight:600">1</span> 层<span style="color:#9b59b6;font-weight:600">[诅咒](/powers/curse_power.md)</span>，并获得 <span style="color:#3aa675;font-weight:600">14</span> 层<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span>。<br/>②战斗中首次失去生命值时，获得 <span style="color:#3aa675;font-weight:600">1</span> 层<span style="color:#9b59b6;font-weight:600">[无实体](/powers/intangible_power.md)</span>，并将自身的[异常状态](/mechanics/abnormal-status.md)全部转移给敌人。<br/>③拾起时，获得 <span style="color:#3aa675;font-weight:600">1</span> 张千兆战斗仪。
+①回合开始：销毁所有<span style="color:#d44;font-weight:600">诅咒牌</span><br/>  每销毁一张：抽1牌，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#9b59b6;font-weight:600">诅咒</span>，<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">14</span><br/>②首次失去生命：获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#9b59b6;font-weight:600">无实体</span>，异常状态转移给敌人<br/>③拾起：获得1张<span style="color:#d4a017;font-weight:600">千兆战斗仪</span>
 
 - **诅咒销毁**：①回合开始时收集手牌、抽牌堆、弃牌堆中的所有诅咒牌，移入[销毁牌堆](/mechanics/destroyed_pile.md)。每销毁一张就抽 1 张牌，获得 1 层诅咒，并获得 14 层[堕落](/powers/fallen_power.md)。销毁的诅咒牌越多，抽牌越多、堕落进账越多，但自身诅咒也越深。
 - **首次受伤转移**：②每场战斗首次实际失去生命值时触发——格挡吸收的伤害不算，必须真实扣血。**不区分伤害来源**：敌人攻击、固定伤害、诅咒的随机伤害、千兆战斗仪的扣血，凡是真实掉血都算。获得 1 层无实体（期间所有受伤降为 1 点），同时将自身所有异常状态转移到所有敌人身上——先从自身清除，再给每个敌人施加一份完整副本。每场战斗只触发一次。
@@ -30,7 +30,7 @@
 ## 小贴士
 
 - **销毁诅咒牌的收益与代价**：①每回合自动销毁所有位置的诅咒牌并抽等量牌，是稳定的过牌手段；代价是每销毁一张给自己挂 1 层[诅咒](/powers/curse_power.md)。诅咒在**你身上**的效果：攻击伤害 -10%（固定值，不随层数叠加）、每回合开始塞 1 张诅咒牌进手牌、每回合结束减 1 层——**本身不掉血**。3~50 点随机伤害是诅咒挂在**敌人**身上时的效果：通过②把诅咒转移出去后，每个敌人每回合结束才会吃这笔随机伤（约一半概率 3 点、四成 5 点、一成 8 点、百分之一 50 点）并减 1 层。
-- **每销毁一张白送 14 层堕落**：①的每张销毁除了抽牌与诅咒，还给自身 <span style="color:#3aa675;font-weight:600">14</span> 层[堕落](/powers/fallen_power.md)——光千兆战斗仪一张每回合被销毁一次就是稳定 +14/回合，约 <span style="color:#3aa675;font-weight:600">8</span> 回合推到 100 层；若卡组里还有别的诅咒牌，一次销毁 5 张就是 +70 层。堕落每满 100 层触发一次[混沌化身](/mechanics/chaos-incarnation.md)（能量不足可用最大生命抵扣）+ 抽 3 张 + [魔君接管](/powers/demon_takeover_power.md)（当回合立即自动打光可打出的手牌）——对索伦森是稳定的燃料供给，但接管期间不受你控制，节奏要自己拿捏。
+- **每销毁一张白送 14 层堕落**：①的每张销毁除了抽牌与诅咒，还给自身 <span style="color:#3aa675;font-weight:600">14</span> 层[堕落](/powers/fallen_power.md)——光千兆战斗仪一张每回合被销毁一次就是稳定 +14/回合，约 <span style="color:#3aa675;font-weight:600">8</span> 回合推到 100 层；若卡组里还有别的诅咒牌，一次销毁 5 张就是 +70 层。堕落每满 100 层触发一次[混沌化身](/mechanics/chaos-incarnation.md)（能量不足可用最大生命抵扣）+ 抽 1 张 + [魔君接管](/powers/demon_takeover_power.md)（当回合立即自动打光可打出的手牌）——对索伦森是稳定的燃料供给，但接管期间不受你控制，节奏要自己拿捏。
 - **诅咒是自续型循环，但被遗物锁死了**：诅咒自己每回合开始还会塞 1 张诅咒牌进手牌——但贝利亚的销毁同样发生在回合开始且更晚执行，这张牌**当场就被销毁**：销毁 1 张 → 抽 1 张 + 挂 1 层诅咒。加上诅咒回合结束自动减 1 层，一进一出正好抵消——只要场面上没有别的诅咒牌，诅咒层数永远稳定，你实际得到的是"每回合白赚 1 张抽牌"，代价只是 -10% 攻击伤害。塞进来的诅咒牌你永远摸不到，手牌不会被它污染。
 - **无实体保命，但只有一次**：②战斗中首次实际掉血时获得 1 层无实体，**整个敌方回合内所有伤害降为 1 点**（不是只挡一击——1 层完整覆盖一个敌方回合的多段攻击，回合结束才消耗）。每场战斗只触发一次（每场重置），用掉后这场战斗就没有二次保险了——配合千兆战斗仪在战斗开始就自动触发，第 1 个敌方回合的整轮输出都被压成 1 点。
 - **异常状态转移的群体控制价值**：②把自身所有异常状态完整转移给所有敌人——不仅清空了自身的负面状态，还让**每个敌人都吃一份完整副本**（不是分摊，是复制）。在被密集上异常的战斗中，这等于把敌人的控制手段原样反弹给全场，中毒/烧伤类 DoT 叠在你身上越多，转移出去的总伤害越恐怖——甚至可以故意留着异常等这一刻。

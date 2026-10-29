@@ -13,7 +13,7 @@
 ## 规则说明
 
 - **回手**：此牌打出结算后不进入[弃牌堆](/mechanics/discard_pile.md)，而是直接回到手牌
-- 回合内能量充足时可持续复用；能量耗尽后停在手牌，下回合可继续打出
+- 回合内能量充足时可持续复用；能量耗尽后停在手牌（若该牌同时带[虚无](/mechanics/ethereal.md)，回合结束仍会被消耗，如[星币](/cards/colorless/coin.md)）
 - 搭配[消耗](/mechanics/exhaust.md)、[诞生牌](/mechanics/card-pool-extension.md)等关联牌效时会产生"一牌多用"循环
 
 ## 携带卡牌

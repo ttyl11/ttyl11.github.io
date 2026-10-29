@@ -24,11 +24,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。恢复[手牌](/mechanics/hand.md)、[抽牌堆](/mechanics/draw_pile.md)、[弃牌堆](/mechanics/discard_pile.md)、[消耗牌堆](/mechanics/exhaust_pile.md)中所有卡牌的PP值。
+PP: 1/1 <span style="color:#d44;font-weight:600">归源</span>。获得<span style="color:#3aa675;font-weight:600">6</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#3aa675;font-weight:600">10</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。恢复[手牌](/mechanics/hand.md)、[抽牌堆](/mechanics/draw_pile.md)、[弃牌堆](/mechanics/discard_pile.md)、[消耗牌堆](/mechanics/exhaust_pile.md)中所有卡牌的PP值。
+PP: 1/1 <span style="color:#d44;font-weight:600">归源</span>。获得<span style="color:#3aa675;font-weight:600">10</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。
 
 ## 小贴士
 

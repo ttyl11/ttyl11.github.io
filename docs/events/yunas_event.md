@@ -1,16 +1,16 @@
-# 尤纳斯
+# 异空间影魔尤纳斯
 
 天空一角已被浓稠的黑夜吞噬，无数扭曲的影子在云层中蠕动——那是尤纳斯的领域，异空间影魔。空洞而冰冷的声音从黑暗中传来："闯入者……准备好迎接黑暗了吗？"
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_yunas_event.png" alt="尤纳斯" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_yunas_event.png" alt="异空间影魔尤纳斯" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**：剧情抉择事件
 - **战斗**：是
-- **出现层数**：荣耀（第三层）
+- **出现层数**：3、4、5 层
 
 ## 选项一览
 

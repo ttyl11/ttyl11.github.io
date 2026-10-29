@@ -1,7 +1,7 @@
 # 算力
 
-> **归属**：玩家与怪物均可持有
-> **施加来源**：玩家获得——[算力](/powers/computing_power.md)（能力联动）；怪物自带——[泰勒斯](/monsters/normal/tailesi_monster.md)
+> **归属**：怪物专属（玩家无法施加）
+> **施加来源**：怪物自带——[泰勒斯](/monsters/normal/tailesi_monster.md)
 
 <img src="/images/powers/computing_power.png" alt="算力" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 

@@ -26,7 +26,7 @@
 
 ## 相关卡牌
 
-- [戕伐樊笼](/cards/character/cage_destruction.md)（对方获得 <span style="color:#3aa675;font-weight:600">8</span> 层消亡）
+- [戕伐樊笼](/cards/character/cage_destruction.md)（对方获得 <span style="color:#3aa675;font-weight:600">18</span> 层消亡，升级 30 层）
 
 ## 源码
 

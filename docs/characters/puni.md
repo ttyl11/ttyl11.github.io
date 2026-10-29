@@ -9,8 +9,8 @@
 - **性别**: 中性（Neutral）
 - **名称颜色**: #9966CC（紫色）
 - **初始生命**: 77
-- **初始金币**: 82
-- **初始充能球槽**: 1
+- **初始金币**: 100
+- **初始充能球槽**: 2
 - **攻击动画延迟**: 0.15s
 - **施法动画延迟**: 0.25s
 - **攻击特效**: 钝击（`vfx_attack_blunt`）、重钝击（`vfx_heavy_blunt`）、斩击（`vfx_attack_slash`）三种随机
@@ -68,10 +68,10 @@
 
 - [PP 系统](/mechanics/pp-system.md)：谱尼卡牌独有的 PP 资源系统，每场战斗重置，打出 PP 卡消耗 PP。
 - [元素克制](/mechanics/element-affinity.md)：26 种元素属性相生相克，谱尼七形态对应不同元素。
-- [异常状态](/mechanics/abnormal-status.md)：26 种异常状态，是 mod 战斗的核心压制手段。
+- [异常状态](/mechanics/abnormal-status.md)：25 种异常状态，是 mod 战斗的核心压制手段。
 - [全属性](/mechanics/all_attributes.md)：力量/命中/防御/速度四属性体系。
 - [固定伤害](/mechanics/fixed-damage.md)：延迟结算、不可格挡的特殊伤害机制。
-- [充能球](/mechanics/orb.md)：谱尼初始 1 槽位，mod 新增 9 种充能球。
+- [充能球](/mechanics/orb.md)：谱尼初始 2 槽位，mod 新增 9 种充能球。
 - [铸造系统](/mechanics/forge.md)：铸造剑刃衍生物的机制。
 - [复活机制](/mechanics/revive.md)：mod 改造的复活系统。
 - [真神牌堆](/mechanics/true-god-pile.md)：独立于抽/弃/消耗牌堆的二级资源系统。

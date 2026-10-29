@@ -20,15 +20,15 @@
 
 ## 描述
 
-免疫[<span style="color:#d4a017;font-weight:600">属性下降</span>](/mechanics/all_attributes.md)，受到的伤害减少<span style="color:#3aa675;font-weight:600">25</span>%。攻击造成伤害时对目标施加<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">邪诲</span>](/powers/evil_teaching_power.md)。受到敌人伤害时对伤害来源施加<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#9b59b6;font-weight:600">圣诰</span>](/powers/holy_edict_power.md)。
+①免疫<span style="color:#d4a017;font-weight:600">属性下降</span>，受到的伤害降低<span style="color:#3aa675;font-weight:600">25%</span>。<br/>②攻击造成伤害时，使目标获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">邪诲</span>。<br/>③受到敌人伤害时，使伤害来源获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">圣诰</span>。
 
 ## 详细机制
 
-- **形态系统**：与[圣谕形态](/powers/divine_form_power.md)互斥。切换回圣谕形态时移除自身并施加圣谕形态和先制。
-- **属性下降免疫**：通过拦截受到的状态施加，当自身即将受到力量、敏捷、速度、防御、命中的负层数施加时，将施加量改为 0。
-- **伤害减免**：仅减少拥有者受到的来自敌方的伤害，减免 25%。
-- **攻击反击（邪诲）**：当自身造成攻击伤害、目标非自身且伤害 > 0 时，对目标施加 1 层[邪诲](/powers/evil_teaching_power.md)。
-- **受击反击（圣诰）**：当自身受到来自敌方的伤害且伤害 > 0 时，对攻击者施加 1 层[圣诰](/powers/holy_edict_power.md)。
+- **形态系统**：与[圣谕形态](/powers/divine_form_power.md)互斥。切换回圣谕形态时移除自身，并施加圣谕形态与 1 层先制。
+- **属性下降免疫**：只拦力量、速度、防御、命中四项的**负层**施加（施加量改为 0）；其他属性或正层不受影响。
+- **伤害减免**：伤害来源存在且不是自身时，受到的伤害一律 ×0.75（不区分敌我）；无来源伤害不减伤。
+- **攻击反击（邪诲）**：自身造成攻击伤害时，若总伤害 > 0 且目标不是自己，对目标施加 1 层[邪诲](/powers/evil_teaching_power.md)。总伤害含被格挡部分——完全格挡也会触发。
+- **受击反击（圣诰）**：自身受到敌方来源、总伤害 > 0 的伤害时，对来源施加 1 层[圣诰](/powers/holy_edict_power.md)。不限攻击伤害，也不要求实际扣血。
 
 ## 相关能力
 

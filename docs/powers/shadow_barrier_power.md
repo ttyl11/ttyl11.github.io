@@ -13,7 +13,7 @@
 
 ## 描述
 
-战斗开始时获得12层<span style="color:#d4a017;font-weight:600">滑溜</span>。滑溜消失后获得2层<span style="color:#d4a017;font-weight:600">无实体</span>。首次死亡后，回复至1点生命值并获得5层<span style="color:#d4a017;font-weight:600">缓冲</span>。
+①获得<span style="color:#3aa675;font-weight:600">12</span>层<span style="color:#d4a017;font-weight:600">滑溜</span>。<br/>②<span style="color:#d4a017;font-weight:600">滑溜</span>消失后，获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d4a017;font-weight:600">无实体</span>。<br/>③自身首次死亡时，回复至<span style="color:#3aa675;font-weight:600">1</span>点生命值并获得<span style="color:#3aa675;font-weight:600">8</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。
 
 ## 源码
 

@@ -1,20 +1,21 @@
 # 白色龙鳞
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[武心婵](/relics/legendary/wu_xin_chan.md)（遗物）
+> **施加来源**：玩家获得——[武心婵](/relics/legendary/wu_xin_chan.md)（遗物：红/黄/蓝三色龙鳞全部消失后赋予）
 
 <img src="/images/powers/white_dragon_scale_power.png" alt="白色龙鳞" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
-- **类型**: 增益
-- **来源**: [武心婵](/relics/legendary/wu_xin_chan.md)
-- **叠加方式**: 递减
+- **类型**: 增益（Buff）
+- **叠加方式**: 递减（每层在敌方回合结束时消耗 1 层）
 - **可见**: 是
 
 ## 描述
 
-每层可免疫一次攻击伤害、<span style="color:#d4a017;font-weight:600">固定伤害</span>、<span style="color:#d44;font-weight:600">异常状态</span>或属性下降。被免疫攻击后获得<span style="color:#3aa675;font-weight:600">100</span>%伤害提升；被免疫<span style="color:#d4a017;font-weight:600">固定伤害</span>后反弹<span style="color:#3aa675;font-weight:600">25</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>；被免疫<span style="color:#d44;font-weight:600">异常</span>后随机给对手<span style="color:#3aa675;font-weight:600">3</span>种<span style="color:#d44;font-weight:600">异常</span>；被免疫属性下降后对手<span style="color:#d4a017;font-weight:600">力量</span><span style="color:#d4a017;font-weight:600">敏捷</span><span style="color:#d4a017;font-weight:600">命中</span><span style="color:#d4a017;font-weight:600">速度</span>-<span style="color:#3aa675;font-weight:600">2</span>。在你的回合结束时减少1层。消失时消除对手所有<span style="color:#d4a017;font-weight:600">buff</span>。
+①每层可免疫一次攻击伤害、[gold]固定伤害[/gold]、[red]异常状态[/red]或属性下降。
+②被免疫攻击后获得[blue]100[/blue]%伤害提升；被免疫[gold]固定伤害[/gold]后反弹[blue]25[/blue]点[gold]固定伤害[/gold]；被免疫[red]异常[/red]后随机给对手[blue]3[/blue]种[red]异常[/red]；被免疫属性下降后对手[gold]力量[/gold][gold]命中[/gold][gold]速度[/gold]-[blue]2[/blue]。
+③消失时移除对手所有[gold]增益[/gold]。
 
 ## 数值
 
@@ -24,14 +25,25 @@
 | 免疫攻击→伤害提升 | 100% |
 | 免疫固定伤害→反弹 | 25 点固定伤害（全体对手） |
 | 免疫异常→反制 | 3 种随机异常（全体对手） |
-| 免疫属性下降→反制 | 力量/敏捷/命中/防御/速度 -2（全体对手） |
-| 回合结束消耗 | 1 层 |
+| 免疫属性下降→反制 | 力量/命中/速度 -2（全体对手，不含防御） |
+| 回合结束消耗 | 敌方回合结束时 -1 层 |
+
+## 详细机制
+
+- **四类免疫各自独立**：同一个敌方回合内，攻击伤害、[固定伤害](/powers/fixed_damage_power.md)、异常状态、属性下降**每类**都会**重复免疫**该回合内的每一次实例（不是每类只挡一次）；回合结束时按「本回合是否挡过该类」各触发一次反击。
+- **攻击免疫**：敌方对持有者的攻击伤害直接归 0，并在敌方回合结束时获得「下一次攻击伤害 +100%」。
+- **固定伤害免疫**：只拦固定伤害（不可格挡 + 不受增减伤的那一类），挡下后对**所有对手**各造成 25 点固定伤害。
+- **异常免疫**：挡下任意异常状态（含不可见减益），挡下后对每个对手随机施加 3 种异常各 1 层。
+- **属性下降免疫**：只拦力量/命中/速度/防御的**负向**施加；反击只扣对手力量、命中、速度各 2 点，不含防御。
+- **衰减时机**：所有反击在**敌方回合结束**统一结算，随后层数 -1；所以 1 层白色龙鳞正好覆盖 1 个完整敌方回合。
+- **消失清增益**：层数归零移除时，清除所有对手的增益（Buff）。
 
 ## 小贴士
 
-- **每层四类免疫**：每层每回合可分别免疫一次攻击伤害、[固定伤害](/powers/fixed_damage_power.md)、异常状态、属性下降，四类独立计数。
-- **消失清 buff**：层数归零消失时消除所有对手的 buff 作为收尾，即使层数耗尽也有反击价值。
+- **三色鳞片的收尾**：武心婵的红/黄/蓝龙鳞每 2 回合随机消失一枚，三枚全没后才补上白色龙鳞，属于"最后一道保险"。
+- **消失时也会清 buff**：即使白色龙鳞没挡住任何东西，耗尽消失时仍会扒掉对手全部增益，收尾价值很高。
 
 ## 源码
 
 - `SeerWhiteDragonScalePower.cs`
+- `SeerWuXinChan.cs`

@@ -16,7 +16,7 @@
 
 ## 描述
 
-①首回合开始时，所有敌方<span style="color:#d4a017;font-weight:600">封属</span>，非攻击意图效果失效。<br/>②回合结束时，手上每剩1张牌获得<span style="color:#3aa675;font-weight:600">1</span>点最大生命。<br/>③每次受到攻击伤害后，扣除<span style="color:#3aa675;font-weight:600">1</span>点最大生命。
+首回合开始时，<span style="color:#d4a017;font-weight:600">无效化</span>所有敌方的非攻击意图。<br/>首回合结束时，手上每剩1张牌获得<span style="color:#3aa675;font-weight:600">1</span>点最大生命。<br/>每次受到攻击伤害后，扣除<span style="color:#3aa675;font-weight:600">1</span>点最大生命。
 
 - **封属仅首回合**：开局对所有敌人施加封属，每场战斗仅一次，跨场重置。
 - **最大生命每回合触发**：每个回合结束时结算手牌，每剩 1 张获得 1 点最大生命（同时回复等量当前生命）——已由"首回合结束时"改为**每回合结束时**，留牌从一次性小奖变成每回合的稳定成长。

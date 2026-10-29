@@ -16,7 +16,7 @@
 
 ## 描述
 
-战斗开始时，你可以最多选择抽牌堆的<span style="color:#3aa675;font-weight:600">3</span>张技能牌，将其变为<span style="color:#d4a017;font-weight:600">横祸</span>。<br/>每次打出<span style="color:#d4a017;font-weight:600">技能牌</span>时，<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span><span style="color:#3aa675;font-weight:600">12</span>%。
+战斗开始时，你可以最多选择抽牌堆的<span style="color:#3aa675;font-weight:600">3</span>张技能牌，将其变为<span style="color:#d4a017;font-weight:600">横祸</span>。<br/>每次打出<span style="color:#d4a017;font-weight:600">技能牌</span>，<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">12%</span>。
 
 - **堕落12%**：每次打出技能牌，自身获得"当前堕落层数×12%"（向下取整）的[堕落](/powers/fallen_power.md)，与[黑暗之门](/cards/character/dark_gate.md)的百分比堕落同口径。堕落不清零，满 100 触发[魔君接管](/powers/demon_takeover_power.md)（当回合失控自动打牌）——堕落是**负面层数**，技能牌打的越勤，堕落滚得越快。
 

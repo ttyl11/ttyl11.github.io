@@ -20,7 +20,7 @@
 
 - **触发时机**：自己回合结束时。
 - **伤害范围**：<span style="color:#3aa675;font-weight:600">1</span>~<span style="color:#3aa675;font-weight:600">7</span> 随机，对所有敌人造成同一数值。
-- **伤害类型**：攻击伤害，可被[格挡](/mechanics/block.md)。
+- **伤害类型**：无来源伤害（Unpowered，遗物/能力伤害），可被[格挡](/mechanics/block.md)；不吃力量/攻击类增伤。
 
 ## 风味文字
 

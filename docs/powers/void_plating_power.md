@@ -1,4 +1,4 @@
-# 次数免疫
+# 虚空之甲
 
 > **归属**：玩家可施加
 > **施加来源**：
@@ -15,7 +15,7 @@
 
 ## 描述
 
-免疫下<span style="color:#3aa675;font-weight:600">2</span>次[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)。每次成功免疫后层数<span style="color:#3aa675;font-weight:600">-1</span>。
+①免疫下<span style="color:#3aa675;font-weight:600">层数</span>次异常状态。<br/>②每次成功免疫后层数-1。
 
 ## 详细机制
 

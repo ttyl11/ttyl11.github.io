@@ -28,12 +28,12 @@ PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3a
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> <span style="color:#3aa675;font-weight:600">3</span>回合后击杀目标（精英<span style="color:#3aa675;font-weight:600">6</span>回合，Boss无效）。耗能降至<span style="color:#3aa675;font-weight:600">1</span>。
+PP: 10/10 <span style="color:#3aa675;font-weight:600">3</span>回合后击杀目标（精英<span style="color:#3aa675;font-weight:600">6</span>回合，Boss无效）。
 
 ## 小贴士
 
 - **真正的"死亡倒计时"——无视血量/格挡直接击杀**：打出后给目标挂上[镇魂歌](/powers/requiem_power.md)减益，<span style="color:#3aa675;font-weight:600">3</span> 回合后直接击杀——不管它还剩多少血、有多少格挡，倒计时归零就死。原版没有这种"倒计时必杀"机制，是 seer 独有的精英战清场设计。
-- **倒计时在敌方回合结束时 -1——无法加速，只能熬**：每次敌方回合结束倒计时 <span style="color:#3aa675;font-weight:600">-1</span>，归零时击杀；玩家自己的回合结束不计入。所以"3 回合后击杀"意味着目标还能再行动 <span style="color:#3aa675;font-weight:600">3</span> 次（精英 <span style="color:#3aa675;font-weight:600">6</span> 次）。没有任何手段能加速倒计时——[击晕](/mechanics/stun.md)/[石化](/powers/petrify_power.md)的价值是让目标在倒计时期间少输出，不是让它死得更快。
+- **倒计时在敌方回合结束时 -1——无法加速，只能熬**：每次敌方回合结束倒计时 <span style="color:#3aa675;font-weight:600">-1</span>，归零时击杀；玩家自己的回合结束不计入。所以"3 回合后击杀"意味着目标还能撑过 <span style="color:#3aa675;font-weight:600">3</span> 个敌方回合（精英 <span style="color:#3aa675;font-weight:600">6</span> 个）——即使它被击晕或跳过行动，回合结束的计数仍会照常推进。没有任何手段能加速倒计时——[击晕](/mechanics/stun.md)/[石化](/powers/petrify_power.md)的价值是让目标在倒计时期间少输出，不是让它死得更快。
 - **精英战给 6 回合——长窗口是平衡设计**：精英房延长到 <span style="color:#3aa675;font-weight:600">6</span> 回合。看似比普通房的 <span style="color:#3aa675;font-weight:600">3</span> 回合慢一倍，实际是给玩家更长生存窗口的缓冲——精英输出高，3 回合可能不够你处理其他威胁。
 - **Boss 房直接无效——打出仍扣费**：Boss 房打出这张牌不施加任何效果，但能量和 PP 照样消耗——等于白扔。这是平衡设计，避免 <span style="color:#3aa675;font-weight:600">2</span> 费秒杀 Boss。**所以这张牌是精英战特化牌**，普通战可用，Boss 战千万别打。
 - **同一目标重打无效——PP 照扣**：目标已有镇魂歌时再打这张牌直接无效（不刷新、不叠加），但能量和 PP 一样消耗。不要对同一目标重复打出。

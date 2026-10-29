@@ -1,17 +1,17 @@
-# 梅赫维特
+# 太阳神的合奏
 
 被永恒日光笼罩的殿堂，光芒的源头是端坐于穹顶之下的涅达洛太阳神、万民之母——梅赫维特。"我的合奏，需要你的共鸣。"
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_mehvet.png" alt="梅赫维特" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_mehvet.png" alt="太阳神的合奏" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**：剧情抉择事件
 - **战斗**：是（可选）
 - **机制**：试炼战斗失败不会死亡，只会拿不到遗物
-- **出现层数**：巢穴（第二层）、荣耀（第三层）
+- **出现层数**：2、3、4、5 层
 
 ## 选项一览
 

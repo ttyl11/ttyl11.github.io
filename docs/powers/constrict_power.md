@@ -1,7 +1,7 @@
 # 束缚
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家施加给敌方——[九月的枷锁](/cards/character/september_shackles.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[十玄释](/cards/character/shi_xuan_shi.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）；怪物施加给玩家——[哈耶克](/monsters/elite/hayek_monster.md)
+> **施加来源**：玩家施加给敌方——[九月的枷锁](/cards/character/september_shackles.md)（卡牌）、[曙光普照](/cards/character/shining_light.md)（卡牌）、[十玄释](/cards/character/shi_xuan_shi.md)（卡牌）、[好女孩](/powers/good_girl_power.md)（能力联动）、[万相乖离](/powers/universal_divergence_power.md)（能力联动）；怪物施加给玩家——[哈耶克](/monsters/elite/hayek_monster.md)、[狂沙之主·萨特](/monsters/elite/mad_sand_lord_sate_monster.md)；其它——[不破诛罚](/powers/bupo_punishment_power.md)（能力联动）、[黑色暮光](/potions/black_twilight_potion.md)（药水）、[缠管海绵](/potions/seaweed_potion.md)（药水）
 
 <img src="/images/powers/constrict_power.png" alt="束缚" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -19,7 +19,7 @@
 
 ## 描述
 
-此状态存在时，自身无法获取[<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)。在你的回合结束时减少<span style="color:#3aa675;font-weight:600">1</span>层。
+此状态存在时，自身无法获得<span style="color:#d4a017;font-weight:600">先制</span>。<br/>自身回合结束时，此状态层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 

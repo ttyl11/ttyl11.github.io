@@ -16,7 +16,7 @@
 
 ## 描述
 
-在每场战斗开始时，获得1层<span style="color:#9b59b6;font-weight:600">[希望之花](/powers/flower_of_hope_power.md)</span>和等同于敌人数量+1层的<span style="color:#9b59b6;font-weight:600">[危机感](/powers/sense_of_crisis_power.md)</span>，首回合免疫<span style="color:#d44;font-weight:600">[异常状态](/mechanics/abnormal-status.md)</span>，回复<span style="color:#3aa675;font-weight:600">20</span>%的已损失生命。
+在每场战斗开始时，获得1层<span style="color:#9b59b6;font-weight:600">希望之花</span>和等同于敌人数量+1层的<span style="color:#9b59b6;font-weight:600">危机感</span>，首回合免疫<span style="color:#d44;font-weight:600">异常状态</span>，回复<span style="color:#3aa675;font-weight:600">20</span>%的已损失生命。<br/>在你的回合开始时，若自身属性克制任意敌人，所有<span style="color:#d4a017;font-weight:600">PP牌</span>恢复1点<span style="color:#d4a017;font-weight:600">PP</span>，获得1层<span style="color:#d4a017;font-weight:600">先制</span>；若任意敌人属性克制自身，受到的攻击伤害减少<span style="color:#3aa675;font-weight:600">50</span>%。
 
 在你的回合开始时，若自身[属性克制](/mechanics/element-affinity.md)任意敌人，所有<span style="color:#d4a017;font-weight:600">[PP牌](/mechanics/pp-system.md)</span>恢复1点<span style="color:#d4a017;font-weight:600">[PP](/mechanics/pp-system.md)</span>，获得1层<span style="color:#d4a017;font-weight:600">[先制](/powers/first_strike_power.md)</span>；若任意敌人属性克制自身，受到的攻击伤害减少<span style="color:#3aa675;font-weight:600">50</span>%。
 

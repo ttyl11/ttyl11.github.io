@@ -23,11 +23,11 @@
 
 ## 描述
 
-[<span style="color:#d4a017;font-weight:600">炼狱</span>](/mechanics/purgatory.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">40</span>点伤害。失去当前生命值<span style="color:#3aa675;font-weight:600">20</span>%，附加等量×<span style="color:#3aa675;font-weight:600">250</span>%[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。消耗[<span style="color:#d4a017;font-weight:600">蓄力</span>](/powers/accumulate_power.md)使伤害乘以其层数。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">40</span>点伤害。失去当前生命值<span style="color:#3aa675;font-weight:600">20</span>%，附加等量×<span style="color:#3aa675;font-weight:600">250</span>%<span style="color:#d4a017;font-weight:600">固定伤害</span>。消耗<span style="color:#d4a017;font-weight:600">蓄力</span>使伤害乘以其层数。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">炼狱</span>](/mechanics/purgatory.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">40</span>点伤害。失去当前生命值<span style="color:#3aa675;font-weight:600">20</span>%，附加等量×<span style="color:#3aa675;font-weight:600">400</span>%[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。消耗[<span style="color:#d4a017;font-weight:600">蓄力</span>](/powers/accumulate_power.md)使伤害乘以其层数。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">40</span>点伤害。失去当前生命值<span style="color:#3aa675;font-weight:600">20</span>%，附加等量×<span style="color:#3aa675;font-weight:600">400</span>%<span style="color:#d4a017;font-weight:600">固定伤害</span>。消耗<span style="color:#d4a017;font-weight:600">蓄力</span>使伤害乘以其层数。
 
 ## 小贴士
 

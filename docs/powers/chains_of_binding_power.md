@@ -1,5 +1,8 @@
 ﻿# 魂缚锁链
 
+> **归属**：玩家可施加
+> **施加来源**：玩家获得——[侵蚀](/cards/status/erosion.md)（卡牌，1 层）、[九月的枷锁](/cards/character/september_shackles.md)（卡牌，2 层）；怪物施加给玩家——[哀目黑子](/monsters/elite/aimu_heizi_monster.md)、[明启格思塔斯](/monsters/boss/mingqi_gesitasi_monster.md)
+
 
 
 <img src="/images/powers/chains_of_binding_power.png" alt="魂缚锁链" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />

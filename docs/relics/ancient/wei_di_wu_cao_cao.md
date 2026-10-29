@@ -1,18 +1,10 @@
-***
-
-title: 魏武帝·曹操
-tags: \["先古", "遗物"]
--------------------
-
 # 魏武帝·曹操
 
 <img src="/images/relics/wei_di_wu_cao_cao.png" alt="魏武帝·曹操" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
-* **分类**: 先古遗物（通用池）
-
-* **费用**: 0
+* **分类**: 非塔罗遗物
 
 * **稀有度**: 先古（史诗品质）
 

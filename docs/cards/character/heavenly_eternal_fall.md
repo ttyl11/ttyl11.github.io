@@ -1,6 +1,6 @@
-# 天神永堕落
+# 天神永堕
 
-<img src="/images/cards/heavenly_eternal_fall.png" alt="天神永堕落" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/cards/heavenly_eternal_fall.png" alt="天神永堕" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
@@ -40,13 +40,13 @@
 
 - **批量升级**：打出时先将手中所有可升级的牌升级（免费的升级祭）。
 
-- **免费自动打出**：随后将手中所有可打出的牌自动打出，**不消耗能量与星费**——即使剩余能量不足支付某张牌的费用，该牌依旧会免费打出（判定只看"除资源不足外"的硬性不可打原因）。手牌里的攻击/技能被免费打光，等于一波免费的爆发循环。
+- **免费自动打出**：随后将手中所有可打出的牌自动打出，**不消耗能量与星费**——即使剩余能量不足支付某张牌的费用，该牌依旧会免费打出（判定只看"除资源不足外"的硬性不可打原因）。X 费牌按 **X=0** 结算。手牌里的攻击/技能被免费打光，等于一波免费的爆发循环。
 
-- **堕落26/张**：每自动打出一张牌，[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)+<span style="color:#3aa675;font-weight:600">26</span>。手牌越多堕落越多。
+- **堕落 26/张（是供给也是负债）**：每自动打出一张牌，[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)+<span style="color:#3aa675;font-weight:600">26</span>。手牌越多叠得越快——但堕落是负面层数，连续几波自动打出很容易把层数推过百位，触发[魔君接管](/powers/demon_takeover_power.md)强控乱打。
 
 ## 小贴士
 
-- **免费打出手牌**：0 能量打出全部手牌，与[魔君接管](/powers/demon_takeover_power.md)的自动出牌机制思路相反——接管是被动失控，这是主动把手牌一口气打空的强爆发。
+- **免费打出手牌**：本牌自身 3 费，但手牌会被全部免费打出（不耗能量），与[魔君接管](/powers/demon_takeover_power.md)的自动出牌机制思路相反——接管是被动失控，这是主动把手牌一口气打空的强爆发。
 
 - **先升级再打出**：所有牌先免费升级——伤害牌变强、费用变低，再免费打出，双重收益一回合兑现。
 

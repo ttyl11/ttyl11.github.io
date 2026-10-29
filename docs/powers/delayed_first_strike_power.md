@@ -18,11 +18,11 @@
 | 每回合先制量（默认） | 1 |
 | 持续回合（默认） | 1 |
 
-不同施加来源会覆写这两个参数（如[瞬影](/potions/first_strike_potion.md)为每回合 2 层、持续 2 回合），以实际施加时为准。
+不同施加来源会覆写这两个参数（如[瞬影](/potions/first_strike_potion.md)为每回合 2 层、持续 7 回合），以实际施加时为准。
 
 ## 描述
 
-在你的回合开始时获得<span style="color:#3aa675;font-weight:600">1</span>点[<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)。持续<span style="color:#3aa675;font-weight:600">1</span>回合。
+持续<span style="color:#3aa675;font-weight:600">层数</span>回合：在你的回合开始时获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">先制</span>。
 
 ## 详细机制
 
@@ -31,6 +31,9 @@
   - 先制施加后立即层数 -1（衰减发生在回合开始效果结算后，非回合结束——避免施加当回合先衰减导致 N 层只触发 N-1 次）
   - 层数降为 0 时自动移除
 - **层数的含义**：N 层 = 之后 N 个自身回合开始时各触发一次；每回合获得的先制量固定
+- **同一个能力正负两用**：每回合的量取 `FirstStrikeAmount`，**正数＝先制上升**（默认 1），**负数＝先制下降**——[圣战·瑞尔斯](/monsters/elite/holy_war_ruiersi_monster.md) 的「极天战威决」就是把它设成 −1 当减益用（旧版的独立能力「挫锐」已并入本能力）。
+- **层数始终是剩余回合数**，与正负无关；方向在**施加瞬间**由施加方决定（**敌方给你挂 = 先制下降**，自身/友方 = 先制上升）。
+- **一眼怎么看懂**：先制下降的实例按**减益**渲染——角标变**红色**、边框走减益样式（原版力量/敏捷取负值时的同一套机制）。所以看到「**红色的 N**」＝ 「还有 N 回合、每回合先制 −1」；每回合实际加减的 ±1 会变成一层[先制](/powers/first_strike_power.md)（负值先制也是红色角标）。
 - **中途施加不立刻生效**：回合中途获得时，从下一个自身回合开始触发
 
 ## 相关能力
@@ -44,7 +47,7 @@
 
 ## 相关药水
 
-- [瞬影](/potions/first_strike_potion.md)（每回合 2 层先制、持续 2 回合）
+- [瞬影](/potions/first_strike_potion.md)（每回合 2 层先制、持续 7 回合）
 
 ## 源码
 

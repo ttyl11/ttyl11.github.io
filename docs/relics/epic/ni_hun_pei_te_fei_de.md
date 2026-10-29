@@ -20,7 +20,7 @@
 
 ## 描述
 
-①战斗开始时，自身[gold]防御[/gold]+[blue]2[/blue]。②自身打出[gold]攻击牌[/gold]时，额外造成（自身[gold]格挡[/gold]的[blue]30%[/blue]+[gold]能力提升段数[/gold]+[red]堕落[/red][blue]10%[/blue]）[gold]固定伤害[/gold]；[blue]50%[/blue]概率令目标[red]石化[/red][blue]1[/blue]层，未石化则自身[gold]全属性[/gold]+[blue]1[/blue]。③自身能力提升被消除时，所有敌人[red]石化[/red][blue]1[/blue]层，解除自身异常，下回合开始获得[blue]20[/blue]格挡。
+①战斗开始，自身<span style="color:#d4a017;font-weight:600">防御</span>+<span style="color:#3aa675;font-weight:600">2</span>。<br/>②打出<span style="color:#d4a017;font-weight:600">攻击牌</span>时，额外造成（自身<span style="color:#d4a017;font-weight:600">格挡</span>的<span style="color:#3aa675;font-weight:600">30%</span>+<span style="color:#d4a017;font-weight:600">属性提升段数</span>+<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">10%</span>）<span style="color:#d4a017;font-weight:600">固定伤害</span>；<span style="color:#3aa675;font-weight:600">50%</span>概率目标<span style="color:#d44;font-weight:600">石化</span><span style="color:#3aa675;font-weight:600">1</span>，否则自身<span style="color:#d4a017;font-weight:600">全属性</span>+<span style="color:#3aa675;font-weight:600">1</span>。<br/>③自身<span style="color:#d4a017;font-weight:600">属性提升</span>被消除时，所有敌人<span style="color:#d44;font-weight:600">石化</span><span style="color:#3aa675;font-weight:600">1</span>，解除自身异常，下回合开始获得<span style="color:#3aa675;font-weight:600">20</span><span style="color:#d4a017;font-weight:600">格挡</span>。
 
 ## 详细机制
 

@@ -1,7 +1,7 @@
 # 易燃
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[醉酒燃烧](/cards/character/drunken_burn.md)（卡牌）
+> **施加来源**：玩家获得——[醉酒燃烧](/cards/character/drunken_burn.md)（卡牌）；玩家施加给敌方——[曙光普照](/cards/character/shining_light.md)（卡牌，2 层）、[好女孩](/powers/good_girl_power.md)（能力联动，随机异常池）、[万相乖离](/powers/universal_divergence_power.md)（能力联动，随机异常池）、[白色龙鳞](/powers/white_dragon_scale_power.md)（能力联动，1 层）
 
 <img src="/images/powers/flammable_power.png" alt="易燃" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -21,7 +21,7 @@
 
 ## 描述
 
-造成攻击伤害减少<span style="color:#3aa675;font-weight:600">20</span>%。受到攻击时获得<span style="color:#3aa675;font-weight:600">2</span>层[烧伤](/powers/burn_power.md)。回合结束减<span style="color:#3aa675;font-weight:600">1</span>层。
+①自身造成的攻击伤害降低<span style="color:#3aa675;font-weight:600">20%</span>。<br/>②受到攻击时，获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d44;font-weight:600">烧伤</span>。<br/>自身回合结束时层数-<span style="color:#3aa675;font-weight:600">1</span>。
 
 ## 详细机制
 
@@ -42,6 +42,7 @@
 ## 相关卡牌
 
 - [醉酒燃烧](/cards/character/drunken_burn.md)（所有生物获得 <span style="color:#3aa675;font-weight:600">3</span> 回合易燃）
+- [曙光普照](/cards/character/shining_light.md)（随机异常可为易燃，2 层）
 
 ## 源码
 

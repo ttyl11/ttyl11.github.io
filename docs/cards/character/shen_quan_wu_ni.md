@@ -33,19 +33,21 @@
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#d4a017;font-weight:600">8</span>点[格挡](/mechanics/block.md)，恢复共<span style="color:#3aa675;font-weight:600">24</span>点 PP，从[弃牌堆](/mechanics/discard_pile.md)随机抽<span style="color:#3aa675;font-weight:600">2</span>张牌，选择丢弃<span style="color:#3aa675;font-weight:600">1</span>张牌。[蚀返](/mechanics/shifan.md)：被[消耗](/mechanics/exhaust.md)时向[抽牌堆](/mechanics/draw_pile.md)生成一张复制品。[残鸣](/mechanics/canming.md)：被消耗时从消耗牌堆选择<span style="color:#3aa675;font-weight:600">1</span>张加入手牌。
+PP: 1/1 <span style="color:#d44;font-weight:600">残鸣</span>：选择消耗牌堆一张牌加入手牌。 获得<span style="color:#3aa675;font-weight:600">8</span>点<span style="color:#d4a017;font-weight:600">格挡</span>，恢复共<span style="color:#3aa675;font-weight:600">24</span>点<span style="color:#d4a017;font-weight:600">PP</span>，从<span style="color:#d4a017;font-weight:600">弃牌堆</span>随机抽2张牌，选择丢弃1张牌。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 获得<span style="color:#d4a017;font-weight:600">14</span>点格挡，恢复共<span style="color:#3aa675;font-weight:600">24</span>点 PP，从[弃牌堆](/mechanics/discard_pile.md)随机抽<span style="color:#3aa675;font-weight:600">2</span>张牌，选择丢弃<span style="color:#3aa675;font-weight:600">1</span>张牌。[蚀返](/mechanics/shifan.md)：被[消耗](/mechanics/exhaust.md)时向[抽牌堆](/mechanics/draw_pile.md)生成一张复制品。[残鸣](/mechanics/canming.md)：被消耗时从消耗牌堆选择<span style="color:#3aa675;font-weight:600">1</span>张加入手牌。
+PP: 1/1 <span style="color:#d44;font-weight:600">残鸣</span>：选择消耗牌堆一张牌加入手牌。 获得<span style="color:#3aa675;font-weight:600">14</span>点<span style="color:#d4a017;font-weight:600">格挡</span>，恢复共<span style="color:#3aa675;font-weight:600">24</span>点<span style="color:#d4a017;font-weight:600">PP</span>，从<span style="color:#d4a017;font-weight:600">弃牌堆</span>随机抽2张牌，选择丢弃1张牌。
 
 ## 工作机制
 
-- **四步执行顺序**：打出时依次完成——① 获得 8（升级 14）点格挡；② 恢复共 24 点 PP（遍历所有 PP 牌，每张补至满，累计不超过 24）；③ 从弃牌堆随机抽 2 张到手牌；④ 从手牌中必选 1 张弃掉。
+- **四步执行顺序**：打出时依次完成——① 获得 8（升级 14）点格挡；② 恢复共 24 点 PP（遍历本场战斗中除牌组外的 PP 牌，每张补至满，累计不超过 24）；③ 从弃牌堆随机抽 2 张到手牌；④ 从手牌中必选 1 张弃掉。
 
-- **PP 恢复规则**：恢复总量封顶 24 点，按 PP 牌逐张补满、先到先得；不恢复本牌自身（打出后 PP 保持为 0），也不作用于非 PP 牌或 PP 上限为 0 的牌。
+- **PP 恢复规则**：恢复总量封顶 24 点，遍历本场战斗中除牌组外的所有牌堆（手牌、抽牌堆、弃牌堆、消耗牌堆等）里的 PP 牌，逐张补满、先到先得，顺序由牌堆内顺序决定、无法自选；不恢复本牌自身（打出后 PP 保持为 0），也不作用于非 PP 牌或 PP 上限为 0 的牌。
 
-- **蚀返与残鸣**：两者都围绕"被消耗时触发"——蚀返向[抽牌堆](/mechanics/draw_pile.md)生成一张本牌复制品，残鸣从[消耗牌堆](/mechanics/exhaust_pile.md)选择 1 张加入手牌。触发时机由[关键词系统](/mechanics/keywords.md)统一处理。
+- **蚀返与残鸣**：两者都围绕"被消耗时触发"——蚀返向[抽牌堆](/mechanics/draw_pile.md)**底部**生成一张本牌复制品（复制品 PP 回满），残鸣从[消耗牌堆](/mechanics/exhaust_pile.md)选择 1 张加入手牌。触发时机由[关键词系统](/mechanics/keywords.md)统一处理。
+
+- **本牌不带消耗，如何触发蚀返/残鸣**：打出后 PP 归零不会自己进入消耗堆。若持有[群星的礼赠](/relics/starter/elemental_core.md)，PP 归零的 PP 牌会在打出后立刻被它消耗，从而当场触发蚀返与残鸣（并在回合结束时继续清理手牌/抽牌堆/弃牌堆里的 0 PP 牌）；没有这件遗物时，需要其它消耗效果才能触发。
 
 - **随机性来源**：从弃牌堆抽牌使用战斗随机源，多人模式多端一致；弃 1 张由玩家主动选择。
 
@@ -53,9 +55,9 @@
 
 - **1 PP 超级枢纽**：1 费 1 PP，同时提供格挡、PP 恢复、抽 2 弃 1 三项功能，功能密度极高。把 24 点 PP 撒给整副 PP 牌组，是 PP 体系的关键润滑剂。
 
-- **PP 恢复的覆盖能力**：24 点总恢复量可以回满绝大多数 PP 牌组的亏空——例如恢复 5 张 PP=3 的牌只需 15 点，剩余 9 点还能照顾其它牌。注意本牌自身不恢复 PP，打出后保持归零，便于贴近"被消耗"的触发节奏。
+- **PP 恢复的覆盖能力**：24 点总恢复量可以回满绝大多数 PP 牌组的亏空——例如恢复 5 张 PP=3 的牌只需 15 点，剩余 9 点还能照顾其它牌。恢复不含牌组，也不能自选顺序。注意本牌自身不恢复 PP，打出后保持归零——持有群星的礼赠时，它会被立刻消耗并触发蚀返/残鸣。
 
-- **蚀返+残鸣的二次收益**：本牌 PP=1，打出后立即归零。蚀返在被消耗时向抽牌堆生成复制品，残鸣在被消耗时从消耗牌堆选 1 张入手——围绕"被消耗"设计，配合消耗节奏能一次打出获得多轮收益。
+- **蚀返+残鸣的二次收益**：本牌 PP=1，打出后立即归零。蚀返在被消耗时向抽牌堆底部生成一张复制品（PP 回满），残鸣在被消耗时从消耗牌堆选 1 张加入手牌——两者都要求"先被消耗"。不带消耗关键词，需要群星的礼赠或其它消耗手段才能启动；触发一次即可同时拿到"补一张本牌"与"捞一张消耗牌"。
 
 - **抽 2 弃 1 的净收益**：从弃牌堆随机抽 2 张，再从手牌弃 1 张，净得 1 张牌。若弃牌堆不足 2 张则抽到多少算多少。
 

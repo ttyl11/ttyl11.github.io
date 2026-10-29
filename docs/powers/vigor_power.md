@@ -24,7 +24,7 @@
 
 ## 相关遗物
 
-- [泰勒斯](/relics/uncommon/thales)（你获得力量时，获得等量活力）
+- [泰勒斯](/relics/uncommon/thales.md)（你获得力量时，获得等量活力）
 
 ## 源码
 

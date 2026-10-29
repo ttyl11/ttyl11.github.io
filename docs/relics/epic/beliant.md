@@ -20,7 +20,7 @@
 
 ## 描述
 
-①首次获得<span style="color:#d44;font-weight:600">[异常状态](/mechanics/abnormal-status.md)</span>时，转化为<span style="color:#3aa675;font-weight:600">3</span>回合<span style="color:#9b59b6;font-weight:600">[星赐](/powers/star_blessing_power.md)</span>，<span style="color:#d4a017;font-weight:600">[召唤](/mechanics/summon.md)</span><span style="color:#3aa675;font-weight:600">10</span>。<br/>②奥斯提存活时，所受异常状态转为<span style="color:#3aa675;font-weight:600">1</span>回合<span style="color:#9b59b6;font-weight:600">[星赐](/powers/star_blessing_power.md)</span>，<span style="color:#d4a017;font-weight:600">[召唤](/mechanics/summon.md)</span><span style="color:#3aa675;font-weight:600">1</span>。<br/>③奥斯提死亡时，以死前生命<span style="color:#3aa675;font-weight:600">20</span>%复活。<br/>④我方回合结束时，消耗奥斯提<span style="color:#3aa675;font-weight:600">25</span>%当前生命，恢复自身等量生命，对敌方造成等量<span style="color:#d4a017;font-weight:600">固定伤害</span>。
+①首次获得异常状态时，转化为3回合<span style="color:#9b59b6;font-weight:600">星赐</span>，<span style="color:#d4a017;font-weight:600">召唤</span><span style="color:#3aa675;font-weight:600">10</span>。<br/>②奥斯提存活时，所受异常状态转为1回合<span style="color:#9b59b6;font-weight:600">星赐</span>，<span style="color:#d4a017;font-weight:600">召唤</span><span style="color:#3aa675;font-weight:600">1</span>。<br/>③奥斯提死亡时，以死前最大生命<span style="color:#3aa675;font-weight:600">20%</span>复活。<br/>④我方回合结束时，消耗奥斯提<span style="color:#3aa675;font-weight:600">25%</span>当前生命，恢复自身等量生命，对敌方造成等量固定伤害。
 
 - **异常转化**：①②将自身受到的异常状态层数清零（不生效），转化为星赐并召唤/强化奥斯提。首次转化给3回合星赐+10HP奥斯提；后续转化需奥斯提存活，给1回合星赐并增加奥斯提1点最大生命（上限与当前生命同步+1）。若首次转化时奥斯提已经存活（如[宿主岩](/relics/common/host_rock.md)先召唤过），10HP 变为给现有奥斯提上限+10，不会重复召唤。
 - **复活机制**：③奥斯提死亡时立即复活，复活后最大生命=死前最大生命×20%（向下取整，至少1）。
@@ -32,7 +32,7 @@
 
 ## 小贴士
 
-- **奥斯提存活时完全免疫异常状态**：核心机制。奥斯提存活期间，自身受到的所有24种异常状态都被转化为星赐，异常状态不生效。敌人的异常状态攻击反而是在给你送星赐——越打你越强。
+- **奥斯提存活时完全免疫异常状态**：核心机制。奥斯提存活期间，自身受到的所有 25 种异常状态都被转化为星赐，异常状态不生效。敌人的异常状态攻击反而是在给你送星赐——越打你越强。
 - **星赐攻防双收益**：每次转化获得星赐（首次3回合，后续1回合）。星赐提供两项效果：攻击伤害 +10%、己方回合结束随机恢复一张 PP 未满的卡牌 2 点 PP（从手牌/抽牌堆/弃牌堆中选，全满则落空）。注意星赐的层数是**持续时间**而不是强度——+10% 增伤固定不变，叠层只是延长回合数。异常状态施加越频繁，星赐覆盖的回合越密集，攻防两端持续受益。
 - **奥斯提随异常状态成长**：②每次转化不仅获得星赐，还让奥斯提上限与当前生命各+1。战斗中受到的异常状态越多，奥斯提最大生命越高，④的吸血和伤害量也越大。敌人密集施加异常状态时，奥斯提会迅速成长。
 - **奥斯提死亡的连锁惩罚**：③复活将奥斯提最大生命设为死前的20%（向下取整，至少1）。10最大生命→死亡→复活为2最大生命→再死亡→复活为1最大生命。反复死亡后奥斯提只剩1点最大生命，④的吸血量降至0（25%×1向下取整为0，不触发），需要靠②重新慢慢叠最大生命。保护好奥斯提是使用此遗物的关键。

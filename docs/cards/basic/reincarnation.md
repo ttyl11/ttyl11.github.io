@@ -24,11 +24,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 恢复最大生命值的<span style="color:#3aa675;font-weight:600">100</span>%。每次使用后，恢复比例减半。
+PP: 1/1 恢复最大生命值的<span style="color:#3aa675;font-weight:600">100</span>%，每次恢复减半。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> [<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。恢复最大生命值的<span style="color:#3aa675;font-weight:600">100</span>%。每次使用后，恢复比例减半。
+PP: 1/1 <span style="color:#d4a017;font-weight:600">保留</span>。恢复最大生命值的<span style="color:#3aa675;font-weight:600">100</span>%，每次恢复减半。
 
 ## 小贴士
 

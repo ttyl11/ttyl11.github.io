@@ -24,11 +24,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 造成<span style="color:#3aa675;font-weight:600">35</span>点伤害。对Boss伤害<span style="color:#3aa675;font-weight:600">+100%</span>。恢复造成伤害的<span style="color:#3aa675;font-weight:600">25%</span>体力。<span style="color:#3aa675;font-weight:600">2</span>回合免疫[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)，[<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)+<span style="color:#3aa675;font-weight:600">2</span>。令对手随机<span style="color:#3aa675;font-weight:600">2</span>种[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">2</span>回合。同名牌每打出一次费用<span style="color:#3aa675;font-weight:600">-1</span>。
+PP: 3/3 <span style="color:#d44;font-weight:600">免控</span><span style="color:#3aa675;font-weight:600">2</span>，<span style="color:#d4a017;font-weight:600">先制</span>+2。<span style="color:#d44;font-weight:600">随机异常</span><span style="color:#3aa675;font-weight:600">2，2</span>。<span style="color:#d44;font-weight:600">齐鸣</span>。 造成<span style="color:#3aa675;font-weight:600">35</span>点伤害。对Boss伤害<span style="color:#3aa675;font-weight:600">+100%</span>。恢复造成伤害的<span style="color:#3aa675;font-weight:600">25%</span>体力。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">3</span>/<span style="color:#3aa675;font-weight:600">3</span> 造成<span style="color:#3aa675;font-weight:600">50</span>点伤害。对Boss伤害<span style="color:#3aa675;font-weight:600">+100%</span>。恢复造成伤害的<span style="color:#3aa675;font-weight:600">25%</span>体力。<span style="color:#3aa675;font-weight:600">2</span>回合免疫[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)，[<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)+<span style="color:#3aa675;font-weight:600">2</span>。令对手随机<span style="color:#3aa675;font-weight:600">2</span>种[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">2</span>回合。同名牌每打出一次费用<span style="color:#3aa675;font-weight:600">-1</span>。
+PP: 3/3 <span style="color:#d44;font-weight:600">免控</span><span style="color:#3aa675;font-weight:600">2</span>，<span style="color:#d4a017;font-weight:600">先制</span>+2。<span style="color:#d44;font-weight:600">随机异常</span><span style="color:#3aa675;font-weight:600">2，2</span>。<span style="color:#d44;font-weight:600">齐鸣</span>。 造成<span style="color:#3aa675;font-weight:600">50</span>点伤害。对Boss伤害<span style="color:#3aa675;font-weight:600">+100%</span>。恢复造成伤害的<span style="color:#3aa675;font-weight:600">25%</span>体力。
 
 ## 小贴士
 

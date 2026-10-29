@@ -1,7 +1,7 @@
 # 生命汲取II
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：全局怪物能力池（全局补丁）——玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长
 
 <img src="/images/powers/drain_two_power.png" alt="生命汲取II" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,7 +13,7 @@
 
 ## 描述
 
-在你的回合开始时，对每个敌人造成<span style="color:#3aa675;font-weight:600">5</span>点伤害，并为自身回复等量<span style="color:#d4a017;font-weight:600">体力</span>。
+自身回合开始时，对所有对手造成<span style="color:#3aa675;font-weight:600">5</span>点伤害，并为自身回复等量<span style="color:#d4a017;font-weight:600">生命值</span>。
 
 ## 详细机制
 
@@ -31,4 +31,4 @@
 ## 源码
 
 - `SeerDrainTwoPower.cs`
-- 随机池配置：`SeerElementalCore.cs:109`（`0.00002/房`）
+- 随机池配置：`SeerGlobalMonsterPowerPatch.cs:120`（`0.00002/房`）

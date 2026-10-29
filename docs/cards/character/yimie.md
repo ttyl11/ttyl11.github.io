@@ -30,23 +30,23 @@
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 反转所有敌方[<span style="color:#9b59b6;font-weight:600">四维属性</span>](/mechanics/all_attributes.md)的**正属性**和自身的**负属性**。对所有敌人造成<span style="color:#3aa675;font-weight:600">5</span>点伤害，共<span style="color:#3aa675;font-weight:600">3</span>次。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [反强](/mechanics/fan_qiang.md)、[反弱](/mechanics/fan_ruo.md)。对所有敌人造成<span style="color:#3aa675;font-weight:600">5</span>点伤害，共<span style="color:#3aa675;font-weight:600">3</span>次。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 反转所有敌方[<span style="color:#9b59b6;font-weight:600">四维属性</span>](/mechanics/all_attributes.md)的**正属性**和自身的**负属性**。对所有敌人造成<span style="color:#3aa675;font-weight:600">5</span>点伤害，共<span style="color:#3aa675;font-weight:600">4</span>次。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> [反强](/mechanics/fan_qiang.md)、[反弱](/mechanics/fan_ruo.md)。对所有敌人造成<span style="color:#3aa675;font-weight:600">5</span>点伤害，共<span style="color:#3aa675;font-weight:600">4</span>次。
 
 ## 小贴士
 
-- **反转是翻倍取反，不是清零**：反转不是把 +5 力量打成 0，而是直接翻成 -5——敌方正属性越高，被打得越惨，同时它自己的输出也一并崩塌。四维里[力量](/powers/strength_power.md)、[防御](/powers/defense_power.md)、[命中](/powers/accuracy_power.md)、[速度](/powers/speed_power.md)正层全都会被翻成负层。
+- **反强是翻倍取反，不是清零**：反强不是把 +5 力量打成 0，而是直接翻成 -5——敌方正属性越高，被打得越惨，同时它自己的输出也一并崩塌。四维里[力量](/powers/strength_power.md)、[防御](/powers/defense_power.md)、[命中](/powers/accuracy_power.md)、[速度](/powers/speed_power.md)正层全都会被翻成负层。
 
-- **先反转再出刀，拆防守最实用**：伤害在反转之后结算。敌人若叠了正[防御](/powers/defense_power.md)，先被翻成负防御再吃到这轮攻击，这一刀比平时疼得多——对"叠甲坦克"既是拆解又是痛击，一卡两用。
+- **先反强再出刀，拆防守最实用**：伤害在反强之后结算。敌人若叠了正[防御](/powers/defense_power.md)，先被翻成负防御再吃到这轮攻击，这一刀比平时疼得多——对"叠甲坦克"既是拆解又是痛击，一卡两用。
 
-- **翻掉正速度是节奏压制**：把敌人的正[速度](/powers/speed_power.md)翻成负，会让它每 2 层少抽 1 张手牌；翻掉正[力量](/powers/strength_power.md)则直接削弱它接下来所有攻击。清场之余顺手拆敌方节奏。
+- **翻掉正速度反而是过牌收益**：敌人负[速度](/powers/speed_power.md)的镜像效果是**所有玩家每层多抽 1 张**（随后弃掉层数的一半），不再让它少抽；翻掉正[力量](/powers/strength_power.md)则直接削弱它接下来所有攻击。清场之余顺手把敌人的属性变成己方资源。
 
-- **自身负属性反转 = 自保 + 爆发两手抓**：先把自身四维的负值翻正，再打伤害——既解除自身被堆叠的减益，又让这一刀回到正常水平。[命中](/powers/accuracy_power.md)翻正后不再有未命中风险，速度翻正后还能正常抽牌。被压着打时往往这才是翻盘点。
+- **自身负属性反弱 = 自保 + 爆发两手抓**：先把自身四维的负值翻正，再打伤害——-3 会变成 +3（不是归零），既解除自身被堆叠的减益，又让这一刀回到正常水平。[命中](/powers/accuracy_power.md)翻正后不再让敌人闪避你的攻击，还额外获得暴击率；[速度](/powers/speed_power.md)翻正后不再给敌人送格挡，还能多抽牌。被压着打时往往这才是翻盘点。
 
-- **只碰四维，别指望更多**：只反转力量/防御/命中/速度这四种属性，[虚弱](/powers/weak_power.md)、[易伤](/powers/vulnerable_power.md)等异常状态不反转，暴击/先制等其它能力也不受影响。真"全属性失效"得找别的牌，这张只管四维。
+- **只碰四维，别指望更多**：反强、反弱只作用力量/防御/命中/速度这四种属性，[虚弱](/powers/weak_power.md)、[易伤](/powers/vulnerable_power.md)等异常状态不受反强、反弱影响，暴击/先制等其它能力也不受影响。真"全属性失效"得找别的牌，这张只管四维。
 
 - **性价比**：2 费三合一——全敌正属性拆解 + 自身负属性自愈 + 每只敌人三段共 15 点AOE，清杂解场两不误，升级只把它变本加厉。
 
@@ -56,9 +56,9 @@
 
 - [防御](/powers/defense_power.md)（四维属性之一，减少受到的攻击伤害）
 
-- [命中](/powers/accuracy_power.md)（四维属性之一，负值时影响攻击命中率）
+- [命中](/powers/accuracy_power.md)（正层 +10% 暴击率/层；负层让受击目标闪避 +5%/层）
 
-- [速度](/powers/speed_power.md)（四维属性之一，负值时影响抽牌数）
+- [速度](/powers/speed_power.md)（正层让玩家多抽并弃半；负层让每只敌人获得最大生命 5%×层数的格挡）
 
 ## 相关机制
 

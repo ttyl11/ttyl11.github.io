@@ -29,16 +29,17 @@
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 对单个敌人造成<span style="color:#d44;font-weight:600">12</span>点伤害。随机选取[力量](/powers/strength_power.md)/[防御](/powers/defense_power.md)/[命中](/powers/accuracy_power.md)/[速度](/powers/speed_power.md)一种属性，从目标窃取<span style="color:#3aa675;font-weight:600">3</span>点移至自身（每次1点，共3次独立随机）。
+PP: 10/10 造成<span style="color:#3aa675;font-weight:600">12</span>点伤害。吸取对方随机属性<span style="color:#3aa675;font-weight:600">3</span>点（对方-3，自身+3）。
 
 ## 工作机制
 
+- **先伤害、后窃取**：本牌先结算 7/12 点攻击伤害，再执行 3 次窃取；本次伤害不会因窃取而变化（例如偷走防御不会让这一击打得更疼）。
 - **3次独立随机窃取**：每次从 4 种属性（力量/防御/命中/速度）中随机选 1 种，对该属性执行"目标 -1、自身 +1"。3 次互相独立，可能出现同一属性被窃取 3 次的情况，也可能分散在多种属性上。
 - **四维属性的收益**（窃取后落在自身身上的效果）：
   - [力量](/powers/strength_power.md)：每层 +1 攻击伤害
   - [防御](/powers/defense_power.md)：每层减少 1 点受到的攻击伤害（只对攻击伤害生效）
-  - [命中](/powers/accuracy_power.md)：正数时自身无直接效果，主要用于抵消负命中；敌方被窃取后若命中转负，其攻击有概率未命中
-  - [速度](/powers/speed_power.md)：自身每 2 层回合开始额外抽 1 张
+  - [命中](/powers/accuracy_power.md)：自身正层每层 +10% 暴击率；敌方被窃取后若命中转负，其攻击更容易被你闪避（每层 +5%）
+  - [速度](/powers/speed_power.md)：自身正层每层回合开始多抽 1 张，随后按有效层数一半弃牌；敌方被窃取后转负，其负层还会镜像给所有玩家再各多抽 1 张（同样按有效层数一半弃牌）
 
 ## 小贴士
 
@@ -46,7 +47,7 @@
 - **属性转移的连锁价值**：窃取的属性直接加到自身——力量提高后续攻击伤害，防御减少受到的攻击伤害，速度带来更多抽牌。每点窃取都是真实收益。
 - **随机性的应对策略**：由于每次随机选属性，连续 3 次可能全抽到同一属性（也可能三种属性各一点）。想要稳定的力量收益，需配合能定向获得特定属性的手段。
 - **低伤高 PP 的定位**：基础伤害 7 点偏低，但提供了大量使用机会。配合力量窃取，多打几次后自身力量累积，伤害开始显著增长。升级后基础伤害 12 点，前几次打击就有可观输出。
-- **戏法补牌、奇巧白嫖**：[戏法](/mechanics/trick.md)打出时随机抽一张[弃牌堆](/mechanics/discard_pile.md)的牌到[手牌](/mechanics/hand.md)，维持手牌在窃取打法下不掉链；[奇巧](/mechanics/sly.md)让这张 <span style="color:#3aa675;font-weight:600">2</span> 费牌在回合结束前若从手牌被弃则免费打出——能量紧张时等于多一次"免费的窃取 + 伤害"机会。
+- **戏法补牌、奇巧白嫖**：[戏法](/mechanics/trick.md)在结算后随机把[弃牌堆](/mechanics/discard_pile.md)一张牌置入手牌顶，维持手牌在窃取打法下不掉链；[奇巧](/mechanics/sly.md)让这张 <span style="color:#3aa675;font-weight:600">2</span> 费牌在回合结束前若从手牌被弃则免能量自动打出——能量紧张时等于多一次"免费的窃取 + 伤害"机会。注意免除的只是能量，<span style="color:#3aa675;font-weight:600">1</span> 点 PP 仍照常消耗；PP 为 0 时依然能被奇巧打出。
 - **2 费权衡**：费用升到 <span style="color:#3aa675;font-weight:600">2</span> 后单卡直伤性价比略降，但窃取成长与戏法/奇巧带来的免费出牌机会弥补了费用压力；PP<span style="color:#3aa675;font-weight:600">10</span> 依然支持一场多次持续窃取。
 - **升级性价比**：伤害从 7→12（+5），其他不变。升级使前期的伤害体验明显改善，但不会改变卡的整体定位（持续消耗型）。升级优先级中等。
 - **与其他卡的配合**：

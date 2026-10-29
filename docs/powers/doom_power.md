@@ -1,5 +1,7 @@
 ﻿# 灾厄
 
+> **归属**：玩家与怪物均可持有
+> **施加来源**：玩家获得——[恶魔降临](/cards/character/demon_descent.md)、[灾厄](/cards/character/doom_calamity.md)；遗物——[恶魔男爵](/relics/uncommon/demon_baron.md)、[巧克力](/relics/rare/chocoli.md)、[关](/relics/rare/seer_guan.md)；怪物施加给玩家——混沌·千夜死神、夜使者库帕帕、魂燃兽
 
 
 <img src="/images/powers/doom_power.png" alt="灾厄" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
@@ -7,7 +9,7 @@
 ## 基本信息
 
 - **类型**: 减益（Debuff）
-- **叠加方式**: 递减（计数型）
+- **叠加方式**: 叠加（计数型，不自动递减）
 - **可见**: 是
 - **允许负值**: 否
 

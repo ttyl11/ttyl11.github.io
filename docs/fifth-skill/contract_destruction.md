@@ -25,11 +25,11 @@
 
 ## 描述
 
-PP: 1/1 [消耗](/mechanics/exhaust.md)[手牌](/mechanics/hand.md)中所有<span style="color:#d4a017;font-weight:600">PP</span>卡牌，造成消耗PP的<span style="color:#3aa675;font-weight:600">3</span>倍伤害。若消耗PP><span style="color:#3aa675;font-weight:600">15</span>，伤害翻倍且获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">20</span>。
+PP: 1/1 <span style="color:#d4a017;font-weight:600">消耗</span><span style="color:#d4a017;font-weight:600">手牌</span>中所有<span style="color:#d4a017;font-weight:600">PP</span>卡牌，造成消耗PP<span style="color:#3aa675;font-weight:600">3</span>倍的伤害。消耗PP><span style="color:#3aa675;font-weight:600">15</span>时翻倍并获<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">20</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> [消耗](/mechanics/exhaust.md)[手牌](/mechanics/hand.md)中所有<span style="color:#d4a017;font-weight:600">PP</span>卡牌，造成消耗PP的<span style="color:#3aa675;font-weight:600">3</span>倍伤害。若消耗PP><span style="color:#3aa675;font-weight:600">10</span>，伤害翻倍且获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">20</span>。
+PP: 1/1 <span style="color:#d4a017;font-weight:600">消耗</span><span style="color:#d4a017;font-weight:600">手牌</span>中所有<span style="color:#d4a017;font-weight:600">PP</span>卡牌，造成消耗PP<span style="color:#3aa675;font-weight:600">3</span>倍的伤害。消耗PP><span style="color:#3aa675;font-weight:600">10</span>时翻倍并获<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">20</span>。
 
 ## 小贴士
 

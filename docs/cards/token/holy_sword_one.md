@@ -25,7 +25,7 @@ PP: 1/1 升级你的所有<span style="color:#d4a017;font-weight:600">君王之�
 
 ## 小贴士
 
-- **检索范围是全场所有牌堆**：升级并移入的不是只有手牌里的剑——[抽牌堆](/mechanics/draw_pile.md)、[手牌](/mechanics/hand.md)、[弃牌堆](/mechanics/discard_pile.md)里所有属于你的君王之剑都会被一次性升级并全部拉进手牌，相当于一次"全军集合"。
+- **检索范围是全场所有牌堆**：升级并移入的不是只有手牌里的剑——[抽牌堆](/mechanics/draw_pile.md)、[手牌](/mechanics/hand.md)、[弃牌堆](/mechanics/discard_pile.md)，乃至被特殊效果丢进[消耗牌堆](/mechanics/exhaust_pile.md)的君王之剑，都会被一次性升级并全部拉进手牌，相当于一次"全军集合"。
 - **升级效果是降费，不是加伤害**：君王之剑的升级只把能量消耗从 <span style="color:#3aa675;font-weight:600">2</span> 降到 <span style="color:#3aa675;font-weight:600">1</span>，伤害数值不变。想提升伤害要靠[圣剑三](/cards/token/holy_sword_three.md)。
 - **配合"保留"攒剑爆发**：君王之剑自带[保留](/mechanics/retain.md)（回合结束不弃牌），配合本卡把所有剑集中到手牌，下一回合用降费后的剑群打出成吨输出。
 - **注意手牌容量**：剑数量多时一次性全部进手可能挤占手牌位，尽量在手牌较空的回合打出。

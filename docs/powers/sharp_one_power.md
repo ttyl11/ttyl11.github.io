@@ -1,7 +1,7 @@
 # 锋锐I
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：全局怪物能力池（全局补丁）——玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长
 
 <img src="/images/powers/sharp_one_power.png" alt="锋锐I" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -19,7 +19,7 @@
 
 ## 描述
 
-在你的回合结束时给予对手<span style="color:#3aa675;font-weight:600">3</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>。
+自身回合结束时，对对手造成<span style="color:#3aa675;font-weight:600">3</span>点<span style="color:#d4a017;font-weight:600">固定伤害</span>。
 
 ## 详细机制
 
@@ -33,10 +33,10 @@
 
 - **每轮全队白掉 3 血**：不可格挡的固定流失，拖得越久亏得越多（10 轮 = 30 血）——要么速杀持有者，要么带上回复手段对冲。
 - **多怪场叠加**：多个怪物各自带锋锐时固伤按持有者数量叠加，群体遭遇战里优先集火带词缀的怪止损。
-- **词缀池里最常见的高档**：锋锐I 是随机池里唯一带**基础概率**的能力（开局即 0.1%，另有 0.0005/房增长）——其余词缀开局概率为 0，只有它从第 1 场战斗就可能撞上。
+- **开局就可能撞上**：锋锐I 是少数带**基础概率**的能力（开局 0.1%，另有 0.0005/房增长）——不少词缀开局概率为 0，它从第 1 场战斗起就有机会出现。
 
 ## 源码
 
 - `SeerSharpOnePower.cs`
 - `SeerFixedDamagePower.cs`
-- `SeerElementalCore.cs`
+- `SeerGlobalMonsterPowerPatch.cs`（随机池）

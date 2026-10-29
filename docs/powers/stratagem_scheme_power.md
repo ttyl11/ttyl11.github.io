@@ -13,7 +13,7 @@
 
 ## 描述
 
-本回合打出的前<span style="color:#3aa675;font-weight:600">5</span>张牌耗能-<span style="color:#3aa675;font-weight:600">1</span>。回合结束时移除。
+本回合打出的前<span style="color:#3aa675;font-weight:600">5</span>张牌耗能-<span style="color:#3aa675;font-weight:600">1</span>。<br/>下个回合开始时移除。
 
 ## 源码
 

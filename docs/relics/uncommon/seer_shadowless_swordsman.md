@@ -15,7 +15,7 @@
 
 ## 描述
 
-你的回合结束时，自动打出<span style="color:#d4a017;font-weight:600">弃牌堆</span>的一张<span style="color:#d4a017;font-weight:600">君王之剑</span>。
+你的回合结束时，自动打出<span style="color:#d4a017;font-weight:600">弃牌堆</span>的一张<span style="color:#d4a017;font-weight:600">君王之剑</span>。<br/>每次打出<span style="color:#d4a017;font-weight:600">君王之剑</span>，自身<span style="color:#d44;font-weight:600">堕落</span>等于其伤害值。
 
 每次打出<span style="color:#d4a017;font-weight:600">君王之剑</span>后，自身<span style="color:#d44;font-weight:600">[堕落](/powers/fallen_power.md)</span>等于其当前伤害值。
 
@@ -25,13 +25,13 @@
 
 ## 详细机制
 
-- **触发时机**：你自己的回合结束时触发（`AfterSideTurnEnd` 且 `side` 等于持有者一方），只处理自己回合的结尾，敌人回合结束不触发。
+- **触发时机**：你自己的回合结束时触发，只处理自己回合的结尾，敌人回合结束不触发。
 - **来源限定"弃牌堆"**：只在**弃牌堆**里找君王之剑（SovereignBlade），消耗堆、手牌、抽牌堆都不取；取到弃牌堆中第一张君王之剑，若不存在则本回合不触发。
 - **必须仍可打出**：若该牌因费用/条件已不可打出（`CanPlay` 为否），跳过本次触发。
-- **自动打出且免费用**：通过 `CardCmd.AutoPlay` 直接打出，无需支付费用（不含法力/PP 消耗），选中后立即结算。
-- **目标选择**：若君王之剑需要指定单一目标（非自身 / 非全体敌人），则从当前可命中的敌人中随机选一个，使用 `RunState.Rng.CombatTargets` 同步 RNG 保证多人局一致。
+- **自动打出且免费用**：直接自动打出，无需支付费用（不含法力/PP 消耗），选中后立即结算。
+- **目标选择**：若君王之剑需要指定单一目标（非自身 / 非全体敌人），则从当前可命中的敌人中随机选一个，多人局结果一致。
 - **每回合结束打 1 张**：一次回合结束只自动打出 1 张君王之剑（取第一张）。
-- **打出即堕落**：任意君王之剑被打出后（遗物回合末自动打出、或玩家手动打出都算），结算完成时自身获得等于该剑**当前伤害值**的[堕落](/powers/fallen_power.md)。数值读取 `DynamicVars.Damage.BaseValue`（君王之剑基础伤害 10）——若剑的伤害被[神剑·天音](/relics/uncommon/divine_sword_tianyin.md)等效果提升或调整，堕落数值同步增减。
+- **打出即堕落**：任意君王之剑被打出后（遗物回合末自动打出、或玩家手动打出都算），结算完成时自身获得等于该剑**当前伤害值**的[堕落](/powers/fallen_power.md)。数值读取该剑的**当前伤害值**（君王之剑基础伤害 10）——若剑的伤害被[神剑·天音](/relics/uncommon/divine_sword_tianyin.md)等效果提升或调整，堕落数值同步增减。
 
 ## 小贴士
 

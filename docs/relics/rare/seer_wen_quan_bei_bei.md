@@ -10,7 +10,7 @@
 
 ## 描述
 
-当你的生命值将要降为 <span style="color:#3aa675;font-weight:600">0</span> 或以下时，以**无穷之血**复活；若你的回合结束前取得**胜利**，则以 <span style="color:#3aa675;font-weight:600">1</span> 点生命存活，否则**死亡**。
+当你的生命值将要降为<span style="color:#3aa675;font-weight:600">0</span>或以下时，以<span style="color:#3aa675;font-weight:600">无穷</span>之血复活；若你的回合结束前<span style="color:#d4a017;font-weight:600">胜利</span>则以<span style="color:#3aa675;font-weight:600">1</span>点生命存活，否则<span style="color:#d4a017;font-weight:600">死亡</span>。
 
 - **触发**：受到致死伤害（生命值即将降到 <span style="color:#3aa675;font-weight:600">0</span> 或以下）时触发，每场战斗最多触发一次。
 - **复活**：生命值瞬间恢复为无穷（数值巨大），此期间你完全**无敌**，不受伤害。

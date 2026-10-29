@@ -1,5 +1,8 @@
 ﻿# 缩小
 
+> **归属**：玩家与怪物均可持有
+> **施加来源**：由[瘫痪](/powers/paralysis_power.md)在持有者回合开始时（若上回合未造成伤害）对自身施加 1 层（瘫痪来源如[核威强袭](/cards/token/nuclear_assault.md)、[灾厄之劫](/cards/character/doom_calamity.md)、[曙光普照](/cards/character/shining_light.md)、[永寒精华](/potions/eternal_cold_essence_potion.md) 等）
+
 
 
 <img src="/images/powers/shrink_power.png" alt="缩小" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
@@ -31,10 +34,6 @@
   - **负层数**：单例叠加（不递减），表示永久缩小。
 - **施加者死亡清除**：当施加者死亡时，移除此能力。
 - **施加者名称**：若施加者为怪物，记录怪物名称。
-
-## 相关卡牌
-
-- [极度冰点](/cards/character/extreme_freeze.md)（通过瘫痪触发缩小）
 
 ## 源码
 

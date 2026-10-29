@@ -20,19 +20,19 @@
 
 ## 描述
 
-[<span style="color:#d4a017;font-weight:600">召唤</span>](/mechanics/summon.md)<span style="color:#3aa675;font-weight:600">8</span>。给予所有敌人等同于奥斯提最大生命值的[<span style="color:#9b59b6;font-weight:600">灾厄</span>](/powers/doom_power.md)。
+<span style="color:#d4a017;font-weight:600">召唤</span><span style="color:#3aa675;font-weight:600">8</span>。所有敌人<span style="color:#d4a017;font-weight:600">灾厄</span>：奥斯提最大生命值。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。[<span style="color:#d4a017;font-weight:600">召唤</span>](/mechanics/summon.md)<span style="color:#3aa675;font-weight:600">8</span>。给予所有敌人等同于奥斯提最大生命值的[<span style="color:#9b59b6;font-weight:600">灾厄</span>](/powers/doom_power.md)。
+<span style="color:#d4a017;font-weight:600">召唤</span><span style="color:#3aa675;font-weight:600">8</span>。所有敌人<span style="color:#d4a017;font-weight:600">灾厄</span>：奥斯提最大生命值。
 
 ## 详细机制
 
-- **"召唤 8"的真实含义——奥斯提 +8 最大生命**：数字 8 不是召唤数量，是给[奥斯提](/mechanics/summon.md)的最大生命增量——奥斯提存活时直接 +8 最大生命；死亡或不在场时以 <span style="color:#3aa675;font-weight:600">8</span> 点生命召唤/复活它。
-- **灾厄层数 = 奥斯提的当前最大生命值**：打出后检测友方第一只奥斯提的**最大生命**（含本次 +8 与此前所有养成），把它作为[灾厄](/powers/doom_power.md)层数施加给所有可命中敌人。奥斯提养成越厚，处决线画得越高。
+- **"召唤 8"的真实含义——奥斯提 +8 最大生命**：数字 8 不是召唤数量，是给[奥斯提](/mechanics/summon.md)的最大生命增量——奥斯提存活时最大生命与当前生命各 +8；死亡时以 8 点生命复活；不在场时以 8 点生命召唤。
+- **灾厄层数 = 奥斯提的最大生命值**：打出后检测**友方队列中最先出现的那只奥斯提**（多人局可能是队友的）的最大生命（含本次 +8 与此前所有养成），把它作为[灾厄](/powers/doom_power.md)层数施加给所有可命中敌人。奥斯提养成越厚，处决线画得越高。
 - **灾厄是永久处决线，不衰减**：灾厄没有回合衰减——敌方**回合结束前**检查"当前生命 ≤ 灾厄层数"，满足即被直接击杀（处决不是伤害，[格挡](/mechanics/block.md)无法抵挡）。一次施加，整场有效。
 - **灾厄可叠加**：重复打出此牌时灾厄层数累加（每次叠上奥斯提当前最大生命值）——配合养成流反复拉高处决线。
-- **前置条件**：奥斯提不存在或最大生命 ≤ 0 时不施加灾厄（召唤失败则白打）。
+- **前置条件**：召唤被效果减免为 0、场上不存在任何奥斯提时，不施加灾厄。
 
 ## 小贴士
 

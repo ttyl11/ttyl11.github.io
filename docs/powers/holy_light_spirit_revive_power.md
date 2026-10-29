@@ -20,7 +20,7 @@
 
 ## 描述
 
-首次死亡后满血复活，复活后获得永久增伤 <span style="color:#3aa675;font-weight:600">50</span>%。整局游戏限一次。
+首次死亡时回复全部生命值复活，复活后获得<span style="color:#3aa675;font-weight:600">50%</span><span style="color:#d4a017;font-weight:600">增伤</span>（本场战斗永久）。
 
 ## 详细机制
 

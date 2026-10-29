@@ -1,16 +1,16 @@
-# 莱达宇宙：缺失的愚者塔罗
+# 缺失的愚者塔罗
 
 21 张塔罗牌齐聚于此，本该 22 张的塔罗唯独缺了最关键的「愚者」。角落里的创世魔盒正隐隐泛着只有你能看见的诡异光芒……
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_missing_fool_tarot.png" alt="莱达宇宙：缺失的愚者塔罗" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_missing_fool_tarot.png" alt="缺失的愚者塔罗" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**：剧情抉择事件
 - **战斗**：否
-- **出现层数**：密林 / 暗港（第一层）
+- **出现层数**：1、2、4、5 层
 
 ## 选项一览
 
@@ -29,7 +29,7 @@
 - **扣的是不可格挡的非攻击伤害**：每次扣血无视格挡、不吃任何增伤/减伤修正，也不会触发"被攻击受伤"类效果——身上挂着荆棘、护甲之类的战斗状态完全不影响结算（事件本身也发生在战斗外）。
 - **可以中途反悔**：删牌界面每张都可取消，血线撑不住时删 <span style="color:#3aa675;font-weight:600">2</span>~<span style="color:#3aa675;font-weight:600">3</span> 张就停手完全可行；已付出的血按已删张数结算，不多扣。
 - **观望是被低估的回复+上限**：<span style="color:#3aa675;font-weight:600">18</span> 最大生命 + 立即回复 <span style="color:#3aa675;font-weight:600">18</span> 当前生命，无任何风险。残血又没有治疗手段时，它就是一次免费的大休整；满血时只剩上限价值，优先级让位。
-- **触碰魔盒是长线投资**：[创世魔盒](/relics/event/genesis_box.md)按"每赢一场精英战斗 +1 件塔罗遗物"累积，且优先送你还没拥有的（21 件集齐前不重复）。一局下来通常能打 <span style="color:#3aa675;font-weight:600">6</span>~<span style="color:#3aa675;font-weight:600">10</span> 场精英战，等于把本事件变成一座持续产出的遗物矿——前期（第一、二幕）遇到时收益最高，第三幕尾声才遇到则基本只能白拿一两件。
+- **触碰魔盒是长线投资**：[创世魔盒](/relics/event/genesis_box.md)按"每赢一场精英战斗 +1 件塔罗遗物"累积，且优先送你还没拥有的（21 件集齐前不重复）。一局下来通常能打 <span style="color:#3aa675;font-weight:600">6</span>~<span style="color:#3aa675;font-weight:600">10</span> 场精英战，等于把本事件变成一座持续产出的遗物矿——它只在第一层出现，拿到后剩下的精英战越多，产出越厚。
 - **剧情彩蛋**：触碰后你会发现"缺失的愚者"就是你自己——这也解释了为什么只有你能看见魔盒的光。
 
 ## 源码

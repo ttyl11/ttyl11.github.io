@@ -22,7 +22,7 @@
 
 ## 描述
 
-PP: 1/1 使你的所有<span style="color:#d4a017;font-weight:600">君王之剑</span>伤害变为原来的3倍。[<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)+1。
+PP: 1/1 你的所有<span style="color:#d4a017;font-weight:600">君王之剑</span>伤害×3。先制+1。
 
 ## 小贴士
 

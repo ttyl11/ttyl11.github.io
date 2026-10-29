@@ -1,16 +1,17 @@
-# 亡灵契约师（职业导师）
+# 紫雾中的亡灵契约师
 
 紫雾弥漫的古墓深处，暗紫色破旧斗篷的身影坐在最高的墓碑上，左手悬空托着一团以不属于活物的节奏缓慢脉动的黑雾。"来了啊……我等你很久了……虽然……我记不清自己在等谁了。"
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_necromancer.png" alt="亡灵契约师（职业导师）" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_necromancer.png" alt="紫雾中的亡灵契约师" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**：职业导师事件
 - **战斗**：否
 - **卡池主题**：[召唤](/mechanics/summon.md)、[虚无](/mechanics/ethereal.md)、奥斯提、灾厄相关的亡灵契约师卡牌
+- **出现层数**：1~5 层
 
 ## 选项一览
 

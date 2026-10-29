@@ -13,7 +13,7 @@
 
 ## 描述
 
-在其回合开始时，自身<span style="color:#d4a017;font-weight:600">力量</span>+1，并回复已损失生命值的10%。
+自身回合开始时，回复自身已损失生命值的<span style="color:#3aa675;font-weight:600">10%</span>，并对每个敌人施加等同本次<span style="color:#d4a017;font-weight:600">实际回复量</span>的<span style="color:#d4a017;font-weight:600">固定伤害</span>。
 
 ## 源码
 

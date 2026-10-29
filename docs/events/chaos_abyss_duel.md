@@ -1,16 +1,16 @@
-# 决战回响：混沌深渊的宿命对决
+# 混沌深渊的宿命对决
 
 雷光与裂地拳风交织——雷伊、盖亚以全新形态并肩而立，对面是连黑暗都在扭曲的湮灭之主·咤克斯。战场角落，琉梦已被混沌之力缠满全身，再晚一步就要被彻底侵蚀同化。生死一瞬，你必须做出抉择。
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_chaos_abyss_duel.png" alt="决战回响：混沌深渊的宿命对决" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_chaos_abyss_duel.png" alt="混沌深渊的宿命对决" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**：剧情抉择事件
 - **战斗**：否
-- **出现层数**：荣耀（第三层）
+- **出现层数**：3、4、5 层
 
 ## 选项一览
 

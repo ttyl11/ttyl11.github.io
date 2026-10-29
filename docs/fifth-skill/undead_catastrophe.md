@@ -26,11 +26,11 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">16</span>点伤害。伤害高于<span style="color:#3aa675;font-weight:600">20</span>获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">人工制品</span>](/powers/artifact_power.md)，低于<span style="color:#3aa675;font-weight:600">20</span>获得<span style="color:#d4a017;font-weight:600">灾祸</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">22</span>。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">16</span>点伤害。伤害≥<span style="color:#3aa675;font-weight:600">20</span>获<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">人工制品</span>，否则获<span style="color:#d4a017;font-weight:600">灾祸</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">22</span>。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">16</span>点伤害。伤害高于<span style="color:#3aa675;font-weight:600">20</span>获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">人工制品</span>](/powers/artifact_power.md)，低于<span style="color:#3aa675;font-weight:600">20</span>获得<span style="color:#d4a017;font-weight:600">灾祸</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">22</span>。
+PP: 5/5 造成<span style="color:#3aa675;font-weight:600">16</span>点伤害。伤害≥<span style="color:#3aa675;font-weight:600">20</span>获<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">人工制品</span>，否则获<span style="color:#d4a017;font-weight:600">灾祸</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">22</span>。
 
 ## 小贴士
 

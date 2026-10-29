@@ -25,7 +25,7 @@
 
 ## 描述
 
-满足任一条件时触发支援，每次触发消耗 <span style="color:#3aa675;font-weight:600">1</span> 层：<br/>暴击时：本次伤害再×<span style="color:#3aa675;font-weight:600">1.5</span>。<br/>击杀敌人时：恢复 <span style="color:#3aa675;font-weight:600">5</span> 生命。<br/>受到[<span style="color:#d4a017;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)时：获得 <span style="color:#3aa675;font-weight:600">7</span> 点格挡。<br/>攻击牌伤害低于 <span style="color:#3aa675;font-weight:600">5</span> 时：附加等同牌面伤害的[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。<br/>回合开始时有敌人携带连击[<span style="color:#d4a017;font-weight:600">意图</span>](/mechanics/intent.md)：随机对其施加[攻击无效](/mechanics/intent.md)或[封属](/mechanics/intent.md)。<br/>每次支援成功：获得 <span style="color:#3aa675;font-weight:600">1</span> 层[<span style="color:#9b59b6;font-weight:600">命运晨星</span>](/powers/fate_morning_star_power.md)和 <span style="color:#3aa675;font-weight:600">2</span> 层[<span style="color:#9b59b6;font-weight:600">支援庇护</span>](/powers/support_immune_count_power.md)。
+满足任一条件时触发支援，每次触发消耗<span style="color:#3aa675;font-weight:600">1</span>层：<br/>①暴击时：本次伤害再×<span style="color:#3aa675;font-weight:600">1.5</span>。<br/>②消灭敌人时：回复<span style="color:#3aa675;font-weight:600">5</span>点生命。<br/>③受到异常状态时：获得<span style="color:#3aa675;font-weight:600">7</span>点格挡。<br/>④攻击牌伤害低于<span style="color:#3aa675;font-weight:600">5</span>时：附加等同牌面伤害的固定伤害。<br/>⑤回合开始时有敌人携带连击意图：随机对其施加<span style="color:#d4a017;font-weight:600">攻击无效</span>或<span style="color:#d4a017;font-weight:600">封属</span>。<br/>⑥每次支援成功：获得<span style="color:#3aa675;font-weight:600">1</span>层命运晨星和<span style="color:#3aa675;font-weight:600">2</span>层支援庇护。
 
 ## 详细机制
 
@@ -33,9 +33,9 @@
 - **天命之耀（暴击）**：自身攻击[暴击](/powers/critical_strike_power.md)时，本次伤害在暴击 ×1.5 的基础上**再 ×1.5**（合计 ×2.25）。翻倍状态下再 ×3（合计 ×4.5）。只对攻击伤害生效，固定伤害等非攻击伤害暴击不受加成。
 - **终命之璨（击杀）**：每击杀一个敌方单位恢复 5 生命（翻倍 10）。**按击杀数逐个结算**——群体攻击一次清掉 3 个敌人就是 3 次独立触发（回 3 次血、消耗 3 层支援），AoE 清场是烧支援层数最快的方式。
 - **宿命之佑（受异常）**：自身受到[异常状态](/mechanics/abnormal-status.md)实际施加后，获得 7 点格挡（翻倍 14）。被[支援庇护](/powers/support_immune_count_power.md)免疫掉的异常**不算受到**，不会触发本条件。
-- **逆命之曙（低伤）**：自身打出的攻击牌对某个目标**实际造成的伤害低于 5**（含 0 伤、被格挡、被闪避）时，对目标附加等同这张牌**牌面伤害数值**的[固定伤害](/powers/fixed_damage_power.md)（翻倍 ×2）。牌面伤害取当前牌面显示值（含升级加成），与实际打出的伤害无关——0 伤命中照样按牌面全额附加。
+- **逆命之曙（低伤）**：自身打出的攻击牌对某个目标造成的**伤害总量**（`TotalDamage` = 被格挡 + 未格挡）低于 5 时，对目标附加等同这张牌**牌面伤害数值**的[固定伤害](/powers/fixed_damage_power.md)（翻倍 ×2）。注意判定看的是伤害总量而不是实际掉血：一张 10 点攻击即使被完全格挡，总量仍是 10，**不会触发**；只有总量真的低于 5（含 0 伤、被闪避）才触发。牌面伤害取当前牌面显示值（含升级加成），与实际打出的伤害无关。
 - **星命之愿（连击意图）**：自己回合开始时（敌人新意图已生成、你尚未出牌的时点），若场上有敌人携带连击意图，随机选其中一个敌人，随机对其施加[攻击无效](/mechanics/intent.md)或[封属](/mechanics/intent.md)（翻倍时施加 2 次）。连击意图的判定口径是**多段攻击（段数 > 1）**——无论是原版怪的多段攻击还是带自定义技能名的连击技（如提亚斯"螺旋烈风"、钢颚鲨"火箭头槌"）都算。施加的封印类型按该敌人随机意图决定——攻击意图→攻击无效，非攻击意图→封属。
-- **支援成功的固定收尾**：每次触发（无论哪个条件）都会执行：支援 -1 → 消耗 1 层[支援效果翻倍](/powers/support_double_power.md)（若有）→ 获得 1 层[命运晨星](/powers/fate_morning_star_power.md)（上限 5 层）→ 获得 2 层[支援庇护](/powers/support_immune_count_power.md)。
+- **支援成功的固定收尾**：每次触发（无论哪个条件）都会执行：支援 -1 → 消耗 1 层[援护增幅](/powers/support_double_power.md)（若有）→ 获得 1 层[命运晨星](/powers/fate_morning_star_power.md)（上限 5 层）→ 获得 2 层[支援庇护](/powers/support_immune_count_power.md)。
 - **判定顺序按"每个受击目标"独立进行**：暴击 → 击杀 → 低伤，对单个目标命中哪个就结算哪个并结束（一次暴击同时击杀了该目标，按暴击结算，击杀条件不再对同一目标重复触发）。但**群体攻击的每个受击目标各自判定**——AoE 暴击命中 3 个敌人可触发 3 次支援；多段攻击的每段命中也各自判定。
 - **层数耗尽即沉默**：支援为 0 层时所有条件全部休眠，直到再次获得层数（[终末·赫星黎明（技能）](/fifth-skill/final_star_dawn_skill.md)或其它补层手段）。
 

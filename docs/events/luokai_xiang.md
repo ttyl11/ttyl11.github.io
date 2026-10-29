@@ -1,15 +1,16 @@
-# 罗开
+# 火星港商人罗开
 
 飞船瞭望露台上，穿着时髦、满脸精明的罗开面前摊开一排闪烁微光的通用刻印宝石。"哟，赛尔！想要强化你的刻印吗？火星港最新科技，童叟无欺！"
 
 <a href="/events/">← 返回事件图鉴</a>
 
-<img src="/images/events/seer_luokai_xiang.png" alt="罗开" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
+<img src="/images/events/seer_luokai_xiang.png" alt="火星港商人罗开" style="max-width:360px;width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **类型**：功能事件
 - **战斗**：否
+- **出现层数**：1~5 层
 
 ## 选项一览
 

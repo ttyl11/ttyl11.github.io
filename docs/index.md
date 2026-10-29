@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Seer Wiki
   text: 杀戮尖塔2 Mod 中文资料站
-  tagline: 卡牌 · 遗物 · 能力 · 附魔 · 充能球 · 药水 · 怪物 · 角色 · 机制
+  tagline: 卡牌 · 遗物 · 能力 · 附魔 · 充能球 · 药水 · 怪物 · 角色 · 机制 · 进阶
   actions:
     - theme: brand
       text: 开始浏览
@@ -15,48 +15,60 @@ hero:
 
 features:
   - title: 卡牌图鉴
-    details: 全部 mod 卡牌，含图片、类型、稀有度、PP、效果描述。
+    details: 全部 Mod 卡牌与分类索引。
     link: /cards/
-  - title: 第五技能图鉴
-    details: 23 张遗物解锁的特殊卡牌，含解锁遗物概率表、获取途径与专属外观。
-    link: /fifth-skill/
   - title: 遗物图鉴
-    details: 全部 mod 遗物，含稀有度、效果、数值参数。
+    details: 按稀有度查看全部遗物。
     link: /relics/
   - title: 能力图鉴
-    details: 全部 mod 能力，含图标、类型、触发条件。
+    details: 全部能力与触发效果。
     link: /powers/
-  - title: 附魔图鉴
-    details: 原版附魔与 mod 新增附魔，含状态宝石、五音附魔、特殊附魔。
-    link: /enchantments/
   - title: 充能球图鉴
-    details: 全部 mod 充能球，含图标、激发效果。
+    details: 全部充能球的激发效果。
     link: /orbs/
+  - title: 附魔图鉴
+    details: 原版与 Mod 附魔。
+    link: /enchantments/
   - title: 药水图鉴
-    details: 全部 68 种 mod 药水，按功能分类，含稀有度、数值参数、详细机制。
+    details: 68 种药水与使用说明。
     link: /potions/
-  - title: 核心机制
-    details: PP 系统、固定伤害、元素克制、异常状态、永久属性与全属性、赛尔豆与泰坦之灵、唱词、暴击、诅咒卡，以及关键词、充能球、真神牌堆、独有战斗机制等完整规则。
-    link: /mechanics/
-  - title: 关键词
-    details: 45 个 Mod 原创关键词（另含原版 7 个，共 52 项），含动态/静态分类、触发时序、配合策略与实战建议。
-    link: /mechanics/keywords
+  - title: 第五技能图鉴
+    details: 25 张遗物解锁的特殊卡牌。
+    link: /fifth-skill/
   - title: 怪物图鉴
-    details: 全部 mod 怪物，含血量、意图、技能、遭遇战信息。
+    details: 怪物血量、意图与技能。
     link: /monsters/
   - title: 事件图鉴
-    details: 34 个 mod 专属事件，含剧情抉择、功能服务、职业导师、特殊商店。
+    details: 34 个 Mod 事件与抉择。
     link: /events/
   - title: 角色介绍
-    details: 圣灵谱尼与混沌魔君·索伦森，含初始卡组、初始遗物、专属机制、风味文字。
+    details: 圣灵谱尼与混沌魔君·索伦森。
     link: /characters/
+  - title: 核心机制
+    details: PP、元素、属性、货币与战斗规则。
+    link: /mechanics/
+  - title: 冷知识
+    details: 120 条容易忽略的机制细节。
+    link: /mechanics/trivia
+  - title: 关键词
+    details: 45 个 Mod 原创关键词。
+    link: /mechanics/keywords
+  - title: 进阶挑战 (A1~A30)
+    details: 原版 A1~A10 与 Mod A11~A30 的完整规则。
+    link: /mechanics/ascension
+  - title: 第四幕与第五幕
+    details: 星海尽头与终焉之门。
+    link: /mechanics/act-four-five
+  - title: 子地图与活动
+    details: 12 个秘境活动玩法。
+    link: /mechanics/submap-activity
   - title: 版本更新
-    details: Mod 上线后开始记录版本更新。
+    details: Mod 更新记录。
     link: /changelog/
   - title: 支持作者
-    details: Mod 永久免费喵～赞赏纯属自愿，扫不扫都不影响玩！
+    details: Mod 永久免费，赞赏自愿。
     link: /support/
   - title: 公共评论区
-    details: 随便聊的地方，不挂在任何页面下面。心得、吐槽、建议、闲聊都行。
+    details: 心得、吐槽与闲聊。
     link: /comments/
 ---

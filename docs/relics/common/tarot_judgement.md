@@ -15,12 +15,12 @@
 
 ## 描述
 
-回合开始时：<br/>若自身有[异常状态](/mechanics/abnormal-status.md)，吸取所有敌人的[全属性](/mechanics/all_attributes.md)。<br/>若无[异常状态](/mechanics/abnormal-status.md)，为所有敌人随机附加1种[异常状态](/mechanics/abnormal-status.md)1层。
+回合开始时：<br/>若自身有<span style="color:#d44;font-weight:600">异常状态</span>，<span style="color:#d44;font-weight:600">吸强</span>。<br/>若无<span style="color:#d44;font-weight:600">异常状态</span>，为所有敌人随机附加1种<span style="color:#d44;font-weight:600">异常状态</span>1层。
 
 - **全属性**：[力量](/powers/strength_power.md)、[防御](/powers/defense_power.md)、[命中](/powers/accuracy_power.md)、[速度](/powers/speed_power.md)。
 - **分支判断**：自身有[异常状态](/mechanics/abnormal-status.md)时走吸取，无异常状态时走附加，二选一。
 - **吸取**：仅吸取敌人的正值属性，每个属性单独判断；吸取后敌人减对应层数、自身加对应层数。
-- **附加异常**：从所有[异常状态](/mechanics/abnormal-status.md)中随机选1种，对所有敌人各施加1层。
+- **附加异常**：从 23 种随机池（排除狂暴、星赐、凝滞、超频）中随机选1种，对所有敌人各施加1层。
 
 ## 风味文字
 

@@ -24,11 +24,11 @@
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。抽<span style="color:#3aa675;font-weight:600">1</span>张牌。将手牌中的一张牌放到[<span style="color:#d4a017;font-weight:600">抽牌堆顶</span>](/mechanics/hand.md)。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。抽<span style="color:#3aa675;font-weight:600">1</span>张牌。将手牌中的一张牌放到[<span style="color:#d4a017;font-weight:600">抽牌堆顶</span>](/mechanics/draw_pile.md)。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。抽<span style="color:#3aa675;font-weight:600">2</span>张牌。将手牌中的一张牌放到[<span style="color:#d4a017;font-weight:600">抽牌堆顶</span>](/mechanics/hand.md)。
+[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 获得<span style="color:#3aa675;font-weight:600">6</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。抽<span style="color:#3aa675;font-weight:600">2</span>张牌。将手牌中的一张牌放到[<span style="color:#d4a017;font-weight:600">抽牌堆顶</span>](/mechanics/draw_pile.md)。
 
 ## 小贴士
 
@@ -41,7 +41,8 @@
 ## 相关机制
 
 - [PP系统](/mechanics/pp-system.md)（PP 消耗）
-- [卡牌牌堆](/mechanics/hand.md)（手牌/抽牌堆/弃牌堆）
+- [手牌](/mechanics/hand.md)（置顶牌的来源）
+- [抽牌堆](/mechanics/draw_pile.md)（置顶目标）
 - [格挡](/mechanics/block.md)（防御机制）
 
 ## 源码

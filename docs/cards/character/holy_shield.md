@@ -24,11 +24,11 @@
 
 ## 描述
 
-[蚀返](/mechanics/shifan.md)。PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 获得等于当前手牌PP之和的[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)，并消耗每张牌至多<span style="color:#3aa675;font-weight:600">3</span>点PP。
+PP: 10/10 获得等于当前手牌PP之和的<span style="color:#d4a017;font-weight:600">格挡</span>，并消耗每张牌至多<span style="color:#3aa675;font-weight:600">3</span>点PP。
 
 ## 升级后
 
-[蚀返](/mechanics/shifan.md)。PP: <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 获得等于当前手牌PP之和的[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)，并消耗每张牌至多<span style="color:#3aa675;font-weight:600">2</span>点PP。
+PP: 10/10 获得等于当前手牌PP之和的<span style="color:#d4a017;font-weight:600">格挡</span>，并消耗每张牌至多<span style="color:#3aa675;font-weight:600">2</span>点PP。
 
 ## 小贴士
 

@@ -1,7 +1,7 @@
 # 魅惑
 
 > **归属**：玩家可施加
-> **施加来源**：玩家施加给敌方——[妖精的蛊惑](/cards/character/fairy_bewitch.md)（卡牌）、[色欲](/relics/rare/seer_lust_relic.md)（遗物）
+> **施加来源**：玩家施加给敌方——[妖精的蛊惑](/cards/character/fairy_bewitch.md)（卡牌）、[色欲](/relics/rare/seer_lust_relic.md)（遗物）、[余罪魔女](/relics/legendary/seer_crime_witch.md)（遗物，每场战斗首次己方回合按累计魅惑层数施加）
 
 <img src="/images/powers/bewitch_power.png" alt="魅惑" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -15,16 +15,16 @@
 
 | 参数 | 数值 |
 |---|---|
-| 每层击晕概率（色欲累计次数） | 5 |
+| 每层击晕概率（魅惑层数） | 5 |
 | 每个可见增益额外击晕概率 | 10 |
 
-魅惑为减益，层数来源有两种：① 色欲遗物——每点一次「色欲」+1 层（每层 5% 击晕）；② 卡牌「妖精的蛊惑」——打出后启用「每个可见增益 +10%」加成（**不改变**已有层数，仅对完全没有魅惑的敌人才额外给 1 层兜底）。
+魅惑为减益，层数来源有三种：① 色欲遗物——每点一次「色欲」+1 层（每层 5% 击晕）；② 卡牌「妖精的蛊惑」——打出后启用「每个可见增益 +10%」加成（**不改变**已有层数，仅对完全没有魅惑的敌人才额外给 1 层兜底）；③ 余罪魔女遗物——每场战斗首次己方回合按累计魅惑层数对全体敌人施加。
 
 **总击晕率 = 魅惑层数 × 5% +（妖精的蛊惑启用后）该敌人可见增益数 × 10%**
 
 ## 描述
 
-在你的回合开始时，有<span style="color:#3aa675;font-weight:600">X</span>%概率被[<span style="color:#d4a017;font-weight:600">击晕</span>](/mechanics/stun.md)。概率=色欲累计次数×<span style="color:#3aa675;font-weight:600">5</span>%+可见<span style="color:#d4a017;font-weight:600">增益</span>数×<span style="color:#3aa675;font-weight:600">10</span>%（打出[妖精的蛊惑](/cards/character/fairy_bewitch.md)后启用）。
+自身回合开始时，有<span style="color:#3aa675;font-weight:600">X</span>%概率被[<span style="color:#d4a017;font-weight:600">击晕</span>](/mechanics/stun.md)。概率=魅惑层数×<span style="color:#3aa675;font-weight:600">5</span>%+可见<span style="color:#d4a017;font-weight:600">增益</span>数×<span style="color:#3aa675;font-weight:600">10</span>%（打出[妖精的蛊惑](/cards/character/fairy_bewitch.md)后启用）。
 
 > 悬浮框里显示的百分比就是**当前实时总击晕率**（随层数与增益数量变化）。
 

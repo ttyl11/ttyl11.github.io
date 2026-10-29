@@ -13,7 +13,13 @@
 
 ## 描述
 
-受到的伤害减少50%。在其回合开始时获得2点<span style="color:#d4a017;font-weight:600">防御</span>。
+①自身受到的伤害降低<span style="color:#3aa675;font-weight:600">60%</span>。<br/>②自身回合开始时，获得<span style="color:#3aa675;font-weight:600">3</span>点<span style="color:#d4a017;font-weight:600">防御</span>。
+
+> 注：巴斯特的 60% 免伤来自独立的[永久减伤](/powers/permanent_damage_reduction_power.md)，覆甲来自原版[覆甲](/powers/plating_power.md)——本能力只负责每回合 +3 防御。
+
+## 详细机制
+
+- 每个自身回合开始时获得 3 点防御，无衰减，战斗内持续。
 
 ## 源码
 

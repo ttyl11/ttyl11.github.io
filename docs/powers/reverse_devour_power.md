@@ -1,7 +1,7 @@
 # 逆噬
 
 > **归属**：怪物专属（玩家无法施加）
-> **施加来源**：怪物随机池——[群星的礼赠](/relics/starter/elemental_core.md)随机能力池赋予怪物（遭遇时按概率自带，概率随探索房间数增长）
+> **施加来源**：全局怪物能力池（全局补丁）——玩家回合开始时，尚无任何 seer 怪物能力的怪物按概率获得；概率随探索房间数增长
 
 <img src="/images/powers/reverse_devour_power.png" alt="逆噬" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -13,7 +13,7 @@
 
 ## 描述
 
-每受到1次攻击，降低对手随机卡牌<span style="color:#3aa675;font-weight:600">2</span>点PP值。
+每受到<span style="color:#3aa675;font-weight:600">1</span>次攻击，随机使对手<span style="color:#3aa675;font-weight:600">1</span>张牌的<span style="color:#d4a017;font-weight:600">PP</span>-<span style="color:#3aa675;font-weight:600">2</span>。
 
 ## 详细机制
 
@@ -32,4 +32,4 @@
 ## 源码
 
 - `SeerReverseDevourPower.cs`
-- `SeerElementalCore.cs`
+- `SeerGlobalMonsterPowerPatch.cs`（随机池）

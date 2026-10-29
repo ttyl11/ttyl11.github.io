@@ -9,7 +9,7 @@
 
 ## 描述
 
-自身在战斗中首次[变换属性](/mechanics/element-affinity.md)时，获得 <span style="color:#3aa675;font-weight:600">1</span> 层[无实体](/powers/intangible_power.md)。
+战斗中首次[变换属性](/mechanics/element-affinity.md)时，自身获得 <span style="color:#3aa675;font-weight:600">1</span> 层[无实体](/powers/intangible_power.md)。
 
 - **触发时机**：进入自身回合之后，自身属性发生变化的瞬间；每场战斗仅 1 次。战斗开始时施加的属性不算变化，**不触发**。
 - **"变换属性"的含义**：这里的"属性"指[元素属性](/mechanics/element-affinity.md)（火、水、草、龙、虚空等 26 种元素），不是力量/防御/命中/速度那种[全属性](/mechanics/all_attributes.md)。只有**进入自身回合之后**挂上新的元素属性才算一次变换；战斗开始时那批属性施加不算。

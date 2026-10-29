@@ -20,11 +20,11 @@
 
 ## 描述
 
-将<span style="color:#3aa675;font-weight:600">4</span>张<span style="color:#d4a017;font-weight:600">小刀+</span>放入[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)，对所有敌人施加等同于本场战斗中<span style="color:#d4a017;font-weight:600">生成</span><span style="color:#d4a017;font-weight:600">小刀</span>数量的[<span style="color:#d44;font-weight:600">中毒</span>](/powers/poison_power.md)。
+将<span style="color:#3aa675;font-weight:600">4</span>张<span style="color:#d4a017;font-weight:600">小刀+</span>放入<span style="color:#d4a017;font-weight:600">弃牌堆</span>，所有敌人<span style="color:#d4a017;font-weight:600">中毒</span>：本场<span style="color:#d4a017;font-weight:600">生成</span><span style="color:#d4a017;font-weight:600">小刀</span>数。
 
 ## 升级后
 
-将<span style="color:#3aa675;font-weight:600">4</span>张<span style="color:#d4a017;font-weight:600">小刀+</span>放入[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)，对所有敌人施加等同于本场战斗中<span style="color:#d4a017;font-weight:600">生成</span><span style="color:#d4a017;font-weight:600">小刀</span>数量的[<span style="color:#d44;font-weight:600">中毒</span>](/powers/poison_power.md)。
+将<span style="color:#3aa675;font-weight:600">4</span>张<span style="color:#d4a017;font-weight:600">小刀+</span>放入<span style="color:#d4a017;font-weight:600">弃牌堆</span>，所有敌人<span style="color:#d4a017;font-weight:600">中毒</span>：本场<span style="color:#d4a017;font-weight:600">生成</span><span style="color:#d4a017;font-weight:600">小刀</span>数。
 
 ## 小贴士
 

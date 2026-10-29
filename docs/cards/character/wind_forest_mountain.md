@@ -17,25 +17,26 @@
 
 | 参数 | 数值 | 升级后 |
 |---|---|---|
-| 伤害 | 9 | 12 |
+| 伤害 | 10 | 15 |
 | PP | 5 | 5 |
 | 最大PP | 5 | 5 |
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">9</span>点伤害。解除自身[<span style="color:#d4a017;font-weight:600">全属性</span>](/mechanics/all_attributes.md)下降。
+PP: 5/5 <span style="color:#d44;font-weight:600">解弱</span>。造成<span style="color:#3aa675;font-weight:600">10</span>点伤害。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 造成<span style="color:#3aa675;font-weight:600">12</span>点伤害。解除自身[<span style="color:#d4a017;font-weight:600">全属性</span>](/mechanics/all_attributes.md)下降。
+PP: 5/5 <span style="color:#d44;font-weight:600">解弱</span>。造成<span style="color:#3aa675;font-weight:600">15</span>点伤害。
 
 ## 小贴士
 
 - **攻击附带解负**：造成攻击伤害后，检测力量/命中/防御/速度四项[全属性](/mechanics/all_attributes.md)是否为负，负则施加等量正层数清零。与[阑珊百转](/cards/character/waning_turns.md)同款解负逻辑，但作为攻击牌没有缓冲奖励。
+- **先结算伤害，再解负**：本牌的伤害在解负之前结算——自身带着 −3 力量打它，这一击仍按 −3 力量计算，打完才把负层清零。别指望它先解负再给本次攻击加成。
 - **清零不反转**：解除是把负层数加回零，不取反成正层数。-3 力量变 0，不会变 +3。别指望用它刷正向属性。
-- **解负是附加价值**：没负属性时这张牌就是纯 9 点攻击伤害；有负属性时才体现解负的额外价值。对抗爱降属性的敌人（如降力量/降速度的精英）时这张牌能边打边自救。
-- **升级只加伤害**：9→12（+3），解负效果不变。作为普通牌的升级很扎实，优先级中等。
-- **性价比**：1 费 9 点（升级 12 点）是扎实的基础攻击伤害，附带解负是额外收益。单挂普通，对抗降属性敌人时价值提升。
+- **解负是附加价值**：没负属性时这张牌就是纯 10 点攻击伤害；有负属性时才体现解负的额外价值。对抗爱降属性的敌人（如降力量/降速度的精英）时这张牌能边打边自救。
+- **升级只加伤害**：10→15（+5），解负效果不变。作为普通牌的升级很扎实，优先级中等。
+- **性价比**：1 费 10 点（升级 15 点）是扎实的基础攻击伤害，附带解负是额外收益。单挂普通，对抗降属性敌人时价值提升。
 
 ## 相关能力
 

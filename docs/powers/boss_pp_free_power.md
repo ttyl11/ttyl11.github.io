@@ -1,7 +1,7 @@
 # 先古庇护
 
 > **归属**：玩家可施加
-> **施加来源**：玩家获得——[至序圣华](/relics/legendary/order_holy_hua.md)（遗物）、[皮神](/relics/epic/pi_shen.md)（遗物）
+> **施加来源**：玩家获得——[至序圣华](/relics/legendary/order_holy_hua.md)（遗物）、[皮神](/relics/epic/pi_shen.md)（遗物）、[神圣蛋白霜饼](/potions/sacred_meringue_potion.md)（药水）
 
 <img src="/images/powers/boss_pp_free_power.png" alt="先古庇护" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 

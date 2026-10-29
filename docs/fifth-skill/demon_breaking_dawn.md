@@ -24,11 +24,11 @@
 
 ## 描述
 
-PP: 5/5 对所有敌人造成<span style="color:#3aa675;font-weight:600">44</span>点伤害。整局每打出一次耗能乘<span style="color:#3aa675;font-weight:600">2</span>。战斗结束<span style="color:#d4a017;font-weight:600">升级</span>并移除一张牌。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">44</span>。
+PP: 5/5 对所有敌人造成<span style="color:#3aa675;font-weight:600">44</span>点伤害。整局每打出一次耗能×<span style="color:#3aa675;font-weight:600">2</span>。战斗结束<span style="color:#d4a017;font-weight:600">升级</span>并移除一张牌。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">44</span>。
 
 ## 升级后
 
-PP: 5/5 对所有敌人造成<span style="color:#3aa675;font-weight:600">44</span>点伤害。整局每打出一次耗能乘<span style="color:#3aa675;font-weight:600">2</span>。战斗结束<span style="color:#d4a017;font-weight:600">升级</span>并移除一张牌。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">44</span>。
+PP: 5/5 对所有敌人造成<span style="color:#3aa675;font-weight:600">44</span>点伤害。整局每打出一次耗能×<span style="color:#3aa675;font-weight:600">2</span>。战斗结束<span style="color:#d4a017;font-weight:600">升级</span>并移除一张牌。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">44</span>。
 
 ## 小贴士
 
@@ -54,7 +54,7 @@ PP: 5/5 对所有敌人造成<span style="color:#3aa675;font-weight:600">44</spa
  - 配合**能量生成**（如[神域咒能](/cards/character/divine_curse_energy.md)）可以在高耗能时仍打出第 3~4 次。
  - 配合**最大生命恢复**效果可以抵消碎心代价的累积。
  - 战斗结束的升级+移除奖励与商店服务叠加，是卡组成型的加速器——优先在能赢的战斗中打出，确保奖励兑现。
-- **44 堕落：高额失控推进**：每次打出额外 +<span style="color:#3aa675;font-weight:600">44</span>[堕落](/powers/fallen_power.md)——堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层被[魔君接管](/powers/demon_takeover_power.md)强制乱打。两次打出就是 88 层、接近阈值；好在一次触发还会附送抽<span style="color:#3aa675;font-weight:600">3</span>张与混沌化身，配[混沌起源](/relics/starter/chaos_origin.md)可回上限，属于"坏而不致命"的代价，但要在整局计划里算上它。
+- **44 堕落：高额失控推进**：每次打出额外 +<span style="color:#3aa675;font-weight:600">44</span>[堕落](/powers/fallen_power.md)——堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层被[魔君接管](/powers/demon_takeover_power.md)强制乱打。两次打出就是 88 层、接近阈值；好在一次触发还会附送抽<span style="color:#3aa675;font-weight:600">1</span>张与混沌化身，配[混沌起源](/relics/starter/chaos_origin.md)可回上限，属于"坏而不致命"的代价，但要在整局计划里算上它。
 - **升级的关键性**：升级移除碎心关键词，**之后每次打出省 2 点最大生命**。打 3 次就省 6 点上限。而且第一次战斗结束的升级奖励就能免费升级它自己，几乎没有理由不这么做——升级优先级最高。
 - **性价比**：首次 1 费 44 全体伤害 + 免费升级 + 免费移除，性价比爆炸；即使之后耗能倍增，首次打出的价值已远超 1 费。稀有度合理——这张牌的强度配得上稀有标签，拿到即用。
 

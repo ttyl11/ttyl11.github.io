@@ -28,17 +28,18 @@
 
 ## 描述
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 随机附加<span style="color:#3aa675;font-weight:600">2</span>种[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">2</span>回合。获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。打出后置入[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)顶，每次打出费用<span style="color:#3aa675;font-weight:600">+1</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">18</span>。
+PP: 5/5 <span style="color:#d44;font-weight:600">随机异常</span><span style="color:#3aa675;font-weight:600">2，2</span>。获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。打出后置入<span style="color:#d4a017;font-weight:600">抽牌堆</span>顶，每次打出费用<span style="color:#3aa675;font-weight:600">+1</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">18</span>。
 
 ## 升级后
 
-PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">5</span> 耗能降至<span style="color:#3aa675;font-weight:600">0</span>。随机附加<span style="color:#3aa675;font-weight:600">2</span>种[<span style="color:#d44;font-weight:600">异常状态</span>](/mechanics/abnormal-status.md)<span style="color:#3aa675;font-weight:600">2</span>回合。获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。打出后置入[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)顶，每次打出费用<span style="color:#3aa675;font-weight:600">+1</span>。[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">18</span>。
+PP: 5/5 <span style="color:#d44;font-weight:600">随机异常</span><span style="color:#3aa675;font-weight:600">2，2</span>。获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。打出后置入<span style="color:#d4a017;font-weight:600">抽牌堆</span>顶，每次打出费用<span style="color:#3aa675;font-weight:600">+1</span>。<span style="color:#d44;font-weight:600">堕落</span><span style="color:#3aa675;font-weight:600">18</span>。
 
 ## 小贴士
 
 - **自循环的随机异常生成器**：打出后回到[抽牌堆](/mechanics/draw_pile.md)顶，下回合必然再抽到——形成"每回合自动到手"的循环。每次随机给敌方挂 2 种[异常状态](/mechanics/abnormal-status.md)（2 回合）+ 自身 1 层[缓冲](/powers/buffer_power.md)，是持续的控场 + 防御工具。
 - **费用递增是核心限制**：每次打出后本场战斗费用 +1，所以第一次 <span style="color:#3aa675;font-weight:600">1</span> 费、第二次 <span style="color:#3aa675;font-weight:600">2</span> 费、第三次 <span style="color:#3aa675;font-weight:600">3</span> 费……费用线性增长，不可能无限循环。必须在费用涨到不可承受前打出足够多的价值，或配合减费机制延长循环。
-- **26 种异常状态随机——但有 2 种会空转**：从 <span style="color:#3aa675;font-weight:600">26</span> 种异常状态中随机选取 <span style="color:#3aa675;font-weight:600">2</span> 种（不重复）施加——包括[睡眠](/powers/sleep_power.md)、[凝滞](/powers/stasis_power.md)、[冰封](/powers/freeze_power.md)、[失明](/powers/blind_power.md)、[臣服](/powers/subjugation_power.md)、[狂暴](/powers/fury_power.md)等强力控制，也包括[中毒](/powers/poison_power.md)、[烧伤](/powers/burn_power.md)等持续伤害。注意：随机到神游或易燃时该次施加**不生效**（实现未覆盖这两种，等于白占一个随机位，各 <span style="color:#3aa675;font-weight:600">2/26</span> 概率）。随机性既是优势（不可预测、防不胜防）也是劣势（可能抽到对当前敌人收益低的状态）。
+- **PP 上限是第二道闸**：本牌 PP 5，每次打出扣 1 点，单场最多手动打出 <span style="color:#3aa675;font-weight:600">5</span> 次；想继续循环需要[永恒](/cards/basic/eternity.md)等 PP 恢复手段。费用递增决定"打不打得起"，PP 决定"还能不能打"，两者共同封顶。
+- **随机异常状态抽取（23 种）**：从已排除狂暴、星赐、凝滞、超频后的 <span style="color:#3aa675;font-weight:600">23</span> 种负面异常状态中随机选取 <span style="color:#3aa675;font-weight:600">2</span> 种（不重复）施加——包括[睡眠](/powers/sleep_power.md)、[冰封](/powers/freeze_power.md)、[失明](/powers/blind_power.md)、[臣服](/powers/subjugation_power.md)等强力控制，也包括[中毒](/powers/poison_power.md)、[灼伤](/powers/burn_power.md)等持续伤害。
 - **缓冲的防御价值**：每打出一次获得 1 层[缓冲](/powers/buffer_power.md)，抵消下一次生命值损失。配合自循环机制，每回合都有缓冲保护，能有效抵御敌人的爆发伤害。
 - **升级让循环多走一轮**：升级后初始耗能从 <span style="color:#3aa675;font-weight:600">1</span> 降至 <span style="color:#3aa675;font-weight:600">0</span>，相当于第一次打出免费——让循环可以多走一轮（0→1→2→3... 相比 1→2→3...），前期节奏更顺畅。
 - **堕落 18：自循环的累积暗账**：每次打出 +<span style="color:#3aa675;font-weight:600">18</span>[堕落](/powers/fallen_power.md)——配合"回抽牌堆顶"的自循环，每回合打一次就稳定 +18，三回合就是 54 层、六回合 108 层必触发[魔君接管](/powers/demon_takeover_power.md)。堕落是负面机制，每满<span style="color:#3aa675;font-weight:600">100</span>层会强制接管乱打手牌——这张控场循环牌用久了会把失控阈值拴在嘴边，好在纳入节奏管理即可。
@@ -51,7 +52,7 @@ PP: <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa
 
 ## 相关机制
 
-- [异常状态](/mechanics/abnormal-status.md)（25 种随机异常状态池）
+- [异常状态](/mechanics/abnormal-status.md)（27 种权威异常状态，其中 23 种进入随机池）
 - [抽牌堆](/mechanics/draw_pile.md)（打出后置入抽牌堆顶，形成循环）
 - [堕落](/powers/fallen_power.md)（满 100 层触发魔君接管）
 

@@ -1,7 +1,7 @@
 # 先制
 
 > **归属**：玩家与怪物均可持有
-> **施加来源**：玩家获得——[二律背反](/cards/character/antinomy.md)（卡牌）、[戕伐樊笼](/cards/character/cage_destruction.md)（卡牌）、[神灵之触](/cards/ancient/divine_touch.md)（卡牌）、[能量](/cards/basic/energy.md)（卡牌）、[终末·赫星黎明（技能）](/fifth-skill/final_star_dawn_skill.md)（卡牌）、[圣剑一](/cards/token/holy_sword_one.md)（卡牌）、[圣剑三](/cards/token/holy_sword_three.md)（卡牌）、[圣剑二](/cards/token/holy_sword_two.md)（卡牌）、[鲲·千里击涛](/cards/character/kun_thousand_miles_wave.md)（卡牌）、[魔·黑天暗罚](/fifth-skill/magic_black_sky_punishment.md)（卡牌）、[无相谛](/fifth-skill/nothingness.md)（卡牌）、[鹏·万里遨游](/cards/character/peng_thousand_miles_soar.md)（卡牌）、[孤洁之傲](/cards/character/proud_solitude.md)（卡牌）、[终末·时之彼端](/cards/character/time_end.md)（卡牌）、[暴政统治者](/cards/event/tyrant_ruler.md)（卡牌） 等 52 个来源；玩家施加给敌方——[唱词：拉](/powers/chant_ra_power.md)（能力联动）；怪物自带——[猛虎王](/monsters/normal/menghuwang_monster.md)、[里奥斯](/monsters/elite/rio_monster.md)、[索伦森（Soulson）](/monsters/boss/soulson_monster.md)、[速度史莱姆](/monsters/normal/speed_slime_monster.md)；怪物施加给玩家——[阿克希亚](/monsters/elite/axe_monster.md)、[史莱姆王子](/monsters/normal/slime_prince_monster.md)
+> **施加来源**：玩家获得——[神灵之触](/cards/ancient/divine_touch.md)（卡牌）、[能量](/cards/basic/energy.md)（卡牌）、[终末·赫星黎明（技能）](/fifth-skill/final_star_dawn_skill.md)（卡牌）、[圣剑一](/cards/token/holy_sword_one.md)（卡牌）、[圣剑三](/cards/token/holy_sword_three.md)（卡牌）、[圣剑二](/cards/token/holy_sword_two.md)（卡牌）、[鲲·千里击涛](/cards/character/kun_thousand_miles_wave.md)（卡牌）、[魔·黑天暗罚](/fifth-skill/magic_black_sky_punishment.md)（卡牌）、[无相谛](/fifth-skill/nothingness.md)（卡牌）、[鹏·万里遨游](/cards/character/peng_thousand_miles_soar.md)（卡牌）、[终末·时之彼端](/cards/character/time_end.md)（卡牌）、[暴政统治者](/cards/event/tyrant_ruler.md)（卡牌）等 50+ 个来源；玩家施加给敌方——[唱词：拉](/powers/chant_ra_power.md)（能力联动）；怪物自带——[猛虎王](/monsters/normal/menghuwang_monster.md)、[里奥斯](/monsters/elite/rio_monster.md)、[索伦森](/monsters/boss/soulson_monster.md)、[速度史莱姆](/monsters/normal/speed_slime_monster.md)；怪物施加给玩家——[阿克希亚](/monsters/elite/axe_monster.md)、[史莱姆王子](/monsters/normal/slime_prince_monster.md)
 
 <img src="/images/powers/first_strike_power.png" alt="先制" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
@@ -10,7 +10,7 @@
 - **类型**: 增益（Buff）
 - **叠加方式**: 计数器（按层数叠加）
 - **可见**: 是
-- **允许负数**: 是
+- **允许负数**: 是（负层数＝**红角标**的减益外观，与原版力量/敏捷取负值时同一套机制；数据上仍是同一个能力，见 `AllowNegative`）
 
 ### 数值参数
 
@@ -20,7 +20,7 @@
 
 ## 描述
 
-正层数时每层使你下一张牌耗能-1，负层数时每层使你下一张牌耗能+1。打出牌后移除所有[<span style="color:#d4a017;font-weight:600">先制</span>](/powers/first_strike_power.md)。
+①玩家持有时：正层数每层使下一张牌耗能<span style="color:#3aa675;font-weight:600">-1</span>，负层数每层<span style="color:#3aa675;font-weight:600">+1</span>。<br/>②怪物持有时：正层数每层使玩家下一张牌耗能<span style="color:#3aa675;font-weight:600">+1</span>，负层数每层<span style="color:#3aa675;font-weight:600">-1</span>。<br/>③打出牌后移除所有<span style="color:#d4a017;font-weight:600">先制</span>。
 
 ## 详细机制
 
@@ -44,7 +44,6 @@
 - [圣剑二](/cards/token/holy_sword_two.md)
 - [圣剑三](/cards/token/holy_sword_three.md)
 - [神灵之触](/cards/ancient/divine_touch.md)
-- [孤洁之傲](/cards/character/proud_solitude.md)
 - [暴政统治者](/cards/event/tyrant_ruler.md)
 - [无相谛](/fifth-skill/nothingness.md)
 - [龙寤揭天](/cards/character/dragon_awakening_sky.md)
@@ -52,12 +51,10 @@
 - [鹏·万里遨游](/cards/character/peng_thousand_miles_soar.md)
 - [鲲·千里击涛](/cards/character/kun_thousand_miles_wave.md)
 - [终末·时之彼端](/cards/character/time_end.md)
-- [戕伐樊笼](/cards/character/cage_destruction.md)
 - [五月的锋芒](/cards/character/may_edge.md)
 - [魔·黑天暗罚](/fifth-skill/magic_black_sky_punishment.md)
 - [能量](/cards/basic/energy.md)
 - [苍鹭幻翎](/cards/character/heron_illusion_feather.md)
-- [二律背反](/cards/character/antinomy.md)
 
 ## 源码
 

@@ -8,12 +8,12 @@
 ## 基本信息
 
 - **类型**: 增益（Buff）
-- **叠加方式**: 递减（计数型）
+- **叠加方式**: 计数（不随回合递减）
 - **可见**: 是
 
 ## 描述
 
-自身得到任意[<span style="color:#d4a017;font-weight:600">能力上升</span>]时，每有一层，恢复自身<span style="color:#3aa675;font-weight:600">1</span>点生命。
+自身得到任意<span style="color:#d4a017;font-weight:600">属性提升</span>时，每有一层，回复自身<span style="color:#3aa675;font-weight:600">1</span>点生命。
 
 ## 详细机制
 

@@ -16,7 +16,7 @@
 
 ## 描述
 
-①拾起时，随机 <span style="color:#3aa675;font-weight:600">4</span> 张牌获得<span style="color:#d4a017;font-weight:600">[薇](/mechanics/vigil.md)</span>。<br/>②整局游戏限一次，自身第一次死亡后恢复至 <span style="color:#3aa675;font-weight:600">1</span> 点生命并击晕所有对手。<br/>③战斗首回合抽牌后，手牌最中间的 1 张牌临时赋予<span style="color:#d4a017;font-weight:600">[薇尔诗](/mechanics/vier-poem.md)</span>。
+拾起时，随机<span style="color:#3aa675;font-weight:600">4</span>张牌获得<span style="color:#d4a017;font-weight:600">薇</span>。<br/>整局游戏限一次，自身第一次死亡后恢复至<span style="color:#3aa675;font-weight:600">1</span>点生命并击晕所有对手。<br/>战斗首回合抽牌后，手牌最中间的1张牌临时赋予<span style="color:#d4a017;font-weight:600">薇尔诗</span>。
 
 - **薇关键词持久化**：选中的 4 张牌在牌组中持久保存，进房时重新识别这些牌并重新施加薇关键词。
 - **复活击晕**：复活时恢复 1 点生命，对所有对手施加击晕。

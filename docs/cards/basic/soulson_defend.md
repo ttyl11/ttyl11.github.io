@@ -28,7 +28,7 @@
 ## 小贴士
 
 - **索伦森的初始防御牌**：与[谱尼的防御](/cards/basic/puni_defend.md)同名、同数值、同费用——<span style="color:#3aa675;font-weight:600">1</span> 费 <span style="color:#3aa675;font-weight:600">5</span> 点格挡（升级 <span style="color:#3aa675;font-weight:600">8</span>）。两个角色的基础打防完全对齐。
-- **开局过渡防御**：初始卡组 3 张，用于前几回合稳定挡刀。索伦森的核心资源是[堕落](/powers/fallen_power.md)，但阵型未成型前仍需基础格挡保命。
+- **开局过渡防御**：初始卡组 3 张，用于前几回合稳定挡刀。索伦森的核心资源是[堕落](/powers/fallen_power.md)（负面层数，满 100 层会被[魔君接管](/powers/demon_takeover_power.md)强控），阵型未成型前仍需基础格挡保命。
 - **性价比**：<span style="color:#3aa675;font-weight:600">1</span> 费 <span style="color:#3aa675;font-weight:600">5</span>/<span style="color:#3aa675;font-weight:600">8</span> 格挡，基础牌标准定价。
 
 ## 源码

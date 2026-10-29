@@ -13,7 +13,7 @@
 
 ## 描述
 
-在其回合开始时消耗1层绷带，使你随机一张手牌获得绷带缠绕。绷带缠绕：耗能+1，打出后消失。
+自身回合开始时，消耗<span style="color:#3aa675;font-weight:600">1</span>层绷带，使你弃牌堆中随机<span style="color:#3aa675;font-weight:600">1</span>张牌获得<span style="color:#d4a017;font-weight:600">绷带缠绕</span>。<br/><span style="color:#d4a017;font-weight:600">绷带缠绕</span>：耗能+<span style="color:#3aa675;font-weight:600">1</span>，打出后消失。
 
 ## 源码
 

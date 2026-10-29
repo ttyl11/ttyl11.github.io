@@ -18,7 +18,7 @@
 
 ## 描述
 
-①回合开始（体力为满）：免疫所有异常状态。①回合开始（体力不满）：抽 <span style="color:#3aa675;font-weight:600">1</span> 张牌。②回合结束（造成过伤害）：[先制](/powers/first_strike_power.md)+<span style="color:#3aa675;font-weight:600">1</span>。②回合结束（未造成伤害）：恢复已损失生命的 <span style="color:#3aa675;font-weight:600">10</span>%。③回合开始：为所有对手施加等同于敌人数量的[<span style="color:#9b59b6;font-weight:600">缔结印记</span>](/powers/knot_mark_power.md)。
+①回合开始（体力为满）：免疫所有异常状态<br/>①回合开始（体力不满）：抽<span style="color:#3aa675;font-weight:600">1</span>张牌<br/>②回合结束（造成过伤害）：先制+<span style="color:#3aa675;font-weight:600">1</span><br/>②回合结束（未造成伤害）：恢复已损失生命的<span style="color:#3aa675;font-weight:600">10</span>%<br/>③回合开始：为所有对手施加等同于敌人数量的<span style="color:#9b59b6;font-weight:600">缔结印记</span>
 
 ## 详细机制
 

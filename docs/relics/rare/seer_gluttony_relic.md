@@ -10,7 +10,7 @@
 
 ## 描述
 
-战斗结束的[<span style="color:#d4a017;font-weight:600">卡牌奖励</span>](/mechanics/game-flow.md)选项数 +<span style="color:#3aa675;font-weight:600">1</span>。卡牌奖励界面额外出现「暴食」选项，选择后放弃本次卡牌选择，获得<span style="color:#3aa675;font-weight:600">4</span>点[<span style="color:#d4a017;font-weight:600">最大生命</span>](/mechanics/block.md)。累计选择「暴食」<span style="color:#3aa675;font-weight:600">7</span>次后，向[<span style="color:#d4a017;font-weight:600">牌组</span>](/mechanics/hand.md)中加入[<span style="color:#3aa675;font-weight:600">暴食</span>](/cards/curse/gluttony)。
+战斗结束<span style="color:#d4a017;font-weight:600">卡牌奖励</span>选项数+1。<br/>①【暴食】放弃选牌，获得<span style="color:#3aa675;font-weight:600">4</span>点<span style="color:#d4a017;font-weight:600">最大生命</span>。<br/>累计选<span style="color:#3aa675;font-weight:600">7</span>次后，牌组加入<span style="color:#d4a017;font-weight:600">暴食</span>。
 
 ## 风味文字
 
@@ -28,7 +28,7 @@
 
 - **纯赚坦度**：每次 +4 最大生命，攒满 7 次共 +28 最大生命——远超多数加血类遗物。对依赖最大生命上限的构筑（回复、护盾、百分比伤害）价值极高。
 
-- **可以无限养（不点满7次）**：只要停在 6 次以内，每场战斗界都能点一次暴食无限叠最大生命。这是七罪里唯一"越养越强且无副作用"的成长流：放弃当次卡牌奖励，换来永久血上限。
+- **最多 7 次**：累计点满 7 次后「暴食」按钮永久消失并加入[暴食诅咒](/cards/curse/gluttony)，无法继续叠加；总收益为 +28 最大生命。放弃当次卡牌奖励，换来永久血上限。
 
 - **最大生命同步提升当前生命**：获得最大生命时会按比例补上当前生命，配合治疗能明显拉高生存容错，长线续航显著。
 

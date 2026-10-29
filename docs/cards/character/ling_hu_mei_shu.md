@@ -29,15 +29,15 @@
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 获得<span style="color:#3aa675;font-weight:600">8</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。从[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/hand.md)中选择<span style="color:#3aa675;font-weight:600">2</span>张牌，将其[<span style="color:#d4a017;font-weight:600">变化</span>](/mechanics/transform.md)。
+PP: 10/10 获得<span style="color:#3aa675;font-weight:600">8</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。从<span style="color:#d4a017;font-weight:600">抽牌堆</span>选择2张牌，将其<span style="color:#d4a017;font-weight:600">变化</span>。
 
 ## 升级后
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">10</span>/<span style="color:#3aa675;font-weight:600">10</span> 获得<span style="color:#3aa675;font-weight:600">8</span>点[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。从[<span style="color:#d4a017;font-weight:600">抽牌堆</span>](/mechanics/hand.md)中选择<span style="color:#3aa675;font-weight:600">3</span>张牌，将其[<span style="color:#d4a017;font-weight:600">变化</span>](/mechanics/transform.md)。
+PP: 10/10 获得<span style="color:#3aa675;font-weight:600">8</span>点<span style="color:#d4a017;font-weight:600">格挡</span>。从<span style="color:#d4a017;font-weight:600">抽牌堆</span>选择3张牌，将其<span style="color:#d4a017;font-weight:600">变化</span>。
 
 ## 小贴士
 
-- **抽牌堆定向改造**：从[<span style="color:#3aa675;font-weight:600">抽牌堆</span>](/mechanics/hand.md)里选 <span style="color:#3aa675;font-weight:600">2</span> 张牌（升级 <span style="color:#3aa675;font-weight:600">3</span> 张）[<span style="color:#d4a017;font-weight:600">变化</span>](/mechanics/transform.md)成随机牌——和"变化手牌"不同，它动的是抽牌堆，意味着你能**提前清掉抽牌堆里不想抽到的牌**，而不是等它们上手再处理。
+- **抽牌堆定向改造**：从[<span style="color:#3aa675;font-weight:600">抽牌堆</span>](/mechanics/draw_pile.md)里选 <span style="color:#3aa675;font-weight:600">2</span> 张牌（升级 <span style="color:#3aa675;font-weight:600">3</span> 张）[<span style="color:#d4a017;font-weight:600">变化</span>](/mechanics/transform.md)成随机牌——和"变化手牌"不同，它动的是抽牌堆，意味着你能**提前清掉抽牌堆里不想抽到的牌**，而不是等它们上手再处理。
 
 - **变化是随机结果**：[<span style="color:#d4a017;font-weight:600">变化</span>](/mechanics/transform.md)是随机转成一张随机牌，不确定结果。它更像"重铸"，用于替换掉当前抽牌堆中占用位置的低价值牌（诅咒/状态、用不上的多余牌），把这些位置换成有潜力的随机牌。
 
@@ -45,7 +45,7 @@
 
 - **升级补足覆盖面**：2 → 3 张，升级后一次能处理的三张牌，在抽牌堆顶都是同质废牌时价值更高——你更有可能把一整手即将上手的坏牌一网打尽。
 
-- **配合"抽到触发"效果**：[<span style="color:#d4a017;font-weight:600">变化</span>](/mechanics/transform.md)在抽牌堆中原地替换，若某张牌带"抽到时触发"效果且不再需要，把它变化掉可避免其触发或保留执行空间。
+- **配合"抽到触发"效果**：[<span style="color:#d4a017;font-weight:600">变化</span>](/mechanics/transform.md)在抽牌堆中原地替换，若某张牌带"抽到触发"效果且你不想让它触发，把它变化掉就能避免。
 
 - **性价比**：1 费换 8 格挡 + 2 张抽牌堆重铸，普通品质里偏实用的"防御 + 牌库清洁"二合一，去掉不愿抽的牌本身就是一种间接收益。
 

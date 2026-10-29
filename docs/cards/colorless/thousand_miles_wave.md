@@ -25,7 +25,7 @@
 
 ## 升级后
 
-获得<span style="color:#3aa675;font-weight:600">300</span>%伤害加成。每回合打出<span style="color:#3aa675;font-weight:600">3</span>张牌后强制结束回合。
+获得<span style="color:#3aa675;font-weight:600">200</span>%伤害加成。每回合打出<span style="color:#3aa675;font-weight:600">3</span>张牌后强制结束回合。
 
 ## 小贴士
 

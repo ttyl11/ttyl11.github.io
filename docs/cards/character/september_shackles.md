@@ -26,17 +26,17 @@
 
 ## 描述
 
-[<span style="color:#d4a017;font-weight:600">蚀返</span>](/mechanics/shifan.md)、[<span style="color:#d4a017;font-weight:600">奇巧</span>](/mechanics/sly.md)。PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 给予所有敌人[<span style="color:#d4a017;font-weight:600">束缚</span>](/powers/constrict_power.md)<span style="color:#3aa675;font-weight:600">4</span>回合，[<span style="color:#d4a017;font-weight:600">命中</span>](/powers/accuracy_power.md)<span style="color:#3aa675;font-weight:600">-4</span>。自身受到[<span style="color:#d4a017;font-weight:600">魂缚</span>](/powers/chains_of_binding_power.md)<span style="color:#3aa675;font-weight:600">2</span>。
+PP: 1/1 所有敌人<span style="color:#d4a017;font-weight:600">束缚</span><span style="color:#3aa675;font-weight:600">4</span>、<span style="color:#d4a017;font-weight:600">命中</span><span style="color:#3aa675;font-weight:600">-4</span>。自身<span style="color:#d4a017;font-weight:600">魂缚</span>2。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">蚀返</span>](/mechanics/shifan.md)、[<span style="color:#d4a017;font-weight:600">奇巧</span>](/mechanics/sly.md)。PP: <span style="color:#3aa675;font-weight:600">1</span>/<span style="color:#3aa675;font-weight:600">1</span> 耗能降至<span style="color:#3aa675;font-weight:600">2</span>。给予所有敌人[<span style="color:#d4a017;font-weight:600">束缚</span>](/powers/constrict_power.md)<span style="color:#3aa675;font-weight:600">4</span>回合，[<span style="color:#d4a017;font-weight:600">命中</span>](/powers/accuracy_power.md)<span style="color:#3aa675;font-weight:600">-4</span>。自身受到[<span style="color:#d4a017;font-weight:600">魂缚</span>](/powers/chains_of_binding_power.md)<span style="color:#3aa675;font-weight:600">2</span>。
+PP: 1/1 所有敌人<span style="color:#d4a017;font-weight:600">束缚</span><span style="color:#3aa675;font-weight:600">4</span>、<span style="color:#d4a017;font-weight:600">命中</span><span style="color:#3aa675;font-weight:600">-4</span>。自身<span style="color:#d4a017;font-weight:600">魂缚</span>2。
 
 ## 小贴士
 
-- **双重削弱敌方输出**：[束缚](/powers/constrict_power.md)让敌方**无法获取先制**（<span style="color:#3aa675;font-weight:600">4</span> 回合），[命中](/powers/accuracy_power.md) −<span style="color:#3aa675;font-weight:600">4</span> 让敌方攻击有 <span style="color:#3aa675;font-weight:600">20</span>% 概率落空（每层 5%，共 4 层）——叠加起来相当于 4 回合内敌方 20% 攻击伤害归零且无法获得先制。一张牌同时压掉"先制"和"命中"两个输出维度，控场价值极高。
-- **核心矛盾：控敌 vs 自缚**：自身受到 <span style="color:#3aa675;font-weight:600">2</span> 层[魂缚锁链](/powers/chains_of_binding_power.md)，意味着**之后每回合抽到的前 2 张牌都会被侵蚀为魂缚牌**，且每回合**只能打出 1 张魂缚牌**——被侵蚀的第 2 张牌本回合卡在手里打不出去，回合结束时侵蚀解除、下回合恢复可用。
-- **蚀返：便于回收再打**：[蚀返](/mechanics/shifan.md)让此牌被消耗时向[抽牌堆](/mechanics/draw_pile.md)生成一张复制品。配合弃牌/消耗类手段，能更频繁地重新上手打出第二次群体控场——代价是每次仍要付出魂缚自缚。
+- **双重削弱敌方输出**：[束缚](/powers/constrict_power.md)让敌方**无法获取先制**（<span style="color:#3aa675;font-weight:600">4</span> 回合），[命中](/powers/accuracy_power.md) −<span style="color:#3aa675;font-weight:600">4</span> 让你获得 <span style="color:#3aa675;font-weight:600">20</span>% [闪避](/powers/dodge_power.md)（敌方负命中每层 +5%，共 4 层，被打时按此概率完全闪避）——叠加起来相当于 4 回合内敌方 20% 攻击伤害归零且无法获得先制。一张牌同时压掉"先制"和"命中"两个输出维度，控场价值极高。
+- **核心矛盾：控敌 vs 自缚**：自身受到 <span style="color:#3aa675;font-weight:600">2</span> 层[魂缚锁链](/powers/chains_of_binding_power.md)，意味着**之后每回合抽到的前 2 张可被侵蚀的牌都会被侵蚀为魂缚牌**，且每回合**只能打出 1 张魂缚牌**——被侵蚀的第 2 张牌本回合卡在手里打不出去，回合结束时侵蚀解除、下回合恢复可用。
+- **蚀返：被外力消耗才会触发**：[蚀返](/mechanics/shifan.md)让此牌被消耗时向[抽牌堆](/mechanics/draw_pile.md)生成一张复制品。注意它是**能力牌**，正常打出即离场、不进消耗堆，所以正常打出不会触发蚀返；只有被其它效果从手牌/牌堆消耗时才会生成复制品。配合弃牌/消耗类手段，能更频繁地重新上手打出第二次群体控场——代价是每次仍要付出魂缚自缚。
 - **奇巧：回合末白嫖**：[奇巧](/mechanics/sly.md)让此牌在回合结束前若仍从手牌被弃，则以该牌的面板免费打出。能量紧张或忘记打出时，把它留到回合末弃掉也能触发一次群控，相当于多一条免费施放途径。
 - **侵蚀只影响"抽到的牌"**：魂缚侵蚀发生在**抽牌瞬间**——已经在手牌里的牌不会被侵蚀。所以少抽牌（甚至不抽牌）可以规避大部分侵蚀代价；反过来，重抽牌流派被这张牌克制得最狠。
 - **能力牌的永久代价**：作为能力牌，打出后**整场战斗永久生效**——魂缚锁链不会随回合消散，每回合都会重新侵蚀新抽到的 2 张牌。所以这张牌不能像普通控场牌那样随手打出，必须想清楚"这把能接受每回合被锁 2 张抽牌吗"。
@@ -47,7 +47,7 @@
 ## 相关能力
 
 - [束缚](/powers/constrict_power.md)（群体施加，禁止敌方获取先制）
-- [命中](/powers/accuracy_power.md)（群体施加负值，敌方攻击有概率落空）
+- [命中](/powers/accuracy_power.md)（群体施加负值，敌方攻击更容易被你闪避，每层 +5%）
 - [魂缚锁链](/powers/chains_of_binding_power.md)（自身受到的代价，限制每回合出牌节奏）
 
 ## 相关机制

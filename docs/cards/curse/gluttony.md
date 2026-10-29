@@ -1,41 +1,41 @@
-﻿# 暴食
+# 暴食
 
 <img src="/images/cards/gluttony.png" alt="暴食" style="max-width:300px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.15)" />
 
 ## 基本信息
 
 - **分类**: 诅咒牌
+- **能量消耗**: X
 - **类型**: 诅咒
 - **稀有度**: 诅咒
-- **关键词**: [虚无](/mechanics/ethereal.md)、[无法打出](/mechanics/unplayable.md)
+- **关键词**: [永恒](/mechanics/eternal.md)、[消耗](/mechanics/exhaust.md)、[迁鸣](/mechanics/qianming.md)
 - **可升级**: 否
 
 ### 数值参数
 
 | 参数 | 数值 |
 |---|---|
-| 最大生命获取 | 1 |
-| 诅咒数量 | 2 |
+| 每点 X 获得的最大生命 | 1 |
 
 ## 描述
 
-进入[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)时获得<span style="color:#3aa675;font-weight:600">1</span>点最大生命值。回合结束时若在[<span style="color:#d4a017;font-weight:600">手牌</span>](/mechanics/hand.md)中，下回合加入<span style="color:#3aa675;font-weight:600">2</span>张随机[<span style="color:#9b59b6;font-weight:600">诅咒</span>](/mechanics/curse-system.md)。
+获得 <span style="color:#3aa675;font-weight:600">X</span> 点最大生命。[<span style="color:#d44;font-weight:600">迁鸣</span>](/mechanics/qianming.md)：获得 <span style="color:#3aa675;font-weight:600">X</span> 点最大生命并清空能量。
 
 ## 小贴士
 
-- **先给一颗糖**：每次进入[手牌](/mechanics/hand.md)都获得 <span style="color:#3aa675;font-weight:600">1</span> 点最大生命值——不止第一次，被回收、再抽到都会再触发，配合回收类效果理论上可以反复榨血。但 <span style="color:#3aa675;font-weight:600">1</span> 点的甜头和它带来的麻烦完全不成正比。
-- **代价是诅咒滚雪球**：回合结束在手（且没被处理掉）就标记下回合开始时，从诅咒池随机抽 <span style="color:#3aa675;font-weight:600">2</span> 张**互不重复**的诅咒加入手牌底部。新诅咒可能又是"回合结束在手有惩罚"的类型——连锁反应一次就能让手牌生态崩盘，这是全诅咒里最重的延迟惩罚之一。
-- **虚无实际不生效**：描述带[虚无](/mechanics/ethereal.md)（回合结束在手应被消耗），但回合结束的结算流程里，"有回合结束效果的牌"优先于虚无消耗处理——暴食走的是前者分支，**并不会在回合结束时自我消耗**。别指望它像普通虚无牌那样自己消失。
-- **实际离场路径**：它回合结束在手会正常标记诅咒并随后被弃入[弃牌堆](/mechanics/discard_pile.md)；想跳过惩罚只能靠当回合消耗/变牌类效果把它处理掉，或让它在回合结束前不在手里。
-- **无法打出**：带[无法打出](/mechanics/unplayable.md)关键词，不能主动打出换掉它。
-- **应对策略**：抽到暴食的回合是唯一的处理窗口——用"消耗手牌"类效果当场吃掉，只亏不赚地止损；若错过窗口，下回合手牌里多两张诅咒的连锁代价远超那 1 点最大生命。
+- **它不是纯负担，是一台"自动把能量换成最大生命"的机器**：主动打出时把全部能量换成等量最大生命（还回血）；而[迁鸣](/mechanics/qianming.md)让它**每次在牌堆之间移动（被抽到、被弃置、被洗回）就自动来一次同样的转换**。
+- **核心矛盾：转换时机由牌堆决定，不由你决定**：它在你能量满满时挪动，等于白送你一堆最大生命、却把你当回合能量清空；在你能量见底时挪动，则几乎无感。所以**要学会管理能量水位**——想赚血就留满能量过回合，想保节奏就在它可能挪动前先把能量花掉。
+- **主动打出是唯一可控的一次**：X 费，能量越多换得越多，还顺带回血——把它当成一张"能量存款"打出去即可。
+- **它其实是半正面**：只要你能接受"能量被清空"，它就是个稳定给你涨**永久最大生命**（跨战斗保留）的成长源；真正难受的只是它在最需要能量的回合捣乱。
+- **永恒=永久留在牌组**：删不掉、变不掉，每场都在；消耗只让它本场离场。
+- **性价比**：X 费按能量计价，换的是永久最大生命——**能量富余时打它稳赚**；能量紧张时留着让它自己动也无妨。
 
 ## 相关机制
 
-- [手牌](/mechanics/hand.md)（进入手牌时触发效果）
-- [虚无](/mechanics/ethereal.md)（关键词，实际不生效）
-- [无法打出](/mechanics/unplayable.md)（无法主动打出）
-- [弃牌堆](/mechanics/discard_pile.md)（回合结束未处理时的去向）
+- [能量](/mechanics/energy.md)（迁鸣清空的对象）
+- [迁鸣](/mechanics/qianming.md)（牌堆变化时触发）
+- [永恒](/mechanics/eternal.md)（不能删除、不能变化）
+- [消耗](/mechanics/exhaust.md)（打出后离场）
 
 ## 源码
 

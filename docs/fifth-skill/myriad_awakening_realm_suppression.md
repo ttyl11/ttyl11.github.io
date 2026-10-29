@@ -25,11 +25,11 @@
 
 ## 描述
 
-[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">9</span>/<span style="color:#3aa675;font-weight:600">9</span> 造成<span style="color:#3aa675;font-weight:600">9</span>点伤害。每层<span style="color:#d4a017;font-weight:600">三态</span>耗能<span style="color:#3aa675;font-weight:600">-3</span>。消除对手[<span style="color:#d4a017;font-weight:600">全属性</span>](/mechanics/all_attributes.md)提升，每种获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。[<span style="color:#9b59b6;font-weight:600">怀生菩怜态</span>](/powers/compassionate_bodhi_power.md)时获得等同敌人当前生命<span style="color:#3aa675;font-weight:600">99</span>%的[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。[<span style="color:#9b59b6;font-weight:600">拒赦怒威态</span>](/powers/wrathful_judgment_power.md)时附加等同自身当前生命<span style="color:#3aa675;font-weight:600">99</span>%的[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+PP: 9/9 <span style="color:#d44;font-weight:600">消强</span>，每种获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。造成<span style="color:#3aa675;font-weight:600">9</span>点伤害。效果与<span style="color:#d4a017;font-weight:600">三态</span>相关。
 
 ## 升级后
 
-[<span style="color:#d4a017;font-weight:600">保留</span>](/mechanics/retain.md)。[PP](/mechanics/pp-system.md): <span style="color:#3aa675;font-weight:600">9</span>/<span style="color:#3aa675;font-weight:600">9</span> 造成<span style="color:#3aa675;font-weight:600">9</span>点伤害。每层<span style="color:#d4a017;font-weight:600">三态</span>耗能<span style="color:#3aa675;font-weight:600">-3</span>。消除对手[<span style="color:#d4a017;font-weight:600">全属性</span>](/mechanics/all_attributes.md)提升，每种获得<span style="color:#3aa675;font-weight:600">1</span>层[<span style="color:#d4a017;font-weight:600">缓冲</span>](/powers/buffer_power.md)。[<span style="color:#9b59b6;font-weight:600">怀生菩怜态</span>](/powers/compassionate_bodhi_power.md)时获得等同敌人当前生命<span style="color:#3aa675;font-weight:600">99</span>%的[<span style="color:#d4a017;font-weight:600">格挡</span>](/mechanics/block.md)。[<span style="color:#9b59b6;font-weight:600">拒赦怒威态</span>](/powers/wrathful_judgment_power.md)时附加等同自身当前生命<span style="color:#3aa675;font-weight:600">99</span>%的[<span style="color:#d4a017;font-weight:600">固定伤害</span>](/powers/fixed_damage_power.md)。
+PP: 9/9 <span style="color:#d44;font-weight:600">消强</span>，每种获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">缓冲</span>。造成<span style="color:#3aa675;font-weight:600">9</span>点伤害。效果与<span style="color:#d4a017;font-weight:600">三态</span>相关。
 
 ## 小贴士
 

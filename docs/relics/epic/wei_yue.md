@@ -9,7 +9,7 @@
 
 ## 描述
 
-①回合开始时，[力量](/powers/strength_power.md)与[防御](/powers/defense_power.md)较低的一项提高到较高的一项。<br/>提升力量则开启<span style="color:#9b59b6;font-weight:600">[拥君之盾](/powers/sovereign_shield_power.md)</span>，提升防御则开启<span style="color:#9b59b6;font-weight:600">[绝缘之罩](/powers/insulation_cover_power.md)</span>。<br/>②首次回合结束两者均开启时，向[手牌](/mechanics/hand.md)加入<span style="color:#d4a017;font-weight:600">[岳·命寻星叹](/fifth-skill/yue_fate_star_sigh.md)</span>（每场战斗限一次，**该牌耗能降为 0**）。
+①回合开始时，力量与防御较低的一项提高到较高的一项。<br/>提升力量则开启<span style="color:#9b59b6;font-weight:600">拥君之盾</span>，提升防御则开启<span style="color:#9b59b6;font-weight:600">绝缘之罩</span>。<br/>②首次回合结束两者均开启时，向手牌加入<span style="color:#d4a017;font-weight:600">岳·命寻星叹</span>（每场战斗限一次）。
 
 - **对齐规则**：回合开始时比较力量与防御，较低的一项提升到较高项。力量较低则补力量并开启[拥君之盾](/powers/sovereign_shield_power.md)，防御较低则补防御并开启[绝缘之罩](/powers/insulation_cover_power.md)，两者相等时不操作。
 - **每场限一次**：每场战斗首次满足"两者均开启"条件时向[手牌](/mechanics/hand.md)加入[岳·命寻星叹](/fifth-skill/yue_fate_star_sigh.md)，战斗结束后重置。加入的实例耗能降为 0（本体 2 费），当回合即可打出。
@@ -22,7 +22,7 @@
 
 - **回合开始力量防御对齐**：力量与防御较低的一项提升到较高项，相当于白嫖差额。力量低则补力量并开启[拥君之盾](/powers/sovereign_shield_power.md)，防御低则补防御并开启[绝缘之罩](/powers/insulation_cover_power.md)，两者相等时不操作。
 - **拥君之盾：输出+承伤**：开启时获得6层[覆甲](/powers/plating_power.md)，持有时免疫[臣服](/powers/subjugation_power.md)、**攻击伤害**+25%（仅攻击牌伤害享受，非攻击伤害不参与）。适合力量流输出型卡组，臣服免疫对抗控制型敌人。
-- **绝缘之罩：续航+非攻击伤害**：开启时获得5层再生，持有时免疫[瘫痪](/powers/paralysis_power.md)、造成的**非攻击伤害**+50%（[固定伤害](/powers/fixed_damage_power.md)结算等不吃力量的伤害均在此列，与拥君之盾的攻击加成正好互补）。适合烧伤、中毒等非攻击伤害流派。
+- **绝缘之罩：续航+固伤**：开启时获得5层再生，持有时免疫[瘫痪](/powers/paralysis_power.md)、造成的**固定伤害**+50%（源码仅对 `ValueProp.Unpowered` 来源生效；烧伤/中毒等 `Unblockable` 流失与常规固定伤害能力不享受，与拥君之盾的攻击加成正好互补）。适合纯固伤来源的流派。
 - **双开需要外部波动**：每回合只补较低的一项，补完后两者相等，下回合若仍相等则不操作。想要双开需要外部力量/防御变化（如受击掉防御、其他效果加力量）让两者再次拉开差距。
 - **双开触发岳·命寻星叹**：两者均开启时，回合结束向[手牌](/mechanics/hand.md)加入[岳·命寻星叹](/fifth-skill/yue_fate_star_sigh.md)（每场战斗限1次，**耗能降为 0**）。该牌会同时施加[悼](/mechanics/mourning.md)（下回合由瓦库接管、自动打光手牌）与命寻星叹（下回合所有牌结算次数 +1），双引擎叠乘，是强力爆发手段。
 - **性价比**：史诗稀有度合理——力量防御对齐+双护盾+命寻星叹四合一，全能型遗物。需要规划力量/防御波动才能最大化收益，操作上限高。

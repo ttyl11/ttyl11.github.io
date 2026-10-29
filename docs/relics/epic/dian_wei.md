@@ -17,7 +17,7 @@
 
 ## 描述
 
-①受到伤害后[全属性](/mechanics/all_attributes.md)+<span style="color:#3aa675;font-weight:600">1</span>。<br/>②每回合开始时，自伤<span style="color:#3aa675;font-weight:600">2</span>点，并选择[手牌](/mechanics/hand.md)中1张牌附加<span style="color:#9b59b6;font-weight:600">[虚无](/mechanics/ethereal.md)</span>。<br/>③每回合结束时，获得<span style="color:#3aa675;font-weight:600">1</span>点最大生命。
+①受到伤害后，<span style="color:#d4a017;font-weight:600">全属性</span>+<span style="color:#3aa675;font-weight:600">1</span>。<br/>②回合开始时，失去<span style="color:#3aa675;font-weight:600">2</span>点生命，并选择<span style="color:#3aa675;font-weight:600">1</span>张手牌附加<span style="color:#d4a017;font-weight:600">虚无</span>；回合结束时，获得<span style="color:#3aa675;font-weight:600">1</span>点最大生命。
 
 - **受伤全属性+1（无限制）**：每次受到**未格挡伤害**就四项属性（[力量](/powers/strength_power.md)/[防御](/powers/defense_power.md)/[命中](/powers/accuracy_power.md)/[速度](/powers/speed_power.md)）全部 +1，**没有每回合次数上限**——挨多少下打，就叠多少次。
 - **每回合开始**：自伤 2 点（无视格挡的非攻击伤害），并**由你选择**手牌中 1 张牌附加[虚无](/mechanics/ethereal.md)。

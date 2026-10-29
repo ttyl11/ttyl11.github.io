@@ -13,7 +13,7 @@
 
 ## 描述
 
-获得2层<span style="color:#d4a017;font-weight:600">防御</span>。在其回合开始时获得1层<span style="color:#d4a017;font-weight:600">防御</span>。
+①自身获得<span style="color:#3aa675;font-weight:600">2</span>层<span style="color:#d4a017;font-weight:600">防御</span>。<br/>②自身回合开始时，获得<span style="color:#3aa675;font-weight:600">1</span>层<span style="color:#d4a017;font-weight:600">防御</span>。
 
 ## 源码
 

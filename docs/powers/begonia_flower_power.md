@@ -22,7 +22,7 @@
 
 ## 描述
 
-回合开始：每<span style="color:#3aa675;font-weight:600">1</span>朵减[<span style="color:#d44;font-weight:600">堕落</span>](/powers/fallen_power.md)<span style="color:#3aa675;font-weight:600">10</span>。回合结束：生命未满则消耗<span style="color:#3aa675;font-weight:600">1</span>朵，回<span style="color:#3aa675;font-weight:600">7</span>生命和共<span style="color:#3aa675;font-weight:600">4</span>点[<span style="color:#d4a017;font-weight:600">PP</span>](/mechanics/pp-system.md)。
+①回合开始时：每<span style="color:#3aa675;font-weight:600">1</span>朵使<span style="color:#d44;font-weight:600">堕落</span>-<span style="color:#3aa675;font-weight:600">10</span>。<br/>②回合结束时：若生命值未满，消耗<span style="color:#3aa675;font-weight:600">1</span>朵，回复<span style="color:#3aa675;font-weight:600">7</span>点生命值与<span style="color:#3aa675;font-weight:600">4</span>点<span style="color:#d4a017;font-weight:600">PP</span>。
 
 ## 详细机制
 

@@ -15,7 +15,7 @@
 
 ## 描述
 
-每次生成<span style="color:#d4a017;font-weight:600">[充能球](/mechanics/orb.md)</span>时，<span style="color:#d4a017;font-weight:600">[召唤](/mechanics/summon.md)</span><span style="color:#3aa675;font-weight:600">3</span>。
+每次生成<span style="color:#d4a017;font-weight:600">充能球</span>时，<span style="color:#d4a017;font-weight:600">召唤</span>奥斯提（增加<span style="color:#3aa675;font-weight:600">3</span>点最大生命）。
 
 - **召唤 3**：每次生成充能球时[召唤](/mechanics/summon.md)。若奥斯提存活，增加 3 点最大生命**并同时回复 3 点当前生命**；若奥斯提已死亡或不存在，以 3 点最大生命复活或重新召唤（首次召唤自带"为你而死"）。
 

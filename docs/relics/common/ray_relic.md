@@ -37,4 +37,4 @@
 
 ## 源码
 
-- `SeerRayRelic.cs`
+- `SeerRay.cs`（`SeerRay`）
